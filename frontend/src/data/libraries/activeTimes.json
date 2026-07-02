@@ -1,0 +1,144 @@
+[
+    {
+        "code": "ACT001",
+        "name": "Day",
+        "slug": "day",
+        "description": "Appears primarily during daylight.",
+        "icon_hint": "sun",
+        "color_hint": "#FBBF24",
+        "sort_order": 1,
+        "is_active": true,
+        "id": 1
+    },
+    {
+        "code": "ACT002",
+        "name": "Night",
+        "slug": "night",
+        "description": "Appears primarily after sunset.",
+        "icon_hint": "moon",
+        "color_hint": "#818CF8",
+        "sort_order": 2,
+        "is_active": true,
+        "id": 2
+    },
+    {
+        "code": "ACT003",
+        "name": "Dawn",
+        "slug": "dawn",
+        "description": "Appears during early morning transition.",
+        "icon_hint": "sunrise",
+        "color_hint": "#FCD34D",
+        "sort_order": 3,
+        "is_active": true,
+        "id": 3
+    },
+    {
+        "code": "ACT004",
+        "name": "Dusk",
+        "slug": "dusk",
+        "description": "Appears during sunset transition.",
+        "icon_hint": "sunset",
+        "color_hint": "#FB923C",
+        "sort_order": 4,
+        "is_active": true,
+        "id": 4
+    },
+    {
+        "code": "ACT005",
+        "name": "Midnight",
+        "slug": "midnight",
+        "description": "Appears around the deepest part of night.",
+        "icon_hint": "clock-12",
+        "color_hint": "#312E81",
+        "sort_order": 5,
+        "is_active": true,
+        "id": 5
+    },
+    {
+        "code": "ACT006",
+        "name": "Full Moon",
+        "slug": "full-moon",
+        "description": "Appears only or more often during a full moon.",
+        "icon_hint": "circle",
+        "color_hint": "#E0E7FF",
+        "sort_order": 6,
+        "is_active": true,
+        "id": 6
+    },
+    {
+        "code": "ACT007",
+        "name": "New Moon",
+        "slug": "new-moon",
+        "description": "Appears during moonless nights.",
+        "icon_hint": "circle-off",
+        "color_hint": "#111827",
+        "sort_order": 7,
+        "is_active": true,
+        "id": 7
+    },
+    {
+        "code": "ACT008",
+        "name": "Rain Only",
+        "slug": "rain-only",
+        "description": "Appears only while raining.",
+        "icon_hint": "cloud-rain",
+        "color_hint": "#38BDF8",
+        "sort_order": 8,
+        "is_active": true,
+        "id": 8
+    },
+    {
+        "code": "ACT009",
+        "name": "Storm Only",
+        "slug": "storm-only",
+        "description": "Appears only during thunderstorms or typhoons.",
+        "icon_hint": "cloud-bolt",
+        "color_hint": "#5C7CFA",
+        "sort_order": 9,
+        "is_active": true,
+        "id": 9
+    },
+    {
+        "code": "ACT010",
+        "name": "Festival Only",
+        "slug": "festival-only",
+        "description": "Appears during local events, rituals, or story festivals.",
+        "icon_hint": "party-popper",
+        "color_hint": "#EC4899",
+        "sort_order": 10,
+        "is_active": true,
+        "id": 10
+    },
+    {
+        "code": "ACT011",
+        "name": "Any Time",
+        "slug": "any-time",
+        "description": "Can appear at any time.",
+        "icon_hint": "clock",
+        "color_hint": "#94A3B8",
+        "sort_order": 11,
+        "is_active": true,
+        "id": 11
+    },
+    {
+        "code": "ACT012",
+        "name": "Story Triggered",
+        "slug": "story-triggered",
+        "description": "Appears only when unlocked by story progress.",
+        "icon_hint": "key",
+        "color_hint": "#FACC15",
+        "sort_order": 12,
+        "is_active": true,
+        "id": 12
+    },
+    {
+        "code": "ACT013",
+        "name": "Eclipse",
+        "slug": "eclipse",
+        "description": "Rare eclipse-aligned activity windows tied to omen, shadow, and celestial disruption.",
+        "icon_hint": "moon",
+        "color_hint": "#6D5BD0",
+        "sort_order": 13,
+        "is_active": true
+    }
+]

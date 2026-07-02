@@ -1,0 +1,245 @@
+[
+  {
+    "type_id": "WTYPE0001",
+    "code": "region",
+    "name": "Region",
+    "slug": "region",
+    "description": "Region location type.",
+    "sort_order": 1,
+    "is_active": true
+  },
+  {
+    "type_id": "WTYPE0002",
+    "code": "province",
+    "name": "Province",
+    "slug": "province",
+    "description": "Province location type.",
+    "sort_order": 2,
+    "is_active": true
+  },
+  {
+    "type_id": "WTYPE0003",
+    "code": "town",
+    "name": "Town",
+    "slug": "town",
+    "description": "Town location type.",
+    "sort_order": 3,
+    "is_active": true
+  },
+  {
+    "type_id": "WTYPE0004",
+    "code": "barangay",
+    "name": "Barangay",
+    "slug": "barangay",
+    "description": "Barangay location type.",
+    "sort_order": 4,
+    "is_active": true
+  },
+  {
+    "type_id": "WTYPE0005",
+    "code": "route",
+    "name": "Route",
+    "slug": "route",
+    "description": "Route location type.",
+    "sort_order": 5,
+    "is_active": true
+  },
+  {
+    "type_id": "WTYPE0006",
+    "code": "forest",
+    "name": "Forest",
+    "slug": "forest",
+    "description": "Forest location type.",
+    "sort_order": 6,
+    "is_active": true
+  },
+  {
+    "type_id": "WTYPE0007",
+    "code": "mountain",
+    "name": "Mountain",
+    "slug": "mountain",
+    "description": "Mountain location type.",
+    "sort_order": 7,
+    "is_active": true
+  },
+  {
+    "type_id": "WTYPE0008",
+    "code": "cave",
+    "name": "Cave",
+    "slug": "cave",
+    "description": "Cave location type.",
+    "sort_order": 8,
+    "is_active": true
+  },
+  {
+    "type_id": "WTYPE0009",
+    "code": "river",
+    "name": "River",
+    "slug": "river",
+    "description": "River location type.",
+    "sort_order": 9,
+    "is_active": true
+  },
+  {
+    "type_id": "WTYPE0010",
+    "code": "lake",
+    "name": "Lake",
+    "slug": "lake",
+    "description": "Lake location type.",
+    "sort_order": 10,
+    "is_active": true
+  },
+  {
+    "type_id": "WTYPE0011",
+    "code": "waterfall",
+    "name": "Waterfall",
+    "slug": "waterfall",
+    "description": "Waterfall location type.",
+    "sort_order": 11,
+    "is_active": true
+  },
+  {
+    "type_id": "WTYPE0012",
+    "code": "shrine",
+    "name": "Shrine",
+    "slug": "shrine",
+    "description": "Shrine location type.",
+    "sort_order": 12,
+    "is_active": true
+  },
+  {
+    "type_id": "WTYPE0013",
+    "code": "chapel",
+    "name": "Chapel",
+    "slug": "chapel",
+    "description": "Chapel location type.",
+    "sort_order": 13,
+    "is_active": true
+  },
+  {
+    "type_id": "WTYPE0014",
+    "code": "church",
+    "name": "Church",
+    "slug": "church",
+    "description": "Church location type.",
+    "sort_order": 14,
+    "is_active": true
+  },
+  {
+    "type_id": "WTYPE0015",
+    "code": "mosque",
+    "name": "Mosque",
+    "slug": "mosque",
+    "description": "Mosque location type.",
+    "sort_order": 15,
+    "is_active": true
+  },
+  {
+    "type_id": "WTYPE0016",
+    "code": "market",
+    "name": "Market",
+    "slug": "market",
+    "description": "Market location type.",
+    "sort_order": 16,
+    "is_active": true
+  },
+  {
+    "type_id": "WTYPE0017",
+    "code": "port",
+    "name": "Port",
+    "slug": "port",
+    "description": "Port location type.",
+    "sort_order": 17,
+    "is_active": true
+  },
+  {
+    "type_id": "WTYPE0018",
+    "code": "beach",
+    "name": "Beach",
+    "slug": "beach",
+    "description": "Beach location type.",
+    "sort_order": 18,
+    "is_active": true
+  },
+  {
+    "type_id": "WTYPE0019",
+    "code": "mangrove",
+    "name": "Mangrove",
+    "slug": "mangrove",
+    "description": "Mangrove location type.",
+    "sort_order": 19,
+    "is_active": true
+  },
+  {
+    "type_id": "WTYPE0020",
+    "code": "coral_reef",
+    "name": "Coral Reef",
+    "slug": "coral-reef",
+    "description": "Coral Reef location type.",
+    "sort_order": 20,
+    "is_active": true
+  },
+  {
+    "type_id": "WTYPE0021",
+    "code": "rice_field",
+    "name": "Rice Field",
+    "slug": "rice-field",
+    "description": "Rice Field location type.",
+    "sort_order": 21,
+    "is_active": true
+  },
+  {
+    "type_id": "WTYPE0022",
+    "code": "volcano",
+    "name": "Volcano",
+    "slug": "volcano",
+    "description": "Volcano location type.",
+    "sort_order": 22,
+    "is_active": true
+  },
+  {
+    "type_id": "WTYPE0023",
+    "code": "ruins",
+    "name": "Ruins",
+    "slug": "ruins",
+    "description": "Ruins location type.",
+    "sort_order": 23,
+    "is_active": true
+  },
+  {
+    "type_id": "WTYPE0024",
+    "code": "dungeon",
+    "name": "Dungeon",
+    "slug": "dungeon",
+    "description": "Dungeon location type.",
+    "sort_order": 24,
+    "is_active": true
+  },
+  {
+    "type_id": "WTYPE0025",
+    "code": "interior",
+    "name": "Interior",
+    "slug": "interior",
+    "description": "Interior location type.",
+    "sort_order": 25,
+    "is_active": true
+  },
+  {
+    "type_id": "WTYPE0026",
+    "code": "spirit_realm",
+    "name": "Spirit Realm",
+    "slug": "spirit-realm",
+    "description": "Spirit Realm location type.",
+    "sort_order": 26,
+    "is_active": true
+  },
+  {
+    "type_id": "WTYPE0027",
+    "code": "boss_arena",
+    "name": "Boss Arena",
+    "slug": "boss-arena",
+    "description": "Boss Arena location type.",
+    "sort_order": 27,
+    "is_active": true
+  }
+]

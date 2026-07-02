@@ -1,0 +1,20 @@
+[
+  {
+    "id": 27,
+    "uuid": "00000000-0000-4000-8000-000000000027",
+    "created_at": "2026-07-02T00:00:00+08:00",
+    "updated_at": "2026-07-02T00:00:00+08:00",
+    "version": "1.0.0",
+    "source": "Phase D architecture example",
+    "notes": "Example record for schema validation only; not production balance content.",
+    "rule_id": "BAL-0001",
+    "slug": "critical-rate-limit",
+    "name": "Critical Rate Limit",
+    "scope": "skills",
+    "rule_type": "limit",
+    "value": {
+      "max_critical_rate": 35
+    },
+    "rationale": "Keeps burst damage readable and prevents permanent critical chains."
+  }
+]

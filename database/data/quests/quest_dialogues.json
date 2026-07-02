@@ -1,0 +1,8118 @@
+[
+  {
+    "dialogue_id": "QST000001-DIALOGUE",
+    "quest_id": "QST000001",
+    "npc_id": "NPC000002",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Main Story: River Oath Main Story.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000002-DIALOGUE",
+    "quest_id": "QST000002",
+    "npc_id": "NPC000003",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Main Story: Coral Lantern Main Story.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000003-DIALOGUE",
+    "quest_id": "QST000003",
+    "npc_id": "NPC000004",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Main Story: Moon Road Main Story.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000004-DIALOGUE",
+    "quest_id": "QST000004",
+    "npc_id": "NPC000005",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Main Story: Hidden Drum Main Story.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000005-DIALOGUE",
+    "quest_id": "QST000005",
+    "npc_id": "NPC000006",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Main Story: Storm Shrine Main Story.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000006-DIALOGUE",
+    "quest_id": "QST000006",
+    "npc_id": "NPC000007",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Main Story: Ancestor Thread Main Story.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000007-DIALOGUE",
+    "quest_id": "QST000007",
+    "npc_id": "NPC000008",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Main Story: Pearl Witness Main Story.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "dialogue_id": "QST000008-DIALOGUE",
+    "quest_id": "QST000008",
+    "npc_id": "NPC000009",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Main Story: Forest Debt Main Story.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000009-DIALOGUE",
+    "quest_id": "QST000009",
+    "npc_id": "NPC000010",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Main Story: Skyward Bell Main Story.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000010-DIALOGUE",
+    "quest_id": "QST000010",
+    "npc_id": "NPC000011",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Main Story: Balete Echo Main Story.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000011-DIALOGUE",
+    "quest_id": "QST000011",
+    "npc_id": "NPC000012",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Main Story: River Oath Main Story.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000012-DIALOGUE",
+    "quest_id": "QST000012",
+    "npc_id": "NPC000013",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Main Story: Coral Lantern Main Story.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000013-DIALOGUE",
+    "quest_id": "QST000013",
+    "npc_id": "NPC000014",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Main Story: Moon Road Main Story.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000014-DIALOGUE",
+    "quest_id": "QST000014",
+    "npc_id": "NPC000015",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Main Story: Hidden Drum Main Story.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "dialogue_id": "QST000015-DIALOGUE",
+    "quest_id": "QST000015",
+    "npc_id": "NPC000016",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Main Story: Storm Shrine Main Story.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000016-DIALOGUE",
+    "quest_id": "QST000016",
+    "npc_id": "NPC000017",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Main Story: Ancestor Thread Main Story.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000017-DIALOGUE",
+    "quest_id": "QST000017",
+    "npc_id": "NPC000018",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Main Story: Pearl Witness Main Story.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000018-DIALOGUE",
+    "quest_id": "QST000018",
+    "npc_id": "NPC000019",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Main Story: Forest Debt Main Story.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000019-DIALOGUE",
+    "quest_id": "QST000019",
+    "npc_id": "NPC000020",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Main Story: Skyward Bell Main Story.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000020-DIALOGUE",
+    "quest_id": "QST000020",
+    "npc_id": "NPC000021",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Main Story: Balete Echo Main Story.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000021-DIALOGUE",
+    "quest_id": "QST000021",
+    "npc_id": "NPC000022",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: River Oath Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "dialogue_id": "QST000022-DIALOGUE",
+    "quest_id": "QST000022",
+    "npc_id": "NPC000023",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Coral Lantern Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000023-DIALOGUE",
+    "quest_id": "QST000023",
+    "npc_id": "NPC000024",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Moon Road Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000024-DIALOGUE",
+    "quest_id": "QST000024",
+    "npc_id": "NPC000025",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Hidden Drum Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000025-DIALOGUE",
+    "quest_id": "QST000025",
+    "npc_id": "NPC000026",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Storm Shrine Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000026-DIALOGUE",
+    "quest_id": "QST000026",
+    "npc_id": "NPC000027",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Ancestor Thread Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000027-DIALOGUE",
+    "quest_id": "QST000027",
+    "npc_id": "NPC000028",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Pearl Witness Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000028-DIALOGUE",
+    "quest_id": "QST000028",
+    "npc_id": "NPC000029",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Forest Debt Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "dialogue_id": "QST000029-DIALOGUE",
+    "quest_id": "QST000029",
+    "npc_id": "NPC000030",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Skyward Bell Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000030-DIALOGUE",
+    "quest_id": "QST000030",
+    "npc_id": "NPC000031",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Balete Echo Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000031-DIALOGUE",
+    "quest_id": "QST000031",
+    "npc_id": "NPC000032",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: River Oath Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000032-DIALOGUE",
+    "quest_id": "QST000032",
+    "npc_id": "NPC000033",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Coral Lantern Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000033-DIALOGUE",
+    "quest_id": "QST000033",
+    "npc_id": "NPC000034",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Moon Road Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000034-DIALOGUE",
+    "quest_id": "QST000034",
+    "npc_id": "NPC000035",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Hidden Drum Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000035-DIALOGUE",
+    "quest_id": "QST000035",
+    "npc_id": "NPC000036",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Storm Shrine Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "dialogue_id": "QST000036-DIALOGUE",
+    "quest_id": "QST000036",
+    "npc_id": "NPC000037",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Ancestor Thread Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000037-DIALOGUE",
+    "quest_id": "QST000037",
+    "npc_id": "NPC000038",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Pearl Witness Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000038-DIALOGUE",
+    "quest_id": "QST000038",
+    "npc_id": "NPC000039",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Forest Debt Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000039-DIALOGUE",
+    "quest_id": "QST000039",
+    "npc_id": "NPC000040",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Skyward Bell Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000040-DIALOGUE",
+    "quest_id": "QST000040",
+    "npc_id": "NPC000041",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Balete Echo Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000041-DIALOGUE",
+    "quest_id": "QST000041",
+    "npc_id": "NPC000042",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: River Oath Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000042-DIALOGUE",
+    "quest_id": "QST000042",
+    "npc_id": "NPC000043",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Coral Lantern Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "dialogue_id": "QST000043-DIALOGUE",
+    "quest_id": "QST000043",
+    "npc_id": "NPC000044",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Moon Road Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000044-DIALOGUE",
+    "quest_id": "QST000044",
+    "npc_id": "NPC000045",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Hidden Drum Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000045-DIALOGUE",
+    "quest_id": "QST000045",
+    "npc_id": "NPC000046",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Storm Shrine Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000046-DIALOGUE",
+    "quest_id": "QST000046",
+    "npc_id": "NPC000047",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Ancestor Thread Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000047-DIALOGUE",
+    "quest_id": "QST000047",
+    "npc_id": "NPC000048",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Pearl Witness Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000048-DIALOGUE",
+    "quest_id": "QST000048",
+    "npc_id": "NPC000049",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Forest Debt Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000049-DIALOGUE",
+    "quest_id": "QST000049",
+    "npc_id": "NPC000050",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Skyward Bell Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "dialogue_id": "QST000050-DIALOGUE",
+    "quest_id": "QST000050",
+    "npc_id": "NPC000051",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Balete Echo Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000051-DIALOGUE",
+    "quest_id": "QST000051",
+    "npc_id": "NPC000052",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: River Oath Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000052-DIALOGUE",
+    "quest_id": "QST000052",
+    "npc_id": "NPC000053",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Coral Lantern Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000053-DIALOGUE",
+    "quest_id": "QST000053",
+    "npc_id": "NPC000054",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Moon Road Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000054-DIALOGUE",
+    "quest_id": "QST000054",
+    "npc_id": "NPC000055",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Hidden Drum Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000055-DIALOGUE",
+    "quest_id": "QST000055",
+    "npc_id": "NPC000056",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Storm Shrine Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000056-DIALOGUE",
+    "quest_id": "QST000056",
+    "npc_id": "NPC000057",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Ancestor Thread Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "dialogue_id": "QST000057-DIALOGUE",
+    "quest_id": "QST000057",
+    "npc_id": "NPC000058",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Pearl Witness Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000058-DIALOGUE",
+    "quest_id": "QST000058",
+    "npc_id": "NPC000059",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Forest Debt Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000059-DIALOGUE",
+    "quest_id": "QST000059",
+    "npc_id": "NPC000060",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Skyward Bell Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000060-DIALOGUE",
+    "quest_id": "QST000060",
+    "npc_id": "NPC000061",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Balete Echo Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000061-DIALOGUE",
+    "quest_id": "QST000061",
+    "npc_id": "NPC000062",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: River Oath Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000062-DIALOGUE",
+    "quest_id": "QST000062",
+    "npc_id": "NPC000063",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Coral Lantern Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000063-DIALOGUE",
+    "quest_id": "QST000063",
+    "npc_id": "NPC000064",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Moon Road Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": "night"
+    }
+  },
+  {
+    "dialogue_id": "QST000064-DIALOGUE",
+    "quest_id": "QST000064",
+    "npc_id": "NPC000065",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Hidden Drum Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000065-DIALOGUE",
+    "quest_id": "QST000065",
+    "npc_id": "NPC000066",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Storm Shrine Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000066-DIALOGUE",
+    "quest_id": "QST000066",
+    "npc_id": "NPC000067",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Ancestor Thread Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000067-DIALOGUE",
+    "quest_id": "QST000067",
+    "npc_id": "NPC000068",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Pearl Witness Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000068-DIALOGUE",
+    "quest_id": "QST000068",
+    "npc_id": "NPC000069",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Forest Debt Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000069-DIALOGUE",
+    "quest_id": "QST000069",
+    "npc_id": "NPC000070",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Skyward Bell Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000070-DIALOGUE",
+    "quest_id": "QST000070",
+    "npc_id": "NPC000071",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Side Quest: Balete Echo Side Quest.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "dialogue_id": "QST000071-DIALOGUE",
+    "quest_id": "QST000071",
+    "npc_id": "NPC000072",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: River Oath Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000072-DIALOGUE",
+    "quest_id": "QST000072",
+    "npc_id": "NPC000073",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Coral Lantern Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000073-DIALOGUE",
+    "quest_id": "QST000073",
+    "npc_id": "NPC000074",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Moon Road Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000074-DIALOGUE",
+    "quest_id": "QST000074",
+    "npc_id": "NPC000075",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Hidden Drum Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000075-DIALOGUE",
+    "quest_id": "QST000075",
+    "npc_id": "NPC000076",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Storm Shrine Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000076-DIALOGUE",
+    "quest_id": "QST000076",
+    "npc_id": "NPC000077",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Ancestor Thread Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000077-DIALOGUE",
+    "quest_id": "QST000077",
+    "npc_id": "NPC000078",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Pearl Witness Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "dialogue_id": "QST000078-DIALOGUE",
+    "quest_id": "QST000078",
+    "npc_id": "NPC000079",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Forest Debt Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000079-DIALOGUE",
+    "quest_id": "QST000079",
+    "npc_id": "NPC000080",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Skyward Bell Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000080-DIALOGUE",
+    "quest_id": "QST000080",
+    "npc_id": "NPC000081",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Balete Echo Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000081-DIALOGUE",
+    "quest_id": "QST000081",
+    "npc_id": "NPC000082",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: River Oath Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000082-DIALOGUE",
+    "quest_id": "QST000082",
+    "npc_id": "NPC000083",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Coral Lantern Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000083-DIALOGUE",
+    "quest_id": "QST000083",
+    "npc_id": "NPC000084",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Moon Road Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000084-DIALOGUE",
+    "quest_id": "QST000084",
+    "npc_id": "NPC000085",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Hidden Drum Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "dialogue_id": "QST000085-DIALOGUE",
+    "quest_id": "QST000085",
+    "npc_id": "NPC000086",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Storm Shrine Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000086-DIALOGUE",
+    "quest_id": "QST000086",
+    "npc_id": "NPC000087",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Ancestor Thread Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000087-DIALOGUE",
+    "quest_id": "QST000087",
+    "npc_id": "NPC000088",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Pearl Witness Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000088-DIALOGUE",
+    "quest_id": "QST000088",
+    "npc_id": "NPC000089",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Forest Debt Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000089-DIALOGUE",
+    "quest_id": "QST000089",
+    "npc_id": "NPC000090",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Skyward Bell Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000090-DIALOGUE",
+    "quest_id": "QST000090",
+    "npc_id": "NPC000091",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Balete Echo Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000091-DIALOGUE",
+    "quest_id": "QST000091",
+    "npc_id": "NPC000092",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: River Oath Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "dialogue_id": "QST000092-DIALOGUE",
+    "quest_id": "QST000092",
+    "npc_id": "NPC000093",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Coral Lantern Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000093-DIALOGUE",
+    "quest_id": "QST000093",
+    "npc_id": "NPC000094",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Moon Road Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000094-DIALOGUE",
+    "quest_id": "QST000094",
+    "npc_id": "NPC000095",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Hidden Drum Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000095-DIALOGUE",
+    "quest_id": "QST000095",
+    "npc_id": "NPC000096",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Storm Shrine Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000096-DIALOGUE",
+    "quest_id": "QST000096",
+    "npc_id": "NPC000097",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Ancestor Thread Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000097-DIALOGUE",
+    "quest_id": "QST000097",
+    "npc_id": "NPC000098",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Pearl Witness Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000098-DIALOGUE",
+    "quest_id": "QST000098",
+    "npc_id": "NPC000099",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Forest Debt Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "dialogue_id": "QST000099-DIALOGUE",
+    "quest_id": "QST000099",
+    "npc_id": "NPC000100",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Skyward Bell Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000100-DIALOGUE",
+    "quest_id": "QST000100",
+    "npc_id": "NPC000101",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Balete Echo Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000101-DIALOGUE",
+    "quest_id": "QST000101",
+    "npc_id": "NPC000102",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: River Oath Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000102-DIALOGUE",
+    "quest_id": "QST000102",
+    "npc_id": "NPC000103",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Coral Lantern Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000103-DIALOGUE",
+    "quest_id": "QST000103",
+    "npc_id": "NPC000104",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Moon Road Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000104-DIALOGUE",
+    "quest_id": "QST000104",
+    "npc_id": "NPC000105",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Hidden Drum Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000105-DIALOGUE",
+    "quest_id": "QST000105",
+    "npc_id": "NPC000106",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Storm Shrine Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "dialogue_id": "QST000106-DIALOGUE",
+    "quest_id": "QST000106",
+    "npc_id": "NPC000107",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Ancestor Thread Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000107-DIALOGUE",
+    "quest_id": "QST000107",
+    "npc_id": "NPC000108",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Pearl Witness Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000108-DIALOGUE",
+    "quest_id": "QST000108",
+    "npc_id": "NPC000109",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Forest Debt Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000109-DIALOGUE",
+    "quest_id": "QST000109",
+    "npc_id": "NPC000110",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Skyward Bell Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000110-DIALOGUE",
+    "quest_id": "QST000110",
+    "npc_id": "NPC000111",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Balete Echo Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000111-DIALOGUE",
+    "quest_id": "QST000111",
+    "npc_id": "NPC000112",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: River Oath Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000112-DIALOGUE",
+    "quest_id": "QST000112",
+    "npc_id": "NPC000113",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Coral Lantern Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "dialogue_id": "QST000113-DIALOGUE",
+    "quest_id": "QST000113",
+    "npc_id": "NPC000114",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Moon Road Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000114-DIALOGUE",
+    "quest_id": "QST000114",
+    "npc_id": "NPC000115",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Hidden Drum Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000115-DIALOGUE",
+    "quest_id": "QST000115",
+    "npc_id": "NPC000116",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Storm Shrine Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000116-DIALOGUE",
+    "quest_id": "QST000116",
+    "npc_id": "NPC000117",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Ancestor Thread Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000117-DIALOGUE",
+    "quest_id": "QST000117",
+    "npc_id": "NPC000118",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Pearl Witness Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000118-DIALOGUE",
+    "quest_id": "QST000118",
+    "npc_id": "NPC000119",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Forest Debt Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000119-DIALOGUE",
+    "quest_id": "QST000119",
+    "npc_id": "NPC000120",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Skyward Bell Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "dialogue_id": "QST000120-DIALOGUE",
+    "quest_id": "QST000120",
+    "npc_id": "NPC000121",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Nilalang Trust: Balete Echo Monster Trust.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000121-DIALOGUE",
+    "quest_id": "QST000121",
+    "npc_id": "NPC000122",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Legendary: River Oath Legendary.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000122-DIALOGUE",
+    "quest_id": "QST000122",
+    "npc_id": "NPC000123",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Legendary: Coral Lantern Legendary.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000123-DIALOGUE",
+    "quest_id": "QST000123",
+    "npc_id": "NPC000124",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Legendary: Moon Road Legendary.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000124-DIALOGUE",
+    "quest_id": "QST000124",
+    "npc_id": "NPC000125",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Legendary: Hidden Drum Legendary.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000125-DIALOGUE",
+    "quest_id": "QST000125",
+    "npc_id": "NPC000126",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Legendary: Storm Shrine Legendary.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000126-DIALOGUE",
+    "quest_id": "QST000126",
+    "npc_id": "NPC000127",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Legendary: Ancestor Thread Legendary.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": "night"
+    }
+  },
+  {
+    "dialogue_id": "QST000127-DIALOGUE",
+    "quest_id": "QST000127",
+    "npc_id": "NPC000128",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Legendary: Pearl Witness Legendary.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000128-DIALOGUE",
+    "quest_id": "QST000128",
+    "npc_id": "NPC000129",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Legendary: Forest Debt Legendary.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000129-DIALOGUE",
+    "quest_id": "QST000129",
+    "npc_id": "NPC000130",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Legendary: Skyward Bell Legendary.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000130-DIALOGUE",
+    "quest_id": "QST000130",
+    "npc_id": "NPC000131",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Legendary: Balete Echo Legendary.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000131-DIALOGUE",
+    "quest_id": "QST000131",
+    "npc_id": "NPC000132",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Legendary: River Oath Legendary.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000132-DIALOGUE",
+    "quest_id": "QST000132",
+    "npc_id": "NPC000133",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Legendary: Coral Lantern Legendary.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000133-DIALOGUE",
+    "quest_id": "QST000133",
+    "npc_id": "NPC000134",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Legendary: Moon Road Legendary.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "dialogue_id": "QST000134-DIALOGUE",
+    "quest_id": "QST000134",
+    "npc_id": "NPC000135",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Legendary: Hidden Drum Legendary.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000135-DIALOGUE",
+    "quest_id": "QST000135",
+    "npc_id": "NPC000136",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Legendary: Storm Shrine Legendary.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000136-DIALOGUE",
+    "quest_id": "QST000136",
+    "npc_id": "NPC000137",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Legendary: Ancestor Thread Legendary.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000137-DIALOGUE",
+    "quest_id": "QST000137",
+    "npc_id": "NPC000138",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Legendary: Pearl Witness Legendary.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000138-DIALOGUE",
+    "quest_id": "QST000138",
+    "npc_id": "NPC000139",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Legendary: Forest Debt Legendary.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000139-DIALOGUE",
+    "quest_id": "QST000139",
+    "npc_id": "NPC000140",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Legendary: Skyward Bell Legendary.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000140-DIALOGUE",
+    "quest_id": "QST000140",
+    "npc_id": "NPC000141",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Legendary: Balete Echo Legendary.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "dialogue_id": "QST000141-DIALOGUE",
+    "quest_id": "QST000141",
+    "npc_id": "NPC000142",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Faction: River Oath Faction.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000142-DIALOGUE",
+    "quest_id": "QST000142",
+    "npc_id": "NPC000143",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Faction: Coral Lantern Faction.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000143-DIALOGUE",
+    "quest_id": "QST000143",
+    "npc_id": "NPC000144",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Faction: Moon Road Faction.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000144-DIALOGUE",
+    "quest_id": "QST000144",
+    "npc_id": "NPC000145",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Faction: Hidden Drum Faction.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000145-DIALOGUE",
+    "quest_id": "QST000145",
+    "npc_id": "NPC000146",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Faction: Storm Shrine Faction.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000146-DIALOGUE",
+    "quest_id": "QST000146",
+    "npc_id": "NPC000147",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Faction: Ancestor Thread Faction.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000147-DIALOGUE",
+    "quest_id": "QST000147",
+    "npc_id": "NPC000148",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Faction: Pearl Witness Faction.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "dialogue_id": "QST000148-DIALOGUE",
+    "quest_id": "QST000148",
+    "npc_id": "NPC000149",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Faction: Forest Debt Faction.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000149-DIALOGUE",
+    "quest_id": "QST000149",
+    "npc_id": "NPC000150",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Faction: Skyward Bell Faction.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000150-DIALOGUE",
+    "quest_id": "QST000150",
+    "npc_id": "NPC000151",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Faction: Balete Echo Faction.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000151-DIALOGUE",
+    "quest_id": "QST000151",
+    "npc_id": "NPC000152",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Faction: River Oath Faction.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000152-DIALOGUE",
+    "quest_id": "QST000152",
+    "npc_id": "NPC000153",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Faction: Coral Lantern Faction.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000153-DIALOGUE",
+    "quest_id": "QST000153",
+    "npc_id": "NPC000154",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Faction: Moon Road Faction.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000154-DIALOGUE",
+    "quest_id": "QST000154",
+    "npc_id": "NPC000155",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Faction: Hidden Drum Faction.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "dialogue_id": "QST000155-DIALOGUE",
+    "quest_id": "QST000155",
+    "npc_id": "NPC000156",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Faction: Storm Shrine Faction.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000156-DIALOGUE",
+    "quest_id": "QST000156",
+    "npc_id": "NPC000157",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Faction: Ancestor Thread Faction.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000157-DIALOGUE",
+    "quest_id": "QST000157",
+    "npc_id": "NPC000158",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Faction: Pearl Witness Faction.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000158-DIALOGUE",
+    "quest_id": "QST000158",
+    "npc_id": "NPC000159",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Faction: Forest Debt Faction.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000159-DIALOGUE",
+    "quest_id": "QST000159",
+    "npc_id": "NPC000160",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Faction: Skyward Bell Faction.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000160-DIALOGUE",
+    "quest_id": "QST000160",
+    "npc_id": "NPC000161",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Faction: Balete Echo Faction.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000161-DIALOGUE",
+    "quest_id": "QST000161",
+    "npc_id": "NPC000162",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Faction: River Oath Faction.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "dialogue_id": "QST000162-DIALOGUE",
+    "quest_id": "QST000162",
+    "npc_id": "NPC000163",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Faction: Coral Lantern Faction.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000163-DIALOGUE",
+    "quest_id": "QST000163",
+    "npc_id": "NPC000164",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Faction: Moon Road Faction.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000164-DIALOGUE",
+    "quest_id": "QST000164",
+    "npc_id": "NPC000165",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Faction: Hidden Drum Faction.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000165-DIALOGUE",
+    "quest_id": "QST000165",
+    "npc_id": "NPC000166",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Faction: Storm Shrine Faction.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000166-DIALOGUE",
+    "quest_id": "QST000166",
+    "npc_id": "NPC000167",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Faction: Ancestor Thread Faction.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000167-DIALOGUE",
+    "quest_id": "QST000167",
+    "npc_id": "NPC000168",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Faction: Pearl Witness Faction.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000168-DIALOGUE",
+    "quest_id": "QST000168",
+    "npc_id": "NPC000169",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Faction: Forest Debt Faction.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "dialogue_id": "QST000169-DIALOGUE",
+    "quest_id": "QST000169",
+    "npc_id": "NPC000170",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Faction: Skyward Bell Faction.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000170-DIALOGUE",
+    "quest_id": "QST000170",
+    "npc_id": "NPC000171",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Faction: Balete Echo Faction.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000171-DIALOGUE",
+    "quest_id": "QST000171",
+    "npc_id": "NPC000172",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: NPC Relationship: River Oath Npc Relationship.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000172-DIALOGUE",
+    "quest_id": "QST000172",
+    "npc_id": "NPC000173",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: NPC Relationship: Coral Lantern Npc Relationship.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000173-DIALOGUE",
+    "quest_id": "QST000173",
+    "npc_id": "NPC000174",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: NPC Relationship: Moon Road Npc Relationship.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000174-DIALOGUE",
+    "quest_id": "QST000174",
+    "npc_id": "NPC000175",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: NPC Relationship: Hidden Drum Npc Relationship.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000175-DIALOGUE",
+    "quest_id": "QST000175",
+    "npc_id": "NPC000176",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: NPC Relationship: Storm Shrine Npc Relationship.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "dialogue_id": "QST000176-DIALOGUE",
+    "quest_id": "QST000176",
+    "npc_id": "NPC000177",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: NPC Relationship: Ancestor Thread Npc Relationship.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000177-DIALOGUE",
+    "quest_id": "QST000177",
+    "npc_id": "NPC000178",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: NPC Relationship: Pearl Witness Npc Relationship.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000178-DIALOGUE",
+    "quest_id": "QST000178",
+    "npc_id": "NPC000179",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: NPC Relationship: Forest Debt Npc Relationship.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000179-DIALOGUE",
+    "quest_id": "QST000179",
+    "npc_id": "NPC000180",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: NPC Relationship: Skyward Bell Npc Relationship.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000180-DIALOGUE",
+    "quest_id": "QST000180",
+    "npc_id": "NPC000181",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: NPC Relationship: Balete Echo Npc Relationship.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000181-DIALOGUE",
+    "quest_id": "QST000181",
+    "npc_id": "NPC000182",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: NPC Relationship: River Oath Npc Relationship.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000182-DIALOGUE",
+    "quest_id": "QST000182",
+    "npc_id": "NPC000183",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: NPC Relationship: Coral Lantern Npc Relationship.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "dialogue_id": "QST000183-DIALOGUE",
+    "quest_id": "QST000183",
+    "npc_id": "NPC000184",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: NPC Relationship: Moon Road Npc Relationship.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000184-DIALOGUE",
+    "quest_id": "QST000184",
+    "npc_id": "NPC000185",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: NPC Relationship: Hidden Drum Npc Relationship.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000185-DIALOGUE",
+    "quest_id": "QST000185",
+    "npc_id": "NPC000186",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: NPC Relationship: Storm Shrine Npc Relationship.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000186-DIALOGUE",
+    "quest_id": "QST000186",
+    "npc_id": "NPC000187",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: NPC Relationship: Ancestor Thread Npc Relationship.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000187-DIALOGUE",
+    "quest_id": "QST000187",
+    "npc_id": "NPC000188",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: NPC Relationship: Pearl Witness Npc Relationship.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000188-DIALOGUE",
+    "quest_id": "QST000188",
+    "npc_id": "NPC000189",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: NPC Relationship: Forest Debt Npc Relationship.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000189-DIALOGUE",
+    "quest_id": "QST000189",
+    "npc_id": "NPC000190",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: NPC Relationship: Skyward Bell Npc Relationship.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": "night"
+    }
+  },
+  {
+    "dialogue_id": "QST000190-DIALOGUE",
+    "quest_id": "QST000190",
+    "npc_id": "NPC000191",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: NPC Relationship: Balete Echo Npc Relationship.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000191-DIALOGUE",
+    "quest_id": "QST000191",
+    "npc_id": "NPC000192",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: NPC Relationship: River Oath Npc Relationship.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000192-DIALOGUE",
+    "quest_id": "QST000192",
+    "npc_id": "NPC000193",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: NPC Relationship: Coral Lantern Npc Relationship.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000193-DIALOGUE",
+    "quest_id": "QST000193",
+    "npc_id": "NPC000194",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: NPC Relationship: Moon Road Npc Relationship.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000194-DIALOGUE",
+    "quest_id": "QST000194",
+    "npc_id": "NPC000195",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: NPC Relationship: Hidden Drum Npc Relationship.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000195-DIALOGUE",
+    "quest_id": "QST000195",
+    "npc_id": "NPC000196",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: NPC Relationship: Storm Shrine Npc Relationship.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000196-DIALOGUE",
+    "quest_id": "QST000196",
+    "npc_id": "NPC000197",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: NPC Relationship: Ancestor Thread Npc Relationship.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "dialogue_id": "QST000197-DIALOGUE",
+    "quest_id": "QST000197",
+    "npc_id": "NPC000198",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: NPC Relationship: Pearl Witness Npc Relationship.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000198-DIALOGUE",
+    "quest_id": "QST000198",
+    "npc_id": "NPC000199",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: NPC Relationship: Forest Debt Npc Relationship.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000199-DIALOGUE",
+    "quest_id": "QST000199",
+    "npc_id": "NPC000200",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: NPC Relationship: Skyward Bell Npc Relationship.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000200-DIALOGUE",
+    "quest_id": "QST000200",
+    "npc_id": "NPC000201",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: NPC Relationship: Balete Echo Npc Relationship.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000201-DIALOGUE",
+    "quest_id": "QST000201",
+    "npc_id": "NPC000202",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Festival: River Oath Festival.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000202-DIALOGUE",
+    "quest_id": "QST000202",
+    "npc_id": "NPC000203",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Festival: Coral Lantern Festival.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000203-DIALOGUE",
+    "quest_id": "QST000203",
+    "npc_id": "NPC000204",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Festival: Moon Road Festival.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "dialogue_id": "QST000204-DIALOGUE",
+    "quest_id": "QST000204",
+    "npc_id": "NPC000205",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Festival: Hidden Drum Festival.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000205-DIALOGUE",
+    "quest_id": "QST000205",
+    "npc_id": "NPC000206",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Festival: Storm Shrine Festival.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000206-DIALOGUE",
+    "quest_id": "QST000206",
+    "npc_id": "NPC000207",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Festival: Ancestor Thread Festival.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000207-DIALOGUE",
+    "quest_id": "QST000207",
+    "npc_id": "NPC000208",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Festival: Pearl Witness Festival.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000208-DIALOGUE",
+    "quest_id": "QST000208",
+    "npc_id": "NPC000209",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Festival: Forest Debt Festival.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000209-DIALOGUE",
+    "quest_id": "QST000209",
+    "npc_id": "NPC000210",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Festival: Skyward Bell Festival.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000210-DIALOGUE",
+    "quest_id": "QST000210",
+    "npc_id": "NPC000211",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Festival: Balete Echo Festival.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "dialogue_id": "QST000211-DIALOGUE",
+    "quest_id": "QST000211",
+    "npc_id": "NPC000212",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Festival: River Oath Festival.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000212-DIALOGUE",
+    "quest_id": "QST000212",
+    "npc_id": "NPC000213",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Festival: Coral Lantern Festival.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000213-DIALOGUE",
+    "quest_id": "QST000213",
+    "npc_id": "NPC000214",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Festival: Moon Road Festival.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000214-DIALOGUE",
+    "quest_id": "QST000214",
+    "npc_id": "NPC000215",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Festival: Hidden Drum Festival.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000215-DIALOGUE",
+    "quest_id": "QST000215",
+    "npc_id": "NPC000216",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Festival: Storm Shrine Festival.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000216-DIALOGUE",
+    "quest_id": "QST000216",
+    "npc_id": "NPC000217",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Festival: Ancestor Thread Festival.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000217-DIALOGUE",
+    "quest_id": "QST000217",
+    "npc_id": "NPC000218",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Festival: Pearl Witness Festival.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "dialogue_id": "QST000218-DIALOGUE",
+    "quest_id": "QST000218",
+    "npc_id": "NPC000219",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Festival: Forest Debt Festival.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000219-DIALOGUE",
+    "quest_id": "QST000219",
+    "npc_id": "NPC000220",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Festival: Skyward Bell Festival.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000220-DIALOGUE",
+    "quest_id": "QST000220",
+    "npc_id": "NPC000221",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Festival: Balete Echo Festival.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000221-DIALOGUE",
+    "quest_id": "QST000221",
+    "npc_id": "NPC000222",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Daily: River Oath Daily.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000222-DIALOGUE",
+    "quest_id": "QST000222",
+    "npc_id": "NPC000223",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Daily: Coral Lantern Daily.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000223-DIALOGUE",
+    "quest_id": "QST000223",
+    "npc_id": "NPC000224",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Daily: Moon Road Daily.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000224-DIALOGUE",
+    "quest_id": "QST000224",
+    "npc_id": "NPC000225",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Daily: Hidden Drum Daily.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "dialogue_id": "QST000225-DIALOGUE",
+    "quest_id": "QST000225",
+    "npc_id": "NPC000226",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Daily: Storm Shrine Daily.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000226-DIALOGUE",
+    "quest_id": "QST000226",
+    "npc_id": "NPC000227",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Daily: Ancestor Thread Daily.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000227-DIALOGUE",
+    "quest_id": "QST000227",
+    "npc_id": "NPC000228",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Daily: Pearl Witness Daily.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000228-DIALOGUE",
+    "quest_id": "QST000228",
+    "npc_id": "NPC000229",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Daily: Forest Debt Daily.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000229-DIALOGUE",
+    "quest_id": "QST000229",
+    "npc_id": "NPC000230",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Daily: Skyward Bell Daily.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000230-DIALOGUE",
+    "quest_id": "QST000230",
+    "npc_id": "NPC000231",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Daily: Balete Echo Daily.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000231-DIALOGUE",
+    "quest_id": "QST000231",
+    "npc_id": "NPC000232",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Weekly: River Oath Weekly.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "dialogue_id": "QST000232-DIALOGUE",
+    "quest_id": "QST000232",
+    "npc_id": "NPC000233",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Weekly: Coral Lantern Weekly.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000233-DIALOGUE",
+    "quest_id": "QST000233",
+    "npc_id": "NPC000234",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Weekly: Moon Road Weekly.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000234-DIALOGUE",
+    "quest_id": "QST000234",
+    "npc_id": "NPC000235",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Weekly: Hidden Drum Weekly.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000235-DIALOGUE",
+    "quest_id": "QST000235",
+    "npc_id": "NPC000236",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Weekly: Storm Shrine Weekly.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000236-DIALOGUE",
+    "quest_id": "QST000236",
+    "npc_id": "NPC000237",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Weekly: Ancestor Thread Weekly.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000237-DIALOGUE",
+    "quest_id": "QST000237",
+    "npc_id": "NPC000238",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Weekly: Pearl Witness Weekly.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000238-DIALOGUE",
+    "quest_id": "QST000238",
+    "npc_id": "NPC000239",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Weekly: Forest Debt Weekly.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "dialogue_id": "QST000239-DIALOGUE",
+    "quest_id": "QST000239",
+    "npc_id": "NPC000240",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Weekly: Skyward Bell Weekly.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000240-DIALOGUE",
+    "quest_id": "QST000240",
+    "npc_id": "NPC000241",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Weekly: Balete Echo Weekly.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000241-DIALOGUE",
+    "quest_id": "QST000241",
+    "npc_id": "NPC000242",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Hidden: River Oath Hidden.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000242-DIALOGUE",
+    "quest_id": "QST000242",
+    "npc_id": "NPC000243",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Hidden: Coral Lantern Hidden.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000243-DIALOGUE",
+    "quest_id": "QST000243",
+    "npc_id": "NPC000244",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Hidden: Moon Road Hidden.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000244-DIALOGUE",
+    "quest_id": "QST000244",
+    "npc_id": "NPC000245",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Hidden: Hidden Drum Hidden.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000245-DIALOGUE",
+    "quest_id": "QST000245",
+    "npc_id": "NPC000246",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Hidden: Storm Shrine Hidden.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "dialogue_id": "QST000246-DIALOGUE",
+    "quest_id": "QST000246",
+    "npc_id": "NPC000247",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Hidden: Ancestor Thread Hidden.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000247-DIALOGUE",
+    "quest_id": "QST000247",
+    "npc_id": "NPC000248",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Hidden: Pearl Witness Hidden.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000248-DIALOGUE",
+    "quest_id": "QST000248",
+    "npc_id": "NPC000249",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Hidden: Forest Debt Hidden.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000249-DIALOGUE",
+    "quest_id": "QST000249",
+    "npc_id": "NPC000250",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Hidden: Skyward Bell Hidden.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000250-DIALOGUE",
+    "quest_id": "QST000250",
+    "npc_id": "NPC000251",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Hidden: Balete Echo Hidden.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000251-DIALOGUE",
+    "quest_id": "QST000251",
+    "npc_id": "NPC000252",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Hidden: River Oath Hidden.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000252-DIALOGUE",
+    "quest_id": "QST000252",
+    "npc_id": "NPC000253",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Hidden: Coral Lantern Hidden.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": "night"
+    }
+  },
+  {
+    "dialogue_id": "QST000253-DIALOGUE",
+    "quest_id": "QST000253",
+    "npc_id": "NPC000254",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Hidden: Moon Road Hidden.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000254-DIALOGUE",
+    "quest_id": "QST000254",
+    "npc_id": "NPC000255",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Hidden: Hidden Drum Hidden.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000255-DIALOGUE",
+    "quest_id": "QST000255",
+    "npc_id": "NPC000256",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Hidden: Storm Shrine Hidden.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000256-DIALOGUE",
+    "quest_id": "QST000256",
+    "npc_id": "NPC000257",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Hidden: Ancestor Thread Hidden.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000257-DIALOGUE",
+    "quest_id": "QST000257",
+    "npc_id": "NPC000258",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Hidden: Pearl Witness Hidden.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000258-DIALOGUE",
+    "quest_id": "QST000258",
+    "npc_id": "NPC000259",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Hidden: Forest Debt Hidden.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "dialogue_id": "QST000259-DIALOGUE",
+    "quest_id": "QST000259",
+    "npc_id": "NPC000260",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Hidden: Skyward Bell Hidden.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "dialogue_id": "QST000260-DIALOGUE",
+    "quest_id": "QST000260",
+    "npc_id": "NPC000261",
+    "dialogue_key": "quest_intro",
+    "nodes": [
+      {
+        "id": "intro",
+        "text": "There is work to do: Hidden: Balete Echo Hidden.",
+        "next": [
+          "accept",
+          "decline"
+        ]
+      },
+      {
+        "id": "accept",
+        "text": "Then let us begin with care.",
+        "next": []
+      },
+      {
+        "id": "decline",
+        "text": "Return when the path calls you again.",
+        "next": []
+      }
+    ],
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  }
+]

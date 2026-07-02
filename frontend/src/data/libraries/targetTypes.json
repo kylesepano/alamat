@@ -1,0 +1,167 @@
+﻿[
+    {
+        "code":  "TGT001",
+        "name":  "Self",
+        "slug":  "self",
+        "description":  "Targets the user only.",
+        "icon_hint":  "user",
+        "color_hint":  "#94A3B8",
+        "sort_order":  1,
+        "is_active":  true,
+        "id":  1
+    },
+    {
+        "code":  "TGT002",
+        "name":  "Single Enemy",
+        "slug":  "single-enemy",
+        "description":  "Targets one enemy.",
+        "icon_hint":  "crosshair",
+        "color_hint":  "#EF4444",
+        "sort_order":  2,
+        "is_active":  true,
+        "id":  2
+    },
+    {
+        "code":  "TGT003",
+        "name":  "Single Ally",
+        "slug":  "single-ally",
+        "description":  "Targets one ally.",
+        "icon_hint":  "user-plus",
+        "color_hint":  "#22C55E",
+        "sort_order":  3,
+        "is_active":  true,
+        "id":  3
+    },
+    {
+        "code":  "TGT004",
+        "name":  "All Enemies",
+        "slug":  "all-enemies",
+        "description":  "Targets every enemy.",
+        "icon_hint":  "swords",
+        "color_hint":  "#DC2626",
+        "sort_order":  4,
+        "is_active":  true,
+        "id":  4
+    },
+    {
+        "code":  "TGT005",
+        "name":  "All Allies",
+        "slug":  "all-allies",
+        "description":  "Targets every ally.",
+        "icon_hint":  "users",
+        "color_hint":  "#4ADE80",
+        "sort_order":  5,
+        "is_active":  true,
+        "id":  5
+    },
+    {
+        "code":  "TGT006",
+        "name":  "Everyone",
+        "slug":  "everyone",
+        "description":  "Targets all combatants.",
+        "icon_hint":  "circle-dot",
+        "color_hint":  "#A78BFA",
+        "sort_order":  6,
+        "is_active":  true,
+        "id":  6
+    },
+    {
+        "code":  "TGT007",
+        "name":  "Random Enemy",
+        "slug":  "random-enemy",
+        "description":  "Targets one random enemy.",
+        "icon_hint":  "shuffle",
+        "color_hint":  "#F97316",
+        "sort_order":  7,
+        "is_active":  true,
+        "id":  7
+    },
+    {
+        "code":  "TGT008",
+        "name":  "Random Allies",
+        "slug":  "random-allies",
+        "description":  "Targets random allies.",
+        "icon_hint":  "shuffle",
+        "color_hint":  "#38BDF8",
+        "sort_order":  8,
+        "is_active":  true,
+        "id":  8
+    },
+    {
+        "code":  "TGT009",
+        "name":  "Row Front",
+        "slug":  "row-front",
+        "description":  "Targets the front row.",
+        "icon_hint":  "rows-2",
+        "color_hint":  "#EF4444",
+        "sort_order":  9,
+        "is_active":  true,
+        "id":  9
+    },
+    {
+        "code":  "TGT010",
+        "name":  "Row Back",
+        "slug":  "row-back",
+        "description":  "Targets the back row.",
+        "icon_hint":  "rows-3",
+        "color_hint":  "#8B5CF6",
+        "sort_order":  10,
+        "is_active":  true,
+        "id":  10
+    },
+    {
+        "code":  "TGT011",
+        "name":  "Area Small",
+        "slug":  "area-small",
+        "description":  "Targets a small area.",
+        "icon_hint":  "circle",
+        "color_hint":  "#F59E0B",
+        "sort_order":  11,
+        "is_active":  true,
+        "id":  11
+    },
+    {
+        "code":  "TGT012",
+        "name":  "Area Large",
+        "slug":  "area-large",
+        "description":  "Targets a large area.",
+        "icon_hint":  "circle-dot",
+        "color_hint":  "#DC2626",
+        "sort_order":  12,
+        "is_active":  true,
+        "id":  12
+    },
+    {
+        "code":  "TGT013",
+        "name":  "Field",
+        "slug":  "field",
+        "description":  "Targets the battlefield itself.",
+        "icon_hint":  "map",
+        "color_hint":  "#14B8A6",
+        "sort_order":  13,
+        "is_active":  true,
+        "id":  13
+    },
+    {
+        "code":  "TGT014",
+        "name":  "Weather",
+        "slug":  "weather",
+        "description":  "Targets or changes weather state.",
+        "icon_hint":  "cloud-sun",
+        "color_hint":  "#60A5FA",
+        "sort_order":  14,
+        "is_active":  true,
+        "id":  14
+    },
+    {
+        "code":  "TGT015",
+        "name":  "Dead Ally",
+        "slug":  "dead-ally",
+        "description":  "Targets a defeated ally.",
+        "icon_hint":  "heart-crack",
+        "color_hint":  "#FDE68A",
+        "sort_order":  15,
+        "is_active":  true,
+        "id":  15
+    }
+]

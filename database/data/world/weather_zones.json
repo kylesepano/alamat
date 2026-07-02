@@ -1,0 +1,7822 @@
+[
+  {
+    "weather_zone_id": "WWEATHER000001",
+    "location_id": "WLOC000001",
+    "default_weather": "Rain",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 4
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000002",
+    "location_id": "WLOC000002",
+    "default_weather": "Storm",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 4
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000003",
+    "location_id": "WLOC000003",
+    "default_weather": "Mist",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 4
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000004",
+    "location_id": "WLOC000004",
+    "default_weather": "Moonlit",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 4
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000005",
+    "location_id": "WLOC000005",
+    "default_weather": "Humid",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 4
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000006",
+    "location_id": "WLOC000006",
+    "default_weather": "Clear",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 4
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000007",
+    "location_id": "WLOC000007",
+    "default_weather": "Rain",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 4
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000008",
+    "location_id": "WLOC000008",
+    "default_weather": "Storm",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 4
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000009",
+    "location_id": "WLOC000009",
+    "default_weather": "Mist",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 4
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000010",
+    "location_id": "WLOC000010",
+    "default_weather": "Moonlit",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 4
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000011",
+    "location_id": "WLOC000011",
+    "default_weather": "Humid",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 4
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000012",
+    "location_id": "WLOC000012",
+    "default_weather": "Clear",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 4
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000013",
+    "location_id": "WLOC000013",
+    "default_weather": "Rain",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 4
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000014",
+    "location_id": "WLOC000014",
+    "default_weather": "Storm",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 4
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000015",
+    "location_id": "WLOC000015",
+    "default_weather": "Mist",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 4
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000016",
+    "location_id": "WLOC000016",
+    "default_weather": "Moonlit",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 4
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000017",
+    "location_id": "WLOC000017",
+    "default_weather": "Humid",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 4
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000018",
+    "location_id": "WLOC000018",
+    "default_weather": "Clear",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 4
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000019",
+    "location_id": "WLOC000019",
+    "default_weather": "Rain",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 4
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000020",
+    "location_id": "WLOC000020",
+    "default_weather": "Storm",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 4
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000021",
+    "location_id": "WLOC000021",
+    "default_weather": "Mist",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 4
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000022",
+    "location_id": "WLOC000022",
+    "default_weather": "Moonlit",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 4
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000023",
+    "location_id": "WLOC000023",
+    "default_weather": "Humid",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 4
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000024",
+    "location_id": "WLOC000024",
+    "default_weather": "Clear",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 4
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000025",
+    "location_id": "WLOC000025",
+    "default_weather": "Rain",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 4
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000026",
+    "location_id": "WLOC000026",
+    "default_weather": "Storm",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 4
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000027",
+    "location_id": "WLOC000027",
+    "default_weather": "Mist",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 4
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000028",
+    "location_id": "WLOC000028",
+    "default_weather": "Moonlit",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 4
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000029",
+    "location_id": "WLOC000029",
+    "default_weather": "Humid",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 4
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000030",
+    "location_id": "WLOC000030",
+    "default_weather": "Clear",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 4
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000031",
+    "location_id": "WLOC000031",
+    "default_weather": "Rain",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 4
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000032",
+    "location_id": "WLOC000032",
+    "default_weather": "Storm",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 4
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000033",
+    "location_id": "WLOC000033",
+    "default_weather": "Mist",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 4
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000034",
+    "location_id": "WLOC000034",
+    "default_weather": "Moonlit",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 4
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000035",
+    "location_id": "WLOC000035",
+    "default_weather": "Humid",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 4
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000036",
+    "location_id": "WLOC000036",
+    "default_weather": "Clear",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 4
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000037",
+    "location_id": "WLOC000037",
+    "default_weather": "Rain",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 4
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000038",
+    "location_id": "WLOC000038",
+    "default_weather": "Storm",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 4
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000039",
+    "location_id": "WLOC000039",
+    "default_weather": "Mist",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 4
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000040",
+    "location_id": "WLOC000040",
+    "default_weather": "Moonlit",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 4
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000041",
+    "location_id": "WLOC000041",
+    "default_weather": "Humid",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 4
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000042",
+    "location_id": "WLOC000042",
+    "default_weather": "Clear",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 4
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000043",
+    "location_id": "WLOC000043",
+    "default_weather": "Rain",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 4
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000044",
+    "location_id": "WLOC000044",
+    "default_weather": "Storm",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 4
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000045",
+    "location_id": "WLOC000045",
+    "default_weather": "Mist",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 4
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000046",
+    "location_id": "WLOC000046",
+    "default_weather": "Moonlit",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 4
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000047",
+    "location_id": "WLOC000047",
+    "default_weather": "Humid",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 4
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000048",
+    "location_id": "WLOC000048",
+    "default_weather": "Clear",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 4
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000049",
+    "location_id": "WLOC000049",
+    "default_weather": "Rain",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 4
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000050",
+    "location_id": "WLOC000050",
+    "default_weather": "Storm",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 4
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000051",
+    "location_id": "WLOC000051",
+    "default_weather": "Mist",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 4
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000052",
+    "location_id": "WLOC000052",
+    "default_weather": "Moonlit",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 4
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000053",
+    "location_id": "WLOC000053",
+    "default_weather": "Humid",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 4
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000054",
+    "location_id": "WLOC000054",
+    "default_weather": "Clear",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 4
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000055",
+    "location_id": "WLOC000055",
+    "default_weather": "Rain",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 4
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000056",
+    "location_id": "WLOC000056",
+    "default_weather": "Storm",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 4
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000057",
+    "location_id": "WLOC000057",
+    "default_weather": "Mist",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 4
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000058",
+    "location_id": "WLOC000058",
+    "default_weather": "Moonlit",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 4
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000059",
+    "location_id": "WLOC000059",
+    "default_weather": "Humid",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 4
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000060",
+    "location_id": "WLOC000060",
+    "default_weather": "Clear",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 4
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000061",
+    "location_id": "WLOC000061",
+    "default_weather": "Rain",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 4
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000062",
+    "location_id": "WLOC000062",
+    "default_weather": "Storm",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 4
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000063",
+    "location_id": "WLOC000063",
+    "default_weather": "Mist",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 4
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000064",
+    "location_id": "WLOC000064",
+    "default_weather": "Moonlit",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 4
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000065",
+    "location_id": "WLOC000065",
+    "default_weather": "Humid",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 4
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000066",
+    "location_id": "WLOC000066",
+    "default_weather": "Clear",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 4
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000067",
+    "location_id": "WLOC000067",
+    "default_weather": "Rain",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 4
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000068",
+    "location_id": "WLOC000068",
+    "default_weather": "Storm",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 4
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000069",
+    "location_id": "WLOC000069",
+    "default_weather": "Mist",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 4
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000070",
+    "location_id": "WLOC000070",
+    "default_weather": "Moonlit",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 4
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000071",
+    "location_id": "WLOC000071",
+    "default_weather": "Humid",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 4
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000072",
+    "location_id": "WLOC000072",
+    "default_weather": "Clear",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 4
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000073",
+    "location_id": "WLOC000073",
+    "default_weather": "Rain",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 4
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000074",
+    "location_id": "WLOC000074",
+    "default_weather": "Storm",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 4
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000075",
+    "location_id": "WLOC000075",
+    "default_weather": "Mist",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 4
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000076",
+    "location_id": "WLOC000076",
+    "default_weather": "Moonlit",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 4
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000077",
+    "location_id": "WLOC000077",
+    "default_weather": "Humid",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 4
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000078",
+    "location_id": "WLOC000078",
+    "default_weather": "Clear",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 4
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000079",
+    "location_id": "WLOC000079",
+    "default_weather": "Rain",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 4
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000080",
+    "location_id": "WLOC000080",
+    "default_weather": "Storm",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 4
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000081",
+    "location_id": "WLOC000081",
+    "default_weather": "Mist",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 4
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000082",
+    "location_id": "WLOC000082",
+    "default_weather": "Moonlit",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 4
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000083",
+    "location_id": "WLOC000083",
+    "default_weather": "Humid",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 4
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000084",
+    "location_id": "WLOC000084",
+    "default_weather": "Clear",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 4
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000085",
+    "location_id": "WLOC000085",
+    "default_weather": "Rain",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 4
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000086",
+    "location_id": "WLOC000086",
+    "default_weather": "Storm",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 4
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000087",
+    "location_id": "WLOC000087",
+    "default_weather": "Mist",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 4
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000088",
+    "location_id": "WLOC000088",
+    "default_weather": "Moonlit",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 4
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000089",
+    "location_id": "WLOC000089",
+    "default_weather": "Humid",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 4
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000090",
+    "location_id": "WLOC000090",
+    "default_weather": "Clear",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 4
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000091",
+    "location_id": "WLOC000091",
+    "default_weather": "Rain",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 4
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000092",
+    "location_id": "WLOC000092",
+    "default_weather": "Storm",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 4
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000093",
+    "location_id": "WLOC000093",
+    "default_weather": "Mist",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 4
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000094",
+    "location_id": "WLOC000094",
+    "default_weather": "Moonlit",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 4
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000095",
+    "location_id": "WLOC000095",
+    "default_weather": "Humid",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 4
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000096",
+    "location_id": "WLOC000096",
+    "default_weather": "Clear",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 4
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000097",
+    "location_id": "WLOC000097",
+    "default_weather": "Rain",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 4
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000098",
+    "location_id": "WLOC000098",
+    "default_weather": "Storm",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 4
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000099",
+    "location_id": "WLOC000099",
+    "default_weather": "Mist",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 4
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000100",
+    "location_id": "WLOC000100",
+    "default_weather": "Moonlit",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 4
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000101",
+    "location_id": "WLOC000101",
+    "default_weather": "Humid",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 4
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000102",
+    "location_id": "WLOC000102",
+    "default_weather": "Clear",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 4
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000103",
+    "location_id": "WLOC000103",
+    "default_weather": "Rain",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 4
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000104",
+    "location_id": "WLOC000104",
+    "default_weather": "Storm",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 4
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000105",
+    "location_id": "WLOC000105",
+    "default_weather": "Mist",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 4
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000106",
+    "location_id": "WLOC000106",
+    "default_weather": "Moonlit",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 4
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000107",
+    "location_id": "WLOC000107",
+    "default_weather": "Humid",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 4
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000108",
+    "location_id": "WLOC000108",
+    "default_weather": "Clear",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 4
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000109",
+    "location_id": "WLOC000109",
+    "default_weather": "Rain",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 4
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000110",
+    "location_id": "WLOC000110",
+    "default_weather": "Storm",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 4
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000111",
+    "location_id": "WLOC000111",
+    "default_weather": "Mist",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 4
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000112",
+    "location_id": "WLOC000112",
+    "default_weather": "Moonlit",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 4
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000113",
+    "location_id": "WLOC000113",
+    "default_weather": "Humid",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 4
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000114",
+    "location_id": "WLOC000114",
+    "default_weather": "Clear",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 4
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000115",
+    "location_id": "WLOC000115",
+    "default_weather": "Rain",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 4
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000116",
+    "location_id": "WLOC000116",
+    "default_weather": "Storm",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 4
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000117",
+    "location_id": "WLOC000117",
+    "default_weather": "Mist",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 4
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000118",
+    "location_id": "WLOC000118",
+    "default_weather": "Moonlit",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 4
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000119",
+    "location_id": "WLOC000119",
+    "default_weather": "Humid",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 4
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000120",
+    "location_id": "WLOC000120",
+    "default_weather": "Clear",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 4
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000121",
+    "location_id": "WLOC000121",
+    "default_weather": "Rain",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 4
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000122",
+    "location_id": "WLOC000122",
+    "default_weather": "Storm",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 4
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000123",
+    "location_id": "WLOC000123",
+    "default_weather": "Mist",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 4
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000124",
+    "location_id": "WLOC000124",
+    "default_weather": "Moonlit",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 4
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000125",
+    "location_id": "WLOC000125",
+    "default_weather": "Humid",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 4
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000126",
+    "location_id": "WLOC000126",
+    "default_weather": "Clear",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 4
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000127",
+    "location_id": "WLOC000127",
+    "default_weather": "Rain",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 4
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000128",
+    "location_id": "WLOC000128",
+    "default_weather": "Storm",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 4
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000129",
+    "location_id": "WLOC000129",
+    "default_weather": "Mist",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 4
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000130",
+    "location_id": "WLOC000130",
+    "default_weather": "Moonlit",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 4
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000131",
+    "location_id": "WLOC000131",
+    "default_weather": "Humid",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 4
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000132",
+    "location_id": "WLOC000132",
+    "default_weather": "Clear",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 4
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000133",
+    "location_id": "WLOC000133",
+    "default_weather": "Rain",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 4
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000134",
+    "location_id": "WLOC000134",
+    "default_weather": "Storm",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 4
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000135",
+    "location_id": "WLOC000135",
+    "default_weather": "Mist",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 4
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000136",
+    "location_id": "WLOC000136",
+    "default_weather": "Moonlit",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 4
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000137",
+    "location_id": "WLOC000137",
+    "default_weather": "Humid",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 4
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000138",
+    "location_id": "WLOC000138",
+    "default_weather": "Clear",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 4
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000139",
+    "location_id": "WLOC000139",
+    "default_weather": "Rain",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 4
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000140",
+    "location_id": "WLOC000140",
+    "default_weather": "Storm",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 4
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000141",
+    "location_id": "WLOC000141",
+    "default_weather": "Mist",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 4
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000142",
+    "location_id": "WLOC000142",
+    "default_weather": "Moonlit",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 4
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000143",
+    "location_id": "WLOC000143",
+    "default_weather": "Humid",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 4
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000144",
+    "location_id": "WLOC000144",
+    "default_weather": "Clear",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 4
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000145",
+    "location_id": "WLOC000145",
+    "default_weather": "Rain",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 4
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000146",
+    "location_id": "WLOC000146",
+    "default_weather": "Storm",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 4
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000147",
+    "location_id": "WLOC000147",
+    "default_weather": "Mist",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 4
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000148",
+    "location_id": "WLOC000148",
+    "default_weather": "Moonlit",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 4
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000149",
+    "location_id": "WLOC000149",
+    "default_weather": "Humid",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 4
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000150",
+    "location_id": "WLOC000150",
+    "default_weather": "Clear",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 4
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000151",
+    "location_id": "WLOC000151",
+    "default_weather": "Rain",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 4
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000152",
+    "location_id": "WLOC000152",
+    "default_weather": "Storm",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 4
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000153",
+    "location_id": "WLOC000153",
+    "default_weather": "Mist",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 4
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000154",
+    "location_id": "WLOC000154",
+    "default_weather": "Moonlit",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 4
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000155",
+    "location_id": "WLOC000155",
+    "default_weather": "Humid",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 4
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000156",
+    "location_id": "WLOC000156",
+    "default_weather": "Clear",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 4
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000157",
+    "location_id": "WLOC000157",
+    "default_weather": "Rain",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 4
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000158",
+    "location_id": "WLOC000158",
+    "default_weather": "Storm",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 4
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000159",
+    "location_id": "WLOC000159",
+    "default_weather": "Mist",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 4
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000160",
+    "location_id": "WLOC000160",
+    "default_weather": "Moonlit",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 4
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000161",
+    "location_id": "WLOC000161",
+    "default_weather": "Humid",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 4
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000162",
+    "location_id": "WLOC000162",
+    "default_weather": "Clear",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 4
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000163",
+    "location_id": "WLOC000163",
+    "default_weather": "Rain",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 4
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000164",
+    "location_id": "WLOC000164",
+    "default_weather": "Storm",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 4
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000165",
+    "location_id": "WLOC000165",
+    "default_weather": "Mist",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 4
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000166",
+    "location_id": "WLOC000166",
+    "default_weather": "Moonlit",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 4
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000167",
+    "location_id": "WLOC000167",
+    "default_weather": "Humid",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 4
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000168",
+    "location_id": "WLOC000168",
+    "default_weather": "Clear",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 4
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000169",
+    "location_id": "WLOC000169",
+    "default_weather": "Rain",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 4
+      },
+      {
+        "weather": "Rain",
+        "weight": 1
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "weather_zone_id": "WWEATHER000170",
+    "location_id": "WLOC000170",
+    "default_weather": "Storm",
+    "weather_table": [
+      {
+        "weather": "Clear",
+        "weight": 1
+      },
+      {
+        "weather": "Rain",
+        "weight": 4
+      },
+      {
+        "weather": "Storm",
+        "weight": 1
+      },
+      {
+        "weather": "Mist",
+        "weight": 1
+      },
+      {
+        "weather": "Moonlit",
+        "weight": 1
+      },
+      {
+        "weather": "Humid",
+        "weight": 1
+      }
+    ],
+    "season_payload": {
+      "dry": [
+        "Clear",
+        "Humid"
+      ],
+      "rainy": [
+        "Rain",
+        "Storm"
+      ],
+      "spirit": [
+        "Mist",
+        "Moonlit"
+      ]
+    },
+    "is_active": true
+  }
+]

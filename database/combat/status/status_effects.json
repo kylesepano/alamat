@@ -1,0 +1,178 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "alamat://combat/status/status_effects.json",
+  "title": "ALAMAT Combat Bible - status_effect",
+  "description": "Combat status effects. Phase B status effects can reference these richer rules by slug or ID.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "id": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "uuid": {
+        "type": "string",
+        "format": "uuid"
+      },
+      "slug": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "created_at": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "updated_at": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "version": {
+        "type": "string",
+        "pattern": "^\\d+\\.\\d+\\.\\d+$"
+      },
+      "source": {
+        "type": "string",
+        "minLength": 1
+      },
+      "notes": {
+        "type": "string"
+      },
+      "status_effect_id": {
+        "type": "string",
+        "pattern": "^STE-?[A-Z0-9-]+$"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "duration": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": [
+              "instant",
+              "turns",
+              "rounds",
+              "battle",
+              "permanent"
+            ]
+          },
+          "value": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "required": [
+          "type",
+          "value"
+        ]
+      },
+      "stack_limit": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "priority": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "damage_formula": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Reference to formula_id; resolve through Combat Bible registry or Phase B library."
+      },
+      "healing_formula": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Reference to formula_id; resolve through Combat Bible registry or Phase B library."
+      },
+      "removable": {
+        "type": "boolean"
+      },
+      "dispellable": {
+        "type": "boolean"
+      },
+      "immunity": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "animation": {
+        "type": "string",
+        "minLength": 1
+      },
+      "icon": {
+        "type": "string",
+        "minLength": 1
+      },
+      "ai_weight": {
+        "type": "number",
+        "minimum": 0
+      },
+      "description": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "required": [
+      "id",
+      "uuid",
+      "slug",
+      "created_at",
+      "updated_at",
+      "version",
+      "source",
+      "notes",
+      "status_effect_id",
+      "status_effect_id",
+      "name",
+      "duration",
+      "stack_limit",
+      "priority",
+      "removable",
+      "dispellable",
+      "immunity",
+      "animation",
+      "icon",
+      "ai_weight",
+      "description"
+    ]
+  },
+  "examples": [
+    [
+      {
+        "id": 9,
+        "uuid": "00000000-0000-4000-8000-000000000009",
+        "created_at": "2026-07-02T00:00:00+08:00",
+        "updated_at": "2026-07-02T00:00:00+08:00",
+        "version": "1.0.0",
+        "source": "Phase D architecture example",
+        "notes": "Example record for schema validation only; not production balance content.",
+        "status_effect_id": "STE-CBT-0001",
+        "slug": "reveal",
+        "name": "Reveal",
+        "duration": {
+          "type": "turns",
+          "value": 3
+        },
+        "stack_limit": 1,
+        "priority": 40,
+        "damage_formula": null,
+        "healing_formula": null,
+        "removable": true,
+        "dispellable": true,
+        "immunity": [
+          "blind"
+        ],
+        "animation": "gold_eye",
+        "icon": "eye",
+        "ai_weight": 1.2,
+        "description": "Exposes hidden targets, illusions, and concealed weaknesses."
+      }
+    ]
+  ]
+}

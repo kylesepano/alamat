@@ -1,0 +1,167 @@
+﻿[
+    {
+        "code":  "ITC001",
+        "name":  "Offering",
+        "slug":  "offering",
+        "description":  "Items given to earn trust or perform rituals.",
+        "icon_hint":  "gift",
+        "color_hint":  "#F97316",
+        "sort_order":  1,
+        "is_active":  true,
+        "id":  1
+    },
+    {
+        "code":  "ITC002",
+        "name":  "Consumable",
+        "slug":  "consumable",
+        "description":  "Single-use items for healing, cleansing, or buffs.",
+        "icon_hint":  "flask",
+        "color_hint":  "#22C55E",
+        "sort_order":  2,
+        "is_active":  true,
+        "id":  2
+    },
+    {
+        "code":  "ITC003",
+        "name":  "Crafting Material",
+        "slug":  "crafting-material",
+        "description":  "Resources used to craft equipment or quest items.",
+        "icon_hint":  "hammer",
+        "color_hint":  "#78716C",
+        "sort_order":  3,
+        "is_active":  true,
+        "id":  3
+    },
+    {
+        "code":  "ITC004",
+        "name":  "Quest Item",
+        "slug":  "quest-item",
+        "description":  "Important objects tied to story or side quests.",
+        "icon_hint":  "scroll",
+        "color_hint":  "#FACC15",
+        "sort_order":  4,
+        "is_active":  true,
+        "id":  4
+    },
+    {
+        "code":  "ITC005",
+        "name":  "Food",
+        "slug":  "food",
+        "description":  "Meals, fruits, fish, sweets, and local dishes used for bonding.",
+        "icon_hint":  "utensils",
+        "color_hint":  "#FB923C",
+        "sort_order":  5,
+        "is_active":  true,
+        "id":  5
+    },
+    {
+        "code":  "ITC006",
+        "name":  "Herb",
+        "slug":  "herb",
+        "description":  "Plants used for medicine, poison, ritual, or crafting.",
+        "icon_hint":  "leaf",
+        "color_hint":  "#65A30D",
+        "sort_order":  6,
+        "is_active":  true,
+        "id":  6
+    },
+    {
+        "code":  "ITC007",
+        "name":  "Relic",
+        "slug":  "relic",
+        "description":  "Rare artifacts with historical or spiritual importance.",
+        "icon_hint":  "landmark",
+        "color_hint":  "#C7A76C",
+        "sort_order":  7,
+        "is_active":  true,
+        "id":  7
+    },
+    {
+        "code":  "ITC008",
+        "name":  "Key Item",
+        "slug":  "key-item",
+        "description":  "Permanent progression item that unlocks areas or systems.",
+        "icon_hint":  "key",
+        "color_hint":  "#FBBF24",
+        "sort_order":  8,
+        "is_active":  true,
+        "id":  8
+    },
+    {
+        "code":  "ITC009",
+        "name":  "Currency",
+        "slug":  "currency",
+        "description":  "Trade objects such as coins, shells, beads, or spirit tokens.",
+        "icon_hint":  "coins",
+        "color_hint":  "#F59E0B",
+        "sort_order":  9,
+        "is_active":  true,
+        "id":  9
+    },
+    {
+        "code":  "ITC010",
+        "name":  "Fishing Item",
+        "slug":  "fishing-item",
+        "description":  "Bait, nets, hooks, and aquatic resources.",
+        "icon_hint":  "fish",
+        "color_hint":  "#0284C7",
+        "sort_order":  10,
+        "is_active":  true,
+        "id":  10
+    },
+    {
+        "code":  "ITC011",
+        "name":  "Mining Item",
+        "slug":  "mining-item",
+        "description":  "Ore, stones, crystals, and volcanic materials.",
+        "icon_hint":  "pickaxe",
+        "color_hint":  "#6B7280",
+        "sort_order":  11,
+        "is_active":  true,
+        "id":  11
+    },
+    {
+        "code":  "ITC012",
+        "name":  "Bug Item",
+        "slug":  "bug-item",
+        "description":  "Insects, wings, venom sacs, and small spirit creatures.",
+        "icon_hint":  "bug",
+        "color_hint":  "#84CC16",
+        "sort_order":  12,
+        "is_active":  true,
+        "id":  12
+    },
+    {
+        "code":  "ITC013",
+        "name":  "Memory Item",
+        "slug":  "memory-item",
+        "description":  "Letters, names, heirlooms, and echo fragments.",
+        "icon_hint":  "book-heart",
+        "color_hint":  "#A78BFA",
+        "sort_order":  13,
+        "is_active":  true,
+        "id":  13
+    },
+    {
+        "code":  "ITC014",
+        "name":  "Purification Item",
+        "slug":  "purification-item",
+        "description":  "Items used to cleanse corruption or curses.",
+        "icon_hint":  "sparkles",
+        "color_hint":  "#FDE68A",
+        "sort_order":  14,
+        "is_active":  true,
+        "id":  14
+    },
+    {
+        "code":  "ITC015",
+        "name":  "Festival Item",
+        "slug":  "festival-item",
+        "description":  "Seasonal objects tied to celebrations and local events.",
+        "icon_hint":  "party-popper",
+        "color_hint":  "#EC4899",
+        "sort_order":  15,
+        "is_active":  true,
+        "id":  15
+    }
+]

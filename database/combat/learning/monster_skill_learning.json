@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "alamat://combat/learning/monster_skill_learning.json",
+  "title": "ALAMAT Combat Bible - monster_skill_learning",
+  "description": "monster skill learning records for the Combat Bible.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "id": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "uuid": {
+        "type": "string",
+        "format": "uuid"
+      },
+      "slug": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "created_at": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "updated_at": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "version": {
+        "type": "string",
+        "pattern": "^\\d+\\.\\d+\\.\\d+$"
+      },
+      "source": {
+        "type": "string",
+        "minLength": 1
+      },
+      "notes": {
+        "type": "string"
+      },
+      "learning_id": {
+        "type": "string",
+        "pattern": "^LRN-?[A-Z0-9-]+$"
+      },
+      "learner_type": {
+        "type": "string",
+        "enum": [
+          "monster",
+          "npc"
+        ]
+      },
+      "learner_id": {
+        "type": "string",
+        "minLength": 1
+      },
+      "skill_id": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Reference to skill_id; resolve through Combat Bible registry or Phase B library."
+      },
+      "unlock_method": {
+        "type": "string",
+        "enum": [
+          "level",
+          "quest",
+          "affinity",
+          "equipment",
+          "npc_mentor",
+          "ancient_scroll",
+          "shrine",
+          "legend_event"
+        ]
+      },
+      "unlock_value": {
+        "type": "string",
+        "minLength": 1
+      },
+      "prerequisites": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "id",
+      "uuid",
+      "slug",
+      "created_at",
+      "updated_at",
+      "version",
+      "source",
+      "notes",
+      "learning_id",
+      "learning_id",
+      "learner_type",
+      "learner_id",
+      "skill_id",
+      "unlock_method",
+      "unlock_value",
+      "prerequisites"
+    ]
+  },
+  "examples": [
+    [
+      {
+        "id": 25,
+        "uuid": "00000000-0000-4000-8000-000000000025",
+        "created_at": "2026-07-02T00:00:00+08:00",
+        "updated_at": "2026-07-02T00:00:00+08:00",
+        "version": "1.0.0",
+        "source": "Phase D architecture example",
+        "notes": "Example only; production records should reference approved skill IDs.",
+        "learning_id": "LRN-MON-0001",
+        "slug": "mon0015-moon-devour-level",
+        "learner_type": "monster",
+        "learner_id": "MON0015",
+        "skill_id": "SKL-SIG-0001",
+        "unlock_method": "level",
+        "unlock_value": "30",
+        "prerequisites": []
+      }
+    ]
+  ]
+}

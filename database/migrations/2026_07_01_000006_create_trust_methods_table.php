@@ -1,0 +1,25 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    public function up(): void
+    {
+        Schema::create('trust_methods', function (Blueprint $table) {
+            $table->id();
+            $table->string('name')->unique();
+            $table->string('slug')->unique();
+            $table->text('description');
+            $table->text('example_use_case');
+            $table->timestamps();
+        });
+    }
+
+    public function down(): void
+    {
+        Schema::dropIfExists('trust_methods');
+    }
+};

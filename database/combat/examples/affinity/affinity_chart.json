@@ -1,0 +1,17 @@
+[
+  {
+    "id": 11,
+    "uuid": "00000000-0000-4000-8000-000000000011",
+    "created_at": "2026-07-02T00:00:00+08:00",
+    "updated_at": "2026-07-02T00:00:00+08:00",
+    "version": "1.0.0",
+    "source": "Phase D architecture example",
+    "notes": "Example record for schema validation only; not production balance content.",
+    "chart_id": "AFC-0001",
+    "slug": "forest-vs-water",
+    "attacker_affiliation_id": "AFF-CBT-FOREST",
+    "defender_affiliation_id": "AFF-CBT-WATER",
+    "multiplier": 1.15,
+    "rule": "Roots and growth disrupt water-aligned recovery."
+  }
+]

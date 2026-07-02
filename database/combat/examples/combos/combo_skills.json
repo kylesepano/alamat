@@ -1,0 +1,24 @@
+[
+  {
+    "id": 23,
+    "uuid": "00000000-0000-4000-8000-000000000023",
+    "created_at": "2026-07-02T00:00:00+08:00",
+    "updated_at": "2026-07-02T00:00:00+08:00",
+    "version": "1.0.0",
+    "source": "Phase D architecture example",
+    "notes": "Example record for schema validation only; not production balance content.",
+    "combo_id": "CMB-0001",
+    "slug": "moon-eclipse-devour",
+    "required_monster_ids": [
+      "MON0015",
+      "MON0020"
+    ],
+    "required_skill_ids": [],
+    "result_skill_id": "SKL-CMB-0001",
+    "conditions": [
+      "weather:eclipse"
+    ],
+    "cooldown": 5,
+    "description": "A future combo hook for Bakunawa and Minokawa during eclipse conditions."
+  }
+]

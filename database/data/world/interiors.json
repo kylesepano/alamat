@@ -1,0 +1,461 @@
+[
+  {
+    "interior_id": "WINT00001",
+    "parent_location_id": "WLOC000001",
+    "name": "Laguna Starter Barangay Interior",
+    "interior_type": "community",
+    "map_filename": "interior_WLOC000001.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Laguna Starter Barangay Interior\nLocation Type: interior\nRegion: Ilocos Region\nProvince: Laguna\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\nwarm and grounded.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00002",
+    "parent_location_id": "WLOC000002",
+    "name": "Laguna Marketplace Interior",
+    "interior_type": "shop",
+    "map_filename": "interior_WLOC000002.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Laguna Marketplace Interior\nLocation Type: interior\nRegion: Ilocos Region\nProvince: Laguna\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\nmisty and spiritual.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00003",
+    "parent_location_id": "WLOC000003",
+    "name": "Laguna Chapel Courtyard Interior",
+    "interior_type": "community",
+    "map_filename": "interior_WLOC000003.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Laguna Chapel Courtyard Interior\nLocation Type: interior\nRegion: Ilocos Region\nProvince: Laguna\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\nbright and coastal.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00004",
+    "parent_location_id": "WLOC000011",
+    "name": "Cebu Starter Barangay Interior",
+    "interior_type": "community",
+    "map_filename": "interior_WLOC000011.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Cebu Starter Barangay Interior\nLocation Type: interior\nRegion: Cagayan Valley\nProvince: Cebu\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\ntense and mythic.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00005",
+    "parent_location_id": "WLOC000012",
+    "name": "Cebu Marketplace Interior",
+    "interior_type": "shop",
+    "map_filename": "interior_WLOC000012.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Cebu Marketplace Interior\nLocation Type: interior\nRegion: Cagayan Valley\nProvince: Cebu\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\nwarm and grounded.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00006",
+    "parent_location_id": "WLOC000013",
+    "name": "Cebu Chapel Courtyard Interior",
+    "interior_type": "community",
+    "map_filename": "interior_WLOC000013.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Cebu Chapel Courtyard Interior\nLocation Type: interior\nRegion: Cagayan Valley\nProvince: Cebu\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\nmisty and spiritual.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00007",
+    "parent_location_id": "WLOC000021",
+    "name": "Davao del Sur Starter Barangay Interior",
+    "interior_type": "community",
+    "map_filename": "interior_WLOC000021.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Davao del Sur Starter Barangay Interior\nLocation Type: interior\nRegion: Central Luzon\nProvince: Davao del Sur\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\nbright and coastal.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00008",
+    "parent_location_id": "WLOC000022",
+    "name": "Davao del Sur Marketplace Interior",
+    "interior_type": "shop",
+    "map_filename": "interior_WLOC000022.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Davao del Sur Marketplace Interior\nLocation Type: interior\nRegion: Central Luzon\nProvince: Davao del Sur\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\ntense and mythic.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00009",
+    "parent_location_id": "WLOC000023",
+    "name": "Davao del Sur Chapel Courtyard Interior",
+    "interior_type": "community",
+    "map_filename": "interior_WLOC000023.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Davao del Sur Chapel Courtyard Interior\nLocation Type: interior\nRegion: Central Luzon\nProvince: Davao del Sur\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\nwarm and grounded.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00010",
+    "parent_location_id": "WLOC000031",
+    "name": "Palawan Starter Barangay Interior",
+    "interior_type": "community",
+    "map_filename": "interior_WLOC000031.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Palawan Starter Barangay Interior\nLocation Type: interior\nRegion: CALABARZON\nProvince: Palawan\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\nmisty and spiritual.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00011",
+    "parent_location_id": "WLOC000032",
+    "name": "Palawan Marketplace Interior",
+    "interior_type": "shop",
+    "map_filename": "interior_WLOC000032.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Palawan Marketplace Interior\nLocation Type: interior\nRegion: CALABARZON\nProvince: Palawan\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\nbright and coastal.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00012",
+    "parent_location_id": "WLOC000033",
+    "name": "Palawan Chapel Courtyard Interior",
+    "interior_type": "community",
+    "map_filename": "interior_WLOC000033.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Palawan Chapel Courtyard Interior\nLocation Type: interior\nRegion: CALABARZON\nProvince: Palawan\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\ntense and mythic.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00013",
+    "parent_location_id": "WLOC000041",
+    "name": "Iloilo Starter Barangay Interior",
+    "interior_type": "community",
+    "map_filename": "interior_WLOC000041.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Iloilo Starter Barangay Interior\nLocation Type: interior\nRegion: MIMAROPA\nProvince: Iloilo\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\nwarm and grounded.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00014",
+    "parent_location_id": "WLOC000042",
+    "name": "Iloilo Marketplace Interior",
+    "interior_type": "shop",
+    "map_filename": "interior_WLOC000042.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Iloilo Marketplace Interior\nLocation Type: interior\nRegion: MIMAROPA\nProvince: Iloilo\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\nmisty and spiritual.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00015",
+    "parent_location_id": "WLOC000043",
+    "name": "Iloilo Chapel Courtyard Interior",
+    "interior_type": "community",
+    "map_filename": "interior_WLOC000043.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Iloilo Chapel Courtyard Interior\nLocation Type: interior\nRegion: MIMAROPA\nProvince: Iloilo\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\nbright and coastal.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00016",
+    "parent_location_id": "WLOC000051",
+    "name": "Sulu Starter Barangay Interior",
+    "interior_type": "community",
+    "map_filename": "interior_WLOC000051.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Sulu Starter Barangay Interior\nLocation Type: interior\nRegion: Bicol Region\nProvince: Sulu\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\ntense and mythic.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00017",
+    "parent_location_id": "WLOC000052",
+    "name": "Sulu Marketplace Interior",
+    "interior_type": "shop",
+    "map_filename": "interior_WLOC000052.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Sulu Marketplace Interior\nLocation Type: interior\nRegion: Bicol Region\nProvince: Sulu\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\nwarm and grounded.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00018",
+    "parent_location_id": "WLOC000053",
+    "name": "Sulu Chapel Courtyard Interior",
+    "interior_type": "community",
+    "map_filename": "interior_WLOC000053.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Sulu Chapel Courtyard Interior\nLocation Type: interior\nRegion: Bicol Region\nProvince: Sulu\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\nmisty and spiritual.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00019",
+    "parent_location_id": "WLOC000061",
+    "name": "Benguet Starter Barangay Interior",
+    "interior_type": "community",
+    "map_filename": "interior_WLOC000061.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Benguet Starter Barangay Interior\nLocation Type: interior\nRegion: Western Visayas\nProvince: Benguet\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\nbright and coastal.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00020",
+    "parent_location_id": "WLOC000062",
+    "name": "Benguet Marketplace Interior",
+    "interior_type": "shop",
+    "map_filename": "interior_WLOC000062.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Benguet Marketplace Interior\nLocation Type: interior\nRegion: Western Visayas\nProvince: Benguet\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\ntense and mythic.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00021",
+    "parent_location_id": "WLOC000063",
+    "name": "Benguet Chapel Courtyard Interior",
+    "interior_type": "community",
+    "map_filename": "interior_WLOC000063.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Benguet Chapel Courtyard Interior\nLocation Type: interior\nRegion: Western Visayas\nProvince: Benguet\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\nwarm and grounded.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00022",
+    "parent_location_id": "WLOC000071",
+    "name": "Bohol Starter Barangay Interior",
+    "interior_type": "community",
+    "map_filename": "interior_WLOC000071.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Bohol Starter Barangay Interior\nLocation Type: interior\nRegion: Central Visayas\nProvince: Bohol\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\nmisty and spiritual.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00023",
+    "parent_location_id": "WLOC000072",
+    "name": "Bohol Marketplace Interior",
+    "interior_type": "shop",
+    "map_filename": "interior_WLOC000072.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Bohol Marketplace Interior\nLocation Type: interior\nRegion: Central Visayas\nProvince: Bohol\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\nbright and coastal.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00024",
+    "parent_location_id": "WLOC000073",
+    "name": "Bohol Chapel Courtyard Interior",
+    "interior_type": "community",
+    "map_filename": "interior_WLOC000073.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Bohol Chapel Courtyard Interior\nLocation Type: interior\nRegion: Central Visayas\nProvince: Bohol\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\ntense and mythic.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00025",
+    "parent_location_id": "WLOC000081",
+    "name": "Samar Starter Barangay Interior",
+    "interior_type": "community",
+    "map_filename": "interior_WLOC000081.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Samar Starter Barangay Interior\nLocation Type: interior\nRegion: Eastern Visayas\nProvince: Samar\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\nwarm and grounded.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00026",
+    "parent_location_id": "WLOC000082",
+    "name": "Samar Marketplace Interior",
+    "interior_type": "shop",
+    "map_filename": "interior_WLOC000082.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Samar Marketplace Interior\nLocation Type: interior\nRegion: Eastern Visayas\nProvince: Samar\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\nmisty and spiritual.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00027",
+    "parent_location_id": "WLOC000083",
+    "name": "Samar Chapel Courtyard Interior",
+    "interior_type": "community",
+    "map_filename": "interior_WLOC000083.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Samar Chapel Courtyard Interior\nLocation Type: interior\nRegion: Eastern Visayas\nProvince: Samar\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\nbright and coastal.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00028",
+    "parent_location_id": "WLOC000091",
+    "name": "Aklan Starter Barangay Interior",
+    "interior_type": "community",
+    "map_filename": "interior_WLOC000091.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Aklan Starter Barangay Interior\nLocation Type: interior\nRegion: Zamboanga Peninsula\nProvince: Aklan\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\ntense and mythic.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00029",
+    "parent_location_id": "WLOC000092",
+    "name": "Aklan Marketplace Interior",
+    "interior_type": "shop",
+    "map_filename": "interior_WLOC000092.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Aklan Marketplace Interior\nLocation Type: interior\nRegion: Zamboanga Peninsula\nProvince: Aklan\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\nwarm and grounded.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00030",
+    "parent_location_id": "WLOC000093",
+    "name": "Aklan Chapel Courtyard Interior",
+    "interior_type": "community",
+    "map_filename": "interior_WLOC000093.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Aklan Chapel Courtyard Interior\nLocation Type: interior\nRegion: Zamboanga Peninsula\nProvince: Aklan\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\nmisty and spiritual.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00031",
+    "parent_location_id": "WLOC000101",
+    "name": "Albay Starter Barangay Interior",
+    "interior_type": "community",
+    "map_filename": "interior_WLOC000101.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Albay Starter Barangay Interior\nLocation Type: interior\nRegion: Northern Mindanao\nProvince: Albay\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\nbright and coastal.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00032",
+    "parent_location_id": "WLOC000102",
+    "name": "Albay Marketplace Interior",
+    "interior_type": "shop",
+    "map_filename": "interior_WLOC000102.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Albay Marketplace Interior\nLocation Type: interior\nRegion: Northern Mindanao\nProvince: Albay\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\ntense and mythic.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00033",
+    "parent_location_id": "WLOC000103",
+    "name": "Albay Chapel Courtyard Interior",
+    "interior_type": "community",
+    "map_filename": "interior_WLOC000103.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Albay Chapel Courtyard Interior\nLocation Type: interior\nRegion: Northern Mindanao\nProvince: Albay\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\nwarm and grounded.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00034",
+    "parent_location_id": "WLOC000111",
+    "name": "Rizal Starter Barangay Interior",
+    "interior_type": "community",
+    "map_filename": "interior_WLOC000111.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Rizal Starter Barangay Interior\nLocation Type: interior\nRegion: Davao Region\nProvince: Rizal\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\nmisty and spiritual.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00035",
+    "parent_location_id": "WLOC000112",
+    "name": "Rizal Marketplace Interior",
+    "interior_type": "shop",
+    "map_filename": "interior_WLOC000112.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Rizal Marketplace Interior\nLocation Type: interior\nRegion: Davao Region\nProvince: Rizal\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\nbright and coastal.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00036",
+    "parent_location_id": "WLOC000113",
+    "name": "Rizal Chapel Courtyard Interior",
+    "interior_type": "community",
+    "map_filename": "interior_WLOC000113.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Rizal Chapel Courtyard Interior\nLocation Type: interior\nRegion: Davao Region\nProvince: Rizal\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\ntense and mythic.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00037",
+    "parent_location_id": "WLOC000121",
+    "name": "Bukidnon Starter Barangay Interior",
+    "interior_type": "community",
+    "map_filename": "interior_WLOC000121.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Bukidnon Starter Barangay Interior\nLocation Type: interior\nRegion: SOCCSKSARGEN\nProvince: Bukidnon\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\nwarm and grounded.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00038",
+    "parent_location_id": "WLOC000122",
+    "name": "Bukidnon Marketplace Interior",
+    "interior_type": "shop",
+    "map_filename": "interior_WLOC000122.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Bukidnon Marketplace Interior\nLocation Type: interior\nRegion: SOCCSKSARGEN\nProvince: Bukidnon\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\nmisty and spiritual.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00039",
+    "parent_location_id": "WLOC000123",
+    "name": "Bukidnon Chapel Courtyard Interior",
+    "interior_type": "community",
+    "map_filename": "interior_WLOC000123.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Bukidnon Chapel Courtyard Interior\nLocation Type: interior\nRegion: SOCCSKSARGEN\nProvince: Bukidnon\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\nbright and coastal.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00040",
+    "parent_location_id": "WLOC000131",
+    "name": "Agusan del Norte Starter Barangay Interior",
+    "interior_type": "community",
+    "map_filename": "interior_WLOC000131.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Agusan del Norte Starter Barangay Interior\nLocation Type: interior\nRegion: Caraga\nProvince: Agusan del Norte\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\ntense and mythic.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00041",
+    "parent_location_id": "WLOC000132",
+    "name": "Agusan del Norte Marketplace Interior",
+    "interior_type": "shop",
+    "map_filename": "interior_WLOC000132.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Agusan del Norte Marketplace Interior\nLocation Type: interior\nRegion: Caraga\nProvince: Agusan del Norte\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\nwarm and grounded.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00042",
+    "parent_location_id": "WLOC000133",
+    "name": "Agusan del Norte Chapel Courtyard Interior",
+    "interior_type": "community",
+    "map_filename": "interior_WLOC000133.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Agusan del Norte Chapel Courtyard Interior\nLocation Type: interior\nRegion: Caraga\nProvince: Agusan del Norte\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\nmisty and spiritual.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00043",
+    "parent_location_id": "WLOC000141",
+    "name": "Tawi-Tawi Starter Barangay Interior",
+    "interior_type": "community",
+    "map_filename": "interior_WLOC000141.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Tawi-Tawi Starter Barangay Interior\nLocation Type: interior\nRegion: Bangsamoro\nProvince: Tawi-Tawi\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\nbright and coastal.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00044",
+    "parent_location_id": "WLOC000142",
+    "name": "Tawi-Tawi Marketplace Interior",
+    "interior_type": "shop",
+    "map_filename": "interior_WLOC000142.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Tawi-Tawi Marketplace Interior\nLocation Type: interior\nRegion: Bangsamoro\nProvince: Tawi-Tawi\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\ntense and mythic.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00045",
+    "parent_location_id": "WLOC000143",
+    "name": "Tawi-Tawi Chapel Courtyard Interior",
+    "interior_type": "community",
+    "map_filename": "interior_WLOC000143.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Tawi-Tawi Chapel Courtyard Interior\nLocation Type: interior\nRegion: Bangsamoro\nProvince: Tawi-Tawi\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\nwarm and grounded.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00046",
+    "parent_location_id": "WLOC000151",
+    "name": "Ifugao Starter Barangay Interior",
+    "interior_type": "community",
+    "map_filename": "interior_WLOC000151.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Ifugao Starter Barangay Interior\nLocation Type: interior\nRegion: Cordillera\nProvince: Ifugao\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\nmisty and spiritual.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00047",
+    "parent_location_id": "WLOC000152",
+    "name": "Ifugao Marketplace Interior",
+    "interior_type": "shop",
+    "map_filename": "interior_WLOC000152.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Ifugao Marketplace Interior\nLocation Type: interior\nRegion: Cordillera\nProvince: Ifugao\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\nbright and coastal.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00048",
+    "parent_location_id": "WLOC000153",
+    "name": "Ifugao Chapel Courtyard Interior",
+    "interior_type": "community",
+    "map_filename": "interior_WLOC000153.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Ifugao Chapel Courtyard Interior\nLocation Type: interior\nRegion: Cordillera\nProvince: Ifugao\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\ntense and mythic.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00049",
+    "parent_location_id": "WLOC000161",
+    "name": "Metro Manila Starter Barangay Interior",
+    "interior_type": "community",
+    "map_filename": "interior_WLOC000161.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Metro Manila Starter Barangay Interior\nLocation Type: interior\nRegion: National Capital Region\nProvince: Metro Manila\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\nwarm and grounded.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00050",
+    "parent_location_id": "WLOC000162",
+    "name": "Metro Manila Marketplace Interior",
+    "interior_type": "shop",
+    "map_filename": "interior_WLOC000162.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Metro Manila Marketplace Interior\nLocation Type: interior\nRegion: National Capital Region\nProvince: Metro Manila\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\nmisty and spiritual.",
+    "is_active": true
+  },
+  {
+    "interior_id": "WINT00051",
+    "parent_location_id": "WLOC000163",
+    "name": "Metro Manila Chapel Courtyard Interior",
+    "interior_type": "community",
+    "map_filename": "interior_WLOC000163.json",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Metro Manila Chapel Courtyard Interior\nLocation Type: interior\nRegion: National Capital Region\nProvince: Metro Manila\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ninterior paths, counters, warm lights, practical collision objects\n\nMood:\nbright and coastal.",
+    "is_active": true
+  }
+]

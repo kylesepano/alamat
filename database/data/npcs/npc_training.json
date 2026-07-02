@@ -1,0 +1,3362 @@
+[
+  {
+    "training_id": "NPCTRAIN0004010",
+    "npc_id": "NPC000401",
+    "trainer_id": "NPCTRN000401",
+    "lesson_type": "Passives",
+    "lesson_key": "lesson_datu-tagapulo_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0402",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004011",
+    "npc_id": "NPC000401",
+    "trainer_id": "NPCTRN000401",
+    "lesson_type": "Recipes",
+    "lesson_key": "lesson_datu-tagapulo_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0402",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004020",
+    "npc_id": "NPC000402",
+    "trainer_id": "NPCTRN000402",
+    "lesson_type": "Recipes",
+    "lesson_key": "lesson_lira-dalisay_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0403",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004021",
+    "npc_id": "NPC000402",
+    "trainer_id": "NPCTRN000402",
+    "lesson_type": "Crafting",
+    "lesson_key": "lesson_lira-dalisay_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0403",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004030",
+    "npc_id": "NPC000403",
+    "trainer_id": "NPCTRN000403",
+    "lesson_type": "Crafting",
+    "lesson_key": "lesson_bayani-balagtas_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0404",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004031",
+    "npc_id": "NPC000403",
+    "trainer_id": "NPCTRN000403",
+    "lesson_type": "Cooking",
+    "lesson_key": "lesson_bayani-balagtas_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0404",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004040",
+    "npc_id": "NPC000404",
+    "trainer_id": "NPCTRN000404",
+    "lesson_type": "Cooking",
+    "lesson_key": "lesson_mayumi-dimalanta_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0405",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004041",
+    "npc_id": "NPC000404",
+    "trainer_id": "NPCTRN000404",
+    "lesson_type": "Monster Bonding",
+    "lesson_key": "lesson_mayumi-dimalanta_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0405",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004050",
+    "npc_id": "NPC000405",
+    "trainer_id": "NPCTRN000405",
+    "lesson_type": "Monster Bonding",
+    "lesson_key": "lesson_makisig-silangan_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0406",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004051",
+    "npc_id": "NPC000405",
+    "trainer_id": "NPCTRN000405",
+    "lesson_type": "Capture Techniques",
+    "lesson_key": "lesson_makisig-silangan_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0406",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004060",
+    "npc_id": "NPC000406",
+    "trainer_id": "NPCTRN000406",
+    "lesson_type": "Capture Techniques",
+    "lesson_key": "lesson_hiraya-mabini_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0407",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004061",
+    "npc_id": "NPC000406",
+    "trainer_id": "NPCTRN000406",
+    "lesson_type": "Lore",
+    "lesson_key": "lesson_hiraya-mabini_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0407",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004070",
+    "npc_id": "NPC000407",
+    "trainer_id": "NPCTRN000407",
+    "lesson_type": "Lore",
+    "lesson_key": "lesson_tala-makiling_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0408",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004071",
+    "npc_id": "NPC000407",
+    "trainer_id": "NPCTRN000407",
+    "lesson_type": "Skills",
+    "lesson_key": "lesson_tala-makiling_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0408",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004080",
+    "npc_id": "NPC000408",
+    "trainer_id": "NPCTRN000408",
+    "lesson_type": "Skills",
+    "lesson_key": "lesson_kidlat-banaag_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0409",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004081",
+    "npc_id": "NPC000408",
+    "trainer_id": "NPCTRN000408",
+    "lesson_type": "Passives",
+    "lesson_key": "lesson_kidlat-banaag_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0409",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004090",
+    "npc_id": "NPC000409",
+    "trainer_id": "NPCTRN000409",
+    "lesson_type": "Passives",
+    "lesson_key": "lesson_mutya-salcedo_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0410",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004091",
+    "npc_id": "NPC000409",
+    "trainer_id": "NPCTRN000409",
+    "lesson_type": "Recipes",
+    "lesson_key": "lesson_mutya-salcedo_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0410",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004100",
+    "npc_id": "NPC000410",
+    "trainer_id": "NPCTRN000410",
+    "lesson_type": "Recipes",
+    "lesson_key": "lesson_sinag-agbayani_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0411",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004101",
+    "npc_id": "NPC000410",
+    "trainer_id": "NPCTRN000410",
+    "lesson_type": "Crafting",
+    "lesson_key": "lesson_sinag-agbayani_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0411",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004110",
+    "npc_id": "NPC000411",
+    "trainer_id": "NPCTRN000411",
+    "lesson_type": "Crafting",
+    "lesson_key": "lesson_lakan-magsalin_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0412",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004111",
+    "npc_id": "NPC000411",
+    "trainer_id": "NPCTRN000411",
+    "lesson_type": "Cooking",
+    "lesson_key": "lesson_lakan-magsalin_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0412",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004120",
+    "npc_id": "NPC000412",
+    "trainer_id": "NPCTRN000412",
+    "lesson_type": "Cooking",
+    "lesson_key": "lesson_ligaya-lakandula_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0413",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004121",
+    "npc_id": "NPC000412",
+    "trainer_id": "NPCTRN000412",
+    "lesson_type": "Monster Bonding",
+    "lesson_key": "lesson_ligaya-lakandula_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0413",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004130",
+    "npc_id": "NPC000413",
+    "trainer_id": "NPCTRN000413",
+    "lesson_type": "Monster Bonding",
+    "lesson_key": "lesson_habagat-kalaw_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0414",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004131",
+    "npc_id": "NPC000413",
+    "trainer_id": "NPCTRN000413",
+    "lesson_type": "Capture Techniques",
+    "lesson_key": "lesson_habagat-kalaw_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0414",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004140",
+    "npc_id": "NPC000414",
+    "trainer_id": "NPCTRN000414",
+    "lesson_type": "Capture Techniques",
+    "lesson_key": "lesson_marikit-bagwis_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0415",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004141",
+    "npc_id": "NPC000414",
+    "trainer_id": "NPCTRN000414",
+    "lesson_type": "Lore",
+    "lesson_key": "lesson_marikit-bagwis_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0415",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004150",
+    "npc_id": "NPC000415",
+    "trainer_id": "NPCTRN000415",
+    "lesson_type": "Lore",
+    "lesson_key": "lesson_alon-sikatuna_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0416",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004151",
+    "npc_id": "NPC000415",
+    "trainer_id": "NPCTRN000415",
+    "lesson_type": "Skills",
+    "lesson_key": "lesson_alon-sikatuna_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0416",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004160",
+    "npc_id": "NPC000416",
+    "trainer_id": "NPCTRN000416",
+    "lesson_type": "Skills",
+    "lesson_key": "lesson_diwa-tagapulo_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0417",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004161",
+    "npc_id": "NPC000416",
+    "trainer_id": "NPCTRN000416",
+    "lesson_type": "Passives",
+    "lesson_key": "lesson_diwa-tagapulo_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0417",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004170",
+    "npc_id": "NPC000417",
+    "trainer_id": "NPCTRN000417",
+    "lesson_type": "Passives",
+    "lesson_key": "lesson_sari-dalisay_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0418",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004171",
+    "npc_id": "NPC000417",
+    "trainer_id": "NPCTRN000417",
+    "lesson_type": "Recipes",
+    "lesson_key": "lesson_sari-dalisay_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0418",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004180",
+    "npc_id": "NPC000418",
+    "trainer_id": "NPCTRN000418",
+    "lesson_type": "Recipes",
+    "lesson_key": "lesson_tandang-balagtas_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0419",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004181",
+    "npc_id": "NPC000418",
+    "trainer_id": "NPCTRN000418",
+    "lesson_type": "Crafting",
+    "lesson_key": "lesson_tandang-balagtas_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0419",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004190",
+    "npc_id": "NPC000419",
+    "trainer_id": "NPCTRN000419",
+    "lesson_type": "Crafting",
+    "lesson_key": "lesson_isagani-dimalanta_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0420",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004191",
+    "npc_id": "NPC000419",
+    "trainer_id": "NPCTRN000419",
+    "lesson_type": "Cooking",
+    "lesson_key": "lesson_isagani-dimalanta_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0420",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004200",
+    "npc_id": "NPC000420",
+    "trainer_id": "NPCTRN000420",
+    "lesson_type": "Cooking",
+    "lesson_key": "lesson_amaya-silangan_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0421",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004201",
+    "npc_id": "NPC000420",
+    "trainer_id": "NPCTRN000420",
+    "lesson_type": "Monster Bonding",
+    "lesson_key": "lesson_amaya-silangan_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0421",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004210",
+    "npc_id": "NPC000421",
+    "trainer_id": "NPCTRN000421",
+    "lesson_type": "Monster Bonding",
+    "lesson_key": "lesson_datu-mabini_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0422",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004211",
+    "npc_id": "NPC000421",
+    "trainer_id": "NPCTRN000421",
+    "lesson_type": "Capture Techniques",
+    "lesson_key": "lesson_datu-mabini_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0422",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004220",
+    "npc_id": "NPC000422",
+    "trainer_id": "NPCTRN000422",
+    "lesson_type": "Capture Techniques",
+    "lesson_key": "lesson_lira-makiling_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0423",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004221",
+    "npc_id": "NPC000422",
+    "trainer_id": "NPCTRN000422",
+    "lesson_type": "Lore",
+    "lesson_key": "lesson_lira-makiling_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0423",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004230",
+    "npc_id": "NPC000423",
+    "trainer_id": "NPCTRN000423",
+    "lesson_type": "Lore",
+    "lesson_key": "lesson_bayani-banaag_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0424",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004231",
+    "npc_id": "NPC000423",
+    "trainer_id": "NPCTRN000423",
+    "lesson_type": "Skills",
+    "lesson_key": "lesson_bayani-banaag_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0424",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004240",
+    "npc_id": "NPC000424",
+    "trainer_id": "NPCTRN000424",
+    "lesson_type": "Skills",
+    "lesson_key": "lesson_mayumi-salcedo_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0425",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004241",
+    "npc_id": "NPC000424",
+    "trainer_id": "NPCTRN000424",
+    "lesson_type": "Passives",
+    "lesson_key": "lesson_mayumi-salcedo_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0425",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004250",
+    "npc_id": "NPC000425",
+    "trainer_id": "NPCTRN000425",
+    "lesson_type": "Passives",
+    "lesson_key": "lesson_makisig-agbayani_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0426",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004251",
+    "npc_id": "NPC000425",
+    "trainer_id": "NPCTRN000425",
+    "lesson_type": "Recipes",
+    "lesson_key": "lesson_makisig-agbayani_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0426",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004260",
+    "npc_id": "NPC000426",
+    "trainer_id": "NPCTRN000426",
+    "lesson_type": "Recipes",
+    "lesson_key": "lesson_hiraya-magsalin_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0427",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004261",
+    "npc_id": "NPC000426",
+    "trainer_id": "NPCTRN000426",
+    "lesson_type": "Crafting",
+    "lesson_key": "lesson_hiraya-magsalin_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0427",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004270",
+    "npc_id": "NPC000427",
+    "trainer_id": "NPCTRN000427",
+    "lesson_type": "Crafting",
+    "lesson_key": "lesson_tala-lakandula_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0428",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004271",
+    "npc_id": "NPC000427",
+    "trainer_id": "NPCTRN000427",
+    "lesson_type": "Cooking",
+    "lesson_key": "lesson_tala-lakandula_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0428",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004280",
+    "npc_id": "NPC000428",
+    "trainer_id": "NPCTRN000428",
+    "lesson_type": "Cooking",
+    "lesson_key": "lesson_kidlat-kalaw_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0429",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004281",
+    "npc_id": "NPC000428",
+    "trainer_id": "NPCTRN000428",
+    "lesson_type": "Monster Bonding",
+    "lesson_key": "lesson_kidlat-kalaw_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0429",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004290",
+    "npc_id": "NPC000429",
+    "trainer_id": "NPCTRN000429",
+    "lesson_type": "Monster Bonding",
+    "lesson_key": "lesson_mutya-bagwis_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0430",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004291",
+    "npc_id": "NPC000429",
+    "trainer_id": "NPCTRN000429",
+    "lesson_type": "Capture Techniques",
+    "lesson_key": "lesson_mutya-bagwis_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0430",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004300",
+    "npc_id": "NPC000430",
+    "trainer_id": "NPCTRN000430",
+    "lesson_type": "Capture Techniques",
+    "lesson_key": "lesson_sinag-sikatuna_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0431",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004301",
+    "npc_id": "NPC000430",
+    "trainer_id": "NPCTRN000430",
+    "lesson_type": "Lore",
+    "lesson_key": "lesson_sinag-sikatuna_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0431",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004310",
+    "npc_id": "NPC000431",
+    "trainer_id": "NPCTRN000431",
+    "lesson_type": "Lore",
+    "lesson_key": "lesson_lakan-tagapulo_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0432",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004311",
+    "npc_id": "NPC000431",
+    "trainer_id": "NPCTRN000431",
+    "lesson_type": "Skills",
+    "lesson_key": "lesson_lakan-tagapulo_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0432",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004320",
+    "npc_id": "NPC000432",
+    "trainer_id": "NPCTRN000432",
+    "lesson_type": "Skills",
+    "lesson_key": "lesson_ligaya-dalisay_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0433",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004321",
+    "npc_id": "NPC000432",
+    "trainer_id": "NPCTRN000432",
+    "lesson_type": "Passives",
+    "lesson_key": "lesson_ligaya-dalisay_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0433",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004330",
+    "npc_id": "NPC000433",
+    "trainer_id": "NPCTRN000433",
+    "lesson_type": "Passives",
+    "lesson_key": "lesson_habagat-balagtas_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0434",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004331",
+    "npc_id": "NPC000433",
+    "trainer_id": "NPCTRN000433",
+    "lesson_type": "Recipes",
+    "lesson_key": "lesson_habagat-balagtas_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0434",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004340",
+    "npc_id": "NPC000434",
+    "trainer_id": "NPCTRN000434",
+    "lesson_type": "Recipes",
+    "lesson_key": "lesson_marikit-dimalanta_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0435",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004341",
+    "npc_id": "NPC000434",
+    "trainer_id": "NPCTRN000434",
+    "lesson_type": "Crafting",
+    "lesson_key": "lesson_marikit-dimalanta_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0435",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004350",
+    "npc_id": "NPC000435",
+    "trainer_id": "NPCTRN000435",
+    "lesson_type": "Crafting",
+    "lesson_key": "lesson_alon-silangan_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0436",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004351",
+    "npc_id": "NPC000435",
+    "trainer_id": "NPCTRN000435",
+    "lesson_type": "Cooking",
+    "lesson_key": "lesson_alon-silangan_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0436",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004360",
+    "npc_id": "NPC000436",
+    "trainer_id": "NPCTRN000436",
+    "lesson_type": "Cooking",
+    "lesson_key": "lesson_diwa-mabini_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0437",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004361",
+    "npc_id": "NPC000436",
+    "trainer_id": "NPCTRN000436",
+    "lesson_type": "Monster Bonding",
+    "lesson_key": "lesson_diwa-mabini_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0437",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004370",
+    "npc_id": "NPC000437",
+    "trainer_id": "NPCTRN000437",
+    "lesson_type": "Monster Bonding",
+    "lesson_key": "lesson_sari-makiling_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0438",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004371",
+    "npc_id": "NPC000437",
+    "trainer_id": "NPCTRN000437",
+    "lesson_type": "Capture Techniques",
+    "lesson_key": "lesson_sari-makiling_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0438",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004380",
+    "npc_id": "NPC000438",
+    "trainer_id": "NPCTRN000438",
+    "lesson_type": "Capture Techniques",
+    "lesson_key": "lesson_tandang-banaag_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0439",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004381",
+    "npc_id": "NPC000438",
+    "trainer_id": "NPCTRN000438",
+    "lesson_type": "Lore",
+    "lesson_key": "lesson_tandang-banaag_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0439",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004390",
+    "npc_id": "NPC000439",
+    "trainer_id": "NPCTRN000439",
+    "lesson_type": "Lore",
+    "lesson_key": "lesson_isagani-salcedo_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0440",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004391",
+    "npc_id": "NPC000439",
+    "trainer_id": "NPCTRN000439",
+    "lesson_type": "Skills",
+    "lesson_key": "lesson_isagani-salcedo_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0440",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004400",
+    "npc_id": "NPC000440",
+    "trainer_id": "NPCTRN000440",
+    "lesson_type": "Skills",
+    "lesson_key": "lesson_amaya-agbayani_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0441",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004401",
+    "npc_id": "NPC000440",
+    "trainer_id": "NPCTRN000440",
+    "lesson_type": "Passives",
+    "lesson_key": "lesson_amaya-agbayani_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0441",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004410",
+    "npc_id": "NPC000441",
+    "trainer_id": "NPCTRN000441",
+    "lesson_type": "Passives",
+    "lesson_key": "lesson_datu-magsalin_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0442",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004411",
+    "npc_id": "NPC000441",
+    "trainer_id": "NPCTRN000441",
+    "lesson_type": "Recipes",
+    "lesson_key": "lesson_datu-magsalin_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0442",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004420",
+    "npc_id": "NPC000442",
+    "trainer_id": "NPCTRN000442",
+    "lesson_type": "Recipes",
+    "lesson_key": "lesson_lira-lakandula_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0443",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004421",
+    "npc_id": "NPC000442",
+    "trainer_id": "NPCTRN000442",
+    "lesson_type": "Crafting",
+    "lesson_key": "lesson_lira-lakandula_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0443",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004430",
+    "npc_id": "NPC000443",
+    "trainer_id": "NPCTRN000443",
+    "lesson_type": "Crafting",
+    "lesson_key": "lesson_bayani-kalaw_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0444",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004431",
+    "npc_id": "NPC000443",
+    "trainer_id": "NPCTRN000443",
+    "lesson_type": "Cooking",
+    "lesson_key": "lesson_bayani-kalaw_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0444",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004440",
+    "npc_id": "NPC000444",
+    "trainer_id": "NPCTRN000444",
+    "lesson_type": "Cooking",
+    "lesson_key": "lesson_mayumi-bagwis_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0445",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004441",
+    "npc_id": "NPC000444",
+    "trainer_id": "NPCTRN000444",
+    "lesson_type": "Monster Bonding",
+    "lesson_key": "lesson_mayumi-bagwis_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0445",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004450",
+    "npc_id": "NPC000445",
+    "trainer_id": "NPCTRN000445",
+    "lesson_type": "Monster Bonding",
+    "lesson_key": "lesson_makisig-sikatuna_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0446",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004451",
+    "npc_id": "NPC000445",
+    "trainer_id": "NPCTRN000445",
+    "lesson_type": "Capture Techniques",
+    "lesson_key": "lesson_makisig-sikatuna_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0446",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004460",
+    "npc_id": "NPC000446",
+    "trainer_id": "NPCTRN000446",
+    "lesson_type": "Capture Techniques",
+    "lesson_key": "lesson_hiraya-tagapulo_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0447",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004461",
+    "npc_id": "NPC000446",
+    "trainer_id": "NPCTRN000446",
+    "lesson_type": "Lore",
+    "lesson_key": "lesson_hiraya-tagapulo_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0447",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004470",
+    "npc_id": "NPC000447",
+    "trainer_id": "NPCTRN000447",
+    "lesson_type": "Lore",
+    "lesson_key": "lesson_tala-dalisay_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0448",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004471",
+    "npc_id": "NPC000447",
+    "trainer_id": "NPCTRN000447",
+    "lesson_type": "Skills",
+    "lesson_key": "lesson_tala-dalisay_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0448",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004480",
+    "npc_id": "NPC000448",
+    "trainer_id": "NPCTRN000448",
+    "lesson_type": "Skills",
+    "lesson_key": "lesson_kidlat-balagtas_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0449",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004481",
+    "npc_id": "NPC000448",
+    "trainer_id": "NPCTRN000448",
+    "lesson_type": "Passives",
+    "lesson_key": "lesson_kidlat-balagtas_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0449",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004490",
+    "npc_id": "NPC000449",
+    "trainer_id": "NPCTRN000449",
+    "lesson_type": "Passives",
+    "lesson_key": "lesson_mutya-dimalanta_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0450",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004491",
+    "npc_id": "NPC000449",
+    "trainer_id": "NPCTRN000449",
+    "lesson_type": "Recipes",
+    "lesson_key": "lesson_mutya-dimalanta_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0450",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004500",
+    "npc_id": "NPC000450",
+    "trainer_id": "NPCTRN000450",
+    "lesson_type": "Recipes",
+    "lesson_key": "lesson_sinag-silangan_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0451",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004501",
+    "npc_id": "NPC000450",
+    "trainer_id": "NPCTRN000450",
+    "lesson_type": "Crafting",
+    "lesson_key": "lesson_sinag-silangan_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0451",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004510",
+    "npc_id": "NPC000451",
+    "trainer_id": "NPCTRN000451",
+    "lesson_type": "Crafting",
+    "lesson_key": "lesson_lakan-mabini_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0452",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004511",
+    "npc_id": "NPC000451",
+    "trainer_id": "NPCTRN000451",
+    "lesson_type": "Cooking",
+    "lesson_key": "lesson_lakan-mabini_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0452",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004520",
+    "npc_id": "NPC000452",
+    "trainer_id": "NPCTRN000452",
+    "lesson_type": "Cooking",
+    "lesson_key": "lesson_ligaya-makiling_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0453",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004521",
+    "npc_id": "NPC000452",
+    "trainer_id": "NPCTRN000452",
+    "lesson_type": "Monster Bonding",
+    "lesson_key": "lesson_ligaya-makiling_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0453",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004530",
+    "npc_id": "NPC000453",
+    "trainer_id": "NPCTRN000453",
+    "lesson_type": "Monster Bonding",
+    "lesson_key": "lesson_habagat-banaag_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0454",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004531",
+    "npc_id": "NPC000453",
+    "trainer_id": "NPCTRN000453",
+    "lesson_type": "Capture Techniques",
+    "lesson_key": "lesson_habagat-banaag_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0454",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004540",
+    "npc_id": "NPC000454",
+    "trainer_id": "NPCTRN000454",
+    "lesson_type": "Capture Techniques",
+    "lesson_key": "lesson_marikit-salcedo_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0455",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004541",
+    "npc_id": "NPC000454",
+    "trainer_id": "NPCTRN000454",
+    "lesson_type": "Lore",
+    "lesson_key": "lesson_marikit-salcedo_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0455",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004550",
+    "npc_id": "NPC000455",
+    "trainer_id": "NPCTRN000455",
+    "lesson_type": "Lore",
+    "lesson_key": "lesson_alon-agbayani_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0456",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004551",
+    "npc_id": "NPC000455",
+    "trainer_id": "NPCTRN000455",
+    "lesson_type": "Skills",
+    "lesson_key": "lesson_alon-agbayani_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0456",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004560",
+    "npc_id": "NPC000456",
+    "trainer_id": "NPCTRN000456",
+    "lesson_type": "Skills",
+    "lesson_key": "lesson_diwa-magsalin_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0457",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004561",
+    "npc_id": "NPC000456",
+    "trainer_id": "NPCTRN000456",
+    "lesson_type": "Passives",
+    "lesson_key": "lesson_diwa-magsalin_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0457",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004570",
+    "npc_id": "NPC000457",
+    "trainer_id": "NPCTRN000457",
+    "lesson_type": "Passives",
+    "lesson_key": "lesson_sari-lakandula_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0458",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004571",
+    "npc_id": "NPC000457",
+    "trainer_id": "NPCTRN000457",
+    "lesson_type": "Recipes",
+    "lesson_key": "lesson_sari-lakandula_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0458",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004580",
+    "npc_id": "NPC000458",
+    "trainer_id": "NPCTRN000458",
+    "lesson_type": "Recipes",
+    "lesson_key": "lesson_tandang-kalaw_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0459",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004581",
+    "npc_id": "NPC000458",
+    "trainer_id": "NPCTRN000458",
+    "lesson_type": "Crafting",
+    "lesson_key": "lesson_tandang-kalaw_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0459",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004590",
+    "npc_id": "NPC000459",
+    "trainer_id": "NPCTRN000459",
+    "lesson_type": "Crafting",
+    "lesson_key": "lesson_isagani-bagwis_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0460",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004591",
+    "npc_id": "NPC000459",
+    "trainer_id": "NPCTRN000459",
+    "lesson_type": "Cooking",
+    "lesson_key": "lesson_isagani-bagwis_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0460",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004600",
+    "npc_id": "NPC000460",
+    "trainer_id": "NPCTRN000460",
+    "lesson_type": "Cooking",
+    "lesson_key": "lesson_amaya-sikatuna_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0461",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004601",
+    "npc_id": "NPC000460",
+    "trainer_id": "NPCTRN000460",
+    "lesson_type": "Monster Bonding",
+    "lesson_key": "lesson_amaya-sikatuna_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0461",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004610",
+    "npc_id": "NPC000461",
+    "trainer_id": "NPCTRN000461",
+    "lesson_type": "Monster Bonding",
+    "lesson_key": "lesson_datu-tagapulo_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0462",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004611",
+    "npc_id": "NPC000461",
+    "trainer_id": "NPCTRN000461",
+    "lesson_type": "Capture Techniques",
+    "lesson_key": "lesson_datu-tagapulo_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0462",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004620",
+    "npc_id": "NPC000462",
+    "trainer_id": "NPCTRN000462",
+    "lesson_type": "Capture Techniques",
+    "lesson_key": "lesson_lira-dalisay_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0463",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004621",
+    "npc_id": "NPC000462",
+    "trainer_id": "NPCTRN000462",
+    "lesson_type": "Lore",
+    "lesson_key": "lesson_lira-dalisay_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0463",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004630",
+    "npc_id": "NPC000463",
+    "trainer_id": "NPCTRN000463",
+    "lesson_type": "Lore",
+    "lesson_key": "lesson_bayani-balagtas_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0464",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004631",
+    "npc_id": "NPC000463",
+    "trainer_id": "NPCTRN000463",
+    "lesson_type": "Skills",
+    "lesson_key": "lesson_bayani-balagtas_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0464",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004640",
+    "npc_id": "NPC000464",
+    "trainer_id": "NPCTRN000464",
+    "lesson_type": "Skills",
+    "lesson_key": "lesson_mayumi-dimalanta_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0465",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004641",
+    "npc_id": "NPC000464",
+    "trainer_id": "NPCTRN000464",
+    "lesson_type": "Passives",
+    "lesson_key": "lesson_mayumi-dimalanta_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0465",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004650",
+    "npc_id": "NPC000465",
+    "trainer_id": "NPCTRN000465",
+    "lesson_type": "Passives",
+    "lesson_key": "lesson_makisig-silangan_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0466",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004651",
+    "npc_id": "NPC000465",
+    "trainer_id": "NPCTRN000465",
+    "lesson_type": "Recipes",
+    "lesson_key": "lesson_makisig-silangan_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0466",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004660",
+    "npc_id": "NPC000466",
+    "trainer_id": "NPCTRN000466",
+    "lesson_type": "Recipes",
+    "lesson_key": "lesson_hiraya-mabini_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0467",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004661",
+    "npc_id": "NPC000466",
+    "trainer_id": "NPCTRN000466",
+    "lesson_type": "Crafting",
+    "lesson_key": "lesson_hiraya-mabini_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0467",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004670",
+    "npc_id": "NPC000467",
+    "trainer_id": "NPCTRN000467",
+    "lesson_type": "Crafting",
+    "lesson_key": "lesson_tala-makiling_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0468",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004671",
+    "npc_id": "NPC000467",
+    "trainer_id": "NPCTRN000467",
+    "lesson_type": "Cooking",
+    "lesson_key": "lesson_tala-makiling_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0468",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004680",
+    "npc_id": "NPC000468",
+    "trainer_id": "NPCTRN000468",
+    "lesson_type": "Cooking",
+    "lesson_key": "lesson_kidlat-banaag_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0469",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004681",
+    "npc_id": "NPC000468",
+    "trainer_id": "NPCTRN000468",
+    "lesson_type": "Monster Bonding",
+    "lesson_key": "lesson_kidlat-banaag_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0469",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004690",
+    "npc_id": "NPC000469",
+    "trainer_id": "NPCTRN000469",
+    "lesson_type": "Monster Bonding",
+    "lesson_key": "lesson_mutya-salcedo_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0470",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004691",
+    "npc_id": "NPC000469",
+    "trainer_id": "NPCTRN000469",
+    "lesson_type": "Capture Techniques",
+    "lesson_key": "lesson_mutya-salcedo_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0470",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004700",
+    "npc_id": "NPC000470",
+    "trainer_id": "NPCTRN000470",
+    "lesson_type": "Capture Techniques",
+    "lesson_key": "lesson_sinag-agbayani_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0471",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004701",
+    "npc_id": "NPC000470",
+    "trainer_id": "NPCTRN000470",
+    "lesson_type": "Lore",
+    "lesson_key": "lesson_sinag-agbayani_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0471",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004710",
+    "npc_id": "NPC000471",
+    "trainer_id": "NPCTRN000471",
+    "lesson_type": "Lore",
+    "lesson_key": "lesson_lakan-magsalin_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0472",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004711",
+    "npc_id": "NPC000471",
+    "trainer_id": "NPCTRN000471",
+    "lesson_type": "Skills",
+    "lesson_key": "lesson_lakan-magsalin_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0472",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004720",
+    "npc_id": "NPC000472",
+    "trainer_id": "NPCTRN000472",
+    "lesson_type": "Skills",
+    "lesson_key": "lesson_ligaya-lakandula_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0473",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004721",
+    "npc_id": "NPC000472",
+    "trainer_id": "NPCTRN000472",
+    "lesson_type": "Passives",
+    "lesson_key": "lesson_ligaya-lakandula_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0473",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004730",
+    "npc_id": "NPC000473",
+    "trainer_id": "NPCTRN000473",
+    "lesson_type": "Passives",
+    "lesson_key": "lesson_habagat-kalaw_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0474",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004731",
+    "npc_id": "NPC000473",
+    "trainer_id": "NPCTRN000473",
+    "lesson_type": "Recipes",
+    "lesson_key": "lesson_habagat-kalaw_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0474",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004740",
+    "npc_id": "NPC000474",
+    "trainer_id": "NPCTRN000474",
+    "lesson_type": "Recipes",
+    "lesson_key": "lesson_marikit-bagwis_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0475",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004741",
+    "npc_id": "NPC000474",
+    "trainer_id": "NPCTRN000474",
+    "lesson_type": "Crafting",
+    "lesson_key": "lesson_marikit-bagwis_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0475",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004750",
+    "npc_id": "NPC000475",
+    "trainer_id": "NPCTRN000475",
+    "lesson_type": "Crafting",
+    "lesson_key": "lesson_alon-sikatuna_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0476",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004751",
+    "npc_id": "NPC000475",
+    "trainer_id": "NPCTRN000475",
+    "lesson_type": "Cooking",
+    "lesson_key": "lesson_alon-sikatuna_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0476",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004760",
+    "npc_id": "NPC000476",
+    "trainer_id": "NPCTRN000476",
+    "lesson_type": "Cooking",
+    "lesson_key": "lesson_diwa-tagapulo_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0477",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004761",
+    "npc_id": "NPC000476",
+    "trainer_id": "NPCTRN000476",
+    "lesson_type": "Monster Bonding",
+    "lesson_key": "lesson_diwa-tagapulo_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0477",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004770",
+    "npc_id": "NPC000477",
+    "trainer_id": "NPCTRN000477",
+    "lesson_type": "Monster Bonding",
+    "lesson_key": "lesson_sari-dalisay_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0478",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004771",
+    "npc_id": "NPC000477",
+    "trainer_id": "NPCTRN000477",
+    "lesson_type": "Capture Techniques",
+    "lesson_key": "lesson_sari-dalisay_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0478",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004780",
+    "npc_id": "NPC000478",
+    "trainer_id": "NPCTRN000478",
+    "lesson_type": "Capture Techniques",
+    "lesson_key": "lesson_tandang-balagtas_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0479",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004781",
+    "npc_id": "NPC000478",
+    "trainer_id": "NPCTRN000478",
+    "lesson_type": "Lore",
+    "lesson_key": "lesson_tandang-balagtas_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0479",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004790",
+    "npc_id": "NPC000479",
+    "trainer_id": "NPCTRN000479",
+    "lesson_type": "Lore",
+    "lesson_key": "lesson_isagani-dimalanta_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0480",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004791",
+    "npc_id": "NPC000479",
+    "trainer_id": "NPCTRN000479",
+    "lesson_type": "Skills",
+    "lesson_key": "lesson_isagani-dimalanta_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0480",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004800",
+    "npc_id": "NPC000480",
+    "trainer_id": "NPCTRN000480",
+    "lesson_type": "Skills",
+    "lesson_key": "lesson_amaya-silangan_1",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0481",
+      "recipe_id": null
+    },
+    "requirements_payload": {
+      "friendship_points": 100,
+      "gold": 50,
+      "required_item_id": null
+    },
+    "cost_payload": {
+      "gold": 50,
+      "offerings": []
+    },
+    "is_active": true
+  },
+  {
+    "training_id": "NPCTRAIN0004801",
+    "npc_id": "NPC000480",
+    "trainer_id": "NPCTRN000480",
+    "lesson_type": "Passives",
+    "lesson_key": "lesson_amaya-silangan_2",
+    "teaches_payload": {
+      "skill_id": "SKL-EQP-0481",
+      "recipe_id": "RCP000002"
+    },
+    "requirements_payload": {
+      "friendship_points": 250,
+      "gold": 125,
+      "required_item_id": "ITM000001"
+    },
+    "cost_payload": {
+      "gold": 125,
+      "offerings": []
+    },
+    "is_active": true
+  }
+]

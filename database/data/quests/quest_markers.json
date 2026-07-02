@@ -1,0 +1,4478 @@
+[
+  {
+    "marker_id": "QST000001-MARKER",
+    "quest_id": "QST000001",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Cebu",
+    "location_id": "NPCLOC000002",
+    "map_key": "visayas-cebu",
+    "x": 7,
+    "y": 11,
+    "icon_filename": "quest_marker_QST000001.png",
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000002-MARKER",
+    "quest_id": "QST000002",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Davao",
+    "location_id": "NPCLOC000003",
+    "map_key": "mindanao-davao",
+    "x": 14,
+    "y": 22,
+    "icon_filename": "quest_marker_QST000002.png",
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000003-MARKER",
+    "quest_id": "QST000003",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Palawan",
+    "location_id": "NPCLOC000004",
+    "map_key": "kapuluan-palawan",
+    "x": 21,
+    "y": 33,
+    "icon_filename": "quest_marker_QST000003.png",
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000004-MARKER",
+    "quest_id": "QST000004",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Iloilo",
+    "location_id": "NPCLOC000005",
+    "map_key": "spirit-realm-iloilo",
+    "x": 28,
+    "y": 44,
+    "icon_filename": "quest_marker_QST000004.png",
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000005-MARKER",
+    "quest_id": "QST000005",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Sulu",
+    "location_id": "NPCLOC000006",
+    "map_key": "luzon-sulu",
+    "x": 35,
+    "y": 55,
+    "icon_filename": "quest_marker_QST000005.png",
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000006-MARKER",
+    "quest_id": "QST000006",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Benguet",
+    "location_id": "NPCLOC000007",
+    "map_key": "visayas-benguet",
+    "x": 42,
+    "y": 66,
+    "icon_filename": "quest_marker_QST000006.png",
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000007-MARKER",
+    "quest_id": "QST000007",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Bohol",
+    "location_id": "NPCLOC000008",
+    "map_key": "mindanao-bohol",
+    "x": 49,
+    "y": 77,
+    "icon_filename": "quest_marker_QST000007.png",
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "marker_id": "QST000008-MARKER",
+    "quest_id": "QST000008",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Samar",
+    "location_id": "NPCLOC000009",
+    "map_key": "kapuluan-samar",
+    "x": 56,
+    "y": 88,
+    "icon_filename": "quest_marker_QST000008.png",
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000009-MARKER",
+    "quest_id": "QST000009",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Aklan",
+    "location_id": "NPCLOC000010",
+    "map_key": "spirit-realm-aklan",
+    "x": 63,
+    "y": 99,
+    "icon_filename": "quest_marker_QST000009.png",
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000010-MARKER",
+    "quest_id": "QST000010",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Laguna",
+    "location_id": "NPCLOC000011",
+    "map_key": "luzon-laguna",
+    "x": 70,
+    "y": 10,
+    "icon_filename": "quest_marker_QST000010.png",
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000011-MARKER",
+    "quest_id": "QST000011",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Cebu",
+    "location_id": "NPCLOC000012",
+    "map_key": "visayas-cebu",
+    "x": 77,
+    "y": 21,
+    "icon_filename": "quest_marker_QST000011.png",
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000012-MARKER",
+    "quest_id": "QST000012",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Davao",
+    "location_id": "NPCLOC000013",
+    "map_key": "mindanao-davao",
+    "x": 84,
+    "y": 32,
+    "icon_filename": "quest_marker_QST000012.png",
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000013-MARKER",
+    "quest_id": "QST000013",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Palawan",
+    "location_id": "NPCLOC000014",
+    "map_key": "kapuluan-palawan",
+    "x": 91,
+    "y": 43,
+    "icon_filename": "quest_marker_QST000013.png",
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000014-MARKER",
+    "quest_id": "QST000014",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Iloilo",
+    "location_id": "NPCLOC000015",
+    "map_key": "spirit-realm-iloilo",
+    "x": 98,
+    "y": 54,
+    "icon_filename": "quest_marker_QST000014.png",
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "marker_id": "QST000015-MARKER",
+    "quest_id": "QST000015",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Sulu",
+    "location_id": "NPCLOC000016",
+    "map_key": "luzon-sulu",
+    "x": 5,
+    "y": 65,
+    "icon_filename": "quest_marker_QST000015.png",
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000016-MARKER",
+    "quest_id": "QST000016",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Benguet",
+    "location_id": "NPCLOC000017",
+    "map_key": "visayas-benguet",
+    "x": 12,
+    "y": 76,
+    "icon_filename": "quest_marker_QST000016.png",
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000017-MARKER",
+    "quest_id": "QST000017",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Bohol",
+    "location_id": "NPCLOC000018",
+    "map_key": "mindanao-bohol",
+    "x": 19,
+    "y": 87,
+    "icon_filename": "quest_marker_QST000017.png",
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000018-MARKER",
+    "quest_id": "QST000018",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Samar",
+    "location_id": "NPCLOC000019",
+    "map_key": "kapuluan-samar",
+    "x": 26,
+    "y": 98,
+    "icon_filename": "quest_marker_QST000018.png",
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000019-MARKER",
+    "quest_id": "QST000019",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Aklan",
+    "location_id": "NPCLOC000020",
+    "map_key": "spirit-realm-aklan",
+    "x": 33,
+    "y": 9,
+    "icon_filename": "quest_marker_QST000019.png",
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000020-MARKER",
+    "quest_id": "QST000020",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Laguna",
+    "location_id": "NPCLOC000021",
+    "map_key": "luzon-laguna",
+    "x": 40,
+    "y": 20,
+    "icon_filename": "quest_marker_QST000020.png",
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000021-MARKER",
+    "quest_id": "QST000021",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Cebu",
+    "location_id": "NPCLOC000022",
+    "map_key": "visayas-cebu",
+    "x": 47,
+    "y": 31,
+    "icon_filename": "quest_marker_QST000021.png",
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "marker_id": "QST000022-MARKER",
+    "quest_id": "QST000022",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Davao",
+    "location_id": "NPCLOC000023",
+    "map_key": "mindanao-davao",
+    "x": 54,
+    "y": 42,
+    "icon_filename": "quest_marker_QST000022.png",
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000023-MARKER",
+    "quest_id": "QST000023",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Palawan",
+    "location_id": "NPCLOC000024",
+    "map_key": "kapuluan-palawan",
+    "x": 61,
+    "y": 53,
+    "icon_filename": "quest_marker_QST000023.png",
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000024-MARKER",
+    "quest_id": "QST000024",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Iloilo",
+    "location_id": "NPCLOC000025",
+    "map_key": "spirit-realm-iloilo",
+    "x": 68,
+    "y": 64,
+    "icon_filename": "quest_marker_QST000024.png",
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000025-MARKER",
+    "quest_id": "QST000025",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Sulu",
+    "location_id": "NPCLOC000026",
+    "map_key": "luzon-sulu",
+    "x": 75,
+    "y": 75,
+    "icon_filename": "quest_marker_QST000025.png",
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000026-MARKER",
+    "quest_id": "QST000026",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Benguet",
+    "location_id": "NPCLOC000027",
+    "map_key": "visayas-benguet",
+    "x": 82,
+    "y": 86,
+    "icon_filename": "quest_marker_QST000026.png",
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000027-MARKER",
+    "quest_id": "QST000027",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Bohol",
+    "location_id": "NPCLOC000028",
+    "map_key": "mindanao-bohol",
+    "x": 89,
+    "y": 97,
+    "icon_filename": "quest_marker_QST000027.png",
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000028-MARKER",
+    "quest_id": "QST000028",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Samar",
+    "location_id": "NPCLOC000029",
+    "map_key": "kapuluan-samar",
+    "x": 96,
+    "y": 8,
+    "icon_filename": "quest_marker_QST000028.png",
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "marker_id": "QST000029-MARKER",
+    "quest_id": "QST000029",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Aklan",
+    "location_id": "NPCLOC000030",
+    "map_key": "spirit-realm-aklan",
+    "x": 3,
+    "y": 19,
+    "icon_filename": "quest_marker_QST000029.png",
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000030-MARKER",
+    "quest_id": "QST000030",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Laguna",
+    "location_id": "NPCLOC000031",
+    "map_key": "luzon-laguna",
+    "x": 10,
+    "y": 30,
+    "icon_filename": "quest_marker_QST000030.png",
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000031-MARKER",
+    "quest_id": "QST000031",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Cebu",
+    "location_id": "NPCLOC000032",
+    "map_key": "visayas-cebu",
+    "x": 17,
+    "y": 41,
+    "icon_filename": "quest_marker_QST000031.png",
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000032-MARKER",
+    "quest_id": "QST000032",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Davao",
+    "location_id": "NPCLOC000033",
+    "map_key": "mindanao-davao",
+    "x": 24,
+    "y": 52,
+    "icon_filename": "quest_marker_QST000032.png",
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000033-MARKER",
+    "quest_id": "QST000033",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Palawan",
+    "location_id": "NPCLOC000034",
+    "map_key": "kapuluan-palawan",
+    "x": 31,
+    "y": 63,
+    "icon_filename": "quest_marker_QST000033.png",
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000034-MARKER",
+    "quest_id": "QST000034",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Iloilo",
+    "location_id": "NPCLOC000035",
+    "map_key": "spirit-realm-iloilo",
+    "x": 38,
+    "y": 74,
+    "icon_filename": "quest_marker_QST000034.png",
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000035-MARKER",
+    "quest_id": "QST000035",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Sulu",
+    "location_id": "NPCLOC000036",
+    "map_key": "luzon-sulu",
+    "x": 45,
+    "y": 85,
+    "icon_filename": "quest_marker_QST000035.png",
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "marker_id": "QST000036-MARKER",
+    "quest_id": "QST000036",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Benguet",
+    "location_id": "NPCLOC000037",
+    "map_key": "visayas-benguet",
+    "x": 52,
+    "y": 96,
+    "icon_filename": "quest_marker_QST000036.png",
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000037-MARKER",
+    "quest_id": "QST000037",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Bohol",
+    "location_id": "NPCLOC000038",
+    "map_key": "mindanao-bohol",
+    "x": 59,
+    "y": 7,
+    "icon_filename": "quest_marker_QST000037.png",
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000038-MARKER",
+    "quest_id": "QST000038",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Samar",
+    "location_id": "NPCLOC000039",
+    "map_key": "kapuluan-samar",
+    "x": 66,
+    "y": 18,
+    "icon_filename": "quest_marker_QST000038.png",
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000039-MARKER",
+    "quest_id": "QST000039",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Aklan",
+    "location_id": "NPCLOC000040",
+    "map_key": "spirit-realm-aklan",
+    "x": 73,
+    "y": 29,
+    "icon_filename": "quest_marker_QST000039.png",
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000040-MARKER",
+    "quest_id": "QST000040",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Laguna",
+    "location_id": "NPCLOC000041",
+    "map_key": "luzon-laguna",
+    "x": 80,
+    "y": 40,
+    "icon_filename": "quest_marker_QST000040.png",
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000041-MARKER",
+    "quest_id": "QST000041",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Cebu",
+    "location_id": "NPCLOC000042",
+    "map_key": "visayas-cebu",
+    "x": 87,
+    "y": 51,
+    "icon_filename": "quest_marker_QST000041.png",
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000042-MARKER",
+    "quest_id": "QST000042",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Davao",
+    "location_id": "NPCLOC000043",
+    "map_key": "mindanao-davao",
+    "x": 94,
+    "y": 62,
+    "icon_filename": "quest_marker_QST000042.png",
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "marker_id": "QST000043-MARKER",
+    "quest_id": "QST000043",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Palawan",
+    "location_id": "NPCLOC000044",
+    "map_key": "kapuluan-palawan",
+    "x": 1,
+    "y": 73,
+    "icon_filename": "quest_marker_QST000043.png",
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000044-MARKER",
+    "quest_id": "QST000044",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Iloilo",
+    "location_id": "NPCLOC000045",
+    "map_key": "spirit-realm-iloilo",
+    "x": 8,
+    "y": 84,
+    "icon_filename": "quest_marker_QST000044.png",
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000045-MARKER",
+    "quest_id": "QST000045",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Sulu",
+    "location_id": "NPCLOC000046",
+    "map_key": "luzon-sulu",
+    "x": 15,
+    "y": 95,
+    "icon_filename": "quest_marker_QST000045.png",
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000046-MARKER",
+    "quest_id": "QST000046",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Benguet",
+    "location_id": "NPCLOC000047",
+    "map_key": "visayas-benguet",
+    "x": 22,
+    "y": 6,
+    "icon_filename": "quest_marker_QST000046.png",
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000047-MARKER",
+    "quest_id": "QST000047",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Bohol",
+    "location_id": "NPCLOC000048",
+    "map_key": "mindanao-bohol",
+    "x": 29,
+    "y": 17,
+    "icon_filename": "quest_marker_QST000047.png",
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000048-MARKER",
+    "quest_id": "QST000048",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Samar",
+    "location_id": "NPCLOC000049",
+    "map_key": "kapuluan-samar",
+    "x": 36,
+    "y": 28,
+    "icon_filename": "quest_marker_QST000048.png",
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000049-MARKER",
+    "quest_id": "QST000049",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Aklan",
+    "location_id": "NPCLOC000050",
+    "map_key": "spirit-realm-aklan",
+    "x": 43,
+    "y": 39,
+    "icon_filename": "quest_marker_QST000049.png",
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "marker_id": "QST000050-MARKER",
+    "quest_id": "QST000050",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Laguna",
+    "location_id": "NPCLOC000051",
+    "map_key": "luzon-laguna",
+    "x": 50,
+    "y": 50,
+    "icon_filename": "quest_marker_QST000050.png",
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000051-MARKER",
+    "quest_id": "QST000051",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Cebu",
+    "location_id": "NPCLOC000052",
+    "map_key": "visayas-cebu",
+    "x": 57,
+    "y": 61,
+    "icon_filename": "quest_marker_QST000051.png",
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000052-MARKER",
+    "quest_id": "QST000052",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Davao",
+    "location_id": "NPCLOC000053",
+    "map_key": "mindanao-davao",
+    "x": 64,
+    "y": 72,
+    "icon_filename": "quest_marker_QST000052.png",
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000053-MARKER",
+    "quest_id": "QST000053",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Palawan",
+    "location_id": "NPCLOC000054",
+    "map_key": "kapuluan-palawan",
+    "x": 71,
+    "y": 83,
+    "icon_filename": "quest_marker_QST000053.png",
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000054-MARKER",
+    "quest_id": "QST000054",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Iloilo",
+    "location_id": "NPCLOC000055",
+    "map_key": "spirit-realm-iloilo",
+    "x": 78,
+    "y": 94,
+    "icon_filename": "quest_marker_QST000054.png",
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000055-MARKER",
+    "quest_id": "QST000055",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Sulu",
+    "location_id": "NPCLOC000056",
+    "map_key": "luzon-sulu",
+    "x": 85,
+    "y": 5,
+    "icon_filename": "quest_marker_QST000055.png",
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000056-MARKER",
+    "quest_id": "QST000056",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Benguet",
+    "location_id": "NPCLOC000057",
+    "map_key": "visayas-benguet",
+    "x": 92,
+    "y": 16,
+    "icon_filename": "quest_marker_QST000056.png",
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "marker_id": "QST000057-MARKER",
+    "quest_id": "QST000057",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Bohol",
+    "location_id": "NPCLOC000058",
+    "map_key": "mindanao-bohol",
+    "x": 99,
+    "y": 27,
+    "icon_filename": "quest_marker_QST000057.png",
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000058-MARKER",
+    "quest_id": "QST000058",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Samar",
+    "location_id": "NPCLOC000059",
+    "map_key": "kapuluan-samar",
+    "x": 6,
+    "y": 38,
+    "icon_filename": "quest_marker_QST000058.png",
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000059-MARKER",
+    "quest_id": "QST000059",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Aklan",
+    "location_id": "NPCLOC000060",
+    "map_key": "spirit-realm-aklan",
+    "x": 13,
+    "y": 49,
+    "icon_filename": "quest_marker_QST000059.png",
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000060-MARKER",
+    "quest_id": "QST000060",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Laguna",
+    "location_id": "NPCLOC000061",
+    "map_key": "luzon-laguna",
+    "x": 20,
+    "y": 60,
+    "icon_filename": "quest_marker_QST000060.png",
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000061-MARKER",
+    "quest_id": "QST000061",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Cebu",
+    "location_id": "NPCLOC000062",
+    "map_key": "visayas-cebu",
+    "x": 27,
+    "y": 71,
+    "icon_filename": "quest_marker_QST000061.png",
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000062-MARKER",
+    "quest_id": "QST000062",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Davao",
+    "location_id": "NPCLOC000063",
+    "map_key": "mindanao-davao",
+    "x": 34,
+    "y": 82,
+    "icon_filename": "quest_marker_QST000062.png",
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000063-MARKER",
+    "quest_id": "QST000063",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Palawan",
+    "location_id": "NPCLOC000064",
+    "map_key": "kapuluan-palawan",
+    "x": 41,
+    "y": 93,
+    "icon_filename": "quest_marker_QST000063.png",
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": "night"
+    }
+  },
+  {
+    "marker_id": "QST000064-MARKER",
+    "quest_id": "QST000064",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Iloilo",
+    "location_id": "NPCLOC000065",
+    "map_key": "spirit-realm-iloilo",
+    "x": 48,
+    "y": 4,
+    "icon_filename": "quest_marker_QST000064.png",
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000065-MARKER",
+    "quest_id": "QST000065",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Sulu",
+    "location_id": "NPCLOC000066",
+    "map_key": "luzon-sulu",
+    "x": 55,
+    "y": 15,
+    "icon_filename": "quest_marker_QST000065.png",
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000066-MARKER",
+    "quest_id": "QST000066",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Benguet",
+    "location_id": "NPCLOC000067",
+    "map_key": "visayas-benguet",
+    "x": 62,
+    "y": 26,
+    "icon_filename": "quest_marker_QST000066.png",
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000067-MARKER",
+    "quest_id": "QST000067",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Bohol",
+    "location_id": "NPCLOC000068",
+    "map_key": "mindanao-bohol",
+    "x": 69,
+    "y": 37,
+    "icon_filename": "quest_marker_QST000067.png",
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000068-MARKER",
+    "quest_id": "QST000068",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Samar",
+    "location_id": "NPCLOC000069",
+    "map_key": "kapuluan-samar",
+    "x": 76,
+    "y": 48,
+    "icon_filename": "quest_marker_QST000068.png",
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000069-MARKER",
+    "quest_id": "QST000069",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Aklan",
+    "location_id": "NPCLOC000070",
+    "map_key": "spirit-realm-aklan",
+    "x": 83,
+    "y": 59,
+    "icon_filename": "quest_marker_QST000069.png",
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000070-MARKER",
+    "quest_id": "QST000070",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Laguna",
+    "location_id": "NPCLOC000071",
+    "map_key": "luzon-laguna",
+    "x": 90,
+    "y": 70,
+    "icon_filename": "quest_marker_QST000070.png",
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "marker_id": "QST000071-MARKER",
+    "quest_id": "QST000071",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Cebu",
+    "location_id": "NPCLOC000072",
+    "map_key": "visayas-cebu",
+    "x": 97,
+    "y": 81,
+    "icon_filename": "quest_marker_QST000071.png",
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000072-MARKER",
+    "quest_id": "QST000072",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Davao",
+    "location_id": "NPCLOC000073",
+    "map_key": "mindanao-davao",
+    "x": 4,
+    "y": 92,
+    "icon_filename": "quest_marker_QST000072.png",
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000073-MARKER",
+    "quest_id": "QST000073",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Palawan",
+    "location_id": "NPCLOC000074",
+    "map_key": "kapuluan-palawan",
+    "x": 11,
+    "y": 3,
+    "icon_filename": "quest_marker_QST000073.png",
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000074-MARKER",
+    "quest_id": "QST000074",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Iloilo",
+    "location_id": "NPCLOC000075",
+    "map_key": "spirit-realm-iloilo",
+    "x": 18,
+    "y": 14,
+    "icon_filename": "quest_marker_QST000074.png",
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000075-MARKER",
+    "quest_id": "QST000075",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Sulu",
+    "location_id": "NPCLOC000076",
+    "map_key": "luzon-sulu",
+    "x": 25,
+    "y": 25,
+    "icon_filename": "quest_marker_QST000075.png",
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000076-MARKER",
+    "quest_id": "QST000076",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Benguet",
+    "location_id": "NPCLOC000077",
+    "map_key": "visayas-benguet",
+    "x": 32,
+    "y": 36,
+    "icon_filename": "quest_marker_QST000076.png",
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000077-MARKER",
+    "quest_id": "QST000077",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Bohol",
+    "location_id": "NPCLOC000078",
+    "map_key": "mindanao-bohol",
+    "x": 39,
+    "y": 47,
+    "icon_filename": "quest_marker_QST000077.png",
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "marker_id": "QST000078-MARKER",
+    "quest_id": "QST000078",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Samar",
+    "location_id": "NPCLOC000079",
+    "map_key": "kapuluan-samar",
+    "x": 46,
+    "y": 58,
+    "icon_filename": "quest_marker_QST000078.png",
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000079-MARKER",
+    "quest_id": "QST000079",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Aklan",
+    "location_id": "NPCLOC000080",
+    "map_key": "spirit-realm-aklan",
+    "x": 53,
+    "y": 69,
+    "icon_filename": "quest_marker_QST000079.png",
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000080-MARKER",
+    "quest_id": "QST000080",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Laguna",
+    "location_id": "NPCLOC000081",
+    "map_key": "luzon-laguna",
+    "x": 60,
+    "y": 80,
+    "icon_filename": "quest_marker_QST000080.png",
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000081-MARKER",
+    "quest_id": "QST000081",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Cebu",
+    "location_id": "NPCLOC000082",
+    "map_key": "visayas-cebu",
+    "x": 67,
+    "y": 91,
+    "icon_filename": "quest_marker_QST000081.png",
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000082-MARKER",
+    "quest_id": "QST000082",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Davao",
+    "location_id": "NPCLOC000083",
+    "map_key": "mindanao-davao",
+    "x": 74,
+    "y": 2,
+    "icon_filename": "quest_marker_QST000082.png",
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000083-MARKER",
+    "quest_id": "QST000083",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Palawan",
+    "location_id": "NPCLOC000084",
+    "map_key": "kapuluan-palawan",
+    "x": 81,
+    "y": 13,
+    "icon_filename": "quest_marker_QST000083.png",
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000084-MARKER",
+    "quest_id": "QST000084",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Iloilo",
+    "location_id": "NPCLOC000085",
+    "map_key": "spirit-realm-iloilo",
+    "x": 88,
+    "y": 24,
+    "icon_filename": "quest_marker_QST000084.png",
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "marker_id": "QST000085-MARKER",
+    "quest_id": "QST000085",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Sulu",
+    "location_id": "NPCLOC000086",
+    "map_key": "luzon-sulu",
+    "x": 95,
+    "y": 35,
+    "icon_filename": "quest_marker_QST000085.png",
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000086-MARKER",
+    "quest_id": "QST000086",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Benguet",
+    "location_id": "NPCLOC000087",
+    "map_key": "visayas-benguet",
+    "x": 2,
+    "y": 46,
+    "icon_filename": "quest_marker_QST000086.png",
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000087-MARKER",
+    "quest_id": "QST000087",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Bohol",
+    "location_id": "NPCLOC000088",
+    "map_key": "mindanao-bohol",
+    "x": 9,
+    "y": 57,
+    "icon_filename": "quest_marker_QST000087.png",
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000088-MARKER",
+    "quest_id": "QST000088",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Samar",
+    "location_id": "NPCLOC000089",
+    "map_key": "kapuluan-samar",
+    "x": 16,
+    "y": 68,
+    "icon_filename": "quest_marker_QST000088.png",
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000089-MARKER",
+    "quest_id": "QST000089",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Aklan",
+    "location_id": "NPCLOC000090",
+    "map_key": "spirit-realm-aklan",
+    "x": 23,
+    "y": 79,
+    "icon_filename": "quest_marker_QST000089.png",
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000090-MARKER",
+    "quest_id": "QST000090",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Laguna",
+    "location_id": "NPCLOC000091",
+    "map_key": "luzon-laguna",
+    "x": 30,
+    "y": 90,
+    "icon_filename": "quest_marker_QST000090.png",
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000091-MARKER",
+    "quest_id": "QST000091",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Cebu",
+    "location_id": "NPCLOC000092",
+    "map_key": "visayas-cebu",
+    "x": 37,
+    "y": 1,
+    "icon_filename": "quest_marker_QST000091.png",
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "marker_id": "QST000092-MARKER",
+    "quest_id": "QST000092",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Davao",
+    "location_id": "NPCLOC000093",
+    "map_key": "mindanao-davao",
+    "x": 44,
+    "y": 12,
+    "icon_filename": "quest_marker_QST000092.png",
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000093-MARKER",
+    "quest_id": "QST000093",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Palawan",
+    "location_id": "NPCLOC000094",
+    "map_key": "kapuluan-palawan",
+    "x": 51,
+    "y": 23,
+    "icon_filename": "quest_marker_QST000093.png",
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000094-MARKER",
+    "quest_id": "QST000094",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Iloilo",
+    "location_id": "NPCLOC000095",
+    "map_key": "spirit-realm-iloilo",
+    "x": 58,
+    "y": 34,
+    "icon_filename": "quest_marker_QST000094.png",
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000095-MARKER",
+    "quest_id": "QST000095",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Sulu",
+    "location_id": "NPCLOC000096",
+    "map_key": "luzon-sulu",
+    "x": 65,
+    "y": 45,
+    "icon_filename": "quest_marker_QST000095.png",
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000096-MARKER",
+    "quest_id": "QST000096",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Benguet",
+    "location_id": "NPCLOC000097",
+    "map_key": "visayas-benguet",
+    "x": 72,
+    "y": 56,
+    "icon_filename": "quest_marker_QST000096.png",
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000097-MARKER",
+    "quest_id": "QST000097",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Bohol",
+    "location_id": "NPCLOC000098",
+    "map_key": "mindanao-bohol",
+    "x": 79,
+    "y": 67,
+    "icon_filename": "quest_marker_QST000097.png",
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000098-MARKER",
+    "quest_id": "QST000098",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Samar",
+    "location_id": "NPCLOC000099",
+    "map_key": "kapuluan-samar",
+    "x": 86,
+    "y": 78,
+    "icon_filename": "quest_marker_QST000098.png",
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "marker_id": "QST000099-MARKER",
+    "quest_id": "QST000099",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Aklan",
+    "location_id": "NPCLOC000100",
+    "map_key": "spirit-realm-aklan",
+    "x": 93,
+    "y": 89,
+    "icon_filename": "quest_marker_QST000099.png",
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000100-MARKER",
+    "quest_id": "QST000100",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Laguna",
+    "location_id": "NPCLOC000101",
+    "map_key": "luzon-laguna",
+    "x": 0,
+    "y": 0,
+    "icon_filename": "quest_marker_QST000100.png",
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000101-MARKER",
+    "quest_id": "QST000101",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Cebu",
+    "location_id": "NPCLOC000102",
+    "map_key": "visayas-cebu",
+    "x": 7,
+    "y": 11,
+    "icon_filename": "quest_marker_QST000101.png",
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000102-MARKER",
+    "quest_id": "QST000102",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Davao",
+    "location_id": "NPCLOC000103",
+    "map_key": "mindanao-davao",
+    "x": 14,
+    "y": 22,
+    "icon_filename": "quest_marker_QST000102.png",
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000103-MARKER",
+    "quest_id": "QST000103",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Palawan",
+    "location_id": "NPCLOC000104",
+    "map_key": "kapuluan-palawan",
+    "x": 21,
+    "y": 33,
+    "icon_filename": "quest_marker_QST000103.png",
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000104-MARKER",
+    "quest_id": "QST000104",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Iloilo",
+    "location_id": "NPCLOC000105",
+    "map_key": "spirit-realm-iloilo",
+    "x": 28,
+    "y": 44,
+    "icon_filename": "quest_marker_QST000104.png",
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000105-MARKER",
+    "quest_id": "QST000105",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Sulu",
+    "location_id": "NPCLOC000106",
+    "map_key": "luzon-sulu",
+    "x": 35,
+    "y": 55,
+    "icon_filename": "quest_marker_QST000105.png",
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "marker_id": "QST000106-MARKER",
+    "quest_id": "QST000106",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Benguet",
+    "location_id": "NPCLOC000107",
+    "map_key": "visayas-benguet",
+    "x": 42,
+    "y": 66,
+    "icon_filename": "quest_marker_QST000106.png",
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000107-MARKER",
+    "quest_id": "QST000107",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Bohol",
+    "location_id": "NPCLOC000108",
+    "map_key": "mindanao-bohol",
+    "x": 49,
+    "y": 77,
+    "icon_filename": "quest_marker_QST000107.png",
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000108-MARKER",
+    "quest_id": "QST000108",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Samar",
+    "location_id": "NPCLOC000109",
+    "map_key": "kapuluan-samar",
+    "x": 56,
+    "y": 88,
+    "icon_filename": "quest_marker_QST000108.png",
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000109-MARKER",
+    "quest_id": "QST000109",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Aklan",
+    "location_id": "NPCLOC000110",
+    "map_key": "spirit-realm-aklan",
+    "x": 63,
+    "y": 99,
+    "icon_filename": "quest_marker_QST000109.png",
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000110-MARKER",
+    "quest_id": "QST000110",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Laguna",
+    "location_id": "NPCLOC000111",
+    "map_key": "luzon-laguna",
+    "x": 70,
+    "y": 10,
+    "icon_filename": "quest_marker_QST000110.png",
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000111-MARKER",
+    "quest_id": "QST000111",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Cebu",
+    "location_id": "NPCLOC000112",
+    "map_key": "visayas-cebu",
+    "x": 77,
+    "y": 21,
+    "icon_filename": "quest_marker_QST000111.png",
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000112-MARKER",
+    "quest_id": "QST000112",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Davao",
+    "location_id": "NPCLOC000113",
+    "map_key": "mindanao-davao",
+    "x": 84,
+    "y": 32,
+    "icon_filename": "quest_marker_QST000112.png",
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "marker_id": "QST000113-MARKER",
+    "quest_id": "QST000113",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Palawan",
+    "location_id": "NPCLOC000114",
+    "map_key": "kapuluan-palawan",
+    "x": 91,
+    "y": 43,
+    "icon_filename": "quest_marker_QST000113.png",
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000114-MARKER",
+    "quest_id": "QST000114",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Iloilo",
+    "location_id": "NPCLOC000115",
+    "map_key": "spirit-realm-iloilo",
+    "x": 98,
+    "y": 54,
+    "icon_filename": "quest_marker_QST000114.png",
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000115-MARKER",
+    "quest_id": "QST000115",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Sulu",
+    "location_id": "NPCLOC000116",
+    "map_key": "luzon-sulu",
+    "x": 5,
+    "y": 65,
+    "icon_filename": "quest_marker_QST000115.png",
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000116-MARKER",
+    "quest_id": "QST000116",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Benguet",
+    "location_id": "NPCLOC000117",
+    "map_key": "visayas-benguet",
+    "x": 12,
+    "y": 76,
+    "icon_filename": "quest_marker_QST000116.png",
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000117-MARKER",
+    "quest_id": "QST000117",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Bohol",
+    "location_id": "NPCLOC000118",
+    "map_key": "mindanao-bohol",
+    "x": 19,
+    "y": 87,
+    "icon_filename": "quest_marker_QST000117.png",
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000118-MARKER",
+    "quest_id": "QST000118",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Samar",
+    "location_id": "NPCLOC000119",
+    "map_key": "kapuluan-samar",
+    "x": 26,
+    "y": 98,
+    "icon_filename": "quest_marker_QST000118.png",
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000119-MARKER",
+    "quest_id": "QST000119",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Aklan",
+    "location_id": "NPCLOC000120",
+    "map_key": "spirit-realm-aklan",
+    "x": 33,
+    "y": 9,
+    "icon_filename": "quest_marker_QST000119.png",
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "marker_id": "QST000120-MARKER",
+    "quest_id": "QST000120",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Laguna",
+    "location_id": "NPCLOC000121",
+    "map_key": "luzon-laguna",
+    "x": 40,
+    "y": 20,
+    "icon_filename": "quest_marker_QST000120.png",
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000121-MARKER",
+    "quest_id": "QST000121",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Cebu",
+    "location_id": "NPCLOC000122",
+    "map_key": "visayas-cebu",
+    "x": 47,
+    "y": 31,
+    "icon_filename": "quest_marker_QST000121.png",
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000122-MARKER",
+    "quest_id": "QST000122",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Davao",
+    "location_id": "NPCLOC000123",
+    "map_key": "mindanao-davao",
+    "x": 54,
+    "y": 42,
+    "icon_filename": "quest_marker_QST000122.png",
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000123-MARKER",
+    "quest_id": "QST000123",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Palawan",
+    "location_id": "NPCLOC000124",
+    "map_key": "kapuluan-palawan",
+    "x": 61,
+    "y": 53,
+    "icon_filename": "quest_marker_QST000123.png",
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000124-MARKER",
+    "quest_id": "QST000124",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Iloilo",
+    "location_id": "NPCLOC000125",
+    "map_key": "spirit-realm-iloilo",
+    "x": 68,
+    "y": 64,
+    "icon_filename": "quest_marker_QST000124.png",
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000125-MARKER",
+    "quest_id": "QST000125",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Sulu",
+    "location_id": "NPCLOC000126",
+    "map_key": "luzon-sulu",
+    "x": 75,
+    "y": 75,
+    "icon_filename": "quest_marker_QST000125.png",
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000126-MARKER",
+    "quest_id": "QST000126",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Benguet",
+    "location_id": "NPCLOC000127",
+    "map_key": "visayas-benguet",
+    "x": 82,
+    "y": 86,
+    "icon_filename": "quest_marker_QST000126.png",
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": "night"
+    }
+  },
+  {
+    "marker_id": "QST000127-MARKER",
+    "quest_id": "QST000127",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Bohol",
+    "location_id": "NPCLOC000128",
+    "map_key": "mindanao-bohol",
+    "x": 89,
+    "y": 97,
+    "icon_filename": "quest_marker_QST000127.png",
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000128-MARKER",
+    "quest_id": "QST000128",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Samar",
+    "location_id": "NPCLOC000129",
+    "map_key": "kapuluan-samar",
+    "x": 96,
+    "y": 8,
+    "icon_filename": "quest_marker_QST000128.png",
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000129-MARKER",
+    "quest_id": "QST000129",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Aklan",
+    "location_id": "NPCLOC000130",
+    "map_key": "spirit-realm-aklan",
+    "x": 3,
+    "y": 19,
+    "icon_filename": "quest_marker_QST000129.png",
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000130-MARKER",
+    "quest_id": "QST000130",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Laguna",
+    "location_id": "NPCLOC000131",
+    "map_key": "luzon-laguna",
+    "x": 10,
+    "y": 30,
+    "icon_filename": "quest_marker_QST000130.png",
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000131-MARKER",
+    "quest_id": "QST000131",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Cebu",
+    "location_id": "NPCLOC000132",
+    "map_key": "visayas-cebu",
+    "x": 17,
+    "y": 41,
+    "icon_filename": "quest_marker_QST000131.png",
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000132-MARKER",
+    "quest_id": "QST000132",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Davao",
+    "location_id": "NPCLOC000133",
+    "map_key": "mindanao-davao",
+    "x": 24,
+    "y": 52,
+    "icon_filename": "quest_marker_QST000132.png",
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000133-MARKER",
+    "quest_id": "QST000133",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Palawan",
+    "location_id": "NPCLOC000134",
+    "map_key": "kapuluan-palawan",
+    "x": 31,
+    "y": 63,
+    "icon_filename": "quest_marker_QST000133.png",
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "marker_id": "QST000134-MARKER",
+    "quest_id": "QST000134",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Iloilo",
+    "location_id": "NPCLOC000135",
+    "map_key": "spirit-realm-iloilo",
+    "x": 38,
+    "y": 74,
+    "icon_filename": "quest_marker_QST000134.png",
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000135-MARKER",
+    "quest_id": "QST000135",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Sulu",
+    "location_id": "NPCLOC000136",
+    "map_key": "luzon-sulu",
+    "x": 45,
+    "y": 85,
+    "icon_filename": "quest_marker_QST000135.png",
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000136-MARKER",
+    "quest_id": "QST000136",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Benguet",
+    "location_id": "NPCLOC000137",
+    "map_key": "visayas-benguet",
+    "x": 52,
+    "y": 96,
+    "icon_filename": "quest_marker_QST000136.png",
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000137-MARKER",
+    "quest_id": "QST000137",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Bohol",
+    "location_id": "NPCLOC000138",
+    "map_key": "mindanao-bohol",
+    "x": 59,
+    "y": 7,
+    "icon_filename": "quest_marker_QST000137.png",
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000138-MARKER",
+    "quest_id": "QST000138",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Samar",
+    "location_id": "NPCLOC000139",
+    "map_key": "kapuluan-samar",
+    "x": 66,
+    "y": 18,
+    "icon_filename": "quest_marker_QST000138.png",
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000139-MARKER",
+    "quest_id": "QST000139",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Aklan",
+    "location_id": "NPCLOC000140",
+    "map_key": "spirit-realm-aklan",
+    "x": 73,
+    "y": 29,
+    "icon_filename": "quest_marker_QST000139.png",
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000140-MARKER",
+    "quest_id": "QST000140",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Laguna",
+    "location_id": "NPCLOC000141",
+    "map_key": "luzon-laguna",
+    "x": 80,
+    "y": 40,
+    "icon_filename": "quest_marker_QST000140.png",
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "marker_id": "QST000141-MARKER",
+    "quest_id": "QST000141",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Cebu",
+    "location_id": "NPCLOC000142",
+    "map_key": "visayas-cebu",
+    "x": 87,
+    "y": 51,
+    "icon_filename": "quest_marker_QST000141.png",
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000142-MARKER",
+    "quest_id": "QST000142",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Davao",
+    "location_id": "NPCLOC000143",
+    "map_key": "mindanao-davao",
+    "x": 94,
+    "y": 62,
+    "icon_filename": "quest_marker_QST000142.png",
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000143-MARKER",
+    "quest_id": "QST000143",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Palawan",
+    "location_id": "NPCLOC000144",
+    "map_key": "kapuluan-palawan",
+    "x": 1,
+    "y": 73,
+    "icon_filename": "quest_marker_QST000143.png",
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000144-MARKER",
+    "quest_id": "QST000144",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Iloilo",
+    "location_id": "NPCLOC000145",
+    "map_key": "spirit-realm-iloilo",
+    "x": 8,
+    "y": 84,
+    "icon_filename": "quest_marker_QST000144.png",
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000145-MARKER",
+    "quest_id": "QST000145",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Sulu",
+    "location_id": "NPCLOC000146",
+    "map_key": "luzon-sulu",
+    "x": 15,
+    "y": 95,
+    "icon_filename": "quest_marker_QST000145.png",
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000146-MARKER",
+    "quest_id": "QST000146",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Benguet",
+    "location_id": "NPCLOC000147",
+    "map_key": "visayas-benguet",
+    "x": 22,
+    "y": 6,
+    "icon_filename": "quest_marker_QST000146.png",
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000147-MARKER",
+    "quest_id": "QST000147",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Bohol",
+    "location_id": "NPCLOC000148",
+    "map_key": "mindanao-bohol",
+    "x": 29,
+    "y": 17,
+    "icon_filename": "quest_marker_QST000147.png",
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "marker_id": "QST000148-MARKER",
+    "quest_id": "QST000148",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Samar",
+    "location_id": "NPCLOC000149",
+    "map_key": "kapuluan-samar",
+    "x": 36,
+    "y": 28,
+    "icon_filename": "quest_marker_QST000148.png",
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000149-MARKER",
+    "quest_id": "QST000149",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Aklan",
+    "location_id": "NPCLOC000150",
+    "map_key": "spirit-realm-aklan",
+    "x": 43,
+    "y": 39,
+    "icon_filename": "quest_marker_QST000149.png",
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000150-MARKER",
+    "quest_id": "QST000150",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Laguna",
+    "location_id": "NPCLOC000151",
+    "map_key": "luzon-laguna",
+    "x": 50,
+    "y": 50,
+    "icon_filename": "quest_marker_QST000150.png",
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000151-MARKER",
+    "quest_id": "QST000151",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Cebu",
+    "location_id": "NPCLOC000152",
+    "map_key": "visayas-cebu",
+    "x": 57,
+    "y": 61,
+    "icon_filename": "quest_marker_QST000151.png",
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000152-MARKER",
+    "quest_id": "QST000152",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Davao",
+    "location_id": "NPCLOC000153",
+    "map_key": "mindanao-davao",
+    "x": 64,
+    "y": 72,
+    "icon_filename": "quest_marker_QST000152.png",
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000153-MARKER",
+    "quest_id": "QST000153",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Palawan",
+    "location_id": "NPCLOC000154",
+    "map_key": "kapuluan-palawan",
+    "x": 71,
+    "y": 83,
+    "icon_filename": "quest_marker_QST000153.png",
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000154-MARKER",
+    "quest_id": "QST000154",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Iloilo",
+    "location_id": "NPCLOC000155",
+    "map_key": "spirit-realm-iloilo",
+    "x": 78,
+    "y": 94,
+    "icon_filename": "quest_marker_QST000154.png",
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "marker_id": "QST000155-MARKER",
+    "quest_id": "QST000155",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Sulu",
+    "location_id": "NPCLOC000156",
+    "map_key": "luzon-sulu",
+    "x": 85,
+    "y": 5,
+    "icon_filename": "quest_marker_QST000155.png",
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000156-MARKER",
+    "quest_id": "QST000156",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Benguet",
+    "location_id": "NPCLOC000157",
+    "map_key": "visayas-benguet",
+    "x": 92,
+    "y": 16,
+    "icon_filename": "quest_marker_QST000156.png",
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000157-MARKER",
+    "quest_id": "QST000157",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Bohol",
+    "location_id": "NPCLOC000158",
+    "map_key": "mindanao-bohol",
+    "x": 99,
+    "y": 27,
+    "icon_filename": "quest_marker_QST000157.png",
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000158-MARKER",
+    "quest_id": "QST000158",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Samar",
+    "location_id": "NPCLOC000159",
+    "map_key": "kapuluan-samar",
+    "x": 6,
+    "y": 38,
+    "icon_filename": "quest_marker_QST000158.png",
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000159-MARKER",
+    "quest_id": "QST000159",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Aklan",
+    "location_id": "NPCLOC000160",
+    "map_key": "spirit-realm-aklan",
+    "x": 13,
+    "y": 49,
+    "icon_filename": "quest_marker_QST000159.png",
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000160-MARKER",
+    "quest_id": "QST000160",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Laguna",
+    "location_id": "NPCLOC000161",
+    "map_key": "luzon-laguna",
+    "x": 20,
+    "y": 60,
+    "icon_filename": "quest_marker_QST000160.png",
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000161-MARKER",
+    "quest_id": "QST000161",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Cebu",
+    "location_id": "NPCLOC000162",
+    "map_key": "visayas-cebu",
+    "x": 27,
+    "y": 71,
+    "icon_filename": "quest_marker_QST000161.png",
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "marker_id": "QST000162-MARKER",
+    "quest_id": "QST000162",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Davao",
+    "location_id": "NPCLOC000163",
+    "map_key": "mindanao-davao",
+    "x": 34,
+    "y": 82,
+    "icon_filename": "quest_marker_QST000162.png",
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000163-MARKER",
+    "quest_id": "QST000163",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Palawan",
+    "location_id": "NPCLOC000164",
+    "map_key": "kapuluan-palawan",
+    "x": 41,
+    "y": 93,
+    "icon_filename": "quest_marker_QST000163.png",
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000164-MARKER",
+    "quest_id": "QST000164",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Iloilo",
+    "location_id": "NPCLOC000165",
+    "map_key": "spirit-realm-iloilo",
+    "x": 48,
+    "y": 4,
+    "icon_filename": "quest_marker_QST000164.png",
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000165-MARKER",
+    "quest_id": "QST000165",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Sulu",
+    "location_id": "NPCLOC000166",
+    "map_key": "luzon-sulu",
+    "x": 55,
+    "y": 15,
+    "icon_filename": "quest_marker_QST000165.png",
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000166-MARKER",
+    "quest_id": "QST000166",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Benguet",
+    "location_id": "NPCLOC000167",
+    "map_key": "visayas-benguet",
+    "x": 62,
+    "y": 26,
+    "icon_filename": "quest_marker_QST000166.png",
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000167-MARKER",
+    "quest_id": "QST000167",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Bohol",
+    "location_id": "NPCLOC000168",
+    "map_key": "mindanao-bohol",
+    "x": 69,
+    "y": 37,
+    "icon_filename": "quest_marker_QST000167.png",
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000168-MARKER",
+    "quest_id": "QST000168",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Samar",
+    "location_id": "NPCLOC000169",
+    "map_key": "kapuluan-samar",
+    "x": 76,
+    "y": 48,
+    "icon_filename": "quest_marker_QST000168.png",
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "marker_id": "QST000169-MARKER",
+    "quest_id": "QST000169",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Aklan",
+    "location_id": "NPCLOC000170",
+    "map_key": "spirit-realm-aklan",
+    "x": 83,
+    "y": 59,
+    "icon_filename": "quest_marker_QST000169.png",
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000170-MARKER",
+    "quest_id": "QST000170",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Laguna",
+    "location_id": "NPCLOC000171",
+    "map_key": "luzon-laguna",
+    "x": 90,
+    "y": 70,
+    "icon_filename": "quest_marker_QST000170.png",
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000171-MARKER",
+    "quest_id": "QST000171",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Cebu",
+    "location_id": "NPCLOC000172",
+    "map_key": "visayas-cebu",
+    "x": 97,
+    "y": 81,
+    "icon_filename": "quest_marker_QST000171.png",
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000172-MARKER",
+    "quest_id": "QST000172",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Davao",
+    "location_id": "NPCLOC000173",
+    "map_key": "mindanao-davao",
+    "x": 4,
+    "y": 92,
+    "icon_filename": "quest_marker_QST000172.png",
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000173-MARKER",
+    "quest_id": "QST000173",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Palawan",
+    "location_id": "NPCLOC000174",
+    "map_key": "kapuluan-palawan",
+    "x": 11,
+    "y": 3,
+    "icon_filename": "quest_marker_QST000173.png",
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000174-MARKER",
+    "quest_id": "QST000174",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Iloilo",
+    "location_id": "NPCLOC000175",
+    "map_key": "spirit-realm-iloilo",
+    "x": 18,
+    "y": 14,
+    "icon_filename": "quest_marker_QST000174.png",
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000175-MARKER",
+    "quest_id": "QST000175",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Sulu",
+    "location_id": "NPCLOC000176",
+    "map_key": "luzon-sulu",
+    "x": 25,
+    "y": 25,
+    "icon_filename": "quest_marker_QST000175.png",
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "marker_id": "QST000176-MARKER",
+    "quest_id": "QST000176",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Benguet",
+    "location_id": "NPCLOC000177",
+    "map_key": "visayas-benguet",
+    "x": 32,
+    "y": 36,
+    "icon_filename": "quest_marker_QST000176.png",
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000177-MARKER",
+    "quest_id": "QST000177",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Bohol",
+    "location_id": "NPCLOC000178",
+    "map_key": "mindanao-bohol",
+    "x": 39,
+    "y": 47,
+    "icon_filename": "quest_marker_QST000177.png",
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000178-MARKER",
+    "quest_id": "QST000178",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Samar",
+    "location_id": "NPCLOC000179",
+    "map_key": "kapuluan-samar",
+    "x": 46,
+    "y": 58,
+    "icon_filename": "quest_marker_QST000178.png",
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000179-MARKER",
+    "quest_id": "QST000179",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Aklan",
+    "location_id": "NPCLOC000180",
+    "map_key": "spirit-realm-aklan",
+    "x": 53,
+    "y": 69,
+    "icon_filename": "quest_marker_QST000179.png",
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000180-MARKER",
+    "quest_id": "QST000180",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Laguna",
+    "location_id": "NPCLOC000181",
+    "map_key": "luzon-laguna",
+    "x": 60,
+    "y": 80,
+    "icon_filename": "quest_marker_QST000180.png",
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000181-MARKER",
+    "quest_id": "QST000181",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Cebu",
+    "location_id": "NPCLOC000182",
+    "map_key": "visayas-cebu",
+    "x": 67,
+    "y": 91,
+    "icon_filename": "quest_marker_QST000181.png",
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000182-MARKER",
+    "quest_id": "QST000182",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Davao",
+    "location_id": "NPCLOC000183",
+    "map_key": "mindanao-davao",
+    "x": 74,
+    "y": 2,
+    "icon_filename": "quest_marker_QST000182.png",
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "marker_id": "QST000183-MARKER",
+    "quest_id": "QST000183",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Palawan",
+    "location_id": "NPCLOC000184",
+    "map_key": "kapuluan-palawan",
+    "x": 81,
+    "y": 13,
+    "icon_filename": "quest_marker_QST000183.png",
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000184-MARKER",
+    "quest_id": "QST000184",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Iloilo",
+    "location_id": "NPCLOC000185",
+    "map_key": "spirit-realm-iloilo",
+    "x": 88,
+    "y": 24,
+    "icon_filename": "quest_marker_QST000184.png",
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000185-MARKER",
+    "quest_id": "QST000185",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Sulu",
+    "location_id": "NPCLOC000186",
+    "map_key": "luzon-sulu",
+    "x": 95,
+    "y": 35,
+    "icon_filename": "quest_marker_QST000185.png",
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000186-MARKER",
+    "quest_id": "QST000186",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Benguet",
+    "location_id": "NPCLOC000187",
+    "map_key": "visayas-benguet",
+    "x": 2,
+    "y": 46,
+    "icon_filename": "quest_marker_QST000186.png",
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000187-MARKER",
+    "quest_id": "QST000187",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Bohol",
+    "location_id": "NPCLOC000188",
+    "map_key": "mindanao-bohol",
+    "x": 9,
+    "y": 57,
+    "icon_filename": "quest_marker_QST000187.png",
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000188-MARKER",
+    "quest_id": "QST000188",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Samar",
+    "location_id": "NPCLOC000189",
+    "map_key": "kapuluan-samar",
+    "x": 16,
+    "y": 68,
+    "icon_filename": "quest_marker_QST000188.png",
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000189-MARKER",
+    "quest_id": "QST000189",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Aklan",
+    "location_id": "NPCLOC000190",
+    "map_key": "spirit-realm-aklan",
+    "x": 23,
+    "y": 79,
+    "icon_filename": "quest_marker_QST000189.png",
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": "night"
+    }
+  },
+  {
+    "marker_id": "QST000190-MARKER",
+    "quest_id": "QST000190",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Laguna",
+    "location_id": "NPCLOC000191",
+    "map_key": "luzon-laguna",
+    "x": 30,
+    "y": 90,
+    "icon_filename": "quest_marker_QST000190.png",
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000191-MARKER",
+    "quest_id": "QST000191",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Cebu",
+    "location_id": "NPCLOC000192",
+    "map_key": "visayas-cebu",
+    "x": 37,
+    "y": 1,
+    "icon_filename": "quest_marker_QST000191.png",
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000192-MARKER",
+    "quest_id": "QST000192",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Davao",
+    "location_id": "NPCLOC000193",
+    "map_key": "mindanao-davao",
+    "x": 44,
+    "y": 12,
+    "icon_filename": "quest_marker_QST000192.png",
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000193-MARKER",
+    "quest_id": "QST000193",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Palawan",
+    "location_id": "NPCLOC000194",
+    "map_key": "kapuluan-palawan",
+    "x": 51,
+    "y": 23,
+    "icon_filename": "quest_marker_QST000193.png",
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000194-MARKER",
+    "quest_id": "QST000194",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Iloilo",
+    "location_id": "NPCLOC000195",
+    "map_key": "spirit-realm-iloilo",
+    "x": 58,
+    "y": 34,
+    "icon_filename": "quest_marker_QST000194.png",
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000195-MARKER",
+    "quest_id": "QST000195",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Sulu",
+    "location_id": "NPCLOC000196",
+    "map_key": "luzon-sulu",
+    "x": 65,
+    "y": 45,
+    "icon_filename": "quest_marker_QST000195.png",
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000196-MARKER",
+    "quest_id": "QST000196",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Benguet",
+    "location_id": "NPCLOC000197",
+    "map_key": "visayas-benguet",
+    "x": 72,
+    "y": 56,
+    "icon_filename": "quest_marker_QST000196.png",
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "marker_id": "QST000197-MARKER",
+    "quest_id": "QST000197",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Bohol",
+    "location_id": "NPCLOC000198",
+    "map_key": "mindanao-bohol",
+    "x": 79,
+    "y": 67,
+    "icon_filename": "quest_marker_QST000197.png",
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000198-MARKER",
+    "quest_id": "QST000198",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Samar",
+    "location_id": "NPCLOC000199",
+    "map_key": "kapuluan-samar",
+    "x": 86,
+    "y": 78,
+    "icon_filename": "quest_marker_QST000198.png",
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000199-MARKER",
+    "quest_id": "QST000199",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Aklan",
+    "location_id": "NPCLOC000200",
+    "map_key": "spirit-realm-aklan",
+    "x": 93,
+    "y": 89,
+    "icon_filename": "quest_marker_QST000199.png",
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000200-MARKER",
+    "quest_id": "QST000200",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Laguna",
+    "location_id": "NPCLOC000201",
+    "map_key": "luzon-laguna",
+    "x": 0,
+    "y": 0,
+    "icon_filename": "quest_marker_QST000200.png",
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000201-MARKER",
+    "quest_id": "QST000201",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Cebu",
+    "location_id": "NPCLOC000202",
+    "map_key": "visayas-cebu",
+    "x": 7,
+    "y": 11,
+    "icon_filename": "quest_marker_QST000201.png",
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000202-MARKER",
+    "quest_id": "QST000202",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Davao",
+    "location_id": "NPCLOC000203",
+    "map_key": "mindanao-davao",
+    "x": 14,
+    "y": 22,
+    "icon_filename": "quest_marker_QST000202.png",
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000203-MARKER",
+    "quest_id": "QST000203",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Palawan",
+    "location_id": "NPCLOC000204",
+    "map_key": "kapuluan-palawan",
+    "x": 21,
+    "y": 33,
+    "icon_filename": "quest_marker_QST000203.png",
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "marker_id": "QST000204-MARKER",
+    "quest_id": "QST000204",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Iloilo",
+    "location_id": "NPCLOC000205",
+    "map_key": "spirit-realm-iloilo",
+    "x": 28,
+    "y": 44,
+    "icon_filename": "quest_marker_QST000204.png",
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000205-MARKER",
+    "quest_id": "QST000205",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Sulu",
+    "location_id": "NPCLOC000206",
+    "map_key": "luzon-sulu",
+    "x": 35,
+    "y": 55,
+    "icon_filename": "quest_marker_QST000205.png",
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000206-MARKER",
+    "quest_id": "QST000206",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Benguet",
+    "location_id": "NPCLOC000207",
+    "map_key": "visayas-benguet",
+    "x": 42,
+    "y": 66,
+    "icon_filename": "quest_marker_QST000206.png",
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000207-MARKER",
+    "quest_id": "QST000207",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Bohol",
+    "location_id": "NPCLOC000208",
+    "map_key": "mindanao-bohol",
+    "x": 49,
+    "y": 77,
+    "icon_filename": "quest_marker_QST000207.png",
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000208-MARKER",
+    "quest_id": "QST000208",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Samar",
+    "location_id": "NPCLOC000209",
+    "map_key": "kapuluan-samar",
+    "x": 56,
+    "y": 88,
+    "icon_filename": "quest_marker_QST000208.png",
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000209-MARKER",
+    "quest_id": "QST000209",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Aklan",
+    "location_id": "NPCLOC000210",
+    "map_key": "spirit-realm-aklan",
+    "x": 63,
+    "y": 99,
+    "icon_filename": "quest_marker_QST000209.png",
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000210-MARKER",
+    "quest_id": "QST000210",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Laguna",
+    "location_id": "NPCLOC000211",
+    "map_key": "luzon-laguna",
+    "x": 70,
+    "y": 10,
+    "icon_filename": "quest_marker_QST000210.png",
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "marker_id": "QST000211-MARKER",
+    "quest_id": "QST000211",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Cebu",
+    "location_id": "NPCLOC000212",
+    "map_key": "visayas-cebu",
+    "x": 77,
+    "y": 21,
+    "icon_filename": "quest_marker_QST000211.png",
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000212-MARKER",
+    "quest_id": "QST000212",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Davao",
+    "location_id": "NPCLOC000213",
+    "map_key": "mindanao-davao",
+    "x": 84,
+    "y": 32,
+    "icon_filename": "quest_marker_QST000212.png",
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000213-MARKER",
+    "quest_id": "QST000213",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Palawan",
+    "location_id": "NPCLOC000214",
+    "map_key": "kapuluan-palawan",
+    "x": 91,
+    "y": 43,
+    "icon_filename": "quest_marker_QST000213.png",
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000214-MARKER",
+    "quest_id": "QST000214",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Iloilo",
+    "location_id": "NPCLOC000215",
+    "map_key": "spirit-realm-iloilo",
+    "x": 98,
+    "y": 54,
+    "icon_filename": "quest_marker_QST000214.png",
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000215-MARKER",
+    "quest_id": "QST000215",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Sulu",
+    "location_id": "NPCLOC000216",
+    "map_key": "luzon-sulu",
+    "x": 5,
+    "y": 65,
+    "icon_filename": "quest_marker_QST000215.png",
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000216-MARKER",
+    "quest_id": "QST000216",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Benguet",
+    "location_id": "NPCLOC000217",
+    "map_key": "visayas-benguet",
+    "x": 12,
+    "y": 76,
+    "icon_filename": "quest_marker_QST000216.png",
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000217-MARKER",
+    "quest_id": "QST000217",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Bohol",
+    "location_id": "NPCLOC000218",
+    "map_key": "mindanao-bohol",
+    "x": 19,
+    "y": 87,
+    "icon_filename": "quest_marker_QST000217.png",
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "marker_id": "QST000218-MARKER",
+    "quest_id": "QST000218",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Samar",
+    "location_id": "NPCLOC000219",
+    "map_key": "kapuluan-samar",
+    "x": 26,
+    "y": 98,
+    "icon_filename": "quest_marker_QST000218.png",
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000219-MARKER",
+    "quest_id": "QST000219",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Aklan",
+    "location_id": "NPCLOC000220",
+    "map_key": "spirit-realm-aklan",
+    "x": 33,
+    "y": 9,
+    "icon_filename": "quest_marker_QST000219.png",
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000220-MARKER",
+    "quest_id": "QST000220",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Laguna",
+    "location_id": "NPCLOC000221",
+    "map_key": "luzon-laguna",
+    "x": 40,
+    "y": 20,
+    "icon_filename": "quest_marker_QST000220.png",
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000221-MARKER",
+    "quest_id": "QST000221",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Cebu",
+    "location_id": "NPCLOC000222",
+    "map_key": "visayas-cebu",
+    "x": 47,
+    "y": 31,
+    "icon_filename": "quest_marker_QST000221.png",
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000222-MARKER",
+    "quest_id": "QST000222",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Davao",
+    "location_id": "NPCLOC000223",
+    "map_key": "mindanao-davao",
+    "x": 54,
+    "y": 42,
+    "icon_filename": "quest_marker_QST000222.png",
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000223-MARKER",
+    "quest_id": "QST000223",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Palawan",
+    "location_id": "NPCLOC000224",
+    "map_key": "kapuluan-palawan",
+    "x": 61,
+    "y": 53,
+    "icon_filename": "quest_marker_QST000223.png",
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000224-MARKER",
+    "quest_id": "QST000224",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Iloilo",
+    "location_id": "NPCLOC000225",
+    "map_key": "spirit-realm-iloilo",
+    "x": 68,
+    "y": 64,
+    "icon_filename": "quest_marker_QST000224.png",
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "marker_id": "QST000225-MARKER",
+    "quest_id": "QST000225",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Sulu",
+    "location_id": "NPCLOC000226",
+    "map_key": "luzon-sulu",
+    "x": 75,
+    "y": 75,
+    "icon_filename": "quest_marker_QST000225.png",
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000226-MARKER",
+    "quest_id": "QST000226",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Benguet",
+    "location_id": "NPCLOC000227",
+    "map_key": "visayas-benguet",
+    "x": 82,
+    "y": 86,
+    "icon_filename": "quest_marker_QST000226.png",
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000227-MARKER",
+    "quest_id": "QST000227",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Bohol",
+    "location_id": "NPCLOC000228",
+    "map_key": "mindanao-bohol",
+    "x": 89,
+    "y": 97,
+    "icon_filename": "quest_marker_QST000227.png",
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000228-MARKER",
+    "quest_id": "QST000228",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Samar",
+    "location_id": "NPCLOC000229",
+    "map_key": "kapuluan-samar",
+    "x": 96,
+    "y": 8,
+    "icon_filename": "quest_marker_QST000228.png",
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000229-MARKER",
+    "quest_id": "QST000229",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Aklan",
+    "location_id": "NPCLOC000230",
+    "map_key": "spirit-realm-aklan",
+    "x": 3,
+    "y": 19,
+    "icon_filename": "quest_marker_QST000229.png",
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000230-MARKER",
+    "quest_id": "QST000230",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Laguna",
+    "location_id": "NPCLOC000231",
+    "map_key": "luzon-laguna",
+    "x": 10,
+    "y": 30,
+    "icon_filename": "quest_marker_QST000230.png",
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000231-MARKER",
+    "quest_id": "QST000231",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Cebu",
+    "location_id": "NPCLOC000232",
+    "map_key": "visayas-cebu",
+    "x": 17,
+    "y": 41,
+    "icon_filename": "quest_marker_QST000231.png",
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "marker_id": "QST000232-MARKER",
+    "quest_id": "QST000232",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Davao",
+    "location_id": "NPCLOC000233",
+    "map_key": "mindanao-davao",
+    "x": 24,
+    "y": 52,
+    "icon_filename": "quest_marker_QST000232.png",
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000233-MARKER",
+    "quest_id": "QST000233",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Palawan",
+    "location_id": "NPCLOC000234",
+    "map_key": "kapuluan-palawan",
+    "x": 31,
+    "y": 63,
+    "icon_filename": "quest_marker_QST000233.png",
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000234-MARKER",
+    "quest_id": "QST000234",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Iloilo",
+    "location_id": "NPCLOC000235",
+    "map_key": "spirit-realm-iloilo",
+    "x": 38,
+    "y": 74,
+    "icon_filename": "quest_marker_QST000234.png",
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000235-MARKER",
+    "quest_id": "QST000235",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Sulu",
+    "location_id": "NPCLOC000236",
+    "map_key": "luzon-sulu",
+    "x": 45,
+    "y": 85,
+    "icon_filename": "quest_marker_QST000235.png",
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000236-MARKER",
+    "quest_id": "QST000236",
+    "marker_type": "quest_start",
+    "region": "Visayas",
+    "province": "Benguet",
+    "location_id": "NPCLOC000237",
+    "map_key": "visayas-benguet",
+    "x": 52,
+    "y": 96,
+    "icon_filename": "quest_marker_QST000236.png",
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000237-MARKER",
+    "quest_id": "QST000237",
+    "marker_type": "quest_start",
+    "region": "Mindanao",
+    "province": "Bohol",
+    "location_id": "NPCLOC000238",
+    "map_key": "mindanao-bohol",
+    "x": 59,
+    "y": 7,
+    "icon_filename": "quest_marker_QST000237.png",
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000238-MARKER",
+    "quest_id": "QST000238",
+    "marker_type": "quest_start",
+    "region": "Kapuluan",
+    "province": "Samar",
+    "location_id": "NPCLOC000239",
+    "map_key": "kapuluan-samar",
+    "x": 66,
+    "y": 18,
+    "icon_filename": "quest_marker_QST000238.png",
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "marker_id": "QST000239-MARKER",
+    "quest_id": "QST000239",
+    "marker_type": "quest_start",
+    "region": "Spirit Realm",
+    "province": "Aklan",
+    "location_id": "NPCLOC000240",
+    "map_key": "spirit-realm-aklan",
+    "x": 73,
+    "y": 29,
+    "icon_filename": "quest_marker_QST000239.png",
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000240-MARKER",
+    "quest_id": "QST000240",
+    "marker_type": "quest_start",
+    "region": "Luzon",
+    "province": "Laguna",
+    "location_id": "NPCLOC000241",
+    "map_key": "luzon-laguna",
+    "x": 80,
+    "y": 40,
+    "icon_filename": "quest_marker_QST000240.png",
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000241-MARKER",
+    "quest_id": "QST000241",
+    "marker_type": "hidden_area",
+    "region": "Visayas",
+    "province": "Cebu",
+    "location_id": "NPCLOC000242",
+    "map_key": "visayas-cebu",
+    "x": 87,
+    "y": 51,
+    "icon_filename": "quest_marker_QST000241.png",
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000242-MARKER",
+    "quest_id": "QST000242",
+    "marker_type": "hidden_area",
+    "region": "Mindanao",
+    "province": "Davao",
+    "location_id": "NPCLOC000243",
+    "map_key": "mindanao-davao",
+    "x": 94,
+    "y": 62,
+    "icon_filename": "quest_marker_QST000242.png",
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000243-MARKER",
+    "quest_id": "QST000243",
+    "marker_type": "hidden_area",
+    "region": "Kapuluan",
+    "province": "Palawan",
+    "location_id": "NPCLOC000244",
+    "map_key": "kapuluan-palawan",
+    "x": 1,
+    "y": 73,
+    "icon_filename": "quest_marker_QST000243.png",
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000244-MARKER",
+    "quest_id": "QST000244",
+    "marker_type": "hidden_area",
+    "region": "Spirit Realm",
+    "province": "Iloilo",
+    "location_id": "NPCLOC000245",
+    "map_key": "spirit-realm-iloilo",
+    "x": 8,
+    "y": 84,
+    "icon_filename": "quest_marker_QST000244.png",
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000245-MARKER",
+    "quest_id": "QST000245",
+    "marker_type": "hidden_area",
+    "region": "Luzon",
+    "province": "Sulu",
+    "location_id": "NPCLOC000246",
+    "map_key": "luzon-sulu",
+    "x": 15,
+    "y": 95,
+    "icon_filename": "quest_marker_QST000245.png",
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "marker_id": "QST000246-MARKER",
+    "quest_id": "QST000246",
+    "marker_type": "hidden_area",
+    "region": "Visayas",
+    "province": "Benguet",
+    "location_id": "NPCLOC000247",
+    "map_key": "visayas-benguet",
+    "x": 22,
+    "y": 6,
+    "icon_filename": "quest_marker_QST000246.png",
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000247-MARKER",
+    "quest_id": "QST000247",
+    "marker_type": "hidden_area",
+    "region": "Mindanao",
+    "province": "Bohol",
+    "location_id": "NPCLOC000248",
+    "map_key": "mindanao-bohol",
+    "x": 29,
+    "y": 17,
+    "icon_filename": "quest_marker_QST000247.png",
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000248-MARKER",
+    "quest_id": "QST000248",
+    "marker_type": "hidden_area",
+    "region": "Kapuluan",
+    "province": "Samar",
+    "location_id": "NPCLOC000249",
+    "map_key": "kapuluan-samar",
+    "x": 36,
+    "y": 28,
+    "icon_filename": "quest_marker_QST000248.png",
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000249-MARKER",
+    "quest_id": "QST000249",
+    "marker_type": "hidden_area",
+    "region": "Spirit Realm",
+    "province": "Aklan",
+    "location_id": "NPCLOC000250",
+    "map_key": "spirit-realm-aklan",
+    "x": 43,
+    "y": 39,
+    "icon_filename": "quest_marker_QST000249.png",
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000250-MARKER",
+    "quest_id": "QST000250",
+    "marker_type": "hidden_area",
+    "region": "Luzon",
+    "province": "Laguna",
+    "location_id": "NPCLOC000251",
+    "map_key": "luzon-laguna",
+    "x": 50,
+    "y": 50,
+    "icon_filename": "quest_marker_QST000250.png",
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000251-MARKER",
+    "quest_id": "QST000251",
+    "marker_type": "hidden_area",
+    "region": "Visayas",
+    "province": "Cebu",
+    "location_id": "NPCLOC000252",
+    "map_key": "visayas-cebu",
+    "x": 57,
+    "y": 61,
+    "icon_filename": "quest_marker_QST000251.png",
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000252-MARKER",
+    "quest_id": "QST000252",
+    "marker_type": "hidden_area",
+    "region": "Mindanao",
+    "province": "Davao",
+    "location_id": "NPCLOC000253",
+    "map_key": "mindanao-davao",
+    "x": 64,
+    "y": 72,
+    "icon_filename": "quest_marker_QST000252.png",
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [
+        "Rain"
+      ],
+      "active_time": "night"
+    }
+  },
+  {
+    "marker_id": "QST000253-MARKER",
+    "quest_id": "QST000253",
+    "marker_type": "hidden_area",
+    "region": "Kapuluan",
+    "province": "Palawan",
+    "location_id": "NPCLOC000254",
+    "map_key": "kapuluan-palawan",
+    "x": 71,
+    "y": 83,
+    "icon_filename": "quest_marker_QST000253.png",
+    "condition_payload": {
+      "story_chapter_min": 5,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000254-MARKER",
+    "quest_id": "QST000254",
+    "marker_type": "hidden_area",
+    "region": "Spirit Realm",
+    "province": "Iloilo",
+    "location_id": "NPCLOC000255",
+    "map_key": "spirit-realm-iloilo",
+    "x": 78,
+    "y": 94,
+    "icon_filename": "quest_marker_QST000254.png",
+    "condition_payload": {
+      "story_chapter_min": 6,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000255-MARKER",
+    "quest_id": "QST000255",
+    "marker_type": "hidden_area",
+    "region": "Luzon",
+    "province": "Sulu",
+    "location_id": "NPCLOC000256",
+    "map_key": "luzon-sulu",
+    "x": 85,
+    "y": 5,
+    "icon_filename": "quest_marker_QST000255.png",
+    "condition_payload": {
+      "story_chapter_min": 7,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000256-MARKER",
+    "quest_id": "QST000256",
+    "marker_type": "hidden_area",
+    "region": "Visayas",
+    "province": "Benguet",
+    "location_id": "NPCLOC000257",
+    "map_key": "visayas-benguet",
+    "x": 92,
+    "y": 16,
+    "icon_filename": "quest_marker_QST000256.png",
+    "condition_payload": {
+      "story_chapter_min": 0,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000257-MARKER",
+    "quest_id": "QST000257",
+    "marker_type": "hidden_area",
+    "region": "Mindanao",
+    "province": "Bohol",
+    "location_id": "NPCLOC000258",
+    "map_key": "mindanao-bohol",
+    "x": 99,
+    "y": 27,
+    "icon_filename": "quest_marker_QST000257.png",
+    "condition_payload": {
+      "story_chapter_min": 1,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000258-MARKER",
+    "quest_id": "QST000258",
+    "marker_type": "hidden_area",
+    "region": "Kapuluan",
+    "province": "Samar",
+    "location_id": "NPCLOC000259",
+    "map_key": "kapuluan-samar",
+    "x": 6,
+    "y": 38,
+    "icon_filename": "quest_marker_QST000258.png",
+    "condition_payload": {
+      "story_chapter_min": 2,
+      "weather": [],
+      "active_time": null
+    }
+  },
+  {
+    "marker_id": "QST000259-MARKER",
+    "quest_id": "QST000259",
+    "marker_type": "hidden_area",
+    "region": "Spirit Realm",
+    "province": "Aklan",
+    "location_id": "NPCLOC000260",
+    "map_key": "spirit-realm-aklan",
+    "x": 13,
+    "y": 49,
+    "icon_filename": "quest_marker_QST000259.png",
+    "condition_payload": {
+      "story_chapter_min": 3,
+      "weather": [],
+      "active_time": "night"
+    }
+  },
+  {
+    "marker_id": "QST000260-MARKER",
+    "quest_id": "QST000260",
+    "marker_type": "hidden_area",
+    "region": "Luzon",
+    "province": "Laguna",
+    "location_id": "NPCLOC000261",
+    "map_key": "luzon-laguna",
+    "x": 20,
+    "y": 60,
+    "icon_filename": "quest_marker_QST000260.png",
+    "condition_payload": {
+      "story_chapter_min": 4,
+      "weather": [],
+      "active_time": null
+    }
+  }
+]

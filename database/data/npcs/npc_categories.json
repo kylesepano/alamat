@@ -1,0 +1,152 @@
+[
+  {
+    "category_id": "NPCC0001",
+    "name": "Story",
+    "slug": "story",
+    "description": "Story-critical NPCs.",
+    "icon_hint": "user",
+    "color_hint": "#D6A85C",
+    "sort_order": 1,
+    "is_active": true
+  },
+  {
+    "category_id": "NPCC0002",
+    "name": "Village",
+    "slug": "village",
+    "description": "Settlement residents and local flavor NPCs.",
+    "icon_hint": "user",
+    "color_hint": "#22C55E",
+    "sort_order": 2,
+    "is_active": true
+  },
+  {
+    "category_id": "NPCC0003",
+    "name": "Merchant",
+    "slug": "merchant",
+    "description": "Vendors and trade NPCs.",
+    "icon_hint": "coins",
+    "color_hint": "#38BDF8",
+    "sort_order": 3,
+    "is_active": true
+  },
+  {
+    "category_id": "NPCC0004",
+    "name": "Trainer",
+    "slug": "trainer",
+    "description": "Skill, bonding, recipe, and combat teachers.",
+    "icon_hint": "book-open",
+    "color_hint": "#A78BFA",
+    "sort_order": 4,
+    "is_active": true
+  },
+  {
+    "category_id": "NPCC0005",
+    "name": "Crafter",
+    "slug": "crafter",
+    "description": "Blacksmiths, artisans, cooks, and makers.",
+    "icon_hint": "user",
+    "color_hint": "#F472B6",
+    "sort_order": 5,
+    "is_active": true
+  },
+  {
+    "category_id": "NPCC0006",
+    "name": "Religious",
+    "slug": "religious",
+    "description": "Shrine, church, mosque, and ritual leaders.",
+    "icon_hint": "sparkles",
+    "color_hint": "#F59E0B",
+    "sort_order": 6,
+    "is_active": true
+  },
+  {
+    "category_id": "NPCC0007",
+    "name": "Government",
+    "slug": "government",
+    "description": "Datu, rajah, sultanate, council, and civic figures.",
+    "icon_hint": "landmark",
+    "color_hint": "#94A3B8",
+    "sort_order": 7,
+    "is_active": true
+  },
+  {
+    "category_id": "NPCC0008",
+    "name": "Military",
+    "slug": "military",
+    "description": "Guards, captains, scouts, and patrol figures.",
+    "icon_hint": "shield",
+    "color_hint": "#D6A85C",
+    "sort_order": 8,
+    "is_active": true
+  },
+  {
+    "category_id": "NPCC0009",
+    "name": "Scholar",
+    "slug": "scholar",
+    "description": "Researchers, librarians, historians, and teachers.",
+    "icon_hint": "user",
+    "color_hint": "#22C55E",
+    "sort_order": 9,
+    "is_active": true
+  },
+  {
+    "category_id": "NPCC0010",
+    "name": "Wandering",
+    "slug": "wandering",
+    "description": "Traveling NPCs and road encounters.",
+    "icon_hint": "user",
+    "color_hint": "#38BDF8",
+    "sort_order": 10,
+    "is_active": true
+  },
+  {
+    "category_id": "NPCC0011",
+    "name": "Child",
+    "slug": "child",
+    "description": "Young settlement NPCs.",
+    "icon_hint": "user",
+    "color_hint": "#A78BFA",
+    "sort_order": 11,
+    "is_active": true
+  },
+  {
+    "category_id": "NPCC0012",
+    "name": "Elder",
+    "slug": "elder",
+    "description": "Elders and memory keepers.",
+    "icon_hint": "user",
+    "color_hint": "#F472B6",
+    "sort_order": 12,
+    "is_active": true
+  },
+  {
+    "category_id": "NPCC0013",
+    "name": "Companion",
+    "slug": "companion",
+    "description": "Recruitable companions.",
+    "icon_hint": "user",
+    "color_hint": "#F59E0B",
+    "sort_order": 13,
+    "is_active": true
+  },
+  {
+    "category_id": "NPCC0014",
+    "name": "Boss",
+    "slug": "boss",
+    "description": "Narrative rivals and boss-adjacent figures.",
+    "icon_hint": "user",
+    "color_hint": "#94A3B8",
+    "sort_order": 14,
+    "is_active": true
+  },
+  {
+    "category_id": "NPCC0015",
+    "name": "Festival",
+    "slug": "festival",
+    "description": "Festival hosts and seasonal NPCs.",
+    "icon_hint": "user",
+    "color_hint": "#D6A85C",
+    "sort_order": 15,
+    "is_active": true
+  }
+]

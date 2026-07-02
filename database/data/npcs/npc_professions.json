@@ -1,0 +1,262 @@
+[
+  {
+    "profession_id": "NPCP0001",
+    "name": "Rice Farmer",
+    "slug": "rice-farmer",
+    "description": "Rice Farmer profession metadata for schedules and services.",
+    "icon_hint": "user",
+    "color_hint": "#22C55E",
+    "sort_order": 1,
+    "is_active": true
+  },
+  {
+    "profession_id": "NPCP0002",
+    "name": "Fisher",
+    "slug": "fisher",
+    "description": "Fisher profession metadata for schedules and services.",
+    "icon_hint": "user",
+    "color_hint": "#38BDF8",
+    "sort_order": 2,
+    "is_active": true
+  },
+  {
+    "profession_id": "NPCP0003",
+    "name": "Boatwright",
+    "slug": "boatwright",
+    "description": "Boatwright profession metadata for schedules and services.",
+    "icon_hint": "user",
+    "color_hint": "#A78BFA",
+    "sort_order": 3,
+    "is_active": true
+  },
+  {
+    "profession_id": "NPCP0004",
+    "name": "Weaver",
+    "slug": "weaver",
+    "description": "Weaver profession metadata for schedules and services.",
+    "icon_hint": "user",
+    "color_hint": "#F472B6",
+    "sort_order": 4,
+    "is_active": true
+  },
+  {
+    "profession_id": "NPCP0005",
+    "name": "Blacksmith",
+    "slug": "blacksmith",
+    "description": "Blacksmith profession metadata for schedules and services.",
+    "icon_hint": "user",
+    "color_hint": "#F59E0B",
+    "sort_order": 5,
+    "is_active": true
+  },
+  {
+    "profession_id": "NPCP0006",
+    "name": "Herbalist",
+    "slug": "herbalist",
+    "description": "Herbalist profession metadata for schedules and services.",
+    "icon_hint": "user",
+    "color_hint": "#94A3B8",
+    "sort_order": 6,
+    "is_active": true
+  },
+  {
+    "profession_id": "NPCP0007",
+    "name": "Healer",
+    "slug": "healer",
+    "description": "Healer profession metadata for schedules and services.",
+    "icon_hint": "user",
+    "color_hint": "#D6A85C",
+    "sort_order": 7,
+    "is_active": true
+  },
+  {
+    "profession_id": "NPCP0008",
+    "name": "Babaylan",
+    "slug": "babaylan",
+    "description": "Babaylan profession metadata for schedules and services.",
+    "icon_hint": "sparkles",
+    "color_hint": "#22C55E",
+    "sort_order": 8,
+    "is_active": true
+  },
+  {
+    "profession_id": "NPCP0009",
+    "name": "Catalonan",
+    "slug": "catalonan",
+    "description": "Catalonan profession metadata for schedules and services.",
+    "icon_hint": "sparkles",
+    "color_hint": "#38BDF8",
+    "sort_order": 9,
+    "is_active": true
+  },
+  {
+    "profession_id": "NPCP0010",
+    "name": "Priest",
+    "slug": "priest",
+    "description": "Priest profession metadata for schedules and services.",
+    "icon_hint": "sparkles",
+    "color_hint": "#A78BFA",
+    "sort_order": 10,
+    "is_active": true
+  },
+  {
+    "profession_id": "NPCP0011",
+    "name": "Imam",
+    "slug": "imam",
+    "description": "Imam profession metadata for schedules and services.",
+    "icon_hint": "sparkles",
+    "color_hint": "#F472B6",
+    "sort_order": 11,
+    "is_active": true
+  },
+  {
+    "profession_id": "NPCP0012",
+    "name": "Archivist",
+    "slug": "archivist",
+    "description": "Archivist profession metadata for schedules and services.",
+    "icon_hint": "user",
+    "color_hint": "#F59E0B",
+    "sort_order": 12,
+    "is_active": true
+  },
+  {
+    "profession_id": "NPCP0013",
+    "name": "Monster Ecologist",
+    "slug": "monster-ecologist",
+    "description": "Monster Ecologist profession metadata for schedules and services.",
+    "icon_hint": "user",
+    "color_hint": "#94A3B8",
+    "sort_order": 13,
+    "is_active": true
+  },
+  {
+    "profession_id": "NPCP0014",
+    "name": "Guard Captain",
+    "slug": "guard-captain",
+    "description": "Guard Captain profession metadata for schedules and services.",
+    "icon_hint": "shield",
+    "color_hint": "#D6A85C",
+    "sort_order": 14,
+    "is_active": true
+  },
+  {
+    "profession_id": "NPCP0015",
+    "name": "Courier",
+    "slug": "courier",
+    "description": "Courier profession metadata for schedules and services.",
+    "icon_hint": "user",
+    "color_hint": "#22C55E",
+    "sort_order": 15,
+    "is_active": true
+  },
+  {
+    "profession_id": "NPCP0016",
+    "name": "Cook",
+    "slug": "cook",
+    "description": "Cook profession metadata for schedules and services.",
+    "icon_hint": "user",
+    "color_hint": "#38BDF8",
+    "sort_order": 16,
+    "is_active": true
+  },
+  {
+    "profession_id": "NPCP0017",
+    "name": "Pearl Diver",
+    "slug": "pearl-diver",
+    "description": "Pearl Diver profession metadata for schedules and services.",
+    "icon_hint": "user",
+    "color_hint": "#A78BFA",
+    "sort_order": 17,
+    "is_active": true
+  },
+  {
+    "profession_id": "NPCP0018",
+    "name": "Brass Artisan",
+    "slug": "brass-artisan",
+    "description": "Brass Artisan profession metadata for schedules and services.",
+    "icon_hint": "user",
+    "color_hint": "#F472B6",
+    "sort_order": 18,
+    "is_active": true
+  },
+  {
+    "profession_id": "NPCP0019",
+    "name": "Teacher",
+    "slug": "teacher",
+    "description": "Teacher profession metadata for schedules and services.",
+    "icon_hint": "book-open",
+    "color_hint": "#F59E0B",
+    "sort_order": 19,
+    "is_active": true
+  },
+  {
+    "profession_id": "NPCP0020",
+    "name": "Trader",
+    "slug": "trader",
+    "description": "Trader profession metadata for schedules and services.",
+    "icon_hint": "coins",
+    "color_hint": "#94A3B8",
+    "sort_order": 20,
+    "is_active": true
+  },
+  {
+    "profession_id": "NPCP0021",
+    "name": "Hunter",
+    "slug": "hunter",
+    "description": "Hunter profession metadata for schedules and services.",
+    "icon_hint": "user",
+    "color_hint": "#D6A85C",
+    "sort_order": 21,
+    "is_active": true
+  },
+  {
+    "profession_id": "NPCP0022",
+    "name": "Musician",
+    "slug": "musician",
+    "description": "Musician profession metadata for schedules and services.",
+    "icon_hint": "user",
+    "color_hint": "#22C55E",
+    "sort_order": 22,
+    "is_active": true
+  },
+  {
+    "profession_id": "NPCP0023",
+    "name": "Judge",
+    "slug": "judge",
+    "description": "Judge profession metadata for schedules and services.",
+    "icon_hint": "landmark",
+    "color_hint": "#38BDF8",
+    "sort_order": 23,
+    "is_active": true
+  },
+  {
+    "profession_id": "NPCP0024",
+    "name": "Shrine Tender",
+    "slug": "shrine-tender",
+    "description": "Shrine Tender profession metadata for schedules and services.",
+    "icon_hint": "sparkles",
+    "color_hint": "#A78BFA",
+    "sort_order": 24,
+    "is_active": true
+  },
+  {
+    "profession_id": "NPCP0025",
+    "name": "Mapmaker",
+    "slug": "mapmaker",
+    "description": "Mapmaker profession metadata for schedules and services.",
+    "icon_hint": "user",
+    "color_hint": "#F472B6",
+    "sort_order": 25,
+    "is_active": true
+  },
+  {
+    "profession_id": "NPCP0026",
+    "name": "Festival Organizer",
+    "slug": "festival-organizer",
+    "description": "Festival Organizer profession metadata for schedules and services.",
+    "icon_hint": "user",
+    "color_hint": "#F59E0B",
+    "sort_order": 26,
+    "is_active": true
+  }
+]

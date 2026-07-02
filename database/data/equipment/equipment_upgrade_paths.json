@@ -1,0 +1,3242 @@
+[
+  {
+    "upgrade_id": "UPG000001",
+    "base_equipment_id": "EQP000001",
+    "upgraded_equipment_id": "EQP000002",
+    "upgrade_level": 1,
+    "required_items": [
+      {
+        "item_id": "ITM000001",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 50,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": "QST00001",
+    "success_rate": 0.9,
+    "description": "Upgrade path from Bolo to Kampilan."
+  },
+  {
+    "upgrade_id": "UPG000002",
+    "base_equipment_id": "EQP000002",
+    "upgraded_equipment_id": "EQP000003",
+    "upgrade_level": 2,
+    "required_items": [
+      {
+        "item_id": "ITM000002",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 53,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Kampilan to Kris."
+  },
+  {
+    "upgrade_id": "UPG000003",
+    "base_equipment_id": "EQP000003",
+    "upgraded_equipment_id": "EQP000004",
+    "upgrade_level": 3,
+    "required_items": [
+      {
+        "item_id": "ITM000003",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 56,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Kris to Barong."
+  },
+  {
+    "upgrade_id": "UPG000004",
+    "base_equipment_id": "EQP000004",
+    "upgraded_equipment_id": "EQP000005",
+    "upgrade_level": 4,
+    "required_items": [
+      {
+        "item_id": "ITM000004",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 59,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Barong to Panabas."
+  },
+  {
+    "upgrade_id": "UPG000005",
+    "base_equipment_id": "EQP000005",
+    "upgraded_equipment_id": "EQP000006",
+    "upgrade_level": 5,
+    "required_items": [
+      {
+        "item_id": "ITM000005",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 62,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Panabas to Spear."
+  },
+  {
+    "upgrade_id": "UPG000006",
+    "base_equipment_id": "EQP000006",
+    "upgraded_equipment_id": "EQP000007",
+    "upgrade_level": 1,
+    "required_items": [
+      {
+        "item_id": "ITM000006",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 65,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Spear to Bow."
+  },
+  {
+    "upgrade_id": "UPG000007",
+    "base_equipment_id": "EQP000007",
+    "upgraded_equipment_id": "EQP000008",
+    "upgrade_level": 2,
+    "required_items": [
+      {
+        "item_id": "ITM000007",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 68,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Bow to Staff."
+  },
+  {
+    "upgrade_id": "UPG000008",
+    "base_equipment_id": "EQP000008",
+    "upgraded_equipment_id": "EQP000009",
+    "upgrade_level": 3,
+    "required_items": [
+      {
+        "item_id": "ITM000008",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 71,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Staff to Ritual Dagger."
+  },
+  {
+    "upgrade_id": "UPG000009",
+    "base_equipment_id": "EQP000009",
+    "upgraded_equipment_id": "EQP000010",
+    "upgrade_level": 4,
+    "required_items": [
+      {
+        "item_id": "ITM000009",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 74,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Ritual Dagger to Fishing Spear."
+  },
+  {
+    "upgrade_id": "UPG000010",
+    "base_equipment_id": "EQP000010",
+    "upgraded_equipment_id": "EQP000011",
+    "upgrade_level": 5,
+    "required_items": [
+      {
+        "item_id": "ITM000010",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 77,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Fishing Spear to Bolo 2."
+  },
+  {
+    "upgrade_id": "UPG000011",
+    "base_equipment_id": "EQP000011",
+    "upgraded_equipment_id": "EQP000012",
+    "upgrade_level": 1,
+    "required_items": [
+      {
+        "item_id": "ITM000011",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 80,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Bolo 2 to Kampilan 2."
+  },
+  {
+    "upgrade_id": "UPG000012",
+    "base_equipment_id": "EQP000012",
+    "upgraded_equipment_id": "EQP000013",
+    "upgrade_level": 2,
+    "required_items": [
+      {
+        "item_id": "ITM000012",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 83,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": "QST00012",
+    "success_rate": 0.9,
+    "description": "Upgrade path from Kampilan 2 to Kris 2."
+  },
+  {
+    "upgrade_id": "UPG000013",
+    "base_equipment_id": "EQP000013",
+    "upgraded_equipment_id": "EQP000014",
+    "upgrade_level": 3,
+    "required_items": [
+      {
+        "item_id": "ITM000013",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 86,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Kris 2 to Barong 2."
+  },
+  {
+    "upgrade_id": "UPG000014",
+    "base_equipment_id": "EQP000014",
+    "upgraded_equipment_id": "EQP000015",
+    "upgrade_level": 4,
+    "required_items": [
+      {
+        "item_id": "ITM000014",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 89,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Barong 2 to Panabas 2."
+  },
+  {
+    "upgrade_id": "UPG000015",
+    "base_equipment_id": "EQP000015",
+    "upgraded_equipment_id": "EQP000016",
+    "upgrade_level": 5,
+    "required_items": [
+      {
+        "item_id": "ITM000015",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 92,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Panabas 2 to Spear 2."
+  },
+  {
+    "upgrade_id": "UPG000016",
+    "base_equipment_id": "EQP000016",
+    "upgraded_equipment_id": "EQP000017",
+    "upgrade_level": 1,
+    "required_items": [
+      {
+        "item_id": "ITM000016",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 95,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Spear 2 to Bow 2."
+  },
+  {
+    "upgrade_id": "UPG000017",
+    "base_equipment_id": "EQP000017",
+    "upgraded_equipment_id": "EQP000018",
+    "upgrade_level": 2,
+    "required_items": [
+      {
+        "item_id": "ITM000017",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 98,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Bow 2 to Staff 2."
+  },
+  {
+    "upgrade_id": "UPG000018",
+    "base_equipment_id": "EQP000018",
+    "upgraded_equipment_id": "EQP000019",
+    "upgrade_level": 3,
+    "required_items": [
+      {
+        "item_id": "ITM000018",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 101,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Staff 2 to Ritual Dagger 2."
+  },
+  {
+    "upgrade_id": "UPG000019",
+    "base_equipment_id": "EQP000019",
+    "upgraded_equipment_id": "EQP000020",
+    "upgrade_level": 4,
+    "required_items": [
+      {
+        "item_id": "ITM000019",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 104,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Ritual Dagger 2 to Fishing Spear 2."
+  },
+  {
+    "upgrade_id": "UPG000020",
+    "base_equipment_id": "EQP000020",
+    "upgraded_equipment_id": "EQP000021",
+    "upgrade_level": 5,
+    "required_items": [
+      {
+        "item_id": "ITM000020",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 107,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Fishing Spear 2 to Bolo 3."
+  },
+  {
+    "upgrade_id": "UPG000021",
+    "base_equipment_id": "EQP000021",
+    "upgraded_equipment_id": "EQP000022",
+    "upgrade_level": 1,
+    "required_items": [
+      {
+        "item_id": "ITM000021",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 110,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Bolo 3 to Kampilan 3."
+  },
+  {
+    "upgrade_id": "UPG000022",
+    "base_equipment_id": "EQP000022",
+    "upgraded_equipment_id": "EQP000023",
+    "upgrade_level": 2,
+    "required_items": [
+      {
+        "item_id": "ITM000022",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 113,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Kampilan 3 to Kris 3."
+  },
+  {
+    "upgrade_id": "UPG000023",
+    "base_equipment_id": "EQP000023",
+    "upgraded_equipment_id": "EQP000024",
+    "upgrade_level": 3,
+    "required_items": [
+      {
+        "item_id": "ITM000023",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 116,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": "QST00023",
+    "success_rate": 0.9,
+    "description": "Upgrade path from Kris 3 to Barong 3."
+  },
+  {
+    "upgrade_id": "UPG000024",
+    "base_equipment_id": "EQP000024",
+    "upgraded_equipment_id": "EQP000025",
+    "upgrade_level": 4,
+    "required_items": [
+      {
+        "item_id": "ITM000024",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 119,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Barong 3 to Panabas 3."
+  },
+  {
+    "upgrade_id": "UPG000025",
+    "base_equipment_id": "EQP000025",
+    "upgraded_equipment_id": "EQP000026",
+    "upgrade_level": 5,
+    "required_items": [
+      {
+        "item_id": "ITM000025",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 122,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Panabas 3 to Spear 3."
+  },
+  {
+    "upgrade_id": "UPG000026",
+    "base_equipment_id": "EQP000026",
+    "upgraded_equipment_id": "EQP000027",
+    "upgrade_level": 1,
+    "required_items": [
+      {
+        "item_id": "ITM000026",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 125,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Spear 3 to Bow 3."
+  },
+  {
+    "upgrade_id": "UPG000027",
+    "base_equipment_id": "EQP000027",
+    "upgraded_equipment_id": "EQP000028",
+    "upgrade_level": 2,
+    "required_items": [
+      {
+        "item_id": "ITM000027",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 128,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Bow 3 to Staff 3."
+  },
+  {
+    "upgrade_id": "UPG000028",
+    "base_equipment_id": "EQP000028",
+    "upgraded_equipment_id": "EQP000029",
+    "upgrade_level": 3,
+    "required_items": [
+      {
+        "item_id": "ITM000028",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 131,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Staff 3 to Ritual Dagger 3."
+  },
+  {
+    "upgrade_id": "UPG000029",
+    "base_equipment_id": "EQP000029",
+    "upgraded_equipment_id": "EQP000030",
+    "upgrade_level": 4,
+    "required_items": [
+      {
+        "item_id": "ITM000029",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 134,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Ritual Dagger 3 to Fishing Spear 3."
+  },
+  {
+    "upgrade_id": "UPG000030",
+    "base_equipment_id": "EQP000030",
+    "upgraded_equipment_id": "EQP000031",
+    "upgrade_level": 5,
+    "required_items": [
+      {
+        "item_id": "ITM000030",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 137,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Fishing Spear 3 to Bolo 4."
+  },
+  {
+    "upgrade_id": "UPG000031",
+    "base_equipment_id": "EQP000031",
+    "upgraded_equipment_id": "EQP000032",
+    "upgrade_level": 1,
+    "required_items": [
+      {
+        "item_id": "ITM000031",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 140,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Bolo 4 to Kampilan 4."
+  },
+  {
+    "upgrade_id": "UPG000032",
+    "base_equipment_id": "EQP000032",
+    "upgraded_equipment_id": "EQP000033",
+    "upgrade_level": 2,
+    "required_items": [
+      {
+        "item_id": "ITM000032",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 143,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Kampilan 4 to Kris 4."
+  },
+  {
+    "upgrade_id": "UPG000033",
+    "base_equipment_id": "EQP000033",
+    "upgraded_equipment_id": "EQP000034",
+    "upgrade_level": 3,
+    "required_items": [
+      {
+        "item_id": "ITM000033",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 146,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Kris 4 to Barong 4."
+  },
+  {
+    "upgrade_id": "UPG000034",
+    "base_equipment_id": "EQP000034",
+    "upgraded_equipment_id": "EQP000035",
+    "upgrade_level": 4,
+    "required_items": [
+      {
+        "item_id": "ITM000034",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 149,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": "QST00034",
+    "success_rate": 0.9,
+    "description": "Upgrade path from Barong 4 to Panabas 4."
+  },
+  {
+    "upgrade_id": "UPG000035",
+    "base_equipment_id": "EQP000035",
+    "upgraded_equipment_id": "EQP000036",
+    "upgrade_level": 5,
+    "required_items": [
+      {
+        "item_id": "ITM000035",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 152,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Panabas 4 to Spear 4."
+  },
+  {
+    "upgrade_id": "UPG000036",
+    "base_equipment_id": "EQP000036",
+    "upgraded_equipment_id": "EQP000037",
+    "upgrade_level": 1,
+    "required_items": [
+      {
+        "item_id": "ITM000036",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 155,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Spear 4 to Bow 4."
+  },
+  {
+    "upgrade_id": "UPG000037",
+    "base_equipment_id": "EQP000037",
+    "upgraded_equipment_id": "EQP000038",
+    "upgrade_level": 2,
+    "required_items": [
+      {
+        "item_id": "ITM000037",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 158,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Bow 4 to Staff 4."
+  },
+  {
+    "upgrade_id": "UPG000038",
+    "base_equipment_id": "EQP000038",
+    "upgraded_equipment_id": "EQP000039",
+    "upgrade_level": 3,
+    "required_items": [
+      {
+        "item_id": "ITM000038",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 161,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Staff 4 to Ritual Dagger 4."
+  },
+  {
+    "upgrade_id": "UPG000039",
+    "base_equipment_id": "EQP000039",
+    "upgraded_equipment_id": "EQP000040",
+    "upgrade_level": 4,
+    "required_items": [
+      {
+        "item_id": "ITM000039",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 164,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Ritual Dagger 4 to Fishing Spear 4."
+  },
+  {
+    "upgrade_id": "UPG000040",
+    "base_equipment_id": "EQP000040",
+    "upgraded_equipment_id": "EQP000041",
+    "upgrade_level": 5,
+    "required_items": [
+      {
+        "item_id": "ITM000040",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 167,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Fishing Spear 4 to Bolo 5."
+  },
+  {
+    "upgrade_id": "UPG000041",
+    "base_equipment_id": "EQP000041",
+    "upgraded_equipment_id": "EQP000042",
+    "upgrade_level": 1,
+    "required_items": [
+      {
+        "item_id": "ITM000041",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 170,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Bolo 5 to Kampilan 5."
+  },
+  {
+    "upgrade_id": "UPG000042",
+    "base_equipment_id": "EQP000042",
+    "upgraded_equipment_id": "EQP000043",
+    "upgrade_level": 2,
+    "required_items": [
+      {
+        "item_id": "ITM000042",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 173,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Kampilan 5 to Kris 5."
+  },
+  {
+    "upgrade_id": "UPG000043",
+    "base_equipment_id": "EQP000043",
+    "upgraded_equipment_id": "EQP000044",
+    "upgrade_level": 3,
+    "required_items": [
+      {
+        "item_id": "ITM000043",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 176,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Kris 5 to Barong 5."
+  },
+  {
+    "upgrade_id": "UPG000044",
+    "base_equipment_id": "EQP000044",
+    "upgraded_equipment_id": "EQP000045",
+    "upgrade_level": 4,
+    "required_items": [
+      {
+        "item_id": "ITM000044",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 179,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Barong 5 to Panabas 5."
+  },
+  {
+    "upgrade_id": "UPG000045",
+    "base_equipment_id": "EQP000045",
+    "upgraded_equipment_id": "EQP000046",
+    "upgrade_level": 5,
+    "required_items": [
+      {
+        "item_id": "ITM000045",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 182,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": "QST00045",
+    "success_rate": 0.9,
+    "description": "Upgrade path from Panabas 5 to Spear 5."
+  },
+  {
+    "upgrade_id": "UPG000046",
+    "base_equipment_id": "EQP000046",
+    "upgraded_equipment_id": "EQP000047",
+    "upgrade_level": 1,
+    "required_items": [
+      {
+        "item_id": "ITM000046",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 185,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Spear 5 to Bow 5."
+  },
+  {
+    "upgrade_id": "UPG000047",
+    "base_equipment_id": "EQP000047",
+    "upgraded_equipment_id": "EQP000048",
+    "upgrade_level": 2,
+    "required_items": [
+      {
+        "item_id": "ITM000047",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 188,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Bow 5 to Staff 5."
+  },
+  {
+    "upgrade_id": "UPG000048",
+    "base_equipment_id": "EQP000048",
+    "upgraded_equipment_id": "EQP000049",
+    "upgrade_level": 3,
+    "required_items": [
+      {
+        "item_id": "ITM000048",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 191,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Staff 5 to Ritual Dagger 5."
+  },
+  {
+    "upgrade_id": "UPG000049",
+    "base_equipment_id": "EQP000049",
+    "upgraded_equipment_id": "EQP000050",
+    "upgrade_level": 4,
+    "required_items": [
+      {
+        "item_id": "ITM000049",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 194,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Ritual Dagger 5 to Fishing Spear 5."
+  },
+  {
+    "upgrade_id": "UPG000050",
+    "base_equipment_id": "EQP000050",
+    "upgraded_equipment_id": "EQP000051",
+    "upgrade_level": 5,
+    "required_items": [
+      {
+        "item_id": "ITM000050",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 197,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Fishing Spear 5 to Bolo 6."
+  },
+  {
+    "upgrade_id": "UPG000051",
+    "base_equipment_id": "EQP000051",
+    "upgraded_equipment_id": "EQP000052",
+    "upgrade_level": 1,
+    "required_items": [
+      {
+        "item_id": "ITM000051",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 200,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Bolo 6 to Kampilan 6."
+  },
+  {
+    "upgrade_id": "UPG000052",
+    "base_equipment_id": "EQP000052",
+    "upgraded_equipment_id": "EQP000053",
+    "upgrade_level": 2,
+    "required_items": [
+      {
+        "item_id": "ITM000052",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 203,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Kampilan 6 to Kris 6."
+  },
+  {
+    "upgrade_id": "UPG000053",
+    "base_equipment_id": "EQP000053",
+    "upgraded_equipment_id": "EQP000054",
+    "upgrade_level": 3,
+    "required_items": [
+      {
+        "item_id": "ITM000053",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 206,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Kris 6 to Barong 6."
+  },
+  {
+    "upgrade_id": "UPG000054",
+    "base_equipment_id": "EQP000054",
+    "upgraded_equipment_id": "EQP000055",
+    "upgrade_level": 4,
+    "required_items": [
+      {
+        "item_id": "ITM000054",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 209,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Barong 6 to Panabas 6."
+  },
+  {
+    "upgrade_id": "UPG000055",
+    "base_equipment_id": "EQP000055",
+    "upgraded_equipment_id": "EQP000056",
+    "upgrade_level": 5,
+    "required_items": [
+      {
+        "item_id": "ITM000055",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 212,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Panabas 6 to Spear 6."
+  },
+  {
+    "upgrade_id": "UPG000056",
+    "base_equipment_id": "EQP000056",
+    "upgraded_equipment_id": "EQP000057",
+    "upgrade_level": 1,
+    "required_items": [
+      {
+        "item_id": "ITM000056",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 215,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": "QST00056",
+    "success_rate": 0.9,
+    "description": "Upgrade path from Spear 6 to Bow 6."
+  },
+  {
+    "upgrade_id": "UPG000057",
+    "base_equipment_id": "EQP000057",
+    "upgraded_equipment_id": "EQP000058",
+    "upgrade_level": 2,
+    "required_items": [
+      {
+        "item_id": "ITM000057",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 218,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Bow 6 to Staff 6."
+  },
+  {
+    "upgrade_id": "UPG000058",
+    "base_equipment_id": "EQP000058",
+    "upgraded_equipment_id": "EQP000059",
+    "upgrade_level": 3,
+    "required_items": [
+      {
+        "item_id": "ITM000058",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 221,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Staff 6 to Ritual Dagger 6."
+  },
+  {
+    "upgrade_id": "UPG000059",
+    "base_equipment_id": "EQP000059",
+    "upgraded_equipment_id": "EQP000060",
+    "upgrade_level": 4,
+    "required_items": [
+      {
+        "item_id": "ITM000059",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 224,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Ritual Dagger 6 to Fishing Spear 6."
+  },
+  {
+    "upgrade_id": "UPG000060",
+    "base_equipment_id": "EQP000060",
+    "upgraded_equipment_id": "EQP000061",
+    "upgrade_level": 5,
+    "required_items": [
+      {
+        "item_id": "ITM000060",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 227,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Fishing Spear 6 to Bolo 7."
+  },
+  {
+    "upgrade_id": "UPG000061",
+    "base_equipment_id": "EQP000061",
+    "upgraded_equipment_id": "EQP000062",
+    "upgrade_level": 1,
+    "required_items": [
+      {
+        "item_id": "ITM000061",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 230,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Bolo 7 to Kampilan 7."
+  },
+  {
+    "upgrade_id": "UPG000062",
+    "base_equipment_id": "EQP000062",
+    "upgraded_equipment_id": "EQP000063",
+    "upgrade_level": 2,
+    "required_items": [
+      {
+        "item_id": "ITM000062",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 233,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Kampilan 7 to Kris 7."
+  },
+  {
+    "upgrade_id": "UPG000063",
+    "base_equipment_id": "EQP000063",
+    "upgraded_equipment_id": "EQP000064",
+    "upgrade_level": 3,
+    "required_items": [
+      {
+        "item_id": "ITM000063",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 236,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Kris 7 to Barong 7."
+  },
+  {
+    "upgrade_id": "UPG000064",
+    "base_equipment_id": "EQP000064",
+    "upgraded_equipment_id": "EQP000065",
+    "upgrade_level": 4,
+    "required_items": [
+      {
+        "item_id": "ITM000064",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 239,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Barong 7 to Panabas 7."
+  },
+  {
+    "upgrade_id": "UPG000065",
+    "base_equipment_id": "EQP000065",
+    "upgraded_equipment_id": "EQP000066",
+    "upgrade_level": 5,
+    "required_items": [
+      {
+        "item_id": "ITM000065",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 242,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Panabas 7 to Spear 7."
+  },
+  {
+    "upgrade_id": "UPG000066",
+    "base_equipment_id": "EQP000066",
+    "upgraded_equipment_id": "EQP000067",
+    "upgrade_level": 1,
+    "required_items": [
+      {
+        "item_id": "ITM000066",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 245,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Spear 7 to Bow 7."
+  },
+  {
+    "upgrade_id": "UPG000067",
+    "base_equipment_id": "EQP000067",
+    "upgraded_equipment_id": "EQP000068",
+    "upgrade_level": 2,
+    "required_items": [
+      {
+        "item_id": "ITM000067",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 248,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": "QST00067",
+    "success_rate": 0.9,
+    "description": "Upgrade path from Bow 7 to Staff 7."
+  },
+  {
+    "upgrade_id": "UPG000068",
+    "base_equipment_id": "EQP000068",
+    "upgraded_equipment_id": "EQP000069",
+    "upgrade_level": 3,
+    "required_items": [
+      {
+        "item_id": "ITM000068",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 251,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Staff 7 to Ritual Dagger 7."
+  },
+  {
+    "upgrade_id": "UPG000069",
+    "base_equipment_id": "EQP000069",
+    "upgraded_equipment_id": "EQP000070",
+    "upgrade_level": 4,
+    "required_items": [
+      {
+        "item_id": "ITM000069",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 254,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Ritual Dagger 7 to Fishing Spear 7."
+  },
+  {
+    "upgrade_id": "UPG000070",
+    "base_equipment_id": "EQP000070",
+    "upgraded_equipment_id": "EQP000071",
+    "upgrade_level": 5,
+    "required_items": [
+      {
+        "item_id": "ITM000070",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 257,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Fishing Spear 7 to Bolo 8."
+  },
+  {
+    "upgrade_id": "UPG000071",
+    "base_equipment_id": "EQP000071",
+    "upgraded_equipment_id": "EQP000072",
+    "upgrade_level": 1,
+    "required_items": [
+      {
+        "item_id": "ITM000071",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 260,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Bolo 8 to Kampilan 8."
+  },
+  {
+    "upgrade_id": "UPG000072",
+    "base_equipment_id": "EQP000072",
+    "upgraded_equipment_id": "EQP000073",
+    "upgrade_level": 2,
+    "required_items": [
+      {
+        "item_id": "ITM000072",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 263,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Kampilan 8 to Kris 8."
+  },
+  {
+    "upgrade_id": "UPG000073",
+    "base_equipment_id": "EQP000073",
+    "upgraded_equipment_id": "EQP000074",
+    "upgrade_level": 3,
+    "required_items": [
+      {
+        "item_id": "ITM000073",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 266,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Kris 8 to Barong 8."
+  },
+  {
+    "upgrade_id": "UPG000074",
+    "base_equipment_id": "EQP000074",
+    "upgraded_equipment_id": "EQP000075",
+    "upgrade_level": 4,
+    "required_items": [
+      {
+        "item_id": "ITM000074",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 269,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Barong 8 to Panabas 8."
+  },
+  {
+    "upgrade_id": "UPG000075",
+    "base_equipment_id": "EQP000075",
+    "upgraded_equipment_id": "EQP000076",
+    "upgrade_level": 5,
+    "required_items": [
+      {
+        "item_id": "ITM000075",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 272,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Panabas 8 to Spear 8."
+  },
+  {
+    "upgrade_id": "UPG000076",
+    "base_equipment_id": "EQP000076",
+    "upgraded_equipment_id": "EQP000077",
+    "upgrade_level": 1,
+    "required_items": [
+      {
+        "item_id": "ITM000076",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 275,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Spear 8 to Bow 8."
+  },
+  {
+    "upgrade_id": "UPG000077",
+    "base_equipment_id": "EQP000077",
+    "upgraded_equipment_id": "EQP000078",
+    "upgrade_level": 2,
+    "required_items": [
+      {
+        "item_id": "ITM000077",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 278,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Bow 8 to Staff 8."
+  },
+  {
+    "upgrade_id": "UPG000078",
+    "base_equipment_id": "EQP000078",
+    "upgraded_equipment_id": "EQP000079",
+    "upgrade_level": 3,
+    "required_items": [
+      {
+        "item_id": "ITM000078",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 281,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": "QST00078",
+    "success_rate": 0.9,
+    "description": "Upgrade path from Staff 8 to Ritual Dagger 8."
+  },
+  {
+    "upgrade_id": "UPG000079",
+    "base_equipment_id": "EQP000079",
+    "upgraded_equipment_id": "EQP000080",
+    "upgrade_level": 4,
+    "required_items": [
+      {
+        "item_id": "ITM000079",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 284,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Ritual Dagger 8 to Fishing Spear 8."
+  },
+  {
+    "upgrade_id": "UPG000080",
+    "base_equipment_id": "EQP000080",
+    "upgraded_equipment_id": "EQP000081",
+    "upgrade_level": 5,
+    "required_items": [
+      {
+        "item_id": "ITM000080",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 287,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Fishing Spear 8 to Bolo 9."
+  },
+  {
+    "upgrade_id": "UPG000081",
+    "base_equipment_id": "EQP000081",
+    "upgraded_equipment_id": "EQP000082",
+    "upgrade_level": 1,
+    "required_items": [
+      {
+        "item_id": "ITM000081",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 290,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Bolo 9 to Kampilan 9."
+  },
+  {
+    "upgrade_id": "UPG000082",
+    "base_equipment_id": "EQP000082",
+    "upgraded_equipment_id": "EQP000083",
+    "upgrade_level": 2,
+    "required_items": [
+      {
+        "item_id": "ITM000082",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 293,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Kampilan 9 to Kris 9."
+  },
+  {
+    "upgrade_id": "UPG000083",
+    "base_equipment_id": "EQP000083",
+    "upgraded_equipment_id": "EQP000084",
+    "upgrade_level": 3,
+    "required_items": [
+      {
+        "item_id": "ITM000083",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 296,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Kris 9 to Barong 9."
+  },
+  {
+    "upgrade_id": "UPG000084",
+    "base_equipment_id": "EQP000084",
+    "upgraded_equipment_id": "EQP000085",
+    "upgrade_level": 4,
+    "required_items": [
+      {
+        "item_id": "ITM000084",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 299,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Barong 9 to Panabas 9."
+  },
+  {
+    "upgrade_id": "UPG000085",
+    "base_equipment_id": "EQP000085",
+    "upgraded_equipment_id": "EQP000086",
+    "upgrade_level": 5,
+    "required_items": [
+      {
+        "item_id": "ITM000085",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 302,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Panabas 9 to Spear 9."
+  },
+  {
+    "upgrade_id": "UPG000086",
+    "base_equipment_id": "EQP000086",
+    "upgraded_equipment_id": "EQP000087",
+    "upgrade_level": 1,
+    "required_items": [
+      {
+        "item_id": "ITM000086",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 305,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Spear 9 to Bow 9."
+  },
+  {
+    "upgrade_id": "UPG000087",
+    "base_equipment_id": "EQP000087",
+    "upgraded_equipment_id": "EQP000088",
+    "upgrade_level": 2,
+    "required_items": [
+      {
+        "item_id": "ITM000087",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 308,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Bow 9 to Staff 9."
+  },
+  {
+    "upgrade_id": "UPG000088",
+    "base_equipment_id": "EQP000088",
+    "upgraded_equipment_id": "EQP000089",
+    "upgrade_level": 3,
+    "required_items": [
+      {
+        "item_id": "ITM000088",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 311,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Staff 9 to Ritual Dagger 9."
+  },
+  {
+    "upgrade_id": "UPG000089",
+    "base_equipment_id": "EQP000089",
+    "upgraded_equipment_id": "EQP000090",
+    "upgrade_level": 4,
+    "required_items": [
+      {
+        "item_id": "ITM000089",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 314,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": "QST00089",
+    "success_rate": 0.9,
+    "description": "Upgrade path from Ritual Dagger 9 to Fishing Spear 9."
+  },
+  {
+    "upgrade_id": "UPG000090",
+    "base_equipment_id": "EQP000090",
+    "upgraded_equipment_id": "EQP000091",
+    "upgrade_level": 5,
+    "required_items": [
+      {
+        "item_id": "ITM000090",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 317,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Fishing Spear 9 to Bolo 10."
+  },
+  {
+    "upgrade_id": "UPG000091",
+    "base_equipment_id": "EQP000091",
+    "upgraded_equipment_id": "EQP000092",
+    "upgrade_level": 1,
+    "required_items": [
+      {
+        "item_id": "ITM000091",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 320,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Bolo 10 to Kampilan 10."
+  },
+  {
+    "upgrade_id": "UPG000092",
+    "base_equipment_id": "EQP000092",
+    "upgraded_equipment_id": "EQP000093",
+    "upgrade_level": 2,
+    "required_items": [
+      {
+        "item_id": "ITM000092",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 323,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Kampilan 10 to Kris 10."
+  },
+  {
+    "upgrade_id": "UPG000093",
+    "base_equipment_id": "EQP000093",
+    "upgraded_equipment_id": "EQP000094",
+    "upgrade_level": 3,
+    "required_items": [
+      {
+        "item_id": "ITM000093",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 326,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Kris 10 to Barong 10."
+  },
+  {
+    "upgrade_id": "UPG000094",
+    "base_equipment_id": "EQP000094",
+    "upgraded_equipment_id": "EQP000095",
+    "upgrade_level": 4,
+    "required_items": [
+      {
+        "item_id": "ITM000094",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 329,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Barong 10 to Panabas 10."
+  },
+  {
+    "upgrade_id": "UPG000095",
+    "base_equipment_id": "EQP000095",
+    "upgraded_equipment_id": "EQP000096",
+    "upgrade_level": 5,
+    "required_items": [
+      {
+        "item_id": "ITM000095",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 332,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Panabas 10 to Spear 10."
+  },
+  {
+    "upgrade_id": "UPG000096",
+    "base_equipment_id": "EQP000096",
+    "upgraded_equipment_id": "EQP000097",
+    "upgrade_level": 1,
+    "required_items": [
+      {
+        "item_id": "ITM000096",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 335,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Spear 10 to Bow 10."
+  },
+  {
+    "upgrade_id": "UPG000097",
+    "base_equipment_id": "EQP000097",
+    "upgraded_equipment_id": "EQP000098",
+    "upgrade_level": 2,
+    "required_items": [
+      {
+        "item_id": "ITM000097",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 338,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Bow 10 to Staff 10."
+  },
+  {
+    "upgrade_id": "UPG000098",
+    "base_equipment_id": "EQP000098",
+    "upgraded_equipment_id": "EQP000099",
+    "upgrade_level": 3,
+    "required_items": [
+      {
+        "item_id": "ITM000098",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 341,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Staff 10 to Ritual Dagger 10."
+  },
+  {
+    "upgrade_id": "UPG000099",
+    "base_equipment_id": "EQP000099",
+    "upgraded_equipment_id": "EQP000100",
+    "upgrade_level": 4,
+    "required_items": [
+      {
+        "item_id": "ITM000099",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 344,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Ritual Dagger 10 to Fishing Spear 10."
+  },
+  {
+    "upgrade_id": "UPG000100",
+    "base_equipment_id": "EQP000100",
+    "upgraded_equipment_id": "EQP000101",
+    "upgrade_level": 5,
+    "required_items": [
+      {
+        "item_id": "ITM000100",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 347,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": "QST00100",
+    "success_rate": 0.9,
+    "description": "Upgrade path from Fishing Spear 10 to Woven Vest."
+  },
+  {
+    "upgrade_id": "UPG000101",
+    "base_equipment_id": "EQP000101",
+    "upgraded_equipment_id": "EQP000102",
+    "upgrade_level": 1,
+    "required_items": [
+      {
+        "item_id": "ITM000101",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 350,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Woven Vest to Bark Armor."
+  },
+  {
+    "upgrade_id": "UPG000102",
+    "base_equipment_id": "EQP000102",
+    "upgraded_equipment_id": "EQP000103",
+    "upgrade_level": 2,
+    "required_items": [
+      {
+        "item_id": "ITM000102",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 353,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Bark Armor to Coral Armor."
+  },
+  {
+    "upgrade_id": "UPG000103",
+    "base_equipment_id": "EQP000103",
+    "upgraded_equipment_id": "EQP000104",
+    "upgrade_level": 3,
+    "required_items": [
+      {
+        "item_id": "ITM000103",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 356,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Coral Armor to Brass Armor."
+  },
+  {
+    "upgrade_id": "UPG000104",
+    "base_equipment_id": "EQP000104",
+    "upgraded_equipment_id": "EQP000105",
+    "upgrade_level": 4,
+    "required_items": [
+      {
+        "item_id": "ITM000104",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 359,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Brass Armor to Spirit Cloth."
+  },
+  {
+    "upgrade_id": "UPG000105",
+    "base_equipment_id": "EQP000105",
+    "upgraded_equipment_id": "EQP000106",
+    "upgrade_level": 5,
+    "required_items": [
+      {
+        "item_id": "ITM000105",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 362,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Spirit Cloth to Scale Mail."
+  },
+  {
+    "upgrade_id": "UPG000106",
+    "base_equipment_id": "EQP000106",
+    "upgraded_equipment_id": "EQP000107",
+    "upgrade_level": 1,
+    "required_items": [
+      {
+        "item_id": "ITM000106",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 365,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Scale Mail to Woven Vest 2."
+  },
+  {
+    "upgrade_id": "UPG000107",
+    "base_equipment_id": "EQP000107",
+    "upgraded_equipment_id": "EQP000108",
+    "upgrade_level": 2,
+    "required_items": [
+      {
+        "item_id": "ITM000107",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 368,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Woven Vest 2 to Bark Armor 2."
+  },
+  {
+    "upgrade_id": "UPG000108",
+    "base_equipment_id": "EQP000108",
+    "upgraded_equipment_id": "EQP000109",
+    "upgrade_level": 3,
+    "required_items": [
+      {
+        "item_id": "ITM000108",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 371,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Bark Armor 2 to Coral Armor 2."
+  },
+  {
+    "upgrade_id": "UPG000109",
+    "base_equipment_id": "EQP000109",
+    "upgraded_equipment_id": "EQP000110",
+    "upgrade_level": 4,
+    "required_items": [
+      {
+        "item_id": "ITM000109",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 374,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Coral Armor 2 to Brass Armor 2."
+  },
+  {
+    "upgrade_id": "UPG000110",
+    "base_equipment_id": "EQP000110",
+    "upgraded_equipment_id": "EQP000111",
+    "upgrade_level": 5,
+    "required_items": [
+      {
+        "item_id": "ITM000110",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 377,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Brass Armor 2 to Spirit Cloth 2."
+  },
+  {
+    "upgrade_id": "UPG000111",
+    "base_equipment_id": "EQP000111",
+    "upgraded_equipment_id": "EQP000112",
+    "upgrade_level": 1,
+    "required_items": [
+      {
+        "item_id": "ITM000111",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 380,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": "QST00111",
+    "success_rate": 0.9,
+    "description": "Upgrade path from Spirit Cloth 2 to Scale Mail 2."
+  },
+  {
+    "upgrade_id": "UPG000112",
+    "base_equipment_id": "EQP000112",
+    "upgraded_equipment_id": "EQP000113",
+    "upgrade_level": 2,
+    "required_items": [
+      {
+        "item_id": "ITM000112",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 383,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Scale Mail 2 to Woven Vest 3."
+  },
+  {
+    "upgrade_id": "UPG000113",
+    "base_equipment_id": "EQP000113",
+    "upgraded_equipment_id": "EQP000114",
+    "upgrade_level": 3,
+    "required_items": [
+      {
+        "item_id": "ITM000113",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 386,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Woven Vest 3 to Bark Armor 3."
+  },
+  {
+    "upgrade_id": "UPG000114",
+    "base_equipment_id": "EQP000114",
+    "upgraded_equipment_id": "EQP000115",
+    "upgrade_level": 4,
+    "required_items": [
+      {
+        "item_id": "ITM000114",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 389,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Bark Armor 3 to Coral Armor 3."
+  },
+  {
+    "upgrade_id": "UPG000115",
+    "base_equipment_id": "EQP000115",
+    "upgraded_equipment_id": "EQP000116",
+    "upgrade_level": 5,
+    "required_items": [
+      {
+        "item_id": "ITM000115",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 392,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Coral Armor 3 to Brass Armor 3."
+  },
+  {
+    "upgrade_id": "UPG000116",
+    "base_equipment_id": "EQP000116",
+    "upgraded_equipment_id": "EQP000117",
+    "upgrade_level": 1,
+    "required_items": [
+      {
+        "item_id": "ITM000116",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 395,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Brass Armor 3 to Spirit Cloth 3."
+  },
+  {
+    "upgrade_id": "UPG000117",
+    "base_equipment_id": "EQP000117",
+    "upgraded_equipment_id": "EQP000118",
+    "upgrade_level": 2,
+    "required_items": [
+      {
+        "item_id": "ITM000117",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 398,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Spirit Cloth 3 to Scale Mail 3."
+  },
+  {
+    "upgrade_id": "UPG000118",
+    "base_equipment_id": "EQP000118",
+    "upgraded_equipment_id": "EQP000119",
+    "upgrade_level": 3,
+    "required_items": [
+      {
+        "item_id": "ITM000118",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 401,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Scale Mail 3 to Woven Vest 4."
+  },
+  {
+    "upgrade_id": "UPG000119",
+    "base_equipment_id": "EQP000119",
+    "upgraded_equipment_id": "EQP000120",
+    "upgrade_level": 4,
+    "required_items": [
+      {
+        "item_id": "ITM000119",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 404,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Woven Vest 4 to Bark Armor 4."
+  },
+  {
+    "upgrade_id": "UPG000120",
+    "base_equipment_id": "EQP000120",
+    "upgraded_equipment_id": "EQP000121",
+    "upgrade_level": 5,
+    "required_items": [
+      {
+        "item_id": "ITM000120",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 407,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Bark Armor 4 to Coral Armor 4."
+  },
+  {
+    "upgrade_id": "UPG000121",
+    "base_equipment_id": "EQP000121",
+    "upgraded_equipment_id": "EQP000122",
+    "upgrade_level": 1,
+    "required_items": [
+      {
+        "item_id": "ITM000121",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 410,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Coral Armor 4 to Brass Armor 4."
+  },
+  {
+    "upgrade_id": "UPG000122",
+    "base_equipment_id": "EQP000122",
+    "upgraded_equipment_id": "EQP000123",
+    "upgrade_level": 2,
+    "required_items": [
+      {
+        "item_id": "ITM000122",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 413,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": "QST00122",
+    "success_rate": 0.9,
+    "description": "Upgrade path from Brass Armor 4 to Spirit Cloth 4."
+  },
+  {
+    "upgrade_id": "UPG000123",
+    "base_equipment_id": "EQP000123",
+    "upgraded_equipment_id": "EQP000124",
+    "upgrade_level": 3,
+    "required_items": [
+      {
+        "item_id": "ITM000123",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 416,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Spirit Cloth 4 to Scale Mail 4."
+  },
+  {
+    "upgrade_id": "UPG000124",
+    "base_equipment_id": "EQP000124",
+    "upgraded_equipment_id": "EQP000125",
+    "upgrade_level": 4,
+    "required_items": [
+      {
+        "item_id": "ITM000124",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 419,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Scale Mail 4 to Woven Vest 5."
+  },
+  {
+    "upgrade_id": "UPG000125",
+    "base_equipment_id": "EQP000125",
+    "upgraded_equipment_id": "EQP000126",
+    "upgrade_level": 5,
+    "required_items": [
+      {
+        "item_id": "ITM000125",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 422,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Woven Vest 5 to Bark Armor 5."
+  },
+  {
+    "upgrade_id": "UPG000126",
+    "base_equipment_id": "EQP000126",
+    "upgraded_equipment_id": "EQP000127",
+    "upgrade_level": 1,
+    "required_items": [
+      {
+        "item_id": "ITM000126",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 425,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Bark Armor 5 to Coral Armor 5."
+  },
+  {
+    "upgrade_id": "UPG000127",
+    "base_equipment_id": "EQP000127",
+    "upgraded_equipment_id": "EQP000128",
+    "upgrade_level": 2,
+    "required_items": [
+      {
+        "item_id": "ITM000127",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 428,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Coral Armor 5 to Brass Armor 5."
+  },
+  {
+    "upgrade_id": "UPG000128",
+    "base_equipment_id": "EQP000128",
+    "upgraded_equipment_id": "EQP000129",
+    "upgrade_level": 3,
+    "required_items": [
+      {
+        "item_id": "ITM000128",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 431,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Brass Armor 5 to Spirit Cloth 5."
+  },
+  {
+    "upgrade_id": "UPG000129",
+    "base_equipment_id": "EQP000129",
+    "upgraded_equipment_id": "EQP000130",
+    "upgrade_level": 4,
+    "required_items": [
+      {
+        "item_id": "ITM000129",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 434,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Spirit Cloth 5 to Scale Mail 5."
+  },
+  {
+    "upgrade_id": "UPG000130",
+    "base_equipment_id": "EQP000130",
+    "upgraded_equipment_id": "EQP000131",
+    "upgrade_level": 5,
+    "required_items": [
+      {
+        "item_id": "ITM000130",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 437,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Scale Mail 5 to Woven Vest 6."
+  },
+  {
+    "upgrade_id": "UPG000131",
+    "base_equipment_id": "EQP000131",
+    "upgraded_equipment_id": "EQP000132",
+    "upgrade_level": 1,
+    "required_items": [
+      {
+        "item_id": "ITM000131",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 440,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Woven Vest 6 to Bark Armor 6."
+  },
+  {
+    "upgrade_id": "UPG000132",
+    "base_equipment_id": "EQP000132",
+    "upgraded_equipment_id": "EQP000133",
+    "upgrade_level": 2,
+    "required_items": [
+      {
+        "item_id": "ITM000132",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 443,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Bark Armor 6 to Coral Armor 6."
+  },
+  {
+    "upgrade_id": "UPG000133",
+    "base_equipment_id": "EQP000133",
+    "upgraded_equipment_id": "EQP000134",
+    "upgrade_level": 3,
+    "required_items": [
+      {
+        "item_id": "ITM000133",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 446,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": "QST00133",
+    "success_rate": 0.9,
+    "description": "Upgrade path from Coral Armor 6 to Brass Armor 6."
+  },
+  {
+    "upgrade_id": "UPG000134",
+    "base_equipment_id": "EQP000134",
+    "upgraded_equipment_id": "EQP000135",
+    "upgrade_level": 4,
+    "required_items": [
+      {
+        "item_id": "ITM000134",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 449,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Brass Armor 6 to Spirit Cloth 6."
+  },
+  {
+    "upgrade_id": "UPG000135",
+    "base_equipment_id": "EQP000135",
+    "upgraded_equipment_id": "EQP000136",
+    "upgrade_level": 5,
+    "required_items": [
+      {
+        "item_id": "ITM000135",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 452,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Spirit Cloth 6 to Scale Mail 6."
+  },
+  {
+    "upgrade_id": "UPG000136",
+    "base_equipment_id": "EQP000136",
+    "upgraded_equipment_id": "EQP000137",
+    "upgrade_level": 1,
+    "required_items": [
+      {
+        "item_id": "ITM000136",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 455,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Scale Mail 6 to Woven Vest 7."
+  },
+  {
+    "upgrade_id": "UPG000137",
+    "base_equipment_id": "EQP000137",
+    "upgraded_equipment_id": "EQP000138",
+    "upgrade_level": 2,
+    "required_items": [
+      {
+        "item_id": "ITM000137",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 458,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Woven Vest 7 to Bark Armor 7."
+  },
+  {
+    "upgrade_id": "UPG000138",
+    "base_equipment_id": "EQP000138",
+    "upgraded_equipment_id": "EQP000139",
+    "upgrade_level": 3,
+    "required_items": [
+      {
+        "item_id": "ITM000138",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 461,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Bark Armor 7 to Coral Armor 7."
+  },
+  {
+    "upgrade_id": "UPG000139",
+    "base_equipment_id": "EQP000139",
+    "upgraded_equipment_id": "EQP000140",
+    "upgrade_level": 4,
+    "required_items": [
+      {
+        "item_id": "ITM000139",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 464,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Coral Armor 7 to Brass Armor 7."
+  },
+  {
+    "upgrade_id": "UPG000140",
+    "base_equipment_id": "EQP000140",
+    "upgraded_equipment_id": "EQP000141",
+    "upgrade_level": 5,
+    "required_items": [
+      {
+        "item_id": "ITM000140",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 467,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Brass Armor 7 to Spirit Cloth 7."
+  },
+  {
+    "upgrade_id": "UPG000141",
+    "base_equipment_id": "EQP000141",
+    "upgraded_equipment_id": "EQP000142",
+    "upgrade_level": 1,
+    "required_items": [
+      {
+        "item_id": "ITM000141",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 470,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Spirit Cloth 7 to Scale Mail 7."
+  },
+  {
+    "upgrade_id": "UPG000142",
+    "base_equipment_id": "EQP000142",
+    "upgraded_equipment_id": "EQP000143",
+    "upgrade_level": 2,
+    "required_items": [
+      {
+        "item_id": "ITM000142",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 473,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Scale Mail 7 to Woven Vest 8."
+  },
+  {
+    "upgrade_id": "UPG000143",
+    "base_equipment_id": "EQP000143",
+    "upgraded_equipment_id": "EQP000144",
+    "upgrade_level": 3,
+    "required_items": [
+      {
+        "item_id": "ITM000143",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 476,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Woven Vest 8 to Bark Armor 8."
+  },
+  {
+    "upgrade_id": "UPG000144",
+    "base_equipment_id": "EQP000144",
+    "upgraded_equipment_id": "EQP000145",
+    "upgrade_level": 4,
+    "required_items": [
+      {
+        "item_id": "ITM000144",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 479,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": "QST00144",
+    "success_rate": 0.9,
+    "description": "Upgrade path from Bark Armor 8 to Coral Armor 8."
+  },
+  {
+    "upgrade_id": "UPG000145",
+    "base_equipment_id": "EQP000145",
+    "upgraded_equipment_id": "EQP000146",
+    "upgrade_level": 5,
+    "required_items": [
+      {
+        "item_id": "ITM000145",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 482,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Coral Armor 8 to Brass Armor 8."
+  },
+  {
+    "upgrade_id": "UPG000146",
+    "base_equipment_id": "EQP000146",
+    "upgraded_equipment_id": "EQP000147",
+    "upgrade_level": 1,
+    "required_items": [
+      {
+        "item_id": "ITM000146",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 485,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Brass Armor 8 to Spirit Cloth 8."
+  },
+  {
+    "upgrade_id": "UPG000147",
+    "base_equipment_id": "EQP000147",
+    "upgraded_equipment_id": "EQP000148",
+    "upgrade_level": 2,
+    "required_items": [
+      {
+        "item_id": "ITM000147",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 488,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Spirit Cloth 8 to Scale Mail 8."
+  },
+  {
+    "upgrade_id": "UPG000148",
+    "base_equipment_id": "EQP000148",
+    "upgraded_equipment_id": "EQP000149",
+    "upgrade_level": 3,
+    "required_items": [
+      {
+        "item_id": "ITM000148",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 491,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Scale Mail 8 to Woven Vest 9."
+  },
+  {
+    "upgrade_id": "UPG000149",
+    "base_equipment_id": "EQP000149",
+    "upgraded_equipment_id": "EQP000150",
+    "upgrade_level": 4,
+    "required_items": [
+      {
+        "item_id": "ITM000149",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 494,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Woven Vest 9 to Bark Armor 9."
+  },
+  {
+    "upgrade_id": "UPG000150",
+    "base_equipment_id": "EQP000150",
+    "upgraded_equipment_id": "EQP000151",
+    "upgrade_level": 5,
+    "required_items": [
+      {
+        "item_id": "ITM000150",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 497,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Bark Armor 9 to Coral Armor 9."
+  },
+  {
+    "upgrade_id": "UPG000151",
+    "base_equipment_id": "EQP000151",
+    "upgraded_equipment_id": "EQP000152",
+    "upgrade_level": 1,
+    "required_items": [
+      {
+        "item_id": "ITM000151",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 500,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Coral Armor 9 to Brass Armor 9."
+  },
+  {
+    "upgrade_id": "UPG000152",
+    "base_equipment_id": "EQP000152",
+    "upgraded_equipment_id": "EQP000153",
+    "upgrade_level": 2,
+    "required_items": [
+      {
+        "item_id": "ITM000152",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 503,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Brass Armor 9 to Spirit Cloth 9."
+  },
+  {
+    "upgrade_id": "UPG000153",
+    "base_equipment_id": "EQP000153",
+    "upgraded_equipment_id": "EQP000154",
+    "upgrade_level": 3,
+    "required_items": [
+      {
+        "item_id": "ITM000153",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 506,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Spirit Cloth 9 to Scale Mail 9."
+  },
+  {
+    "upgrade_id": "UPG000154",
+    "base_equipment_id": "EQP000154",
+    "upgraded_equipment_id": "EQP000155",
+    "upgrade_level": 4,
+    "required_items": [
+      {
+        "item_id": "ITM000154",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 509,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Scale Mail 9 to Woven Vest 10."
+  },
+  {
+    "upgrade_id": "UPG000155",
+    "base_equipment_id": "EQP000155",
+    "upgraded_equipment_id": "EQP000156",
+    "upgrade_level": 5,
+    "required_items": [
+      {
+        "item_id": "ITM000155",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 512,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": "QST00155",
+    "success_rate": 0.9,
+    "description": "Upgrade path from Woven Vest 10 to Bark Armor 10."
+  },
+  {
+    "upgrade_id": "UPG000156",
+    "base_equipment_id": "EQP000156",
+    "upgraded_equipment_id": "EQP000157",
+    "upgrade_level": 1,
+    "required_items": [
+      {
+        "item_id": "ITM000156",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 515,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Bark Armor 10 to Coral Armor 10."
+  },
+  {
+    "upgrade_id": "UPG000157",
+    "base_equipment_id": "EQP000157",
+    "upgraded_equipment_id": "EQP000158",
+    "upgrade_level": 2,
+    "required_items": [
+      {
+        "item_id": "ITM000157",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 518,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Coral Armor 10 to Brass Armor 10."
+  },
+  {
+    "upgrade_id": "UPG000158",
+    "base_equipment_id": "EQP000158",
+    "upgraded_equipment_id": "EQP000159",
+    "upgrade_level": 3,
+    "required_items": [
+      {
+        "item_id": "ITM000158",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 521,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Brass Armor 10 to Spirit Cloth 10."
+  },
+  {
+    "upgrade_id": "UPG000159",
+    "base_equipment_id": "EQP000159",
+    "upgraded_equipment_id": "EQP000160",
+    "upgrade_level": 4,
+    "required_items": [
+      {
+        "item_id": "ITM000159",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 524,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Spirit Cloth 10 to Scale Mail 10."
+  },
+  {
+    "upgrade_id": "UPG000160",
+    "base_equipment_id": "EQP000160",
+    "upgraded_equipment_id": "EQP000161",
+    "upgrade_level": 5,
+    "required_items": [
+      {
+        "item_id": "ITM000160",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 527,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Scale Mail 10 to Woven Vest 11."
+  },
+  {
+    "upgrade_id": "UPG000161",
+    "base_equipment_id": "EQP000161",
+    "upgraded_equipment_id": "EQP000162",
+    "upgrade_level": 1,
+    "required_items": [
+      {
+        "item_id": "ITM000161",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 530,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Woven Vest 11 to Bark Armor 11."
+  },
+  {
+    "upgrade_id": "UPG000162",
+    "base_equipment_id": "EQP000162",
+    "upgraded_equipment_id": "EQP000163",
+    "upgrade_level": 2,
+    "required_items": [
+      {
+        "item_id": "ITM000162",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 533,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Bark Armor 11 to Coral Armor 11."
+  },
+  {
+    "upgrade_id": "UPG000163",
+    "base_equipment_id": "EQP000163",
+    "upgraded_equipment_id": "EQP000164",
+    "upgrade_level": 3,
+    "required_items": [
+      {
+        "item_id": "ITM000163",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 536,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Coral Armor 11 to Brass Armor 11."
+  },
+  {
+    "upgrade_id": "UPG000164",
+    "base_equipment_id": "EQP000164",
+    "upgraded_equipment_id": "EQP000165",
+    "upgrade_level": 4,
+    "required_items": [
+      {
+        "item_id": "ITM000164",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 539,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Brass Armor 11 to Spirit Cloth 11."
+  },
+  {
+    "upgrade_id": "UPG000165",
+    "base_equipment_id": "EQP000165",
+    "upgraded_equipment_id": "EQP000166",
+    "upgrade_level": 5,
+    "required_items": [
+      {
+        "item_id": "ITM000165",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 542,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Spirit Cloth 11 to Scale Mail 11."
+  },
+  {
+    "upgrade_id": "UPG000166",
+    "base_equipment_id": "EQP000166",
+    "upgraded_equipment_id": "EQP000167",
+    "upgrade_level": 1,
+    "required_items": [
+      {
+        "item_id": "ITM000166",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 545,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": "QST00166",
+    "success_rate": 0.9,
+    "description": "Upgrade path from Scale Mail 11 to Woven Vest 12."
+  },
+  {
+    "upgrade_id": "UPG000167",
+    "base_equipment_id": "EQP000167",
+    "upgraded_equipment_id": "EQP000168",
+    "upgrade_level": 2,
+    "required_items": [
+      {
+        "item_id": "ITM000167",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 548,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Woven Vest 12 to Bark Armor 12."
+  },
+  {
+    "upgrade_id": "UPG000168",
+    "base_equipment_id": "EQP000168",
+    "upgraded_equipment_id": "EQP000169",
+    "upgrade_level": 3,
+    "required_items": [
+      {
+        "item_id": "ITM000168",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 551,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Bark Armor 12 to Coral Armor 12."
+  },
+  {
+    "upgrade_id": "UPG000169",
+    "base_equipment_id": "EQP000169",
+    "upgraded_equipment_id": "EQP000170",
+    "upgrade_level": 4,
+    "required_items": [
+      {
+        "item_id": "ITM000169",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 554,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Coral Armor 12 to Brass Armor 12."
+  },
+  {
+    "upgrade_id": "UPG000170",
+    "base_equipment_id": "EQP000170",
+    "upgraded_equipment_id": "EQP000171",
+    "upgrade_level": 5,
+    "required_items": [
+      {
+        "item_id": "ITM000170",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 557,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Brass Armor 12 to Spirit Cloth 12."
+  },
+  {
+    "upgrade_id": "UPG000171",
+    "base_equipment_id": "EQP000171",
+    "upgraded_equipment_id": "EQP000172",
+    "upgrade_level": 1,
+    "required_items": [
+      {
+        "item_id": "ITM000171",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 560,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Spirit Cloth 12 to Scale Mail 12."
+  },
+  {
+    "upgrade_id": "UPG000172",
+    "base_equipment_id": "EQP000172",
+    "upgraded_equipment_id": "EQP000173",
+    "upgrade_level": 2,
+    "required_items": [
+      {
+        "item_id": "ITM000172",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 563,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Scale Mail 12 to Woven Vest 13."
+  },
+  {
+    "upgrade_id": "UPG000173",
+    "base_equipment_id": "EQP000173",
+    "upgraded_equipment_id": "EQP000174",
+    "upgrade_level": 3,
+    "required_items": [
+      {
+        "item_id": "ITM000173",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 566,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Woven Vest 13 to Bark Armor 13."
+  },
+  {
+    "upgrade_id": "UPG000174",
+    "base_equipment_id": "EQP000174",
+    "upgraded_equipment_id": "EQP000175",
+    "upgrade_level": 4,
+    "required_items": [
+      {
+        "item_id": "ITM000174",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 569,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Bark Armor 13 to Coral Armor 13."
+  },
+  {
+    "upgrade_id": "UPG000175",
+    "base_equipment_id": "EQP000175",
+    "upgraded_equipment_id": "EQP000176",
+    "upgrade_level": 5,
+    "required_items": [
+      {
+        "item_id": "ITM000175",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 572,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Coral Armor 13 to Brass Armor 13."
+  },
+  {
+    "upgrade_id": "UPG000176",
+    "base_equipment_id": "EQP000176",
+    "upgraded_equipment_id": "EQP000177",
+    "upgrade_level": 1,
+    "required_items": [
+      {
+        "item_id": "ITM000176",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 575,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Brass Armor 13 to Spirit Cloth 13."
+  },
+  {
+    "upgrade_id": "UPG000177",
+    "base_equipment_id": "EQP000177",
+    "upgraded_equipment_id": "EQP000178",
+    "upgrade_level": 2,
+    "required_items": [
+      {
+        "item_id": "ITM000177",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 578,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": "QST00177",
+    "success_rate": 0.9,
+    "description": "Upgrade path from Spirit Cloth 13 to Scale Mail 13."
+  },
+  {
+    "upgrade_id": "UPG000178",
+    "base_equipment_id": "EQP000178",
+    "upgraded_equipment_id": "EQP000179",
+    "upgrade_level": 3,
+    "required_items": [
+      {
+        "item_id": "ITM000178",
+        "quantity": 2
+      }
+    ],
+    "required_gold": 581,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Scale Mail 13 to Woven Vest 14."
+  },
+  {
+    "upgrade_id": "UPG000179",
+    "base_equipment_id": "EQP000179",
+    "upgraded_equipment_id": "EQP000180",
+    "upgrade_level": 4,
+    "required_items": [
+      {
+        "item_id": "ITM000179",
+        "quantity": 3
+      }
+    ],
+    "required_gold": 584,
+    "required_npc_id": null,
+    "required_station": "shrine_forge",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Woven Vest 14 to Bark Armor 14."
+  },
+  {
+    "upgrade_id": "UPG000180",
+    "base_equipment_id": "EQP000180",
+    "upgraded_equipment_id": "EQP000181",
+    "upgrade_level": 5,
+    "required_items": [
+      {
+        "item_id": "ITM000180",
+        "quantity": 4
+      }
+    ],
+    "required_gold": 587,
+    "required_npc_id": null,
+    "required_station": "village_workbench",
+    "required_quest_id": null,
+    "success_rate": 0.9,
+    "description": "Upgrade path from Bark Armor 14 to Coral Armor 14."
+  }
+]

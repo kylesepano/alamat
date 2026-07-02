@@ -1,0 +1,329 @@
+# ALAMAT — Import Monster Batch
+
+Continue developing the ALAMAT browser RPG.
+
+Tech Stack
+
+* Laravel 12
+* PostgreSQL
+* React
+* Vite
+* Tailwind
+
+The Monster Codex system already exists.
+
+I am uploading ONE file.
+
+```
+alamat_phase_c_batch_001_import_bundle.json
+```
+
+Treat this JSON as the **single source of truth**.
+
+Do not manually recreate the data.
+
+Always import directly from the JSON.
+
+---
+
+## Objective
+
+Import every monster contained in this batch.
+
+This includes
+
+* Monster records
+
+* Unique skills
+
+* Common skill links
+
+Everything should be inserted into PostgreSQL.
+
+Use updateOrCreate so rerunning imports never creates duplicates.
+
+---
+
+## Import Process
+
+Read
+
+```
+database/data/monsters/batch_001.json
+```
+
+Then:
+
+Import monsters
+
+↓
+
+Resolve foreign keys using existing Phase B libraries
+
+↓
+
+Insert pivot relationships
+
+↓
+
+Import unique skills
+
+↓
+
+Import common skill links
+
+↓
+
+Clear cache
+
+↓
+
+Return import summary
+
+---
+
+## Resolve Libraries
+
+Never hardcode IDs.
+
+Resolve using
+
+code
+
+slug
+
+or
+
+name.
+
+Example
+
+Forest
+
+↓
+
+library_affiliations.id
+
+Guardian
+
+↓
+
+library_combat_classes.id
+
+Rare
+
+↓
+
+library_rarity.id
+
+Balete Grove
+
+↓
+
+library_habitats.id
+
+etc.
+
+---
+
+## Validation
+
+Every monster must have
+
+monster_id
+
+filipino_name
+
+english_name
+
+class
+
+rarity
+
+passive_ability
+
+stats
+
+sprite prompts
+
+lore
+
+If invalid
+
+Skip row
+
+Log error
+
+Continue importing.
+
+---
+
+## Monster Import
+
+Create/update
+
+monsters
+
+table.
+
+---
+
+## Skills Import
+
+Create/update
+
+monster_unique_skills
+
+table.
+
+Each monster must have exactly two unique skills.
+
+If the monster already has two
+
+update them.
+
+Do not duplicate.
+
+---
+
+## Common Skills
+
+Import into
+
+monster_common_skill_links
+
+Avoid duplicates.
+
+---
+
+## Relationships
+
+Automatically create
+
+monster_affiliation
+
+monster_habitat
+
+monster_weather
+
+monster_active_time
+
+monster_personality
+
+pivot tables.
+
+---
+
+## Logging
+
+Generate
+
+storage/logs/monster_import.log
+
+Include
+
+Imported
+
+Updated
+
+Skipped
+
+Errors
+
+Warnings
+
+Duration
+
+---
+
+## Cache
+
+After import
+
+clear
+
+Monster cache
+
+Library cache
+
+Search cache
+
+---
+
+## API
+
+Rebuild search indexes if needed.
+
+Ensure the imported monsters immediately appear in
+
+GET
+
+/api/monsters
+
+GET
+
+/api/monster-codex
+
+GET
+
+/api/monsters/{monster_id}
+
+---
+
+## Frontend
+
+Ensure imported monsters appear automatically in
+
+Monster Codex
+
+Monster Detail
+
+Search
+
+Filters
+
+No manual code edits should be required.
+
+---
+
+## Import Summary
+
+Return
+
+Imported Monsters
+
+Updated Monsters
+
+Imported Unique Skills
+
+Imported Common Skills
+
+Warnings
+
+Errors
+
+Elapsed Time
+
+---
+
+## Future Compatibility
+
+This importer must work for
+
+Batch 001
+
+Batch 002
+
+Batch 003
+
+...
+
+Batch 100
+
+without modification.
+
+Every future monster batch will use the exact same JSON structure.
+
+Never assume Batch 001 is special.
+
+The importer must remain completely generic.

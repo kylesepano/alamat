@@ -1,0 +1,122 @@
+[
+    {
+        "code": "ORD001",
+        "name": "Espiritu",
+        "slug": "espiritu",
+        "description": "Nature spirits and unseen beings tied to rivers, trees, wind, and sacred places.",
+        "icon_hint": "sparkle",
+        "color_hint": "#88C999",
+        "sort_order": 1,
+        "is_active": true,
+        "gameplay_role": "Maintain natural balance and guide worthy travelers.",
+        "id": 1
+    },
+    {
+        "code": "ORD002",
+        "name": "Bantay",
+        "slug": "bantay",
+        "description": "Guardians that protect places, relics, thresholds, forests, mountains, or communities.",
+        "icon_hint": "shield",
+        "color_hint": "#6A8F5A",
+        "sort_order": 2,
+        "is_active": true,
+        "gameplay_role": "Defend territory and judge human intentions.",
+        "id": 2
+    },
+    {
+        "code": "ORD003",
+        "name": "Hayop",
+        "slug": "hayop",
+        "description": "Mythical beasts and spirit animals that embody instinct, omens, and wild power.",
+        "icon_hint": "paw",
+        "color_hint": "#A66A3F",
+        "sort_order": 3,
+        "is_active": true,
+        "gameplay_role": "Serve as wild companions, predators, messengers, and mounts.",
+        "id": 3
+    },
+    {
+        "code": "ORD004",
+        "name": "Tao",
+        "slug": "tao",
+        "description": "Humans transformed by curse, ritual, hunger, grief, blessing, or forbidden knowledge.",
+        "icon_hint": "user-round",
+        "color_hint": "#8A4A4A",
+        "sort_order": 4,
+        "is_active": true,
+        "gameplay_role": "Represent human choices and moral consequences.",
+        "id": 4
+    },
+    {
+        "code": "ORD005",
+        "name": "Kaluluwa",
+        "slug": "kaluluwa",
+        "description": "Ghosts, wandering souls, ancestral echoes, and remnants bound by memory.",
+        "icon_hint": "ghost",
+        "color_hint": "#AAB4C8",
+        "sort_order": 5,
+        "is_active": true,
+        "gameplay_role": "Preserve memory, haunt places, or seek resolution.",
+        "id": 5
+    },
+    {
+        "code": "ORD006",
+        "name": "Diyos",
+        "slug": "diyos",
+        "description": "Divine or near-divine entities of immense spiritual authority.",
+        "icon_hint": "crown",
+        "color_hint": "#F5D76E",
+        "sort_order": 6,
+        "is_active": true,
+        "gameplay_role": "Shape mythic events and rarely join ordinary parties.",
+        "id": 6
+    },
+    {
+        "code": "ORD007",
+        "name": "Salinlahi",
+        "slug": "salinlahi",
+        "description": "Lineage-bound beings tied to family duty, ancestral houses, or inherited vows.",
+        "icon_hint": "scroll",
+        "color_hint": "#BFA16A",
+        "sort_order": 7,
+        "is_active": true,
+        "gameplay_role": "Protect bloodlines and remembered names.",
+        "id": 7
+    },
+    {
+        "code": "ORD008",
+        "name": "Likha",
+        "slug": "likha",
+        "description": "Constructs, enchanted objects, living idols, and beings shaped by ritual craft.",
+        "icon_hint": "hammer",
+        "color_hint": "#7A7F85",
+        "sort_order": 8,
+        "is_active": true,
+        "gameplay_role": "Guard shrines, relics, tools, and old agreements.",
+        "id": 8
+    },
+    {
+        "code": "ORD009",
+        "name": "Legendary Being",
+        "slug": "legendary-being",
+        "description": "Broad mythic beings whose stories carry exceptional cultural, cosmic, or regional weight.",
+        "icon_hint": "crown",
+        "color_hint": "#D9A441",
+        "sort_order": 9,
+        "is_active": true,
+        "gameplay_role": "Anchor major quests, rare encounters, and mythic trials.",
+        "id": 9
+    },
+    {
+        "code": "ORD010",
+        "name": "Folkloric Being",
+        "slug": "folkloric-being",
+        "description": "General folklore-rooted Nilalang used when a source does not fit a narrower order cleanly yet.",
+        "icon_hint": "scroll",
+        "color_hint": "#9B7A4A",
+        "sort_order": 10,
+        "is_active": true,
+        "gameplay_role": "Support broad codex entries until finer cultural or gameplay classification is needed.",
+        "id": 10
+    }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "faction_id": "NPCF0001",
+    "name": "Babaylan Circle",
+    "slug": "babaylan-circle",
+    "description": "Babaylan Circle is a fictional ALAMAT faction that can drive reputation, shops, quests, and relationship gates.",
+    "reputation_scope": "regional",
+    "icon_hint": "leaf",
+    "color_hint": "#2F855A",
+    "is_active": true
+  },
+  {
+    "faction_id": "NPCF0002",
+    "name": "Catalonan Council",
+    "slug": "catalonan-council",
+    "description": "Catalonan Council is a fictional ALAMAT faction that can drive reputation, shops, quests, and relationship gates.",
+    "reputation_scope": "world",
+    "icon_hint": "scroll",
+    "color_hint": "#D6A85C",
+    "is_active": true
+  },
+  {
+    "faction_id": "NPCF0003",
+    "name": "Mountain Guardians",
+    "slug": "mountain-guardians",
+    "description": "Mountain Guardians is a fictional ALAMAT faction that can drive reputation, shops, quests, and relationship gates.",
+    "reputation_scope": "world",
+    "icon_hint": "mountain",
+    "color_hint": "#64748B",
+    "is_active": true
+  },
+  {
+    "faction_id": "NPCF0004",
+    "name": "Diwata Court",
+    "slug": "diwata-court",
+    "description": "Diwata Court is a fictional ALAMAT faction that can drive reputation, shops, quests, and relationship gates.",
+    "reputation_scope": "regional",
+    "icon_hint": "sparkles",
+    "color_hint": "#F472B6",
+    "is_active": true
+  },
+  {
+    "faction_id": "NPCF0005",
+    "name": "Church Order",
+    "slug": "church-order",
+    "description": "Church Order is a fictional ALAMAT faction that can drive reputation, shops, quests, and relationship gates.",
+    "reputation_scope": "world",
+    "icon_hint": "cross",
+    "color_hint": "#E5E7EB",
+    "is_active": true
+  },
+  {
+    "faction_id": "NPCF0006",
+    "name": "Sultanate Council",
+    "slug": "sultanate-council",
+    "description": "Sultanate Council is a fictional ALAMAT faction that can drive reputation, shops, quests, and relationship gates.",
+    "reputation_scope": "world",
+    "icon_hint": "moon",
+    "color_hint": "#38BDF8",
+    "is_active": true
+  },
+  {
+    "faction_id": "NPCF0007",
+    "name": "Rajahnate Alliance",
+    "slug": "rajahnate-alliance",
+    "description": "Rajahnate Alliance is a fictional ALAMAT faction that can drive reputation, shops, quests, and relationship gates.",
+    "reputation_scope": "regional",
+    "icon_hint": "crown",
+    "color_hint": "#F59E0B",
+    "is_active": true
+  },
+  {
+    "faction_id": "NPCF0008",
+    "name": "Treasure Hunters Guild",
+    "slug": "treasure-hunters-guild",
+    "description": "Treasure Hunters Guild is a fictional ALAMAT faction that can drive reputation, shops, quests, and relationship gates.",
+    "reputation_scope": "world",
+    "icon_hint": "gem",
+    "color_hint": "#A78BFA",
+    "is_active": true
+  },
+  {
+    "faction_id": "NPCF0009",
+    "name": "Monster Researchers",
+    "slug": "monster-researchers",
+    "description": "Monster Researchers is a fictional ALAMAT faction that can drive reputation, shops, quests, and relationship gates.",
+    "reputation_scope": "world",
+    "icon_hint": "book",
+    "color_hint": "#60A5FA",
+    "is_active": true
+  },
+  {
+    "faction_id": "NPCF0010",
+    "name": "Forest Keepers",
+    "slug": "forest-keepers",
+    "description": "Forest Keepers is a fictional ALAMAT faction that can drive reputation, shops, quests, and relationship gates.",
+    "reputation_scope": "regional",
+    "icon_hint": "tree",
+    "color_hint": "#22C55E",
+    "is_active": true
+  },
+  {
+    "faction_id": "NPCF0011",
+    "name": "Coral Wardens",
+    "slug": "coral-wardens",
+    "description": "Coral Wardens is a fictional ALAMAT faction that can drive reputation, shops, quests, and relationship gates.",
+    "reputation_scope": "world",
+    "icon_hint": "waves",
+    "color_hint": "#06B6D4",
+    "is_active": true
+  },
+  {
+    "faction_id": "NPCF0012",
+    "name": "Bakunawa Cult",
+    "slug": "bakunawa-cult",
+    "description": "Bakunawa Cult is a fictional ALAMAT faction that can drive reputation, shops, quests, and relationship gates.",
+    "reputation_scope": "world",
+    "icon_hint": "eye",
+    "color_hint": "#7F1D1D",
+    "is_active": true
+  },
+  {
+    "faction_id": "NPCF0013",
+    "name": "Merchant League",
+    "slug": "merchant-league",
+    "description": "Merchant League is a fictional ALAMAT faction that can drive reputation, shops, quests, and relationship gates.",
+    "reputation_scope": "regional",
+    "icon_hint": "coins",
+    "color_hint": "#FACC15",
+    "is_active": true
+  },
+  {
+    "faction_id": "NPCF0014",
+    "name": "River Ferry Union",
+    "slug": "river-ferry-union",
+    "description": "River Ferry Union is a fictional ALAMAT faction that can drive reputation, shops, quests, and relationship gates.",
+    "reputation_scope": "world",
+    "icon_hint": "ship",
+    "color_hint": "#0EA5E9",
+    "is_active": true
+  },
+  {
+    "faction_id": "NPCF0015",
+    "name": "Kapuluan Archives",
+    "slug": "kapuluan-archives",
+    "description": "Kapuluan Archives is a fictional ALAMAT faction that can drive reputation, shops, quests, and relationship gates.",
+    "reputation_scope": "world",
+    "icon_hint": "archive",
+    "color_hint": "#94A3B8",
+    "is_active": true
+  }
+]

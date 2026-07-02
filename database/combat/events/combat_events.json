@@ -1,0 +1,136 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "alamat://combat/events/combat_events.json",
+  "title": "ALAMAT Combat Bible - combat_event",
+  "description": "combat event records for the Combat Bible.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "id": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "uuid": {
+        "type": "string",
+        "format": "uuid"
+      },
+      "slug": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "created_at": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "updated_at": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "version": {
+        "type": "string",
+        "pattern": "^\\d+\\.\\d+\\.\\d+$"
+      },
+      "source": {
+        "type": "string",
+        "minLength": 1
+      },
+      "notes": {
+        "type": "string"
+      },
+      "event_id": {
+        "type": "string",
+        "pattern": "^EVT-?[A-Z0-9-]+$"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "trigger": {
+        "type": "string",
+        "minLength": 1
+      },
+      "duration": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": [
+              "instant",
+              "turns",
+              "rounds",
+              "battle",
+              "permanent"
+            ]
+          },
+          "value": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "required": [
+          "type",
+          "value"
+        ]
+      },
+      "modifiers": {
+        "type": "array",
+        "items": {
+          "type": "object"
+        }
+      },
+      "description": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "required": [
+      "id",
+      "uuid",
+      "slug",
+      "created_at",
+      "updated_at",
+      "version",
+      "source",
+      "notes",
+      "event_id",
+      "event_id",
+      "name",
+      "trigger",
+      "duration",
+      "modifiers",
+      "description"
+    ]
+  },
+  "examples": [
+    [
+      {
+        "id": 24,
+        "uuid": "00000000-0000-4000-8000-000000000024",
+        "created_at": "2026-07-02T00:00:00+08:00",
+        "updated_at": "2026-07-02T00:00:00+08:00",
+        "version": "1.0.0",
+        "source": "Phase D architecture example",
+        "notes": "Example record for schema validation only; not production balance content.",
+        "event_id": "EVT-CBT-0001",
+        "slug": "spirit-eclipse",
+        "name": "Spirit Eclipse",
+        "trigger": "round_start",
+        "duration": {
+          "type": "rounds",
+          "value": 3
+        },
+        "modifiers": [
+          {
+            "target": "spirit",
+            "effect": "power_multiplier",
+            "value": 1.15
+          }
+        ],
+        "description": "A dynamic battle event that strengthens spirit-aligned effects."
+      }
+    ]
+  ]
+}

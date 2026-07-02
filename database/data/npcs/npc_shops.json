@@ -1,0 +1,4202 @@
+[
+  {
+    "shop_id": "NPCSHOP000301",
+    "npc_id": "NPC000301",
+    "name": "Datu Magsalin's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0002",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000302",
+    "npc_id": "NPC000302",
+    "name": "Lira Lakandula's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0003",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000303",
+    "npc_id": "NPC000303",
+    "name": "Bayani Kalaw's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0004",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000304",
+    "npc_id": "NPC000304",
+    "name": "Mayumi Bagwis's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0005",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000305",
+    "npc_id": "NPC000305",
+    "name": "Makisig Sikatuna's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0006",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000306",
+    "npc_id": "NPC000306",
+    "name": "Hiraya Tagapulo's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0007",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000307",
+    "npc_id": "NPC000307",
+    "name": "Tala Dalisay's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0008",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000308",
+    "npc_id": "NPC000308",
+    "name": "Kidlat Balagtas's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0009",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000309",
+    "npc_id": "NPC000309",
+    "name": "Mutya Dimalanta's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0010",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000310",
+    "npc_id": "NPC000310",
+    "name": "Sinag Silangan's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0011",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000311",
+    "npc_id": "NPC000311",
+    "name": "Lakan Mabini's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0012",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000312",
+    "npc_id": "NPC000312",
+    "name": "Ligaya Makiling's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0013",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000313",
+    "npc_id": "NPC000313",
+    "name": "Habagat Banaag's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0014",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000314",
+    "npc_id": "NPC000314",
+    "name": "Marikit Salcedo's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0015",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000315",
+    "npc_id": "NPC000315",
+    "name": "Alon Agbayani's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0001",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000316",
+    "npc_id": "NPC000316",
+    "name": "Diwa Magsalin's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0002",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000317",
+    "npc_id": "NPC000317",
+    "name": "Sari Lakandula's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0003",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000318",
+    "npc_id": "NPC000318",
+    "name": "Tandang Kalaw's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0004",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000319",
+    "npc_id": "NPC000319",
+    "name": "Isagani Bagwis's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0005",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000320",
+    "npc_id": "NPC000320",
+    "name": "Amaya Sikatuna's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0006",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000321",
+    "npc_id": "NPC000321",
+    "name": "Datu Tagapulo's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0007",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000322",
+    "npc_id": "NPC000322",
+    "name": "Lira Dalisay's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0008",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000323",
+    "npc_id": "NPC000323",
+    "name": "Bayani Balagtas's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0009",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000324",
+    "npc_id": "NPC000324",
+    "name": "Mayumi Dimalanta's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0010",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000325",
+    "npc_id": "NPC000325",
+    "name": "Makisig Silangan's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0011",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000326",
+    "npc_id": "NPC000326",
+    "name": "Hiraya Mabini's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0012",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000327",
+    "npc_id": "NPC000327",
+    "name": "Tala Makiling's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0013",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000328",
+    "npc_id": "NPC000328",
+    "name": "Kidlat Banaag's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0014",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000329",
+    "npc_id": "NPC000329",
+    "name": "Mutya Salcedo's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0015",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000330",
+    "npc_id": "NPC000330",
+    "name": "Sinag Agbayani's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0001",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000331",
+    "npc_id": "NPC000331",
+    "name": "Lakan Magsalin's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0002",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000332",
+    "npc_id": "NPC000332",
+    "name": "Ligaya Lakandula's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0003",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000333",
+    "npc_id": "NPC000333",
+    "name": "Habagat Kalaw's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0004",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000334",
+    "npc_id": "NPC000334",
+    "name": "Marikit Bagwis's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0005",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000335",
+    "npc_id": "NPC000335",
+    "name": "Alon Sikatuna's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0006",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000336",
+    "npc_id": "NPC000336",
+    "name": "Diwa Tagapulo's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0007",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000337",
+    "npc_id": "NPC000337",
+    "name": "Sari Dalisay's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0008",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000338",
+    "npc_id": "NPC000338",
+    "name": "Tandang Balagtas's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0009",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000339",
+    "npc_id": "NPC000339",
+    "name": "Isagani Dimalanta's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0010",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000340",
+    "npc_id": "NPC000340",
+    "name": "Amaya Silangan's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0011",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000341",
+    "npc_id": "NPC000341",
+    "name": "Datu Mabini's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0012",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000342",
+    "npc_id": "NPC000342",
+    "name": "Lira Makiling's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0013",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000343",
+    "npc_id": "NPC000343",
+    "name": "Bayani Banaag's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0014",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000344",
+    "npc_id": "NPC000344",
+    "name": "Mayumi Salcedo's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0015",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000345",
+    "npc_id": "NPC000345",
+    "name": "Makisig Agbayani's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0001",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000346",
+    "npc_id": "NPC000346",
+    "name": "Hiraya Magsalin's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0002",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000347",
+    "npc_id": "NPC000347",
+    "name": "Tala Lakandula's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0003",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000348",
+    "npc_id": "NPC000348",
+    "name": "Kidlat Kalaw's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0004",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000349",
+    "npc_id": "NPC000349",
+    "name": "Mutya Bagwis's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0005",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000350",
+    "npc_id": "NPC000350",
+    "name": "Sinag Sikatuna's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0006",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000351",
+    "npc_id": "NPC000351",
+    "name": "Lakan Tagapulo's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0007",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000352",
+    "npc_id": "NPC000352",
+    "name": "Ligaya Dalisay's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0008",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000353",
+    "npc_id": "NPC000353",
+    "name": "Habagat Balagtas's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0009",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000354",
+    "npc_id": "NPC000354",
+    "name": "Marikit Dimalanta's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0010",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000355",
+    "npc_id": "NPC000355",
+    "name": "Alon Silangan's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0011",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000356",
+    "npc_id": "NPC000356",
+    "name": "Diwa Mabini's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0012",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000357",
+    "npc_id": "NPC000357",
+    "name": "Sari Makiling's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0013",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000358",
+    "npc_id": "NPC000358",
+    "name": "Tandang Banaag's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0014",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000359",
+    "npc_id": "NPC000359",
+    "name": "Isagani Salcedo's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0015",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000360",
+    "npc_id": "NPC000360",
+    "name": "Amaya Agbayani's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0001",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000361",
+    "npc_id": "NPC000361",
+    "name": "Datu Magsalin's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0002",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000362",
+    "npc_id": "NPC000362",
+    "name": "Lira Lakandula's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0003",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000363",
+    "npc_id": "NPC000363",
+    "name": "Bayani Kalaw's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0004",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000364",
+    "npc_id": "NPC000364",
+    "name": "Mayumi Bagwis's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0005",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000365",
+    "npc_id": "NPC000365",
+    "name": "Makisig Sikatuna's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0006",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000366",
+    "npc_id": "NPC000366",
+    "name": "Hiraya Tagapulo's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0007",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000367",
+    "npc_id": "NPC000367",
+    "name": "Tala Dalisay's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0008",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000368",
+    "npc_id": "NPC000368",
+    "name": "Kidlat Balagtas's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0009",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000369",
+    "npc_id": "NPC000369",
+    "name": "Mutya Dimalanta's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0010",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000370",
+    "npc_id": "NPC000370",
+    "name": "Sinag Silangan's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0011",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000371",
+    "npc_id": "NPC000371",
+    "name": "Lakan Mabini's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0012",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000372",
+    "npc_id": "NPC000372",
+    "name": "Ligaya Makiling's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0013",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000373",
+    "npc_id": "NPC000373",
+    "name": "Habagat Banaag's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0014",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000374",
+    "npc_id": "NPC000374",
+    "name": "Marikit Salcedo's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0015",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000375",
+    "npc_id": "NPC000375",
+    "name": "Alon Agbayani's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0001",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000376",
+    "npc_id": "NPC000376",
+    "name": "Diwa Magsalin's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0002",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000377",
+    "npc_id": "NPC000377",
+    "name": "Sari Lakandula's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0003",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000378",
+    "npc_id": "NPC000378",
+    "name": "Tandang Kalaw's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0004",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000379",
+    "npc_id": "NPC000379",
+    "name": "Isagani Bagwis's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0005",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000380",
+    "npc_id": "NPC000380",
+    "name": "Amaya Sikatuna's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0006",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000381",
+    "npc_id": "NPC000381",
+    "name": "Datu Tagapulo's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0007",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000382",
+    "npc_id": "NPC000382",
+    "name": "Lira Dalisay's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0008",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000383",
+    "npc_id": "NPC000383",
+    "name": "Bayani Balagtas's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0009",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000384",
+    "npc_id": "NPC000384",
+    "name": "Mayumi Dimalanta's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0010",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000385",
+    "npc_id": "NPC000385",
+    "name": "Makisig Silangan's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0011",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000386",
+    "npc_id": "NPC000386",
+    "name": "Hiraya Mabini's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0012",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000387",
+    "npc_id": "NPC000387",
+    "name": "Tala Makiling's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0013",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000388",
+    "npc_id": "NPC000388",
+    "name": "Kidlat Banaag's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0014",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000389",
+    "npc_id": "NPC000389",
+    "name": "Mutya Salcedo's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0015",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000390",
+    "npc_id": "NPC000390",
+    "name": "Sinag Agbayani's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0001",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000391",
+    "npc_id": "NPC000391",
+    "name": "Lakan Magsalin's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0002",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000392",
+    "npc_id": "NPC000392",
+    "name": "Ligaya Lakandula's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0003",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000393",
+    "npc_id": "NPC000393",
+    "name": "Habagat Kalaw's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0004",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000394",
+    "npc_id": "NPC000394",
+    "name": "Marikit Bagwis's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0005",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000395",
+    "npc_id": "NPC000395",
+    "name": "Alon Sikatuna's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0006",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000396",
+    "npc_id": "NPC000396",
+    "name": "Diwa Tagapulo's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0007",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000397",
+    "npc_id": "NPC000397",
+    "name": "Sari Dalisay's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0008",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000398",
+    "npc_id": "NPC000398",
+    "name": "Tandang Balagtas's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0009",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000399",
+    "npc_id": "NPC000399",
+    "name": "Isagani Dimalanta's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0010",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000400",
+    "npc_id": "NPC000400",
+    "name": "Amaya Silangan's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0011",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000481",
+    "npc_id": "NPC000481",
+    "name": "Datu Magsalin's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0002",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000482",
+    "npc_id": "NPC000482",
+    "name": "Lira Lakandula's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0003",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000483",
+    "npc_id": "NPC000483",
+    "name": "Bayani Kalaw's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0004",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000484",
+    "npc_id": "NPC000484",
+    "name": "Mayumi Bagwis's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0005",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000485",
+    "npc_id": "NPC000485",
+    "name": "Makisig Sikatuna's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0006",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000486",
+    "npc_id": "NPC000486",
+    "name": "Hiraya Tagapulo's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0007",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000487",
+    "npc_id": "NPC000487",
+    "name": "Tala Dalisay's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0008",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000488",
+    "npc_id": "NPC000488",
+    "name": "Kidlat Balagtas's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0009",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000489",
+    "npc_id": "NPC000489",
+    "name": "Mutya Dimalanta's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0010",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000490",
+    "npc_id": "NPC000490",
+    "name": "Sinag Silangan's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0011",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000491",
+    "npc_id": "NPC000491",
+    "name": "Lakan Mabini's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0012",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000492",
+    "npc_id": "NPC000492",
+    "name": "Ligaya Makiling's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0013",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000493",
+    "npc_id": "NPC000493",
+    "name": "Habagat Banaag's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0014",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000494",
+    "npc_id": "NPC000494",
+    "name": "Marikit Salcedo's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0015",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000495",
+    "npc_id": "NPC000495",
+    "name": "Alon Agbayani's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0001",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000496",
+    "npc_id": "NPC000496",
+    "name": "Diwa Magsalin's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0002",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000497",
+    "npc_id": "NPC000497",
+    "name": "Sari Lakandula's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0003",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000498",
+    "npc_id": "NPC000498",
+    "name": "Tandang Kalaw's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0004",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000499",
+    "npc_id": "NPC000499",
+    "name": "Isagani Bagwis's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0005",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000500",
+    "npc_id": "NPC000500",
+    "name": "Amaya Sikatuna's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0006",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000501",
+    "npc_id": "NPC000501",
+    "name": "Datu Tagapulo's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0007",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000502",
+    "npc_id": "NPC000502",
+    "name": "Lira Dalisay's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0008",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000503",
+    "npc_id": "NPC000503",
+    "name": "Bayani Balagtas's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0009",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000504",
+    "npc_id": "NPC000504",
+    "name": "Mayumi Dimalanta's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0010",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000505",
+    "npc_id": "NPC000505",
+    "name": "Makisig Silangan's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0011",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000506",
+    "npc_id": "NPC000506",
+    "name": "Hiraya Mabini's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0012",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000507",
+    "npc_id": "NPC000507",
+    "name": "Tala Makiling's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0013",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000508",
+    "npc_id": "NPC000508",
+    "name": "Kidlat Banaag's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0014",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000509",
+    "npc_id": "NPC000509",
+    "name": "Mutya Salcedo's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0015",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000510",
+    "npc_id": "NPC000510",
+    "name": "Sinag Agbayani's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0001",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000511",
+    "npc_id": "NPC000511",
+    "name": "Lakan Magsalin's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0002",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000512",
+    "npc_id": "NPC000512",
+    "name": "Ligaya Lakandula's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0003",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000513",
+    "npc_id": "NPC000513",
+    "name": "Habagat Kalaw's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0004",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000514",
+    "npc_id": "NPC000514",
+    "name": "Marikit Bagwis's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0005",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000515",
+    "npc_id": "NPC000515",
+    "name": "Alon Sikatuna's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0006",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000516",
+    "npc_id": "NPC000516",
+    "name": "Diwa Tagapulo's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0007",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000517",
+    "npc_id": "NPC000517",
+    "name": "Sari Dalisay's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0008",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000518",
+    "npc_id": "NPC000518",
+    "name": "Tandang Balagtas's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0009",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000519",
+    "npc_id": "NPC000519",
+    "name": "Isagani Dimalanta's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0010",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000520",
+    "npc_id": "NPC000520",
+    "name": "Amaya Silangan's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0011",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000521",
+    "npc_id": "NPC000521",
+    "name": "Datu Mabini's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0012",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000522",
+    "npc_id": "NPC000522",
+    "name": "Lira Makiling's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0013",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000523",
+    "npc_id": "NPC000523",
+    "name": "Bayani Banaag's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0014",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000524",
+    "npc_id": "NPC000524",
+    "name": "Mayumi Salcedo's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0015",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000525",
+    "npc_id": "NPC000525",
+    "name": "Makisig Agbayani's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0001",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000526",
+    "npc_id": "NPC000526",
+    "name": "Hiraya Magsalin's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0002",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000527",
+    "npc_id": "NPC000527",
+    "name": "Tala Lakandula's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0003",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000528",
+    "npc_id": "NPC000528",
+    "name": "Kidlat Kalaw's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0004",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000529",
+    "npc_id": "NPC000529",
+    "name": "Mutya Bagwis's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0005",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000530",
+    "npc_id": "NPC000530",
+    "name": "Sinag Sikatuna's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0006",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000531",
+    "npc_id": "NPC000531",
+    "name": "Lakan Tagapulo's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0007",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000532",
+    "npc_id": "NPC000532",
+    "name": "Ligaya Dalisay's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0008",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000533",
+    "npc_id": "NPC000533",
+    "name": "Habagat Balagtas's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0009",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000534",
+    "npc_id": "NPC000534",
+    "name": "Marikit Dimalanta's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0010",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000535",
+    "npc_id": "NPC000535",
+    "name": "Alon Silangan's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0011",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000536",
+    "npc_id": "NPC000536",
+    "name": "Diwa Mabini's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0012",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000537",
+    "npc_id": "NPC000537",
+    "name": "Sari Makiling's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0013",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000538",
+    "npc_id": "NPC000538",
+    "name": "Tandang Banaag's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0014",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000539",
+    "npc_id": "NPC000539",
+    "name": "Isagani Salcedo's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0015",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000540",
+    "npc_id": "NPC000540",
+    "name": "Amaya Agbayani's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0001",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000541",
+    "npc_id": "NPC000541",
+    "name": "Datu Magsalin's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0002",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000542",
+    "npc_id": "NPC000542",
+    "name": "Lira Lakandula's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0003",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000543",
+    "npc_id": "NPC000543",
+    "name": "Bayani Kalaw's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0004",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000544",
+    "npc_id": "NPC000544",
+    "name": "Mayumi Bagwis's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0005",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000545",
+    "npc_id": "NPC000545",
+    "name": "Makisig Sikatuna's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0006",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000546",
+    "npc_id": "NPC000546",
+    "name": "Hiraya Tagapulo's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0007",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000547",
+    "npc_id": "NPC000547",
+    "name": "Tala Dalisay's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0008",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000548",
+    "npc_id": "NPC000548",
+    "name": "Kidlat Balagtas's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0009",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000549",
+    "npc_id": "NPC000549",
+    "name": "Mutya Dimalanta's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0010",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000550",
+    "npc_id": "NPC000550",
+    "name": "Sinag Silangan's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0011",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000551",
+    "npc_id": "NPC000551",
+    "name": "Lakan Mabini's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0012",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000552",
+    "npc_id": "NPC000552",
+    "name": "Ligaya Makiling's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0013",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000553",
+    "npc_id": "NPC000553",
+    "name": "Habagat Banaag's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0014",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000554",
+    "npc_id": "NPC000554",
+    "name": "Marikit Salcedo's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0015",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000555",
+    "npc_id": "NPC000555",
+    "name": "Alon Agbayani's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0001",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000556",
+    "npc_id": "NPC000556",
+    "name": "Diwa Magsalin's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0002",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000557",
+    "npc_id": "NPC000557",
+    "name": "Sari Lakandula's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0003",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000558",
+    "npc_id": "NPC000558",
+    "name": "Tandang Kalaw's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0004",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000559",
+    "npc_id": "NPC000559",
+    "name": "Isagani Bagwis's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0005",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000560",
+    "npc_id": "NPC000560",
+    "name": "Amaya Sikatuna's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0006",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000561",
+    "npc_id": "NPC000561",
+    "name": "Datu Tagapulo's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0007",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000562",
+    "npc_id": "NPC000562",
+    "name": "Lira Dalisay's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0008",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000563",
+    "npc_id": "NPC000563",
+    "name": "Bayani Balagtas's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0009",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000564",
+    "npc_id": "NPC000564",
+    "name": "Mayumi Dimalanta's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0010",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000565",
+    "npc_id": "NPC000565",
+    "name": "Makisig Silangan's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0011",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000566",
+    "npc_id": "NPC000566",
+    "name": "Hiraya Mabini's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0012",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000567",
+    "npc_id": "NPC000567",
+    "name": "Tala Makiling's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0013",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000568",
+    "npc_id": "NPC000568",
+    "name": "Kidlat Banaag's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0014",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000569",
+    "npc_id": "NPC000569",
+    "name": "Mutya Salcedo's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0015",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000570",
+    "npc_id": "NPC000570",
+    "name": "Sinag Agbayani's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0001",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000571",
+    "npc_id": "NPC000571",
+    "name": "Lakan Magsalin's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0002",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000572",
+    "npc_id": "NPC000572",
+    "name": "Ligaya Lakandula's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0003",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000573",
+    "npc_id": "NPC000573",
+    "name": "Habagat Kalaw's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0004",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000574",
+    "npc_id": "NPC000574",
+    "name": "Marikit Bagwis's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0005",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000575",
+    "npc_id": "NPC000575",
+    "name": "Alon Sikatuna's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0006",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000576",
+    "npc_id": "NPC000576",
+    "name": "Diwa Tagapulo's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0007",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000577",
+    "npc_id": "NPC000577",
+    "name": "Sari Dalisay's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0008",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000578",
+    "npc_id": "NPC000578",
+    "name": "Tandang Balagtas's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0009",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000579",
+    "npc_id": "NPC000579",
+    "name": "Isagani Dimalanta's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0010",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "NPCSHOP000580",
+    "npc_id": "NPC000580",
+    "name": "Amaya Silangan's Stall",
+    "shop_type": "general",
+    "refresh_rule": {
+      "cadence": "daily",
+      "hour": "06:00",
+      "seasonal_overrides": true
+    },
+    "currency_type": "gold",
+    "inventory_rule_payload": {
+      "rarity_cap": "Rare",
+      "faction_bonus": "NPCF0011",
+      "relationship_unlocks": [
+        "Friend",
+        "Mentor"
+      ]
+    },
+    "is_active": true
+  }
+]

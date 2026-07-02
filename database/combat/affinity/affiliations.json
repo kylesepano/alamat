@@ -1,0 +1,171 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "alamat://combat/affinity/affiliations.json",
+  "title": "ALAMAT Combat Bible - affiliation",
+  "description": "Phase D affinity definitions. Prefer referencing Phase B library affiliation codes where possible.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "id": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "uuid": {
+        "type": "string",
+        "format": "uuid"
+      },
+      "slug": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "created_at": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "updated_at": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "version": {
+        "type": "string",
+        "pattern": "^\\d+\\.\\d+\\.\\d+$"
+      },
+      "source": {
+        "type": "string",
+        "minLength": 1
+      },
+      "notes": {
+        "type": "string"
+      },
+      "affiliation_id": {
+        "type": "string",
+        "pattern": "^AFF-?[A-Z0-9-]+$"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "phase_b_code": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Reference to library_affiliations.code; resolve through Combat Bible registry or Phase B library."
+      },
+      "strengths": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "weaknesses": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "resistances": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "immunities": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "combo_bonuses": {
+        "type": "array",
+        "items": {
+          "type": "object"
+        }
+      },
+      "terrain_bonuses": {
+        "type": "array",
+        "items": {
+          "type": "object"
+        }
+      },
+      "weather_bonuses": {
+        "type": "array",
+        "items": {
+          "type": "object"
+        }
+      },
+      "description": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "required": [
+      "id",
+      "uuid",
+      "slug",
+      "created_at",
+      "updated_at",
+      "version",
+      "source",
+      "notes",
+      "affiliation_id",
+      "affiliation_id",
+      "name",
+      "phase_b_code",
+      "strengths",
+      "weaknesses",
+      "resistances",
+      "immunities",
+      "combo_bonuses",
+      "terrain_bonuses",
+      "weather_bonuses",
+      "description"
+    ]
+  },
+  "examples": [
+    [
+      {
+        "id": 10,
+        "uuid": "00000000-0000-4000-8000-000000000010",
+        "created_at": "2026-07-02T00:00:00+08:00",
+        "updated_at": "2026-07-02T00:00:00+08:00",
+        "version": "1.0.0",
+        "source": "Phase D architecture example",
+        "notes": "Example record for schema validation only; not production balance content.",
+        "affiliation_id": "AFF-CBT-FOREST",
+        "slug": "forest",
+        "name": "Forest",
+        "phase_b_code": "AFF001",
+        "strengths": [
+          "water"
+        ],
+        "weaknesses": [
+          "fire"
+        ],
+        "resistances": [
+          "earth"
+        ],
+        "immunities": [],
+        "combo_bonuses": [
+          {
+            "with": "spirit",
+            "bonus": "rootward"
+          }
+        ],
+        "terrain_bonuses": [
+          {
+            "terrain_id": "TRN-FOREST",
+            "modifier": 1.1
+          }
+        ],
+        "weather_bonuses": [
+          {
+            "weather_id": "WTH-RAIN",
+            "modifier": 1.05
+          }
+        ],
+        "description": "Forest affinity covers root, leaf, thorn, old groves, and living wood."
+      }
+    ]
+  ]
+}

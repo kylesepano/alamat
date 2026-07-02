@@ -1,0 +1,156 @@
+[
+  {
+    "category_id": "EQC0001",
+    "name": "Weapons",
+    "slug": "weapons",
+    "description": "Offensive equipment for player, NPC, and future class rules.",
+    "slot_type": "main_hand",
+    "icon": "sword",
+    "color_hint": "#B45309",
+    "sort_order": 1,
+    "is_active": true
+  },
+  {
+    "category_id": "EQC0002",
+    "name": "Armor",
+    "slug": "armor",
+    "description": "Body protection and defensive gear.",
+    "slot_type": "body",
+    "icon": "shield",
+    "color_hint": "#64748B",
+    "sort_order": 2,
+    "is_active": true
+  },
+  {
+    "category_id": "EQC0003",
+    "name": "Headgear",
+    "slug": "headgear",
+    "description": "Head-slot protective or ritual pieces.",
+    "slot_type": "head",
+    "icon": "helmet",
+    "color_hint": "#94A3B8",
+    "sort_order": 3,
+    "is_active": true
+  },
+  {
+    "category_id": "EQC0004",
+    "name": "Accessories",
+    "slug": "accessories",
+    "description": "Small wearable charms and stat modifiers.",
+    "slot_type": "accessory",
+    "icon": "gem",
+    "color_hint": "#EC4899",
+    "sort_order": 4,
+    "is_active": true
+  },
+  {
+    "category_id": "EQC0005",
+    "name": "Talismans",
+    "slug": "talismans",
+    "description": "Ritual protective objects and spiritual anchors.",
+    "slot_type": "talisman",
+    "icon": "badge",
+    "color_hint": "#A78BFA",
+    "sort_order": 5,
+    "is_active": true
+  },
+  {
+    "category_id": "EQC0006",
+    "name": "Relics",
+    "slug": "relics",
+    "description": "Rare ancestral or sacred artifacts.",
+    "slot_type": "relic",
+    "icon": "crown",
+    "color_hint": "#FACC15",
+    "sort_order": 6,
+    "is_active": true
+  },
+  {
+    "category_id": "EQC0007",
+    "name": "Shields",
+    "slug": "shields",
+    "description": "Off-hand protective equipment.",
+    "slot_type": "off_hand",
+    "icon": "shield",
+    "color_hint": "#475569",
+    "sort_order": 7,
+    "is_active": true
+  },
+  {
+    "category_id": "EQC0008",
+    "name": "Instruments",
+    "slug": "instruments",
+    "description": "Musical and ritual instruments with combat utility.",
+    "slot_type": "instrument",
+    "icon": "music",
+    "color_hint": "#38BDF8",
+    "sort_order": 8,
+    "is_active": true
+  },
+  {
+    "category_id": "EQC0009",
+    "name": "Charms",
+    "slug": "charms",
+    "description": "Small charms used for affinity or trust effects.",
+    "slot_type": "charm",
+    "icon": "sparkles",
+    "color_hint": "#F472B6",
+    "sort_order": 9,
+    "is_active": true
+  },
+  {
+    "category_id": "EQC0010",
+    "name": "Monster Gear",
+    "slug": "monster-gear",
+    "description": "Non-extractive gear designed for bonded Nilalang comfort and safety.",
+    "slot_type": "monster_core",
+    "icon": "paw-print",
+    "color_hint": "#22C55E",
+    "sort_order": 10,
+    "is_active": true
+  },
+  {
+    "category_id": "EQC0011",
+    "name": "Class Gear",
+    "slug": "class-gear",
+    "description": "Class-compatible gear hooks.",
+    "slot_type": "accessory",
+    "icon": "badge-check",
+    "color_hint": "#60A5FA",
+    "sort_order": 11,
+    "is_active": true
+  },
+  {
+    "category_id": "EQC0012",
+    "name": "Affinity Gear",
+    "slug": "affinity-gear",
+    "description": "Affinity-based equipment hooks.",
+    "slot_type": "charm",
+    "icon": "atom",
+    "color_hint": "#7DD3FC",
+    "sort_order": 12,
+    "is_active": true
+  },
+  {
+    "category_id": "EQC0013",
+    "name": "Quest Gear",
+    "slug": "quest-gear",
+    "description": "Quest-locked equipment.",
+    "slot_type": "relic",
+    "icon": "scroll",
+    "color_hint": "#D6A85C",
+    "sort_order": 13,
+    "is_active": true
+  },
+  {
+    "category_id": "EQC0014",
+    "name": "Legendary Artifacts",
+    "slug": "legendary-artifacts",
+    "description": "High-rarity artifacts for late-game systems.",
+    "slot_type": "relic",
+    "icon": "star",
+    "color_hint": "#F59E0B",
+    "sort_order": 14,
+    "is_active": true
+  }
+]

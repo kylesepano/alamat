@@ -1,0 +1,79 @@
+﻿[
+    {
+        "code":  "RAR001",
+        "name":  "Common",
+        "slug":  "common",
+        "description":  "Frequently encountered and suitable for early progression.",
+        "icon_hint":  "circle",
+        "color_hint":  "#9CA3AF",
+        "sort_order":  1,
+        "is_active":  true,
+        "id":  1
+    },
+    {
+        "code":  "RAR002",
+        "name":  "Uncommon",
+        "slug":  "uncommon",
+        "description":  "Less frequent but not especially rare.",
+        "icon_hint":  "diamond",
+        "color_hint":  "#60A5FA",
+        "sort_order":  2,
+        "is_active":  true,
+        "id":  2
+    },
+    {
+        "code":  "RAR003",
+        "name":  "Rare",
+        "slug":  "rare",
+        "description":  "Requires specific routes, conditions, or quests.",
+        "icon_hint":  "gem",
+        "color_hint":  "#A78BFA",
+        "sort_order":  3,
+        "is_active":  true,
+        "id":  3
+    },
+    {
+        "code":  "RAR004",
+        "name":  "Epic",
+        "slug":  "epic",
+        "description":  "Powerful and usually connected to major side quests.",
+        "icon_hint":  "sparkles",
+        "color_hint":  "#EC4899",
+        "sort_order":  4,
+        "is_active":  true,
+        "id":  4
+    },
+    {
+        "code":  "RAR005",
+        "name":  "Legendary",
+        "slug":  "legendary",
+        "description":  "Unique or nearly unique beings tied to major myths.",
+        "icon_hint":  "crown",
+        "color_hint":  "#FACC15",
+        "sort_order":  5,
+        "is_active":  true,
+        "id":  5
+    },
+    {
+        "code":  "RAR006",
+        "name":  "Mythic",
+        "slug":  "mythic",
+        "description":  "Extremely powerful beings with world-level importance.",
+        "icon_hint":  "sun",
+        "color_hint":  "#FFE082",
+        "sort_order":  6,
+        "is_active":  true,
+        "id":  6
+    },
+    {
+        "code":  "RAR007",
+        "name":  "Ancient",
+        "slug":  "ancient",
+        "description":  "Story-only or endgame beings not normally recruitable.",
+        "icon_hint":  "landmark",
+        "color_hint":  "#C7A76C",
+        "sort_order":  7,
+        "is_active":  true,
+        "id":  7
+    }
+]

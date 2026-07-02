@@ -1,0 +1,127 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "alamat://combat/ai/targeting_profiles.json",
+  "title": "ALAMAT Combat Bible - targeting_profile",
+  "description": "targeting profile records for the Combat Bible.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "id": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "uuid": {
+        "type": "string",
+        "format": "uuid"
+      },
+      "slug": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "created_at": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "updated_at": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "version": {
+        "type": "string",
+        "pattern": "^\\d+\\.\\d+\\.\\d+$"
+      },
+      "source": {
+        "type": "string",
+        "minLength": 1
+      },
+      "notes": {
+        "type": "string"
+      },
+      "targeting_profile_id": {
+        "type": "string",
+        "pattern": "^TGP-?[A-Z0-9-]+$"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "target_type": {
+        "type": "string",
+        "enum": [
+          "single",
+          "row",
+          "column",
+          "aoe",
+          "cross",
+          "cone",
+          "chain",
+          "random",
+          "lowest_hp",
+          "highest_attack",
+          "nearest",
+          "farthest",
+          "self",
+          "ally",
+          "entire_party",
+          "entire_battlefield"
+        ]
+      },
+      "filters": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "tie_breaker": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "required": [
+      "id",
+      "uuid",
+      "slug",
+      "created_at",
+      "updated_at",
+      "version",
+      "source",
+      "notes",
+      "targeting_profile_id",
+      "targeting_profile_id",
+      "name",
+      "target_type",
+      "filters",
+      "tie_breaker",
+      "description"
+    ]
+  },
+  "examples": [
+    [
+      {
+        "id": 19,
+        "uuid": "00000000-0000-4000-8000-000000000019",
+        "created_at": "2026-07-02T00:00:00+08:00",
+        "updated_at": "2026-07-02T00:00:00+08:00",
+        "version": "1.0.0",
+        "source": "Phase D architecture example",
+        "notes": "Example record for schema validation only; not production balance content.",
+        "targeting_profile_id": "TGP-0001",
+        "slug": "lowest-hp-enemy",
+        "name": "Lowest HP Enemy",
+        "target_type": "lowest_hp",
+        "filters": [
+          "enemy",
+          "alive"
+        ],
+        "tie_breaker": "nearest",
+        "description": "Selects the living enemy with the lowest HP percentage."
+      }
+    ]
+  ]
+}

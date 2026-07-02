@@ -1,0 +1,132 @@
+[
+  {
+    "relationship_level_id": "NPCRL0001",
+    "name": "Stranger",
+    "slug": "stranger",
+    "min_points": 0,
+    "max_points": 99,
+    "price_modifier": 1,
+    "gift_modifier": 1,
+    "dialogue_unlocks": [
+      "relationship_stranger"
+    ],
+    "is_active": true
+  },
+  {
+    "relationship_level_id": "NPCRL0002",
+    "name": "Acquaintance",
+    "slug": "acquaintance",
+    "min_points": 100,
+    "max_points": 199,
+    "price_modifier": 0.97,
+    "gift_modifier": 1.05,
+    "dialogue_unlocks": [
+      "relationship_acquaintance"
+    ],
+    "is_active": true
+  },
+  {
+    "relationship_level_id": "NPCRL0003",
+    "name": "Trusted",
+    "slug": "trusted",
+    "min_points": 200,
+    "max_points": 299,
+    "price_modifier": 0.94,
+    "gift_modifier": 1.1,
+    "dialogue_unlocks": [
+      "relationship_trusted"
+    ],
+    "is_active": true
+  },
+  {
+    "relationship_level_id": "NPCRL0004",
+    "name": "Friend",
+    "slug": "friend",
+    "min_points": 300,
+    "max_points": 399,
+    "price_modifier": 0.91,
+    "gift_modifier": 1.15,
+    "dialogue_unlocks": [
+      "relationship_friend"
+    ],
+    "is_active": true
+  },
+  {
+    "relationship_level_id": "NPCRL0005",
+    "name": "Close Friend",
+    "slug": "close-friend",
+    "min_points": 400,
+    "max_points": 499,
+    "price_modifier": 0.88,
+    "gift_modifier": 1.2,
+    "dialogue_unlocks": [
+      "relationship_close-friend"
+    ],
+    "is_active": true
+  },
+  {
+    "relationship_level_id": "NPCRL0006",
+    "name": "Family",
+    "slug": "family",
+    "min_points": 500,
+    "max_points": 599,
+    "price_modifier": 0.85,
+    "gift_modifier": 1.25,
+    "dialogue_unlocks": [
+      "relationship_family"
+    ],
+    "is_active": true
+  },
+  {
+    "relationship_level_id": "NPCRL0007",
+    "name": "Mentor",
+    "slug": "mentor",
+    "min_points": 600,
+    "max_points": 699,
+    "price_modifier": 0.82,
+    "gift_modifier": 1.3,
+    "dialogue_unlocks": [
+      "relationship_mentor"
+    ],
+    "is_active": true
+  },
+  {
+    "relationship_level_id": "NPCRL0008",
+    "name": "Rival",
+    "slug": "rival",
+    "min_points": 700,
+    "max_points": 799,
+    "price_modifier": 0.82,
+    "gift_modifier": 1.35,
+    "dialogue_unlocks": [
+      "relationship_rival"
+    ],
+    "is_active": true
+  },
+  {
+    "relationship_level_id": "NPCRL0009",
+    "name": "Companion",
+    "slug": "companion",
+    "min_points": 800,
+    "max_points": 899,
+    "price_modifier": 0.82,
+    "gift_modifier": 1.4,
+    "dialogue_unlocks": [
+      "relationship_companion"
+    ],
+    "is_active": true
+  },
+  {
+    "relationship_level_id": "NPCRL0010",
+    "name": "Soul Bond",
+    "slug": "soul-bond",
+    "min_points": 900,
+    "max_points": 9999,
+    "price_modifier": 0.82,
+    "gift_modifier": 1.45,
+    "dialogue_unlocks": [
+      "relationship_soul-bond"
+    ],
+    "is_active": true
+  }
+]

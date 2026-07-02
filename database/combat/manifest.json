@@ -1,0 +1,170 @@
+{
+  "version": "1.0.0",
+  "phase": "Phase D",
+  "name": "ALAMAT Combat Bible Architecture",
+  "generated_at": "2026-07-02T00:00:00+08:00",
+  "modules": [
+    {
+      "path": "skills/common_skills.json",
+      "module": "skills",
+      "category": "common",
+      "id_field": "skill_id"
+    },
+    {
+      "path": "skills/class_skills.json",
+      "module": "skills",
+      "category": "class",
+      "id_field": "skill_id"
+    },
+    {
+      "path": "skills/affiliation_skills.json",
+      "module": "skills",
+      "category": "affiliation",
+      "id_field": "skill_id"
+    },
+    {
+      "path": "skills/signature_skills.json",
+      "module": "skills",
+      "category": "signature",
+      "id_field": "skill_id"
+    },
+    {
+      "path": "skills/boss_skills.json",
+      "module": "skills",
+      "category": "boss",
+      "id_field": "skill_id"
+    },
+    {
+      "path": "skills/npc_skills.json",
+      "module": "skills",
+      "category": "npc",
+      "id_field": "skill_id"
+    },
+    {
+      "path": "skills/hidden_skills.json",
+      "module": "skills",
+      "category": "hidden",
+      "id_field": "skill_id"
+    },
+    {
+      "path": "passives/passives.json",
+      "module": "passives",
+      "category": "passive",
+      "id_field": "passive_id"
+    },
+    {
+      "path": "status/status_effects.json",
+      "module": "status",
+      "category": "status_effect",
+      "id_field": "status_effect_id"
+    },
+    {
+      "path": "affinity/affiliations.json",
+      "module": "affinity",
+      "category": "affiliation",
+      "id_field": "affiliation_id"
+    },
+    {
+      "path": "affinity/affinity_chart.json",
+      "module": "affinity",
+      "category": "affinity_chart",
+      "id_field": "chart_id"
+    },
+    {
+      "path": "formulas/damage_formulas.json",
+      "module": "formulas",
+      "category": "damage_formula",
+      "id_field": "formula_id"
+    },
+    {
+      "path": "formulas/healing_formulas.json",
+      "module": "formulas",
+      "category": "healing_formula",
+      "id_field": "formula_id"
+    },
+    {
+      "path": "formulas/capture_formulas.json",
+      "module": "formulas",
+      "category": "capture_formula",
+      "id_field": "formula_id"
+    },
+    {
+      "path": "battlefield/weather.json",
+      "module": "battlefield",
+      "category": "weather",
+      "id_field": "weather_id"
+    },
+    {
+      "path": "battlefield/terrain.json",
+      "module": "battlefield",
+      "category": "terrain",
+      "id_field": "terrain_id"
+    },
+    {
+      "path": "battlefield/battlefield_effects.json",
+      "module": "battlefield",
+      "category": "battlefield_effect",
+      "id_field": "field_effect_id"
+    },
+    {
+      "path": "ai/ai_profiles.json",
+      "module": "ai",
+      "category": "ai_profile",
+      "id_field": "ai_profile_id"
+    },
+    {
+      "path": "ai/targeting_profiles.json",
+      "module": "ai",
+      "category": "targeting_profile",
+      "id_field": "targeting_profile_id"
+    },
+    {
+      "path": "scaling/rarity_scaling.json",
+      "module": "scaling",
+      "category": "rarity_scaling",
+      "id_field": "scaling_id"
+    },
+    {
+      "path": "scaling/boss_scaling.json",
+      "module": "scaling",
+      "category": "boss_scaling",
+      "id_field": "scaling_id"
+    },
+    {
+      "path": "scaling/stat_growth.json",
+      "module": "scaling",
+      "category": "stat_growth",
+      "id_field": "growth_id"
+    },
+    {
+      "path": "combos/combo_skills.json",
+      "module": "combos",
+      "category": "combo_skill",
+      "id_field": "combo_id"
+    },
+    {
+      "path": "events/combat_events.json",
+      "module": "events",
+      "category": "combat_event",
+      "id_field": "event_id"
+    },
+    {
+      "path": "learning/monster_skill_learning.json",
+      "module": "learning",
+      "category": "monster_skill_learning",
+      "id_field": "learning_id"
+    },
+    {
+      "path": "learning/npc_skill_learning.json",
+      "module": "learning",
+      "category": "npc_skill_learning",
+      "id_field": "learning_id"
+    },
+    {
+      "path": "balance/combat_balance_rules.json",
+      "module": "balance",
+      "category": "combat_balance_rule",
+      "id_field": "rule_id"
+    }
+  ]
+}

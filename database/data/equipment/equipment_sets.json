@@ -1,0 +1,127 @@
+[
+  {
+    "set_id": "SET0001",
+    "name": "Balete Guardian Set",
+    "slug": "balete-guardian-set",
+    "description": "Forest defensive gear for wardens and guardians.",
+    "set_bonus_payload": {
+      "pieces_required": [
+        2,
+        4
+      ],
+      "bonuses": [
+        {
+          "pieces": 2,
+          "effect": "minor_stat_bonus"
+        },
+        {
+          "pieces": 4,
+          "effect": "theme_bonus"
+        }
+      ]
+    },
+    "lore": "Balete Guardian Set is a fictional ALAMAT equipment set designed for future loadout bonuses.",
+    "icon": "set_0001_balete-guardian-set.png",
+    "is_active": true
+  },
+  {
+    "set_id": "SET0002",
+    "name": "Moonlit Traveler Set",
+    "slug": "moonlit-traveler-set",
+    "description": "Mobility and luck gear for night journeys.",
+    "set_bonus_payload": {
+      "pieces_required": [
+        2,
+        4
+      ],
+      "bonuses": [
+        {
+          "pieces": 2,
+          "effect": "minor_stat_bonus"
+        },
+        {
+          "pieces": 4,
+          "effect": "theme_bonus"
+        }
+      ]
+    },
+    "lore": "Moonlit Traveler Set is a fictional ALAMAT equipment set designed for future loadout bonuses.",
+    "icon": "set_0002_moonlit-traveler-set.png",
+    "is_active": true
+  },
+  {
+    "set_id": "SET0003",
+    "name": "Ancestral Brass Set",
+    "slug": "ancestral-brass-set",
+    "description": "Faith and spirit-defense gear bound to remembered vows.",
+    "set_bonus_payload": {
+      "pieces_required": [
+        2,
+        4
+      ],
+      "bonuses": [
+        {
+          "pieces": 2,
+          "effect": "minor_stat_bonus"
+        },
+        {
+          "pieces": 4,
+          "effect": "theme_bonus"
+        }
+      ]
+    },
+    "lore": "Ancestral Brass Set is a fictional ALAMAT equipment set designed for future loadout bonuses.",
+    "icon": "set_0003_ancestral-brass-set.png",
+    "is_active": true
+  },
+  {
+    "set_id": "SET0004",
+    "name": "River Oath Set",
+    "slug": "river-oath-set",
+    "description": "Support and healing gear tied to water and shrine restoration.",
+    "set_bonus_payload": {
+      "pieces_required": [
+        2,
+        4
+      ],
+      "bonuses": [
+        {
+          "pieces": 2,
+          "effect": "minor_stat_bonus"
+        },
+        {
+          "pieces": 4,
+          "effect": "theme_bonus"
+        }
+      ]
+    },
+    "lore": "River Oath Set is a fictional ALAMAT equipment set designed for future loadout bonuses.",
+    "icon": "set_0004_river-oath-set.png",
+    "is_active": true
+  },
+  {
+    "set_id": "SET0005",
+    "name": "Storm Cliff Set",
+    "slug": "storm-cliff-set",
+    "description": "Ranger and sky-affinity gear for highland encounters.",
+    "set_bonus_payload": {
+      "pieces_required": [
+        2,
+        4
+      ],
+      "bonuses": [
+        {
+          "pieces": 2,
+          "effect": "minor_stat_bonus"
+        },
+        {
+          "pieces": 4,
+          "effect": "theme_bonus"
+        }
+      ]
+    },
+    "lore": "Storm Cliff Set is a fictional ALAMAT equipment set designed for future loadout bonuses.",
+    "icon": "set_0005_storm-cliff-set.png",
+    "is_active": true
+  }
+]

@@ -1,0 +1,167 @@
+﻿[
+    {
+        "code":  "EQC001",
+        "name":  "Anting-Anting",
+        "slug":  "anting-anting",
+        "description":  "Protective amulets that increase faith, luck, or resistance.",
+        "icon_hint":  "amulet",
+        "color_hint":  "#FACC15",
+        "sort_order":  1,
+        "is_active":  true,
+        "id":  1
+    },
+    {
+        "code":  "EQC002",
+        "name":  "Agimat",
+        "slug":  "agimat",
+        "description":  "Empowered charms used to enhance specific combat traits.",
+        "icon_hint":  "gem",
+        "color_hint":  "#A78BFA",
+        "sort_order":  2,
+        "is_active":  true,
+        "id":  2
+    },
+    {
+        "code":  "EQC003",
+        "name":  "Relic Weapon",
+        "slug":  "relic-weapon",
+        "description":  "Sacred or historical weapons used by warrior-type Nilalang.",
+        "icon_hint":  "sword",
+        "color_hint":  "#9A5A2E",
+        "sort_order":  3,
+        "is_active":  true,
+        "id":  3
+    },
+    {
+        "code":  "EQC004",
+        "name":  "Spirit Mask",
+        "slug":  "spirit-mask",
+        "description":  "Masks that alter presence, fear, trickery, or spirit defense.",
+        "icon_hint":  "mask",
+        "color_hint":  "#EC4899",
+        "sort_order":  4,
+        "is_active":  true,
+        "id":  4
+    },
+    {
+        "code":  "EQC005",
+        "name":  "Woven Garb",
+        "slug":  "woven-garb",
+        "description":  "Cloth, sashes, and garments carrying cultural or ritual meaning.",
+        "icon_hint":  "shirt",
+        "color_hint":  "#F97316",
+        "sort_order":  5,
+        "is_active":  true,
+        "id":  5
+    },
+    {
+        "code":  "EQC006",
+        "name":  "Totem",
+        "slug":  "totem",
+        "description":  "Carved or shaped objects that bind memory, land, or animal spirits.",
+        "icon_hint":  "carved-pillar",
+        "color_hint":  "#92400E",
+        "sort_order":  6,
+        "is_active":  true,
+        "id":  6
+    },
+    {
+        "code":  "EQC007",
+        "name":  "Bell",
+        "slug":  "bell",
+        "description":  "Metal sound tools used for warding, calling, or ritual timing.",
+        "icon_hint":  "bell",
+        "color_hint":  "#CBD5E1",
+        "sort_order":  7,
+        "is_active":  true,
+        "id":  7
+    },
+    {
+        "code":  "EQC008",
+        "name":  "Beadwork",
+        "slug":  "beadwork",
+        "description":  "Ornamental beads that focus ancestral, sea, or mountain energy.",
+        "icon_hint":  "circle-dot",
+        "color_hint":  "#38BDF8",
+        "sort_order":  8,
+        "is_active":  true,
+        "id":  8
+    },
+    {
+        "code":  "EQC009",
+        "name":  "Herbal Bundle",
+        "slug":  "herbal-bundle",
+        "description":  "Medicinal and ritual plant bundles for healing or cleansing.",
+        "icon_hint":  "leaf",
+        "color_hint":  "#22C55E",
+        "sort_order":  9,
+        "is_active":  true,
+        "id":  9
+    },
+    {
+        "code":  "EQC010",
+        "name":  "Shell Charm",
+        "slug":  "shell-charm",
+        "description":  "Sea-born accessories connected to tides, protection, and trade routes.",
+        "icon_hint":  "shell",
+        "color_hint":  "#06B6D4",
+        "sort_order":  10,
+        "is_active":  true,
+        "id":  10
+    },
+    {
+        "code":  "EQC011",
+        "name":  "Bone Talisman",
+        "slug":  "bone-talisman",
+        "description":  "Somber charms connected to underworld and ancestral effects.",
+        "icon_hint":  "bone",
+        "color_hint":  "#E5E7EB",
+        "sort_order":  11,
+        "is_active":  true,
+        "id":  11
+    },
+    {
+        "code":  "EQC012",
+        "name":  "Tattoo Mark",
+        "slug":  "tattoo-mark",
+        "description":  "Symbolic battle markings that function as spiritual equipment.",
+        "icon_hint":  "paintbrush",
+        "color_hint":  "#111827",
+        "sort_order":  12,
+        "is_active":  true,
+        "id":  12
+    },
+    {
+        "code":  "EQC013",
+        "name":  "Headdress",
+        "slug":  "headdress",
+        "description":  "Ceremonial headgear improving presence, faith, or command.",
+        "icon_hint":  "crown",
+        "color_hint":  "#F59E0B",
+        "sort_order":  13,
+        "is_active":  true,
+        "id":  13
+    },
+    {
+        "code":  "EQC014",
+        "name":  "Pipe Relic",
+        "slug":  "pipe-relic",
+        "description":  "Smoking or breath-channeling relics used by forest giants and elders.",
+        "icon_hint":  "pipe",
+        "color_hint":  "#7C2D12",
+        "sort_order":  14,
+        "is_active":  true,
+        "id":  14
+    },
+    {
+        "code":  "EQC015",
+        "name":  "Instrument",
+        "slug":  "instrument",
+        "description":  "Drums, flutes, gongs, or strings used to invoke sound skills.",
+        "icon_hint":  "music",
+        "color_hint":  "#60A5FA",
+        "sort_order":  15,
+        "is_active":  true,
+        "id":  15
+    }
+]

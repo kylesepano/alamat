@@ -1,0 +1,155 @@
+[
+  {
+    "province_id": "WPROV0001",
+    "region_id": "WREG0001",
+    "name": "Laguna",
+    "slug": "laguna",
+    "description": "Laguna province hook for ALAMAT's regional world map.",
+    "cultural_notes": "Fictional ALAMAT map data; avoid claiming exact real-world geography for gameplay-only locations.",
+    "is_active": true
+  },
+  {
+    "province_id": "WPROV0002",
+    "region_id": "WREG0002",
+    "name": "Cebu",
+    "slug": "cebu",
+    "description": "Cebu province hook for ALAMAT's regional world map.",
+    "cultural_notes": "Fictional ALAMAT map data; avoid claiming exact real-world geography for gameplay-only locations.",
+    "is_active": true
+  },
+  {
+    "province_id": "WPROV0003",
+    "region_id": "WREG0003",
+    "name": "Davao del Sur",
+    "slug": "davao-del-sur",
+    "description": "Davao del Sur province hook for ALAMAT's regional world map.",
+    "cultural_notes": "Fictional ALAMAT map data; avoid claiming exact real-world geography for gameplay-only locations.",
+    "is_active": true
+  },
+  {
+    "province_id": "WPROV0004",
+    "region_id": "WREG0004",
+    "name": "Palawan",
+    "slug": "palawan",
+    "description": "Palawan province hook for ALAMAT's regional world map.",
+    "cultural_notes": "Fictional ALAMAT map data; avoid claiming exact real-world geography for gameplay-only locations.",
+    "is_active": true
+  },
+  {
+    "province_id": "WPROV0005",
+    "region_id": "WREG0005",
+    "name": "Iloilo",
+    "slug": "iloilo",
+    "description": "Iloilo province hook for ALAMAT's regional world map.",
+    "cultural_notes": "Fictional ALAMAT map data; avoid claiming exact real-world geography for gameplay-only locations.",
+    "is_active": true
+  },
+  {
+    "province_id": "WPROV0006",
+    "region_id": "WREG0006",
+    "name": "Sulu",
+    "slug": "sulu",
+    "description": "Sulu province hook for ALAMAT's regional world map.",
+    "cultural_notes": "Fictional ALAMAT map data; avoid claiming exact real-world geography for gameplay-only locations.",
+    "is_active": true
+  },
+  {
+    "province_id": "WPROV0007",
+    "region_id": "WREG0007",
+    "name": "Benguet",
+    "slug": "benguet",
+    "description": "Benguet province hook for ALAMAT's regional world map.",
+    "cultural_notes": "Fictional ALAMAT map data; avoid claiming exact real-world geography for gameplay-only locations.",
+    "is_active": true
+  },
+  {
+    "province_id": "WPROV0008",
+    "region_id": "WREG0008",
+    "name": "Bohol",
+    "slug": "bohol",
+    "description": "Bohol province hook for ALAMAT's regional world map.",
+    "cultural_notes": "Fictional ALAMAT map data; avoid claiming exact real-world geography for gameplay-only locations.",
+    "is_active": true
+  },
+  {
+    "province_id": "WPROV0009",
+    "region_id": "WREG0009",
+    "name": "Samar",
+    "slug": "samar",
+    "description": "Samar province hook for ALAMAT's regional world map.",
+    "cultural_notes": "Fictional ALAMAT map data; avoid claiming exact real-world geography for gameplay-only locations.",
+    "is_active": true
+  },
+  {
+    "province_id": "WPROV0010",
+    "region_id": "WREG0010",
+    "name": "Aklan",
+    "slug": "aklan",
+    "description": "Aklan province hook for ALAMAT's regional world map.",
+    "cultural_notes": "Fictional ALAMAT map data; avoid claiming exact real-world geography for gameplay-only locations.",
+    "is_active": true
+  },
+  {
+    "province_id": "WPROV0011",
+    "region_id": "WREG0011",
+    "name": "Albay",
+    "slug": "albay",
+    "description": "Albay province hook for ALAMAT's regional world map.",
+    "cultural_notes": "Fictional ALAMAT map data; avoid claiming exact real-world geography for gameplay-only locations.",
+    "is_active": true
+  },
+  {
+    "province_id": "WPROV0012",
+    "region_id": "WREG0012",
+    "name": "Rizal",
+    "slug": "rizal",
+    "description": "Rizal province hook for ALAMAT's regional world map.",
+    "cultural_notes": "Fictional ALAMAT map data; avoid claiming exact real-world geography for gameplay-only locations.",
+    "is_active": true
+  },
+  {
+    "province_id": "WPROV0013",
+    "region_id": "WREG0013",
+    "name": "Bukidnon",
+    "slug": "bukidnon",
+    "description": "Bukidnon province hook for ALAMAT's regional world map.",
+    "cultural_notes": "Fictional ALAMAT map data; avoid claiming exact real-world geography for gameplay-only locations.",
+    "is_active": true
+  },
+  {
+    "province_id": "WPROV0014",
+    "region_id": "WREG0014",
+    "name": "Agusan del Norte",
+    "slug": "agusan-del-norte",
+    "description": "Agusan del Norte province hook for ALAMAT's regional world map.",
+    "cultural_notes": "Fictional ALAMAT map data; avoid claiming exact real-world geography for gameplay-only locations.",
+    "is_active": true
+  },
+  {
+    "province_id": "WPROV0015",
+    "region_id": "WREG0015",
+    "name": "Tawi-Tawi",
+    "slug": "tawi-tawi",
+    "description": "Tawi-Tawi province hook for ALAMAT's regional world map.",
+    "cultural_notes": "Fictional ALAMAT map data; avoid claiming exact real-world geography for gameplay-only locations.",
+    "is_active": true
+  },
+  {
+    "province_id": "WPROV0016",
+    "region_id": "WREG0016",
+    "name": "Ifugao",
+    "slug": "ifugao",
+    "description": "Ifugao province hook for ALAMAT's regional world map.",
+    "cultural_notes": "Fictional ALAMAT map data; avoid claiming exact real-world geography for gameplay-only locations.",
+    "is_active": true
+  },
+  {
+    "province_id": "WPROV0017",
+    "region_id": "WREG0017",
+    "name": "Metro Manila",
+    "slug": "metro-manila",
+    "description": "Metro Manila province hook for ALAMAT's regional world map.",
+    "cultural_notes": "Fictional ALAMAT map data; avoid claiming exact real-world geography for gameplay-only locations.",
+    "is_active": true
+  }
+]

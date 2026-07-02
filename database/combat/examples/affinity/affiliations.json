@@ -1,0 +1,44 @@
+[
+  {
+    "id": 10,
+    "uuid": "00000000-0000-4000-8000-000000000010",
+    "created_at": "2026-07-02T00:00:00+08:00",
+    "updated_at": "2026-07-02T00:00:00+08:00",
+    "version": "1.0.0",
+    "source": "Phase D architecture example",
+    "notes": "Example record for schema validation only; not production balance content.",
+    "affiliation_id": "AFF-CBT-FOREST",
+    "slug": "forest",
+    "name": "Forest",
+    "phase_b_code": "AFF001",
+    "strengths": [
+      "water"
+    ],
+    "weaknesses": [
+      "fire"
+    ],
+    "resistances": [
+      "earth"
+    ],
+    "immunities": [],
+    "combo_bonuses": [
+      {
+        "with": "spirit",
+        "bonus": "rootward"
+      }
+    ],
+    "terrain_bonuses": [
+      {
+        "terrain_id": "TRN-FOREST",
+        "modifier": 1.1
+      }
+    ],
+    "weather_bonuses": [
+      {
+        "weather_id": "WTH-RAIN",
+        "modifier": 1.05
+      }
+    ],
+    "description": "Forest affinity covers root, leaf, thorn, old groves, and living wood."
+  }
+]

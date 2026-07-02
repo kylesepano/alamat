@@ -1,0 +1,3002 @@
+[
+  {
+    "recipe_id": "RCP000001",
+    "output_item_id": "ITM000001",
+    "output_quantity": 2,
+    "recipe_type": "field_craft",
+    "required_station": "shrine_workmat",
+    "required_level": 1,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": "Dawn",
+    "required_habitat": "Sacred Sites",
+    "ingredients": [
+      {
+        "item_id": "ITM000001",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000012",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 10,
+    "description": "Crafting rule for Healing Herb."
+  },
+  {
+    "recipe_id": "RCP000002",
+    "output_item_id": "ITM000002",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 2,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000004",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000017",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 11,
+    "description": "Crafting rule for Diwata Dew."
+  },
+  {
+    "recipe_id": "RCP000003",
+    "output_item_id": "ITM000003",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 3,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000007",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000022",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 12,
+    "description": "Crafting rule for Sacred River Water."
+  },
+  {
+    "recipe_id": "RCP000004",
+    "output_item_id": "ITM000004",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": "shrine_workmat",
+    "required_level": 4,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000010",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000027",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 13,
+    "description": "Crafting rule for Antidote Leaf."
+  },
+  {
+    "recipe_id": "RCP000005",
+    "output_item_id": "ITM000005",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 5,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000013",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000032",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 14,
+    "description": "Crafting rule for Burn Salve."
+  },
+  {
+    "recipe_id": "RCP000006",
+    "output_item_id": "ITM000006",
+    "output_quantity": 2,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 6,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000016",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000037",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 15,
+    "description": "Crafting rule for Spirit Candle."
+  },
+  {
+    "recipe_id": "RCP000007",
+    "output_item_id": "ITM000007",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": "shrine_workmat",
+    "required_level": 7,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000019",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000042",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 16,
+    "description": "Crafting rule for Moonlit Bandage."
+  },
+  {
+    "recipe_id": "RCP000008",
+    "output_item_id": "ITM000008",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 8,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": "Dawn",
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000022",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000047",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 17,
+    "description": "Crafting rule for Healing Herb 2."
+  },
+  {
+    "recipe_id": "RCP000009",
+    "output_item_id": "ITM000009",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 9,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000025",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000052",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 18,
+    "description": "Crafting rule for Diwata Dew 2."
+  },
+  {
+    "recipe_id": "RCP000010",
+    "output_item_id": "ITM000010",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": "shrine_workmat",
+    "required_level": 10,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": "Sacred Sites",
+    "ingredients": [
+      {
+        "item_id": "ITM000028",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000057",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 19,
+    "description": "Crafting rule for Sacred River Water 2."
+  },
+  {
+    "recipe_id": "RCP000011",
+    "output_item_id": "ITM000011",
+    "output_quantity": 2,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 1,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000031",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000062",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 20,
+    "description": "Crafting rule for Antidote Leaf 2."
+  },
+  {
+    "recipe_id": "RCP000012",
+    "output_item_id": "ITM000012",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 2,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000034",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000067",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 21,
+    "description": "Crafting rule for Burn Salve 2."
+  },
+  {
+    "recipe_id": "RCP000013",
+    "output_item_id": "ITM000013",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": "shrine_workmat",
+    "required_level": 3,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000037",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000072",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 22,
+    "description": "Crafting rule for Spirit Candle 2."
+  },
+  {
+    "recipe_id": "RCP000014",
+    "output_item_id": "ITM000014",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 4,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000040",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000077",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 23,
+    "description": "Crafting rule for Moonlit Bandage 2."
+  },
+  {
+    "recipe_id": "RCP000015",
+    "output_item_id": "ITM000015",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 5,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": "Dawn",
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000043",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000082",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 24,
+    "description": "Crafting rule for Healing Herb 3."
+  },
+  {
+    "recipe_id": "RCP000016",
+    "output_item_id": "ITM000016",
+    "output_quantity": 2,
+    "recipe_type": "field_craft",
+    "required_station": "shrine_workmat",
+    "required_level": 6,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000046",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000087",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 25,
+    "description": "Crafting rule for Diwata Dew 3."
+  },
+  {
+    "recipe_id": "RCP000017",
+    "output_item_id": "ITM000017",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 7,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000049",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000092",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 26,
+    "description": "Crafting rule for Sacred River Water 3."
+  },
+  {
+    "recipe_id": "RCP000018",
+    "output_item_id": "ITM000018",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 8,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000052",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000097",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 27,
+    "description": "Crafting rule for Antidote Leaf 3."
+  },
+  {
+    "recipe_id": "RCP000019",
+    "output_item_id": "ITM000019",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": "shrine_workmat",
+    "required_level": 9,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": "Sacred Sites",
+    "ingredients": [
+      {
+        "item_id": "ITM000055",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000102",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 28,
+    "description": "Crafting rule for Burn Salve 3."
+  },
+  {
+    "recipe_id": "RCP000020",
+    "output_item_id": "ITM000020",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 10,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000058",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000107",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 29,
+    "description": "Crafting rule for Spirit Candle 3."
+  },
+  {
+    "recipe_id": "RCP000021",
+    "output_item_id": "ITM000021",
+    "output_quantity": 2,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 1,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000061",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000112",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 30,
+    "description": "Crafting rule for Moonlit Bandage 3."
+  },
+  {
+    "recipe_id": "RCP000022",
+    "output_item_id": "ITM000022",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": "shrine_workmat",
+    "required_level": 2,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": "Dawn",
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000064",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000117",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 31,
+    "description": "Crafting rule for Healing Herb 4."
+  },
+  {
+    "recipe_id": "RCP000023",
+    "output_item_id": "ITM000023",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 3,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000067",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000122",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 32,
+    "description": "Crafting rule for Diwata Dew 4."
+  },
+  {
+    "recipe_id": "RCP000024",
+    "output_item_id": "ITM000024",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 4,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000070",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000127",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 33,
+    "description": "Crafting rule for Sacred River Water 4."
+  },
+  {
+    "recipe_id": "RCP000025",
+    "output_item_id": "ITM000025",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": "shrine_workmat",
+    "required_level": 5,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000073",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000132",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 34,
+    "description": "Crafting rule for Antidote Leaf 4."
+  },
+  {
+    "recipe_id": "RCP000026",
+    "output_item_id": "ITM000026",
+    "output_quantity": 2,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 6,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000076",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000137",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 35,
+    "description": "Crafting rule for Burn Salve 4."
+  },
+  {
+    "recipe_id": "RCP000027",
+    "output_item_id": "ITM000027",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 7,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000079",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000142",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 36,
+    "description": "Crafting rule for Spirit Candle 4."
+  },
+  {
+    "recipe_id": "RCP000028",
+    "output_item_id": "ITM000028",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": "shrine_workmat",
+    "required_level": 8,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": "Sacred Sites",
+    "ingredients": [
+      {
+        "item_id": "ITM000082",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000147",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 37,
+    "description": "Crafting rule for Moonlit Bandage 4."
+  },
+  {
+    "recipe_id": "RCP000029",
+    "output_item_id": "ITM000029",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 9,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": "Dawn",
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000085",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000152",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 38,
+    "description": "Crafting rule for Healing Herb 5."
+  },
+  {
+    "recipe_id": "RCP000030",
+    "output_item_id": "ITM000030",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 10,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000088",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000157",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 39,
+    "description": "Crafting rule for Diwata Dew 5."
+  },
+  {
+    "recipe_id": "RCP000031",
+    "output_item_id": "ITM000031",
+    "output_quantity": 2,
+    "recipe_type": "field_craft",
+    "required_station": "shrine_workmat",
+    "required_level": 1,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000091",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000162",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 40,
+    "description": "Crafting rule for Sacred River Water 5."
+  },
+  {
+    "recipe_id": "RCP000032",
+    "output_item_id": "ITM000032",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 2,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000094",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000167",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 41,
+    "description": "Crafting rule for Antidote Leaf 5."
+  },
+  {
+    "recipe_id": "RCP000033",
+    "output_item_id": "ITM000033",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 3,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000097",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000172",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 42,
+    "description": "Crafting rule for Burn Salve 5."
+  },
+  {
+    "recipe_id": "RCP000034",
+    "output_item_id": "ITM000034",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": "shrine_workmat",
+    "required_level": 4,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000100",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000177",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 43,
+    "description": "Crafting rule for Spirit Candle 5."
+  },
+  {
+    "recipe_id": "RCP000035",
+    "output_item_id": "ITM000035",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 5,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000103",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000182",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 44,
+    "description": "Crafting rule for Moonlit Bandage 5."
+  },
+  {
+    "recipe_id": "RCP000036",
+    "output_item_id": "ITM000036",
+    "output_quantity": 2,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 6,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": "Dawn",
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000106",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000187",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 45,
+    "description": "Crafting rule for Healing Herb 6."
+  },
+  {
+    "recipe_id": "RCP000037",
+    "output_item_id": "ITM000037",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": "shrine_workmat",
+    "required_level": 7,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": "Sacred Sites",
+    "ingredients": [
+      {
+        "item_id": "ITM000109",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000192",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 46,
+    "description": "Crafting rule for Diwata Dew 6."
+  },
+  {
+    "recipe_id": "RCP000038",
+    "output_item_id": "ITM000038",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 8,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000112",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000197",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 47,
+    "description": "Crafting rule for Sacred River Water 6."
+  },
+  {
+    "recipe_id": "RCP000039",
+    "output_item_id": "ITM000039",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 9,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000115",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000202",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 48,
+    "description": "Crafting rule for Antidote Leaf 6."
+  },
+  {
+    "recipe_id": "RCP000040",
+    "output_item_id": "ITM000040",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": "shrine_workmat",
+    "required_level": 10,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000118",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000207",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 49,
+    "description": "Crafting rule for Burn Salve 6."
+  },
+  {
+    "recipe_id": "RCP000041",
+    "output_item_id": "ITM000041",
+    "output_quantity": 2,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 1,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000121",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000212",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 50,
+    "description": "Crafting rule for Spirit Candle 6."
+  },
+  {
+    "recipe_id": "RCP000042",
+    "output_item_id": "ITM000042",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 2,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000124",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000217",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 51,
+    "description": "Crafting rule for Moonlit Bandage 6."
+  },
+  {
+    "recipe_id": "RCP000043",
+    "output_item_id": "ITM000043",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": "shrine_workmat",
+    "required_level": 3,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": "Dawn",
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000127",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000222",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 52,
+    "description": "Crafting rule for Healing Herb 7."
+  },
+  {
+    "recipe_id": "RCP000044",
+    "output_item_id": "ITM000044",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 4,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000130",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000227",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 53,
+    "description": "Crafting rule for Diwata Dew 7."
+  },
+  {
+    "recipe_id": "RCP000045",
+    "output_item_id": "ITM000045",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 5,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000133",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000232",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 54,
+    "description": "Crafting rule for Sacred River Water 7."
+  },
+  {
+    "recipe_id": "RCP000046",
+    "output_item_id": "ITM000046",
+    "output_quantity": 2,
+    "recipe_type": "field_craft",
+    "required_station": "shrine_workmat",
+    "required_level": 6,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": "Sacred Sites",
+    "ingredients": [
+      {
+        "item_id": "ITM000136",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000237",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 55,
+    "description": "Crafting rule for Antidote Leaf 7."
+  },
+  {
+    "recipe_id": "RCP000047",
+    "output_item_id": "ITM000047",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 7,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000139",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000242",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 56,
+    "description": "Crafting rule for Burn Salve 7."
+  },
+  {
+    "recipe_id": "RCP000048",
+    "output_item_id": "ITM000048",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 8,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000142",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000247",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 57,
+    "description": "Crafting rule for Spirit Candle 7."
+  },
+  {
+    "recipe_id": "RCP000049",
+    "output_item_id": "ITM000049",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": "shrine_workmat",
+    "required_level": 9,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000145",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000252",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 58,
+    "description": "Crafting rule for Moonlit Bandage 7."
+  },
+  {
+    "recipe_id": "RCP000050",
+    "output_item_id": "ITM000050",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 10,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": "Dawn",
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000148",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000257",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 59,
+    "description": "Crafting rule for Healing Herb 8."
+  },
+  {
+    "recipe_id": "RCP000051",
+    "output_item_id": "ITM000051",
+    "output_quantity": 2,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 1,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000151",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000262",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 60,
+    "description": "Crafting rule for Diwata Dew 8."
+  },
+  {
+    "recipe_id": "RCP000052",
+    "output_item_id": "ITM000052",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": "shrine_workmat",
+    "required_level": 2,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000154",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000267",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 61,
+    "description": "Crafting rule for Sacred River Water 8."
+  },
+  {
+    "recipe_id": "RCP000053",
+    "output_item_id": "ITM000053",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 3,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000157",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000272",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 62,
+    "description": "Crafting rule for Antidote Leaf 8."
+  },
+  {
+    "recipe_id": "RCP000054",
+    "output_item_id": "ITM000054",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 4,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000160",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000277",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 63,
+    "description": "Crafting rule for Burn Salve 8."
+  },
+  {
+    "recipe_id": "RCP000055",
+    "output_item_id": "ITM000055",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": "shrine_workmat",
+    "required_level": 5,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": "Sacred Sites",
+    "ingredients": [
+      {
+        "item_id": "ITM000163",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000282",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 64,
+    "description": "Crafting rule for Spirit Candle 8."
+  },
+  {
+    "recipe_id": "RCP000056",
+    "output_item_id": "ITM000056",
+    "output_quantity": 2,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 6,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000166",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000287",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 65,
+    "description": "Crafting rule for Moonlit Bandage 8."
+  },
+  {
+    "recipe_id": "RCP000057",
+    "output_item_id": "ITM000057",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 7,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": "Dawn",
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000169",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000292",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 66,
+    "description": "Crafting rule for Healing Herb 9."
+  },
+  {
+    "recipe_id": "RCP000058",
+    "output_item_id": "ITM000058",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": "shrine_workmat",
+    "required_level": 8,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000172",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000297",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 67,
+    "description": "Crafting rule for Diwata Dew 9."
+  },
+  {
+    "recipe_id": "RCP000059",
+    "output_item_id": "ITM000059",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 9,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000175",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000302",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 68,
+    "description": "Crafting rule for Sacred River Water 9."
+  },
+  {
+    "recipe_id": "RCP000060",
+    "output_item_id": "ITM000060",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 10,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000178",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000307",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 69,
+    "description": "Crafting rule for Antidote Leaf 9."
+  },
+  {
+    "recipe_id": "RCP000061",
+    "output_item_id": "ITM000061",
+    "output_quantity": 2,
+    "recipe_type": "field_craft",
+    "required_station": "shrine_workmat",
+    "required_level": 1,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000181",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000312",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 70,
+    "description": "Crafting rule for Burn Salve 9."
+  },
+  {
+    "recipe_id": "RCP000062",
+    "output_item_id": "ITM000062",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 2,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000184",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000317",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 71,
+    "description": "Crafting rule for Spirit Candle 9."
+  },
+  {
+    "recipe_id": "RCP000063",
+    "output_item_id": "ITM000063",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 3,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000187",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000322",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 72,
+    "description": "Crafting rule for Moonlit Bandage 9."
+  },
+  {
+    "recipe_id": "RCP000064",
+    "output_item_id": "ITM000064",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": "shrine_workmat",
+    "required_level": 4,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": "Dawn",
+    "required_habitat": "Sacred Sites",
+    "ingredients": [
+      {
+        "item_id": "ITM000190",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000327",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 73,
+    "description": "Crafting rule for Healing Herb 10."
+  },
+  {
+    "recipe_id": "RCP000065",
+    "output_item_id": "ITM000065",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 5,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000193",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000332",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 74,
+    "description": "Crafting rule for Diwata Dew 10."
+  },
+  {
+    "recipe_id": "RCP000066",
+    "output_item_id": "ITM000066",
+    "output_quantity": 2,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 6,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000196",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000337",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 75,
+    "description": "Crafting rule for Sacred River Water 10."
+  },
+  {
+    "recipe_id": "RCP000067",
+    "output_item_id": "ITM000067",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": "shrine_workmat",
+    "required_level": 7,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000199",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000342",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 76,
+    "description": "Crafting rule for Antidote Leaf 10."
+  },
+  {
+    "recipe_id": "RCP000068",
+    "output_item_id": "ITM000068",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 8,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000202",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000347",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 77,
+    "description": "Crafting rule for Burn Salve 10."
+  },
+  {
+    "recipe_id": "RCP000069",
+    "output_item_id": "ITM000069",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 9,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000205",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000352",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 78,
+    "description": "Crafting rule for Spirit Candle 10."
+  },
+  {
+    "recipe_id": "RCP000070",
+    "output_item_id": "ITM000070",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": "shrine_workmat",
+    "required_level": 10,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000208",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000357",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 79,
+    "description": "Crafting rule for Moonlit Bandage 10."
+  },
+  {
+    "recipe_id": "RCP000071",
+    "output_item_id": "ITM000071",
+    "output_quantity": 2,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 1,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": "Dawn",
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000211",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000362",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 80,
+    "description": "Crafting rule for Healing Herb 11."
+  },
+  {
+    "recipe_id": "RCP000072",
+    "output_item_id": "ITM000072",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 2,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000214",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000367",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 81,
+    "description": "Crafting rule for Diwata Dew 11."
+  },
+  {
+    "recipe_id": "RCP000073",
+    "output_item_id": "ITM000073",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": "shrine_workmat",
+    "required_level": 3,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": "Sacred Sites",
+    "ingredients": [
+      {
+        "item_id": "ITM000217",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000372",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 82,
+    "description": "Crafting rule for Sacred River Water 11."
+  },
+  {
+    "recipe_id": "RCP000074",
+    "output_item_id": "ITM000074",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 4,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000220",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000377",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 83,
+    "description": "Crafting rule for Antidote Leaf 11."
+  },
+  {
+    "recipe_id": "RCP000075",
+    "output_item_id": "ITM000075",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 5,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000223",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000382",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 84,
+    "description": "Crafting rule for Burn Salve 11."
+  },
+  {
+    "recipe_id": "RCP000076",
+    "output_item_id": "ITM000076",
+    "output_quantity": 2,
+    "recipe_type": "field_craft",
+    "required_station": "shrine_workmat",
+    "required_level": 6,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000226",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000387",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 85,
+    "description": "Crafting rule for Spirit Candle 11."
+  },
+  {
+    "recipe_id": "RCP000077",
+    "output_item_id": "ITM000077",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 7,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000229",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000392",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 86,
+    "description": "Crafting rule for Moonlit Bandage 11."
+  },
+  {
+    "recipe_id": "RCP000078",
+    "output_item_id": "ITM000078",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 8,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": "Dawn",
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000232",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000397",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 87,
+    "description": "Crafting rule for Healing Herb 12."
+  },
+  {
+    "recipe_id": "RCP000079",
+    "output_item_id": "ITM000079",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": "shrine_workmat",
+    "required_level": 9,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000235",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000402",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 88,
+    "description": "Crafting rule for Diwata Dew 12."
+  },
+  {
+    "recipe_id": "RCP000080",
+    "output_item_id": "ITM000080",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 10,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000238",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000407",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 89,
+    "description": "Crafting rule for Sacred River Water 12."
+  },
+  {
+    "recipe_id": "RCP000081",
+    "output_item_id": "ITM000081",
+    "output_quantity": 2,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 1,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000241",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000412",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 90,
+    "description": "Crafting rule for Antidote Leaf 12."
+  },
+  {
+    "recipe_id": "RCP000082",
+    "output_item_id": "ITM000082",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": "shrine_workmat",
+    "required_level": 2,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": "Sacred Sites",
+    "ingredients": [
+      {
+        "item_id": "ITM000244",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000417",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 91,
+    "description": "Crafting rule for Burn Salve 12."
+  },
+  {
+    "recipe_id": "RCP000083",
+    "output_item_id": "ITM000083",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 3,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000247",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000422",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 92,
+    "description": "Crafting rule for Spirit Candle 12."
+  },
+  {
+    "recipe_id": "RCP000084",
+    "output_item_id": "ITM000084",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 4,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000250",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000427",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 93,
+    "description": "Crafting rule for Moonlit Bandage 12."
+  },
+  {
+    "recipe_id": "RCP000085",
+    "output_item_id": "ITM000085",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": "shrine_workmat",
+    "required_level": 5,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": "Dawn",
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000253",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000432",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 94,
+    "description": "Crafting rule for Healing Herb 13."
+  },
+  {
+    "recipe_id": "RCP000086",
+    "output_item_id": "ITM000086",
+    "output_quantity": 2,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 6,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000256",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000437",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 95,
+    "description": "Crafting rule for Diwata Dew 13."
+  },
+  {
+    "recipe_id": "RCP000087",
+    "output_item_id": "ITM000087",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 7,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000259",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000442",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 96,
+    "description": "Crafting rule for Sacred River Water 13."
+  },
+  {
+    "recipe_id": "RCP000088",
+    "output_item_id": "ITM000088",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": "shrine_workmat",
+    "required_level": 8,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000262",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000447",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 97,
+    "description": "Crafting rule for Antidote Leaf 13."
+  },
+  {
+    "recipe_id": "RCP000089",
+    "output_item_id": "ITM000089",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 9,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000265",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000452",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 98,
+    "description": "Crafting rule for Burn Salve 13."
+  },
+  {
+    "recipe_id": "RCP000090",
+    "output_item_id": "ITM000090",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 10,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000268",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000457",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 99,
+    "description": "Crafting rule for Spirit Candle 13."
+  },
+  {
+    "recipe_id": "RCP000091",
+    "output_item_id": "ITM000091",
+    "output_quantity": 2,
+    "recipe_type": "field_craft",
+    "required_station": "shrine_workmat",
+    "required_level": 1,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": "Sacred Sites",
+    "ingredients": [
+      {
+        "item_id": "ITM000271",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000462",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 100,
+    "description": "Crafting rule for Moonlit Bandage 13."
+  },
+  {
+    "recipe_id": "RCP000092",
+    "output_item_id": "ITM000092",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 2,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": "Dawn",
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000274",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000467",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 101,
+    "description": "Crafting rule for Healing Herb 14."
+  },
+  {
+    "recipe_id": "RCP000093",
+    "output_item_id": "ITM000093",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 3,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000277",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000472",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 102,
+    "description": "Crafting rule for Diwata Dew 14."
+  },
+  {
+    "recipe_id": "RCP000094",
+    "output_item_id": "ITM000094",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": "shrine_workmat",
+    "required_level": 4,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000280",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000477",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 103,
+    "description": "Crafting rule for Sacred River Water 14."
+  },
+  {
+    "recipe_id": "RCP000095",
+    "output_item_id": "ITM000095",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 5,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000283",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000482",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 104,
+    "description": "Crafting rule for Antidote Leaf 14."
+  },
+  {
+    "recipe_id": "RCP000096",
+    "output_item_id": "ITM000096",
+    "output_quantity": 2,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 6,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000286",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000487",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 105,
+    "description": "Crafting rule for Burn Salve 14."
+  },
+  {
+    "recipe_id": "RCP000097",
+    "output_item_id": "ITM000097",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": "shrine_workmat",
+    "required_level": 7,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000289",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000492",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 106,
+    "description": "Crafting rule for Spirit Candle 14."
+  },
+  {
+    "recipe_id": "RCP000098",
+    "output_item_id": "ITM000098",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 8,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000292",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000497",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 107,
+    "description": "Crafting rule for Moonlit Bandage 14."
+  },
+  {
+    "recipe_id": "RCP000099",
+    "output_item_id": "ITM000099",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": null,
+    "required_level": 9,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": "Dawn",
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000295",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000502",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 108,
+    "description": "Crafting rule for Healing Herb 15."
+  },
+  {
+    "recipe_id": "RCP000100",
+    "output_item_id": "ITM000100",
+    "output_quantity": 1,
+    "recipe_type": "field_craft",
+    "required_station": "shrine_workmat",
+    "required_level": 10,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": "Sacred Sites",
+    "ingredients": [
+      {
+        "item_id": "ITM000298",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000507",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 109,
+    "description": "Crafting rule for Diwata Dew 15."
+  },
+  {
+    "recipe_id": "RCP000101",
+    "output_item_id": "ITM000751",
+    "output_quantity": 2,
+    "recipe_type": "ritual_craft",
+    "required_station": null,
+    "required_level": 1,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000301",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000512",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 110,
+    "description": "Crafting rule for Betel Nut."
+  },
+  {
+    "recipe_id": "RCP000102",
+    "output_item_id": "ITM000752",
+    "output_quantity": 1,
+    "recipe_type": "ritual_craft",
+    "required_station": null,
+    "required_level": 2,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000304",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000517",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 111,
+    "description": "Crafting rule for Rice Grains."
+  },
+  {
+    "recipe_id": "RCP000103",
+    "output_item_id": "ITM000753",
+    "output_quantity": 1,
+    "recipe_type": "ritual_craft",
+    "required_station": "shrine_workmat",
+    "required_level": 3,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000307",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000522",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 112,
+    "description": "Crafting rule for Candle."
+  },
+  {
+    "recipe_id": "RCP000104",
+    "output_item_id": "ITM000754",
+    "output_quantity": 1,
+    "recipe_type": "ritual_craft",
+    "required_station": null,
+    "required_level": 4,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000310",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000527",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 113,
+    "description": "Crafting rule for Tobacco Bundle."
+  },
+  {
+    "recipe_id": "RCP000105",
+    "output_item_id": "ITM000755",
+    "output_quantity": 1,
+    "recipe_type": "ritual_craft",
+    "required_station": null,
+    "required_level": 5,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000313",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000532",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 114,
+    "description": "Crafting rule for Flower Garland."
+  },
+  {
+    "recipe_id": "RCP000106",
+    "output_item_id": "ITM000756",
+    "output_quantity": 2,
+    "recipe_type": "ritual_craft",
+    "required_station": "shrine_workmat",
+    "required_level": 6,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": "Dawn",
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000316",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000537",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 115,
+    "description": "Crafting rule for Shell Charm."
+  },
+  {
+    "recipe_id": "RCP000107",
+    "output_item_id": "ITM000757",
+    "output_quantity": 1,
+    "recipe_type": "ritual_craft",
+    "required_station": null,
+    "required_level": 7,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000319",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000542",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 116,
+    "description": "Crafting rule for Black Salt."
+  },
+  {
+    "recipe_id": "RCP000108",
+    "output_item_id": "ITM000758",
+    "output_quantity": 1,
+    "recipe_type": "ritual_craft",
+    "required_station": null,
+    "required_level": 8,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000322",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000547",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 117,
+    "description": "Crafting rule for Clean Water Bowl."
+  },
+  {
+    "recipe_id": "RCP000109",
+    "output_item_id": "ITM000759",
+    "output_quantity": 1,
+    "recipe_type": "ritual_craft",
+    "required_station": "shrine_workmat",
+    "required_level": 9,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": "Sacred Sites",
+    "ingredients": [
+      {
+        "item_id": "ITM000325",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000552",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 118,
+    "description": "Crafting rule for Betel Nut 2."
+  },
+  {
+    "recipe_id": "RCP000110",
+    "output_item_id": "ITM000760",
+    "output_quantity": 1,
+    "recipe_type": "ritual_craft",
+    "required_station": null,
+    "required_level": 10,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000328",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000557",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 119,
+    "description": "Crafting rule for Rice Grains 2."
+  },
+  {
+    "recipe_id": "RCP000111",
+    "output_item_id": "ITM000761",
+    "output_quantity": 2,
+    "recipe_type": "ritual_craft",
+    "required_station": null,
+    "required_level": 1,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000331",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000562",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 120,
+    "description": "Crafting rule for Candle 2."
+  },
+  {
+    "recipe_id": "RCP000112",
+    "output_item_id": "ITM000762",
+    "output_quantity": 1,
+    "recipe_type": "ritual_craft",
+    "required_station": "shrine_workmat",
+    "required_level": 2,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000334",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000567",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 121,
+    "description": "Crafting rule for Tobacco Bundle 2."
+  },
+  {
+    "recipe_id": "RCP000113",
+    "output_item_id": "ITM000763",
+    "output_quantity": 1,
+    "recipe_type": "ritual_craft",
+    "required_station": null,
+    "required_level": 3,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": "Dawn",
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000337",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000572",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 122,
+    "description": "Crafting rule for Flower Garland 2."
+  },
+  {
+    "recipe_id": "RCP000114",
+    "output_item_id": "ITM000764",
+    "output_quantity": 1,
+    "recipe_type": "ritual_craft",
+    "required_station": null,
+    "required_level": 4,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000340",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000577",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 123,
+    "description": "Crafting rule for Shell Charm 2."
+  },
+  {
+    "recipe_id": "RCP000115",
+    "output_item_id": "ITM000765",
+    "output_quantity": 1,
+    "recipe_type": "ritual_craft",
+    "required_station": "shrine_workmat",
+    "required_level": 5,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000343",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000582",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 124,
+    "description": "Crafting rule for Black Salt 2."
+  },
+  {
+    "recipe_id": "RCP000116",
+    "output_item_id": "ITM000766",
+    "output_quantity": 2,
+    "recipe_type": "ritual_craft",
+    "required_station": null,
+    "required_level": 6,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000346",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000587",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 125,
+    "description": "Crafting rule for Clean Water Bowl 2."
+  },
+  {
+    "recipe_id": "RCP000117",
+    "output_item_id": "ITM000767",
+    "output_quantity": 1,
+    "recipe_type": "ritual_craft",
+    "required_station": null,
+    "required_level": 7,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000349",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000592",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 126,
+    "description": "Crafting rule for Betel Nut 3."
+  },
+  {
+    "recipe_id": "RCP000118",
+    "output_item_id": "ITM000768",
+    "output_quantity": 1,
+    "recipe_type": "ritual_craft",
+    "required_station": "shrine_workmat",
+    "required_level": 8,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": "Sacred Sites",
+    "ingredients": [
+      {
+        "item_id": "ITM000352",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000597",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 127,
+    "description": "Crafting rule for Rice Grains 3."
+  },
+  {
+    "recipe_id": "RCP000119",
+    "output_item_id": "ITM000769",
+    "output_quantity": 1,
+    "recipe_type": "ritual_craft",
+    "required_station": null,
+    "required_level": 9,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": null,
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000355",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000602",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 128,
+    "description": "Crafting rule for Candle 3."
+  },
+  {
+    "recipe_id": "RCP000120",
+    "output_item_id": "ITM000770",
+    "output_quantity": 1,
+    "recipe_type": "ritual_craft",
+    "required_station": null,
+    "required_level": 10,
+    "required_quest_id": null,
+    "required_npc_id": null,
+    "required_weather": "Dawn",
+    "required_habitat": null,
+    "ingredients": [
+      {
+        "item_id": "ITM000358",
+        "quantity": 1
+      },
+      {
+        "item_id": "ITM000607",
+        "quantity": 2
+      }
+    ],
+    "success_rate": 0.95,
+    "gold_cost": 129,
+    "description": "Crafting rule for Tobacco Bundle 3."
+  }
+]

@@ -1,0 +1,2342 @@
+[
+  {
+    "flag_id": "QFLAG000001",
+    "quest_id": "QST000001",
+    "flag_name": "QST000001 Complete",
+    "slug": "qst000001-complete",
+    "description": "Tracks completion state for Main Story: River Oath Main Story.",
+    "default_value": false,
+    "scope": "world"
+  },
+  {
+    "flag_id": "QFLAG000002",
+    "quest_id": "QST000002",
+    "flag_name": "QST000002 Complete",
+    "slug": "qst000002-complete",
+    "description": "Tracks completion state for Main Story: Coral Lantern Main Story.",
+    "default_value": false,
+    "scope": "world"
+  },
+  {
+    "flag_id": "QFLAG000003",
+    "quest_id": "QST000003",
+    "flag_name": "QST000003 Complete",
+    "slug": "qst000003-complete",
+    "description": "Tracks completion state for Main Story: Moon Road Main Story.",
+    "default_value": false,
+    "scope": "world"
+  },
+  {
+    "flag_id": "QFLAG000004",
+    "quest_id": "QST000004",
+    "flag_name": "QST000004 Complete",
+    "slug": "qst000004-complete",
+    "description": "Tracks completion state for Main Story: Hidden Drum Main Story.",
+    "default_value": false,
+    "scope": "world"
+  },
+  {
+    "flag_id": "QFLAG000005",
+    "quest_id": "QST000005",
+    "flag_name": "QST000005 Complete",
+    "slug": "qst000005-complete",
+    "description": "Tracks completion state for Main Story: Storm Shrine Main Story.",
+    "default_value": false,
+    "scope": "world"
+  },
+  {
+    "flag_id": "QFLAG000006",
+    "quest_id": "QST000006",
+    "flag_name": "QST000006 Complete",
+    "slug": "qst000006-complete",
+    "description": "Tracks completion state for Main Story: Ancestor Thread Main Story.",
+    "default_value": false,
+    "scope": "world"
+  },
+  {
+    "flag_id": "QFLAG000007",
+    "quest_id": "QST000007",
+    "flag_name": "QST000007 Complete",
+    "slug": "qst000007-complete",
+    "description": "Tracks completion state for Main Story: Pearl Witness Main Story.",
+    "default_value": false,
+    "scope": "world"
+  },
+  {
+    "flag_id": "QFLAG000008",
+    "quest_id": "QST000008",
+    "flag_name": "QST000008 Complete",
+    "slug": "qst000008-complete",
+    "description": "Tracks completion state for Main Story: Forest Debt Main Story.",
+    "default_value": false,
+    "scope": "world"
+  },
+  {
+    "flag_id": "QFLAG000009",
+    "quest_id": "QST000009",
+    "flag_name": "QST000009 Complete",
+    "slug": "qst000009-complete",
+    "description": "Tracks completion state for Main Story: Skyward Bell Main Story.",
+    "default_value": false,
+    "scope": "world"
+  },
+  {
+    "flag_id": "QFLAG000010",
+    "quest_id": "QST000010",
+    "flag_name": "QST000010 Complete",
+    "slug": "qst000010-complete",
+    "description": "Tracks completion state for Main Story: Balete Echo Main Story.",
+    "default_value": false,
+    "scope": "world"
+  },
+  {
+    "flag_id": "QFLAG000011",
+    "quest_id": "QST000011",
+    "flag_name": "QST000011 Complete",
+    "slug": "qst000011-complete",
+    "description": "Tracks completion state for Main Story: River Oath Main Story.",
+    "default_value": false,
+    "scope": "world"
+  },
+  {
+    "flag_id": "QFLAG000012",
+    "quest_id": "QST000012",
+    "flag_name": "QST000012 Complete",
+    "slug": "qst000012-complete",
+    "description": "Tracks completion state for Main Story: Coral Lantern Main Story.",
+    "default_value": false,
+    "scope": "world"
+  },
+  {
+    "flag_id": "QFLAG000013",
+    "quest_id": "QST000013",
+    "flag_name": "QST000013 Complete",
+    "slug": "qst000013-complete",
+    "description": "Tracks completion state for Main Story: Moon Road Main Story.",
+    "default_value": false,
+    "scope": "world"
+  },
+  {
+    "flag_id": "QFLAG000014",
+    "quest_id": "QST000014",
+    "flag_name": "QST000014 Complete",
+    "slug": "qst000014-complete",
+    "description": "Tracks completion state for Main Story: Hidden Drum Main Story.",
+    "default_value": false,
+    "scope": "world"
+  },
+  {
+    "flag_id": "QFLAG000015",
+    "quest_id": "QST000015",
+    "flag_name": "QST000015 Complete",
+    "slug": "qst000015-complete",
+    "description": "Tracks completion state for Main Story: Storm Shrine Main Story.",
+    "default_value": false,
+    "scope": "world"
+  },
+  {
+    "flag_id": "QFLAG000016",
+    "quest_id": "QST000016",
+    "flag_name": "QST000016 Complete",
+    "slug": "qst000016-complete",
+    "description": "Tracks completion state for Main Story: Ancestor Thread Main Story.",
+    "default_value": false,
+    "scope": "world"
+  },
+  {
+    "flag_id": "QFLAG000017",
+    "quest_id": "QST000017",
+    "flag_name": "QST000017 Complete",
+    "slug": "qst000017-complete",
+    "description": "Tracks completion state for Main Story: Pearl Witness Main Story.",
+    "default_value": false,
+    "scope": "world"
+  },
+  {
+    "flag_id": "QFLAG000018",
+    "quest_id": "QST000018",
+    "flag_name": "QST000018 Complete",
+    "slug": "qst000018-complete",
+    "description": "Tracks completion state for Main Story: Forest Debt Main Story.",
+    "default_value": false,
+    "scope": "world"
+  },
+  {
+    "flag_id": "QFLAG000019",
+    "quest_id": "QST000019",
+    "flag_name": "QST000019 Complete",
+    "slug": "qst000019-complete",
+    "description": "Tracks completion state for Main Story: Skyward Bell Main Story.",
+    "default_value": false,
+    "scope": "world"
+  },
+  {
+    "flag_id": "QFLAG000020",
+    "quest_id": "QST000020",
+    "flag_name": "QST000020 Complete",
+    "slug": "qst000020-complete",
+    "description": "Tracks completion state for Main Story: Balete Echo Main Story.",
+    "default_value": false,
+    "scope": "world"
+  },
+  {
+    "flag_id": "QFLAG000021",
+    "quest_id": "QST000021",
+    "flag_name": "QST000021 Complete",
+    "slug": "qst000021-complete",
+    "description": "Tracks completion state for Side Quest: River Oath Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000022",
+    "quest_id": "QST000022",
+    "flag_name": "QST000022 Complete",
+    "slug": "qst000022-complete",
+    "description": "Tracks completion state for Side Quest: Coral Lantern Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000023",
+    "quest_id": "QST000023",
+    "flag_name": "QST000023 Complete",
+    "slug": "qst000023-complete",
+    "description": "Tracks completion state for Side Quest: Moon Road Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000024",
+    "quest_id": "QST000024",
+    "flag_name": "QST000024 Complete",
+    "slug": "qst000024-complete",
+    "description": "Tracks completion state for Side Quest: Hidden Drum Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000025",
+    "quest_id": "QST000025",
+    "flag_name": "QST000025 Complete",
+    "slug": "qst000025-complete",
+    "description": "Tracks completion state for Side Quest: Storm Shrine Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000026",
+    "quest_id": "QST000026",
+    "flag_name": "QST000026 Complete",
+    "slug": "qst000026-complete",
+    "description": "Tracks completion state for Side Quest: Ancestor Thread Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000027",
+    "quest_id": "QST000027",
+    "flag_name": "QST000027 Complete",
+    "slug": "qst000027-complete",
+    "description": "Tracks completion state for Side Quest: Pearl Witness Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000028",
+    "quest_id": "QST000028",
+    "flag_name": "QST000028 Complete",
+    "slug": "qst000028-complete",
+    "description": "Tracks completion state for Side Quest: Forest Debt Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000029",
+    "quest_id": "QST000029",
+    "flag_name": "QST000029 Complete",
+    "slug": "qst000029-complete",
+    "description": "Tracks completion state for Side Quest: Skyward Bell Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000030",
+    "quest_id": "QST000030",
+    "flag_name": "QST000030 Complete",
+    "slug": "qst000030-complete",
+    "description": "Tracks completion state for Side Quest: Balete Echo Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000031",
+    "quest_id": "QST000031",
+    "flag_name": "QST000031 Complete",
+    "slug": "qst000031-complete",
+    "description": "Tracks completion state for Side Quest: River Oath Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000032",
+    "quest_id": "QST000032",
+    "flag_name": "QST000032 Complete",
+    "slug": "qst000032-complete",
+    "description": "Tracks completion state for Side Quest: Coral Lantern Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000033",
+    "quest_id": "QST000033",
+    "flag_name": "QST000033 Complete",
+    "slug": "qst000033-complete",
+    "description": "Tracks completion state for Side Quest: Moon Road Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000034",
+    "quest_id": "QST000034",
+    "flag_name": "QST000034 Complete",
+    "slug": "qst000034-complete",
+    "description": "Tracks completion state for Side Quest: Hidden Drum Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000035",
+    "quest_id": "QST000035",
+    "flag_name": "QST000035 Complete",
+    "slug": "qst000035-complete",
+    "description": "Tracks completion state for Side Quest: Storm Shrine Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000036",
+    "quest_id": "QST000036",
+    "flag_name": "QST000036 Complete",
+    "slug": "qst000036-complete",
+    "description": "Tracks completion state for Side Quest: Ancestor Thread Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000037",
+    "quest_id": "QST000037",
+    "flag_name": "QST000037 Complete",
+    "slug": "qst000037-complete",
+    "description": "Tracks completion state for Side Quest: Pearl Witness Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000038",
+    "quest_id": "QST000038",
+    "flag_name": "QST000038 Complete",
+    "slug": "qst000038-complete",
+    "description": "Tracks completion state for Side Quest: Forest Debt Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000039",
+    "quest_id": "QST000039",
+    "flag_name": "QST000039 Complete",
+    "slug": "qst000039-complete",
+    "description": "Tracks completion state for Side Quest: Skyward Bell Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000040",
+    "quest_id": "QST000040",
+    "flag_name": "QST000040 Complete",
+    "slug": "qst000040-complete",
+    "description": "Tracks completion state for Side Quest: Balete Echo Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000041",
+    "quest_id": "QST000041",
+    "flag_name": "QST000041 Complete",
+    "slug": "qst000041-complete",
+    "description": "Tracks completion state for Side Quest: River Oath Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000042",
+    "quest_id": "QST000042",
+    "flag_name": "QST000042 Complete",
+    "slug": "qst000042-complete",
+    "description": "Tracks completion state for Side Quest: Coral Lantern Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000043",
+    "quest_id": "QST000043",
+    "flag_name": "QST000043 Complete",
+    "slug": "qst000043-complete",
+    "description": "Tracks completion state for Side Quest: Moon Road Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000044",
+    "quest_id": "QST000044",
+    "flag_name": "QST000044 Complete",
+    "slug": "qst000044-complete",
+    "description": "Tracks completion state for Side Quest: Hidden Drum Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000045",
+    "quest_id": "QST000045",
+    "flag_name": "QST000045 Complete",
+    "slug": "qst000045-complete",
+    "description": "Tracks completion state for Side Quest: Storm Shrine Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000046",
+    "quest_id": "QST000046",
+    "flag_name": "QST000046 Complete",
+    "slug": "qst000046-complete",
+    "description": "Tracks completion state for Side Quest: Ancestor Thread Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000047",
+    "quest_id": "QST000047",
+    "flag_name": "QST000047 Complete",
+    "slug": "qst000047-complete",
+    "description": "Tracks completion state for Side Quest: Pearl Witness Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000048",
+    "quest_id": "QST000048",
+    "flag_name": "QST000048 Complete",
+    "slug": "qst000048-complete",
+    "description": "Tracks completion state for Side Quest: Forest Debt Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000049",
+    "quest_id": "QST000049",
+    "flag_name": "QST000049 Complete",
+    "slug": "qst000049-complete",
+    "description": "Tracks completion state for Side Quest: Skyward Bell Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000050",
+    "quest_id": "QST000050",
+    "flag_name": "QST000050 Complete",
+    "slug": "qst000050-complete",
+    "description": "Tracks completion state for Side Quest: Balete Echo Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000051",
+    "quest_id": "QST000051",
+    "flag_name": "QST000051 Complete",
+    "slug": "qst000051-complete",
+    "description": "Tracks completion state for Side Quest: River Oath Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000052",
+    "quest_id": "QST000052",
+    "flag_name": "QST000052 Complete",
+    "slug": "qst000052-complete",
+    "description": "Tracks completion state for Side Quest: Coral Lantern Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000053",
+    "quest_id": "QST000053",
+    "flag_name": "QST000053 Complete",
+    "slug": "qst000053-complete",
+    "description": "Tracks completion state for Side Quest: Moon Road Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000054",
+    "quest_id": "QST000054",
+    "flag_name": "QST000054 Complete",
+    "slug": "qst000054-complete",
+    "description": "Tracks completion state for Side Quest: Hidden Drum Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000055",
+    "quest_id": "QST000055",
+    "flag_name": "QST000055 Complete",
+    "slug": "qst000055-complete",
+    "description": "Tracks completion state for Side Quest: Storm Shrine Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000056",
+    "quest_id": "QST000056",
+    "flag_name": "QST000056 Complete",
+    "slug": "qst000056-complete",
+    "description": "Tracks completion state for Side Quest: Ancestor Thread Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000057",
+    "quest_id": "QST000057",
+    "flag_name": "QST000057 Complete",
+    "slug": "qst000057-complete",
+    "description": "Tracks completion state for Side Quest: Pearl Witness Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000058",
+    "quest_id": "QST000058",
+    "flag_name": "QST000058 Complete",
+    "slug": "qst000058-complete",
+    "description": "Tracks completion state for Side Quest: Forest Debt Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000059",
+    "quest_id": "QST000059",
+    "flag_name": "QST000059 Complete",
+    "slug": "qst000059-complete",
+    "description": "Tracks completion state for Side Quest: Skyward Bell Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000060",
+    "quest_id": "QST000060",
+    "flag_name": "QST000060 Complete",
+    "slug": "qst000060-complete",
+    "description": "Tracks completion state for Side Quest: Balete Echo Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000061",
+    "quest_id": "QST000061",
+    "flag_name": "QST000061 Complete",
+    "slug": "qst000061-complete",
+    "description": "Tracks completion state for Side Quest: River Oath Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000062",
+    "quest_id": "QST000062",
+    "flag_name": "QST000062 Complete",
+    "slug": "qst000062-complete",
+    "description": "Tracks completion state for Side Quest: Coral Lantern Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000063",
+    "quest_id": "QST000063",
+    "flag_name": "QST000063 Complete",
+    "slug": "qst000063-complete",
+    "description": "Tracks completion state for Side Quest: Moon Road Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000064",
+    "quest_id": "QST000064",
+    "flag_name": "QST000064 Complete",
+    "slug": "qst000064-complete",
+    "description": "Tracks completion state for Side Quest: Hidden Drum Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000065",
+    "quest_id": "QST000065",
+    "flag_name": "QST000065 Complete",
+    "slug": "qst000065-complete",
+    "description": "Tracks completion state for Side Quest: Storm Shrine Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000066",
+    "quest_id": "QST000066",
+    "flag_name": "QST000066 Complete",
+    "slug": "qst000066-complete",
+    "description": "Tracks completion state for Side Quest: Ancestor Thread Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000067",
+    "quest_id": "QST000067",
+    "flag_name": "QST000067 Complete",
+    "slug": "qst000067-complete",
+    "description": "Tracks completion state for Side Quest: Pearl Witness Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000068",
+    "quest_id": "QST000068",
+    "flag_name": "QST000068 Complete",
+    "slug": "qst000068-complete",
+    "description": "Tracks completion state for Side Quest: Forest Debt Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000069",
+    "quest_id": "QST000069",
+    "flag_name": "QST000069 Complete",
+    "slug": "qst000069-complete",
+    "description": "Tracks completion state for Side Quest: Skyward Bell Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000070",
+    "quest_id": "QST000070",
+    "flag_name": "QST000070 Complete",
+    "slug": "qst000070-complete",
+    "description": "Tracks completion state for Side Quest: Balete Echo Side Quest.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000071",
+    "quest_id": "QST000071",
+    "flag_name": "QST000071 Complete",
+    "slug": "qst000071-complete",
+    "description": "Tracks completion state for Nilalang Trust: River Oath Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000072",
+    "quest_id": "QST000072",
+    "flag_name": "QST000072 Complete",
+    "slug": "qst000072-complete",
+    "description": "Tracks completion state for Nilalang Trust: Coral Lantern Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000073",
+    "quest_id": "QST000073",
+    "flag_name": "QST000073 Complete",
+    "slug": "qst000073-complete",
+    "description": "Tracks completion state for Nilalang Trust: Moon Road Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000074",
+    "quest_id": "QST000074",
+    "flag_name": "QST000074 Complete",
+    "slug": "qst000074-complete",
+    "description": "Tracks completion state for Nilalang Trust: Hidden Drum Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000075",
+    "quest_id": "QST000075",
+    "flag_name": "QST000075 Complete",
+    "slug": "qst000075-complete",
+    "description": "Tracks completion state for Nilalang Trust: Storm Shrine Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000076",
+    "quest_id": "QST000076",
+    "flag_name": "QST000076 Complete",
+    "slug": "qst000076-complete",
+    "description": "Tracks completion state for Nilalang Trust: Ancestor Thread Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000077",
+    "quest_id": "QST000077",
+    "flag_name": "QST000077 Complete",
+    "slug": "qst000077-complete",
+    "description": "Tracks completion state for Nilalang Trust: Pearl Witness Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000078",
+    "quest_id": "QST000078",
+    "flag_name": "QST000078 Complete",
+    "slug": "qst000078-complete",
+    "description": "Tracks completion state for Nilalang Trust: Forest Debt Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000079",
+    "quest_id": "QST000079",
+    "flag_name": "QST000079 Complete",
+    "slug": "qst000079-complete",
+    "description": "Tracks completion state for Nilalang Trust: Skyward Bell Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000080",
+    "quest_id": "QST000080",
+    "flag_name": "QST000080 Complete",
+    "slug": "qst000080-complete",
+    "description": "Tracks completion state for Nilalang Trust: Balete Echo Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000081",
+    "quest_id": "QST000081",
+    "flag_name": "QST000081 Complete",
+    "slug": "qst000081-complete",
+    "description": "Tracks completion state for Nilalang Trust: River Oath Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000082",
+    "quest_id": "QST000082",
+    "flag_name": "QST000082 Complete",
+    "slug": "qst000082-complete",
+    "description": "Tracks completion state for Nilalang Trust: Coral Lantern Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000083",
+    "quest_id": "QST000083",
+    "flag_name": "QST000083 Complete",
+    "slug": "qst000083-complete",
+    "description": "Tracks completion state for Nilalang Trust: Moon Road Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000084",
+    "quest_id": "QST000084",
+    "flag_name": "QST000084 Complete",
+    "slug": "qst000084-complete",
+    "description": "Tracks completion state for Nilalang Trust: Hidden Drum Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000085",
+    "quest_id": "QST000085",
+    "flag_name": "QST000085 Complete",
+    "slug": "qst000085-complete",
+    "description": "Tracks completion state for Nilalang Trust: Storm Shrine Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000086",
+    "quest_id": "QST000086",
+    "flag_name": "QST000086 Complete",
+    "slug": "qst000086-complete",
+    "description": "Tracks completion state for Nilalang Trust: Ancestor Thread Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000087",
+    "quest_id": "QST000087",
+    "flag_name": "QST000087 Complete",
+    "slug": "qst000087-complete",
+    "description": "Tracks completion state for Nilalang Trust: Pearl Witness Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000088",
+    "quest_id": "QST000088",
+    "flag_name": "QST000088 Complete",
+    "slug": "qst000088-complete",
+    "description": "Tracks completion state for Nilalang Trust: Forest Debt Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000089",
+    "quest_id": "QST000089",
+    "flag_name": "QST000089 Complete",
+    "slug": "qst000089-complete",
+    "description": "Tracks completion state for Nilalang Trust: Skyward Bell Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000090",
+    "quest_id": "QST000090",
+    "flag_name": "QST000090 Complete",
+    "slug": "qst000090-complete",
+    "description": "Tracks completion state for Nilalang Trust: Balete Echo Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000091",
+    "quest_id": "QST000091",
+    "flag_name": "QST000091 Complete",
+    "slug": "qst000091-complete",
+    "description": "Tracks completion state for Nilalang Trust: River Oath Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000092",
+    "quest_id": "QST000092",
+    "flag_name": "QST000092 Complete",
+    "slug": "qst000092-complete",
+    "description": "Tracks completion state for Nilalang Trust: Coral Lantern Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000093",
+    "quest_id": "QST000093",
+    "flag_name": "QST000093 Complete",
+    "slug": "qst000093-complete",
+    "description": "Tracks completion state for Nilalang Trust: Moon Road Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000094",
+    "quest_id": "QST000094",
+    "flag_name": "QST000094 Complete",
+    "slug": "qst000094-complete",
+    "description": "Tracks completion state for Nilalang Trust: Hidden Drum Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000095",
+    "quest_id": "QST000095",
+    "flag_name": "QST000095 Complete",
+    "slug": "qst000095-complete",
+    "description": "Tracks completion state for Nilalang Trust: Storm Shrine Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000096",
+    "quest_id": "QST000096",
+    "flag_name": "QST000096 Complete",
+    "slug": "qst000096-complete",
+    "description": "Tracks completion state for Nilalang Trust: Ancestor Thread Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000097",
+    "quest_id": "QST000097",
+    "flag_name": "QST000097 Complete",
+    "slug": "qst000097-complete",
+    "description": "Tracks completion state for Nilalang Trust: Pearl Witness Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000098",
+    "quest_id": "QST000098",
+    "flag_name": "QST000098 Complete",
+    "slug": "qst000098-complete",
+    "description": "Tracks completion state for Nilalang Trust: Forest Debt Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000099",
+    "quest_id": "QST000099",
+    "flag_name": "QST000099 Complete",
+    "slug": "qst000099-complete",
+    "description": "Tracks completion state for Nilalang Trust: Skyward Bell Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000100",
+    "quest_id": "QST000100",
+    "flag_name": "QST000100 Complete",
+    "slug": "qst000100-complete",
+    "description": "Tracks completion state for Nilalang Trust: Balete Echo Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000101",
+    "quest_id": "QST000101",
+    "flag_name": "QST000101 Complete",
+    "slug": "qst000101-complete",
+    "description": "Tracks completion state for Nilalang Trust: River Oath Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000102",
+    "quest_id": "QST000102",
+    "flag_name": "QST000102 Complete",
+    "slug": "qst000102-complete",
+    "description": "Tracks completion state for Nilalang Trust: Coral Lantern Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000103",
+    "quest_id": "QST000103",
+    "flag_name": "QST000103 Complete",
+    "slug": "qst000103-complete",
+    "description": "Tracks completion state for Nilalang Trust: Moon Road Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000104",
+    "quest_id": "QST000104",
+    "flag_name": "QST000104 Complete",
+    "slug": "qst000104-complete",
+    "description": "Tracks completion state for Nilalang Trust: Hidden Drum Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000105",
+    "quest_id": "QST000105",
+    "flag_name": "QST000105 Complete",
+    "slug": "qst000105-complete",
+    "description": "Tracks completion state for Nilalang Trust: Storm Shrine Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000106",
+    "quest_id": "QST000106",
+    "flag_name": "QST000106 Complete",
+    "slug": "qst000106-complete",
+    "description": "Tracks completion state for Nilalang Trust: Ancestor Thread Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000107",
+    "quest_id": "QST000107",
+    "flag_name": "QST000107 Complete",
+    "slug": "qst000107-complete",
+    "description": "Tracks completion state for Nilalang Trust: Pearl Witness Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000108",
+    "quest_id": "QST000108",
+    "flag_name": "QST000108 Complete",
+    "slug": "qst000108-complete",
+    "description": "Tracks completion state for Nilalang Trust: Forest Debt Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000109",
+    "quest_id": "QST000109",
+    "flag_name": "QST000109 Complete",
+    "slug": "qst000109-complete",
+    "description": "Tracks completion state for Nilalang Trust: Skyward Bell Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000110",
+    "quest_id": "QST000110",
+    "flag_name": "QST000110 Complete",
+    "slug": "qst000110-complete",
+    "description": "Tracks completion state for Nilalang Trust: Balete Echo Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000111",
+    "quest_id": "QST000111",
+    "flag_name": "QST000111 Complete",
+    "slug": "qst000111-complete",
+    "description": "Tracks completion state for Nilalang Trust: River Oath Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000112",
+    "quest_id": "QST000112",
+    "flag_name": "QST000112 Complete",
+    "slug": "qst000112-complete",
+    "description": "Tracks completion state for Nilalang Trust: Coral Lantern Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000113",
+    "quest_id": "QST000113",
+    "flag_name": "QST000113 Complete",
+    "slug": "qst000113-complete",
+    "description": "Tracks completion state for Nilalang Trust: Moon Road Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000114",
+    "quest_id": "QST000114",
+    "flag_name": "QST000114 Complete",
+    "slug": "qst000114-complete",
+    "description": "Tracks completion state for Nilalang Trust: Hidden Drum Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000115",
+    "quest_id": "QST000115",
+    "flag_name": "QST000115 Complete",
+    "slug": "qst000115-complete",
+    "description": "Tracks completion state for Nilalang Trust: Storm Shrine Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000116",
+    "quest_id": "QST000116",
+    "flag_name": "QST000116 Complete",
+    "slug": "qst000116-complete",
+    "description": "Tracks completion state for Nilalang Trust: Ancestor Thread Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000117",
+    "quest_id": "QST000117",
+    "flag_name": "QST000117 Complete",
+    "slug": "qst000117-complete",
+    "description": "Tracks completion state for Nilalang Trust: Pearl Witness Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000118",
+    "quest_id": "QST000118",
+    "flag_name": "QST000118 Complete",
+    "slug": "qst000118-complete",
+    "description": "Tracks completion state for Nilalang Trust: Forest Debt Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000119",
+    "quest_id": "QST000119",
+    "flag_name": "QST000119 Complete",
+    "slug": "qst000119-complete",
+    "description": "Tracks completion state for Nilalang Trust: Skyward Bell Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000120",
+    "quest_id": "QST000120",
+    "flag_name": "QST000120 Complete",
+    "slug": "qst000120-complete",
+    "description": "Tracks completion state for Nilalang Trust: Balete Echo Monster Trust.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000121",
+    "quest_id": "QST000121",
+    "flag_name": "QST000121 Complete",
+    "slug": "qst000121-complete",
+    "description": "Tracks completion state for Legendary: River Oath Legendary.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000122",
+    "quest_id": "QST000122",
+    "flag_name": "QST000122 Complete",
+    "slug": "qst000122-complete",
+    "description": "Tracks completion state for Legendary: Coral Lantern Legendary.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000123",
+    "quest_id": "QST000123",
+    "flag_name": "QST000123 Complete",
+    "slug": "qst000123-complete",
+    "description": "Tracks completion state for Legendary: Moon Road Legendary.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000124",
+    "quest_id": "QST000124",
+    "flag_name": "QST000124 Complete",
+    "slug": "qst000124-complete",
+    "description": "Tracks completion state for Legendary: Hidden Drum Legendary.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000125",
+    "quest_id": "QST000125",
+    "flag_name": "QST000125 Complete",
+    "slug": "qst000125-complete",
+    "description": "Tracks completion state for Legendary: Storm Shrine Legendary.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000126",
+    "quest_id": "QST000126",
+    "flag_name": "QST000126 Complete",
+    "slug": "qst000126-complete",
+    "description": "Tracks completion state for Legendary: Ancestor Thread Legendary.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000127",
+    "quest_id": "QST000127",
+    "flag_name": "QST000127 Complete",
+    "slug": "qst000127-complete",
+    "description": "Tracks completion state for Legendary: Pearl Witness Legendary.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000128",
+    "quest_id": "QST000128",
+    "flag_name": "QST000128 Complete",
+    "slug": "qst000128-complete",
+    "description": "Tracks completion state for Legendary: Forest Debt Legendary.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000129",
+    "quest_id": "QST000129",
+    "flag_name": "QST000129 Complete",
+    "slug": "qst000129-complete",
+    "description": "Tracks completion state for Legendary: Skyward Bell Legendary.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000130",
+    "quest_id": "QST000130",
+    "flag_name": "QST000130 Complete",
+    "slug": "qst000130-complete",
+    "description": "Tracks completion state for Legendary: Balete Echo Legendary.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000131",
+    "quest_id": "QST000131",
+    "flag_name": "QST000131 Complete",
+    "slug": "qst000131-complete",
+    "description": "Tracks completion state for Legendary: River Oath Legendary.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000132",
+    "quest_id": "QST000132",
+    "flag_name": "QST000132 Complete",
+    "slug": "qst000132-complete",
+    "description": "Tracks completion state for Legendary: Coral Lantern Legendary.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000133",
+    "quest_id": "QST000133",
+    "flag_name": "QST000133 Complete",
+    "slug": "qst000133-complete",
+    "description": "Tracks completion state for Legendary: Moon Road Legendary.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000134",
+    "quest_id": "QST000134",
+    "flag_name": "QST000134 Complete",
+    "slug": "qst000134-complete",
+    "description": "Tracks completion state for Legendary: Hidden Drum Legendary.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000135",
+    "quest_id": "QST000135",
+    "flag_name": "QST000135 Complete",
+    "slug": "qst000135-complete",
+    "description": "Tracks completion state for Legendary: Storm Shrine Legendary.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000136",
+    "quest_id": "QST000136",
+    "flag_name": "QST000136 Complete",
+    "slug": "qst000136-complete",
+    "description": "Tracks completion state for Legendary: Ancestor Thread Legendary.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000137",
+    "quest_id": "QST000137",
+    "flag_name": "QST000137 Complete",
+    "slug": "qst000137-complete",
+    "description": "Tracks completion state for Legendary: Pearl Witness Legendary.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000138",
+    "quest_id": "QST000138",
+    "flag_name": "QST000138 Complete",
+    "slug": "qst000138-complete",
+    "description": "Tracks completion state for Legendary: Forest Debt Legendary.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000139",
+    "quest_id": "QST000139",
+    "flag_name": "QST000139 Complete",
+    "slug": "qst000139-complete",
+    "description": "Tracks completion state for Legendary: Skyward Bell Legendary.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000140",
+    "quest_id": "QST000140",
+    "flag_name": "QST000140 Complete",
+    "slug": "qst000140-complete",
+    "description": "Tracks completion state for Legendary: Balete Echo Legendary.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000141",
+    "quest_id": "QST000141",
+    "flag_name": "QST000141 Complete",
+    "slug": "qst000141-complete",
+    "description": "Tracks completion state for Faction: River Oath Faction.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000142",
+    "quest_id": "QST000142",
+    "flag_name": "QST000142 Complete",
+    "slug": "qst000142-complete",
+    "description": "Tracks completion state for Faction: Coral Lantern Faction.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000143",
+    "quest_id": "QST000143",
+    "flag_name": "QST000143 Complete",
+    "slug": "qst000143-complete",
+    "description": "Tracks completion state for Faction: Moon Road Faction.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000144",
+    "quest_id": "QST000144",
+    "flag_name": "QST000144 Complete",
+    "slug": "qst000144-complete",
+    "description": "Tracks completion state for Faction: Hidden Drum Faction.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000145",
+    "quest_id": "QST000145",
+    "flag_name": "QST000145 Complete",
+    "slug": "qst000145-complete",
+    "description": "Tracks completion state for Faction: Storm Shrine Faction.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000146",
+    "quest_id": "QST000146",
+    "flag_name": "QST000146 Complete",
+    "slug": "qst000146-complete",
+    "description": "Tracks completion state for Faction: Ancestor Thread Faction.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000147",
+    "quest_id": "QST000147",
+    "flag_name": "QST000147 Complete",
+    "slug": "qst000147-complete",
+    "description": "Tracks completion state for Faction: Pearl Witness Faction.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000148",
+    "quest_id": "QST000148",
+    "flag_name": "QST000148 Complete",
+    "slug": "qst000148-complete",
+    "description": "Tracks completion state for Faction: Forest Debt Faction.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000149",
+    "quest_id": "QST000149",
+    "flag_name": "QST000149 Complete",
+    "slug": "qst000149-complete",
+    "description": "Tracks completion state for Faction: Skyward Bell Faction.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000150",
+    "quest_id": "QST000150",
+    "flag_name": "QST000150 Complete",
+    "slug": "qst000150-complete",
+    "description": "Tracks completion state for Faction: Balete Echo Faction.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000151",
+    "quest_id": "QST000151",
+    "flag_name": "QST000151 Complete",
+    "slug": "qst000151-complete",
+    "description": "Tracks completion state for Faction: River Oath Faction.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000152",
+    "quest_id": "QST000152",
+    "flag_name": "QST000152 Complete",
+    "slug": "qst000152-complete",
+    "description": "Tracks completion state for Faction: Coral Lantern Faction.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000153",
+    "quest_id": "QST000153",
+    "flag_name": "QST000153 Complete",
+    "slug": "qst000153-complete",
+    "description": "Tracks completion state for Faction: Moon Road Faction.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000154",
+    "quest_id": "QST000154",
+    "flag_name": "QST000154 Complete",
+    "slug": "qst000154-complete",
+    "description": "Tracks completion state for Faction: Hidden Drum Faction.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000155",
+    "quest_id": "QST000155",
+    "flag_name": "QST000155 Complete",
+    "slug": "qst000155-complete",
+    "description": "Tracks completion state for Faction: Storm Shrine Faction.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000156",
+    "quest_id": "QST000156",
+    "flag_name": "QST000156 Complete",
+    "slug": "qst000156-complete",
+    "description": "Tracks completion state for Faction: Ancestor Thread Faction.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000157",
+    "quest_id": "QST000157",
+    "flag_name": "QST000157 Complete",
+    "slug": "qst000157-complete",
+    "description": "Tracks completion state for Faction: Pearl Witness Faction.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000158",
+    "quest_id": "QST000158",
+    "flag_name": "QST000158 Complete",
+    "slug": "qst000158-complete",
+    "description": "Tracks completion state for Faction: Forest Debt Faction.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000159",
+    "quest_id": "QST000159",
+    "flag_name": "QST000159 Complete",
+    "slug": "qst000159-complete",
+    "description": "Tracks completion state for Faction: Skyward Bell Faction.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000160",
+    "quest_id": "QST000160",
+    "flag_name": "QST000160 Complete",
+    "slug": "qst000160-complete",
+    "description": "Tracks completion state for Faction: Balete Echo Faction.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000161",
+    "quest_id": "QST000161",
+    "flag_name": "QST000161 Complete",
+    "slug": "qst000161-complete",
+    "description": "Tracks completion state for Faction: River Oath Faction.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000162",
+    "quest_id": "QST000162",
+    "flag_name": "QST000162 Complete",
+    "slug": "qst000162-complete",
+    "description": "Tracks completion state for Faction: Coral Lantern Faction.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000163",
+    "quest_id": "QST000163",
+    "flag_name": "QST000163 Complete",
+    "slug": "qst000163-complete",
+    "description": "Tracks completion state for Faction: Moon Road Faction.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000164",
+    "quest_id": "QST000164",
+    "flag_name": "QST000164 Complete",
+    "slug": "qst000164-complete",
+    "description": "Tracks completion state for Faction: Hidden Drum Faction.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000165",
+    "quest_id": "QST000165",
+    "flag_name": "QST000165 Complete",
+    "slug": "qst000165-complete",
+    "description": "Tracks completion state for Faction: Storm Shrine Faction.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000166",
+    "quest_id": "QST000166",
+    "flag_name": "QST000166 Complete",
+    "slug": "qst000166-complete",
+    "description": "Tracks completion state for Faction: Ancestor Thread Faction.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000167",
+    "quest_id": "QST000167",
+    "flag_name": "QST000167 Complete",
+    "slug": "qst000167-complete",
+    "description": "Tracks completion state for Faction: Pearl Witness Faction.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000168",
+    "quest_id": "QST000168",
+    "flag_name": "QST000168 Complete",
+    "slug": "qst000168-complete",
+    "description": "Tracks completion state for Faction: Forest Debt Faction.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000169",
+    "quest_id": "QST000169",
+    "flag_name": "QST000169 Complete",
+    "slug": "qst000169-complete",
+    "description": "Tracks completion state for Faction: Skyward Bell Faction.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000170",
+    "quest_id": "QST000170",
+    "flag_name": "QST000170 Complete",
+    "slug": "qst000170-complete",
+    "description": "Tracks completion state for Faction: Balete Echo Faction.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000171",
+    "quest_id": "QST000171",
+    "flag_name": "QST000171 Complete",
+    "slug": "qst000171-complete",
+    "description": "Tracks completion state for NPC Relationship: River Oath Npc Relationship.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000172",
+    "quest_id": "QST000172",
+    "flag_name": "QST000172 Complete",
+    "slug": "qst000172-complete",
+    "description": "Tracks completion state for NPC Relationship: Coral Lantern Npc Relationship.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000173",
+    "quest_id": "QST000173",
+    "flag_name": "QST000173 Complete",
+    "slug": "qst000173-complete",
+    "description": "Tracks completion state for NPC Relationship: Moon Road Npc Relationship.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000174",
+    "quest_id": "QST000174",
+    "flag_name": "QST000174 Complete",
+    "slug": "qst000174-complete",
+    "description": "Tracks completion state for NPC Relationship: Hidden Drum Npc Relationship.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000175",
+    "quest_id": "QST000175",
+    "flag_name": "QST000175 Complete",
+    "slug": "qst000175-complete",
+    "description": "Tracks completion state for NPC Relationship: Storm Shrine Npc Relationship.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000176",
+    "quest_id": "QST000176",
+    "flag_name": "QST000176 Complete",
+    "slug": "qst000176-complete",
+    "description": "Tracks completion state for NPC Relationship: Ancestor Thread Npc Relationship.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000177",
+    "quest_id": "QST000177",
+    "flag_name": "QST000177 Complete",
+    "slug": "qst000177-complete",
+    "description": "Tracks completion state for NPC Relationship: Pearl Witness Npc Relationship.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000178",
+    "quest_id": "QST000178",
+    "flag_name": "QST000178 Complete",
+    "slug": "qst000178-complete",
+    "description": "Tracks completion state for NPC Relationship: Forest Debt Npc Relationship.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000179",
+    "quest_id": "QST000179",
+    "flag_name": "QST000179 Complete",
+    "slug": "qst000179-complete",
+    "description": "Tracks completion state for NPC Relationship: Skyward Bell Npc Relationship.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000180",
+    "quest_id": "QST000180",
+    "flag_name": "QST000180 Complete",
+    "slug": "qst000180-complete",
+    "description": "Tracks completion state for NPC Relationship: Balete Echo Npc Relationship.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000181",
+    "quest_id": "QST000181",
+    "flag_name": "QST000181 Complete",
+    "slug": "qst000181-complete",
+    "description": "Tracks completion state for NPC Relationship: River Oath Npc Relationship.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000182",
+    "quest_id": "QST000182",
+    "flag_name": "QST000182 Complete",
+    "slug": "qst000182-complete",
+    "description": "Tracks completion state for NPC Relationship: Coral Lantern Npc Relationship.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000183",
+    "quest_id": "QST000183",
+    "flag_name": "QST000183 Complete",
+    "slug": "qst000183-complete",
+    "description": "Tracks completion state for NPC Relationship: Moon Road Npc Relationship.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000184",
+    "quest_id": "QST000184",
+    "flag_name": "QST000184 Complete",
+    "slug": "qst000184-complete",
+    "description": "Tracks completion state for NPC Relationship: Hidden Drum Npc Relationship.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000185",
+    "quest_id": "QST000185",
+    "flag_name": "QST000185 Complete",
+    "slug": "qst000185-complete",
+    "description": "Tracks completion state for NPC Relationship: Storm Shrine Npc Relationship.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000186",
+    "quest_id": "QST000186",
+    "flag_name": "QST000186 Complete",
+    "slug": "qst000186-complete",
+    "description": "Tracks completion state for NPC Relationship: Ancestor Thread Npc Relationship.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000187",
+    "quest_id": "QST000187",
+    "flag_name": "QST000187 Complete",
+    "slug": "qst000187-complete",
+    "description": "Tracks completion state for NPC Relationship: Pearl Witness Npc Relationship.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000188",
+    "quest_id": "QST000188",
+    "flag_name": "QST000188 Complete",
+    "slug": "qst000188-complete",
+    "description": "Tracks completion state for NPC Relationship: Forest Debt Npc Relationship.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000189",
+    "quest_id": "QST000189",
+    "flag_name": "QST000189 Complete",
+    "slug": "qst000189-complete",
+    "description": "Tracks completion state for NPC Relationship: Skyward Bell Npc Relationship.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000190",
+    "quest_id": "QST000190",
+    "flag_name": "QST000190 Complete",
+    "slug": "qst000190-complete",
+    "description": "Tracks completion state for NPC Relationship: Balete Echo Npc Relationship.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000191",
+    "quest_id": "QST000191",
+    "flag_name": "QST000191 Complete",
+    "slug": "qst000191-complete",
+    "description": "Tracks completion state for NPC Relationship: River Oath Npc Relationship.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000192",
+    "quest_id": "QST000192",
+    "flag_name": "QST000192 Complete",
+    "slug": "qst000192-complete",
+    "description": "Tracks completion state for NPC Relationship: Coral Lantern Npc Relationship.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000193",
+    "quest_id": "QST000193",
+    "flag_name": "QST000193 Complete",
+    "slug": "qst000193-complete",
+    "description": "Tracks completion state for NPC Relationship: Moon Road Npc Relationship.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000194",
+    "quest_id": "QST000194",
+    "flag_name": "QST000194 Complete",
+    "slug": "qst000194-complete",
+    "description": "Tracks completion state for NPC Relationship: Hidden Drum Npc Relationship.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000195",
+    "quest_id": "QST000195",
+    "flag_name": "QST000195 Complete",
+    "slug": "qst000195-complete",
+    "description": "Tracks completion state for NPC Relationship: Storm Shrine Npc Relationship.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000196",
+    "quest_id": "QST000196",
+    "flag_name": "QST000196 Complete",
+    "slug": "qst000196-complete",
+    "description": "Tracks completion state for NPC Relationship: Ancestor Thread Npc Relationship.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000197",
+    "quest_id": "QST000197",
+    "flag_name": "QST000197 Complete",
+    "slug": "qst000197-complete",
+    "description": "Tracks completion state for NPC Relationship: Pearl Witness Npc Relationship.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000198",
+    "quest_id": "QST000198",
+    "flag_name": "QST000198 Complete",
+    "slug": "qst000198-complete",
+    "description": "Tracks completion state for NPC Relationship: Forest Debt Npc Relationship.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000199",
+    "quest_id": "QST000199",
+    "flag_name": "QST000199 Complete",
+    "slug": "qst000199-complete",
+    "description": "Tracks completion state for NPC Relationship: Skyward Bell Npc Relationship.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000200",
+    "quest_id": "QST000200",
+    "flag_name": "QST000200 Complete",
+    "slug": "qst000200-complete",
+    "description": "Tracks completion state for NPC Relationship: Balete Echo Npc Relationship.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000201",
+    "quest_id": "QST000201",
+    "flag_name": "QST000201 Complete",
+    "slug": "qst000201-complete",
+    "description": "Tracks completion state for Festival: River Oath Festival.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000202",
+    "quest_id": "QST000202",
+    "flag_name": "QST000202 Complete",
+    "slug": "qst000202-complete",
+    "description": "Tracks completion state for Festival: Coral Lantern Festival.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000203",
+    "quest_id": "QST000203",
+    "flag_name": "QST000203 Complete",
+    "slug": "qst000203-complete",
+    "description": "Tracks completion state for Festival: Moon Road Festival.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000204",
+    "quest_id": "QST000204",
+    "flag_name": "QST000204 Complete",
+    "slug": "qst000204-complete",
+    "description": "Tracks completion state for Festival: Hidden Drum Festival.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000205",
+    "quest_id": "QST000205",
+    "flag_name": "QST000205 Complete",
+    "slug": "qst000205-complete",
+    "description": "Tracks completion state for Festival: Storm Shrine Festival.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000206",
+    "quest_id": "QST000206",
+    "flag_name": "QST000206 Complete",
+    "slug": "qst000206-complete",
+    "description": "Tracks completion state for Festival: Ancestor Thread Festival.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000207",
+    "quest_id": "QST000207",
+    "flag_name": "QST000207 Complete",
+    "slug": "qst000207-complete",
+    "description": "Tracks completion state for Festival: Pearl Witness Festival.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000208",
+    "quest_id": "QST000208",
+    "flag_name": "QST000208 Complete",
+    "slug": "qst000208-complete",
+    "description": "Tracks completion state for Festival: Forest Debt Festival.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000209",
+    "quest_id": "QST000209",
+    "flag_name": "QST000209 Complete",
+    "slug": "qst000209-complete",
+    "description": "Tracks completion state for Festival: Skyward Bell Festival.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000210",
+    "quest_id": "QST000210",
+    "flag_name": "QST000210 Complete",
+    "slug": "qst000210-complete",
+    "description": "Tracks completion state for Festival: Balete Echo Festival.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000211",
+    "quest_id": "QST000211",
+    "flag_name": "QST000211 Complete",
+    "slug": "qst000211-complete",
+    "description": "Tracks completion state for Festival: River Oath Festival.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000212",
+    "quest_id": "QST000212",
+    "flag_name": "QST000212 Complete",
+    "slug": "qst000212-complete",
+    "description": "Tracks completion state for Festival: Coral Lantern Festival.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000213",
+    "quest_id": "QST000213",
+    "flag_name": "QST000213 Complete",
+    "slug": "qst000213-complete",
+    "description": "Tracks completion state for Festival: Moon Road Festival.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000214",
+    "quest_id": "QST000214",
+    "flag_name": "QST000214 Complete",
+    "slug": "qst000214-complete",
+    "description": "Tracks completion state for Festival: Hidden Drum Festival.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000215",
+    "quest_id": "QST000215",
+    "flag_name": "QST000215 Complete",
+    "slug": "qst000215-complete",
+    "description": "Tracks completion state for Festival: Storm Shrine Festival.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000216",
+    "quest_id": "QST000216",
+    "flag_name": "QST000216 Complete",
+    "slug": "qst000216-complete",
+    "description": "Tracks completion state for Festival: Ancestor Thread Festival.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000217",
+    "quest_id": "QST000217",
+    "flag_name": "QST000217 Complete",
+    "slug": "qst000217-complete",
+    "description": "Tracks completion state for Festival: Pearl Witness Festival.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000218",
+    "quest_id": "QST000218",
+    "flag_name": "QST000218 Complete",
+    "slug": "qst000218-complete",
+    "description": "Tracks completion state for Festival: Forest Debt Festival.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000219",
+    "quest_id": "QST000219",
+    "flag_name": "QST000219 Complete",
+    "slug": "qst000219-complete",
+    "description": "Tracks completion state for Festival: Skyward Bell Festival.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000220",
+    "quest_id": "QST000220",
+    "flag_name": "QST000220 Complete",
+    "slug": "qst000220-complete",
+    "description": "Tracks completion state for Festival: Balete Echo Festival.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000221",
+    "quest_id": "QST000221",
+    "flag_name": "QST000221 Complete",
+    "slug": "qst000221-complete",
+    "description": "Tracks completion state for Daily: River Oath Daily.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000222",
+    "quest_id": "QST000222",
+    "flag_name": "QST000222 Complete",
+    "slug": "qst000222-complete",
+    "description": "Tracks completion state for Daily: Coral Lantern Daily.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000223",
+    "quest_id": "QST000223",
+    "flag_name": "QST000223 Complete",
+    "slug": "qst000223-complete",
+    "description": "Tracks completion state for Daily: Moon Road Daily.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000224",
+    "quest_id": "QST000224",
+    "flag_name": "QST000224 Complete",
+    "slug": "qst000224-complete",
+    "description": "Tracks completion state for Daily: Hidden Drum Daily.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000225",
+    "quest_id": "QST000225",
+    "flag_name": "QST000225 Complete",
+    "slug": "qst000225-complete",
+    "description": "Tracks completion state for Daily: Storm Shrine Daily.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000226",
+    "quest_id": "QST000226",
+    "flag_name": "QST000226 Complete",
+    "slug": "qst000226-complete",
+    "description": "Tracks completion state for Daily: Ancestor Thread Daily.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000227",
+    "quest_id": "QST000227",
+    "flag_name": "QST000227 Complete",
+    "slug": "qst000227-complete",
+    "description": "Tracks completion state for Daily: Pearl Witness Daily.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000228",
+    "quest_id": "QST000228",
+    "flag_name": "QST000228 Complete",
+    "slug": "qst000228-complete",
+    "description": "Tracks completion state for Daily: Forest Debt Daily.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000229",
+    "quest_id": "QST000229",
+    "flag_name": "QST000229 Complete",
+    "slug": "qst000229-complete",
+    "description": "Tracks completion state for Daily: Skyward Bell Daily.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000230",
+    "quest_id": "QST000230",
+    "flag_name": "QST000230 Complete",
+    "slug": "qst000230-complete",
+    "description": "Tracks completion state for Daily: Balete Echo Daily.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000231",
+    "quest_id": "QST000231",
+    "flag_name": "QST000231 Complete",
+    "slug": "qst000231-complete",
+    "description": "Tracks completion state for Weekly: River Oath Weekly.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000232",
+    "quest_id": "QST000232",
+    "flag_name": "QST000232 Complete",
+    "slug": "qst000232-complete",
+    "description": "Tracks completion state for Weekly: Coral Lantern Weekly.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000233",
+    "quest_id": "QST000233",
+    "flag_name": "QST000233 Complete",
+    "slug": "qst000233-complete",
+    "description": "Tracks completion state for Weekly: Moon Road Weekly.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000234",
+    "quest_id": "QST000234",
+    "flag_name": "QST000234 Complete",
+    "slug": "qst000234-complete",
+    "description": "Tracks completion state for Weekly: Hidden Drum Weekly.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000235",
+    "quest_id": "QST000235",
+    "flag_name": "QST000235 Complete",
+    "slug": "qst000235-complete",
+    "description": "Tracks completion state for Weekly: Storm Shrine Weekly.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000236",
+    "quest_id": "QST000236",
+    "flag_name": "QST000236 Complete",
+    "slug": "qst000236-complete",
+    "description": "Tracks completion state for Weekly: Ancestor Thread Weekly.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000237",
+    "quest_id": "QST000237",
+    "flag_name": "QST000237 Complete",
+    "slug": "qst000237-complete",
+    "description": "Tracks completion state for Weekly: Pearl Witness Weekly.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000238",
+    "quest_id": "QST000238",
+    "flag_name": "QST000238 Complete",
+    "slug": "qst000238-complete",
+    "description": "Tracks completion state for Weekly: Forest Debt Weekly.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000239",
+    "quest_id": "QST000239",
+    "flag_name": "QST000239 Complete",
+    "slug": "qst000239-complete",
+    "description": "Tracks completion state for Weekly: Skyward Bell Weekly.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000240",
+    "quest_id": "QST000240",
+    "flag_name": "QST000240 Complete",
+    "slug": "qst000240-complete",
+    "description": "Tracks completion state for Weekly: Balete Echo Weekly.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000241",
+    "quest_id": "QST000241",
+    "flag_name": "QST000241 Complete",
+    "slug": "qst000241-complete",
+    "description": "Tracks completion state for Hidden: River Oath Hidden.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000242",
+    "quest_id": "QST000242",
+    "flag_name": "QST000242 Complete",
+    "slug": "qst000242-complete",
+    "description": "Tracks completion state for Hidden: Coral Lantern Hidden.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000243",
+    "quest_id": "QST000243",
+    "flag_name": "QST000243 Complete",
+    "slug": "qst000243-complete",
+    "description": "Tracks completion state for Hidden: Moon Road Hidden.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000244",
+    "quest_id": "QST000244",
+    "flag_name": "QST000244 Complete",
+    "slug": "qst000244-complete",
+    "description": "Tracks completion state for Hidden: Hidden Drum Hidden.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000245",
+    "quest_id": "QST000245",
+    "flag_name": "QST000245 Complete",
+    "slug": "qst000245-complete",
+    "description": "Tracks completion state for Hidden: Storm Shrine Hidden.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000246",
+    "quest_id": "QST000246",
+    "flag_name": "QST000246 Complete",
+    "slug": "qst000246-complete",
+    "description": "Tracks completion state for Hidden: Ancestor Thread Hidden.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000247",
+    "quest_id": "QST000247",
+    "flag_name": "QST000247 Complete",
+    "slug": "qst000247-complete",
+    "description": "Tracks completion state for Hidden: Pearl Witness Hidden.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000248",
+    "quest_id": "QST000248",
+    "flag_name": "QST000248 Complete",
+    "slug": "qst000248-complete",
+    "description": "Tracks completion state for Hidden: Forest Debt Hidden.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000249",
+    "quest_id": "QST000249",
+    "flag_name": "QST000249 Complete",
+    "slug": "qst000249-complete",
+    "description": "Tracks completion state for Hidden: Skyward Bell Hidden.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000250",
+    "quest_id": "QST000250",
+    "flag_name": "QST000250 Complete",
+    "slug": "qst000250-complete",
+    "description": "Tracks completion state for Hidden: Balete Echo Hidden.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000251",
+    "quest_id": "QST000251",
+    "flag_name": "QST000251 Complete",
+    "slug": "qst000251-complete",
+    "description": "Tracks completion state for Hidden: River Oath Hidden.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000252",
+    "quest_id": "QST000252",
+    "flag_name": "QST000252 Complete",
+    "slug": "qst000252-complete",
+    "description": "Tracks completion state for Hidden: Coral Lantern Hidden.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000253",
+    "quest_id": "QST000253",
+    "flag_name": "QST000253 Complete",
+    "slug": "qst000253-complete",
+    "description": "Tracks completion state for Hidden: Moon Road Hidden.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000254",
+    "quest_id": "QST000254",
+    "flag_name": "QST000254 Complete",
+    "slug": "qst000254-complete",
+    "description": "Tracks completion state for Hidden: Hidden Drum Hidden.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000255",
+    "quest_id": "QST000255",
+    "flag_name": "QST000255 Complete",
+    "slug": "qst000255-complete",
+    "description": "Tracks completion state for Hidden: Storm Shrine Hidden.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000256",
+    "quest_id": "QST000256",
+    "flag_name": "QST000256 Complete",
+    "slug": "qst000256-complete",
+    "description": "Tracks completion state for Hidden: Ancestor Thread Hidden.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000257",
+    "quest_id": "QST000257",
+    "flag_name": "QST000257 Complete",
+    "slug": "qst000257-complete",
+    "description": "Tracks completion state for Hidden: Pearl Witness Hidden.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000258",
+    "quest_id": "QST000258",
+    "flag_name": "QST000258 Complete",
+    "slug": "qst000258-complete",
+    "description": "Tracks completion state for Hidden: Forest Debt Hidden.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000259",
+    "quest_id": "QST000259",
+    "flag_name": "QST000259 Complete",
+    "slug": "qst000259-complete",
+    "description": "Tracks completion state for Hidden: Skyward Bell Hidden.",
+    "default_value": false,
+    "scope": "player"
+  },
+  {
+    "flag_id": "QFLAG000260",
+    "quest_id": "QST000260",
+    "flag_name": "QST000260 Complete",
+    "slug": "qst000260-complete",
+    "description": "Tracks completion state for Hidden: Balete Echo Hidden.",
+    "default_value": false,
+    "scope": "player"
+  }
+]

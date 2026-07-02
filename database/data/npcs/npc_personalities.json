@@ -1,0 +1,240 @@
+[
+  {
+    "personality_id": "NPCPER0001",
+    "name": "Cheerful",
+    "slug": "cheerful",
+    "description": "Cheerful NPCs modify dialogue tone, schedule priorities, quest behavior, reactions, and friendship gain.",
+    "dialogue_modifier": "cheerful",
+    "friendship_modifier": 0.85,
+    "schedule_modifier": "community_first",
+    "reaction_tags": [
+      "cheerful",
+      "warm"
+    ],
+    "is_active": true
+  },
+  {
+    "personality_id": "NPCPER0002",
+    "name": "Serious",
+    "slug": "serious",
+    "description": "Serious NPCs modify dialogue tone, schedule priorities, quest behavior, reactions, and friendship gain.",
+    "dialogue_modifier": "serious",
+    "friendship_modifier": 0.9,
+    "schedule_modifier": "work_first",
+    "reaction_tags": [
+      "serious",
+      "measured"
+    ],
+    "is_active": true
+  },
+  {
+    "personality_id": "NPCPER0003",
+    "name": "Wise",
+    "slug": "wise",
+    "description": "Wise NPCs modify dialogue tone, schedule priorities, quest behavior, reactions, and friendship gain.",
+    "dialogue_modifier": "wise",
+    "friendship_modifier": 0.95,
+    "schedule_modifier": "community_first",
+    "reaction_tags": [
+      "wise",
+      "warm"
+    ],
+    "is_active": true
+  },
+  {
+    "personality_id": "NPCPER0004",
+    "name": "Reserved",
+    "slug": "reserved",
+    "description": "Reserved NPCs modify dialogue tone, schedule priorities, quest behavior, reactions, and friendship gain.",
+    "dialogue_modifier": "reserved",
+    "friendship_modifier": 1,
+    "schedule_modifier": "work_first",
+    "reaction_tags": [
+      "reserved",
+      "measured"
+    ],
+    "is_active": true
+  },
+  {
+    "personality_id": "NPCPER0005",
+    "name": "Proud",
+    "slug": "proud",
+    "description": "Proud NPCs modify dialogue tone, schedule priorities, quest behavior, reactions, and friendship gain.",
+    "dialogue_modifier": "proud",
+    "friendship_modifier": 1.05,
+    "schedule_modifier": "community_first",
+    "reaction_tags": [
+      "proud",
+      "warm"
+    ],
+    "is_active": true
+  },
+  {
+    "personality_id": "NPCPER0006",
+    "name": "Brave",
+    "slug": "brave",
+    "description": "Brave NPCs modify dialogue tone, schedule priorities, quest behavior, reactions, and friendship gain.",
+    "dialogue_modifier": "brave",
+    "friendship_modifier": 1.1,
+    "schedule_modifier": "work_first",
+    "reaction_tags": [
+      "brave",
+      "measured"
+    ],
+    "is_active": true
+  },
+  {
+    "personality_id": "NPCPER0007",
+    "name": "Cowardly",
+    "slug": "cowardly",
+    "description": "Cowardly NPCs modify dialogue tone, schedule priorities, quest behavior, reactions, and friendship gain.",
+    "dialogue_modifier": "cowardly",
+    "friendship_modifier": 0.85,
+    "schedule_modifier": "community_first",
+    "reaction_tags": [
+      "cowardly",
+      "warm"
+    ],
+    "is_active": true
+  },
+  {
+    "personality_id": "NPCPER0008",
+    "name": "Curious",
+    "slug": "curious",
+    "description": "Curious NPCs modify dialogue tone, schedule priorities, quest behavior, reactions, and friendship gain.",
+    "dialogue_modifier": "curious",
+    "friendship_modifier": 0.9,
+    "schedule_modifier": "work_first",
+    "reaction_tags": [
+      "curious",
+      "measured"
+    ],
+    "is_active": true
+  },
+  {
+    "personality_id": "NPCPER0009",
+    "name": "Mischievous",
+    "slug": "mischievous",
+    "description": "Mischievous NPCs modify dialogue tone, schedule priorities, quest behavior, reactions, and friendship gain.",
+    "dialogue_modifier": "mischievous",
+    "friendship_modifier": 0.95,
+    "schedule_modifier": "community_first",
+    "reaction_tags": [
+      "mischievous",
+      "warm"
+    ],
+    "is_active": true
+  },
+  {
+    "personality_id": "NPCPER0010",
+    "name": "Compassionate",
+    "slug": "compassionate",
+    "description": "Compassionate NPCs modify dialogue tone, schedule priorities, quest behavior, reactions, and friendship gain.",
+    "dialogue_modifier": "compassionate",
+    "friendship_modifier": 1,
+    "schedule_modifier": "work_first",
+    "reaction_tags": [
+      "compassionate",
+      "measured"
+    ],
+    "is_active": true
+  },
+  {
+    "personality_id": "NPCPER0011",
+    "name": "Stoic",
+    "slug": "stoic",
+    "description": "Stoic NPCs modify dialogue tone, schedule priorities, quest behavior, reactions, and friendship gain.",
+    "dialogue_modifier": "stoic",
+    "friendship_modifier": 1.05,
+    "schedule_modifier": "community_first",
+    "reaction_tags": [
+      "stoic",
+      "warm"
+    ],
+    "is_active": true
+  },
+  {
+    "personality_id": "NPCPER0012",
+    "name": "Ambitious",
+    "slug": "ambitious",
+    "description": "Ambitious NPCs modify dialogue tone, schedule priorities, quest behavior, reactions, and friendship gain.",
+    "dialogue_modifier": "ambitious",
+    "friendship_modifier": 1.1,
+    "schedule_modifier": "work_first",
+    "reaction_tags": [
+      "ambitious",
+      "measured"
+    ],
+    "is_active": true
+  },
+  {
+    "personality_id": "NPCPER0013",
+    "name": "Spiritual",
+    "slug": "spiritual",
+    "description": "Spiritual NPCs modify dialogue tone, schedule priorities, quest behavior, reactions, and friendship gain.",
+    "dialogue_modifier": "spiritual",
+    "friendship_modifier": 0.85,
+    "schedule_modifier": "community_first",
+    "reaction_tags": [
+      "spiritual",
+      "warm"
+    ],
+    "is_active": true
+  },
+  {
+    "personality_id": "NPCPER0014",
+    "name": "Scholarly",
+    "slug": "scholarly",
+    "description": "Scholarly NPCs modify dialogue tone, schedule priorities, quest behavior, reactions, and friendship gain.",
+    "dialogue_modifier": "scholarly",
+    "friendship_modifier": 0.9,
+    "schedule_modifier": "work_first",
+    "reaction_tags": [
+      "scholarly",
+      "measured"
+    ],
+    "is_active": true
+  },
+  {
+    "personality_id": "NPCPER0015",
+    "name": "Humble",
+    "slug": "humble",
+    "description": "Humble NPCs modify dialogue tone, schedule priorities, quest behavior, reactions, and friendship gain.",
+    "dialogue_modifier": "humble",
+    "friendship_modifier": 0.95,
+    "schedule_modifier": "community_first",
+    "reaction_tags": [
+      "humble",
+      "warm"
+    ],
+    "is_active": true
+  },
+  {
+    "personality_id": "NPCPER0016",
+    "name": "Protective",
+    "slug": "protective",
+    "description": "Protective NPCs modify dialogue tone, schedule priorities, quest behavior, reactions, and friendship gain.",
+    "dialogue_modifier": "protective",
+    "friendship_modifier": 1,
+    "schedule_modifier": "work_first",
+    "reaction_tags": [
+      "protective",
+      "measured"
+    ],
+    "is_active": true
+  },
+  {
+    "personality_id": "NPCPER0017",
+    "name": "Competitive",
+    "slug": "competitive",
+    "description": "Competitive NPCs modify dialogue tone, schedule priorities, quest behavior, reactions, and friendship gain.",
+    "dialogue_modifier": "competitive",
+    "friendship_modifier": 1.05,
+    "schedule_modifier": "community_first",
+    "reaction_tags": [
+      "competitive",
+      "warm"
+    ],
+    "is_active": true
+  }
+]

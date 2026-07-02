@@ -1,0 +1,65 @@
+[
+  {
+    "status_id": "QSTAT0001",
+    "code": "not_started",
+    "name": "Not Started",
+    "slug": "not-started",
+    "description": "Not Started quest status.",
+    "sort_order": 1,
+    "is_active": true
+  },
+  {
+    "status_id": "QSTAT0002",
+    "code": "available",
+    "name": "Available",
+    "slug": "available",
+    "description": "Available quest status.",
+    "sort_order": 2,
+    "is_active": true
+  },
+  {
+    "status_id": "QSTAT0003",
+    "code": "active",
+    "name": "Active",
+    "slug": "active",
+    "description": "Active quest status.",
+    "sort_order": 3,
+    "is_active": true
+  },
+  {
+    "status_id": "QSTAT0004",
+    "code": "completed",
+    "name": "Completed",
+    "slug": "completed",
+    "description": "Completed quest status.",
+    "sort_order": 4,
+    "is_active": true
+  },
+  {
+    "status_id": "QSTAT0005",
+    "code": "failed",
+    "name": "Failed",
+    "slug": "failed",
+    "description": "Failed quest status.",
+    "sort_order": 5,
+    "is_active": true
+  },
+  {
+    "status_id": "QSTAT0006",
+    "code": "locked",
+    "name": "Locked",
+    "slug": "locked",
+    "description": "Locked quest status.",
+    "sort_order": 6,
+    "is_active": true
+  },
+  {
+    "status_id": "QSTAT0007",
+    "code": "expired",
+    "name": "Expired",
+    "slug": "expired",
+    "description": "Expired quest status.",
+    "sort_order": 7,
+    "is_active": true
+  }
+]

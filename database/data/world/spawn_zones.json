@@ -1,0 +1,1668 @@
+[
+  {
+    "spawn_zone_id": "WSPAWN000001",
+    "location_id": "WLOC000004",
+    "monster_id": "MON0001",
+    "spawn_rate": 0.15,
+    "min_level": 5,
+    "max_level": 14,
+    "weather_requirement": "Moonlit",
+    "time_requirement": "night",
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "reef_shallows"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000002",
+    "location_id": "WLOC000005",
+    "monster_id": "MON0002",
+    "spawn_rate": 0.2,
+    "min_level": 6,
+    "max_level": 15,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "cave_stone"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000003",
+    "location_id": "WLOC000006",
+    "monster_id": "MON0003",
+    "spawn_rate": 0.25,
+    "min_level": 7,
+    "max_level": 16,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "spirit_threshold"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000004",
+    "location_id": "WLOC000007",
+    "monster_id": "MON0004",
+    "spawn_rate": 0.3,
+    "min_level": 12,
+    "max_level": 25,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "town_path"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000005",
+    "location_id": "WLOC000008",
+    "monster_id": "MON0005",
+    "spawn_rate": 0.35,
+    "min_level": 1,
+    "max_level": 18,
+    "weather_requirement": "Storm",
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "forest_floor"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000006",
+    "location_id": "WLOC000009",
+    "monster_id": "MON0006",
+    "spawn_rate": 0.4,
+    "min_level": 2,
+    "max_level": 19,
+    "weather_requirement": null,
+    "time_requirement": "night",
+    "quest_requirement": "QST000006",
+    "condition_payload": {
+      "terrain": "riverbank"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000007",
+    "location_id": "WLOC000010",
+    "monster_id": "MON0007",
+    "spawn_rate": 0.15,
+    "min_level": 30,
+    "max_level": 50,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": "QST000007",
+    "condition_payload": {
+      "terrain": "mountain_trail"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000008",
+    "location_id": "WLOC000014",
+    "monster_id": "MON0008",
+    "spawn_rate": 0.2,
+    "min_level": 7,
+    "max_level": 14,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "town_path"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000009",
+    "location_id": "WLOC000015",
+    "monster_id": "MON0009",
+    "spawn_rate": 0.25,
+    "min_level": 8,
+    "max_level": 15,
+    "weather_requirement": "Mist",
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "forest_floor"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000010",
+    "location_id": "WLOC000016",
+    "monster_id": "MON0010",
+    "spawn_rate": 0.3,
+    "min_level": 1,
+    "max_level": 16,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "riverbank"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000011",
+    "location_id": "WLOC000017",
+    "monster_id": "MON0011",
+    "spawn_rate": 0.35,
+    "min_level": 12,
+    "max_level": 25,
+    "weather_requirement": null,
+    "time_requirement": "night",
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "mountain_trail"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000012",
+    "location_id": "WLOC000018",
+    "monster_id": "MON0012",
+    "spawn_rate": 0.4,
+    "min_level": 3,
+    "max_level": 18,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "reef_shallows"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000013",
+    "location_id": "WLOC000019",
+    "monster_id": "MON0013",
+    "spawn_rate": 0.15,
+    "min_level": 4,
+    "max_level": 19,
+    "weather_requirement": "Rain",
+    "time_requirement": null,
+    "quest_requirement": "QST000013",
+    "condition_payload": {
+      "terrain": "cave_stone"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000014",
+    "location_id": "WLOC000020",
+    "monster_id": "MON0014",
+    "spawn_rate": 0.2,
+    "min_level": 30,
+    "max_level": 50,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": "QST000014",
+    "condition_payload": {
+      "terrain": "spirit_threshold"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000015",
+    "location_id": "WLOC000024",
+    "monster_id": "MON0015",
+    "spawn_rate": 0.25,
+    "min_level": 1,
+    "max_level": 14,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "mountain_trail"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000016",
+    "location_id": "WLOC000025",
+    "monster_id": "MON0016",
+    "spawn_rate": 0.3,
+    "min_level": 2,
+    "max_level": 15,
+    "weather_requirement": null,
+    "time_requirement": "night",
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "reef_shallows"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000017",
+    "location_id": "WLOC000026",
+    "monster_id": "MON0017",
+    "spawn_rate": 0.35,
+    "min_level": 3,
+    "max_level": 16,
+    "weather_requirement": "Storm",
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "cave_stone"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000018",
+    "location_id": "WLOC000027",
+    "monster_id": "MON0018",
+    "spawn_rate": 0.4,
+    "min_level": 12,
+    "max_level": 25,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "spirit_threshold"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000019",
+    "location_id": "WLOC000028",
+    "monster_id": "MON0019",
+    "spawn_rate": 0.15,
+    "min_level": 5,
+    "max_level": 18,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "town_path"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000020",
+    "location_id": "WLOC000029",
+    "monster_id": "MON0020",
+    "spawn_rate": 0.2,
+    "min_level": 6,
+    "max_level": 19,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": "QST000020",
+    "condition_payload": {
+      "terrain": "forest_floor"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000021",
+    "location_id": "WLOC000030",
+    "monster_id": "MON0021",
+    "spawn_rate": 0.25,
+    "min_level": 30,
+    "max_level": 50,
+    "weather_requirement": "Clear",
+    "time_requirement": "night",
+    "quest_requirement": "QST000021",
+    "condition_payload": {
+      "terrain": "riverbank"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000022",
+    "location_id": "WLOC000034",
+    "monster_id": "MON0022",
+    "spawn_rate": 0.3,
+    "min_level": 3,
+    "max_level": 14,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "spirit_threshold"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000023",
+    "location_id": "WLOC000035",
+    "monster_id": "MON0023",
+    "spawn_rate": 0.35,
+    "min_level": 4,
+    "max_level": 15,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "town_path"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000024",
+    "location_id": "WLOC000036",
+    "monster_id": "MON0024",
+    "spawn_rate": 0.4,
+    "min_level": 5,
+    "max_level": 16,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "forest_floor"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000025",
+    "location_id": "WLOC000037",
+    "monster_id": "MON0025",
+    "spawn_rate": 0.15,
+    "min_level": 12,
+    "max_level": 25,
+    "weather_requirement": "Rain",
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "riverbank"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000026",
+    "location_id": "WLOC000038",
+    "monster_id": "MON0026",
+    "spawn_rate": 0.2,
+    "min_level": 7,
+    "max_level": 18,
+    "weather_requirement": null,
+    "time_requirement": "night",
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "mountain_trail"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000027",
+    "location_id": "WLOC000039",
+    "monster_id": "MON0027",
+    "spawn_rate": 0.25,
+    "min_level": 8,
+    "max_level": 19,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": "QST000027",
+    "condition_payload": {
+      "terrain": "reef_shallows"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000028",
+    "location_id": "WLOC000040",
+    "monster_id": "MON0028",
+    "spawn_rate": 0.3,
+    "min_level": 30,
+    "max_level": 50,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": "QST000028",
+    "condition_payload": {
+      "terrain": "cave_stone"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000029",
+    "location_id": "WLOC000044",
+    "monster_id": "MON0029",
+    "spawn_rate": 0.35,
+    "min_level": 5,
+    "max_level": 14,
+    "weather_requirement": "Storm",
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "riverbank"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000030",
+    "location_id": "WLOC000045",
+    "monster_id": "MON0030",
+    "spawn_rate": 0.4,
+    "min_level": 6,
+    "max_level": 15,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "mountain_trail"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000031",
+    "location_id": "WLOC000046",
+    "monster_id": "MON0031",
+    "spawn_rate": 0.15,
+    "min_level": 7,
+    "max_level": 16,
+    "weather_requirement": null,
+    "time_requirement": "night",
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "reef_shallows"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000032",
+    "location_id": "WLOC000047",
+    "monster_id": "MON0032",
+    "spawn_rate": 0.2,
+    "min_level": 12,
+    "max_level": 25,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "cave_stone"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000033",
+    "location_id": "WLOC000048",
+    "monster_id": "MON0033",
+    "spawn_rate": 0.25,
+    "min_level": 1,
+    "max_level": 18,
+    "weather_requirement": "Clear",
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "spirit_threshold"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000034",
+    "location_id": "WLOC000049",
+    "monster_id": "MON0034",
+    "spawn_rate": 0.3,
+    "min_level": 2,
+    "max_level": 19,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": "QST000034",
+    "condition_payload": {
+      "terrain": "town_path"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000035",
+    "location_id": "WLOC000050",
+    "monster_id": "MON0035",
+    "spawn_rate": 0.35,
+    "min_level": 30,
+    "max_level": 50,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": "QST000035",
+    "condition_payload": {
+      "terrain": "forest_floor"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000036",
+    "location_id": "WLOC000054",
+    "monster_id": "MON0036",
+    "spawn_rate": 0.4,
+    "min_level": 7,
+    "max_level": 14,
+    "weather_requirement": null,
+    "time_requirement": "night",
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "cave_stone"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000037",
+    "location_id": "WLOC000055",
+    "monster_id": "MON0037",
+    "spawn_rate": 0.15,
+    "min_level": 8,
+    "max_level": 15,
+    "weather_requirement": "Rain",
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "spirit_threshold"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000038",
+    "location_id": "WLOC000056",
+    "monster_id": "MON0038",
+    "spawn_rate": 0.2,
+    "min_level": 1,
+    "max_level": 16,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "town_path"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000039",
+    "location_id": "WLOC000057",
+    "monster_id": "MON0039",
+    "spawn_rate": 0.25,
+    "min_level": 12,
+    "max_level": 25,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "forest_floor"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000040",
+    "location_id": "WLOC000058",
+    "monster_id": "MON0040",
+    "spawn_rate": 0.3,
+    "min_level": 3,
+    "max_level": 18,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "riverbank"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000041",
+    "location_id": "WLOC000059",
+    "monster_id": "MON0041",
+    "spawn_rate": 0.35,
+    "min_level": 4,
+    "max_level": 19,
+    "weather_requirement": "Humid",
+    "time_requirement": "night",
+    "quest_requirement": "QST000041",
+    "condition_payload": {
+      "terrain": "mountain_trail"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000042",
+    "location_id": "WLOC000060",
+    "monster_id": "MON0042",
+    "spawn_rate": 0.4,
+    "min_level": 30,
+    "max_level": 50,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": "QST000042",
+    "condition_payload": {
+      "terrain": "reef_shallows"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000043",
+    "location_id": "WLOC000064",
+    "monster_id": "MON0043",
+    "spawn_rate": 0.15,
+    "min_level": 1,
+    "max_level": 14,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "forest_floor"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000044",
+    "location_id": "WLOC000065",
+    "monster_id": "MON0044",
+    "spawn_rate": 0.2,
+    "min_level": 2,
+    "max_level": 15,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "riverbank"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000045",
+    "location_id": "WLOC000066",
+    "monster_id": "MON0045",
+    "spawn_rate": 0.25,
+    "min_level": 3,
+    "max_level": 16,
+    "weather_requirement": "Clear",
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "mountain_trail"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000046",
+    "location_id": "WLOC000067",
+    "monster_id": "MON0046",
+    "spawn_rate": 0.3,
+    "min_level": 12,
+    "max_level": 25,
+    "weather_requirement": null,
+    "time_requirement": "night",
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "reef_shallows"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000047",
+    "location_id": "WLOC000068",
+    "monster_id": "MON0047",
+    "spawn_rate": 0.35,
+    "min_level": 5,
+    "max_level": 18,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "cave_stone"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000048",
+    "location_id": "WLOC000069",
+    "monster_id": "MON0048",
+    "spawn_rate": 0.4,
+    "min_level": 6,
+    "max_level": 19,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": "QST000048",
+    "condition_payload": {
+      "terrain": "spirit_threshold"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000049",
+    "location_id": "WLOC000070",
+    "monster_id": "MON0049",
+    "spawn_rate": 0.15,
+    "min_level": 30,
+    "max_level": 50,
+    "weather_requirement": "Moonlit",
+    "time_requirement": null,
+    "quest_requirement": "QST000049",
+    "condition_payload": {
+      "terrain": "town_path"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000050",
+    "location_id": "WLOC000074",
+    "monster_id": "MON0050",
+    "spawn_rate": 0.2,
+    "min_level": 3,
+    "max_level": 14,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "reef_shallows"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000051",
+    "location_id": "WLOC000075",
+    "monster_id": "MON0051",
+    "spawn_rate": 0.25,
+    "min_level": 4,
+    "max_level": 15,
+    "weather_requirement": null,
+    "time_requirement": "night",
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "cave_stone"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000052",
+    "location_id": "WLOC000076",
+    "monster_id": "MON0052",
+    "spawn_rate": 0.3,
+    "min_level": 5,
+    "max_level": 16,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "spirit_threshold"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000053",
+    "location_id": "WLOC000077",
+    "monster_id": "MON0053",
+    "spawn_rate": 0.35,
+    "min_level": 12,
+    "max_level": 25,
+    "weather_requirement": "Humid",
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "town_path"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000054",
+    "location_id": "WLOC000078",
+    "monster_id": "MON0054",
+    "spawn_rate": 0.4,
+    "min_level": 7,
+    "max_level": 18,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "forest_floor"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000055",
+    "location_id": "WLOC000079",
+    "monster_id": "MON0055",
+    "spawn_rate": 0.15,
+    "min_level": 8,
+    "max_level": 19,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": "QST000055",
+    "condition_payload": {
+      "terrain": "riverbank"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000056",
+    "location_id": "WLOC000080",
+    "monster_id": "MON0056",
+    "spawn_rate": 0.2,
+    "min_level": 30,
+    "max_level": 50,
+    "weather_requirement": null,
+    "time_requirement": "night",
+    "quest_requirement": "QST000056",
+    "condition_payload": {
+      "terrain": "mountain_trail"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000057",
+    "location_id": "WLOC000084",
+    "monster_id": "MON0057",
+    "spawn_rate": 0.25,
+    "min_level": 5,
+    "max_level": 14,
+    "weather_requirement": "Clear",
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "town_path"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000058",
+    "location_id": "WLOC000085",
+    "monster_id": "MON0058",
+    "spawn_rate": 0.3,
+    "min_level": 6,
+    "max_level": 15,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "forest_floor"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000059",
+    "location_id": "WLOC000086",
+    "monster_id": "MON0059",
+    "spawn_rate": 0.35,
+    "min_level": 7,
+    "max_level": 16,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "riverbank"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000060",
+    "location_id": "WLOC000087",
+    "monster_id": "MON0060",
+    "spawn_rate": 0.4,
+    "min_level": 12,
+    "max_level": 25,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "mountain_trail"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000061",
+    "location_id": "WLOC000088",
+    "monster_id": "MON0061",
+    "spawn_rate": 0.15,
+    "min_level": 1,
+    "max_level": 18,
+    "weather_requirement": "Moonlit",
+    "time_requirement": "night",
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "reef_shallows"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000062",
+    "location_id": "WLOC000089",
+    "monster_id": "MON0062",
+    "spawn_rate": 0.2,
+    "min_level": 2,
+    "max_level": 19,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": "QST000062",
+    "condition_payload": {
+      "terrain": "cave_stone"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000063",
+    "location_id": "WLOC000090",
+    "monster_id": "MON0063",
+    "spawn_rate": 0.25,
+    "min_level": 30,
+    "max_level": 50,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": "QST000063",
+    "condition_payload": {
+      "terrain": "spirit_threshold"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000064",
+    "location_id": "WLOC000094",
+    "monster_id": "MON0064",
+    "spawn_rate": 0.3,
+    "min_level": 7,
+    "max_level": 14,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "mountain_trail"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000065",
+    "location_id": "WLOC000095",
+    "monster_id": "MON0065",
+    "spawn_rate": 0.35,
+    "min_level": 8,
+    "max_level": 15,
+    "weather_requirement": "Humid",
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "reef_shallows"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000066",
+    "location_id": "WLOC000096",
+    "monster_id": "MON0066",
+    "spawn_rate": 0.4,
+    "min_level": 1,
+    "max_level": 16,
+    "weather_requirement": null,
+    "time_requirement": "night",
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "cave_stone"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000067",
+    "location_id": "WLOC000097",
+    "monster_id": "MON0067",
+    "spawn_rate": 0.15,
+    "min_level": 12,
+    "max_level": 25,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "spirit_threshold"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000068",
+    "location_id": "WLOC000098",
+    "monster_id": "MON0068",
+    "spawn_rate": 0.2,
+    "min_level": 3,
+    "max_level": 18,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "town_path"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000069",
+    "location_id": "WLOC000099",
+    "monster_id": "MON0069",
+    "spawn_rate": 0.25,
+    "min_level": 4,
+    "max_level": 19,
+    "weather_requirement": "Mist",
+    "time_requirement": null,
+    "quest_requirement": "QST000069",
+    "condition_payload": {
+      "terrain": "forest_floor"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000070",
+    "location_id": "WLOC000100",
+    "monster_id": "MON0070",
+    "spawn_rate": 0.3,
+    "min_level": 30,
+    "max_level": 50,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": "QST000070",
+    "condition_payload": {
+      "terrain": "riverbank"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000071",
+    "location_id": "WLOC000104",
+    "monster_id": "MON0071",
+    "spawn_rate": 0.35,
+    "min_level": 1,
+    "max_level": 14,
+    "weather_requirement": null,
+    "time_requirement": "night",
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "spirit_threshold"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000072",
+    "location_id": "WLOC000105",
+    "monster_id": "MON0072",
+    "spawn_rate": 0.4,
+    "min_level": 2,
+    "max_level": 15,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "town_path"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000073",
+    "location_id": "WLOC000106",
+    "monster_id": "MON0073",
+    "spawn_rate": 0.15,
+    "min_level": 3,
+    "max_level": 16,
+    "weather_requirement": "Moonlit",
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "forest_floor"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000074",
+    "location_id": "WLOC000107",
+    "monster_id": "MON0074",
+    "spawn_rate": 0.2,
+    "min_level": 12,
+    "max_level": 25,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "riverbank"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000075",
+    "location_id": "WLOC000108",
+    "monster_id": "MON0075",
+    "spawn_rate": 0.25,
+    "min_level": 5,
+    "max_level": 18,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "mountain_trail"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000076",
+    "location_id": "WLOC000109",
+    "monster_id": "MON0076",
+    "spawn_rate": 0.3,
+    "min_level": 6,
+    "max_level": 19,
+    "weather_requirement": null,
+    "time_requirement": "night",
+    "quest_requirement": "QST000076",
+    "condition_payload": {
+      "terrain": "reef_shallows"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000077",
+    "location_id": "WLOC000110",
+    "monster_id": "MON0077",
+    "spawn_rate": 0.35,
+    "min_level": 30,
+    "max_level": 50,
+    "weather_requirement": "Storm",
+    "time_requirement": null,
+    "quest_requirement": "QST000077",
+    "condition_payload": {
+      "terrain": "cave_stone"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000078",
+    "location_id": "WLOC000114",
+    "monster_id": "MON0078",
+    "spawn_rate": 0.4,
+    "min_level": 3,
+    "max_level": 14,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "riverbank"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000079",
+    "location_id": "WLOC000115",
+    "monster_id": "MON0079",
+    "spawn_rate": 0.15,
+    "min_level": 4,
+    "max_level": 15,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "mountain_trail"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000080",
+    "location_id": "WLOC000116",
+    "monster_id": "MON0080",
+    "spawn_rate": 0.2,
+    "min_level": 5,
+    "max_level": 16,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "reef_shallows"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000081",
+    "location_id": "WLOC000117",
+    "monster_id": "MON0081",
+    "spawn_rate": 0.25,
+    "min_level": 12,
+    "max_level": 25,
+    "weather_requirement": "Mist",
+    "time_requirement": "night",
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "cave_stone"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000082",
+    "location_id": "WLOC000118",
+    "monster_id": "MON0082",
+    "spawn_rate": 0.3,
+    "min_level": 7,
+    "max_level": 18,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "spirit_threshold"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000083",
+    "location_id": "WLOC000119",
+    "monster_id": "MON0083",
+    "spawn_rate": 0.35,
+    "min_level": 8,
+    "max_level": 19,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": "QST000083",
+    "condition_payload": {
+      "terrain": "town_path"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000084",
+    "location_id": "WLOC000120",
+    "monster_id": "MON0084",
+    "spawn_rate": 0.4,
+    "min_level": 30,
+    "max_level": 50,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": "QST000084",
+    "condition_payload": {
+      "terrain": "forest_floor"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000085",
+    "location_id": "WLOC000124",
+    "monster_id": "MON0085",
+    "spawn_rate": 0.15,
+    "min_level": 5,
+    "max_level": 14,
+    "weather_requirement": "Moonlit",
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "cave_stone"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000086",
+    "location_id": "WLOC000125",
+    "monster_id": "MON0086",
+    "spawn_rate": 0.2,
+    "min_level": 6,
+    "max_level": 15,
+    "weather_requirement": null,
+    "time_requirement": "night",
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "spirit_threshold"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000087",
+    "location_id": "WLOC000126",
+    "monster_id": "MON0087",
+    "spawn_rate": 0.25,
+    "min_level": 7,
+    "max_level": 16,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "town_path"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000088",
+    "location_id": "WLOC000127",
+    "monster_id": "MON0088",
+    "spawn_rate": 0.3,
+    "min_level": 12,
+    "max_level": 25,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "forest_floor"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000089",
+    "location_id": "WLOC000128",
+    "monster_id": "MON0089",
+    "spawn_rate": 0.35,
+    "min_level": 1,
+    "max_level": 18,
+    "weather_requirement": "Storm",
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "riverbank"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000090",
+    "location_id": "WLOC000129",
+    "monster_id": "MON0090",
+    "spawn_rate": 0.4,
+    "min_level": 2,
+    "max_level": 19,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": "QST000090",
+    "condition_payload": {
+      "terrain": "mountain_trail"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000091",
+    "location_id": "WLOC000130",
+    "monster_id": "MON0091",
+    "spawn_rate": 0.15,
+    "min_level": 30,
+    "max_level": 50,
+    "weather_requirement": null,
+    "time_requirement": "night",
+    "quest_requirement": "QST000091",
+    "condition_payload": {
+      "terrain": "reef_shallows"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000092",
+    "location_id": "WLOC000134",
+    "monster_id": "MON0092",
+    "spawn_rate": 0.2,
+    "min_level": 7,
+    "max_level": 14,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "forest_floor"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000093",
+    "location_id": "WLOC000135",
+    "monster_id": "MON0093",
+    "spawn_rate": 0.25,
+    "min_level": 8,
+    "max_level": 15,
+    "weather_requirement": "Mist",
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "riverbank"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000094",
+    "location_id": "WLOC000136",
+    "monster_id": "MON0094",
+    "spawn_rate": 0.3,
+    "min_level": 1,
+    "max_level": 16,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "mountain_trail"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000095",
+    "location_id": "WLOC000137",
+    "monster_id": "MON0095",
+    "spawn_rate": 0.35,
+    "min_level": 12,
+    "max_level": 25,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "reef_shallows"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000096",
+    "location_id": "WLOC000138",
+    "monster_id": "MON0096",
+    "spawn_rate": 0.4,
+    "min_level": 3,
+    "max_level": 18,
+    "weather_requirement": null,
+    "time_requirement": "night",
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "cave_stone"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000097",
+    "location_id": "WLOC000139",
+    "monster_id": "MON0097",
+    "spawn_rate": 0.15,
+    "min_level": 4,
+    "max_level": 19,
+    "weather_requirement": "Rain",
+    "time_requirement": null,
+    "quest_requirement": "QST000097",
+    "condition_payload": {
+      "terrain": "spirit_threshold"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000098",
+    "location_id": "WLOC000140",
+    "monster_id": "MON0098",
+    "spawn_rate": 0.2,
+    "min_level": 30,
+    "max_level": 50,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": "QST000098",
+    "condition_payload": {
+      "terrain": "town_path"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000099",
+    "location_id": "WLOC000144",
+    "monster_id": "MON0099",
+    "spawn_rate": 0.25,
+    "min_level": 1,
+    "max_level": 14,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "reef_shallows"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000100",
+    "location_id": "WLOC000145",
+    "monster_id": "MON0100",
+    "spawn_rate": 0.3,
+    "min_level": 2,
+    "max_level": 15,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "cave_stone"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000101",
+    "location_id": "WLOC000146",
+    "monster_id": "MON0001",
+    "spawn_rate": 0.35,
+    "min_level": 3,
+    "max_level": 16,
+    "weather_requirement": "Storm",
+    "time_requirement": "night",
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "spirit_threshold"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000102",
+    "location_id": "WLOC000147",
+    "monster_id": "MON0002",
+    "spawn_rate": 0.4,
+    "min_level": 12,
+    "max_level": 25,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "town_path"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000103",
+    "location_id": "WLOC000148",
+    "monster_id": "MON0003",
+    "spawn_rate": 0.15,
+    "min_level": 5,
+    "max_level": 18,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "forest_floor"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000104",
+    "location_id": "WLOC000149",
+    "monster_id": "MON0004",
+    "spawn_rate": 0.2,
+    "min_level": 6,
+    "max_level": 19,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": "QST000104",
+    "condition_payload": {
+      "terrain": "riverbank"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000105",
+    "location_id": "WLOC000150",
+    "monster_id": "MON0005",
+    "spawn_rate": 0.25,
+    "min_level": 30,
+    "max_level": 50,
+    "weather_requirement": "Clear",
+    "time_requirement": null,
+    "quest_requirement": "QST000105",
+    "condition_payload": {
+      "terrain": "mountain_trail"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000106",
+    "location_id": "WLOC000154",
+    "monster_id": "MON0006",
+    "spawn_rate": 0.3,
+    "min_level": 3,
+    "max_level": 14,
+    "weather_requirement": null,
+    "time_requirement": "night",
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "town_path"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000107",
+    "location_id": "WLOC000155",
+    "monster_id": "MON0007",
+    "spawn_rate": 0.35,
+    "min_level": 4,
+    "max_level": 15,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "forest_floor"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000108",
+    "location_id": "WLOC000156",
+    "monster_id": "MON0008",
+    "spawn_rate": 0.4,
+    "min_level": 5,
+    "max_level": 16,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "riverbank"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000109",
+    "location_id": "WLOC000157",
+    "monster_id": "MON0009",
+    "spawn_rate": 0.15,
+    "min_level": 12,
+    "max_level": 25,
+    "weather_requirement": "Rain",
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "mountain_trail"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000110",
+    "location_id": "WLOC000158",
+    "monster_id": "MON0010",
+    "spawn_rate": 0.2,
+    "min_level": 7,
+    "max_level": 18,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "reef_shallows"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000111",
+    "location_id": "WLOC000159",
+    "monster_id": "MON0011",
+    "spawn_rate": 0.25,
+    "min_level": 8,
+    "max_level": 19,
+    "weather_requirement": null,
+    "time_requirement": "night",
+    "quest_requirement": "QST000111",
+    "condition_payload": {
+      "terrain": "cave_stone"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000112",
+    "location_id": "WLOC000160",
+    "monster_id": "MON0012",
+    "spawn_rate": 0.3,
+    "min_level": 30,
+    "max_level": 50,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": "QST000112",
+    "condition_payload": {
+      "terrain": "spirit_threshold"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000113",
+    "location_id": "WLOC000164",
+    "monster_id": "MON0013",
+    "spawn_rate": 0.35,
+    "min_level": 5,
+    "max_level": 14,
+    "weather_requirement": "Storm",
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "mountain_trail"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000114",
+    "location_id": "WLOC000165",
+    "monster_id": "MON0014",
+    "spawn_rate": 0.4,
+    "min_level": 6,
+    "max_level": 15,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "reef_shallows"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000115",
+    "location_id": "WLOC000166",
+    "monster_id": "MON0015",
+    "spawn_rate": 0.15,
+    "min_level": 7,
+    "max_level": 16,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "cave_stone"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000116",
+    "location_id": "WLOC000167",
+    "monster_id": "MON0016",
+    "spawn_rate": 0.2,
+    "min_level": 12,
+    "max_level": 25,
+    "weather_requirement": null,
+    "time_requirement": "night",
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "spirit_threshold"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000117",
+    "location_id": "WLOC000168",
+    "monster_id": "MON0017",
+    "spawn_rate": 0.25,
+    "min_level": 1,
+    "max_level": 18,
+    "weather_requirement": "Clear",
+    "time_requirement": null,
+    "quest_requirement": null,
+    "condition_payload": {
+      "terrain": "town_path"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000118",
+    "location_id": "WLOC000169",
+    "monster_id": "MON0018",
+    "spawn_rate": 0.3,
+    "min_level": 2,
+    "max_level": 19,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": "QST000118",
+    "condition_payload": {
+      "terrain": "forest_floor"
+    }
+  },
+  {
+    "spawn_zone_id": "WSPAWN000119",
+    "location_id": "WLOC000170",
+    "monster_id": "MON0019",
+    "spawn_rate": 0.35,
+    "min_level": 30,
+    "max_level": 50,
+    "weather_requirement": null,
+    "time_requirement": null,
+    "quest_requirement": "QST000119",
+    "condition_payload": {
+      "terrain": "riverbank"
+    }
+  }
+]

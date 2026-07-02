@@ -1,0 +1,21 @@
+[
+  {
+    "id": 19,
+    "uuid": "00000000-0000-4000-8000-000000000019",
+    "created_at": "2026-07-02T00:00:00+08:00",
+    "updated_at": "2026-07-02T00:00:00+08:00",
+    "version": "1.0.0",
+    "source": "Phase D architecture example",
+    "notes": "Example record for schema validation only; not production balance content.",
+    "targeting_profile_id": "TGP-0001",
+    "slug": "lowest-hp-enemy",
+    "name": "Lowest HP Enemy",
+    "target_type": "lowest_hp",
+    "filters": [
+      "enemy",
+      "alive"
+    ],
+    "tie_breaker": "nearest",
+    "description": "Selects the living enemy with the lowest HP percentage."
+  }
+]

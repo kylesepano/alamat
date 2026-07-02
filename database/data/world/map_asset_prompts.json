@@ -1,0 +1,1532 @@
+[
+  {
+    "map_asset_prompt_id": "WMAP000001",
+    "location_id": "WLOC000001",
+    "map_filename": "map_WLOC000001_laguna-starter-barangay-wloc000001.json",
+    "preview_image": "preview_WLOC000001_laguna-starter-barangay-wloc000001.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Laguna Starter Barangay\nLocation Type: barangay\nRegion: Ilocos Region\nProvince: Laguna\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nsafe village paths, homes, shrine corner, rice plots\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Laguna Starter Barangay: forest_floor, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000002",
+    "location_id": "WLOC000002",
+    "map_filename": "map_WLOC000002_laguna-marketplace-wloc000002.json",
+    "preview_image": "preview_WLOC000002_laguna-marketplace-wloc000002.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Laguna Marketplace\nLocation Type: market\nRegion: Ilocos Region\nProvince: Laguna\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nvendor lanes, food stall, blacksmith corner, notice board\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Laguna Marketplace: riverbank, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000003",
+    "location_id": "WLOC000003",
+    "map_filename": "map_WLOC000003_laguna-chapel-courtyard-wloc000003.json",
+    "preview_image": "preview_WLOC000003_laguna-chapel-courtyard-wloc000003.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Laguna Chapel Courtyard\nLocation Type: chapel\nRegion: Ilocos Region\nProvince: Laguna\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nsmall chapel, candles, garden path, community benches\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Laguna Chapel Courtyard: mountain_trail, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000004",
+    "location_id": "WLOC000004",
+    "map_filename": "map_WLOC000004_laguna-balete-forest-wloc000004.json",
+    "preview_image": "preview_WLOC000004_laguna-balete-forest-wloc000004.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Laguna Balete Forest\nLocation Type: forest\nRegion: Ilocos Region\nProvince: Laguna\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nlarge balete tree, root paths, firefly clearings, hidden shrine\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Laguna Balete Forest: reef_shallows, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000005",
+    "location_id": "WLOC000005",
+    "map_filename": "map_WLOC000005_laguna-river-dock-wloc000005.json",
+    "preview_image": "preview_WLOC000005_laguna-river-dock-wloc000005.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Laguna River Dock\nLocation Type: river\nRegion: Ilocos Region\nProvince: Laguna\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nwood dock, boats, reeds, ferry posts, fishing nets\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Laguna River Dock: cave_stone, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000006",
+    "location_id": "WLOC000006",
+    "map_filename": "map_WLOC000006_laguna-mountain-pass-wloc000006.json",
+    "preview_image": "preview_WLOC000006_laguna-mountain-pass-wloc000006.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Laguna Mountain Pass\nLocation Type: mountain\nRegion: Ilocos Region\nProvince: Laguna\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nstone path, cliff edges, watch post, cloud trail\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Laguna Mountain Pass: spirit_threshold, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000007",
+    "location_id": "WLOC000007",
+    "map_filename": "map_WLOC000007_laguna-echo-cave-dungeon-wloc000007.json",
+    "preview_image": "preview_WLOC000007_laguna-echo-cave-dungeon-wloc000007.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Laguna Echo Cave Dungeon\nLocation Type: dungeon\nRegion: Ilocos Region\nProvince: Laguna\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ncave halls, underground stream, cracked shrine, boss door\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Laguna Echo Cave Dungeon: town_path, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000008",
+    "location_id": "WLOC000008",
+    "map_filename": "map_WLOC000008_laguna-coral-reef-route-wloc000008.json",
+    "preview_image": "preview_WLOC000008_laguna-coral-reef-route-wloc000008.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Laguna Coral Reef Route\nLocation Type: coral_reef\nRegion: Ilocos Region\nProvince: Laguna\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nshallow reef paths, coral arches, tide pools, watch buoys\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Laguna Coral Reef Route: forest_floor, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000009",
+    "location_id": "WLOC000009",
+    "map_filename": "map_WLOC000009_laguna-spirit-realm-threshold-wloc000009.json",
+    "preview_image": "preview_WLOC000009_laguna-spirit-realm-threshold-wloc000009.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Laguna Spirit Realm Threshold\nLocation Type: spirit_realm\nRegion: Ilocos Region\nProvince: Laguna\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nmist gate, floating stones, spirit lanterns, mirrored water\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Laguna Spirit Realm Threshold: riverbank, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000010",
+    "location_id": "WLOC000010",
+    "map_filename": "map_WLOC000010_laguna-legendary-boss-arena-wloc000010.json",
+    "preview_image": "preview_WLOC000010_laguna-legendary-boss-arena-wloc000010.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Laguna Legendary Boss Arena\nLocation Type: boss_arena\nRegion: Ilocos Region\nProvince: Laguna\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nwide circular arena, ancient marks, storm sky, ritual stones\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Laguna Legendary Boss Arena: mountain_trail, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000011",
+    "location_id": "WLOC000011",
+    "map_filename": "map_WLOC000011_cebu-starter-barangay-wloc000011.json",
+    "preview_image": "preview_WLOC000011_cebu-starter-barangay-wloc000011.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Cebu Starter Barangay\nLocation Type: barangay\nRegion: Cagayan Valley\nProvince: Cebu\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nsafe village paths, homes, shrine corner, rice plots\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Cebu Starter Barangay: reef_shallows, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000012",
+    "location_id": "WLOC000012",
+    "map_filename": "map_WLOC000012_cebu-marketplace-wloc000012.json",
+    "preview_image": "preview_WLOC000012_cebu-marketplace-wloc000012.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Cebu Marketplace\nLocation Type: market\nRegion: Cagayan Valley\nProvince: Cebu\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nvendor lanes, food stall, blacksmith corner, notice board\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Cebu Marketplace: cave_stone, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000013",
+    "location_id": "WLOC000013",
+    "map_filename": "map_WLOC000013_cebu-chapel-courtyard-wloc000013.json",
+    "preview_image": "preview_WLOC000013_cebu-chapel-courtyard-wloc000013.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Cebu Chapel Courtyard\nLocation Type: chapel\nRegion: Cagayan Valley\nProvince: Cebu\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nsmall chapel, candles, garden path, community benches\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Cebu Chapel Courtyard: spirit_threshold, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000014",
+    "location_id": "WLOC000014",
+    "map_filename": "map_WLOC000014_cebu-balete-forest-wloc000014.json",
+    "preview_image": "preview_WLOC000014_cebu-balete-forest-wloc000014.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Cebu Balete Forest\nLocation Type: forest\nRegion: Cagayan Valley\nProvince: Cebu\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nlarge balete tree, root paths, firefly clearings, hidden shrine\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Cebu Balete Forest: town_path, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000015",
+    "location_id": "WLOC000015",
+    "map_filename": "map_WLOC000015_cebu-river-dock-wloc000015.json",
+    "preview_image": "preview_WLOC000015_cebu-river-dock-wloc000015.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Cebu River Dock\nLocation Type: river\nRegion: Cagayan Valley\nProvince: Cebu\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nwood dock, boats, reeds, ferry posts, fishing nets\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Cebu River Dock: forest_floor, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000016",
+    "location_id": "WLOC000016",
+    "map_filename": "map_WLOC000016_cebu-mountain-pass-wloc000016.json",
+    "preview_image": "preview_WLOC000016_cebu-mountain-pass-wloc000016.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Cebu Mountain Pass\nLocation Type: mountain\nRegion: Cagayan Valley\nProvince: Cebu\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nstone path, cliff edges, watch post, cloud trail\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Cebu Mountain Pass: riverbank, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000017",
+    "location_id": "WLOC000017",
+    "map_filename": "map_WLOC000017_cebu-echo-cave-dungeon-wloc000017.json",
+    "preview_image": "preview_WLOC000017_cebu-echo-cave-dungeon-wloc000017.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Cebu Echo Cave Dungeon\nLocation Type: dungeon\nRegion: Cagayan Valley\nProvince: Cebu\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ncave halls, underground stream, cracked shrine, boss door\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Cebu Echo Cave Dungeon: mountain_trail, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000018",
+    "location_id": "WLOC000018",
+    "map_filename": "map_WLOC000018_cebu-coral-reef-route-wloc000018.json",
+    "preview_image": "preview_WLOC000018_cebu-coral-reef-route-wloc000018.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Cebu Coral Reef Route\nLocation Type: coral_reef\nRegion: Cagayan Valley\nProvince: Cebu\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nshallow reef paths, coral arches, tide pools, watch buoys\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Cebu Coral Reef Route: reef_shallows, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000019",
+    "location_id": "WLOC000019",
+    "map_filename": "map_WLOC000019_cebu-spirit-realm-threshold-wloc000019.json",
+    "preview_image": "preview_WLOC000019_cebu-spirit-realm-threshold-wloc000019.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Cebu Spirit Realm Threshold\nLocation Type: spirit_realm\nRegion: Cagayan Valley\nProvince: Cebu\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nmist gate, floating stones, spirit lanterns, mirrored water\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Cebu Spirit Realm Threshold: cave_stone, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000020",
+    "location_id": "WLOC000020",
+    "map_filename": "map_WLOC000020_cebu-legendary-boss-arena-wloc000020.json",
+    "preview_image": "preview_WLOC000020_cebu-legendary-boss-arena-wloc000020.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Cebu Legendary Boss Arena\nLocation Type: boss_arena\nRegion: Cagayan Valley\nProvince: Cebu\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nwide circular arena, ancient marks, storm sky, ritual stones\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Cebu Legendary Boss Arena: spirit_threshold, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000021",
+    "location_id": "WLOC000021",
+    "map_filename": "map_WLOC000021_davao-del-sur-starter-barangay-wloc000021.json",
+    "preview_image": "preview_WLOC000021_davao-del-sur-starter-barangay-wloc000021.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Davao del Sur Starter Barangay\nLocation Type: barangay\nRegion: Central Luzon\nProvince: Davao del Sur\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nsafe village paths, homes, shrine corner, rice plots\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Davao del Sur Starter Barangay: town_path, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000022",
+    "location_id": "WLOC000022",
+    "map_filename": "map_WLOC000022_davao-del-sur-marketplace-wloc000022.json",
+    "preview_image": "preview_WLOC000022_davao-del-sur-marketplace-wloc000022.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Davao del Sur Marketplace\nLocation Type: market\nRegion: Central Luzon\nProvince: Davao del Sur\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nvendor lanes, food stall, blacksmith corner, notice board\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Davao del Sur Marketplace: forest_floor, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000023",
+    "location_id": "WLOC000023",
+    "map_filename": "map_WLOC000023_davao-del-sur-chapel-courtyard-wloc000023.json",
+    "preview_image": "preview_WLOC000023_davao-del-sur-chapel-courtyard-wloc000023.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Davao del Sur Chapel Courtyard\nLocation Type: chapel\nRegion: Central Luzon\nProvince: Davao del Sur\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nsmall chapel, candles, garden path, community benches\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Davao del Sur Chapel Courtyard: riverbank, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000024",
+    "location_id": "WLOC000024",
+    "map_filename": "map_WLOC000024_davao-del-sur-balete-forest-wloc000024.json",
+    "preview_image": "preview_WLOC000024_davao-del-sur-balete-forest-wloc000024.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Davao del Sur Balete Forest\nLocation Type: forest\nRegion: Central Luzon\nProvince: Davao del Sur\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nlarge balete tree, root paths, firefly clearings, hidden shrine\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Davao del Sur Balete Forest: mountain_trail, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000025",
+    "location_id": "WLOC000025",
+    "map_filename": "map_WLOC000025_davao-del-sur-river-dock-wloc000025.json",
+    "preview_image": "preview_WLOC000025_davao-del-sur-river-dock-wloc000025.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Davao del Sur River Dock\nLocation Type: river\nRegion: Central Luzon\nProvince: Davao del Sur\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nwood dock, boats, reeds, ferry posts, fishing nets\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Davao del Sur River Dock: reef_shallows, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000026",
+    "location_id": "WLOC000026",
+    "map_filename": "map_WLOC000026_davao-del-sur-mountain-pass-wloc000026.json",
+    "preview_image": "preview_WLOC000026_davao-del-sur-mountain-pass-wloc000026.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Davao del Sur Mountain Pass\nLocation Type: mountain\nRegion: Central Luzon\nProvince: Davao del Sur\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nstone path, cliff edges, watch post, cloud trail\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Davao del Sur Mountain Pass: cave_stone, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000027",
+    "location_id": "WLOC000027",
+    "map_filename": "map_WLOC000027_davao-del-sur-echo-cave-dungeon-wloc000027.json",
+    "preview_image": "preview_WLOC000027_davao-del-sur-echo-cave-dungeon-wloc000027.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Davao del Sur Echo Cave Dungeon\nLocation Type: dungeon\nRegion: Central Luzon\nProvince: Davao del Sur\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ncave halls, underground stream, cracked shrine, boss door\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Davao del Sur Echo Cave Dungeon: spirit_threshold, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000028",
+    "location_id": "WLOC000028",
+    "map_filename": "map_WLOC000028_davao-del-sur-coral-reef-route-wloc000028.json",
+    "preview_image": "preview_WLOC000028_davao-del-sur-coral-reef-route-wloc000028.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Davao del Sur Coral Reef Route\nLocation Type: coral_reef\nRegion: Central Luzon\nProvince: Davao del Sur\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nshallow reef paths, coral arches, tide pools, watch buoys\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Davao del Sur Coral Reef Route: town_path, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000029",
+    "location_id": "WLOC000029",
+    "map_filename": "map_WLOC000029_davao-del-sur-spirit-realm-threshold-wloc000029.json",
+    "preview_image": "preview_WLOC000029_davao-del-sur-spirit-realm-threshold-wloc000029.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Davao del Sur Spirit Realm Threshold\nLocation Type: spirit_realm\nRegion: Central Luzon\nProvince: Davao del Sur\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nmist gate, floating stones, spirit lanterns, mirrored water\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Davao del Sur Spirit Realm Threshold: forest_floor, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000030",
+    "location_id": "WLOC000030",
+    "map_filename": "map_WLOC000030_davao-del-sur-legendary-boss-arena-wloc000030.json",
+    "preview_image": "preview_WLOC000030_davao-del-sur-legendary-boss-arena-wloc000030.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Davao del Sur Legendary Boss Arena\nLocation Type: boss_arena\nRegion: Central Luzon\nProvince: Davao del Sur\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nwide circular arena, ancient marks, storm sky, ritual stones\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Davao del Sur Legendary Boss Arena: riverbank, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000031",
+    "location_id": "WLOC000031",
+    "map_filename": "map_WLOC000031_palawan-starter-barangay-wloc000031.json",
+    "preview_image": "preview_WLOC000031_palawan-starter-barangay-wloc000031.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Palawan Starter Barangay\nLocation Type: barangay\nRegion: CALABARZON\nProvince: Palawan\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nsafe village paths, homes, shrine corner, rice plots\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Palawan Starter Barangay: mountain_trail, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000032",
+    "location_id": "WLOC000032",
+    "map_filename": "map_WLOC000032_palawan-marketplace-wloc000032.json",
+    "preview_image": "preview_WLOC000032_palawan-marketplace-wloc000032.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Palawan Marketplace\nLocation Type: market\nRegion: CALABARZON\nProvince: Palawan\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nvendor lanes, food stall, blacksmith corner, notice board\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Palawan Marketplace: reef_shallows, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000033",
+    "location_id": "WLOC000033",
+    "map_filename": "map_WLOC000033_palawan-chapel-courtyard-wloc000033.json",
+    "preview_image": "preview_WLOC000033_palawan-chapel-courtyard-wloc000033.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Palawan Chapel Courtyard\nLocation Type: chapel\nRegion: CALABARZON\nProvince: Palawan\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nsmall chapel, candles, garden path, community benches\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Palawan Chapel Courtyard: cave_stone, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000034",
+    "location_id": "WLOC000034",
+    "map_filename": "map_WLOC000034_palawan-balete-forest-wloc000034.json",
+    "preview_image": "preview_WLOC000034_palawan-balete-forest-wloc000034.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Palawan Balete Forest\nLocation Type: forest\nRegion: CALABARZON\nProvince: Palawan\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nlarge balete tree, root paths, firefly clearings, hidden shrine\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Palawan Balete Forest: spirit_threshold, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000035",
+    "location_id": "WLOC000035",
+    "map_filename": "map_WLOC000035_palawan-river-dock-wloc000035.json",
+    "preview_image": "preview_WLOC000035_palawan-river-dock-wloc000035.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Palawan River Dock\nLocation Type: river\nRegion: CALABARZON\nProvince: Palawan\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nwood dock, boats, reeds, ferry posts, fishing nets\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Palawan River Dock: town_path, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000036",
+    "location_id": "WLOC000036",
+    "map_filename": "map_WLOC000036_palawan-mountain-pass-wloc000036.json",
+    "preview_image": "preview_WLOC000036_palawan-mountain-pass-wloc000036.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Palawan Mountain Pass\nLocation Type: mountain\nRegion: CALABARZON\nProvince: Palawan\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nstone path, cliff edges, watch post, cloud trail\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Palawan Mountain Pass: forest_floor, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000037",
+    "location_id": "WLOC000037",
+    "map_filename": "map_WLOC000037_palawan-echo-cave-dungeon-wloc000037.json",
+    "preview_image": "preview_WLOC000037_palawan-echo-cave-dungeon-wloc000037.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Palawan Echo Cave Dungeon\nLocation Type: dungeon\nRegion: CALABARZON\nProvince: Palawan\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ncave halls, underground stream, cracked shrine, boss door\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Palawan Echo Cave Dungeon: riverbank, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000038",
+    "location_id": "WLOC000038",
+    "map_filename": "map_WLOC000038_palawan-coral-reef-route-wloc000038.json",
+    "preview_image": "preview_WLOC000038_palawan-coral-reef-route-wloc000038.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Palawan Coral Reef Route\nLocation Type: coral_reef\nRegion: CALABARZON\nProvince: Palawan\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nshallow reef paths, coral arches, tide pools, watch buoys\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Palawan Coral Reef Route: mountain_trail, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000039",
+    "location_id": "WLOC000039",
+    "map_filename": "map_WLOC000039_palawan-spirit-realm-threshold-wloc000039.json",
+    "preview_image": "preview_WLOC000039_palawan-spirit-realm-threshold-wloc000039.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Palawan Spirit Realm Threshold\nLocation Type: spirit_realm\nRegion: CALABARZON\nProvince: Palawan\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nmist gate, floating stones, spirit lanterns, mirrored water\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Palawan Spirit Realm Threshold: reef_shallows, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000040",
+    "location_id": "WLOC000040",
+    "map_filename": "map_WLOC000040_palawan-legendary-boss-arena-wloc000040.json",
+    "preview_image": "preview_WLOC000040_palawan-legendary-boss-arena-wloc000040.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Palawan Legendary Boss Arena\nLocation Type: boss_arena\nRegion: CALABARZON\nProvince: Palawan\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nwide circular arena, ancient marks, storm sky, ritual stones\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Palawan Legendary Boss Arena: cave_stone, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000041",
+    "location_id": "WLOC000041",
+    "map_filename": "map_WLOC000041_iloilo-starter-barangay-wloc000041.json",
+    "preview_image": "preview_WLOC000041_iloilo-starter-barangay-wloc000041.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Iloilo Starter Barangay\nLocation Type: barangay\nRegion: MIMAROPA\nProvince: Iloilo\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nsafe village paths, homes, shrine corner, rice plots\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Iloilo Starter Barangay: spirit_threshold, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000042",
+    "location_id": "WLOC000042",
+    "map_filename": "map_WLOC000042_iloilo-marketplace-wloc000042.json",
+    "preview_image": "preview_WLOC000042_iloilo-marketplace-wloc000042.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Iloilo Marketplace\nLocation Type: market\nRegion: MIMAROPA\nProvince: Iloilo\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nvendor lanes, food stall, blacksmith corner, notice board\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Iloilo Marketplace: town_path, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000043",
+    "location_id": "WLOC000043",
+    "map_filename": "map_WLOC000043_iloilo-chapel-courtyard-wloc000043.json",
+    "preview_image": "preview_WLOC000043_iloilo-chapel-courtyard-wloc000043.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Iloilo Chapel Courtyard\nLocation Type: chapel\nRegion: MIMAROPA\nProvince: Iloilo\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nsmall chapel, candles, garden path, community benches\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Iloilo Chapel Courtyard: forest_floor, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000044",
+    "location_id": "WLOC000044",
+    "map_filename": "map_WLOC000044_iloilo-balete-forest-wloc000044.json",
+    "preview_image": "preview_WLOC000044_iloilo-balete-forest-wloc000044.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Iloilo Balete Forest\nLocation Type: forest\nRegion: MIMAROPA\nProvince: Iloilo\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nlarge balete tree, root paths, firefly clearings, hidden shrine\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Iloilo Balete Forest: riverbank, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000045",
+    "location_id": "WLOC000045",
+    "map_filename": "map_WLOC000045_iloilo-river-dock-wloc000045.json",
+    "preview_image": "preview_WLOC000045_iloilo-river-dock-wloc000045.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Iloilo River Dock\nLocation Type: river\nRegion: MIMAROPA\nProvince: Iloilo\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nwood dock, boats, reeds, ferry posts, fishing nets\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Iloilo River Dock: mountain_trail, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000046",
+    "location_id": "WLOC000046",
+    "map_filename": "map_WLOC000046_iloilo-mountain-pass-wloc000046.json",
+    "preview_image": "preview_WLOC000046_iloilo-mountain-pass-wloc000046.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Iloilo Mountain Pass\nLocation Type: mountain\nRegion: MIMAROPA\nProvince: Iloilo\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nstone path, cliff edges, watch post, cloud trail\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Iloilo Mountain Pass: reef_shallows, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000047",
+    "location_id": "WLOC000047",
+    "map_filename": "map_WLOC000047_iloilo-echo-cave-dungeon-wloc000047.json",
+    "preview_image": "preview_WLOC000047_iloilo-echo-cave-dungeon-wloc000047.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Iloilo Echo Cave Dungeon\nLocation Type: dungeon\nRegion: MIMAROPA\nProvince: Iloilo\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ncave halls, underground stream, cracked shrine, boss door\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Iloilo Echo Cave Dungeon: cave_stone, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000048",
+    "location_id": "WLOC000048",
+    "map_filename": "map_WLOC000048_iloilo-coral-reef-route-wloc000048.json",
+    "preview_image": "preview_WLOC000048_iloilo-coral-reef-route-wloc000048.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Iloilo Coral Reef Route\nLocation Type: coral_reef\nRegion: MIMAROPA\nProvince: Iloilo\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nshallow reef paths, coral arches, tide pools, watch buoys\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Iloilo Coral Reef Route: spirit_threshold, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000049",
+    "location_id": "WLOC000049",
+    "map_filename": "map_WLOC000049_iloilo-spirit-realm-threshold-wloc000049.json",
+    "preview_image": "preview_WLOC000049_iloilo-spirit-realm-threshold-wloc000049.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Iloilo Spirit Realm Threshold\nLocation Type: spirit_realm\nRegion: MIMAROPA\nProvince: Iloilo\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nmist gate, floating stones, spirit lanterns, mirrored water\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Iloilo Spirit Realm Threshold: town_path, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000050",
+    "location_id": "WLOC000050",
+    "map_filename": "map_WLOC000050_iloilo-legendary-boss-arena-wloc000050.json",
+    "preview_image": "preview_WLOC000050_iloilo-legendary-boss-arena-wloc000050.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Iloilo Legendary Boss Arena\nLocation Type: boss_arena\nRegion: MIMAROPA\nProvince: Iloilo\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nwide circular arena, ancient marks, storm sky, ritual stones\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Iloilo Legendary Boss Arena: forest_floor, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000051",
+    "location_id": "WLOC000051",
+    "map_filename": "map_WLOC000051_sulu-starter-barangay-wloc000051.json",
+    "preview_image": "preview_WLOC000051_sulu-starter-barangay-wloc000051.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Sulu Starter Barangay\nLocation Type: barangay\nRegion: Bicol Region\nProvince: Sulu\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nsafe village paths, homes, shrine corner, rice plots\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Sulu Starter Barangay: riverbank, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000052",
+    "location_id": "WLOC000052",
+    "map_filename": "map_WLOC000052_sulu-marketplace-wloc000052.json",
+    "preview_image": "preview_WLOC000052_sulu-marketplace-wloc000052.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Sulu Marketplace\nLocation Type: market\nRegion: Bicol Region\nProvince: Sulu\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nvendor lanes, food stall, blacksmith corner, notice board\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Sulu Marketplace: mountain_trail, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000053",
+    "location_id": "WLOC000053",
+    "map_filename": "map_WLOC000053_sulu-chapel-courtyard-wloc000053.json",
+    "preview_image": "preview_WLOC000053_sulu-chapel-courtyard-wloc000053.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Sulu Chapel Courtyard\nLocation Type: chapel\nRegion: Bicol Region\nProvince: Sulu\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nsmall chapel, candles, garden path, community benches\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Sulu Chapel Courtyard: reef_shallows, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000054",
+    "location_id": "WLOC000054",
+    "map_filename": "map_WLOC000054_sulu-balete-forest-wloc000054.json",
+    "preview_image": "preview_WLOC000054_sulu-balete-forest-wloc000054.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Sulu Balete Forest\nLocation Type: forest\nRegion: Bicol Region\nProvince: Sulu\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nlarge balete tree, root paths, firefly clearings, hidden shrine\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Sulu Balete Forest: cave_stone, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000055",
+    "location_id": "WLOC000055",
+    "map_filename": "map_WLOC000055_sulu-river-dock-wloc000055.json",
+    "preview_image": "preview_WLOC000055_sulu-river-dock-wloc000055.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Sulu River Dock\nLocation Type: river\nRegion: Bicol Region\nProvince: Sulu\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nwood dock, boats, reeds, ferry posts, fishing nets\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Sulu River Dock: spirit_threshold, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000056",
+    "location_id": "WLOC000056",
+    "map_filename": "map_WLOC000056_sulu-mountain-pass-wloc000056.json",
+    "preview_image": "preview_WLOC000056_sulu-mountain-pass-wloc000056.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Sulu Mountain Pass\nLocation Type: mountain\nRegion: Bicol Region\nProvince: Sulu\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nstone path, cliff edges, watch post, cloud trail\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Sulu Mountain Pass: town_path, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000057",
+    "location_id": "WLOC000057",
+    "map_filename": "map_WLOC000057_sulu-echo-cave-dungeon-wloc000057.json",
+    "preview_image": "preview_WLOC000057_sulu-echo-cave-dungeon-wloc000057.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Sulu Echo Cave Dungeon\nLocation Type: dungeon\nRegion: Bicol Region\nProvince: Sulu\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ncave halls, underground stream, cracked shrine, boss door\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Sulu Echo Cave Dungeon: forest_floor, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000058",
+    "location_id": "WLOC000058",
+    "map_filename": "map_WLOC000058_sulu-coral-reef-route-wloc000058.json",
+    "preview_image": "preview_WLOC000058_sulu-coral-reef-route-wloc000058.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Sulu Coral Reef Route\nLocation Type: coral_reef\nRegion: Bicol Region\nProvince: Sulu\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nshallow reef paths, coral arches, tide pools, watch buoys\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Sulu Coral Reef Route: riverbank, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000059",
+    "location_id": "WLOC000059",
+    "map_filename": "map_WLOC000059_sulu-spirit-realm-threshold-wloc000059.json",
+    "preview_image": "preview_WLOC000059_sulu-spirit-realm-threshold-wloc000059.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Sulu Spirit Realm Threshold\nLocation Type: spirit_realm\nRegion: Bicol Region\nProvince: Sulu\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nmist gate, floating stones, spirit lanterns, mirrored water\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Sulu Spirit Realm Threshold: mountain_trail, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000060",
+    "location_id": "WLOC000060",
+    "map_filename": "map_WLOC000060_sulu-legendary-boss-arena-wloc000060.json",
+    "preview_image": "preview_WLOC000060_sulu-legendary-boss-arena-wloc000060.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Sulu Legendary Boss Arena\nLocation Type: boss_arena\nRegion: Bicol Region\nProvince: Sulu\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nwide circular arena, ancient marks, storm sky, ritual stones\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Sulu Legendary Boss Arena: reef_shallows, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000061",
+    "location_id": "WLOC000061",
+    "map_filename": "map_WLOC000061_benguet-starter-barangay-wloc000061.json",
+    "preview_image": "preview_WLOC000061_benguet-starter-barangay-wloc000061.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Benguet Starter Barangay\nLocation Type: barangay\nRegion: Western Visayas\nProvince: Benguet\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nsafe village paths, homes, shrine corner, rice plots\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Benguet Starter Barangay: cave_stone, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000062",
+    "location_id": "WLOC000062",
+    "map_filename": "map_WLOC000062_benguet-marketplace-wloc000062.json",
+    "preview_image": "preview_WLOC000062_benguet-marketplace-wloc000062.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Benguet Marketplace\nLocation Type: market\nRegion: Western Visayas\nProvince: Benguet\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nvendor lanes, food stall, blacksmith corner, notice board\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Benguet Marketplace: spirit_threshold, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000063",
+    "location_id": "WLOC000063",
+    "map_filename": "map_WLOC000063_benguet-chapel-courtyard-wloc000063.json",
+    "preview_image": "preview_WLOC000063_benguet-chapel-courtyard-wloc000063.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Benguet Chapel Courtyard\nLocation Type: chapel\nRegion: Western Visayas\nProvince: Benguet\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nsmall chapel, candles, garden path, community benches\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Benguet Chapel Courtyard: town_path, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000064",
+    "location_id": "WLOC000064",
+    "map_filename": "map_WLOC000064_benguet-balete-forest-wloc000064.json",
+    "preview_image": "preview_WLOC000064_benguet-balete-forest-wloc000064.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Benguet Balete Forest\nLocation Type: forest\nRegion: Western Visayas\nProvince: Benguet\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nlarge balete tree, root paths, firefly clearings, hidden shrine\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Benguet Balete Forest: forest_floor, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000065",
+    "location_id": "WLOC000065",
+    "map_filename": "map_WLOC000065_benguet-river-dock-wloc000065.json",
+    "preview_image": "preview_WLOC000065_benguet-river-dock-wloc000065.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Benguet River Dock\nLocation Type: river\nRegion: Western Visayas\nProvince: Benguet\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nwood dock, boats, reeds, ferry posts, fishing nets\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Benguet River Dock: riverbank, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000066",
+    "location_id": "WLOC000066",
+    "map_filename": "map_WLOC000066_benguet-mountain-pass-wloc000066.json",
+    "preview_image": "preview_WLOC000066_benguet-mountain-pass-wloc000066.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Benguet Mountain Pass\nLocation Type: mountain\nRegion: Western Visayas\nProvince: Benguet\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nstone path, cliff edges, watch post, cloud trail\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Benguet Mountain Pass: mountain_trail, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000067",
+    "location_id": "WLOC000067",
+    "map_filename": "map_WLOC000067_benguet-echo-cave-dungeon-wloc000067.json",
+    "preview_image": "preview_WLOC000067_benguet-echo-cave-dungeon-wloc000067.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Benguet Echo Cave Dungeon\nLocation Type: dungeon\nRegion: Western Visayas\nProvince: Benguet\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ncave halls, underground stream, cracked shrine, boss door\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Benguet Echo Cave Dungeon: reef_shallows, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000068",
+    "location_id": "WLOC000068",
+    "map_filename": "map_WLOC000068_benguet-coral-reef-route-wloc000068.json",
+    "preview_image": "preview_WLOC000068_benguet-coral-reef-route-wloc000068.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Benguet Coral Reef Route\nLocation Type: coral_reef\nRegion: Western Visayas\nProvince: Benguet\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nshallow reef paths, coral arches, tide pools, watch buoys\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Benguet Coral Reef Route: cave_stone, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000069",
+    "location_id": "WLOC000069",
+    "map_filename": "map_WLOC000069_benguet-spirit-realm-threshold-wloc000069.json",
+    "preview_image": "preview_WLOC000069_benguet-spirit-realm-threshold-wloc000069.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Benguet Spirit Realm Threshold\nLocation Type: spirit_realm\nRegion: Western Visayas\nProvince: Benguet\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nmist gate, floating stones, spirit lanterns, mirrored water\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Benguet Spirit Realm Threshold: spirit_threshold, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000070",
+    "location_id": "WLOC000070",
+    "map_filename": "map_WLOC000070_benguet-legendary-boss-arena-wloc000070.json",
+    "preview_image": "preview_WLOC000070_benguet-legendary-boss-arena-wloc000070.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Benguet Legendary Boss Arena\nLocation Type: boss_arena\nRegion: Western Visayas\nProvince: Benguet\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nwide circular arena, ancient marks, storm sky, ritual stones\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Benguet Legendary Boss Arena: town_path, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000071",
+    "location_id": "WLOC000071",
+    "map_filename": "map_WLOC000071_bohol-starter-barangay-wloc000071.json",
+    "preview_image": "preview_WLOC000071_bohol-starter-barangay-wloc000071.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Bohol Starter Barangay\nLocation Type: barangay\nRegion: Central Visayas\nProvince: Bohol\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nsafe village paths, homes, shrine corner, rice plots\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Bohol Starter Barangay: forest_floor, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000072",
+    "location_id": "WLOC000072",
+    "map_filename": "map_WLOC000072_bohol-marketplace-wloc000072.json",
+    "preview_image": "preview_WLOC000072_bohol-marketplace-wloc000072.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Bohol Marketplace\nLocation Type: market\nRegion: Central Visayas\nProvince: Bohol\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nvendor lanes, food stall, blacksmith corner, notice board\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Bohol Marketplace: riverbank, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000073",
+    "location_id": "WLOC000073",
+    "map_filename": "map_WLOC000073_bohol-chapel-courtyard-wloc000073.json",
+    "preview_image": "preview_WLOC000073_bohol-chapel-courtyard-wloc000073.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Bohol Chapel Courtyard\nLocation Type: chapel\nRegion: Central Visayas\nProvince: Bohol\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nsmall chapel, candles, garden path, community benches\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Bohol Chapel Courtyard: mountain_trail, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000074",
+    "location_id": "WLOC000074",
+    "map_filename": "map_WLOC000074_bohol-balete-forest-wloc000074.json",
+    "preview_image": "preview_WLOC000074_bohol-balete-forest-wloc000074.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Bohol Balete Forest\nLocation Type: forest\nRegion: Central Visayas\nProvince: Bohol\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nlarge balete tree, root paths, firefly clearings, hidden shrine\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Bohol Balete Forest: reef_shallows, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000075",
+    "location_id": "WLOC000075",
+    "map_filename": "map_WLOC000075_bohol-river-dock-wloc000075.json",
+    "preview_image": "preview_WLOC000075_bohol-river-dock-wloc000075.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Bohol River Dock\nLocation Type: river\nRegion: Central Visayas\nProvince: Bohol\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nwood dock, boats, reeds, ferry posts, fishing nets\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Bohol River Dock: cave_stone, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000076",
+    "location_id": "WLOC000076",
+    "map_filename": "map_WLOC000076_bohol-mountain-pass-wloc000076.json",
+    "preview_image": "preview_WLOC000076_bohol-mountain-pass-wloc000076.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Bohol Mountain Pass\nLocation Type: mountain\nRegion: Central Visayas\nProvince: Bohol\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nstone path, cliff edges, watch post, cloud trail\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Bohol Mountain Pass: spirit_threshold, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000077",
+    "location_id": "WLOC000077",
+    "map_filename": "map_WLOC000077_bohol-echo-cave-dungeon-wloc000077.json",
+    "preview_image": "preview_WLOC000077_bohol-echo-cave-dungeon-wloc000077.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Bohol Echo Cave Dungeon\nLocation Type: dungeon\nRegion: Central Visayas\nProvince: Bohol\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ncave halls, underground stream, cracked shrine, boss door\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Bohol Echo Cave Dungeon: town_path, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000078",
+    "location_id": "WLOC000078",
+    "map_filename": "map_WLOC000078_bohol-coral-reef-route-wloc000078.json",
+    "preview_image": "preview_WLOC000078_bohol-coral-reef-route-wloc000078.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Bohol Coral Reef Route\nLocation Type: coral_reef\nRegion: Central Visayas\nProvince: Bohol\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nshallow reef paths, coral arches, tide pools, watch buoys\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Bohol Coral Reef Route: forest_floor, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000079",
+    "location_id": "WLOC000079",
+    "map_filename": "map_WLOC000079_bohol-spirit-realm-threshold-wloc000079.json",
+    "preview_image": "preview_WLOC000079_bohol-spirit-realm-threshold-wloc000079.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Bohol Spirit Realm Threshold\nLocation Type: spirit_realm\nRegion: Central Visayas\nProvince: Bohol\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nmist gate, floating stones, spirit lanterns, mirrored water\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Bohol Spirit Realm Threshold: riverbank, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000080",
+    "location_id": "WLOC000080",
+    "map_filename": "map_WLOC000080_bohol-legendary-boss-arena-wloc000080.json",
+    "preview_image": "preview_WLOC000080_bohol-legendary-boss-arena-wloc000080.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Bohol Legendary Boss Arena\nLocation Type: boss_arena\nRegion: Central Visayas\nProvince: Bohol\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nwide circular arena, ancient marks, storm sky, ritual stones\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Bohol Legendary Boss Arena: mountain_trail, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000081",
+    "location_id": "WLOC000081",
+    "map_filename": "map_WLOC000081_samar-starter-barangay-wloc000081.json",
+    "preview_image": "preview_WLOC000081_samar-starter-barangay-wloc000081.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Samar Starter Barangay\nLocation Type: barangay\nRegion: Eastern Visayas\nProvince: Samar\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nsafe village paths, homes, shrine corner, rice plots\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Samar Starter Barangay: reef_shallows, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000082",
+    "location_id": "WLOC000082",
+    "map_filename": "map_WLOC000082_samar-marketplace-wloc000082.json",
+    "preview_image": "preview_WLOC000082_samar-marketplace-wloc000082.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Samar Marketplace\nLocation Type: market\nRegion: Eastern Visayas\nProvince: Samar\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nvendor lanes, food stall, blacksmith corner, notice board\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Samar Marketplace: cave_stone, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000083",
+    "location_id": "WLOC000083",
+    "map_filename": "map_WLOC000083_samar-chapel-courtyard-wloc000083.json",
+    "preview_image": "preview_WLOC000083_samar-chapel-courtyard-wloc000083.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Samar Chapel Courtyard\nLocation Type: chapel\nRegion: Eastern Visayas\nProvince: Samar\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nsmall chapel, candles, garden path, community benches\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Samar Chapel Courtyard: spirit_threshold, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000084",
+    "location_id": "WLOC000084",
+    "map_filename": "map_WLOC000084_samar-balete-forest-wloc000084.json",
+    "preview_image": "preview_WLOC000084_samar-balete-forest-wloc000084.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Samar Balete Forest\nLocation Type: forest\nRegion: Eastern Visayas\nProvince: Samar\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nlarge balete tree, root paths, firefly clearings, hidden shrine\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Samar Balete Forest: town_path, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000085",
+    "location_id": "WLOC000085",
+    "map_filename": "map_WLOC000085_samar-river-dock-wloc000085.json",
+    "preview_image": "preview_WLOC000085_samar-river-dock-wloc000085.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Samar River Dock\nLocation Type: river\nRegion: Eastern Visayas\nProvince: Samar\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nwood dock, boats, reeds, ferry posts, fishing nets\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Samar River Dock: forest_floor, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000086",
+    "location_id": "WLOC000086",
+    "map_filename": "map_WLOC000086_samar-mountain-pass-wloc000086.json",
+    "preview_image": "preview_WLOC000086_samar-mountain-pass-wloc000086.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Samar Mountain Pass\nLocation Type: mountain\nRegion: Eastern Visayas\nProvince: Samar\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nstone path, cliff edges, watch post, cloud trail\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Samar Mountain Pass: riverbank, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000087",
+    "location_id": "WLOC000087",
+    "map_filename": "map_WLOC000087_samar-echo-cave-dungeon-wloc000087.json",
+    "preview_image": "preview_WLOC000087_samar-echo-cave-dungeon-wloc000087.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Samar Echo Cave Dungeon\nLocation Type: dungeon\nRegion: Eastern Visayas\nProvince: Samar\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ncave halls, underground stream, cracked shrine, boss door\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Samar Echo Cave Dungeon: mountain_trail, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000088",
+    "location_id": "WLOC000088",
+    "map_filename": "map_WLOC000088_samar-coral-reef-route-wloc000088.json",
+    "preview_image": "preview_WLOC000088_samar-coral-reef-route-wloc000088.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Samar Coral Reef Route\nLocation Type: coral_reef\nRegion: Eastern Visayas\nProvince: Samar\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nshallow reef paths, coral arches, tide pools, watch buoys\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Samar Coral Reef Route: reef_shallows, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000089",
+    "location_id": "WLOC000089",
+    "map_filename": "map_WLOC000089_samar-spirit-realm-threshold-wloc000089.json",
+    "preview_image": "preview_WLOC000089_samar-spirit-realm-threshold-wloc000089.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Samar Spirit Realm Threshold\nLocation Type: spirit_realm\nRegion: Eastern Visayas\nProvince: Samar\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nmist gate, floating stones, spirit lanterns, mirrored water\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Samar Spirit Realm Threshold: cave_stone, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000090",
+    "location_id": "WLOC000090",
+    "map_filename": "map_WLOC000090_samar-legendary-boss-arena-wloc000090.json",
+    "preview_image": "preview_WLOC000090_samar-legendary-boss-arena-wloc000090.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Samar Legendary Boss Arena\nLocation Type: boss_arena\nRegion: Eastern Visayas\nProvince: Samar\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nwide circular arena, ancient marks, storm sky, ritual stones\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Samar Legendary Boss Arena: spirit_threshold, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000091",
+    "location_id": "WLOC000091",
+    "map_filename": "map_WLOC000091_aklan-starter-barangay-wloc000091.json",
+    "preview_image": "preview_WLOC000091_aklan-starter-barangay-wloc000091.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Aklan Starter Barangay\nLocation Type: barangay\nRegion: Zamboanga Peninsula\nProvince: Aklan\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nsafe village paths, homes, shrine corner, rice plots\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Aklan Starter Barangay: town_path, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000092",
+    "location_id": "WLOC000092",
+    "map_filename": "map_WLOC000092_aklan-marketplace-wloc000092.json",
+    "preview_image": "preview_WLOC000092_aklan-marketplace-wloc000092.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Aklan Marketplace\nLocation Type: market\nRegion: Zamboanga Peninsula\nProvince: Aklan\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nvendor lanes, food stall, blacksmith corner, notice board\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Aklan Marketplace: forest_floor, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000093",
+    "location_id": "WLOC000093",
+    "map_filename": "map_WLOC000093_aklan-chapel-courtyard-wloc000093.json",
+    "preview_image": "preview_WLOC000093_aklan-chapel-courtyard-wloc000093.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Aklan Chapel Courtyard\nLocation Type: chapel\nRegion: Zamboanga Peninsula\nProvince: Aklan\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nsmall chapel, candles, garden path, community benches\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Aklan Chapel Courtyard: riverbank, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000094",
+    "location_id": "WLOC000094",
+    "map_filename": "map_WLOC000094_aklan-balete-forest-wloc000094.json",
+    "preview_image": "preview_WLOC000094_aklan-balete-forest-wloc000094.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Aklan Balete Forest\nLocation Type: forest\nRegion: Zamboanga Peninsula\nProvince: Aklan\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nlarge balete tree, root paths, firefly clearings, hidden shrine\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Aklan Balete Forest: mountain_trail, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000095",
+    "location_id": "WLOC000095",
+    "map_filename": "map_WLOC000095_aklan-river-dock-wloc000095.json",
+    "preview_image": "preview_WLOC000095_aklan-river-dock-wloc000095.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Aklan River Dock\nLocation Type: river\nRegion: Zamboanga Peninsula\nProvince: Aklan\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nwood dock, boats, reeds, ferry posts, fishing nets\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Aklan River Dock: reef_shallows, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000096",
+    "location_id": "WLOC000096",
+    "map_filename": "map_WLOC000096_aklan-mountain-pass-wloc000096.json",
+    "preview_image": "preview_WLOC000096_aklan-mountain-pass-wloc000096.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Aklan Mountain Pass\nLocation Type: mountain\nRegion: Zamboanga Peninsula\nProvince: Aklan\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nstone path, cliff edges, watch post, cloud trail\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Aklan Mountain Pass: cave_stone, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000097",
+    "location_id": "WLOC000097",
+    "map_filename": "map_WLOC000097_aklan-echo-cave-dungeon-wloc000097.json",
+    "preview_image": "preview_WLOC000097_aklan-echo-cave-dungeon-wloc000097.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Aklan Echo Cave Dungeon\nLocation Type: dungeon\nRegion: Zamboanga Peninsula\nProvince: Aklan\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ncave halls, underground stream, cracked shrine, boss door\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Aklan Echo Cave Dungeon: spirit_threshold, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000098",
+    "location_id": "WLOC000098",
+    "map_filename": "map_WLOC000098_aklan-coral-reef-route-wloc000098.json",
+    "preview_image": "preview_WLOC000098_aklan-coral-reef-route-wloc000098.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Aklan Coral Reef Route\nLocation Type: coral_reef\nRegion: Zamboanga Peninsula\nProvince: Aklan\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nshallow reef paths, coral arches, tide pools, watch buoys\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Aklan Coral Reef Route: town_path, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000099",
+    "location_id": "WLOC000099",
+    "map_filename": "map_WLOC000099_aklan-spirit-realm-threshold-wloc000099.json",
+    "preview_image": "preview_WLOC000099_aklan-spirit-realm-threshold-wloc000099.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Aklan Spirit Realm Threshold\nLocation Type: spirit_realm\nRegion: Zamboanga Peninsula\nProvince: Aklan\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nmist gate, floating stones, spirit lanterns, mirrored water\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Aklan Spirit Realm Threshold: forest_floor, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000100",
+    "location_id": "WLOC000100",
+    "map_filename": "map_WLOC000100_aklan-legendary-boss-arena-wloc000100.json",
+    "preview_image": "preview_WLOC000100_aklan-legendary-boss-arena-wloc000100.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Aklan Legendary Boss Arena\nLocation Type: boss_arena\nRegion: Zamboanga Peninsula\nProvince: Aklan\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nwide circular arena, ancient marks, storm sky, ritual stones\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Aklan Legendary Boss Arena: riverbank, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000101",
+    "location_id": "WLOC000101",
+    "map_filename": "map_WLOC000101_albay-starter-barangay-wloc000101.json",
+    "preview_image": "preview_WLOC000101_albay-starter-barangay-wloc000101.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Albay Starter Barangay\nLocation Type: barangay\nRegion: Northern Mindanao\nProvince: Albay\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nsafe village paths, homes, shrine corner, rice plots\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Albay Starter Barangay: mountain_trail, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000102",
+    "location_id": "WLOC000102",
+    "map_filename": "map_WLOC000102_albay-marketplace-wloc000102.json",
+    "preview_image": "preview_WLOC000102_albay-marketplace-wloc000102.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Albay Marketplace\nLocation Type: market\nRegion: Northern Mindanao\nProvince: Albay\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nvendor lanes, food stall, blacksmith corner, notice board\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Albay Marketplace: reef_shallows, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000103",
+    "location_id": "WLOC000103",
+    "map_filename": "map_WLOC000103_albay-chapel-courtyard-wloc000103.json",
+    "preview_image": "preview_WLOC000103_albay-chapel-courtyard-wloc000103.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Albay Chapel Courtyard\nLocation Type: chapel\nRegion: Northern Mindanao\nProvince: Albay\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nsmall chapel, candles, garden path, community benches\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Albay Chapel Courtyard: cave_stone, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000104",
+    "location_id": "WLOC000104",
+    "map_filename": "map_WLOC000104_albay-balete-forest-wloc000104.json",
+    "preview_image": "preview_WLOC000104_albay-balete-forest-wloc000104.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Albay Balete Forest\nLocation Type: forest\nRegion: Northern Mindanao\nProvince: Albay\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nlarge balete tree, root paths, firefly clearings, hidden shrine\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Albay Balete Forest: spirit_threshold, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000105",
+    "location_id": "WLOC000105",
+    "map_filename": "map_WLOC000105_albay-river-dock-wloc000105.json",
+    "preview_image": "preview_WLOC000105_albay-river-dock-wloc000105.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Albay River Dock\nLocation Type: river\nRegion: Northern Mindanao\nProvince: Albay\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nwood dock, boats, reeds, ferry posts, fishing nets\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Albay River Dock: town_path, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000106",
+    "location_id": "WLOC000106",
+    "map_filename": "map_WLOC000106_albay-mountain-pass-wloc000106.json",
+    "preview_image": "preview_WLOC000106_albay-mountain-pass-wloc000106.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Albay Mountain Pass\nLocation Type: mountain\nRegion: Northern Mindanao\nProvince: Albay\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nstone path, cliff edges, watch post, cloud trail\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Albay Mountain Pass: forest_floor, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000107",
+    "location_id": "WLOC000107",
+    "map_filename": "map_WLOC000107_albay-echo-cave-dungeon-wloc000107.json",
+    "preview_image": "preview_WLOC000107_albay-echo-cave-dungeon-wloc000107.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Albay Echo Cave Dungeon\nLocation Type: dungeon\nRegion: Northern Mindanao\nProvince: Albay\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ncave halls, underground stream, cracked shrine, boss door\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Albay Echo Cave Dungeon: riverbank, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000108",
+    "location_id": "WLOC000108",
+    "map_filename": "map_WLOC000108_albay-coral-reef-route-wloc000108.json",
+    "preview_image": "preview_WLOC000108_albay-coral-reef-route-wloc000108.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Albay Coral Reef Route\nLocation Type: coral_reef\nRegion: Northern Mindanao\nProvince: Albay\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nshallow reef paths, coral arches, tide pools, watch buoys\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Albay Coral Reef Route: mountain_trail, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000109",
+    "location_id": "WLOC000109",
+    "map_filename": "map_WLOC000109_albay-spirit-realm-threshold-wloc000109.json",
+    "preview_image": "preview_WLOC000109_albay-spirit-realm-threshold-wloc000109.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Albay Spirit Realm Threshold\nLocation Type: spirit_realm\nRegion: Northern Mindanao\nProvince: Albay\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nmist gate, floating stones, spirit lanterns, mirrored water\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Albay Spirit Realm Threshold: reef_shallows, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000110",
+    "location_id": "WLOC000110",
+    "map_filename": "map_WLOC000110_albay-legendary-boss-arena-wloc000110.json",
+    "preview_image": "preview_WLOC000110_albay-legendary-boss-arena-wloc000110.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Albay Legendary Boss Arena\nLocation Type: boss_arena\nRegion: Northern Mindanao\nProvince: Albay\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nwide circular arena, ancient marks, storm sky, ritual stones\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Albay Legendary Boss Arena: cave_stone, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000111",
+    "location_id": "WLOC000111",
+    "map_filename": "map_WLOC000111_rizal-starter-barangay-wloc000111.json",
+    "preview_image": "preview_WLOC000111_rizal-starter-barangay-wloc000111.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Rizal Starter Barangay\nLocation Type: barangay\nRegion: Davao Region\nProvince: Rizal\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nsafe village paths, homes, shrine corner, rice plots\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Rizal Starter Barangay: spirit_threshold, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000112",
+    "location_id": "WLOC000112",
+    "map_filename": "map_WLOC000112_rizal-marketplace-wloc000112.json",
+    "preview_image": "preview_WLOC000112_rizal-marketplace-wloc000112.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Rizal Marketplace\nLocation Type: market\nRegion: Davao Region\nProvince: Rizal\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nvendor lanes, food stall, blacksmith corner, notice board\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Rizal Marketplace: town_path, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000113",
+    "location_id": "WLOC000113",
+    "map_filename": "map_WLOC000113_rizal-chapel-courtyard-wloc000113.json",
+    "preview_image": "preview_WLOC000113_rizal-chapel-courtyard-wloc000113.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Rizal Chapel Courtyard\nLocation Type: chapel\nRegion: Davao Region\nProvince: Rizal\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nsmall chapel, candles, garden path, community benches\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Rizal Chapel Courtyard: forest_floor, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000114",
+    "location_id": "WLOC000114",
+    "map_filename": "map_WLOC000114_rizal-balete-forest-wloc000114.json",
+    "preview_image": "preview_WLOC000114_rizal-balete-forest-wloc000114.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Rizal Balete Forest\nLocation Type: forest\nRegion: Davao Region\nProvince: Rizal\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nlarge balete tree, root paths, firefly clearings, hidden shrine\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Rizal Balete Forest: riverbank, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000115",
+    "location_id": "WLOC000115",
+    "map_filename": "map_WLOC000115_rizal-river-dock-wloc000115.json",
+    "preview_image": "preview_WLOC000115_rizal-river-dock-wloc000115.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Rizal River Dock\nLocation Type: river\nRegion: Davao Region\nProvince: Rizal\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nwood dock, boats, reeds, ferry posts, fishing nets\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Rizal River Dock: mountain_trail, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000116",
+    "location_id": "WLOC000116",
+    "map_filename": "map_WLOC000116_rizal-mountain-pass-wloc000116.json",
+    "preview_image": "preview_WLOC000116_rizal-mountain-pass-wloc000116.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Rizal Mountain Pass\nLocation Type: mountain\nRegion: Davao Region\nProvince: Rizal\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nstone path, cliff edges, watch post, cloud trail\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Rizal Mountain Pass: reef_shallows, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000117",
+    "location_id": "WLOC000117",
+    "map_filename": "map_WLOC000117_rizal-echo-cave-dungeon-wloc000117.json",
+    "preview_image": "preview_WLOC000117_rizal-echo-cave-dungeon-wloc000117.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Rizal Echo Cave Dungeon\nLocation Type: dungeon\nRegion: Davao Region\nProvince: Rizal\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ncave halls, underground stream, cracked shrine, boss door\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Rizal Echo Cave Dungeon: cave_stone, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000118",
+    "location_id": "WLOC000118",
+    "map_filename": "map_WLOC000118_rizal-coral-reef-route-wloc000118.json",
+    "preview_image": "preview_WLOC000118_rizal-coral-reef-route-wloc000118.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Rizal Coral Reef Route\nLocation Type: coral_reef\nRegion: Davao Region\nProvince: Rizal\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nshallow reef paths, coral arches, tide pools, watch buoys\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Rizal Coral Reef Route: spirit_threshold, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000119",
+    "location_id": "WLOC000119",
+    "map_filename": "map_WLOC000119_rizal-spirit-realm-threshold-wloc000119.json",
+    "preview_image": "preview_WLOC000119_rizal-spirit-realm-threshold-wloc000119.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Rizal Spirit Realm Threshold\nLocation Type: spirit_realm\nRegion: Davao Region\nProvince: Rizal\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nmist gate, floating stones, spirit lanterns, mirrored water\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Rizal Spirit Realm Threshold: town_path, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000120",
+    "location_id": "WLOC000120",
+    "map_filename": "map_WLOC000120_rizal-legendary-boss-arena-wloc000120.json",
+    "preview_image": "preview_WLOC000120_rizal-legendary-boss-arena-wloc000120.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Rizal Legendary Boss Arena\nLocation Type: boss_arena\nRegion: Davao Region\nProvince: Rizal\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nwide circular arena, ancient marks, storm sky, ritual stones\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Rizal Legendary Boss Arena: forest_floor, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000121",
+    "location_id": "WLOC000121",
+    "map_filename": "map_WLOC000121_bukidnon-starter-barangay-wloc000121.json",
+    "preview_image": "preview_WLOC000121_bukidnon-starter-barangay-wloc000121.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Bukidnon Starter Barangay\nLocation Type: barangay\nRegion: SOCCSKSARGEN\nProvince: Bukidnon\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nsafe village paths, homes, shrine corner, rice plots\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Bukidnon Starter Barangay: riverbank, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000122",
+    "location_id": "WLOC000122",
+    "map_filename": "map_WLOC000122_bukidnon-marketplace-wloc000122.json",
+    "preview_image": "preview_WLOC000122_bukidnon-marketplace-wloc000122.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Bukidnon Marketplace\nLocation Type: market\nRegion: SOCCSKSARGEN\nProvince: Bukidnon\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nvendor lanes, food stall, blacksmith corner, notice board\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Bukidnon Marketplace: mountain_trail, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000123",
+    "location_id": "WLOC000123",
+    "map_filename": "map_WLOC000123_bukidnon-chapel-courtyard-wloc000123.json",
+    "preview_image": "preview_WLOC000123_bukidnon-chapel-courtyard-wloc000123.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Bukidnon Chapel Courtyard\nLocation Type: chapel\nRegion: SOCCSKSARGEN\nProvince: Bukidnon\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nsmall chapel, candles, garden path, community benches\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Bukidnon Chapel Courtyard: reef_shallows, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000124",
+    "location_id": "WLOC000124",
+    "map_filename": "map_WLOC000124_bukidnon-balete-forest-wloc000124.json",
+    "preview_image": "preview_WLOC000124_bukidnon-balete-forest-wloc000124.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Bukidnon Balete Forest\nLocation Type: forest\nRegion: SOCCSKSARGEN\nProvince: Bukidnon\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nlarge balete tree, root paths, firefly clearings, hidden shrine\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Bukidnon Balete Forest: cave_stone, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000125",
+    "location_id": "WLOC000125",
+    "map_filename": "map_WLOC000125_bukidnon-river-dock-wloc000125.json",
+    "preview_image": "preview_WLOC000125_bukidnon-river-dock-wloc000125.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Bukidnon River Dock\nLocation Type: river\nRegion: SOCCSKSARGEN\nProvince: Bukidnon\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nwood dock, boats, reeds, ferry posts, fishing nets\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Bukidnon River Dock: spirit_threshold, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000126",
+    "location_id": "WLOC000126",
+    "map_filename": "map_WLOC000126_bukidnon-mountain-pass-wloc000126.json",
+    "preview_image": "preview_WLOC000126_bukidnon-mountain-pass-wloc000126.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Bukidnon Mountain Pass\nLocation Type: mountain\nRegion: SOCCSKSARGEN\nProvince: Bukidnon\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nstone path, cliff edges, watch post, cloud trail\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Bukidnon Mountain Pass: town_path, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000127",
+    "location_id": "WLOC000127",
+    "map_filename": "map_WLOC000127_bukidnon-echo-cave-dungeon-wloc000127.json",
+    "preview_image": "preview_WLOC000127_bukidnon-echo-cave-dungeon-wloc000127.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Bukidnon Echo Cave Dungeon\nLocation Type: dungeon\nRegion: SOCCSKSARGEN\nProvince: Bukidnon\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ncave halls, underground stream, cracked shrine, boss door\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Bukidnon Echo Cave Dungeon: forest_floor, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000128",
+    "location_id": "WLOC000128",
+    "map_filename": "map_WLOC000128_bukidnon-coral-reef-route-wloc000128.json",
+    "preview_image": "preview_WLOC000128_bukidnon-coral-reef-route-wloc000128.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Bukidnon Coral Reef Route\nLocation Type: coral_reef\nRegion: SOCCSKSARGEN\nProvince: Bukidnon\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nshallow reef paths, coral arches, tide pools, watch buoys\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Bukidnon Coral Reef Route: riverbank, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000129",
+    "location_id": "WLOC000129",
+    "map_filename": "map_WLOC000129_bukidnon-spirit-realm-threshold-wloc000129.json",
+    "preview_image": "preview_WLOC000129_bukidnon-spirit-realm-threshold-wloc000129.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Bukidnon Spirit Realm Threshold\nLocation Type: spirit_realm\nRegion: SOCCSKSARGEN\nProvince: Bukidnon\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nmist gate, floating stones, spirit lanterns, mirrored water\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Bukidnon Spirit Realm Threshold: mountain_trail, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000130",
+    "location_id": "WLOC000130",
+    "map_filename": "map_WLOC000130_bukidnon-legendary-boss-arena-wloc000130.json",
+    "preview_image": "preview_WLOC000130_bukidnon-legendary-boss-arena-wloc000130.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Bukidnon Legendary Boss Arena\nLocation Type: boss_arena\nRegion: SOCCSKSARGEN\nProvince: Bukidnon\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nwide circular arena, ancient marks, storm sky, ritual stones\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Bukidnon Legendary Boss Arena: reef_shallows, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000131",
+    "location_id": "WLOC000131",
+    "map_filename": "map_WLOC000131_agusan-del-norte-starter-barangay-wloc000131.json",
+    "preview_image": "preview_WLOC000131_agusan-del-norte-starter-barangay-wloc000131.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Agusan del Norte Starter Barangay\nLocation Type: barangay\nRegion: Caraga\nProvince: Agusan del Norte\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nsafe village paths, homes, shrine corner, rice plots\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Agusan del Norte Starter Barangay: cave_stone, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000132",
+    "location_id": "WLOC000132",
+    "map_filename": "map_WLOC000132_agusan-del-norte-marketplace-wloc000132.json",
+    "preview_image": "preview_WLOC000132_agusan-del-norte-marketplace-wloc000132.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Agusan del Norte Marketplace\nLocation Type: market\nRegion: Caraga\nProvince: Agusan del Norte\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nvendor lanes, food stall, blacksmith corner, notice board\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Agusan del Norte Marketplace: spirit_threshold, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000133",
+    "location_id": "WLOC000133",
+    "map_filename": "map_WLOC000133_agusan-del-norte-chapel-courtyard-wloc000133.json",
+    "preview_image": "preview_WLOC000133_agusan-del-norte-chapel-courtyard-wloc000133.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Agusan del Norte Chapel Courtyard\nLocation Type: chapel\nRegion: Caraga\nProvince: Agusan del Norte\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nsmall chapel, candles, garden path, community benches\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Agusan del Norte Chapel Courtyard: town_path, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000134",
+    "location_id": "WLOC000134",
+    "map_filename": "map_WLOC000134_agusan-del-norte-balete-forest-wloc000134.json",
+    "preview_image": "preview_WLOC000134_agusan-del-norte-balete-forest-wloc000134.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Agusan del Norte Balete Forest\nLocation Type: forest\nRegion: Caraga\nProvince: Agusan del Norte\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nlarge balete tree, root paths, firefly clearings, hidden shrine\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Agusan del Norte Balete Forest: forest_floor, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000135",
+    "location_id": "WLOC000135",
+    "map_filename": "map_WLOC000135_agusan-del-norte-river-dock-wloc000135.json",
+    "preview_image": "preview_WLOC000135_agusan-del-norte-river-dock-wloc000135.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Agusan del Norte River Dock\nLocation Type: river\nRegion: Caraga\nProvince: Agusan del Norte\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nwood dock, boats, reeds, ferry posts, fishing nets\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Agusan del Norte River Dock: riverbank, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000136",
+    "location_id": "WLOC000136",
+    "map_filename": "map_WLOC000136_agusan-del-norte-mountain-pass-wloc000136.json",
+    "preview_image": "preview_WLOC000136_agusan-del-norte-mountain-pass-wloc000136.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Agusan del Norte Mountain Pass\nLocation Type: mountain\nRegion: Caraga\nProvince: Agusan del Norte\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nstone path, cliff edges, watch post, cloud trail\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Agusan del Norte Mountain Pass: mountain_trail, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000137",
+    "location_id": "WLOC000137",
+    "map_filename": "map_WLOC000137_agusan-del-norte-echo-cave-dungeon-wloc000137.json",
+    "preview_image": "preview_WLOC000137_agusan-del-norte-echo-cave-dungeon-wloc000137.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Agusan del Norte Echo Cave Dungeon\nLocation Type: dungeon\nRegion: Caraga\nProvince: Agusan del Norte\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ncave halls, underground stream, cracked shrine, boss door\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Agusan del Norte Echo Cave Dungeon: reef_shallows, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000138",
+    "location_id": "WLOC000138",
+    "map_filename": "map_WLOC000138_agusan-del-norte-coral-reef-route-wloc000138.json",
+    "preview_image": "preview_WLOC000138_agusan-del-norte-coral-reef-route-wloc000138.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Agusan del Norte Coral Reef Route\nLocation Type: coral_reef\nRegion: Caraga\nProvince: Agusan del Norte\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nshallow reef paths, coral arches, tide pools, watch buoys\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Agusan del Norte Coral Reef Route: cave_stone, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000139",
+    "location_id": "WLOC000139",
+    "map_filename": "map_WLOC000139_agusan-del-norte-spirit-realm-threshold-wloc000139.json",
+    "preview_image": "preview_WLOC000139_agusan-del-norte-spirit-realm-threshold-wloc000139.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Agusan del Norte Spirit Realm Threshold\nLocation Type: spirit_realm\nRegion: Caraga\nProvince: Agusan del Norte\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nmist gate, floating stones, spirit lanterns, mirrored water\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Agusan del Norte Spirit Realm Threshold: spirit_threshold, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000140",
+    "location_id": "WLOC000140",
+    "map_filename": "map_WLOC000140_agusan-del-norte-legendary-boss-arena-wloc000140.json",
+    "preview_image": "preview_WLOC000140_agusan-del-norte-legendary-boss-arena-wloc000140.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Agusan del Norte Legendary Boss Arena\nLocation Type: boss_arena\nRegion: Caraga\nProvince: Agusan del Norte\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nwide circular arena, ancient marks, storm sky, ritual stones\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Agusan del Norte Legendary Boss Arena: town_path, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000141",
+    "location_id": "WLOC000141",
+    "map_filename": "map_WLOC000141_tawi-tawi-starter-barangay-wloc000141.json",
+    "preview_image": "preview_WLOC000141_tawi-tawi-starter-barangay-wloc000141.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Tawi-Tawi Starter Barangay\nLocation Type: barangay\nRegion: Bangsamoro\nProvince: Tawi-Tawi\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nsafe village paths, homes, shrine corner, rice plots\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Tawi-Tawi Starter Barangay: forest_floor, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000142",
+    "location_id": "WLOC000142",
+    "map_filename": "map_WLOC000142_tawi-tawi-marketplace-wloc000142.json",
+    "preview_image": "preview_WLOC000142_tawi-tawi-marketplace-wloc000142.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Tawi-Tawi Marketplace\nLocation Type: market\nRegion: Bangsamoro\nProvince: Tawi-Tawi\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nvendor lanes, food stall, blacksmith corner, notice board\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Tawi-Tawi Marketplace: riverbank, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000143",
+    "location_id": "WLOC000143",
+    "map_filename": "map_WLOC000143_tawi-tawi-chapel-courtyard-wloc000143.json",
+    "preview_image": "preview_WLOC000143_tawi-tawi-chapel-courtyard-wloc000143.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Tawi-Tawi Chapel Courtyard\nLocation Type: chapel\nRegion: Bangsamoro\nProvince: Tawi-Tawi\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nsmall chapel, candles, garden path, community benches\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Tawi-Tawi Chapel Courtyard: mountain_trail, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000144",
+    "location_id": "WLOC000144",
+    "map_filename": "map_WLOC000144_tawi-tawi-balete-forest-wloc000144.json",
+    "preview_image": "preview_WLOC000144_tawi-tawi-balete-forest-wloc000144.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Tawi-Tawi Balete Forest\nLocation Type: forest\nRegion: Bangsamoro\nProvince: Tawi-Tawi\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nlarge balete tree, root paths, firefly clearings, hidden shrine\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Tawi-Tawi Balete Forest: reef_shallows, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000145",
+    "location_id": "WLOC000145",
+    "map_filename": "map_WLOC000145_tawi-tawi-river-dock-wloc000145.json",
+    "preview_image": "preview_WLOC000145_tawi-tawi-river-dock-wloc000145.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Tawi-Tawi River Dock\nLocation Type: river\nRegion: Bangsamoro\nProvince: Tawi-Tawi\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nwood dock, boats, reeds, ferry posts, fishing nets\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Tawi-Tawi River Dock: cave_stone, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000146",
+    "location_id": "WLOC000146",
+    "map_filename": "map_WLOC000146_tawi-tawi-mountain-pass-wloc000146.json",
+    "preview_image": "preview_WLOC000146_tawi-tawi-mountain-pass-wloc000146.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Tawi-Tawi Mountain Pass\nLocation Type: mountain\nRegion: Bangsamoro\nProvince: Tawi-Tawi\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nstone path, cliff edges, watch post, cloud trail\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Tawi-Tawi Mountain Pass: spirit_threshold, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000147",
+    "location_id": "WLOC000147",
+    "map_filename": "map_WLOC000147_tawi-tawi-echo-cave-dungeon-wloc000147.json",
+    "preview_image": "preview_WLOC000147_tawi-tawi-echo-cave-dungeon-wloc000147.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Tawi-Tawi Echo Cave Dungeon\nLocation Type: dungeon\nRegion: Bangsamoro\nProvince: Tawi-Tawi\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ncave halls, underground stream, cracked shrine, boss door\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Tawi-Tawi Echo Cave Dungeon: town_path, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000148",
+    "location_id": "WLOC000148",
+    "map_filename": "map_WLOC000148_tawi-tawi-coral-reef-route-wloc000148.json",
+    "preview_image": "preview_WLOC000148_tawi-tawi-coral-reef-route-wloc000148.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Tawi-Tawi Coral Reef Route\nLocation Type: coral_reef\nRegion: Bangsamoro\nProvince: Tawi-Tawi\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nshallow reef paths, coral arches, tide pools, watch buoys\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Tawi-Tawi Coral Reef Route: forest_floor, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000149",
+    "location_id": "WLOC000149",
+    "map_filename": "map_WLOC000149_tawi-tawi-spirit-realm-threshold-wloc000149.json",
+    "preview_image": "preview_WLOC000149_tawi-tawi-spirit-realm-threshold-wloc000149.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Tawi-Tawi Spirit Realm Threshold\nLocation Type: spirit_realm\nRegion: Bangsamoro\nProvince: Tawi-Tawi\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nmist gate, floating stones, spirit lanterns, mirrored water\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Tawi-Tawi Spirit Realm Threshold: riverbank, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000150",
+    "location_id": "WLOC000150",
+    "map_filename": "map_WLOC000150_tawi-tawi-legendary-boss-arena-wloc000150.json",
+    "preview_image": "preview_WLOC000150_tawi-tawi-legendary-boss-arena-wloc000150.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Tawi-Tawi Legendary Boss Arena\nLocation Type: boss_arena\nRegion: Bangsamoro\nProvince: Tawi-Tawi\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nwide circular arena, ancient marks, storm sky, ritual stones\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Tawi-Tawi Legendary Boss Arena: mountain_trail, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000151",
+    "location_id": "WLOC000151",
+    "map_filename": "map_WLOC000151_ifugao-starter-barangay-wloc000151.json",
+    "preview_image": "preview_WLOC000151_ifugao-starter-barangay-wloc000151.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Ifugao Starter Barangay\nLocation Type: barangay\nRegion: Cordillera\nProvince: Ifugao\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nsafe village paths, homes, shrine corner, rice plots\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Ifugao Starter Barangay: reef_shallows, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000152",
+    "location_id": "WLOC000152",
+    "map_filename": "map_WLOC000152_ifugao-marketplace-wloc000152.json",
+    "preview_image": "preview_WLOC000152_ifugao-marketplace-wloc000152.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Ifugao Marketplace\nLocation Type: market\nRegion: Cordillera\nProvince: Ifugao\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nvendor lanes, food stall, blacksmith corner, notice board\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Ifugao Marketplace: cave_stone, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000153",
+    "location_id": "WLOC000153",
+    "map_filename": "map_WLOC000153_ifugao-chapel-courtyard-wloc000153.json",
+    "preview_image": "preview_WLOC000153_ifugao-chapel-courtyard-wloc000153.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Ifugao Chapel Courtyard\nLocation Type: chapel\nRegion: Cordillera\nProvince: Ifugao\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nsmall chapel, candles, garden path, community benches\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Ifugao Chapel Courtyard: spirit_threshold, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000154",
+    "location_id": "WLOC000154",
+    "map_filename": "map_WLOC000154_ifugao-balete-forest-wloc000154.json",
+    "preview_image": "preview_WLOC000154_ifugao-balete-forest-wloc000154.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Ifugao Balete Forest\nLocation Type: forest\nRegion: Cordillera\nProvince: Ifugao\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nlarge balete tree, root paths, firefly clearings, hidden shrine\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Ifugao Balete Forest: town_path, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000155",
+    "location_id": "WLOC000155",
+    "map_filename": "map_WLOC000155_ifugao-river-dock-wloc000155.json",
+    "preview_image": "preview_WLOC000155_ifugao-river-dock-wloc000155.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Ifugao River Dock\nLocation Type: river\nRegion: Cordillera\nProvince: Ifugao\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nwood dock, boats, reeds, ferry posts, fishing nets\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Ifugao River Dock: forest_floor, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000156",
+    "location_id": "WLOC000156",
+    "map_filename": "map_WLOC000156_ifugao-mountain-pass-wloc000156.json",
+    "preview_image": "preview_WLOC000156_ifugao-mountain-pass-wloc000156.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Ifugao Mountain Pass\nLocation Type: mountain\nRegion: Cordillera\nProvince: Ifugao\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nstone path, cliff edges, watch post, cloud trail\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Ifugao Mountain Pass: riverbank, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000157",
+    "location_id": "WLOC000157",
+    "map_filename": "map_WLOC000157_ifugao-echo-cave-dungeon-wloc000157.json",
+    "preview_image": "preview_WLOC000157_ifugao-echo-cave-dungeon-wloc000157.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Ifugao Echo Cave Dungeon\nLocation Type: dungeon\nRegion: Cordillera\nProvince: Ifugao\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ncave halls, underground stream, cracked shrine, boss door\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Ifugao Echo Cave Dungeon: mountain_trail, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000158",
+    "location_id": "WLOC000158",
+    "map_filename": "map_WLOC000158_ifugao-coral-reef-route-wloc000158.json",
+    "preview_image": "preview_WLOC000158_ifugao-coral-reef-route-wloc000158.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Ifugao Coral Reef Route\nLocation Type: coral_reef\nRegion: Cordillera\nProvince: Ifugao\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nshallow reef paths, coral arches, tide pools, watch buoys\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Ifugao Coral Reef Route: reef_shallows, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000159",
+    "location_id": "WLOC000159",
+    "map_filename": "map_WLOC000159_ifugao-spirit-realm-threshold-wloc000159.json",
+    "preview_image": "preview_WLOC000159_ifugao-spirit-realm-threshold-wloc000159.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Ifugao Spirit Realm Threshold\nLocation Type: spirit_realm\nRegion: Cordillera\nProvince: Ifugao\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nmist gate, floating stones, spirit lanterns, mirrored water\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Ifugao Spirit Realm Threshold: cave_stone, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000160",
+    "location_id": "WLOC000160",
+    "map_filename": "map_WLOC000160_ifugao-legendary-boss-arena-wloc000160.json",
+    "preview_image": "preview_WLOC000160_ifugao-legendary-boss-arena-wloc000160.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Ifugao Legendary Boss Arena\nLocation Type: boss_arena\nRegion: Cordillera\nProvince: Ifugao\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nwide circular arena, ancient marks, storm sky, ritual stones\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Ifugao Legendary Boss Arena: spirit_threshold, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000161",
+    "location_id": "WLOC000161",
+    "map_filename": "map_WLOC000161_metro-manila-starter-barangay-wloc000161.json",
+    "preview_image": "preview_WLOC000161_metro-manila-starter-barangay-wloc000161.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Metro Manila Starter Barangay\nLocation Type: barangay\nRegion: National Capital Region\nProvince: Metro Manila\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nsafe village paths, homes, shrine corner, rice plots\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Metro Manila Starter Barangay: town_path, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000162",
+    "location_id": "WLOC000162",
+    "map_filename": "map_WLOC000162_metro-manila-marketplace-wloc000162.json",
+    "preview_image": "preview_WLOC000162_metro-manila-marketplace-wloc000162.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Metro Manila Marketplace\nLocation Type: market\nRegion: National Capital Region\nProvince: Metro Manila\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nvendor lanes, food stall, blacksmith corner, notice board\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Metro Manila Marketplace: forest_floor, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000163",
+    "location_id": "WLOC000163",
+    "map_filename": "map_WLOC000163_metro-manila-chapel-courtyard-wloc000163.json",
+    "preview_image": "preview_WLOC000163_metro-manila-chapel-courtyard-wloc000163.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Metro Manila Chapel Courtyard\nLocation Type: chapel\nRegion: National Capital Region\nProvince: Metro Manila\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nsmall chapel, candles, garden path, community benches\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Metro Manila Chapel Courtyard: riverbank, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000164",
+    "location_id": "WLOC000164",
+    "map_filename": "map_WLOC000164_metro-manila-balete-forest-wloc000164.json",
+    "preview_image": "preview_WLOC000164_metro-manila-balete-forest-wloc000164.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Metro Manila Balete Forest\nLocation Type: forest\nRegion: National Capital Region\nProvince: Metro Manila\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nlarge balete tree, root paths, firefly clearings, hidden shrine\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Metro Manila Balete Forest: mountain_trail, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000165",
+    "location_id": "WLOC000165",
+    "map_filename": "map_WLOC000165_metro-manila-river-dock-wloc000165.json",
+    "preview_image": "preview_WLOC000165_metro-manila-river-dock-wloc000165.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Metro Manila River Dock\nLocation Type: river\nRegion: National Capital Region\nProvince: Metro Manila\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nwood dock, boats, reeds, ferry posts, fishing nets\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Metro Manila River Dock: reef_shallows, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000166",
+    "location_id": "WLOC000166",
+    "map_filename": "map_WLOC000166_metro-manila-mountain-pass-wloc000166.json",
+    "preview_image": "preview_WLOC000166_metro-manila-mountain-pass-wloc000166.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Metro Manila Mountain Pass\nLocation Type: mountain\nRegion: National Capital Region\nProvince: Metro Manila\nTheme: mystery\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nstone path, cliff edges, watch post, cloud trail\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Metro Manila Mountain Pass: cave_stone, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000167",
+    "location_id": "WLOC000167",
+    "map_filename": "map_WLOC000167_metro-manila-echo-cave-dungeon-wloc000167.json",
+    "preview_image": "preview_WLOC000167_metro-manila-echo-cave-dungeon-wloc000167.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Metro Manila Echo Cave Dungeon\nLocation Type: dungeon\nRegion: National Capital Region\nProvince: Metro Manila\nTheme: restoration\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\ncave halls, underground stream, cracked shrine, boss door\n\nMood:\ntense and mythic.",
+    "tileset_prompt": "Create reusable tiles for Metro Manila Echo Cave Dungeon: spirit_threshold, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000168",
+    "location_id": "WLOC000168",
+    "map_filename": "map_WLOC000168_metro-manila-coral-reef-route-wloc000168.json",
+    "preview_image": "preview_WLOC000168_metro-manila-coral-reef-route-wloc000168.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Metro Manila Coral Reef Route\nLocation Type: coral_reef\nRegion: National Capital Region\nProvince: Metro Manila\nTheme: travel\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nshallow reef paths, coral arches, tide pools, watch buoys\n\nMood:\nwarm and grounded.",
+    "tileset_prompt": "Create reusable tiles for Metro Manila Coral Reef Route: town_path, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000169",
+    "location_id": "WLOC000169",
+    "map_filename": "map_WLOC000169_metro-manila-spirit-realm-threshold-wloc000169.json",
+    "preview_image": "preview_WLOC000169_metro-manila-spirit-realm-threshold-wloc000169.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Metro Manila Spirit Realm Threshold\nLocation Type: spirit_realm\nRegion: National Capital Region\nProvince: Metro Manila\nTheme: danger\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nmist gate, floating stones, spirit lanterns, mirrored water\n\nMood:\nmisty and spiritual.",
+    "tileset_prompt": "Create reusable tiles for Metro Manila Spirit Realm Threshold: forest_floor, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  },
+  {
+    "map_asset_prompt_id": "WMAP000170",
+    "location_id": "WLOC000170",
+    "map_filename": "map_WLOC000170_metro-manila-legendary-boss-arena-wloc000170.json",
+    "preview_image": "preview_WLOC000170_metro-manila-legendary-boss-arena-wloc000170.png",
+    "asset_prompt": "Create a top-down RPG map concept for ALAMAT.\n\nLocation Name: Metro Manila Legendary Boss Arena\nLocation Type: boss_arena\nRegion: National Capital Region\nProvince: Metro Manila\nTheme: community\n\nStyle:\nClassic handheld top-down Filipino fantasy RPG.\nReadable tile-based layout.\nNo text.\nNo UI.\nClear paths.\nClear collision objects.\nDistinct landmarks.\nPractical for Tiled/React implementation.\n\nInclude:\nwide circular arena, ancient marks, storm sky, ritual stones\n\nMood:\nbright and coastal.",
+    "tileset_prompt": "Create reusable tiles for Metro Manila Legendary Boss Arena: riverbank, clear paths, collision objects, landmarks, and no text.",
+    "design_notes": "Use tile-friendly shapes for future Tiled or React map implementation."
+  }
+]

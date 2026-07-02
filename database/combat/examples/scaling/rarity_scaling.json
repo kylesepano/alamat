@@ -1,0 +1,25 @@
+[
+  {
+    "id": 20,
+    "uuid": "00000000-0000-4000-8000-000000000020",
+    "created_at": "2026-07-02T00:00:00+08:00",
+    "updated_at": "2026-07-02T00:00:00+08:00",
+    "version": "1.0.0",
+    "source": "Phase D architecture example",
+    "notes": "Example record for schema validation only; not production balance content.",
+    "scaling_id": "SCL-RAR-0001",
+    "slug": "rare-baseline",
+    "applies_to": "rarity",
+    "reference_id": "RAR003",
+    "stat_multipliers": {
+      "hp": 1.12,
+      "attack": 1.08,
+      "magic": 1.08,
+      "defense": 1.06
+    },
+    "ai_modifier": 1,
+    "loot_modifier": 1.1,
+    "capture_modifier": 0.95,
+    "experience_modifier": 1.15
+  }
+]

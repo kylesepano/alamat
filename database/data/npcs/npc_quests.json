@@ -1,0 +1,6256 @@
+[
+  {
+    "npc_quest_id": "NPCQ000003",
+    "npc_id": "NPC000003",
+    "quest_id": "QST00003",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000006",
+    "npc_id": "NPC000006",
+    "quest_id": "QST00006",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 6,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000009",
+    "npc_id": "NPC000009",
+    "quest_id": "QST00009",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 1,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000012",
+    "npc_id": "NPC000012",
+    "quest_id": "QST00012",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000015",
+    "npc_id": "NPC000015",
+    "quest_id": "QST00015",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000018",
+    "npc_id": "NPC000018",
+    "quest_id": "QST00018",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 2,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000021",
+    "npc_id": "NPC000021",
+    "quest_id": "QST00021",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 5,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000024",
+    "npc_id": "NPC000024",
+    "quest_id": "QST00024",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000027",
+    "npc_id": "NPC000027",
+    "quest_id": "QST00027",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000030",
+    "npc_id": "NPC000030",
+    "quest_id": "QST00030",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 6,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000033",
+    "npc_id": "NPC000033",
+    "quest_id": "QST00033",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 1,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000036",
+    "npc_id": "NPC000036",
+    "quest_id": "QST00036",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000039",
+    "npc_id": "NPC000039",
+    "quest_id": "QST00039",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000042",
+    "npc_id": "NPC000042",
+    "quest_id": "QST00042",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 2,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000045",
+    "npc_id": "NPC000045",
+    "quest_id": "QST00045",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 5,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000048",
+    "npc_id": "NPC000048",
+    "quest_id": "QST00048",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000051",
+    "npc_id": "NPC000051",
+    "quest_id": "QST00051",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000054",
+    "npc_id": "NPC000054",
+    "quest_id": "QST00054",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 6,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000057",
+    "npc_id": "NPC000057",
+    "quest_id": "QST00057",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 1,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000060",
+    "npc_id": "NPC000060",
+    "quest_id": "QST00060",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000063",
+    "npc_id": "NPC000063",
+    "quest_id": "QST00063",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000066",
+    "npc_id": "NPC000066",
+    "quest_id": "QST00066",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 2,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000069",
+    "npc_id": "NPC000069",
+    "quest_id": "QST00069",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 5,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000072",
+    "npc_id": "NPC000072",
+    "quest_id": "QST00072",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000075",
+    "npc_id": "NPC000075",
+    "quest_id": "QST00075",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000078",
+    "npc_id": "NPC000078",
+    "quest_id": "QST00078",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 6,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000081",
+    "npc_id": "NPC000081",
+    "quest_id": "QST00081",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 1,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000084",
+    "npc_id": "NPC000084",
+    "quest_id": "QST00084",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000087",
+    "npc_id": "NPC000087",
+    "quest_id": "QST00087",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000090",
+    "npc_id": "NPC000090",
+    "quest_id": "QST00090",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 2,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000093",
+    "npc_id": "NPC000093",
+    "quest_id": "QST00093",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 5,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000096",
+    "npc_id": "NPC000096",
+    "quest_id": "QST00096",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000099",
+    "npc_id": "NPC000099",
+    "quest_id": "QST00099",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000100",
+    "npc_id": "NPC000100",
+    "quest_id": "QST00100",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000103",
+    "npc_id": "NPC000103",
+    "quest_id": "QST00103",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000106",
+    "npc_id": "NPC000106",
+    "quest_id": "QST00106",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 2,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000109",
+    "npc_id": "NPC000109",
+    "quest_id": "QST00109",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 5,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000112",
+    "npc_id": "NPC000112",
+    "quest_id": "QST00112",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000115",
+    "npc_id": "NPC000115",
+    "quest_id": "QST00115",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000118",
+    "npc_id": "NPC000118",
+    "quest_id": "QST00118",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 6,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000121",
+    "npc_id": "NPC000121",
+    "quest_id": "QST00121",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 1,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000124",
+    "npc_id": "NPC000124",
+    "quest_id": "QST00124",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000127",
+    "npc_id": "NPC000127",
+    "quest_id": "QST00127",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000130",
+    "npc_id": "NPC000130",
+    "quest_id": "QST00130",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 2,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000133",
+    "npc_id": "NPC000133",
+    "quest_id": "QST00133",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 5,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000136",
+    "npc_id": "NPC000136",
+    "quest_id": "QST00136",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000139",
+    "npc_id": "NPC000139",
+    "quest_id": "QST00139",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000142",
+    "npc_id": "NPC000142",
+    "quest_id": "QST00142",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 6,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000145",
+    "npc_id": "NPC000145",
+    "quest_id": "QST00145",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 1,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000148",
+    "npc_id": "NPC000148",
+    "quest_id": "QST00148",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000151",
+    "npc_id": "NPC000151",
+    "quest_id": "QST00151",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000154",
+    "npc_id": "NPC000154",
+    "quest_id": "QST00154",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 2,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000157",
+    "npc_id": "NPC000157",
+    "quest_id": "QST00157",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 5,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000160",
+    "npc_id": "NPC000160",
+    "quest_id": "QST00160",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000163",
+    "npc_id": "NPC000163",
+    "quest_id": "QST00163",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000166",
+    "npc_id": "NPC000166",
+    "quest_id": "QST00166",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 6,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000169",
+    "npc_id": "NPC000169",
+    "quest_id": "QST00169",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 1,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000172",
+    "npc_id": "NPC000172",
+    "quest_id": "QST00172",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000175",
+    "npc_id": "NPC000175",
+    "quest_id": "QST00175",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000178",
+    "npc_id": "NPC000178",
+    "quest_id": "QST00178",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 2,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000181",
+    "npc_id": "NPC000181",
+    "quest_id": "QST00181",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 5,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000184",
+    "npc_id": "NPC000184",
+    "quest_id": "QST00184",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000187",
+    "npc_id": "NPC000187",
+    "quest_id": "QST00187",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000190",
+    "npc_id": "NPC000190",
+    "quest_id": "QST00190",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 6,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000193",
+    "npc_id": "NPC000193",
+    "quest_id": "QST00193",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 1,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000196",
+    "npc_id": "NPC000196",
+    "quest_id": "QST00196",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000199",
+    "npc_id": "NPC000199",
+    "quest_id": "QST00199",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000200",
+    "npc_id": "NPC000200",
+    "quest_id": "QST00200",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000203",
+    "npc_id": "NPC000203",
+    "quest_id": "QST00203",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000206",
+    "npc_id": "NPC000206",
+    "quest_id": "QST00206",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 6,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000209",
+    "npc_id": "NPC000209",
+    "quest_id": "QST00209",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 1,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000212",
+    "npc_id": "NPC000212",
+    "quest_id": "QST00212",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000215",
+    "npc_id": "NPC000215",
+    "quest_id": "QST00215",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000218",
+    "npc_id": "NPC000218",
+    "quest_id": "QST00218",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 2,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000221",
+    "npc_id": "NPC000221",
+    "quest_id": "QST00221",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 5,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000224",
+    "npc_id": "NPC000224",
+    "quest_id": "QST00224",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000227",
+    "npc_id": "NPC000227",
+    "quest_id": "QST00227",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000230",
+    "npc_id": "NPC000230",
+    "quest_id": "QST00230",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 6,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000233",
+    "npc_id": "NPC000233",
+    "quest_id": "QST00233",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 1,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000236",
+    "npc_id": "NPC000236",
+    "quest_id": "QST00236",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000239",
+    "npc_id": "NPC000239",
+    "quest_id": "QST00239",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000242",
+    "npc_id": "NPC000242",
+    "quest_id": "QST00242",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 2,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000245",
+    "npc_id": "NPC000245",
+    "quest_id": "QST00245",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 5,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000248",
+    "npc_id": "NPC000248",
+    "quest_id": "QST00248",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000251",
+    "npc_id": "NPC000251",
+    "quest_id": "QST00251",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000254",
+    "npc_id": "NPC000254",
+    "quest_id": "QST00254",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 6,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000257",
+    "npc_id": "NPC000257",
+    "quest_id": "QST00257",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 1,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000260",
+    "npc_id": "NPC000260",
+    "quest_id": "QST00260",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000263",
+    "npc_id": "NPC000263",
+    "quest_id": "QST00263",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000266",
+    "npc_id": "NPC000266",
+    "quest_id": "QST00266",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 2,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000269",
+    "npc_id": "NPC000269",
+    "quest_id": "QST00269",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 5,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000272",
+    "npc_id": "NPC000272",
+    "quest_id": "QST00272",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000275",
+    "npc_id": "NPC000275",
+    "quest_id": "QST00275",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000278",
+    "npc_id": "NPC000278",
+    "quest_id": "QST00278",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 6,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000281",
+    "npc_id": "NPC000281",
+    "quest_id": "QST00281",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 1,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000284",
+    "npc_id": "NPC000284",
+    "quest_id": "QST00284",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000287",
+    "npc_id": "NPC000287",
+    "quest_id": "QST00287",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000290",
+    "npc_id": "NPC000290",
+    "quest_id": "QST00290",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 2,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000293",
+    "npc_id": "NPC000293",
+    "quest_id": "QST00293",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 5,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000296",
+    "npc_id": "NPC000296",
+    "quest_id": "QST00296",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000299",
+    "npc_id": "NPC000299",
+    "quest_id": "QST00299",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000300",
+    "npc_id": "NPC000300",
+    "quest_id": "QST00300",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000303",
+    "npc_id": "NPC000303",
+    "quest_id": "QST00303",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000306",
+    "npc_id": "NPC000306",
+    "quest_id": "QST00306",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 2,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000309",
+    "npc_id": "NPC000309",
+    "quest_id": "QST00309",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 5,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000312",
+    "npc_id": "NPC000312",
+    "quest_id": "QST00312",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000315",
+    "npc_id": "NPC000315",
+    "quest_id": "QST00315",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000318",
+    "npc_id": "NPC000318",
+    "quest_id": "QST00318",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 6,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000321",
+    "npc_id": "NPC000321",
+    "quest_id": "QST00321",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 1,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000324",
+    "npc_id": "NPC000324",
+    "quest_id": "QST00324",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000327",
+    "npc_id": "NPC000327",
+    "quest_id": "QST00327",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000330",
+    "npc_id": "NPC000330",
+    "quest_id": "QST00330",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 2,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000333",
+    "npc_id": "NPC000333",
+    "quest_id": "QST00333",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 5,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000336",
+    "npc_id": "NPC000336",
+    "quest_id": "QST00336",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000339",
+    "npc_id": "NPC000339",
+    "quest_id": "QST00339",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000342",
+    "npc_id": "NPC000342",
+    "quest_id": "QST00342",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 6,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000345",
+    "npc_id": "NPC000345",
+    "quest_id": "QST00345",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 1,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000348",
+    "npc_id": "NPC000348",
+    "quest_id": "QST00348",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000351",
+    "npc_id": "NPC000351",
+    "quest_id": "QST00351",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000354",
+    "npc_id": "NPC000354",
+    "quest_id": "QST00354",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 2,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000357",
+    "npc_id": "NPC000357",
+    "quest_id": "QST00357",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 5,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000360",
+    "npc_id": "NPC000360",
+    "quest_id": "QST00360",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000363",
+    "npc_id": "NPC000363",
+    "quest_id": "QST00363",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000366",
+    "npc_id": "NPC000366",
+    "quest_id": "QST00366",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 6,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000369",
+    "npc_id": "NPC000369",
+    "quest_id": "QST00369",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 1,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000372",
+    "npc_id": "NPC000372",
+    "quest_id": "QST00372",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000375",
+    "npc_id": "NPC000375",
+    "quest_id": "QST00375",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000378",
+    "npc_id": "NPC000378",
+    "quest_id": "QST00378",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 2,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000381",
+    "npc_id": "NPC000381",
+    "quest_id": "QST00381",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 5,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000384",
+    "npc_id": "NPC000384",
+    "quest_id": "QST00384",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000387",
+    "npc_id": "NPC000387",
+    "quest_id": "QST00387",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000390",
+    "npc_id": "NPC000390",
+    "quest_id": "QST00390",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 6,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000393",
+    "npc_id": "NPC000393",
+    "quest_id": "QST00393",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 1,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000396",
+    "npc_id": "NPC000396",
+    "quest_id": "QST00396",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000399",
+    "npc_id": "NPC000399",
+    "quest_id": "QST00399",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000400",
+    "npc_id": "NPC000400",
+    "quest_id": "QST00400",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000403",
+    "npc_id": "NPC000403",
+    "quest_id": "QST00403",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000406",
+    "npc_id": "NPC000406",
+    "quest_id": "QST00406",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 6,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000409",
+    "npc_id": "NPC000409",
+    "quest_id": "QST00409",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 1,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000412",
+    "npc_id": "NPC000412",
+    "quest_id": "QST00412",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000415",
+    "npc_id": "NPC000415",
+    "quest_id": "QST00415",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000418",
+    "npc_id": "NPC000418",
+    "quest_id": "QST00418",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 2,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000421",
+    "npc_id": "NPC000421",
+    "quest_id": "QST00421",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 5,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000424",
+    "npc_id": "NPC000424",
+    "quest_id": "QST00424",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000427",
+    "npc_id": "NPC000427",
+    "quest_id": "QST00427",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000430",
+    "npc_id": "NPC000430",
+    "quest_id": "QST00430",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 6,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000433",
+    "npc_id": "NPC000433",
+    "quest_id": "QST00433",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 1,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000436",
+    "npc_id": "NPC000436",
+    "quest_id": "QST00436",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000439",
+    "npc_id": "NPC000439",
+    "quest_id": "QST00439",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000442",
+    "npc_id": "NPC000442",
+    "quest_id": "QST00442",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 2,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000445",
+    "npc_id": "NPC000445",
+    "quest_id": "QST00445",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 5,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000448",
+    "npc_id": "NPC000448",
+    "quest_id": "QST00448",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000451",
+    "npc_id": "NPC000451",
+    "quest_id": "QST00451",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000454",
+    "npc_id": "NPC000454",
+    "quest_id": "QST00454",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 6,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000457",
+    "npc_id": "NPC000457",
+    "quest_id": "QST00457",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 1,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000460",
+    "npc_id": "NPC000460",
+    "quest_id": "QST00460",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000463",
+    "npc_id": "NPC000463",
+    "quest_id": "QST00463",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000466",
+    "npc_id": "NPC000466",
+    "quest_id": "QST00466",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 2,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000469",
+    "npc_id": "NPC000469",
+    "quest_id": "QST00469",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 5,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000472",
+    "npc_id": "NPC000472",
+    "quest_id": "QST00472",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000475",
+    "npc_id": "NPC000475",
+    "quest_id": "QST00475",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000478",
+    "npc_id": "NPC000478",
+    "quest_id": "QST00478",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 6,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000481",
+    "npc_id": "NPC000481",
+    "quest_id": "QST00481",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 1,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000484",
+    "npc_id": "NPC000484",
+    "quest_id": "QST00484",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000487",
+    "npc_id": "NPC000487",
+    "quest_id": "QST00487",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000490",
+    "npc_id": "NPC000490",
+    "quest_id": "QST00490",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 2,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000493",
+    "npc_id": "NPC000493",
+    "quest_id": "QST00493",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 5,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000496",
+    "npc_id": "NPC000496",
+    "quest_id": "QST00496",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000499",
+    "npc_id": "NPC000499",
+    "quest_id": "QST00499",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000500",
+    "npc_id": "NPC000500",
+    "quest_id": "QST00500",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000503",
+    "npc_id": "NPC000503",
+    "quest_id": "QST00503",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000506",
+    "npc_id": "NPC000506",
+    "quest_id": "QST00506",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 2,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000509",
+    "npc_id": "NPC000509",
+    "quest_id": "QST00509",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 5,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000512",
+    "npc_id": "NPC000512",
+    "quest_id": "QST00512",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000515",
+    "npc_id": "NPC000515",
+    "quest_id": "QST00515",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000518",
+    "npc_id": "NPC000518",
+    "quest_id": "QST00518",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 6,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000521",
+    "npc_id": "NPC000521",
+    "quest_id": "QST00521",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 1,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000524",
+    "npc_id": "NPC000524",
+    "quest_id": "QST00524",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000527",
+    "npc_id": "NPC000527",
+    "quest_id": "QST00527",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000530",
+    "npc_id": "NPC000530",
+    "quest_id": "QST00530",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 2,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000533",
+    "npc_id": "NPC000533",
+    "quest_id": "QST00533",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 5,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000536",
+    "npc_id": "NPC000536",
+    "quest_id": "QST00536",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000539",
+    "npc_id": "NPC000539",
+    "quest_id": "QST00539",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000542",
+    "npc_id": "NPC000542",
+    "quest_id": "QST00542",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 6,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000545",
+    "npc_id": "NPC000545",
+    "quest_id": "QST00545",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 1,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000548",
+    "npc_id": "NPC000548",
+    "quest_id": "QST00548",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000551",
+    "npc_id": "NPC000551",
+    "quest_id": "QST00551",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000554",
+    "npc_id": "NPC000554",
+    "quest_id": "QST00554",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 2,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000557",
+    "npc_id": "NPC000557",
+    "quest_id": "QST00557",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 5,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000560",
+    "npc_id": "NPC000560",
+    "quest_id": "QST00560",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000563",
+    "npc_id": "NPC000563",
+    "quest_id": "QST00563",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000566",
+    "npc_id": "NPC000566",
+    "quest_id": "QST00566",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 6,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000569",
+    "npc_id": "NPC000569",
+    "quest_id": "QST00569",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 1,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000572",
+    "npc_id": "NPC000572",
+    "quest_id": "QST00572",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000575",
+    "npc_id": "NPC000575",
+    "quest_id": "QST00575",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000578",
+    "npc_id": "NPC000578",
+    "quest_id": "QST00578",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 2,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000581",
+    "npc_id": "NPC000581",
+    "quest_id": "QST00581",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 5,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000584",
+    "npc_id": "NPC000584",
+    "quest_id": "QST00584",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000587",
+    "npc_id": "NPC000587",
+    "quest_id": "QST00587",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000590",
+    "npc_id": "NPC000590",
+    "quest_id": "QST00590",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 6,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000593",
+    "npc_id": "NPC000593",
+    "quest_id": "QST00593",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 1,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000596",
+    "npc_id": "NPC000596",
+    "quest_id": "QST00596",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000599",
+    "npc_id": "NPC000599",
+    "quest_id": "QST00599",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000600",
+    "npc_id": "NPC000600",
+    "quest_id": "QST00600",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000603",
+    "npc_id": "NPC000603",
+    "quest_id": "QST00603",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000606",
+    "npc_id": "NPC000606",
+    "quest_id": "QST00606",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 6,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000609",
+    "npc_id": "NPC000609",
+    "quest_id": "QST00609",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 1,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000612",
+    "npc_id": "NPC000612",
+    "quest_id": "QST00612",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000615",
+    "npc_id": "NPC000615",
+    "quest_id": "QST00615",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000618",
+    "npc_id": "NPC000618",
+    "quest_id": "QST00618",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 2,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000621",
+    "npc_id": "NPC000621",
+    "quest_id": "QST00621",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 5,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000624",
+    "npc_id": "NPC000624",
+    "quest_id": "QST00624",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000627",
+    "npc_id": "NPC000627",
+    "quest_id": "QST00627",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000630",
+    "npc_id": "NPC000630",
+    "quest_id": "QST00630",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 6,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000633",
+    "npc_id": "NPC000633",
+    "quest_id": "QST00633",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 1,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000636",
+    "npc_id": "NPC000636",
+    "quest_id": "QST00636",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000639",
+    "npc_id": "NPC000639",
+    "quest_id": "QST00639",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000642",
+    "npc_id": "NPC000642",
+    "quest_id": "QST00642",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 2,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000645",
+    "npc_id": "NPC000645",
+    "quest_id": "QST00645",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 5,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000648",
+    "npc_id": "NPC000648",
+    "quest_id": "QST00648",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000651",
+    "npc_id": "NPC000651",
+    "quest_id": "QST00651",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000654",
+    "npc_id": "NPC000654",
+    "quest_id": "QST00654",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 6,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000657",
+    "npc_id": "NPC000657",
+    "quest_id": "QST00657",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 1,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000660",
+    "npc_id": "NPC000660",
+    "quest_id": "QST00660",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000663",
+    "npc_id": "NPC000663",
+    "quest_id": "QST00663",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000666",
+    "npc_id": "NPC000666",
+    "quest_id": "QST00666",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 2,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000669",
+    "npc_id": "NPC000669",
+    "quest_id": "QST00669",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 5,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000672",
+    "npc_id": "NPC000672",
+    "quest_id": "QST00672",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000675",
+    "npc_id": "NPC000675",
+    "quest_id": "QST00675",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000678",
+    "npc_id": "NPC000678",
+    "quest_id": "QST00678",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 6,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000681",
+    "npc_id": "NPC000681",
+    "quest_id": "QST00681",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 1,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000684",
+    "npc_id": "NPC000684",
+    "quest_id": "QST00684",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000687",
+    "npc_id": "NPC000687",
+    "quest_id": "QST00687",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000690",
+    "npc_id": "NPC000690",
+    "quest_id": "QST00690",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 2,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000693",
+    "npc_id": "NPC000693",
+    "quest_id": "QST00693",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 5,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000696",
+    "npc_id": "NPC000696",
+    "quest_id": "QST00696",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000699",
+    "npc_id": "NPC000699",
+    "quest_id": "QST00699",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000700",
+    "npc_id": "NPC000700",
+    "quest_id": "QST00700",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000703",
+    "npc_id": "NPC000703",
+    "quest_id": "QST00703",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000706",
+    "npc_id": "NPC000706",
+    "quest_id": "QST00706",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 2,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000709",
+    "npc_id": "NPC000709",
+    "quest_id": "QST00709",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 5,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000712",
+    "npc_id": "NPC000712",
+    "quest_id": "QST00712",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000715",
+    "npc_id": "NPC000715",
+    "quest_id": "QST00715",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000718",
+    "npc_id": "NPC000718",
+    "quest_id": "QST00718",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 6,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000721",
+    "npc_id": "NPC000721",
+    "quest_id": "QST00721",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 1,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000724",
+    "npc_id": "NPC000724",
+    "quest_id": "QST00724",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000727",
+    "npc_id": "NPC000727",
+    "quest_id": "QST00727",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000730",
+    "npc_id": "NPC000730",
+    "quest_id": "QST00730",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 2,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000733",
+    "npc_id": "NPC000733",
+    "quest_id": "QST00733",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 5,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000736",
+    "npc_id": "NPC000736",
+    "quest_id": "QST00736",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000739",
+    "npc_id": "NPC000739",
+    "quest_id": "QST00739",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000742",
+    "npc_id": "NPC000742",
+    "quest_id": "QST00742",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 6,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000745",
+    "npc_id": "NPC000745",
+    "quest_id": "QST00745",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 1,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000748",
+    "npc_id": "NPC000748",
+    "quest_id": "QST00748",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000751",
+    "npc_id": "NPC000751",
+    "quest_id": "QST00751",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000754",
+    "npc_id": "NPC000754",
+    "quest_id": "QST00754",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 2,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000757",
+    "npc_id": "NPC000757",
+    "quest_id": "QST00757",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 5,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000760",
+    "npc_id": "NPC000760",
+    "quest_id": "QST00760",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000763",
+    "npc_id": "NPC000763",
+    "quest_id": "QST00763",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000766",
+    "npc_id": "NPC000766",
+    "quest_id": "QST00766",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 6,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000769",
+    "npc_id": "NPC000769",
+    "quest_id": "QST00769",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 1,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000772",
+    "npc_id": "NPC000772",
+    "quest_id": "QST00772",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000775",
+    "npc_id": "NPC000775",
+    "quest_id": "QST00775",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000778",
+    "npc_id": "NPC000778",
+    "quest_id": "QST00778",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 2,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000781",
+    "npc_id": "NPC000781",
+    "quest_id": "QST00781",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 5,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000784",
+    "npc_id": "NPC000784",
+    "quest_id": "QST00784",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000787",
+    "npc_id": "NPC000787",
+    "quest_id": "QST00787",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000790",
+    "npc_id": "NPC000790",
+    "quest_id": "QST00790",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 6,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000793",
+    "npc_id": "NPC000793",
+    "quest_id": "QST00793",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 1,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000796",
+    "npc_id": "NPC000796",
+    "quest_id": "QST00796",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000799",
+    "npc_id": "NPC000799",
+    "quest_id": "QST00799",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000800",
+    "npc_id": "NPC000800",
+    "quest_id": "QST00800",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000803",
+    "npc_id": "NPC000803",
+    "quest_id": "QST00803",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000806",
+    "npc_id": "NPC000806",
+    "quest_id": "QST00806",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 6,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000809",
+    "npc_id": "NPC000809",
+    "quest_id": "QST00809",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 1,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000812",
+    "npc_id": "NPC000812",
+    "quest_id": "QST00812",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000815",
+    "npc_id": "NPC000815",
+    "quest_id": "QST00815",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000818",
+    "npc_id": "NPC000818",
+    "quest_id": "QST00818",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 2,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000821",
+    "npc_id": "NPC000821",
+    "quest_id": "QST00821",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 5,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000824",
+    "npc_id": "NPC000824",
+    "quest_id": "QST00824",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000827",
+    "npc_id": "NPC000827",
+    "quest_id": "QST00827",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000830",
+    "npc_id": "NPC000830",
+    "quest_id": "QST00830",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 6,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000833",
+    "npc_id": "NPC000833",
+    "quest_id": "QST00833",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 1,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000836",
+    "npc_id": "NPC000836",
+    "quest_id": "QST00836",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000839",
+    "npc_id": "NPC000839",
+    "quest_id": "QST00839",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000842",
+    "npc_id": "NPC000842",
+    "quest_id": "QST00842",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 2,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000845",
+    "npc_id": "NPC000845",
+    "quest_id": "QST00845",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 5,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000848",
+    "npc_id": "NPC000848",
+    "quest_id": "QST00848",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000851",
+    "npc_id": "NPC000851",
+    "quest_id": "QST00851",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000854",
+    "npc_id": "NPC000854",
+    "quest_id": "QST00854",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 6,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000857",
+    "npc_id": "NPC000857",
+    "quest_id": "QST00857",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 1,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000860",
+    "npc_id": "NPC000860",
+    "quest_id": "QST00860",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000863",
+    "npc_id": "NPC000863",
+    "quest_id": "QST00863",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000866",
+    "npc_id": "NPC000866",
+    "quest_id": "QST00866",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 2,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000869",
+    "npc_id": "NPC000869",
+    "quest_id": "QST00869",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 5,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000872",
+    "npc_id": "NPC000872",
+    "quest_id": "QST00872",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000875",
+    "npc_id": "NPC000875",
+    "quest_id": "QST00875",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000878",
+    "npc_id": "NPC000878",
+    "quest_id": "QST00878",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 6,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000881",
+    "npc_id": "NPC000881",
+    "quest_id": "QST00881",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 1,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000884",
+    "npc_id": "NPC000884",
+    "quest_id": "QST00884",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000887",
+    "npc_id": "NPC000887",
+    "quest_id": "QST00887",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000890",
+    "npc_id": "NPC000890",
+    "quest_id": "QST00890",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 2,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000893",
+    "npc_id": "NPC000893",
+    "quest_id": "QST00893",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 5,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000896",
+    "npc_id": "NPC000896",
+    "quest_id": "QST00896",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000899",
+    "npc_id": "NPC000899",
+    "quest_id": "QST00899",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000900",
+    "npc_id": "NPC000900",
+    "quest_id": "QST00900",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000903",
+    "npc_id": "NPC000903",
+    "quest_id": "QST00903",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000906",
+    "npc_id": "NPC000906",
+    "quest_id": "QST00906",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 2,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000909",
+    "npc_id": "NPC000909",
+    "quest_id": "QST00909",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 5,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000912",
+    "npc_id": "NPC000912",
+    "quest_id": "QST00912",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000915",
+    "npc_id": "NPC000915",
+    "quest_id": "QST00915",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000918",
+    "npc_id": "NPC000918",
+    "quest_id": "QST00918",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 6,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000921",
+    "npc_id": "NPC000921",
+    "quest_id": "QST00921",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 1,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000924",
+    "npc_id": "NPC000924",
+    "quest_id": "QST00924",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000927",
+    "npc_id": "NPC000927",
+    "quest_id": "QST00927",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000930",
+    "npc_id": "NPC000930",
+    "quest_id": "QST00930",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 2,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000933",
+    "npc_id": "NPC000933",
+    "quest_id": "QST00933",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 5,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000936",
+    "npc_id": "NPC000936",
+    "quest_id": "QST00936",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000939",
+    "npc_id": "NPC000939",
+    "quest_id": "QST00939",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000942",
+    "npc_id": "NPC000942",
+    "quest_id": "QST00942",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 6,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000945",
+    "npc_id": "NPC000945",
+    "quest_id": "QST00945",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 1,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000948",
+    "npc_id": "NPC000948",
+    "quest_id": "QST00948",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000951",
+    "npc_id": "NPC000951",
+    "quest_id": "QST00951",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000954",
+    "npc_id": "NPC000954",
+    "quest_id": "QST00954",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 2,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000957",
+    "npc_id": "NPC000957",
+    "quest_id": "QST00957",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 5,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000960",
+    "npc_id": "NPC000960",
+    "quest_id": "QST00960",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000963",
+    "npc_id": "NPC000963",
+    "quest_id": "QST00963",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000966",
+    "npc_id": "NPC000966",
+    "quest_id": "QST00966",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 6,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000969",
+    "npc_id": "NPC000969",
+    "quest_id": "QST00969",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 1,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000972",
+    "npc_id": "NPC000972",
+    "quest_id": "QST00972",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000975",
+    "npc_id": "NPC000975",
+    "quest_id": "QST00975",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000978",
+    "npc_id": "NPC000978",
+    "quest_id": "QST00978",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 2,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000981",
+    "npc_id": "NPC000981",
+    "quest_id": "QST00981",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 5,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000984",
+    "npc_id": "NPC000984",
+    "quest_id": "QST00984",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000987",
+    "npc_id": "NPC000987",
+    "quest_id": "QST00987",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 3,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000990",
+    "npc_id": "NPC000990",
+    "quest_id": "QST00990",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 6,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000993",
+    "npc_id": "NPC000993",
+    "quest_id": "QST00993",
+    "quest_role": "unlock",
+    "quest_type": "seasonal",
+    "requirements_payload": {
+      "story_chapter_min": 1,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ000996",
+    "npc_id": "NPC000996",
+    "quest_id": "QST00996",
+    "quest_role": "finish",
+    "quest_type": "hidden",
+    "requirements_payload": {
+      "story_chapter_min": 4,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": [
+        "Rain"
+      ]
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  },
+  {
+    "npc_quest_id": "NPCQ000999",
+    "npc_id": "NPC000999",
+    "quest_id": "QST00999",
+    "quest_role": "continue",
+    "quest_type": "daily",
+    "requirements_payload": {
+      "story_chapter_min": 7,
+      "faction_reputation_min": 0,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": false
+  },
+  {
+    "npc_quest_id": "NPCQ001000",
+    "npc_id": "NPC001000",
+    "quest_id": "QST01000",
+    "quest_role": "start",
+    "quest_type": "story",
+    "requirements_payload": {
+      "story_chapter_min": 0,
+      "faction_reputation_min": 10,
+      "festival_only": false,
+      "weather_tags": []
+    },
+    "rewards_payload": {
+      "friendship_points": 25,
+      "faction_reputation": 5
+    },
+    "is_repeatable": true
+  }
+]

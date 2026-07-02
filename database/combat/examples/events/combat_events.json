@@ -1,0 +1,27 @@
+[
+  {
+    "id": 24,
+    "uuid": "00000000-0000-4000-8000-000000000024",
+    "created_at": "2026-07-02T00:00:00+08:00",
+    "updated_at": "2026-07-02T00:00:00+08:00",
+    "version": "1.0.0",
+    "source": "Phase D architecture example",
+    "notes": "Example record for schema validation only; not production balance content.",
+    "event_id": "EVT-CBT-0001",
+    "slug": "spirit-eclipse",
+    "name": "Spirit Eclipse",
+    "trigger": "round_start",
+    "duration": {
+      "type": "rounds",
+      "value": 3
+    },
+    "modifiers": [
+      {
+        "target": "spirit",
+        "effect": "power_multiplier",
+        "value": 1.15
+      }
+    ],
+    "description": "A dynamic battle event that strengthens spirit-aligned effects."
+  }
+]

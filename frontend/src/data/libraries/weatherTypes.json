@@ -1,0 +1,187 @@
+[
+    {
+        "code": "WTH001",
+        "name": "Clear",
+        "slug": "clear",
+        "description": "Bright and stable weather with normal visibility.",
+        "icon_hint": "sun",
+        "color_hint": "#FBBF24",
+        "sort_order": 1,
+        "is_active": true,
+        "id": 1
+    },
+    {
+        "code": "WTH002",
+        "name": "Cloudy",
+        "slug": "cloudy",
+        "description": "Soft light and covered skies.",
+        "icon_hint": "cloud",
+        "color_hint": "#94A3B8",
+        "sort_order": 2,
+        "is_active": true,
+        "id": 2
+    },
+    {
+        "code": "WTH003",
+        "name": "Rain",
+        "slug": "rain",
+        "description": "Steady rain that strengthens river, forest, and water skills.",
+        "icon_hint": "cloud-rain",
+        "color_hint": "#38BDF8",
+        "sort_order": 3,
+        "is_active": true,
+        "id": 3
+    },
+    {
+        "code": "WTH004",
+        "name": "Heavy Rain",
+        "slug": "heavy-rain",
+        "description": "Strong rainfall that reduces fire effects and increases water hazards.",
+        "icon_hint": "cloud-showers-heavy",
+        "color_hint": "#0284C7",
+        "sort_order": 4,
+        "is_active": true,
+        "id": 4
+    },
+    {
+        "code": "WTH005",
+        "name": "Thunderstorm",
+        "slug": "thunderstorm",
+        "description": "Lightning and wind increase storm and sky effects.",
+        "icon_hint": "cloud-bolt",
+        "color_hint": "#5C7CFA",
+        "sort_order": 5,
+        "is_active": true,
+        "id": 5
+    },
+    {
+        "code": "WTH006",
+        "name": "Typhoon",
+        "slug": "typhoon",
+        "description": "Extreme storm conditions with dangerous winds and sea power.",
+        "icon_hint": "wind",
+        "color_hint": "#1D4ED8",
+        "sort_order": 6,
+        "is_active": true,
+        "id": 6
+    },
+    {
+        "code": "WTH007",
+        "name": "Fog",
+        "slug": "fog",
+        "description": "Low visibility that strengthens mist, dream, and trickster effects.",
+        "icon_hint": "cloud-fog",
+        "color_hint": "#A7C7C9",
+        "sort_order": 7,
+        "is_active": true,
+        "id": 7
+    },
+    {
+        "code": "WTH008",
+        "name": "Mist",
+        "slug": "mist",
+        "description": "Gentle haze often found near mountains and waterfalls.",
+        "icon_hint": "cloudy",
+        "color_hint": "#BAE6FD",
+        "sort_order": 8,
+        "is_active": true,
+        "id": 8
+    },
+    {
+        "code": "WTH009",
+        "name": "Moonlit",
+        "slug": "moonlit",
+        "description": "Night weather with strong lunar visibility.",
+        "icon_hint": "moon",
+        "color_hint": "#818CF8",
+        "sort_order": 9,
+        "is_active": true,
+        "id": 9
+    },
+    {
+        "code": "WTH010",
+        "name": "Eclipse",
+        "slug": "eclipse",
+        "description": "Rare celestial event that empowers shadow, moon, and legendary beings.",
+        "icon_hint": "circle-off",
+        "color_hint": "#111827",
+        "sort_order": 10,
+        "is_active": true,
+        "id": 10
+    },
+    {
+        "code": "WTH011",
+        "name": "Drought",
+        "slug": "drought",
+        "description": "Dry weather that strengthens fire but weakens river effects.",
+        "icon_hint": "sun-medium",
+        "color_hint": "#F97316",
+        "sort_order": 11,
+        "is_active": true,
+        "id": 11
+    },
+    {
+        "code": "WTH012",
+        "name": "Ashfall",
+        "slug": "ashfall",
+        "description": "Volcanic ash reduces visibility and empowers fire/earth beings.",
+        "icon_hint": "volcano",
+        "color_hint": "#78716C",
+        "sort_order": 12,
+        "is_active": true,
+        "id": 12
+    },
+    {
+        "code": "WTH013",
+        "name": "Sea Breeze",
+        "slug": "sea-breeze",
+        "description": "Calm coastal wind that supports sea and sky beings.",
+        "icon_hint": "sailboat",
+        "color_hint": "#38BDF8",
+        "sort_order": 13,
+        "is_active": true,
+        "id": 13
+    },
+    {
+        "code": "WTH014",
+        "name": "Heat Haze",
+        "slug": "heat-haze",
+        "description": "Distorted hot air that improves illusion and fire effects.",
+        "icon_hint": "thermometer-sun",
+        "color_hint": "#FB923C",
+        "sort_order": 14,
+        "is_active": true,
+        "id": 14
+    },
+    {
+        "code": "WTH015",
+        "name": "Spirit Glow",
+        "slug": "spirit-glow",
+        "description": "Supernatural weather where unseen energy becomes visible.",
+        "icon_hint": "sparkles",
+        "color_hint": "#D8B4FE",
+        "sort_order": 15,
+        "is_active": true,
+        "id": 15
+    },
+    {
+        "code": "WTH016",
+        "name": "Dawn",
+        "slug": "dawn",
+        "description": "The first light of day, associated with renewal, omens, and transitional encounters.",
+        "icon_hint": "sunrise",
+        "color_hint": "#FDBA74",
+        "sort_order": 16,
+        "is_active": true
+    },
+    {
+        "code": "WTH017",
+        "name": "New Moon",
+        "slug": "new-moon",
+        "description": "A moonless night that strengthens secrecy, spirits, curses, and hidden paths.",
+        "icon_hint": "moon",
+        "color_hint": "#334155",
+        "sort_order": 17,
+        "is_active": true
+    }
+]

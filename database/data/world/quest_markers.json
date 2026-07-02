@@ -1,0 +1,2212 @@
+[
+  {
+    "world_quest_marker_id": "WQMARK000001",
+    "quest_id": "QST000001",
+    "location_id": "WLOC000001",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 0,
+      "y": 0
+    },
+    "condition_payload": {
+      "hidden": true
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000002",
+    "quest_id": "QST000002",
+    "location_id": "WLOC000002",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 23,
+      "y": 29
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000003",
+    "quest_id": "QST000003",
+    "location_id": "WLOC000003",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 46,
+      "y": 58
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000004",
+    "quest_id": "QST000004",
+    "location_id": "WLOC000004",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 69,
+      "y": 87
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000005",
+    "quest_id": "QST000005",
+    "location_id": "WLOC000005",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 92,
+      "y": 16
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000006",
+    "quest_id": "QST000006",
+    "location_id": "WLOC000006",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 15,
+      "y": 45
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000007",
+    "quest_id": "QST000007",
+    "location_id": "WLOC000007",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 38,
+      "y": 74
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000008",
+    "quest_id": "QST000008",
+    "location_id": "WLOC000008",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 61,
+      "y": 3
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000009",
+    "quest_id": "QST000009",
+    "location_id": "WLOC000009",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 84,
+      "y": 32
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000010",
+    "quest_id": "QST000010",
+    "location_id": "WLOC000010",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 7,
+      "y": 61
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000011",
+    "quest_id": "QST000011",
+    "location_id": "WLOC000011",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 30,
+      "y": 90
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000012",
+    "quest_id": "QST000012",
+    "location_id": "WLOC000012",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 53,
+      "y": 19
+    },
+    "condition_payload": {
+      "hidden": true
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000013",
+    "quest_id": "QST000013",
+    "location_id": "WLOC000013",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 76,
+      "y": 48
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000014",
+    "quest_id": "QST000014",
+    "location_id": "WLOC000014",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 99,
+      "y": 77
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000015",
+    "quest_id": "QST000015",
+    "location_id": "WLOC000015",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 22,
+      "y": 6
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000016",
+    "quest_id": "QST000016",
+    "location_id": "WLOC000016",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 45,
+      "y": 35
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000017",
+    "quest_id": "QST000017",
+    "location_id": "WLOC000017",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 68,
+      "y": 64
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000018",
+    "quest_id": "QST000018",
+    "location_id": "WLOC000018",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 91,
+      "y": 93
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000019",
+    "quest_id": "QST000019",
+    "location_id": "WLOC000019",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 14,
+      "y": 22
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000020",
+    "quest_id": "QST000020",
+    "location_id": "WLOC000020",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 37,
+      "y": 51
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000021",
+    "quest_id": "QST000021",
+    "location_id": "WLOC000021",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 60,
+      "y": 80
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000022",
+    "quest_id": "QST000022",
+    "location_id": "WLOC000022",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 83,
+      "y": 9
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000023",
+    "quest_id": "QST000023",
+    "location_id": "WLOC000023",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 6,
+      "y": 38
+    },
+    "condition_payload": {
+      "hidden": true
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000024",
+    "quest_id": "QST000024",
+    "location_id": "WLOC000024",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 29,
+      "y": 67
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000025",
+    "quest_id": "QST000025",
+    "location_id": "WLOC000025",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 52,
+      "y": 96
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000026",
+    "quest_id": "QST000026",
+    "location_id": "WLOC000026",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 75,
+      "y": 25
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000027",
+    "quest_id": "QST000027",
+    "location_id": "WLOC000027",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 98,
+      "y": 54
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000028",
+    "quest_id": "QST000028",
+    "location_id": "WLOC000028",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 21,
+      "y": 83
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000029",
+    "quest_id": "QST000029",
+    "location_id": "WLOC000029",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 44,
+      "y": 12
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000030",
+    "quest_id": "QST000030",
+    "location_id": "WLOC000030",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 67,
+      "y": 41
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000031",
+    "quest_id": "QST000031",
+    "location_id": "WLOC000031",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 90,
+      "y": 70
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000032",
+    "quest_id": "QST000032",
+    "location_id": "WLOC000032",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 13,
+      "y": 99
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000033",
+    "quest_id": "QST000033",
+    "location_id": "WLOC000033",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 36,
+      "y": 28
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000034",
+    "quest_id": "QST000034",
+    "location_id": "WLOC000034",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 59,
+      "y": 57
+    },
+    "condition_payload": {
+      "hidden": true
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000035",
+    "quest_id": "QST000035",
+    "location_id": "WLOC000035",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 82,
+      "y": 86
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000036",
+    "quest_id": "QST000036",
+    "location_id": "WLOC000036",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 5,
+      "y": 15
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000037",
+    "quest_id": "QST000037",
+    "location_id": "WLOC000037",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 28,
+      "y": 44
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000038",
+    "quest_id": "QST000038",
+    "location_id": "WLOC000038",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 51,
+      "y": 73
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000039",
+    "quest_id": "QST000039",
+    "location_id": "WLOC000039",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 74,
+      "y": 2
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000040",
+    "quest_id": "QST000040",
+    "location_id": "WLOC000040",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 97,
+      "y": 31
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000041",
+    "quest_id": "QST000041",
+    "location_id": "WLOC000041",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 20,
+      "y": 60
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000042",
+    "quest_id": "QST000042",
+    "location_id": "WLOC000042",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 43,
+      "y": 89
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000043",
+    "quest_id": "QST000043",
+    "location_id": "WLOC000043",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 66,
+      "y": 18
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000044",
+    "quest_id": "QST000044",
+    "location_id": "WLOC000044",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 89,
+      "y": 47
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000045",
+    "quest_id": "QST000045",
+    "location_id": "WLOC000045",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 12,
+      "y": 76
+    },
+    "condition_payload": {
+      "hidden": true
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000046",
+    "quest_id": "QST000046",
+    "location_id": "WLOC000046",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 35,
+      "y": 5
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000047",
+    "quest_id": "QST000047",
+    "location_id": "WLOC000047",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 58,
+      "y": 34
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000048",
+    "quest_id": "QST000048",
+    "location_id": "WLOC000048",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 81,
+      "y": 63
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000049",
+    "quest_id": "QST000049",
+    "location_id": "WLOC000049",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 4,
+      "y": 92
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000050",
+    "quest_id": "QST000050",
+    "location_id": "WLOC000050",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 27,
+      "y": 21
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000051",
+    "quest_id": "QST000051",
+    "location_id": "WLOC000051",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 50,
+      "y": 50
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000052",
+    "quest_id": "QST000052",
+    "location_id": "WLOC000052",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 73,
+      "y": 79
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000053",
+    "quest_id": "QST000053",
+    "location_id": "WLOC000053",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 96,
+      "y": 8
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000054",
+    "quest_id": "QST000054",
+    "location_id": "WLOC000054",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 19,
+      "y": 37
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000055",
+    "quest_id": "QST000055",
+    "location_id": "WLOC000055",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 42,
+      "y": 66
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000056",
+    "quest_id": "QST000056",
+    "location_id": "WLOC000056",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 65,
+      "y": 95
+    },
+    "condition_payload": {
+      "hidden": true
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000057",
+    "quest_id": "QST000057",
+    "location_id": "WLOC000057",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 88,
+      "y": 24
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000058",
+    "quest_id": "QST000058",
+    "location_id": "WLOC000058",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 11,
+      "y": 53
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000059",
+    "quest_id": "QST000059",
+    "location_id": "WLOC000059",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 34,
+      "y": 82
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000060",
+    "quest_id": "QST000060",
+    "location_id": "WLOC000060",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 57,
+      "y": 11
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000061",
+    "quest_id": "QST000061",
+    "location_id": "WLOC000061",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 80,
+      "y": 40
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000062",
+    "quest_id": "QST000062",
+    "location_id": "WLOC000062",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 3,
+      "y": 69
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000063",
+    "quest_id": "QST000063",
+    "location_id": "WLOC000063",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 26,
+      "y": 98
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000064",
+    "quest_id": "QST000064",
+    "location_id": "WLOC000064",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 49,
+      "y": 27
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000065",
+    "quest_id": "QST000065",
+    "location_id": "WLOC000065",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 72,
+      "y": 56
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000066",
+    "quest_id": "QST000066",
+    "location_id": "WLOC000066",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 95,
+      "y": 85
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000067",
+    "quest_id": "QST000067",
+    "location_id": "WLOC000067",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 18,
+      "y": 14
+    },
+    "condition_payload": {
+      "hidden": true
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000068",
+    "quest_id": "QST000068",
+    "location_id": "WLOC000068",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 41,
+      "y": 43
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000069",
+    "quest_id": "QST000069",
+    "location_id": "WLOC000069",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 64,
+      "y": 72
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000070",
+    "quest_id": "QST000070",
+    "location_id": "WLOC000070",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 87,
+      "y": 1
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000071",
+    "quest_id": "QST000071",
+    "location_id": "WLOC000071",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 10,
+      "y": 30
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000072",
+    "quest_id": "QST000072",
+    "location_id": "WLOC000072",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 33,
+      "y": 59
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000073",
+    "quest_id": "QST000073",
+    "location_id": "WLOC000073",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 56,
+      "y": 88
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000074",
+    "quest_id": "QST000074",
+    "location_id": "WLOC000074",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 79,
+      "y": 17
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000075",
+    "quest_id": "QST000075",
+    "location_id": "WLOC000075",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 2,
+      "y": 46
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000076",
+    "quest_id": "QST000076",
+    "location_id": "WLOC000076",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 25,
+      "y": 75
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000077",
+    "quest_id": "QST000077",
+    "location_id": "WLOC000077",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 48,
+      "y": 4
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000078",
+    "quest_id": "QST000078",
+    "location_id": "WLOC000078",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 71,
+      "y": 33
+    },
+    "condition_payload": {
+      "hidden": true
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000079",
+    "quest_id": "QST000079",
+    "location_id": "WLOC000079",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 94,
+      "y": 62
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000080",
+    "quest_id": "QST000080",
+    "location_id": "WLOC000080",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 17,
+      "y": 91
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000081",
+    "quest_id": "QST000081",
+    "location_id": "WLOC000081",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 40,
+      "y": 20
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000082",
+    "quest_id": "QST000082",
+    "location_id": "WLOC000082",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 63,
+      "y": 49
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000083",
+    "quest_id": "QST000083",
+    "location_id": "WLOC000083",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 86,
+      "y": 78
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000084",
+    "quest_id": "QST000084",
+    "location_id": "WLOC000084",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 9,
+      "y": 7
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000085",
+    "quest_id": "QST000085",
+    "location_id": "WLOC000085",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 32,
+      "y": 36
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000086",
+    "quest_id": "QST000086",
+    "location_id": "WLOC000086",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 55,
+      "y": 65
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000087",
+    "quest_id": "QST000087",
+    "location_id": "WLOC000087",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 78,
+      "y": 94
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000088",
+    "quest_id": "QST000088",
+    "location_id": "WLOC000088",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 1,
+      "y": 23
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000089",
+    "quest_id": "QST000089",
+    "location_id": "WLOC000089",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 24,
+      "y": 52
+    },
+    "condition_payload": {
+      "hidden": true
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000090",
+    "quest_id": "QST000090",
+    "location_id": "WLOC000090",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 47,
+      "y": 81
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000091",
+    "quest_id": "QST000091",
+    "location_id": "WLOC000091",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 70,
+      "y": 10
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000092",
+    "quest_id": "QST000092",
+    "location_id": "WLOC000092",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 93,
+      "y": 39
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000093",
+    "quest_id": "QST000093",
+    "location_id": "WLOC000093",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 16,
+      "y": 68
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000094",
+    "quest_id": "QST000094",
+    "location_id": "WLOC000094",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 39,
+      "y": 97
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000095",
+    "quest_id": "QST000095",
+    "location_id": "WLOC000095",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 62,
+      "y": 26
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000096",
+    "quest_id": "QST000096",
+    "location_id": "WLOC000096",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 85,
+      "y": 55
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000097",
+    "quest_id": "QST000097",
+    "location_id": "WLOC000097",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 8,
+      "y": 84
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000098",
+    "quest_id": "QST000098",
+    "location_id": "WLOC000098",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 31,
+      "y": 13
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000099",
+    "quest_id": "QST000099",
+    "location_id": "WLOC000099",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 54,
+      "y": 42
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000100",
+    "quest_id": "QST000100",
+    "location_id": "WLOC000100",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 77,
+      "y": 71
+    },
+    "condition_payload": {
+      "hidden": true
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000101",
+    "quest_id": "QST000101",
+    "location_id": "WLOC000101",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 0,
+      "y": 0
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000102",
+    "quest_id": "QST000102",
+    "location_id": "WLOC000102",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 23,
+      "y": 29
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000103",
+    "quest_id": "QST000103",
+    "location_id": "WLOC000103",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 46,
+      "y": 58
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000104",
+    "quest_id": "QST000104",
+    "location_id": "WLOC000104",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 69,
+      "y": 87
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000105",
+    "quest_id": "QST000105",
+    "location_id": "WLOC000105",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 92,
+      "y": 16
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000106",
+    "quest_id": "QST000106",
+    "location_id": "WLOC000106",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 15,
+      "y": 45
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000107",
+    "quest_id": "QST000107",
+    "location_id": "WLOC000107",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 38,
+      "y": 74
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000108",
+    "quest_id": "QST000108",
+    "location_id": "WLOC000108",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 61,
+      "y": 3
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000109",
+    "quest_id": "QST000109",
+    "location_id": "WLOC000109",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 84,
+      "y": 32
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000110",
+    "quest_id": "QST000110",
+    "location_id": "WLOC000110",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 7,
+      "y": 61
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000111",
+    "quest_id": "QST000111",
+    "location_id": "WLOC000111",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 30,
+      "y": 90
+    },
+    "condition_payload": {
+      "hidden": true
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000112",
+    "quest_id": "QST000112",
+    "location_id": "WLOC000112",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 53,
+      "y": 19
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000113",
+    "quest_id": "QST000113",
+    "location_id": "WLOC000113",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 76,
+      "y": 48
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000114",
+    "quest_id": "QST000114",
+    "location_id": "WLOC000114",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 99,
+      "y": 77
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000115",
+    "quest_id": "QST000115",
+    "location_id": "WLOC000115",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 22,
+      "y": 6
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000116",
+    "quest_id": "QST000116",
+    "location_id": "WLOC000116",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 45,
+      "y": 35
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000117",
+    "quest_id": "QST000117",
+    "location_id": "WLOC000117",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 68,
+      "y": 64
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000118",
+    "quest_id": "QST000118",
+    "location_id": "WLOC000118",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 91,
+      "y": 93
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000119",
+    "quest_id": "QST000119",
+    "location_id": "WLOC000119",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 14,
+      "y": 22
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000120",
+    "quest_id": "QST000120",
+    "location_id": "WLOC000120",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 37,
+      "y": 51
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000121",
+    "quest_id": "QST000121",
+    "location_id": "WLOC000121",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 60,
+      "y": 80
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000122",
+    "quest_id": "QST000122",
+    "location_id": "WLOC000122",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 83,
+      "y": 9
+    },
+    "condition_payload": {
+      "hidden": true
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000123",
+    "quest_id": "QST000123",
+    "location_id": "WLOC000123",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 6,
+      "y": 38
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000124",
+    "quest_id": "QST000124",
+    "location_id": "WLOC000124",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 29,
+      "y": 67
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000125",
+    "quest_id": "QST000125",
+    "location_id": "WLOC000125",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 52,
+      "y": 96
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000126",
+    "quest_id": "QST000126",
+    "location_id": "WLOC000126",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 75,
+      "y": 25
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000127",
+    "quest_id": "QST000127",
+    "location_id": "WLOC000127",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 98,
+      "y": 54
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000128",
+    "quest_id": "QST000128",
+    "location_id": "WLOC000128",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 21,
+      "y": 83
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000129",
+    "quest_id": "QST000129",
+    "location_id": "WLOC000129",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 44,
+      "y": 12
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000130",
+    "quest_id": "QST000130",
+    "location_id": "WLOC000130",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 67,
+      "y": 41
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000131",
+    "quest_id": "QST000131",
+    "location_id": "WLOC000131",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 90,
+      "y": 70
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000132",
+    "quest_id": "QST000132",
+    "location_id": "WLOC000132",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 13,
+      "y": 99
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000133",
+    "quest_id": "QST000133",
+    "location_id": "WLOC000133",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 36,
+      "y": 28
+    },
+    "condition_payload": {
+      "hidden": true
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000134",
+    "quest_id": "QST000134",
+    "location_id": "WLOC000134",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 59,
+      "y": 57
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000135",
+    "quest_id": "QST000135",
+    "location_id": "WLOC000135",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 82,
+      "y": 86
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000136",
+    "quest_id": "QST000136",
+    "location_id": "WLOC000136",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 5,
+      "y": 15
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000137",
+    "quest_id": "QST000137",
+    "location_id": "WLOC000137",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 28,
+      "y": 44
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000138",
+    "quest_id": "QST000138",
+    "location_id": "WLOC000138",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 51,
+      "y": 73
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000139",
+    "quest_id": "QST000139",
+    "location_id": "WLOC000139",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 74,
+      "y": 2
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000140",
+    "quest_id": "QST000140",
+    "location_id": "WLOC000140",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 97,
+      "y": 31
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000141",
+    "quest_id": "QST000141",
+    "location_id": "WLOC000141",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 20,
+      "y": 60
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000142",
+    "quest_id": "QST000142",
+    "location_id": "WLOC000142",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 43,
+      "y": 89
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000143",
+    "quest_id": "QST000143",
+    "location_id": "WLOC000143",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 66,
+      "y": 18
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000144",
+    "quest_id": "QST000144",
+    "location_id": "WLOC000144",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 89,
+      "y": 47
+    },
+    "condition_payload": {
+      "hidden": true
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000145",
+    "quest_id": "QST000145",
+    "location_id": "WLOC000145",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 12,
+      "y": 76
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000146",
+    "quest_id": "QST000146",
+    "location_id": "WLOC000146",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 35,
+      "y": 5
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000147",
+    "quest_id": "QST000147",
+    "location_id": "WLOC000147",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 58,
+      "y": 34
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000148",
+    "quest_id": "QST000148",
+    "location_id": "WLOC000148",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 81,
+      "y": 63
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000149",
+    "quest_id": "QST000149",
+    "location_id": "WLOC000149",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 4,
+      "y": 92
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000150",
+    "quest_id": "QST000150",
+    "location_id": "WLOC000150",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 27,
+      "y": 21
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000151",
+    "quest_id": "QST000151",
+    "location_id": "WLOC000151",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 50,
+      "y": 50
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000152",
+    "quest_id": "QST000152",
+    "location_id": "WLOC000152",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 73,
+      "y": 79
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000153",
+    "quest_id": "QST000153",
+    "location_id": "WLOC000153",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 96,
+      "y": 8
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000154",
+    "quest_id": "QST000154",
+    "location_id": "WLOC000154",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 19,
+      "y": 37
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000155",
+    "quest_id": "QST000155",
+    "location_id": "WLOC000155",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 42,
+      "y": 66
+    },
+    "condition_payload": {
+      "hidden": true
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000156",
+    "quest_id": "QST000156",
+    "location_id": "WLOC000156",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 65,
+      "y": 95
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000157",
+    "quest_id": "QST000157",
+    "location_id": "WLOC000157",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 88,
+      "y": 24
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000158",
+    "quest_id": "QST000158",
+    "location_id": "WLOC000158",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 11,
+      "y": 53
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000159",
+    "quest_id": "QST000159",
+    "location_id": "WLOC000159",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 34,
+      "y": 82
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000160",
+    "quest_id": "QST000160",
+    "location_id": "WLOC000160",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 57,
+      "y": 11
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000161",
+    "quest_id": "QST000161",
+    "location_id": "WLOC000161",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 80,
+      "y": 40
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000162",
+    "quest_id": "QST000162",
+    "location_id": "WLOC000162",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 3,
+      "y": 69
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000163",
+    "quest_id": "QST000163",
+    "location_id": "WLOC000163",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 26,
+      "y": 98
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000164",
+    "quest_id": "QST000164",
+    "location_id": "WLOC000164",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 49,
+      "y": 27
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000165",
+    "quest_id": "QST000165",
+    "location_id": "WLOC000165",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 72,
+      "y": 56
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000166",
+    "quest_id": "QST000166",
+    "location_id": "WLOC000166",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 95,
+      "y": 85
+    },
+    "condition_payload": {
+      "hidden": true
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000167",
+    "quest_id": "QST000167",
+    "location_id": "WLOC000167",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 18,
+      "y": 14
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000168",
+    "quest_id": "QST000168",
+    "location_id": "WLOC000168",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 41,
+      "y": 43
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000169",
+    "quest_id": "QST000169",
+    "location_id": "WLOC000169",
+    "marker_type": "quest_start",
+    "coordinates_payload": {
+      "x": 64,
+      "y": 72
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  },
+  {
+    "world_quest_marker_id": "WQMARK000170",
+    "quest_id": "QST000170",
+    "location_id": "WLOC000170",
+    "marker_type": "objective",
+    "coordinates_payload": {
+      "x": 87,
+      "y": 1
+    },
+    "condition_payload": {
+      "hidden": false
+    }
+  }
+]

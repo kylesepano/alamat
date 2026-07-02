@@ -1,0 +1,30 @@
+[
+  {
+    "id": 17,
+    "uuid": "00000000-0000-4000-8000-000000000017",
+    "created_at": "2026-07-02T00:00:00+08:00",
+    "updated_at": "2026-07-02T00:00:00+08:00",
+    "version": "1.0.0",
+    "source": "Phase D architecture example",
+    "notes": "Example record for schema validation only; not production balance content.",
+    "field_effect_id": "BFE-0001",
+    "slug": "blessed-ground",
+    "name": "Blessed Ground",
+    "trigger": "turn_start",
+    "duration": {
+      "type": "turns",
+      "value": 5
+    },
+    "formula_modifiers": [
+      {
+        "formula_id": "FRM-HEAL-0001",
+        "multiplier": 1.15
+      }
+    ],
+    "affected_affiliations": [
+      "holy",
+      "ancestor"
+    ],
+    "description": "A sanctified field effect that strengthens healing and protective rites."
+  }
+]

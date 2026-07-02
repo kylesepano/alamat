@@ -1,0 +1,327 @@
+[
+  {
+    "chain_id": "QCHAIN0001",
+    "name": "Kapuluan Restoration Chain",
+    "slug": "kapuluan-restoration-chain",
+    "description": "Kapuluan Restoration Chain connects multiple Phase H quest templates into a future progression arc.",
+    "quest_ids": [
+      "QST000001",
+      "QST000002",
+      "QST000003",
+      "QST000004",
+      "QST000005",
+      "QST000006",
+      "QST000007",
+      "QST000008",
+      "QST000009",
+      "QST000010"
+    ],
+    "chain_order": [
+      {
+        "quest_id": "QST000001",
+        "order": 1
+      },
+      {
+        "quest_id": "QST000002",
+        "order": 2
+      },
+      {
+        "quest_id": "QST000003",
+        "order": 3
+      },
+      {
+        "quest_id": "QST000004",
+        "order": 4
+      },
+      {
+        "quest_id": "QST000005",
+        "order": 5
+      },
+      {
+        "quest_id": "QST000006",
+        "order": 6
+      },
+      {
+        "quest_id": "QST000007",
+        "order": 7
+      },
+      {
+        "quest_id": "QST000008",
+        "order": 8
+      },
+      {
+        "quest_id": "QST000009",
+        "order": 9
+      },
+      {
+        "quest_id": "QST000010",
+        "order": 10
+      }
+    ],
+    "completion_reward_payload": {
+      "gold": 500,
+      "title": "Kapuluan Restoration Chain",
+      "world_flag": "kapuluan-restoration-chain_complete"
+    }
+  },
+  {
+    "chain_id": "QCHAIN0002",
+    "name": "Nilalang Trust Chain",
+    "slug": "nilalang-trust-chain",
+    "description": "Nilalang Trust Chain connects multiple Phase H quest templates into a future progression arc.",
+    "quest_ids": [
+      "QST000071",
+      "QST000072",
+      "QST000073",
+      "QST000074",
+      "QST000075",
+      "QST000076",
+      "QST000077",
+      "QST000078",
+      "QST000079",
+      "QST000080",
+      "QST000081",
+      "QST000082"
+    ],
+    "chain_order": [
+      {
+        "quest_id": "QST000071",
+        "order": 1
+      },
+      {
+        "quest_id": "QST000072",
+        "order": 2
+      },
+      {
+        "quest_id": "QST000073",
+        "order": 3
+      },
+      {
+        "quest_id": "QST000074",
+        "order": 4
+      },
+      {
+        "quest_id": "QST000075",
+        "order": 5
+      },
+      {
+        "quest_id": "QST000076",
+        "order": 6
+      },
+      {
+        "quest_id": "QST000077",
+        "order": 7
+      },
+      {
+        "quest_id": "QST000078",
+        "order": 8
+      },
+      {
+        "quest_id": "QST000079",
+        "order": 9
+      },
+      {
+        "quest_id": "QST000080",
+        "order": 10
+      },
+      {
+        "quest_id": "QST000081",
+        "order": 11
+      },
+      {
+        "quest_id": "QST000082",
+        "order": 12
+      }
+    ],
+    "completion_reward_payload": {
+      "gold": 500,
+      "title": "Nilalang Trust Chain",
+      "world_flag": "nilalang-trust-chain_complete"
+    }
+  },
+  {
+    "chain_id": "QCHAIN0003",
+    "name": "Faction Balance Chain",
+    "slug": "faction-balance-chain",
+    "description": "Faction Balance Chain connects multiple Phase H quest templates into a future progression arc.",
+    "quest_ids": [
+      "QST000141",
+      "QST000142",
+      "QST000143",
+      "QST000144",
+      "QST000145",
+      "QST000146",
+      "QST000147",
+      "QST000148",
+      "QST000149",
+      "QST000150"
+    ],
+    "chain_order": [
+      {
+        "quest_id": "QST000141",
+        "order": 1
+      },
+      {
+        "quest_id": "QST000142",
+        "order": 2
+      },
+      {
+        "quest_id": "QST000143",
+        "order": 3
+      },
+      {
+        "quest_id": "QST000144",
+        "order": 4
+      },
+      {
+        "quest_id": "QST000145",
+        "order": 5
+      },
+      {
+        "quest_id": "QST000146",
+        "order": 6
+      },
+      {
+        "quest_id": "QST000147",
+        "order": 7
+      },
+      {
+        "quest_id": "QST000148",
+        "order": 8
+      },
+      {
+        "quest_id": "QST000149",
+        "order": 9
+      },
+      {
+        "quest_id": "QST000150",
+        "order": 10
+      }
+    ],
+    "completion_reward_payload": {
+      "gold": 500,
+      "title": "Faction Balance Chain",
+      "world_flag": "faction-balance-chain_complete"
+    }
+  },
+  {
+    "chain_id": "QCHAIN0004",
+    "name": "Legendary Echoes Chain",
+    "slug": "legendary-echoes-chain",
+    "description": "Legendary Echoes Chain connects multiple Phase H quest templates into a future progression arc.",
+    "quest_ids": [
+      "QST000121",
+      "QST000122",
+      "QST000123",
+      "QST000124",
+      "QST000125",
+      "QST000126",
+      "QST000127",
+      "QST000128"
+    ],
+    "chain_order": [
+      {
+        "quest_id": "QST000121",
+        "order": 1
+      },
+      {
+        "quest_id": "QST000122",
+        "order": 2
+      },
+      {
+        "quest_id": "QST000123",
+        "order": 3
+      },
+      {
+        "quest_id": "QST000124",
+        "order": 4
+      },
+      {
+        "quest_id": "QST000125",
+        "order": 5
+      },
+      {
+        "quest_id": "QST000126",
+        "order": 6
+      },
+      {
+        "quest_id": "QST000127",
+        "order": 7
+      },
+      {
+        "quest_id": "QST000128",
+        "order": 8
+      }
+    ],
+    "completion_reward_payload": {
+      "gold": 500,
+      "title": "Legendary Echoes Chain",
+      "world_flag": "legendary-echoes-chain_complete"
+    }
+  },
+  {
+    "chain_id": "QCHAIN0005",
+    "name": "Companion Roads Chain",
+    "slug": "companion-roads-chain",
+    "description": "Companion Roads Chain connects multiple Phase H quest templates into a future progression arc.",
+    "quest_ids": [
+      "QST000171",
+      "QST000172",
+      "QST000173",
+      "QST000174",
+      "QST000175",
+      "QST000176",
+      "QST000177",
+      "QST000178",
+      "QST000179",
+      "QST000180"
+    ],
+    "chain_order": [
+      {
+        "quest_id": "QST000171",
+        "order": 1
+      },
+      {
+        "quest_id": "QST000172",
+        "order": 2
+      },
+      {
+        "quest_id": "QST000173",
+        "order": 3
+      },
+      {
+        "quest_id": "QST000174",
+        "order": 4
+      },
+      {
+        "quest_id": "QST000175",
+        "order": 5
+      },
+      {
+        "quest_id": "QST000176",
+        "order": 6
+      },
+      {
+        "quest_id": "QST000177",
+        "order": 7
+      },
+      {
+        "quest_id": "QST000178",
+        "order": 8
+      },
+      {
+        "quest_id": "QST000179",
+        "order": 9
+      },
+      {
+        "quest_id": "QST000180",
+        "order": 10
+      }
+    ],
+    "completion_reward_payload": {
+      "gold": 500,
+      "title": "Companion Roads Chain",
+      "world_flag": "companion-roads-chain_complete"
+    }
+  }
+]

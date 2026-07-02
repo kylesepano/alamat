@@ -1,0 +1,134 @@
+﻿[
+    {
+        "code":  "SKC001",
+        "name":  "Physical",
+        "slug":  "physical",
+        "description":  "Direct body, claw, weapon, or impact techniques.",
+        "icon_hint":  "swords",
+        "color_hint":  "#EF4444",
+        "sort_order":  1,
+        "is_active":  true,
+        "id":  1
+    },
+    {
+        "code":  "SKC002",
+        "name":  "Magic",
+        "slug":  "magic",
+        "description":  "Spiritual, elemental, curse, or ritual damage skills.",
+        "icon_hint":  "wand",
+        "color_hint":  "#8B5CF6",
+        "sort_order":  2,
+        "is_active":  true,
+        "id":  2
+    },
+    {
+        "code":  "SKC003",
+        "name":  "Healing",
+        "slug":  "healing",
+        "description":  "Skills that restore HP or revive stability.",
+        "icon_hint":  "heart-pulse",
+        "color_hint":  "#22C55E",
+        "sort_order":  3,
+        "is_active":  true,
+        "id":  3
+    },
+    {
+        "code":  "SKC004",
+        "name":  "Buff",
+        "slug":  "buff",
+        "description":  "Skills that improve ally stats or protection.",
+        "icon_hint":  "trending-up",
+        "color_hint":  "#38BDF8",
+        "sort_order":  4,
+        "is_active":  true,
+        "id":  4
+    },
+    {
+        "code":  "SKC005",
+        "name":  "Debuff",
+        "slug":  "debuff",
+        "description":  "Skills that weaken enemies.",
+        "icon_hint":  "trending-down",
+        "color_hint":  "#F97316",
+        "sort_order":  5,
+        "is_active":  true,
+        "id":  5
+    },
+    {
+        "code":  "SKC006",
+        "name":  "Status",
+        "slug":  "status",
+        "description":  "Skills primarily designed to apply conditions.",
+        "icon_hint":  "sparkles",
+        "color_hint":  "#A78BFA",
+        "sort_order":  6,
+        "is_active":  true,
+        "id":  6
+    },
+    {
+        "code":  "SKC007",
+        "name":  "Summon",
+        "slug":  "summon",
+        "description":  "Skills that call spirits, minions, echoes, or temporary allies.",
+        "icon_hint":  "circle-dot",
+        "color_hint":  "#7C3AED",
+        "sort_order":  7,
+        "is_active":  true,
+        "id":  7
+    },
+    {
+        "code":  "SKC008",
+        "name":  "Ultimate",
+        "slug":  "ultimate",
+        "description":  "Powerful signature techniques with major cooldowns.",
+        "icon_hint":  "crown",
+        "color_hint":  "#FACC15",
+        "sort_order":  8,
+        "is_active":  true,
+        "id":  8
+    },
+    {
+        "code":  "SKC009",
+        "name":  "Passive",
+        "slug":  "passive",
+        "description":  "Always-active abilities or conditional traits.",
+        "icon_hint":  "infinity",
+        "color_hint":  "#94A3B8",
+        "sort_order":  9,
+        "is_active":  true,
+        "id":  9
+    },
+    {
+        "code":  "SKC010",
+        "name":  "Reaction",
+        "slug":  "reaction",
+        "description":  "Skills triggered by enemy actions.",
+        "icon_hint":  "rotate-ccw",
+        "color_hint":  "#60A5FA",
+        "sort_order":  10,
+        "is_active":  true,
+        "id":  10
+    },
+    {
+        "code":  "SKC011",
+        "name":  "Field",
+        "slug":  "field",
+        "description":  "Skills that alter terrain, weather, or battle zones.",
+        "icon_hint":  "map",
+        "color_hint":  "#14B8A6",
+        "sort_order":  11,
+        "is_active":  true,
+        "id":  11
+    },
+    {
+        "code":  "SKC012",
+        "name":  "Trust",
+        "slug":  "trust",
+        "description":  "Non-combat skills used in bonding, rituals, or dialogue.",
+        "icon_hint":  "handshake",
+        "color_hint":  "#4ADE80",
+        "sort_order":  12,
+        "is_active":  true,
+        "id":  12
+    }
+]

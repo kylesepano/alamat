@@ -1,0 +1,172 @@
+[
+  {
+    "region_id": "WREG0001",
+    "name": "Ilocos Region",
+    "slug": "ilocos-region",
+    "description": "Ilocos Region is represented as a fictionalized ALAMAT world region for future maps, routes, weather, spawns, and quests.",
+    "cultural_notes": "Use Filipino fantasy inspiration respectfully; review specific cultural details before final narrative use.",
+    "default_weather": "Clear",
+    "map_icon": "region_ilocos-region.png",
+    "is_active": true
+  },
+  {
+    "region_id": "WREG0002",
+    "name": "Cagayan Valley",
+    "slug": "cagayan-valley",
+    "description": "Cagayan Valley is represented as a fictionalized ALAMAT world region for future maps, routes, weather, spawns, and quests.",
+    "cultural_notes": "Use Filipino fantasy inspiration respectfully; review specific cultural details before final narrative use.",
+    "default_weather": "Rain",
+    "map_icon": "region_cagayan-valley.png",
+    "is_active": true
+  },
+  {
+    "region_id": "WREG0003",
+    "name": "Central Luzon",
+    "slug": "central-luzon",
+    "description": "Central Luzon is represented as a fictionalized ALAMAT world region for future maps, routes, weather, spawns, and quests.",
+    "cultural_notes": "Use Filipino fantasy inspiration respectfully; review specific cultural details before final narrative use.",
+    "default_weather": "Storm",
+    "map_icon": "region_central-luzon.png",
+    "is_active": true
+  },
+  {
+    "region_id": "WREG0004",
+    "name": "CALABARZON",
+    "slug": "calabarzon",
+    "description": "CALABARZON is represented as a fictionalized ALAMAT world region for future maps, routes, weather, spawns, and quests.",
+    "cultural_notes": "Use Filipino fantasy inspiration respectfully; review specific cultural details before final narrative use.",
+    "default_weather": "Mist",
+    "map_icon": "region_calabarzon.png",
+    "is_active": true
+  },
+  {
+    "region_id": "WREG0005",
+    "name": "MIMAROPA",
+    "slug": "mimaropa",
+    "description": "MIMAROPA is represented as a fictionalized ALAMAT world region for future maps, routes, weather, spawns, and quests.",
+    "cultural_notes": "Use Filipino fantasy inspiration respectfully; review specific cultural details before final narrative use.",
+    "default_weather": "Moonlit",
+    "map_icon": "region_mimaropa.png",
+    "is_active": true
+  },
+  {
+    "region_id": "WREG0006",
+    "name": "Bicol Region",
+    "slug": "bicol-region",
+    "description": "Bicol Region is represented as a fictionalized ALAMAT world region for future maps, routes, weather, spawns, and quests.",
+    "cultural_notes": "Use Filipino fantasy inspiration respectfully; review specific cultural details before final narrative use.",
+    "default_weather": "Humid",
+    "map_icon": "region_bicol-region.png",
+    "is_active": true
+  },
+  {
+    "region_id": "WREG0007",
+    "name": "Western Visayas",
+    "slug": "western-visayas",
+    "description": "Western Visayas is represented as a fictionalized ALAMAT world region for future maps, routes, weather, spawns, and quests.",
+    "cultural_notes": "Use Filipino fantasy inspiration respectfully; review specific cultural details before final narrative use.",
+    "default_weather": "Clear",
+    "map_icon": "region_western-visayas.png",
+    "is_active": true
+  },
+  {
+    "region_id": "WREG0008",
+    "name": "Central Visayas",
+    "slug": "central-visayas",
+    "description": "Central Visayas is represented as a fictionalized ALAMAT world region for future maps, routes, weather, spawns, and quests.",
+    "cultural_notes": "Use Filipino fantasy inspiration respectfully; review specific cultural details before final narrative use.",
+    "default_weather": "Rain",
+    "map_icon": "region_central-visayas.png",
+    "is_active": true
+  },
+  {
+    "region_id": "WREG0009",
+    "name": "Eastern Visayas",
+    "slug": "eastern-visayas",
+    "description": "Eastern Visayas is represented as a fictionalized ALAMAT world region for future maps, routes, weather, spawns, and quests.",
+    "cultural_notes": "Use Filipino fantasy inspiration respectfully; review specific cultural details before final narrative use.",
+    "default_weather": "Storm",
+    "map_icon": "region_eastern-visayas.png",
+    "is_active": true
+  },
+  {
+    "region_id": "WREG0010",
+    "name": "Zamboanga Peninsula",
+    "slug": "zamboanga-peninsula",
+    "description": "Zamboanga Peninsula is represented as a fictionalized ALAMAT world region for future maps, routes, weather, spawns, and quests.",
+    "cultural_notes": "Use Filipino fantasy inspiration respectfully; review specific cultural details before final narrative use.",
+    "default_weather": "Mist",
+    "map_icon": "region_zamboanga-peninsula.png",
+    "is_active": true
+  },
+  {
+    "region_id": "WREG0011",
+    "name": "Northern Mindanao",
+    "slug": "northern-mindanao",
+    "description": "Northern Mindanao is represented as a fictionalized ALAMAT world region for future maps, routes, weather, spawns, and quests.",
+    "cultural_notes": "Use Filipino fantasy inspiration respectfully; review specific cultural details before final narrative use.",
+    "default_weather": "Moonlit",
+    "map_icon": "region_northern-mindanao.png",
+    "is_active": true
+  },
+  {
+    "region_id": "WREG0012",
+    "name": "Davao Region",
+    "slug": "davao-region",
+    "description": "Davao Region is represented as a fictionalized ALAMAT world region for future maps, routes, weather, spawns, and quests.",
+    "cultural_notes": "Use Filipino fantasy inspiration respectfully; review specific cultural details before final narrative use.",
+    "default_weather": "Humid",
+    "map_icon": "region_davao-region.png",
+    "is_active": true
+  },
+  {
+    "region_id": "WREG0013",
+    "name": "SOCCSKSARGEN",
+    "slug": "soccsksargen",
+    "description": "SOCCSKSARGEN is represented as a fictionalized ALAMAT world region for future maps, routes, weather, spawns, and quests.",
+    "cultural_notes": "Use Filipino fantasy inspiration respectfully; review specific cultural details before final narrative use.",
+    "default_weather": "Clear",
+    "map_icon": "region_soccsksargen.png",
+    "is_active": true
+  },
+  {
+    "region_id": "WREG0014",
+    "name": "Caraga",
+    "slug": "caraga",
+    "description": "Caraga is represented as a fictionalized ALAMAT world region for future maps, routes, weather, spawns, and quests.",
+    "cultural_notes": "Use Filipino fantasy inspiration respectfully; review specific cultural details before final narrative use.",
+    "default_weather": "Rain",
+    "map_icon": "region_caraga.png",
+    "is_active": true
+  },
+  {
+    "region_id": "WREG0015",
+    "name": "Bangsamoro",
+    "slug": "bangsamoro",
+    "description": "Bangsamoro is represented as a fictionalized ALAMAT world region for future maps, routes, weather, spawns, and quests.",
+    "cultural_notes": "Use Filipino fantasy inspiration respectfully; review specific cultural details before final narrative use.",
+    "default_weather": "Storm",
+    "map_icon": "region_bangsamoro.png",
+    "is_active": true
+  },
+  {
+    "region_id": "WREG0016",
+    "name": "Cordillera",
+    "slug": "cordillera",
+    "description": "Cordillera is represented as a fictionalized ALAMAT world region for future maps, routes, weather, spawns, and quests.",
+    "cultural_notes": "Use Filipino fantasy inspiration respectfully; review specific cultural details before final narrative use.",
+    "default_weather": "Mist",
+    "map_icon": "region_cordillera.png",
+    "is_active": true
+  },
+  {
+    "region_id": "WREG0017",
+    "name": "National Capital Region",
+    "slug": "national-capital-region",
+    "description": "National Capital Region is represented as a fictionalized ALAMAT world region for future maps, routes, weather, spawns, and quests.",
+    "cultural_notes": "Use Filipino fantasy inspiration respectfully; review specific cultural details before final narrative use.",
+    "default_weather": "Moonlit",
+    "map_icon": "region_national-capital-region.png",
+    "is_active": true
+  }
+]

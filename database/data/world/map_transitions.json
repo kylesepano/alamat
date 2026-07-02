@@ -1,0 +1,3742 @@
+[
+  {
+    "transition_id": "WTRANS0000010",
+    "from_location_id": "WLOC000001",
+    "to_location_id": "WLOC000002",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 2,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 0,
+        "y": 0
+      },
+      "to": {
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000020",
+    "from_location_id": "WLOC000002",
+    "to_location_id": "WLOC000003",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 3,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 7,
+        "y": 9
+      },
+      "to": {
+        "x": 11,
+        "y": 13
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000030",
+    "from_location_id": "WLOC000003",
+    "to_location_id": "WLOC000004",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 4,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 14,
+        "y": 18
+      },
+      "to": {
+        "x": 22,
+        "y": 26
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000040",
+    "from_location_id": "WLOC000004",
+    "to_location_id": "WLOC000005",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 5,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 21,
+        "y": 27
+      },
+      "to": {
+        "x": 33,
+        "y": 39
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000050",
+    "from_location_id": "WLOC000005",
+    "to_location_id": "WLOC000006",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 6,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 28,
+        "y": 36
+      },
+      "to": {
+        "x": 44,
+        "y": 52
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000060",
+    "from_location_id": "WLOC000006",
+    "to_location_id": "WLOC000007",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 7,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 35,
+        "y": 45
+      },
+      "to": {
+        "x": 55,
+        "y": 65
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000070",
+    "from_location_id": "WLOC000007",
+    "to_location_id": "WLOC000008",
+    "transition_type": "dungeon_exit",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 12,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 42,
+        "y": 54
+      },
+      "to": {
+        "x": 66,
+        "y": 78
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000080",
+    "from_location_id": "WLOC000008",
+    "to_location_id": "WLOC000009",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 1,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 49,
+        "y": 63
+      },
+      "to": {
+        "x": 77,
+        "y": 91
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000090",
+    "from_location_id": "WLOC000009",
+    "to_location_id": "WLOC000010",
+    "transition_type": "walk",
+    "required_quest_id": "QST000009",
+    "required_item_id": null,
+    "required_level": 2,
+    "condition_payload": {
+      "active_time": "night"
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 56,
+        "y": 72
+      },
+      "to": {
+        "x": 88,
+        "y": 4
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000100",
+    "from_location_id": "WLOC000010",
+    "to_location_id": "WLOC000011",
+    "transition_type": "dungeon_exit",
+    "required_quest_id": "QST000010",
+    "required_item_id": null,
+    "required_level": 30,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 63,
+        "y": 81
+      },
+      "to": {
+        "x": 99,
+        "y": 17
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000110",
+    "from_location_id": "WLOC000011",
+    "to_location_id": "WLOC000012",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 4,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 70,
+        "y": 90
+      },
+      "to": {
+        "x": 10,
+        "y": 30
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000120",
+    "from_location_id": "WLOC000012",
+    "to_location_id": "WLOC000013",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 5,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 77,
+        "y": 99
+      },
+      "to": {
+        "x": 21,
+        "y": 43
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000130",
+    "from_location_id": "WLOC000013",
+    "to_location_id": "WLOC000014",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 6,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 84,
+        "y": 8
+      },
+      "to": {
+        "x": 32,
+        "y": 56
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000140",
+    "from_location_id": "WLOC000014",
+    "to_location_id": "WLOC000015",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 7,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 91,
+        "y": 17
+      },
+      "to": {
+        "x": 43,
+        "y": 69
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000150",
+    "from_location_id": "WLOC000015",
+    "to_location_id": "WLOC000016",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 8,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 98,
+        "y": 26
+      },
+      "to": {
+        "x": 54,
+        "y": 82
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000160",
+    "from_location_id": "WLOC000016",
+    "to_location_id": "WLOC000017",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 1,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 5,
+        "y": 35
+      },
+      "to": {
+        "x": 65,
+        "y": 95
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000170",
+    "from_location_id": "WLOC000017",
+    "to_location_id": "WLOC000018",
+    "transition_type": "dungeon_exit",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 12,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 12,
+        "y": 44
+      },
+      "to": {
+        "x": 76,
+        "y": 8
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000180",
+    "from_location_id": "WLOC000018",
+    "to_location_id": "WLOC000019",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 3,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 19,
+        "y": 53
+      },
+      "to": {
+        "x": 87,
+        "y": 21
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000190",
+    "from_location_id": "WLOC000019",
+    "to_location_id": "WLOC000020",
+    "transition_type": "walk",
+    "required_quest_id": "QST000019",
+    "required_item_id": null,
+    "required_level": 4,
+    "condition_payload": {
+      "active_time": "night"
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 26,
+        "y": 62
+      },
+      "to": {
+        "x": 98,
+        "y": 34
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000200",
+    "from_location_id": "WLOC000020",
+    "to_location_id": "WLOC000021",
+    "transition_type": "dungeon_exit",
+    "required_quest_id": "QST000020",
+    "required_item_id": null,
+    "required_level": 30,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 33,
+        "y": 71
+      },
+      "to": {
+        "x": 9,
+        "y": 47
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000210",
+    "from_location_id": "WLOC000021",
+    "to_location_id": "WLOC000022",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 6,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 40,
+        "y": 80
+      },
+      "to": {
+        "x": 20,
+        "y": 60
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000220",
+    "from_location_id": "WLOC000022",
+    "to_location_id": "WLOC000023",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 7,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 47,
+        "y": 89
+      },
+      "to": {
+        "x": 31,
+        "y": 73
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000230",
+    "from_location_id": "WLOC000023",
+    "to_location_id": "WLOC000024",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 8,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 54,
+        "y": 98
+      },
+      "to": {
+        "x": 42,
+        "y": 86
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000240",
+    "from_location_id": "WLOC000024",
+    "to_location_id": "WLOC000025",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 1,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 61,
+        "y": 7
+      },
+      "to": {
+        "x": 53,
+        "y": 99
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000250",
+    "from_location_id": "WLOC000025",
+    "to_location_id": "WLOC000026",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 2,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 68,
+        "y": 16
+      },
+      "to": {
+        "x": 64,
+        "y": 12
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000260",
+    "from_location_id": "WLOC000026",
+    "to_location_id": "WLOC000027",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 3,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 75,
+        "y": 25
+      },
+      "to": {
+        "x": 75,
+        "y": 25
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000270",
+    "from_location_id": "WLOC000027",
+    "to_location_id": "WLOC000028",
+    "transition_type": "dungeon_exit",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 12,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 82,
+        "y": 34
+      },
+      "to": {
+        "x": 86,
+        "y": 38
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000280",
+    "from_location_id": "WLOC000028",
+    "to_location_id": "WLOC000029",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 5,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 89,
+        "y": 43
+      },
+      "to": {
+        "x": 97,
+        "y": 51
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000290",
+    "from_location_id": "WLOC000029",
+    "to_location_id": "WLOC000030",
+    "transition_type": "walk",
+    "required_quest_id": "QST000029",
+    "required_item_id": null,
+    "required_level": 6,
+    "condition_payload": {
+      "active_time": "night"
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 96,
+        "y": 52
+      },
+      "to": {
+        "x": 8,
+        "y": 64
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000300",
+    "from_location_id": "WLOC000030",
+    "to_location_id": "WLOC000031",
+    "transition_type": "dungeon_exit",
+    "required_quest_id": "QST000030",
+    "required_item_id": null,
+    "required_level": 30,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 3,
+        "y": 61
+      },
+      "to": {
+        "x": 19,
+        "y": 77
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000310",
+    "from_location_id": "WLOC000031",
+    "to_location_id": "WLOC000032",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 8,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 10,
+        "y": 70
+      },
+      "to": {
+        "x": 30,
+        "y": 90
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000320",
+    "from_location_id": "WLOC000032",
+    "to_location_id": "WLOC000033",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 1,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 17,
+        "y": 79
+      },
+      "to": {
+        "x": 41,
+        "y": 3
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000330",
+    "from_location_id": "WLOC000033",
+    "to_location_id": "WLOC000034",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 2,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 24,
+        "y": 88
+      },
+      "to": {
+        "x": 52,
+        "y": 16
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000340",
+    "from_location_id": "WLOC000034",
+    "to_location_id": "WLOC000035",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 3,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 31,
+        "y": 97
+      },
+      "to": {
+        "x": 63,
+        "y": 29
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000350",
+    "from_location_id": "WLOC000035",
+    "to_location_id": "WLOC000036",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 4,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 38,
+        "y": 6
+      },
+      "to": {
+        "x": 74,
+        "y": 42
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000360",
+    "from_location_id": "WLOC000036",
+    "to_location_id": "WLOC000037",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 5,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 45,
+        "y": 15
+      },
+      "to": {
+        "x": 85,
+        "y": 55
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000370",
+    "from_location_id": "WLOC000037",
+    "to_location_id": "WLOC000038",
+    "transition_type": "dungeon_exit",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 12,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 52,
+        "y": 24
+      },
+      "to": {
+        "x": 96,
+        "y": 68
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000380",
+    "from_location_id": "WLOC000038",
+    "to_location_id": "WLOC000039",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 7,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 59,
+        "y": 33
+      },
+      "to": {
+        "x": 7,
+        "y": 81
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000390",
+    "from_location_id": "WLOC000039",
+    "to_location_id": "WLOC000040",
+    "transition_type": "walk",
+    "required_quest_id": "QST000039",
+    "required_item_id": null,
+    "required_level": 8,
+    "condition_payload": {
+      "active_time": "night"
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 66,
+        "y": 42
+      },
+      "to": {
+        "x": 18,
+        "y": 94
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000400",
+    "from_location_id": "WLOC000040",
+    "to_location_id": "WLOC000041",
+    "transition_type": "dungeon_exit",
+    "required_quest_id": "QST000040",
+    "required_item_id": null,
+    "required_level": 30,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 73,
+        "y": 51
+      },
+      "to": {
+        "x": 29,
+        "y": 7
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000410",
+    "from_location_id": "WLOC000041",
+    "to_location_id": "WLOC000042",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 2,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 80,
+        "y": 60
+      },
+      "to": {
+        "x": 40,
+        "y": 20
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000420",
+    "from_location_id": "WLOC000042",
+    "to_location_id": "WLOC000043",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 3,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 87,
+        "y": 69
+      },
+      "to": {
+        "x": 51,
+        "y": 33
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000430",
+    "from_location_id": "WLOC000043",
+    "to_location_id": "WLOC000044",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 4,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 94,
+        "y": 78
+      },
+      "to": {
+        "x": 62,
+        "y": 46
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000440",
+    "from_location_id": "WLOC000044",
+    "to_location_id": "WLOC000045",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 5,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 1,
+        "y": 87
+      },
+      "to": {
+        "x": 73,
+        "y": 59
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000450",
+    "from_location_id": "WLOC000045",
+    "to_location_id": "WLOC000046",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 6,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 8,
+        "y": 96
+      },
+      "to": {
+        "x": 84,
+        "y": 72
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000460",
+    "from_location_id": "WLOC000046",
+    "to_location_id": "WLOC000047",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 7,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 15,
+        "y": 5
+      },
+      "to": {
+        "x": 95,
+        "y": 85
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000470",
+    "from_location_id": "WLOC000047",
+    "to_location_id": "WLOC000048",
+    "transition_type": "dungeon_exit",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 12,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 22,
+        "y": 14
+      },
+      "to": {
+        "x": 6,
+        "y": 98
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000480",
+    "from_location_id": "WLOC000048",
+    "to_location_id": "WLOC000049",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 1,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 29,
+        "y": 23
+      },
+      "to": {
+        "x": 17,
+        "y": 11
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000490",
+    "from_location_id": "WLOC000049",
+    "to_location_id": "WLOC000050",
+    "transition_type": "walk",
+    "required_quest_id": "QST000049",
+    "required_item_id": null,
+    "required_level": 2,
+    "condition_payload": {
+      "active_time": "night"
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 36,
+        "y": 32
+      },
+      "to": {
+        "x": 28,
+        "y": 24
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000500",
+    "from_location_id": "WLOC000050",
+    "to_location_id": "WLOC000051",
+    "transition_type": "dungeon_exit",
+    "required_quest_id": "QST000050",
+    "required_item_id": null,
+    "required_level": 30,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 43,
+        "y": 41
+      },
+      "to": {
+        "x": 39,
+        "y": 37
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000510",
+    "from_location_id": "WLOC000051",
+    "to_location_id": "WLOC000052",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 4,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 50,
+        "y": 50
+      },
+      "to": {
+        "x": 50,
+        "y": 50
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000520",
+    "from_location_id": "WLOC000052",
+    "to_location_id": "WLOC000053",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 5,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 57,
+        "y": 59
+      },
+      "to": {
+        "x": 61,
+        "y": 63
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000530",
+    "from_location_id": "WLOC000053",
+    "to_location_id": "WLOC000054",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 6,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 64,
+        "y": 68
+      },
+      "to": {
+        "x": 72,
+        "y": 76
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000540",
+    "from_location_id": "WLOC000054",
+    "to_location_id": "WLOC000055",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 7,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 71,
+        "y": 77
+      },
+      "to": {
+        "x": 83,
+        "y": 89
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000550",
+    "from_location_id": "WLOC000055",
+    "to_location_id": "WLOC000056",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 8,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 78,
+        "y": 86
+      },
+      "to": {
+        "x": 94,
+        "y": 2
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000560",
+    "from_location_id": "WLOC000056",
+    "to_location_id": "WLOC000057",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 1,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 85,
+        "y": 95
+      },
+      "to": {
+        "x": 5,
+        "y": 15
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000570",
+    "from_location_id": "WLOC000057",
+    "to_location_id": "WLOC000058",
+    "transition_type": "dungeon_exit",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 12,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 92,
+        "y": 4
+      },
+      "to": {
+        "x": 16,
+        "y": 28
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000580",
+    "from_location_id": "WLOC000058",
+    "to_location_id": "WLOC000059",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 3,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 99,
+        "y": 13
+      },
+      "to": {
+        "x": 27,
+        "y": 41
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000590",
+    "from_location_id": "WLOC000059",
+    "to_location_id": "WLOC000060",
+    "transition_type": "walk",
+    "required_quest_id": "QST000059",
+    "required_item_id": null,
+    "required_level": 4,
+    "condition_payload": {
+      "active_time": "night"
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 6,
+        "y": 22
+      },
+      "to": {
+        "x": 38,
+        "y": 54
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000600",
+    "from_location_id": "WLOC000060",
+    "to_location_id": "WLOC000061",
+    "transition_type": "dungeon_exit",
+    "required_quest_id": "QST000060",
+    "required_item_id": null,
+    "required_level": 30,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 13,
+        "y": 31
+      },
+      "to": {
+        "x": 49,
+        "y": 67
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000610",
+    "from_location_id": "WLOC000061",
+    "to_location_id": "WLOC000062",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 6,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 20,
+        "y": 40
+      },
+      "to": {
+        "x": 60,
+        "y": 80
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000620",
+    "from_location_id": "WLOC000062",
+    "to_location_id": "WLOC000063",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 7,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 27,
+        "y": 49
+      },
+      "to": {
+        "x": 71,
+        "y": 93
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000630",
+    "from_location_id": "WLOC000063",
+    "to_location_id": "WLOC000064",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 8,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 34,
+        "y": 58
+      },
+      "to": {
+        "x": 82,
+        "y": 6
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000640",
+    "from_location_id": "WLOC000064",
+    "to_location_id": "WLOC000065",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 1,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 41,
+        "y": 67
+      },
+      "to": {
+        "x": 93,
+        "y": 19
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000650",
+    "from_location_id": "WLOC000065",
+    "to_location_id": "WLOC000066",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 2,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 48,
+        "y": 76
+      },
+      "to": {
+        "x": 4,
+        "y": 32
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000660",
+    "from_location_id": "WLOC000066",
+    "to_location_id": "WLOC000067",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 3,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 55,
+        "y": 85
+      },
+      "to": {
+        "x": 15,
+        "y": 45
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000670",
+    "from_location_id": "WLOC000067",
+    "to_location_id": "WLOC000068",
+    "transition_type": "dungeon_exit",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 12,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 62,
+        "y": 94
+      },
+      "to": {
+        "x": 26,
+        "y": 58
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000680",
+    "from_location_id": "WLOC000068",
+    "to_location_id": "WLOC000069",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 5,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 69,
+        "y": 3
+      },
+      "to": {
+        "x": 37,
+        "y": 71
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000690",
+    "from_location_id": "WLOC000069",
+    "to_location_id": "WLOC000070",
+    "transition_type": "walk",
+    "required_quest_id": "QST000069",
+    "required_item_id": null,
+    "required_level": 6,
+    "condition_payload": {
+      "active_time": "night"
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 76,
+        "y": 12
+      },
+      "to": {
+        "x": 48,
+        "y": 84
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000700",
+    "from_location_id": "WLOC000070",
+    "to_location_id": "WLOC000071",
+    "transition_type": "dungeon_exit",
+    "required_quest_id": "QST000070",
+    "required_item_id": null,
+    "required_level": 30,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 83,
+        "y": 21
+      },
+      "to": {
+        "x": 59,
+        "y": 97
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000710",
+    "from_location_id": "WLOC000071",
+    "to_location_id": "WLOC000072",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 8,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 90,
+        "y": 30
+      },
+      "to": {
+        "x": 70,
+        "y": 10
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000720",
+    "from_location_id": "WLOC000072",
+    "to_location_id": "WLOC000073",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 1,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 97,
+        "y": 39
+      },
+      "to": {
+        "x": 81,
+        "y": 23
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000730",
+    "from_location_id": "WLOC000073",
+    "to_location_id": "WLOC000074",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 2,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 4,
+        "y": 48
+      },
+      "to": {
+        "x": 92,
+        "y": 36
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000740",
+    "from_location_id": "WLOC000074",
+    "to_location_id": "WLOC000075",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 3,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 11,
+        "y": 57
+      },
+      "to": {
+        "x": 3,
+        "y": 49
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000750",
+    "from_location_id": "WLOC000075",
+    "to_location_id": "WLOC000076",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 4,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 18,
+        "y": 66
+      },
+      "to": {
+        "x": 14,
+        "y": 62
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000760",
+    "from_location_id": "WLOC000076",
+    "to_location_id": "WLOC000077",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 5,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 25,
+        "y": 75
+      },
+      "to": {
+        "x": 25,
+        "y": 75
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000770",
+    "from_location_id": "WLOC000077",
+    "to_location_id": "WLOC000078",
+    "transition_type": "dungeon_exit",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 12,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 32,
+        "y": 84
+      },
+      "to": {
+        "x": 36,
+        "y": 88
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000780",
+    "from_location_id": "WLOC000078",
+    "to_location_id": "WLOC000079",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 7,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 39,
+        "y": 93
+      },
+      "to": {
+        "x": 47,
+        "y": 1
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000790",
+    "from_location_id": "WLOC000079",
+    "to_location_id": "WLOC000080",
+    "transition_type": "walk",
+    "required_quest_id": "QST000079",
+    "required_item_id": null,
+    "required_level": 8,
+    "condition_payload": {
+      "active_time": "night"
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 46,
+        "y": 2
+      },
+      "to": {
+        "x": 58,
+        "y": 14
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000800",
+    "from_location_id": "WLOC000080",
+    "to_location_id": "WLOC000081",
+    "transition_type": "dungeon_exit",
+    "required_quest_id": "QST000080",
+    "required_item_id": null,
+    "required_level": 30,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 53,
+        "y": 11
+      },
+      "to": {
+        "x": 69,
+        "y": 27
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000810",
+    "from_location_id": "WLOC000081",
+    "to_location_id": "WLOC000082",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 2,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 60,
+        "y": 20
+      },
+      "to": {
+        "x": 80,
+        "y": 40
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000820",
+    "from_location_id": "WLOC000082",
+    "to_location_id": "WLOC000083",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 3,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 67,
+        "y": 29
+      },
+      "to": {
+        "x": 91,
+        "y": 53
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000830",
+    "from_location_id": "WLOC000083",
+    "to_location_id": "WLOC000084",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 4,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 74,
+        "y": 38
+      },
+      "to": {
+        "x": 2,
+        "y": 66
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000840",
+    "from_location_id": "WLOC000084",
+    "to_location_id": "WLOC000085",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 5,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 81,
+        "y": 47
+      },
+      "to": {
+        "x": 13,
+        "y": 79
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000850",
+    "from_location_id": "WLOC000085",
+    "to_location_id": "WLOC000086",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 6,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 88,
+        "y": 56
+      },
+      "to": {
+        "x": 24,
+        "y": 92
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000860",
+    "from_location_id": "WLOC000086",
+    "to_location_id": "WLOC000087",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 7,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 95,
+        "y": 65
+      },
+      "to": {
+        "x": 35,
+        "y": 5
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000870",
+    "from_location_id": "WLOC000087",
+    "to_location_id": "WLOC000088",
+    "transition_type": "dungeon_exit",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 12,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 2,
+        "y": 74
+      },
+      "to": {
+        "x": 46,
+        "y": 18
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000880",
+    "from_location_id": "WLOC000088",
+    "to_location_id": "WLOC000089",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 1,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 9,
+        "y": 83
+      },
+      "to": {
+        "x": 57,
+        "y": 31
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000890",
+    "from_location_id": "WLOC000089",
+    "to_location_id": "WLOC000090",
+    "transition_type": "walk",
+    "required_quest_id": "QST000089",
+    "required_item_id": null,
+    "required_level": 2,
+    "condition_payload": {
+      "active_time": "night"
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 16,
+        "y": 92
+      },
+      "to": {
+        "x": 68,
+        "y": 44
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000900",
+    "from_location_id": "WLOC000090",
+    "to_location_id": "WLOC000091",
+    "transition_type": "dungeon_exit",
+    "required_quest_id": "QST000090",
+    "required_item_id": null,
+    "required_level": 30,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 23,
+        "y": 1
+      },
+      "to": {
+        "x": 79,
+        "y": 57
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000910",
+    "from_location_id": "WLOC000091",
+    "to_location_id": "WLOC000092",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 4,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 30,
+        "y": 10
+      },
+      "to": {
+        "x": 90,
+        "y": 70
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000920",
+    "from_location_id": "WLOC000092",
+    "to_location_id": "WLOC000093",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 5,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 37,
+        "y": 19
+      },
+      "to": {
+        "x": 1,
+        "y": 83
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000930",
+    "from_location_id": "WLOC000093",
+    "to_location_id": "WLOC000094",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 6,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 44,
+        "y": 28
+      },
+      "to": {
+        "x": 12,
+        "y": 96
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000940",
+    "from_location_id": "WLOC000094",
+    "to_location_id": "WLOC000095",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 7,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 51,
+        "y": 37
+      },
+      "to": {
+        "x": 23,
+        "y": 9
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000950",
+    "from_location_id": "WLOC000095",
+    "to_location_id": "WLOC000096",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 8,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 58,
+        "y": 46
+      },
+      "to": {
+        "x": 34,
+        "y": 22
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000960",
+    "from_location_id": "WLOC000096",
+    "to_location_id": "WLOC000097",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 1,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 65,
+        "y": 55
+      },
+      "to": {
+        "x": 45,
+        "y": 35
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000970",
+    "from_location_id": "WLOC000097",
+    "to_location_id": "WLOC000098",
+    "transition_type": "dungeon_exit",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 12,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 72,
+        "y": 64
+      },
+      "to": {
+        "x": 56,
+        "y": 48
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000980",
+    "from_location_id": "WLOC000098",
+    "to_location_id": "WLOC000099",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 3,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 79,
+        "y": 73
+      },
+      "to": {
+        "x": 67,
+        "y": 61
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0000990",
+    "from_location_id": "WLOC000099",
+    "to_location_id": "WLOC000100",
+    "transition_type": "walk",
+    "required_quest_id": "QST000099",
+    "required_item_id": null,
+    "required_level": 4,
+    "condition_payload": {
+      "active_time": "night"
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 86,
+        "y": 82
+      },
+      "to": {
+        "x": 78,
+        "y": 74
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001000",
+    "from_location_id": "WLOC000100",
+    "to_location_id": "WLOC000101",
+    "transition_type": "dungeon_exit",
+    "required_quest_id": "QST000100",
+    "required_item_id": null,
+    "required_level": 30,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 93,
+        "y": 91
+      },
+      "to": {
+        "x": 89,
+        "y": 87
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001010",
+    "from_location_id": "WLOC000101",
+    "to_location_id": "WLOC000102",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 6,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 0,
+        "y": 0
+      },
+      "to": {
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001020",
+    "from_location_id": "WLOC000102",
+    "to_location_id": "WLOC000103",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 7,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 7,
+        "y": 9
+      },
+      "to": {
+        "x": 11,
+        "y": 13
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001030",
+    "from_location_id": "WLOC000103",
+    "to_location_id": "WLOC000104",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 8,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 14,
+        "y": 18
+      },
+      "to": {
+        "x": 22,
+        "y": 26
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001040",
+    "from_location_id": "WLOC000104",
+    "to_location_id": "WLOC000105",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 1,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 21,
+        "y": 27
+      },
+      "to": {
+        "x": 33,
+        "y": 39
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001050",
+    "from_location_id": "WLOC000105",
+    "to_location_id": "WLOC000106",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 2,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 28,
+        "y": 36
+      },
+      "to": {
+        "x": 44,
+        "y": 52
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001060",
+    "from_location_id": "WLOC000106",
+    "to_location_id": "WLOC000107",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 3,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 35,
+        "y": 45
+      },
+      "to": {
+        "x": 55,
+        "y": 65
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001070",
+    "from_location_id": "WLOC000107",
+    "to_location_id": "WLOC000108",
+    "transition_type": "dungeon_exit",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 12,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 42,
+        "y": 54
+      },
+      "to": {
+        "x": 66,
+        "y": 78
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001080",
+    "from_location_id": "WLOC000108",
+    "to_location_id": "WLOC000109",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 5,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 49,
+        "y": 63
+      },
+      "to": {
+        "x": 77,
+        "y": 91
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001090",
+    "from_location_id": "WLOC000109",
+    "to_location_id": "WLOC000110",
+    "transition_type": "walk",
+    "required_quest_id": "QST000109",
+    "required_item_id": null,
+    "required_level": 6,
+    "condition_payload": {
+      "active_time": "night"
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 56,
+        "y": 72
+      },
+      "to": {
+        "x": 88,
+        "y": 4
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001100",
+    "from_location_id": "WLOC000110",
+    "to_location_id": "WLOC000111",
+    "transition_type": "dungeon_exit",
+    "required_quest_id": "QST000110",
+    "required_item_id": null,
+    "required_level": 30,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 63,
+        "y": 81
+      },
+      "to": {
+        "x": 99,
+        "y": 17
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001110",
+    "from_location_id": "WLOC000111",
+    "to_location_id": "WLOC000112",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 8,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 70,
+        "y": 90
+      },
+      "to": {
+        "x": 10,
+        "y": 30
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001120",
+    "from_location_id": "WLOC000112",
+    "to_location_id": "WLOC000113",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 1,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 77,
+        "y": 99
+      },
+      "to": {
+        "x": 21,
+        "y": 43
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001130",
+    "from_location_id": "WLOC000113",
+    "to_location_id": "WLOC000114",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 2,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 84,
+        "y": 8
+      },
+      "to": {
+        "x": 32,
+        "y": 56
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001140",
+    "from_location_id": "WLOC000114",
+    "to_location_id": "WLOC000115",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 3,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 91,
+        "y": 17
+      },
+      "to": {
+        "x": 43,
+        "y": 69
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001150",
+    "from_location_id": "WLOC000115",
+    "to_location_id": "WLOC000116",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 4,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 98,
+        "y": 26
+      },
+      "to": {
+        "x": 54,
+        "y": 82
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001160",
+    "from_location_id": "WLOC000116",
+    "to_location_id": "WLOC000117",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 5,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 5,
+        "y": 35
+      },
+      "to": {
+        "x": 65,
+        "y": 95
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001170",
+    "from_location_id": "WLOC000117",
+    "to_location_id": "WLOC000118",
+    "transition_type": "dungeon_exit",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 12,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 12,
+        "y": 44
+      },
+      "to": {
+        "x": 76,
+        "y": 8
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001180",
+    "from_location_id": "WLOC000118",
+    "to_location_id": "WLOC000119",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 7,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 19,
+        "y": 53
+      },
+      "to": {
+        "x": 87,
+        "y": 21
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001190",
+    "from_location_id": "WLOC000119",
+    "to_location_id": "WLOC000120",
+    "transition_type": "walk",
+    "required_quest_id": "QST000119",
+    "required_item_id": null,
+    "required_level": 8,
+    "condition_payload": {
+      "active_time": "night"
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 26,
+        "y": 62
+      },
+      "to": {
+        "x": 98,
+        "y": 34
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001200",
+    "from_location_id": "WLOC000120",
+    "to_location_id": "WLOC000121",
+    "transition_type": "dungeon_exit",
+    "required_quest_id": "QST000120",
+    "required_item_id": null,
+    "required_level": 30,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 33,
+        "y": 71
+      },
+      "to": {
+        "x": 9,
+        "y": 47
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001210",
+    "from_location_id": "WLOC000121",
+    "to_location_id": "WLOC000122",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 2,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 40,
+        "y": 80
+      },
+      "to": {
+        "x": 20,
+        "y": 60
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001220",
+    "from_location_id": "WLOC000122",
+    "to_location_id": "WLOC000123",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 3,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 47,
+        "y": 89
+      },
+      "to": {
+        "x": 31,
+        "y": 73
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001230",
+    "from_location_id": "WLOC000123",
+    "to_location_id": "WLOC000124",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 4,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 54,
+        "y": 98
+      },
+      "to": {
+        "x": 42,
+        "y": 86
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001240",
+    "from_location_id": "WLOC000124",
+    "to_location_id": "WLOC000125",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 5,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 61,
+        "y": 7
+      },
+      "to": {
+        "x": 53,
+        "y": 99
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001250",
+    "from_location_id": "WLOC000125",
+    "to_location_id": "WLOC000126",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 6,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 68,
+        "y": 16
+      },
+      "to": {
+        "x": 64,
+        "y": 12
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001260",
+    "from_location_id": "WLOC000126",
+    "to_location_id": "WLOC000127",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 7,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 75,
+        "y": 25
+      },
+      "to": {
+        "x": 75,
+        "y": 25
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001270",
+    "from_location_id": "WLOC000127",
+    "to_location_id": "WLOC000128",
+    "transition_type": "dungeon_exit",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 12,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 82,
+        "y": 34
+      },
+      "to": {
+        "x": 86,
+        "y": 38
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001280",
+    "from_location_id": "WLOC000128",
+    "to_location_id": "WLOC000129",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 1,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 89,
+        "y": 43
+      },
+      "to": {
+        "x": 97,
+        "y": 51
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001290",
+    "from_location_id": "WLOC000129",
+    "to_location_id": "WLOC000130",
+    "transition_type": "walk",
+    "required_quest_id": "QST000129",
+    "required_item_id": null,
+    "required_level": 2,
+    "condition_payload": {
+      "active_time": "night"
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 96,
+        "y": 52
+      },
+      "to": {
+        "x": 8,
+        "y": 64
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001300",
+    "from_location_id": "WLOC000130",
+    "to_location_id": "WLOC000131",
+    "transition_type": "dungeon_exit",
+    "required_quest_id": "QST000130",
+    "required_item_id": null,
+    "required_level": 30,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 3,
+        "y": 61
+      },
+      "to": {
+        "x": 19,
+        "y": 77
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001310",
+    "from_location_id": "WLOC000131",
+    "to_location_id": "WLOC000132",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 4,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 10,
+        "y": 70
+      },
+      "to": {
+        "x": 30,
+        "y": 90
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001320",
+    "from_location_id": "WLOC000132",
+    "to_location_id": "WLOC000133",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 5,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 17,
+        "y": 79
+      },
+      "to": {
+        "x": 41,
+        "y": 3
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001330",
+    "from_location_id": "WLOC000133",
+    "to_location_id": "WLOC000134",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 6,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 24,
+        "y": 88
+      },
+      "to": {
+        "x": 52,
+        "y": 16
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001340",
+    "from_location_id": "WLOC000134",
+    "to_location_id": "WLOC000135",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 7,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 31,
+        "y": 97
+      },
+      "to": {
+        "x": 63,
+        "y": 29
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001350",
+    "from_location_id": "WLOC000135",
+    "to_location_id": "WLOC000136",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 8,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 38,
+        "y": 6
+      },
+      "to": {
+        "x": 74,
+        "y": 42
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001360",
+    "from_location_id": "WLOC000136",
+    "to_location_id": "WLOC000137",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 1,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 45,
+        "y": 15
+      },
+      "to": {
+        "x": 85,
+        "y": 55
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001370",
+    "from_location_id": "WLOC000137",
+    "to_location_id": "WLOC000138",
+    "transition_type": "dungeon_exit",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 12,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 52,
+        "y": 24
+      },
+      "to": {
+        "x": 96,
+        "y": 68
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001380",
+    "from_location_id": "WLOC000138",
+    "to_location_id": "WLOC000139",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 3,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 59,
+        "y": 33
+      },
+      "to": {
+        "x": 7,
+        "y": 81
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001390",
+    "from_location_id": "WLOC000139",
+    "to_location_id": "WLOC000140",
+    "transition_type": "walk",
+    "required_quest_id": "QST000139",
+    "required_item_id": null,
+    "required_level": 4,
+    "condition_payload": {
+      "active_time": "night"
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 66,
+        "y": 42
+      },
+      "to": {
+        "x": 18,
+        "y": 94
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001400",
+    "from_location_id": "WLOC000140",
+    "to_location_id": "WLOC000141",
+    "transition_type": "dungeon_exit",
+    "required_quest_id": "QST000140",
+    "required_item_id": null,
+    "required_level": 30,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 73,
+        "y": 51
+      },
+      "to": {
+        "x": 29,
+        "y": 7
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001410",
+    "from_location_id": "WLOC000141",
+    "to_location_id": "WLOC000142",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 6,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 80,
+        "y": 60
+      },
+      "to": {
+        "x": 40,
+        "y": 20
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001420",
+    "from_location_id": "WLOC000142",
+    "to_location_id": "WLOC000143",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 7,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 87,
+        "y": 69
+      },
+      "to": {
+        "x": 51,
+        "y": 33
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001430",
+    "from_location_id": "WLOC000143",
+    "to_location_id": "WLOC000144",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 8,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 94,
+        "y": 78
+      },
+      "to": {
+        "x": 62,
+        "y": 46
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001440",
+    "from_location_id": "WLOC000144",
+    "to_location_id": "WLOC000145",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 1,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 1,
+        "y": 87
+      },
+      "to": {
+        "x": 73,
+        "y": 59
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001450",
+    "from_location_id": "WLOC000145",
+    "to_location_id": "WLOC000146",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 2,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 8,
+        "y": 96
+      },
+      "to": {
+        "x": 84,
+        "y": 72
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001460",
+    "from_location_id": "WLOC000146",
+    "to_location_id": "WLOC000147",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 3,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 15,
+        "y": 5
+      },
+      "to": {
+        "x": 95,
+        "y": 85
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001470",
+    "from_location_id": "WLOC000147",
+    "to_location_id": "WLOC000148",
+    "transition_type": "dungeon_exit",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 12,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 22,
+        "y": 14
+      },
+      "to": {
+        "x": 6,
+        "y": 98
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001480",
+    "from_location_id": "WLOC000148",
+    "to_location_id": "WLOC000149",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 5,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 29,
+        "y": 23
+      },
+      "to": {
+        "x": 17,
+        "y": 11
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001490",
+    "from_location_id": "WLOC000149",
+    "to_location_id": "WLOC000150",
+    "transition_type": "walk",
+    "required_quest_id": "QST000149",
+    "required_item_id": null,
+    "required_level": 6,
+    "condition_payload": {
+      "active_time": "night"
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 36,
+        "y": 32
+      },
+      "to": {
+        "x": 28,
+        "y": 24
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001500",
+    "from_location_id": "WLOC000150",
+    "to_location_id": "WLOC000151",
+    "transition_type": "dungeon_exit",
+    "required_quest_id": "QST000150",
+    "required_item_id": null,
+    "required_level": 30,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 43,
+        "y": 41
+      },
+      "to": {
+        "x": 39,
+        "y": 37
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001510",
+    "from_location_id": "WLOC000151",
+    "to_location_id": "WLOC000152",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 8,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 50,
+        "y": 50
+      },
+      "to": {
+        "x": 50,
+        "y": 50
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001520",
+    "from_location_id": "WLOC000152",
+    "to_location_id": "WLOC000153",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 1,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 57,
+        "y": 59
+      },
+      "to": {
+        "x": 61,
+        "y": 63
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001530",
+    "from_location_id": "WLOC000153",
+    "to_location_id": "WLOC000154",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 2,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 64,
+        "y": 68
+      },
+      "to": {
+        "x": 72,
+        "y": 76
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001540",
+    "from_location_id": "WLOC000154",
+    "to_location_id": "WLOC000155",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 3,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 71,
+        "y": 77
+      },
+      "to": {
+        "x": 83,
+        "y": 89
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001550",
+    "from_location_id": "WLOC000155",
+    "to_location_id": "WLOC000156",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 4,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 78,
+        "y": 86
+      },
+      "to": {
+        "x": 94,
+        "y": 2
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001560",
+    "from_location_id": "WLOC000156",
+    "to_location_id": "WLOC000157",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 5,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 85,
+        "y": 95
+      },
+      "to": {
+        "x": 5,
+        "y": 15
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001570",
+    "from_location_id": "WLOC000157",
+    "to_location_id": "WLOC000158",
+    "transition_type": "dungeon_exit",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 12,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 92,
+        "y": 4
+      },
+      "to": {
+        "x": 16,
+        "y": 28
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001580",
+    "from_location_id": "WLOC000158",
+    "to_location_id": "WLOC000159",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 7,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 99,
+        "y": 13
+      },
+      "to": {
+        "x": 27,
+        "y": 41
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001590",
+    "from_location_id": "WLOC000159",
+    "to_location_id": "WLOC000160",
+    "transition_type": "walk",
+    "required_quest_id": "QST000159",
+    "required_item_id": null,
+    "required_level": 8,
+    "condition_payload": {
+      "active_time": "night"
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 6,
+        "y": 22
+      },
+      "to": {
+        "x": 38,
+        "y": 54
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001600",
+    "from_location_id": "WLOC000160",
+    "to_location_id": "WLOC000161",
+    "transition_type": "dungeon_exit",
+    "required_quest_id": "QST000160",
+    "required_item_id": null,
+    "required_level": 30,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 13,
+        "y": 31
+      },
+      "to": {
+        "x": 49,
+        "y": 67
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001610",
+    "from_location_id": "WLOC000161",
+    "to_location_id": "WLOC000162",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 2,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 20,
+        "y": 40
+      },
+      "to": {
+        "x": 60,
+        "y": 80
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001620",
+    "from_location_id": "WLOC000162",
+    "to_location_id": "WLOC000163",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 3,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 27,
+        "y": 49
+      },
+      "to": {
+        "x": 71,
+        "y": 93
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001630",
+    "from_location_id": "WLOC000163",
+    "to_location_id": "WLOC000164",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 4,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 34,
+        "y": 58
+      },
+      "to": {
+        "x": 82,
+        "y": 6
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001640",
+    "from_location_id": "WLOC000164",
+    "to_location_id": "WLOC000165",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 5,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 41,
+        "y": 67
+      },
+      "to": {
+        "x": 93,
+        "y": 19
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001650",
+    "from_location_id": "WLOC000165",
+    "to_location_id": "WLOC000166",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 6,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 48,
+        "y": 76
+      },
+      "to": {
+        "x": 4,
+        "y": 32
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001660",
+    "from_location_id": "WLOC000166",
+    "to_location_id": "WLOC000167",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 7,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 55,
+        "y": 85
+      },
+      "to": {
+        "x": 15,
+        "y": 45
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001670",
+    "from_location_id": "WLOC000167",
+    "to_location_id": "WLOC000168",
+    "transition_type": "dungeon_exit",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 12,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 62,
+        "y": 94
+      },
+      "to": {
+        "x": 26,
+        "y": 58
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001680",
+    "from_location_id": "WLOC000168",
+    "to_location_id": "WLOC000169",
+    "transition_type": "walk",
+    "required_quest_id": null,
+    "required_item_id": null,
+    "required_level": 1,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 69,
+        "y": 3
+      },
+      "to": {
+        "x": 37,
+        "y": 71
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001690",
+    "from_location_id": "WLOC000169",
+    "to_location_id": "WLOC000170",
+    "transition_type": "walk",
+    "required_quest_id": "QST000169",
+    "required_item_id": null,
+    "required_level": 2,
+    "condition_payload": {
+      "active_time": "night"
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 76,
+        "y": 12
+      },
+      "to": {
+        "x": 48,
+        "y": 84
+      }
+    }
+  },
+  {
+    "transition_id": "WTRANS0001700",
+    "from_location_id": "WLOC000170",
+    "to_location_id": "WLOC000001",
+    "transition_type": "dungeon_exit",
+    "required_quest_id": "QST000170",
+    "required_item_id": null,
+    "required_level": 30,
+    "condition_payload": {
+      "active_time": null
+    },
+    "coordinates_payload": {
+      "from": {
+        "x": 83,
+        "y": 21
+      },
+      "to": {
+        "x": 59,
+        "y": 97
+      }
+    }
+  }
+]

@@ -1,0 +1,410 @@
+[
+  {
+    "dungeon_id": "WDUN00001",
+    "location_id": "WLOC000007",
+    "name": "Laguna Echo Cave Dungeon",
+    "floor_count": 3,
+    "boss_monster_id": "MON0001",
+    "dungeon_rules_payload": {
+      "exit_allowed": true,
+      "corruption_level": "medium"
+    },
+    "is_active": true
+  },
+  {
+    "dungeon_id": "WDUN00002",
+    "location_id": "WLOC000010",
+    "name": "Laguna Legendary Boss Arena",
+    "floor_count": 1,
+    "boss_monster_id": "MON0002",
+    "dungeon_rules_payload": {
+      "exit_allowed": true,
+      "corruption_level": "legendary"
+    },
+    "is_active": true
+  },
+  {
+    "dungeon_id": "WDUN00003",
+    "location_id": "WLOC000017",
+    "name": "Cebu Echo Cave Dungeon",
+    "floor_count": 3,
+    "boss_monster_id": "MON0003",
+    "dungeon_rules_payload": {
+      "exit_allowed": true,
+      "corruption_level": "medium"
+    },
+    "is_active": true
+  },
+  {
+    "dungeon_id": "WDUN00004",
+    "location_id": "WLOC000020",
+    "name": "Cebu Legendary Boss Arena",
+    "floor_count": 1,
+    "boss_monster_id": "MON0004",
+    "dungeon_rules_payload": {
+      "exit_allowed": true,
+      "corruption_level": "legendary"
+    },
+    "is_active": true
+  },
+  {
+    "dungeon_id": "WDUN00005",
+    "location_id": "WLOC000027",
+    "name": "Davao del Sur Echo Cave Dungeon",
+    "floor_count": 3,
+    "boss_monster_id": "MON0005",
+    "dungeon_rules_payload": {
+      "exit_allowed": true,
+      "corruption_level": "medium"
+    },
+    "is_active": true
+  },
+  {
+    "dungeon_id": "WDUN00006",
+    "location_id": "WLOC000030",
+    "name": "Davao del Sur Legendary Boss Arena",
+    "floor_count": 1,
+    "boss_monster_id": "MON0006",
+    "dungeon_rules_payload": {
+      "exit_allowed": true,
+      "corruption_level": "legendary"
+    },
+    "is_active": true
+  },
+  {
+    "dungeon_id": "WDUN00007",
+    "location_id": "WLOC000037",
+    "name": "Palawan Echo Cave Dungeon",
+    "floor_count": 3,
+    "boss_monster_id": "MON0007",
+    "dungeon_rules_payload": {
+      "exit_allowed": true,
+      "corruption_level": "medium"
+    },
+    "is_active": true
+  },
+  {
+    "dungeon_id": "WDUN00008",
+    "location_id": "WLOC000040",
+    "name": "Palawan Legendary Boss Arena",
+    "floor_count": 1,
+    "boss_monster_id": "MON0008",
+    "dungeon_rules_payload": {
+      "exit_allowed": true,
+      "corruption_level": "legendary"
+    },
+    "is_active": true
+  },
+  {
+    "dungeon_id": "WDUN00009",
+    "location_id": "WLOC000047",
+    "name": "Iloilo Echo Cave Dungeon",
+    "floor_count": 3,
+    "boss_monster_id": "MON0009",
+    "dungeon_rules_payload": {
+      "exit_allowed": true,
+      "corruption_level": "medium"
+    },
+    "is_active": true
+  },
+  {
+    "dungeon_id": "WDUN00010",
+    "location_id": "WLOC000050",
+    "name": "Iloilo Legendary Boss Arena",
+    "floor_count": 1,
+    "boss_monster_id": "MON0010",
+    "dungeon_rules_payload": {
+      "exit_allowed": true,
+      "corruption_level": "legendary"
+    },
+    "is_active": true
+  },
+  {
+    "dungeon_id": "WDUN00011",
+    "location_id": "WLOC000057",
+    "name": "Sulu Echo Cave Dungeon",
+    "floor_count": 3,
+    "boss_monster_id": "MON0011",
+    "dungeon_rules_payload": {
+      "exit_allowed": true,
+      "corruption_level": "medium"
+    },
+    "is_active": true
+  },
+  {
+    "dungeon_id": "WDUN00012",
+    "location_id": "WLOC000060",
+    "name": "Sulu Legendary Boss Arena",
+    "floor_count": 1,
+    "boss_monster_id": "MON0012",
+    "dungeon_rules_payload": {
+      "exit_allowed": true,
+      "corruption_level": "legendary"
+    },
+    "is_active": true
+  },
+  {
+    "dungeon_id": "WDUN00013",
+    "location_id": "WLOC000067",
+    "name": "Benguet Echo Cave Dungeon",
+    "floor_count": 3,
+    "boss_monster_id": "MON0013",
+    "dungeon_rules_payload": {
+      "exit_allowed": true,
+      "corruption_level": "medium"
+    },
+    "is_active": true
+  },
+  {
+    "dungeon_id": "WDUN00014",
+    "location_id": "WLOC000070",
+    "name": "Benguet Legendary Boss Arena",
+    "floor_count": 1,
+    "boss_monster_id": "MON0014",
+    "dungeon_rules_payload": {
+      "exit_allowed": true,
+      "corruption_level": "legendary"
+    },
+    "is_active": true
+  },
+  {
+    "dungeon_id": "WDUN00015",
+    "location_id": "WLOC000077",
+    "name": "Bohol Echo Cave Dungeon",
+    "floor_count": 3,
+    "boss_monster_id": "MON0015",
+    "dungeon_rules_payload": {
+      "exit_allowed": true,
+      "corruption_level": "medium"
+    },
+    "is_active": true
+  },
+  {
+    "dungeon_id": "WDUN00016",
+    "location_id": "WLOC000080",
+    "name": "Bohol Legendary Boss Arena",
+    "floor_count": 1,
+    "boss_monster_id": "MON0016",
+    "dungeon_rules_payload": {
+      "exit_allowed": true,
+      "corruption_level": "legendary"
+    },
+    "is_active": true
+  },
+  {
+    "dungeon_id": "WDUN00017",
+    "location_id": "WLOC000087",
+    "name": "Samar Echo Cave Dungeon",
+    "floor_count": 3,
+    "boss_monster_id": "MON0017",
+    "dungeon_rules_payload": {
+      "exit_allowed": true,
+      "corruption_level": "medium"
+    },
+    "is_active": true
+  },
+  {
+    "dungeon_id": "WDUN00018",
+    "location_id": "WLOC000090",
+    "name": "Samar Legendary Boss Arena",
+    "floor_count": 1,
+    "boss_monster_id": "MON0018",
+    "dungeon_rules_payload": {
+      "exit_allowed": true,
+      "corruption_level": "legendary"
+    },
+    "is_active": true
+  },
+  {
+    "dungeon_id": "WDUN00019",
+    "location_id": "WLOC000097",
+    "name": "Aklan Echo Cave Dungeon",
+    "floor_count": 3,
+    "boss_monster_id": "MON0019",
+    "dungeon_rules_payload": {
+      "exit_allowed": true,
+      "corruption_level": "medium"
+    },
+    "is_active": true
+  },
+  {
+    "dungeon_id": "WDUN00020",
+    "location_id": "WLOC000100",
+    "name": "Aklan Legendary Boss Arena",
+    "floor_count": 1,
+    "boss_monster_id": "MON0020",
+    "dungeon_rules_payload": {
+      "exit_allowed": true,
+      "corruption_level": "legendary"
+    },
+    "is_active": true
+  },
+  {
+    "dungeon_id": "WDUN00021",
+    "location_id": "WLOC000107",
+    "name": "Albay Echo Cave Dungeon",
+    "floor_count": 3,
+    "boss_monster_id": "MON0021",
+    "dungeon_rules_payload": {
+      "exit_allowed": true,
+      "corruption_level": "medium"
+    },
+    "is_active": true
+  },
+  {
+    "dungeon_id": "WDUN00022",
+    "location_id": "WLOC000110",
+    "name": "Albay Legendary Boss Arena",
+    "floor_count": 1,
+    "boss_monster_id": "MON0022",
+    "dungeon_rules_payload": {
+      "exit_allowed": true,
+      "corruption_level": "legendary"
+    },
+    "is_active": true
+  },
+  {
+    "dungeon_id": "WDUN00023",
+    "location_id": "WLOC000117",
+    "name": "Rizal Echo Cave Dungeon",
+    "floor_count": 3,
+    "boss_monster_id": "MON0023",
+    "dungeon_rules_payload": {
+      "exit_allowed": true,
+      "corruption_level": "medium"
+    },
+    "is_active": true
+  },
+  {
+    "dungeon_id": "WDUN00024",
+    "location_id": "WLOC000120",
+    "name": "Rizal Legendary Boss Arena",
+    "floor_count": 1,
+    "boss_monster_id": "MON0024",
+    "dungeon_rules_payload": {
+      "exit_allowed": true,
+      "corruption_level": "legendary"
+    },
+    "is_active": true
+  },
+  {
+    "dungeon_id": "WDUN00025",
+    "location_id": "WLOC000127",
+    "name": "Bukidnon Echo Cave Dungeon",
+    "floor_count": 3,
+    "boss_monster_id": "MON0025",
+    "dungeon_rules_payload": {
+      "exit_allowed": true,
+      "corruption_level": "medium"
+    },
+    "is_active": true
+  },
+  {
+    "dungeon_id": "WDUN00026",
+    "location_id": "WLOC000130",
+    "name": "Bukidnon Legendary Boss Arena",
+    "floor_count": 1,
+    "boss_monster_id": "MON0026",
+    "dungeon_rules_payload": {
+      "exit_allowed": true,
+      "corruption_level": "legendary"
+    },
+    "is_active": true
+  },
+  {
+    "dungeon_id": "WDUN00027",
+    "location_id": "WLOC000137",
+    "name": "Agusan del Norte Echo Cave Dungeon",
+    "floor_count": 3,
+    "boss_monster_id": "MON0027",
+    "dungeon_rules_payload": {
+      "exit_allowed": true,
+      "corruption_level": "medium"
+    },
+    "is_active": true
+  },
+  {
+    "dungeon_id": "WDUN00028",
+    "location_id": "WLOC000140",
+    "name": "Agusan del Norte Legendary Boss Arena",
+    "floor_count": 1,
+    "boss_monster_id": "MON0028",
+    "dungeon_rules_payload": {
+      "exit_allowed": true,
+      "corruption_level": "legendary"
+    },
+    "is_active": true
+  },
+  {
+    "dungeon_id": "WDUN00029",
+    "location_id": "WLOC000147",
+    "name": "Tawi-Tawi Echo Cave Dungeon",
+    "floor_count": 3,
+    "boss_monster_id": "MON0029",
+    "dungeon_rules_payload": {
+      "exit_allowed": true,
+      "corruption_level": "medium"
+    },
+    "is_active": true
+  },
+  {
+    "dungeon_id": "WDUN00030",
+    "location_id": "WLOC000150",
+    "name": "Tawi-Tawi Legendary Boss Arena",
+    "floor_count": 1,
+    "boss_monster_id": "MON0030",
+    "dungeon_rules_payload": {
+      "exit_allowed": true,
+      "corruption_level": "legendary"
+    },
+    "is_active": true
+  },
+  {
+    "dungeon_id": "WDUN00031",
+    "location_id": "WLOC000157",
+    "name": "Ifugao Echo Cave Dungeon",
+    "floor_count": 3,
+    "boss_monster_id": "MON0031",
+    "dungeon_rules_payload": {
+      "exit_allowed": true,
+      "corruption_level": "medium"
+    },
+    "is_active": true
+  },
+  {
+    "dungeon_id": "WDUN00032",
+    "location_id": "WLOC000160",
+    "name": "Ifugao Legendary Boss Arena",
+    "floor_count": 1,
+    "boss_monster_id": "MON0032",
+    "dungeon_rules_payload": {
+      "exit_allowed": true,
+      "corruption_level": "legendary"
+    },
+    "is_active": true
+  },
+  {
+    "dungeon_id": "WDUN00033",
+    "location_id": "WLOC000167",
+    "name": "Metro Manila Echo Cave Dungeon",
+    "floor_count": 3,
+    "boss_monster_id": "MON0033",
+    "dungeon_rules_payload": {
+      "exit_allowed": true,
+      "corruption_level": "medium"
+    },
+    "is_active": true
+  },
+  {
+    "dungeon_id": "WDUN00034",
+    "location_id": "WLOC000170",
+    "name": "Metro Manila Legendary Boss Arena",
+    "floor_count": 1,
+    "boss_monster_id": "MON0034",
+    "dungeon_rules_payload": {
+      "exit_allowed": true,
+      "corruption_level": "legendary"
+    },
+    "is_active": true
+  }
+]

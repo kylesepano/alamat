@@ -1,0 +1,25 @@
+[
+  {
+    "id": 21,
+    "uuid": "00000000-0000-4000-8000-000000000021",
+    "created_at": "2026-07-02T00:00:00+08:00",
+    "updated_at": "2026-07-02T00:00:00+08:00",
+    "version": "1.0.0",
+    "source": "Phase D architecture example",
+    "notes": "Example record for schema validation only; not production balance content.",
+    "scaling_id": "SCL-BOS-0001",
+    "slug": "boss-baseline",
+    "applies_to": "boss_rank",
+    "reference_id": "Boss",
+    "stat_multipliers": {
+      "hp": 2.5,
+      "attack": 1.25,
+      "magic": 1.2,
+      "defense": 1.15
+    },
+    "ai_modifier": 1.25,
+    "loot_modifier": 2,
+    "capture_modifier": 0.4,
+    "experience_modifier": 2
+  }
+]

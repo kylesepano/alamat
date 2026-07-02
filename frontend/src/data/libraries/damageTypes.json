@@ -1,0 +1,277 @@
+[
+    {
+        "code": "DMG001",
+        "name": "Physical",
+        "slug": "physical",
+        "description": "Damage based mainly on attack and defense.",
+        "icon_hint": "sword",
+        "color_hint": "#EF4444",
+        "sort_order": 1,
+        "is_active": true,
+        "id": 1
+    },
+    {
+        "code": "DMG002",
+        "name": "Spiritual",
+        "slug": "spiritual",
+        "description": "Damage based on magic, faith, and spirit defense.",
+        "icon_hint": "swirl",
+        "color_hint": "#8B5CF6",
+        "sort_order": 2,
+        "is_active": true,
+        "id": 2
+    },
+    {
+        "code": "DMG003",
+        "name": "True",
+        "slug": "true",
+        "description": "Damage that ignores most defenses.",
+        "icon_hint": "diamond",
+        "color_hint": "#FACC15",
+        "sort_order": 3,
+        "is_active": true,
+        "id": 3
+    },
+    {
+        "code": "DMG004",
+        "name": "Fire",
+        "slug": "fire",
+        "description": "Heat, flame, ash, and volcanic damage.",
+        "icon_hint": "flame",
+        "color_hint": "#F97316",
+        "sort_order": 4,
+        "is_active": true,
+        "id": 4
+    },
+    {
+        "code": "DMG005",
+        "name": "Water",
+        "slug": "water",
+        "description": "Freshwater, sea, rain, and pressure damage.",
+        "icon_hint": "waves",
+        "color_hint": "#0284C7",
+        "sort_order": 5,
+        "is_active": true,
+        "id": 5
+    },
+    {
+        "code": "DMG006",
+        "name": "Storm",
+        "slug": "storm",
+        "description": "Lightning, thunder, wind, and typhoon damage.",
+        "icon_hint": "cloud-bolt",
+        "color_hint": "#5C7CFA",
+        "sort_order": 6,
+        "is_active": true,
+        "id": 6
+    },
+    {
+        "code": "DMG007",
+        "name": "Earth",
+        "slug": "earth",
+        "description": "Stone, soil, root, and mineral damage.",
+        "icon_hint": "mountain",
+        "color_hint": "#78716C",
+        "sort_order": 7,
+        "is_active": true,
+        "id": 7
+    },
+    {
+        "code": "DMG008",
+        "name": "Nature",
+        "slug": "nature",
+        "description": "Vine, thorn, leaf, pollen, and wildlife damage.",
+        "icon_hint": "leaf",
+        "color_hint": "#22C55E",
+        "sort_order": 8,
+        "is_active": true,
+        "id": 8
+    },
+    {
+        "code": "DMG009",
+        "name": "Shadow",
+        "slug": "shadow",
+        "description": "Night, fear, curse, and darkness damage.",
+        "icon_hint": "moon",
+        "color_hint": "#312E81",
+        "sort_order": 9,
+        "is_active": true,
+        "id": 9
+    },
+    {
+        "code": "DMG010",
+        "name": "Sacred",
+        "slug": "sacred",
+        "description": "Blessing, purification, and sanctuary damage.",
+        "icon_hint": "sparkles",
+        "color_hint": "#FDE68A",
+        "sort_order": 10,
+        "is_active": true,
+        "id": 10
+    },
+    {
+        "code": "DMG011",
+        "name": "Poison",
+        "slug": "poison",
+        "description": "Venom, rot, toxin, and bitter herb damage.",
+        "icon_hint": "bug",
+        "color_hint": "#65A30D",
+        "sort_order": 11,
+        "is_active": true,
+        "id": 11
+    },
+    {
+        "code": "DMG012",
+        "name": "Blood",
+        "slug": "blood",
+        "description": "Life-force, wound, sacrifice, and hunger damage.",
+        "icon_hint": "droplet",
+        "color_hint": "#9F1239",
+        "sort_order": 12,
+        "is_active": true,
+        "id": 12
+    },
+    {
+        "code": "DMG013",
+        "name": "Sound",
+        "slug": "sound",
+        "description": "Voice, gong, bell, echo, and song damage.",
+        "icon_hint": "music",
+        "color_hint": "#38BDF8",
+        "sort_order": 13,
+        "is_active": true,
+        "id": 13
+    },
+    {
+        "code": "DMG014",
+        "name": "Dream",
+        "slug": "dream",
+        "description": "Sleep, nightmare, vision, and illusion damage.",
+        "icon_hint": "eye-closed",
+        "color_hint": "#8B5CF6",
+        "sort_order": 14,
+        "is_active": true,
+        "id": 14
+    },
+    {
+        "code": "DMG015",
+        "name": "Ancestral",
+        "slug": "ancestral",
+        "description": "Memory, lineage, vow, and old-name damage.",
+        "icon_hint": "scroll",
+        "color_hint": "#C7A76C",
+        "sort_order": 15,
+        "is_active": true,
+        "id": 15
+    },
+    {
+        "code": "DMG016",
+        "name": "Ancestor",
+        "slug": "ancestor",
+        "description": "Ancestral force, inherited vows, and memory-bound spiritual impact.",
+        "icon_hint": "scroll",
+        "color_hint": "#BFA16A",
+        "sort_order": 16,
+        "is_active": true
+    },
+    {
+        "code": "DMG017",
+        "name": "Beast",
+        "slug": "beast",
+        "description": "Physical ferocity, fangs, claws, and animalistic force.",
+        "icon_hint": "paw-print",
+        "color_hint": "#A66A3F",
+        "sort_order": 17,
+        "is_active": true
+    },
+    {
+        "code": "DMG018",
+        "name": "Corruption",
+        "slug": "corruption",
+        "description": "Twisted spiritual force caused by curses, decay, and broken covenants.",
+        "icon_hint": "skull",
+        "color_hint": "#6B2142",
+        "sort_order": 18,
+        "is_active": true
+    },
+    {
+        "code": "DMG019",
+        "name": "Forest",
+        "slug": "forest",
+        "description": "Woodland, root, thorn, leaf, and grove-based force.",
+        "icon_hint": "trees",
+        "color_hint": "#2E7D32",
+        "sort_order": 19,
+        "is_active": true
+    },
+    {
+        "code": "DMG020",
+        "name": "Mountain",
+        "slug": "mountain",
+        "description": "Stone, cliff, quake, pressure, and highland force.",
+        "icon_hint": "mountain",
+        "color_hint": "#78716C",
+        "sort_order": 20,
+        "is_active": true
+    },
+    {
+        "code": "DMG021",
+        "name": "River",
+        "slug": "river",
+        "description": "Flowing water, current, flood, and river-spirit force.",
+        "icon_hint": "waves",
+        "color_hint": "#0EA5E9",
+        "sort_order": 21,
+        "is_active": true
+    },
+    {
+        "code": "DMG022",
+        "name": "Sea",
+        "slug": "sea",
+        "description": "Saltwater, tide, depth, reef, and oceanic force.",
+        "icon_hint": "ship-wheel",
+        "color_hint": "#0284C7",
+        "sort_order": 22,
+        "is_active": true
+    },
+    {
+        "code": "DMG023",
+        "name": "Sky",
+        "slug": "sky",
+        "description": "Wind, storm, altitude, omen-bird, and celestial air force.",
+        "icon_hint": "cloud-sun",
+        "color_hint": "#60A5FA",
+        "sort_order": 23,
+        "is_active": true
+    },
+    {
+        "code": "DMG024",
+        "name": "Spirit",
+        "slug": "spirit",
+        "description": "Unseen spiritual force that affects souls, wards, and sacred presence.",
+        "icon_hint": "sparkles",
+        "color_hint": "#A78BFA",
+        "sort_order": 24,
+        "is_active": true
+    },
+    {
+        "code": "DMG025",
+        "name": "Trickster",
+        "slug": "trickster",
+        "description": "Misdirection, confusion, riddle, and luck-twisting force.",
+        "icon_hint": "dice-5",
+        "color_hint": "#EC4899",
+        "sort_order": 25,
+        "is_active": true
+    },
+    {
+        "code": "DMG026",
+        "name": "Underworld",
+        "slug": "underworld",
+        "description": "Chthonic, grave-bound, abyssal, and death-adjacent force.",
+        "icon_hint": "moon",
+        "color_hint": "#312E81",
+        "sort_order": 26,
+        "is_active": true
+    }
+]

@@ -1,0 +1,419 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "alamat://combat/skills/common_skills.json",
+  "title": "ALAMAT Combat Bible - common",
+  "description": "Common skill definitions available through broad monster, NPC, item, or quest rules.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "id": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "uuid": {
+        "type": "string",
+        "format": "uuid"
+      },
+      "slug": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "created_at": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "updated_at": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "version": {
+        "type": "string",
+        "pattern": "^\\d+\\.\\d+\\.\\d+$"
+      },
+      "source": {
+        "type": "string",
+        "minLength": 1
+      },
+      "notes": {
+        "type": "string"
+      },
+      "skill_id": {
+        "type": "string",
+        "pattern": "^SKILL-?[A-Z0-9-]+$"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "category": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Reference to library_skill_categories.code; resolve through Combat Bible registry or Phase B library."
+      },
+      "type": {
+        "type": "string",
+        "enum": [
+          "physical",
+          "magical",
+          "spiritual",
+          "support",
+          "healing",
+          "status",
+          "summon",
+          "field",
+          "capture"
+        ]
+      },
+      "affiliation": {
+        "anyOf": [
+          {
+            "type": "string",
+            "minLength": 1,
+            "description": "Reference to affiliation_id; resolve through Combat Bible registry or Phase B library."
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "element": {
+        "anyOf": [
+          {
+            "type": "string",
+            "minLength": 1,
+            "description": "Reference to damage_type_id; resolve through Combat Bible registry or Phase B library."
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "power": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "accuracy": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 100
+      },
+      "critical_rate": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 100
+      },
+      "mana_cost": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "stamina_cost": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "faith_cost": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "cooldown": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "cast_time": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "range": {
+        "type": "string",
+        "minLength": 1
+      },
+      "area_pattern": {
+        "type": "string",
+        "enum": [
+          "single",
+          "row",
+          "column",
+          "aoe",
+          "cross",
+          "cone",
+          "chain",
+          "random",
+          "self",
+          "ally",
+          "party",
+          "battlefield"
+        ]
+      },
+      "target_type": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Reference to library_target_types.code; resolve through Combat Bible registry or Phase B library."
+      },
+      "priority": {
+        "type": "integer",
+        "minimum": -10,
+        "maximum": 10
+      },
+      "animation_id": {
+        "type": "string",
+        "minLength": 1
+      },
+      "sound_id": {
+        "type": "string",
+        "minLength": 1
+      },
+      "icon": {
+        "type": "string",
+        "minLength": 1
+      },
+      "icon_filename": {
+        "type": "string",
+        "minLength": 1
+      },
+      "effect_animation_filename": {
+        "type": "string",
+        "minLength": 1
+      },
+      "cast_animation_filename": {
+        "type": "string",
+        "minLength": 1
+      },
+      "impact_animation_filename": {
+        "type": "string",
+        "minLength": 1
+      },
+      "icon_prompt": {
+        "type": "string",
+        "minLength": 1
+      },
+      "effect_prompt": {
+        "type": "string",
+        "minLength": 1
+      },
+      "animation_prompt": {
+        "type": "string",
+        "minLength": 1
+      },
+      "sound_effect_prompt": {
+        "type": "string",
+        "minLength": 1
+      },
+      "status_effect_id": {
+        "anyOf": [
+          {
+            "type": "string",
+            "minLength": 1,
+            "description": "Reference to status_effect_id; resolve through Combat Bible registry or Phase B library."
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "status_chance": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 100
+      },
+      "can_crit": {
+        "type": "boolean"
+      },
+      "can_miss": {
+        "type": "boolean"
+      },
+      "required_weapon": {
+        "anyOf": [
+          {
+            "type": "string",
+            "minLength": 1,
+            "description": "Reference to equipment_categories.code; resolve through Combat Bible registry or Phase B library."
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "required_class": {
+        "anyOf": [
+          {
+            "type": "string",
+            "minLength": 1,
+            "description": "Reference to combat_classes.code; resolve through Combat Bible registry or Phase B library."
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "required_affiliation": {
+        "anyOf": [
+          {
+            "type": "string",
+            "minLength": 1,
+            "description": "Reference to affiliation_id; resolve through Combat Bible registry or Phase B library."
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "required_weather": {
+        "anyOf": [
+          {
+            "type": "string",
+            "minLength": 1,
+            "description": "Reference to weather_id; resolve through Combat Bible registry or Phase B library."
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "required_terrain": {
+        "anyOf": [
+          {
+            "type": "string",
+            "minLength": 1,
+            "description": "Reference to terrain_id; resolve through Combat Bible registry or Phase B library."
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "required_time": {
+        "anyOf": [
+          {
+            "type": "string",
+            "minLength": 1,
+            "description": "Reference to active_times.code; resolve through Combat Bible registry or Phase B library."
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "ai_weight": {
+        "type": "number",
+        "minimum": 0
+      },
+      "description": {
+        "type": "string",
+        "minLength": 1
+      },
+      "lore": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "required": [
+      "id",
+      "uuid",
+      "slug",
+      "created_at",
+      "updated_at",
+      "version",
+      "source",
+      "notes",
+      "skill_id",
+      "name",
+      "category",
+      "type",
+      "affiliation",
+      "element",
+      "power",
+      "accuracy",
+      "critical_rate",
+      "mana_cost",
+      "stamina_cost",
+      "faith_cost",
+      "cooldown",
+      "cast_time",
+      "range",
+      "area_pattern",
+      "target_type",
+      "priority",
+      "animation_id",
+      "sound_id",
+      "icon",
+      "icon_filename",
+      "effect_animation_filename",
+      "cast_animation_filename",
+      "impact_animation_filename",
+      "icon_prompt",
+      "effect_prompt",
+      "animation_prompt",
+      "sound_effect_prompt",
+      "status_effect_id",
+      "status_chance",
+      "can_crit",
+      "can_miss",
+      "required_weapon",
+      "required_class",
+      "required_affiliation",
+      "required_weather",
+      "required_terrain",
+      "required_time",
+      "ai_weight",
+      "description",
+      "lore"
+    ]
+  },
+  "examples": [
+    [
+      {
+        "id": 1,
+        "uuid": "00000000-0000-4000-8000-000000000001",
+        "created_at": "2026-07-02T00:00:00+08:00",
+        "updated_at": "2026-07-02T00:00:00+08:00",
+        "version": "1.0.0",
+        "source": "Phase D architecture example",
+        "notes": "Example record for schema validation only; not production balance content.",
+        "skill_id": "SKL-COM-0001",
+        "slug": "guard",
+        "name": "Guard",
+        "category": "SKC001",
+        "type": "physical",
+        "affiliation": null,
+        "element": null,
+        "power": 40,
+        "accuracy": 95,
+        "critical_rate": 5,
+        "mana_cost": 0,
+        "stamina_cost": 8,
+        "faith_cost": 0,
+        "cooldown": 0,
+        "cast_time": 0,
+        "range": "melee",
+        "area_pattern": "single",
+        "target_type": "TGT001",
+        "priority": 0,
+        "animation_id": "anim_guard",
+        "sound_id": "sfx_guard",
+        "icon": "guard",
+        "icon_filename": "icon_SKL-COM-0001_guard.png",
+        "effect_animation_filename": "effect_SKL-COM-0001_guard.png",
+        "cast_animation_filename": "cast_SKL-COM-0001_guard.png",
+        "impact_animation_filename": "impact_SKL-COM-0001_guard.png",
+        "icon_prompt": "Create a clean 2D RPG skill icon for ALAMAT. Skill: Guard. Element/Affiliation: neutral. Category: common. Style: readable at 32x32 and 64x64, magical Filipino fantasy RPG aesthetic, transparent background, no text, no UI.",
+        "effect_prompt": "Create a transparent skill effect animation concept for Guard, with readable magical motion and no UI text.",
+        "animation_prompt": "Animate Guard with clear cast, travel, and impact beats suitable for a 2D RPG battle scene.",
+        "sound_effect_prompt": "Design a short polished RPG sound effect for Guard, matching its category and impact without spoken words.",
+        "status_effect_id": null,
+        "status_chance": 0,
+        "can_crit": true,
+        "can_miss": true,
+        "required_weapon": null,
+        "required_class": null,
+        "required_affiliation": null,
+        "required_weather": null,
+        "required_terrain": null,
+        "required_time": null,
+        "ai_weight": 1,
+        "description": "Guard is an example common skill schema record.",
+        "lore": "Example lore text for architecture validation."
+      }
+    ]
+  ]
+}

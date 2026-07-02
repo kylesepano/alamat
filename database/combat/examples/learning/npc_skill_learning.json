@@ -1,0 +1,19 @@
+[
+  {
+    "id": 26,
+    "uuid": "00000000-0000-4000-8000-000000000026",
+    "created_at": "2026-07-02T00:00:00+08:00",
+    "updated_at": "2026-07-02T00:00:00+08:00",
+    "version": "1.0.0",
+    "source": "Phase D architecture example",
+    "notes": "Example mentor teaching rule.",
+    "learning_id": "LRN-NPC-0001",
+    "slug": "mentor-ward-training",
+    "learner_type": "npc",
+    "learner_id": "NPC-MENTOR-0001",
+    "skill_id": "SKL-NPC-0001",
+    "unlock_method": "npc_mentor",
+    "unlock_value": "mentor_trust_rank_2",
+    "prerequisites": []
+  }
+]

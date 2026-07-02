@@ -1,0 +1,28 @@
+[
+  {
+    "id": 14,
+    "uuid": "00000000-0000-4000-8000-000000000014",
+    "created_at": "2026-07-02T00:00:00+08:00",
+    "updated_at": "2026-07-02T00:00:00+08:00",
+    "version": "1.0.0",
+    "source": "Phase D architecture example",
+    "notes": "Example record for schema validation only; not production balance content.",
+    "formula_id": "FRM-CAP-0001",
+    "slug": "trust-capture-check",
+    "name": "trust capture check",
+    "kind": "capture",
+    "expression": "(power + attack) * defense_modifier",
+    "variables": [
+      "power",
+      "attack",
+      "defense_modifier"
+    ],
+    "clamps": [
+      {
+        "min": 1
+      }
+    ],
+    "rounding": "floor",
+    "documentation": "Example formula record; production tuning belongs in balance passes."
+  }
+]

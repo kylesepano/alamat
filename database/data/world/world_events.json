@@ -1,0 +1,1202 @@
+[
+  {
+    "world_event_id": "WEVENT00001",
+    "location_id": "WLOC000001",
+    "name": "Laguna Starter Barangay Event",
+    "event_type": "weather_shift",
+    "trigger_payload": {
+      "story_chapter_min": 0,
+      "weather": "Rain"
+    },
+    "result_payload": {
+      "spawn_bonus": true,
+      "quest_flag": "world_event_1"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00002",
+    "location_id": "WLOC000002",
+    "name": "Laguna Marketplace Event",
+    "event_type": "festival_spawn",
+    "trigger_payload": {
+      "story_chapter_min": 1,
+      "weather": null
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_2"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00003",
+    "location_id": "WLOC000003",
+    "name": "Laguna Chapel Courtyard Event",
+    "event_type": "spirit_echo",
+    "trigger_payload": {
+      "story_chapter_min": 2,
+      "weather": "Mist"
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_3"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00004",
+    "location_id": "WLOC000004",
+    "name": "Laguna Balete Forest Event",
+    "event_type": "merchant_visit",
+    "trigger_payload": {
+      "story_chapter_min": 3,
+      "weather": null
+    },
+    "result_payload": {
+      "spawn_bonus": true,
+      "quest_flag": "world_event_4"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00005",
+    "location_id": "WLOC000005",
+    "name": "Laguna River Dock Event",
+    "event_type": "weather_shift",
+    "trigger_payload": {
+      "story_chapter_min": 4,
+      "weather": "Humid"
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_5"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00006",
+    "location_id": "WLOC000006",
+    "name": "Laguna Mountain Pass Event",
+    "event_type": "festival_spawn",
+    "trigger_payload": {
+      "story_chapter_min": 5,
+      "weather": null
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_6"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00007",
+    "location_id": "WLOC000007",
+    "name": "Laguna Echo Cave Dungeon Event",
+    "event_type": "spirit_echo",
+    "trigger_payload": {
+      "story_chapter_min": 6,
+      "weather": "Rain"
+    },
+    "result_payload": {
+      "spawn_bonus": true,
+      "quest_flag": "world_event_7"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00008",
+    "location_id": "WLOC000008",
+    "name": "Laguna Coral Reef Route Event",
+    "event_type": "merchant_visit",
+    "trigger_payload": {
+      "story_chapter_min": 7,
+      "weather": null
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_8"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00009",
+    "location_id": "WLOC000009",
+    "name": "Laguna Spirit Realm Threshold Event",
+    "event_type": "weather_shift",
+    "trigger_payload": {
+      "story_chapter_min": 0,
+      "weather": "Mist"
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_9"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00010",
+    "location_id": "WLOC000010",
+    "name": "Laguna Legendary Boss Arena Event",
+    "event_type": "festival_spawn",
+    "trigger_payload": {
+      "story_chapter_min": 1,
+      "weather": null
+    },
+    "result_payload": {
+      "spawn_bonus": true,
+      "quest_flag": "world_event_10"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00011",
+    "location_id": "WLOC000011",
+    "name": "Cebu Starter Barangay Event",
+    "event_type": "spirit_echo",
+    "trigger_payload": {
+      "story_chapter_min": 2,
+      "weather": "Humid"
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_11"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00012",
+    "location_id": "WLOC000012",
+    "name": "Cebu Marketplace Event",
+    "event_type": "merchant_visit",
+    "trigger_payload": {
+      "story_chapter_min": 3,
+      "weather": null
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_12"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00013",
+    "location_id": "WLOC000013",
+    "name": "Cebu Chapel Courtyard Event",
+    "event_type": "weather_shift",
+    "trigger_payload": {
+      "story_chapter_min": 4,
+      "weather": "Rain"
+    },
+    "result_payload": {
+      "spawn_bonus": true,
+      "quest_flag": "world_event_13"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00014",
+    "location_id": "WLOC000014",
+    "name": "Cebu Balete Forest Event",
+    "event_type": "festival_spawn",
+    "trigger_payload": {
+      "story_chapter_min": 5,
+      "weather": null
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_14"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00015",
+    "location_id": "WLOC000015",
+    "name": "Cebu River Dock Event",
+    "event_type": "spirit_echo",
+    "trigger_payload": {
+      "story_chapter_min": 6,
+      "weather": "Mist"
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_15"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00016",
+    "location_id": "WLOC000016",
+    "name": "Cebu Mountain Pass Event",
+    "event_type": "merchant_visit",
+    "trigger_payload": {
+      "story_chapter_min": 7,
+      "weather": null
+    },
+    "result_payload": {
+      "spawn_bonus": true,
+      "quest_flag": "world_event_16"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00017",
+    "location_id": "WLOC000017",
+    "name": "Cebu Echo Cave Dungeon Event",
+    "event_type": "weather_shift",
+    "trigger_payload": {
+      "story_chapter_min": 0,
+      "weather": "Humid"
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_17"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00018",
+    "location_id": "WLOC000018",
+    "name": "Cebu Coral Reef Route Event",
+    "event_type": "festival_spawn",
+    "trigger_payload": {
+      "story_chapter_min": 1,
+      "weather": null
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_18"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00019",
+    "location_id": "WLOC000019",
+    "name": "Cebu Spirit Realm Threshold Event",
+    "event_type": "spirit_echo",
+    "trigger_payload": {
+      "story_chapter_min": 2,
+      "weather": "Rain"
+    },
+    "result_payload": {
+      "spawn_bonus": true,
+      "quest_flag": "world_event_19"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00020",
+    "location_id": "WLOC000020",
+    "name": "Cebu Legendary Boss Arena Event",
+    "event_type": "merchant_visit",
+    "trigger_payload": {
+      "story_chapter_min": 3,
+      "weather": null
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_20"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00021",
+    "location_id": "WLOC000021",
+    "name": "Davao del Sur Starter Barangay Event",
+    "event_type": "weather_shift",
+    "trigger_payload": {
+      "story_chapter_min": 4,
+      "weather": "Mist"
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_21"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00022",
+    "location_id": "WLOC000022",
+    "name": "Davao del Sur Marketplace Event",
+    "event_type": "festival_spawn",
+    "trigger_payload": {
+      "story_chapter_min": 5,
+      "weather": null
+    },
+    "result_payload": {
+      "spawn_bonus": true,
+      "quest_flag": "world_event_22"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00023",
+    "location_id": "WLOC000023",
+    "name": "Davao del Sur Chapel Courtyard Event",
+    "event_type": "spirit_echo",
+    "trigger_payload": {
+      "story_chapter_min": 6,
+      "weather": "Humid"
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_23"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00024",
+    "location_id": "WLOC000024",
+    "name": "Davao del Sur Balete Forest Event",
+    "event_type": "merchant_visit",
+    "trigger_payload": {
+      "story_chapter_min": 7,
+      "weather": null
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_24"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00025",
+    "location_id": "WLOC000025",
+    "name": "Davao del Sur River Dock Event",
+    "event_type": "weather_shift",
+    "trigger_payload": {
+      "story_chapter_min": 0,
+      "weather": "Rain"
+    },
+    "result_payload": {
+      "spawn_bonus": true,
+      "quest_flag": "world_event_25"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00026",
+    "location_id": "WLOC000026",
+    "name": "Davao del Sur Mountain Pass Event",
+    "event_type": "festival_spawn",
+    "trigger_payload": {
+      "story_chapter_min": 1,
+      "weather": null
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_26"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00027",
+    "location_id": "WLOC000027",
+    "name": "Davao del Sur Echo Cave Dungeon Event",
+    "event_type": "spirit_echo",
+    "trigger_payload": {
+      "story_chapter_min": 2,
+      "weather": "Mist"
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_27"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00028",
+    "location_id": "WLOC000028",
+    "name": "Davao del Sur Coral Reef Route Event",
+    "event_type": "merchant_visit",
+    "trigger_payload": {
+      "story_chapter_min": 3,
+      "weather": null
+    },
+    "result_payload": {
+      "spawn_bonus": true,
+      "quest_flag": "world_event_28"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00029",
+    "location_id": "WLOC000029",
+    "name": "Davao del Sur Spirit Realm Threshold Event",
+    "event_type": "weather_shift",
+    "trigger_payload": {
+      "story_chapter_min": 4,
+      "weather": "Humid"
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_29"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00030",
+    "location_id": "WLOC000030",
+    "name": "Davao del Sur Legendary Boss Arena Event",
+    "event_type": "festival_spawn",
+    "trigger_payload": {
+      "story_chapter_min": 5,
+      "weather": null
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_30"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00031",
+    "location_id": "WLOC000031",
+    "name": "Palawan Starter Barangay Event",
+    "event_type": "spirit_echo",
+    "trigger_payload": {
+      "story_chapter_min": 6,
+      "weather": "Rain"
+    },
+    "result_payload": {
+      "spawn_bonus": true,
+      "quest_flag": "world_event_31"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00032",
+    "location_id": "WLOC000032",
+    "name": "Palawan Marketplace Event",
+    "event_type": "merchant_visit",
+    "trigger_payload": {
+      "story_chapter_min": 7,
+      "weather": null
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_32"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00033",
+    "location_id": "WLOC000033",
+    "name": "Palawan Chapel Courtyard Event",
+    "event_type": "weather_shift",
+    "trigger_payload": {
+      "story_chapter_min": 0,
+      "weather": "Mist"
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_33"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00034",
+    "location_id": "WLOC000034",
+    "name": "Palawan Balete Forest Event",
+    "event_type": "festival_spawn",
+    "trigger_payload": {
+      "story_chapter_min": 1,
+      "weather": null
+    },
+    "result_payload": {
+      "spawn_bonus": true,
+      "quest_flag": "world_event_34"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00035",
+    "location_id": "WLOC000035",
+    "name": "Palawan River Dock Event",
+    "event_type": "spirit_echo",
+    "trigger_payload": {
+      "story_chapter_min": 2,
+      "weather": "Humid"
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_35"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00036",
+    "location_id": "WLOC000036",
+    "name": "Palawan Mountain Pass Event",
+    "event_type": "merchant_visit",
+    "trigger_payload": {
+      "story_chapter_min": 3,
+      "weather": null
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_36"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00037",
+    "location_id": "WLOC000037",
+    "name": "Palawan Echo Cave Dungeon Event",
+    "event_type": "weather_shift",
+    "trigger_payload": {
+      "story_chapter_min": 4,
+      "weather": "Rain"
+    },
+    "result_payload": {
+      "spawn_bonus": true,
+      "quest_flag": "world_event_37"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00038",
+    "location_id": "WLOC000038",
+    "name": "Palawan Coral Reef Route Event",
+    "event_type": "festival_spawn",
+    "trigger_payload": {
+      "story_chapter_min": 5,
+      "weather": null
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_38"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00039",
+    "location_id": "WLOC000039",
+    "name": "Palawan Spirit Realm Threshold Event",
+    "event_type": "spirit_echo",
+    "trigger_payload": {
+      "story_chapter_min": 6,
+      "weather": "Mist"
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_39"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00040",
+    "location_id": "WLOC000040",
+    "name": "Palawan Legendary Boss Arena Event",
+    "event_type": "merchant_visit",
+    "trigger_payload": {
+      "story_chapter_min": 7,
+      "weather": null
+    },
+    "result_payload": {
+      "spawn_bonus": true,
+      "quest_flag": "world_event_40"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00041",
+    "location_id": "WLOC000041",
+    "name": "Iloilo Starter Barangay Event",
+    "event_type": "weather_shift",
+    "trigger_payload": {
+      "story_chapter_min": 0,
+      "weather": "Humid"
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_41"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00042",
+    "location_id": "WLOC000042",
+    "name": "Iloilo Marketplace Event",
+    "event_type": "festival_spawn",
+    "trigger_payload": {
+      "story_chapter_min": 1,
+      "weather": null
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_42"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00043",
+    "location_id": "WLOC000043",
+    "name": "Iloilo Chapel Courtyard Event",
+    "event_type": "spirit_echo",
+    "trigger_payload": {
+      "story_chapter_min": 2,
+      "weather": "Rain"
+    },
+    "result_payload": {
+      "spawn_bonus": true,
+      "quest_flag": "world_event_43"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00044",
+    "location_id": "WLOC000044",
+    "name": "Iloilo Balete Forest Event",
+    "event_type": "merchant_visit",
+    "trigger_payload": {
+      "story_chapter_min": 3,
+      "weather": null
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_44"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00045",
+    "location_id": "WLOC000045",
+    "name": "Iloilo River Dock Event",
+    "event_type": "weather_shift",
+    "trigger_payload": {
+      "story_chapter_min": 4,
+      "weather": "Mist"
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_45"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00046",
+    "location_id": "WLOC000046",
+    "name": "Iloilo Mountain Pass Event",
+    "event_type": "festival_spawn",
+    "trigger_payload": {
+      "story_chapter_min": 5,
+      "weather": null
+    },
+    "result_payload": {
+      "spawn_bonus": true,
+      "quest_flag": "world_event_46"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00047",
+    "location_id": "WLOC000047",
+    "name": "Iloilo Echo Cave Dungeon Event",
+    "event_type": "spirit_echo",
+    "trigger_payload": {
+      "story_chapter_min": 6,
+      "weather": "Humid"
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_47"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00048",
+    "location_id": "WLOC000048",
+    "name": "Iloilo Coral Reef Route Event",
+    "event_type": "merchant_visit",
+    "trigger_payload": {
+      "story_chapter_min": 7,
+      "weather": null
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_48"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00049",
+    "location_id": "WLOC000049",
+    "name": "Iloilo Spirit Realm Threshold Event",
+    "event_type": "weather_shift",
+    "trigger_payload": {
+      "story_chapter_min": 0,
+      "weather": "Rain"
+    },
+    "result_payload": {
+      "spawn_bonus": true,
+      "quest_flag": "world_event_49"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00050",
+    "location_id": "WLOC000050",
+    "name": "Iloilo Legendary Boss Arena Event",
+    "event_type": "festival_spawn",
+    "trigger_payload": {
+      "story_chapter_min": 1,
+      "weather": null
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_50"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00051",
+    "location_id": "WLOC000051",
+    "name": "Sulu Starter Barangay Event",
+    "event_type": "spirit_echo",
+    "trigger_payload": {
+      "story_chapter_min": 2,
+      "weather": "Mist"
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_51"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00052",
+    "location_id": "WLOC000052",
+    "name": "Sulu Marketplace Event",
+    "event_type": "merchant_visit",
+    "trigger_payload": {
+      "story_chapter_min": 3,
+      "weather": null
+    },
+    "result_payload": {
+      "spawn_bonus": true,
+      "quest_flag": "world_event_52"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00053",
+    "location_id": "WLOC000053",
+    "name": "Sulu Chapel Courtyard Event",
+    "event_type": "weather_shift",
+    "trigger_payload": {
+      "story_chapter_min": 4,
+      "weather": "Humid"
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_53"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00054",
+    "location_id": "WLOC000054",
+    "name": "Sulu Balete Forest Event",
+    "event_type": "festival_spawn",
+    "trigger_payload": {
+      "story_chapter_min": 5,
+      "weather": null
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_54"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00055",
+    "location_id": "WLOC000055",
+    "name": "Sulu River Dock Event",
+    "event_type": "spirit_echo",
+    "trigger_payload": {
+      "story_chapter_min": 6,
+      "weather": "Rain"
+    },
+    "result_payload": {
+      "spawn_bonus": true,
+      "quest_flag": "world_event_55"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00056",
+    "location_id": "WLOC000056",
+    "name": "Sulu Mountain Pass Event",
+    "event_type": "merchant_visit",
+    "trigger_payload": {
+      "story_chapter_min": 7,
+      "weather": null
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_56"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00057",
+    "location_id": "WLOC000057",
+    "name": "Sulu Echo Cave Dungeon Event",
+    "event_type": "weather_shift",
+    "trigger_payload": {
+      "story_chapter_min": 0,
+      "weather": "Mist"
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_57"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00058",
+    "location_id": "WLOC000058",
+    "name": "Sulu Coral Reef Route Event",
+    "event_type": "festival_spawn",
+    "trigger_payload": {
+      "story_chapter_min": 1,
+      "weather": null
+    },
+    "result_payload": {
+      "spawn_bonus": true,
+      "quest_flag": "world_event_58"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00059",
+    "location_id": "WLOC000059",
+    "name": "Sulu Spirit Realm Threshold Event",
+    "event_type": "spirit_echo",
+    "trigger_payload": {
+      "story_chapter_min": 2,
+      "weather": "Humid"
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_59"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00060",
+    "location_id": "WLOC000060",
+    "name": "Sulu Legendary Boss Arena Event",
+    "event_type": "merchant_visit",
+    "trigger_payload": {
+      "story_chapter_min": 3,
+      "weather": null
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_60"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00061",
+    "location_id": "WLOC000061",
+    "name": "Benguet Starter Barangay Event",
+    "event_type": "weather_shift",
+    "trigger_payload": {
+      "story_chapter_min": 4,
+      "weather": "Rain"
+    },
+    "result_payload": {
+      "spawn_bonus": true,
+      "quest_flag": "world_event_61"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00062",
+    "location_id": "WLOC000062",
+    "name": "Benguet Marketplace Event",
+    "event_type": "festival_spawn",
+    "trigger_payload": {
+      "story_chapter_min": 5,
+      "weather": null
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_62"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00063",
+    "location_id": "WLOC000063",
+    "name": "Benguet Chapel Courtyard Event",
+    "event_type": "spirit_echo",
+    "trigger_payload": {
+      "story_chapter_min": 6,
+      "weather": "Mist"
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_63"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00064",
+    "location_id": "WLOC000064",
+    "name": "Benguet Balete Forest Event",
+    "event_type": "merchant_visit",
+    "trigger_payload": {
+      "story_chapter_min": 7,
+      "weather": null
+    },
+    "result_payload": {
+      "spawn_bonus": true,
+      "quest_flag": "world_event_64"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00065",
+    "location_id": "WLOC000065",
+    "name": "Benguet River Dock Event",
+    "event_type": "weather_shift",
+    "trigger_payload": {
+      "story_chapter_min": 0,
+      "weather": "Humid"
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_65"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00066",
+    "location_id": "WLOC000066",
+    "name": "Benguet Mountain Pass Event",
+    "event_type": "festival_spawn",
+    "trigger_payload": {
+      "story_chapter_min": 1,
+      "weather": null
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_66"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00067",
+    "location_id": "WLOC000067",
+    "name": "Benguet Echo Cave Dungeon Event",
+    "event_type": "spirit_echo",
+    "trigger_payload": {
+      "story_chapter_min": 2,
+      "weather": "Rain"
+    },
+    "result_payload": {
+      "spawn_bonus": true,
+      "quest_flag": "world_event_67"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00068",
+    "location_id": "WLOC000068",
+    "name": "Benguet Coral Reef Route Event",
+    "event_type": "merchant_visit",
+    "trigger_payload": {
+      "story_chapter_min": 3,
+      "weather": null
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_68"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00069",
+    "location_id": "WLOC000069",
+    "name": "Benguet Spirit Realm Threshold Event",
+    "event_type": "weather_shift",
+    "trigger_payload": {
+      "story_chapter_min": 4,
+      "weather": "Mist"
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_69"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00070",
+    "location_id": "WLOC000070",
+    "name": "Benguet Legendary Boss Arena Event",
+    "event_type": "festival_spawn",
+    "trigger_payload": {
+      "story_chapter_min": 5,
+      "weather": null
+    },
+    "result_payload": {
+      "spawn_bonus": true,
+      "quest_flag": "world_event_70"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00071",
+    "location_id": "WLOC000071",
+    "name": "Bohol Starter Barangay Event",
+    "event_type": "spirit_echo",
+    "trigger_payload": {
+      "story_chapter_min": 6,
+      "weather": "Humid"
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_71"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00072",
+    "location_id": "WLOC000072",
+    "name": "Bohol Marketplace Event",
+    "event_type": "merchant_visit",
+    "trigger_payload": {
+      "story_chapter_min": 7,
+      "weather": null
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_72"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00073",
+    "location_id": "WLOC000073",
+    "name": "Bohol Chapel Courtyard Event",
+    "event_type": "weather_shift",
+    "trigger_payload": {
+      "story_chapter_min": 0,
+      "weather": "Rain"
+    },
+    "result_payload": {
+      "spawn_bonus": true,
+      "quest_flag": "world_event_73"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00074",
+    "location_id": "WLOC000074",
+    "name": "Bohol Balete Forest Event",
+    "event_type": "festival_spawn",
+    "trigger_payload": {
+      "story_chapter_min": 1,
+      "weather": null
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_74"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00075",
+    "location_id": "WLOC000075",
+    "name": "Bohol River Dock Event",
+    "event_type": "spirit_echo",
+    "trigger_payload": {
+      "story_chapter_min": 2,
+      "weather": "Mist"
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_75"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00076",
+    "location_id": "WLOC000076",
+    "name": "Bohol Mountain Pass Event",
+    "event_type": "merchant_visit",
+    "trigger_payload": {
+      "story_chapter_min": 3,
+      "weather": null
+    },
+    "result_payload": {
+      "spawn_bonus": true,
+      "quest_flag": "world_event_76"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00077",
+    "location_id": "WLOC000077",
+    "name": "Bohol Echo Cave Dungeon Event",
+    "event_type": "weather_shift",
+    "trigger_payload": {
+      "story_chapter_min": 4,
+      "weather": "Humid"
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_77"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00078",
+    "location_id": "WLOC000078",
+    "name": "Bohol Coral Reef Route Event",
+    "event_type": "festival_spawn",
+    "trigger_payload": {
+      "story_chapter_min": 5,
+      "weather": null
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_78"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00079",
+    "location_id": "WLOC000079",
+    "name": "Bohol Spirit Realm Threshold Event",
+    "event_type": "spirit_echo",
+    "trigger_payload": {
+      "story_chapter_min": 6,
+      "weather": "Rain"
+    },
+    "result_payload": {
+      "spawn_bonus": true,
+      "quest_flag": "world_event_79"
+    },
+    "is_active": true
+  },
+  {
+    "world_event_id": "WEVENT00080",
+    "location_id": "WLOC000080",
+    "name": "Bohol Legendary Boss Arena Event",
+    "event_type": "merchant_visit",
+    "trigger_payload": {
+      "story_chapter_min": 7,
+      "weather": null
+    },
+    "result_payload": {
+      "spawn_bonus": false,
+      "quest_flag": "world_event_80"
+    },
+    "is_active": true
+  }
+]

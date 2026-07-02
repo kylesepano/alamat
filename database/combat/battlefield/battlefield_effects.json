@@ -1,0 +1,146 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "alamat://combat/battlefield/battlefield_effects.json",
+  "title": "ALAMAT Combat Bible - battlefield_effect",
+  "description": "battlefield effect records for the Combat Bible.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "id": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "uuid": {
+        "type": "string",
+        "format": "uuid"
+      },
+      "slug": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "created_at": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "updated_at": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "version": {
+        "type": "string",
+        "pattern": "^\\d+\\.\\d+\\.\\d+$"
+      },
+      "source": {
+        "type": "string",
+        "minLength": 1
+      },
+      "notes": {
+        "type": "string"
+      },
+      "field_effect_id": {
+        "type": "string",
+        "pattern": "^BFE-?[A-Z0-9-]+$"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "trigger": {
+        "type": "string",
+        "minLength": 1
+      },
+      "duration": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": [
+              "instant",
+              "turns",
+              "rounds",
+              "battle",
+              "permanent"
+            ]
+          },
+          "value": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "required": [
+          "type",
+          "value"
+        ]
+      },
+      "formula_modifiers": {
+        "type": "array",
+        "items": {
+          "type": "object"
+        }
+      },
+      "affected_affiliations": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "description": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "required": [
+      "id",
+      "uuid",
+      "slug",
+      "created_at",
+      "updated_at",
+      "version",
+      "source",
+      "notes",
+      "field_effect_id",
+      "field_effect_id",
+      "name",
+      "trigger",
+      "duration",
+      "formula_modifiers",
+      "affected_affiliations",
+      "description"
+    ]
+  },
+  "examples": [
+    [
+      {
+        "id": 17,
+        "uuid": "00000000-0000-4000-8000-000000000017",
+        "created_at": "2026-07-02T00:00:00+08:00",
+        "updated_at": "2026-07-02T00:00:00+08:00",
+        "version": "1.0.0",
+        "source": "Phase D architecture example",
+        "notes": "Example record for schema validation only; not production balance content.",
+        "field_effect_id": "BFE-0001",
+        "slug": "blessed-ground",
+        "name": "Blessed Ground",
+        "trigger": "turn_start",
+        "duration": {
+          "type": "turns",
+          "value": 5
+        },
+        "formula_modifiers": [
+          {
+            "formula_id": "FRM-HEAL-0001",
+            "multiplier": 1.15
+          }
+        ],
+        "affected_affiliations": [
+          "holy",
+          "ancestor"
+        ],
+        "description": "A sanctified field effect that strengthens healing and protective rites."
+      }
+    ]
+  ]
+}

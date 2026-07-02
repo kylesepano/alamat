@@ -1,0 +1,147 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "alamat://combat/formulas/capture_formulas.json",
+  "title": "ALAMAT Combat Bible - capture_formula",
+  "description": "capture formula records for the Combat Bible.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "id": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "uuid": {
+        "type": "string",
+        "format": "uuid"
+      },
+      "slug": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "created_at": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "updated_at": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "version": {
+        "type": "string",
+        "pattern": "^\\d+\\.\\d+\\.\\d+$"
+      },
+      "source": {
+        "type": "string",
+        "minLength": 1
+      },
+      "notes": {
+        "type": "string"
+      },
+      "formula_id": {
+        "type": "string",
+        "pattern": "^FRM-?[A-Z0-9-]+$"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "kind": {
+        "type": "string",
+        "enum": [
+          "physical",
+          "magic",
+          "healing",
+          "critical",
+          "status",
+          "counter",
+          "reflect",
+          "capture",
+          "escape",
+          "summon",
+          "dot",
+          "hot"
+        ]
+      },
+      "expression": {
+        "type": "string",
+        "minLength": 1
+      },
+      "variables": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "clamps": {
+        "type": "array",
+        "items": {
+          "type": "object"
+        }
+      },
+      "rounding": {
+        "type": "string",
+        "enum": [
+          "none",
+          "floor",
+          "ceil",
+          "round"
+        ]
+      },
+      "documentation": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "required": [
+      "id",
+      "uuid",
+      "slug",
+      "created_at",
+      "updated_at",
+      "version",
+      "source",
+      "notes",
+      "formula_id",
+      "formula_id",
+      "name",
+      "kind",
+      "expression",
+      "variables",
+      "clamps",
+      "rounding",
+      "documentation"
+    ]
+  },
+  "examples": [
+    [
+      {
+        "id": 14,
+        "uuid": "00000000-0000-4000-8000-000000000014",
+        "created_at": "2026-07-02T00:00:00+08:00",
+        "updated_at": "2026-07-02T00:00:00+08:00",
+        "version": "1.0.0",
+        "source": "Phase D architecture example",
+        "notes": "Example record for schema validation only; not production balance content.",
+        "formula_id": "FRM-CAP-0001",
+        "slug": "trust-capture-check",
+        "name": "trust capture check",
+        "kind": "capture",
+        "expression": "(power + attack) * defense_modifier",
+        "variables": [
+          "power",
+          "attack",
+          "defense_modifier"
+        ],
+        "clamps": [
+          {
+            "min": 1
+          }
+        ],
+        "rounding": "floor",
+        "documentation": "Example formula record; production tuning belongs in balance passes."
+      }
+    ]
+  ]
+}

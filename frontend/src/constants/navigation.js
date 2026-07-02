@@ -1,0 +1,15 @@
+export const navigationItems = [
+  { label: 'Home', path: '/' },
+  { label: 'Lore', path: '/lore' },
+  { label: 'World', path: '/world' },
+  { label: 'Orders', path: '/nilalang-orders' },
+  { label: 'Affiliations', path: '/affiliations' },
+  { label: 'Trust', path: '/trust-system' },
+  { label: 'Bible', path: '/game-bible' },
+  { label: 'Libraries', path: '/libraries' },
+  { label: 'Codex', path: '/codex' },
+  { label: 'Items', path: '/items' },
+  { label: 'Equipment', path: '/equipment' },
+  { label: 'NPCs', path: '/npcs' },
+  { label: 'Quests', path: '/quests' },
+]

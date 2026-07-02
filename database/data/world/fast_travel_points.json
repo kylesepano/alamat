@@ -1,0 +1,716 @@
+[
+  {
+    "fast_travel_id": "WFAST00001",
+    "location_id": "WLOC000001",
+    "name": "Laguna Starter Barangay Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000001",
+      "story_chapter_min": 0
+    },
+    "cost_payload": {
+      "gold": 10,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00002",
+    "location_id": "WLOC000002",
+    "name": "Laguna Marketplace Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000002",
+      "story_chapter_min": 1
+    },
+    "cost_payload": {
+      "gold": 11,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00003",
+    "location_id": "WLOC000003",
+    "name": "Laguna Chapel Courtyard Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000003",
+      "story_chapter_min": 2
+    },
+    "cost_payload": {
+      "gold": 12,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00004",
+    "location_id": "WLOC000011",
+    "name": "Cebu Starter Barangay Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000011",
+      "story_chapter_min": 3
+    },
+    "cost_payload": {
+      "gold": 13,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00005",
+    "location_id": "WLOC000012",
+    "name": "Cebu Marketplace Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000012",
+      "story_chapter_min": 4
+    },
+    "cost_payload": {
+      "gold": 14,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00006",
+    "location_id": "WLOC000013",
+    "name": "Cebu Chapel Courtyard Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000013",
+      "story_chapter_min": 0
+    },
+    "cost_payload": {
+      "gold": 15,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00007",
+    "location_id": "WLOC000021",
+    "name": "Davao del Sur Starter Barangay Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000021",
+      "story_chapter_min": 1
+    },
+    "cost_payload": {
+      "gold": 16,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00008",
+    "location_id": "WLOC000022",
+    "name": "Davao del Sur Marketplace Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000022",
+      "story_chapter_min": 2
+    },
+    "cost_payload": {
+      "gold": 17,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00009",
+    "location_id": "WLOC000023",
+    "name": "Davao del Sur Chapel Courtyard Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000023",
+      "story_chapter_min": 3
+    },
+    "cost_payload": {
+      "gold": 18,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00010",
+    "location_id": "WLOC000031",
+    "name": "Palawan Starter Barangay Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000031",
+      "story_chapter_min": 4
+    },
+    "cost_payload": {
+      "gold": 19,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00011",
+    "location_id": "WLOC000032",
+    "name": "Palawan Marketplace Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000032",
+      "story_chapter_min": 0
+    },
+    "cost_payload": {
+      "gold": 20,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00012",
+    "location_id": "WLOC000033",
+    "name": "Palawan Chapel Courtyard Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000033",
+      "story_chapter_min": 1
+    },
+    "cost_payload": {
+      "gold": 21,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00013",
+    "location_id": "WLOC000041",
+    "name": "Iloilo Starter Barangay Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000041",
+      "story_chapter_min": 2
+    },
+    "cost_payload": {
+      "gold": 22,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00014",
+    "location_id": "WLOC000042",
+    "name": "Iloilo Marketplace Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000042",
+      "story_chapter_min": 3
+    },
+    "cost_payload": {
+      "gold": 23,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00015",
+    "location_id": "WLOC000043",
+    "name": "Iloilo Chapel Courtyard Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000043",
+      "story_chapter_min": 4
+    },
+    "cost_payload": {
+      "gold": 24,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00016",
+    "location_id": "WLOC000051",
+    "name": "Sulu Starter Barangay Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000051",
+      "story_chapter_min": 0
+    },
+    "cost_payload": {
+      "gold": 25,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00017",
+    "location_id": "WLOC000052",
+    "name": "Sulu Marketplace Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000052",
+      "story_chapter_min": 1
+    },
+    "cost_payload": {
+      "gold": 26,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00018",
+    "location_id": "WLOC000053",
+    "name": "Sulu Chapel Courtyard Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000053",
+      "story_chapter_min": 2
+    },
+    "cost_payload": {
+      "gold": 27,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00019",
+    "location_id": "WLOC000061",
+    "name": "Benguet Starter Barangay Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000061",
+      "story_chapter_min": 3
+    },
+    "cost_payload": {
+      "gold": 28,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00020",
+    "location_id": "WLOC000062",
+    "name": "Benguet Marketplace Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000062",
+      "story_chapter_min": 4
+    },
+    "cost_payload": {
+      "gold": 29,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00021",
+    "location_id": "WLOC000063",
+    "name": "Benguet Chapel Courtyard Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000063",
+      "story_chapter_min": 0
+    },
+    "cost_payload": {
+      "gold": 30,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00022",
+    "location_id": "WLOC000071",
+    "name": "Bohol Starter Barangay Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000071",
+      "story_chapter_min": 1
+    },
+    "cost_payload": {
+      "gold": 31,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00023",
+    "location_id": "WLOC000072",
+    "name": "Bohol Marketplace Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000072",
+      "story_chapter_min": 2
+    },
+    "cost_payload": {
+      "gold": 32,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00024",
+    "location_id": "WLOC000073",
+    "name": "Bohol Chapel Courtyard Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000073",
+      "story_chapter_min": 3
+    },
+    "cost_payload": {
+      "gold": 33,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00025",
+    "location_id": "WLOC000081",
+    "name": "Samar Starter Barangay Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000081",
+      "story_chapter_min": 4
+    },
+    "cost_payload": {
+      "gold": 34,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00026",
+    "location_id": "WLOC000082",
+    "name": "Samar Marketplace Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000082",
+      "story_chapter_min": 0
+    },
+    "cost_payload": {
+      "gold": 35,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00027",
+    "location_id": "WLOC000083",
+    "name": "Samar Chapel Courtyard Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000083",
+      "story_chapter_min": 1
+    },
+    "cost_payload": {
+      "gold": 36,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00028",
+    "location_id": "WLOC000091",
+    "name": "Aklan Starter Barangay Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000091",
+      "story_chapter_min": 2
+    },
+    "cost_payload": {
+      "gold": 37,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00029",
+    "location_id": "WLOC000092",
+    "name": "Aklan Marketplace Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000092",
+      "story_chapter_min": 3
+    },
+    "cost_payload": {
+      "gold": 38,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00030",
+    "location_id": "WLOC000093",
+    "name": "Aklan Chapel Courtyard Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000093",
+      "story_chapter_min": 4
+    },
+    "cost_payload": {
+      "gold": 39,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00031",
+    "location_id": "WLOC000101",
+    "name": "Albay Starter Barangay Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000101",
+      "story_chapter_min": 0
+    },
+    "cost_payload": {
+      "gold": 40,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00032",
+    "location_id": "WLOC000102",
+    "name": "Albay Marketplace Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000102",
+      "story_chapter_min": 1
+    },
+    "cost_payload": {
+      "gold": 41,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00033",
+    "location_id": "WLOC000103",
+    "name": "Albay Chapel Courtyard Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000103",
+      "story_chapter_min": 2
+    },
+    "cost_payload": {
+      "gold": 42,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00034",
+    "location_id": "WLOC000111",
+    "name": "Rizal Starter Barangay Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000111",
+      "story_chapter_min": 3
+    },
+    "cost_payload": {
+      "gold": 43,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00035",
+    "location_id": "WLOC000112",
+    "name": "Rizal Marketplace Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000112",
+      "story_chapter_min": 4
+    },
+    "cost_payload": {
+      "gold": 44,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00036",
+    "location_id": "WLOC000113",
+    "name": "Rizal Chapel Courtyard Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000113",
+      "story_chapter_min": 0
+    },
+    "cost_payload": {
+      "gold": 45,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00037",
+    "location_id": "WLOC000121",
+    "name": "Bukidnon Starter Barangay Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000121",
+      "story_chapter_min": 1
+    },
+    "cost_payload": {
+      "gold": 46,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00038",
+    "location_id": "WLOC000122",
+    "name": "Bukidnon Marketplace Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000122",
+      "story_chapter_min": 2
+    },
+    "cost_payload": {
+      "gold": 47,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00039",
+    "location_id": "WLOC000123",
+    "name": "Bukidnon Chapel Courtyard Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000123",
+      "story_chapter_min": 3
+    },
+    "cost_payload": {
+      "gold": 48,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00040",
+    "location_id": "WLOC000131",
+    "name": "Agusan del Norte Starter Barangay Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000131",
+      "story_chapter_min": 4
+    },
+    "cost_payload": {
+      "gold": 49,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00041",
+    "location_id": "WLOC000132",
+    "name": "Agusan del Norte Marketplace Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000132",
+      "story_chapter_min": 0
+    },
+    "cost_payload": {
+      "gold": 50,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00042",
+    "location_id": "WLOC000133",
+    "name": "Agusan del Norte Chapel Courtyard Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000133",
+      "story_chapter_min": 1
+    },
+    "cost_payload": {
+      "gold": 51,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00043",
+    "location_id": "WLOC000141",
+    "name": "Tawi-Tawi Starter Barangay Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000141",
+      "story_chapter_min": 2
+    },
+    "cost_payload": {
+      "gold": 52,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00044",
+    "location_id": "WLOC000142",
+    "name": "Tawi-Tawi Marketplace Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000142",
+      "story_chapter_min": 3
+    },
+    "cost_payload": {
+      "gold": 53,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00045",
+    "location_id": "WLOC000143",
+    "name": "Tawi-Tawi Chapel Courtyard Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000143",
+      "story_chapter_min": 4
+    },
+    "cost_payload": {
+      "gold": 54,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00046",
+    "location_id": "WLOC000151",
+    "name": "Ifugao Starter Barangay Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000151",
+      "story_chapter_min": 0
+    },
+    "cost_payload": {
+      "gold": 55,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00047",
+    "location_id": "WLOC000152",
+    "name": "Ifugao Marketplace Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000152",
+      "story_chapter_min": 1
+    },
+    "cost_payload": {
+      "gold": 56,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00048",
+    "location_id": "WLOC000153",
+    "name": "Ifugao Chapel Courtyard Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000153",
+      "story_chapter_min": 2
+    },
+    "cost_payload": {
+      "gold": 57,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00049",
+    "location_id": "WLOC000161",
+    "name": "Metro Manila Starter Barangay Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000161",
+      "story_chapter_min": 3
+    },
+    "cost_payload": {
+      "gold": 58,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00050",
+    "location_id": "WLOC000162",
+    "name": "Metro Manila Marketplace Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000162",
+      "story_chapter_min": 4
+    },
+    "cost_payload": {
+      "gold": 59,
+      "item_id": null
+    },
+    "is_active": true
+  },
+  {
+    "fast_travel_id": "WFAST00051",
+    "location_id": "WLOC000163",
+    "name": "Metro Manila Chapel Courtyard Travel Point",
+    "unlock_condition_payload": {
+      "visit_location": "WLOC000163",
+      "story_chapter_min": 0
+    },
+    "cost_payload": {
+      "gold": 60,
+      "item_id": null
+    },
+    "is_active": true
+  }
+]

@@ -1,0 +1,146 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "alamat://combat/battlefield/terrain.json",
+  "title": "ALAMAT Combat Bible - terrain",
+  "description": "terrain records for the Combat Bible.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "id": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "uuid": {
+        "type": "string",
+        "format": "uuid"
+      },
+      "slug": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "created_at": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "updated_at": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "version": {
+        "type": "string",
+        "pattern": "^\\d+\\.\\d+\\.\\d+$"
+      },
+      "source": {
+        "type": "string",
+        "minLength": 1
+      },
+      "notes": {
+        "type": "string"
+      },
+      "terrain_id": {
+        "type": "string",
+        "pattern": "^TRN-?[A-Z0-9-]+$"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "phase_b_code": {
+        "anyOf": [
+          {
+            "type": "string",
+            "minLength": 1,
+            "description": "Reference to terrain.phase_b_code; resolve through Combat Bible registry or Phase B library."
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "duration": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": [
+              "instant",
+              "turns",
+              "rounds",
+              "battle",
+              "permanent"
+            ]
+          },
+          "value": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "required": [
+          "type",
+          "value"
+        ]
+      },
+      "modifiers": {
+        "type": "array",
+        "items": {
+          "type": "object"
+        }
+      },
+      "affected_affiliations": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "description": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "required": [
+      "id",
+      "uuid",
+      "slug",
+      "created_at",
+      "updated_at",
+      "version",
+      "source",
+      "notes",
+      "terrain_id",
+      "terrain_id",
+      "name",
+      "phase_b_code",
+      "duration",
+      "modifiers",
+      "affected_affiliations",
+      "description"
+    ]
+  },
+  "examples": [
+    [
+      {
+        "id": 16,
+        "uuid": "00000000-0000-4000-8000-000000000016",
+        "created_at": "2026-07-02T00:00:00+08:00",
+        "updated_at": "2026-07-02T00:00:00+08:00",
+        "version": "1.0.0",
+        "source": "Phase D architecture example",
+        "notes": "Example record for schema validation only; not production balance content.",
+        "terrain_id": "TRN-FOREST",
+        "slug": "forest",
+        "name": "Forest",
+        "phase_b_code": null,
+        "duration": {
+          "type": "battle",
+          "value": 1
+        },
+        "modifiers": [],
+        "affected_affiliations": [],
+        "description": "Example terrain definition."
+      }
+    ]
+  ]
+}

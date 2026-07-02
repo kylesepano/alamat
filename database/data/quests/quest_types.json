@@ -1,0 +1,146 @@
+[
+  {
+    "type_id": "QTYPE0001",
+    "code": "main_story",
+    "name": "Main Story",
+    "slug": "main-story",
+    "description": "Main Story quest type.",
+    "sort_order": 1,
+    "is_active": true
+  },
+  {
+    "type_id": "QTYPE0002",
+    "code": "side_quest",
+    "name": "Side Quest",
+    "slug": "side-quest",
+    "description": "Side Quest quest type.",
+    "sort_order": 2,
+    "is_active": true
+  },
+  {
+    "type_id": "QTYPE0003",
+    "code": "monster_trust",
+    "name": "Monster Trust",
+    "slug": "monster-trust",
+    "description": "Monster Trust quest type.",
+    "sort_order": 3,
+    "is_active": true
+  },
+  {
+    "type_id": "QTYPE0004",
+    "code": "legendary",
+    "name": "Legendary",
+    "slug": "legendary",
+    "description": "Legendary quest type.",
+    "sort_order": 4,
+    "is_active": true
+  },
+  {
+    "type_id": "QTYPE0005",
+    "code": "faction",
+    "name": "Faction",
+    "slug": "faction",
+    "description": "Faction quest type.",
+    "sort_order": 5,
+    "is_active": true
+  },
+  {
+    "type_id": "QTYPE0006",
+    "code": "npc_relationship",
+    "name": "Npc Relationship",
+    "slug": "npc-relationship",
+    "description": "Npc Relationship quest type.",
+    "sort_order": 6,
+    "is_active": true
+  },
+  {
+    "type_id": "QTYPE0007",
+    "code": "daily",
+    "name": "Daily",
+    "slug": "daily",
+    "description": "Daily quest type.",
+    "sort_order": 7,
+    "is_active": true
+  },
+  {
+    "type_id": "QTYPE0008",
+    "code": "weekly",
+    "name": "Weekly",
+    "slug": "weekly",
+    "description": "Weekly quest type.",
+    "sort_order": 8,
+    "is_active": true
+  },
+  {
+    "type_id": "QTYPE0009",
+    "code": "hidden",
+    "name": "Hidden",
+    "slug": "hidden",
+    "description": "Hidden quest type.",
+    "sort_order": 9,
+    "is_active": true
+  },
+  {
+    "type_id": "QTYPE0010",
+    "code": "festival",
+    "name": "Festival",
+    "slug": "festival",
+    "description": "Festival quest type.",
+    "sort_order": 10,
+    "is_active": true
+  },
+  {
+    "type_id": "QTYPE0011",
+    "code": "crafting",
+    "name": "Crafting",
+    "slug": "crafting",
+    "description": "Crafting quest type.",
+    "sort_order": 11,
+    "is_active": true
+  },
+  {
+    "type_id": "QTYPE0012",
+    "code": "collection",
+    "name": "Collection",
+    "slug": "collection",
+    "description": "Collection quest type.",
+    "sort_order": 12,
+    "is_active": true
+  },
+  {
+    "type_id": "QTYPE0013",
+    "code": "investigation",
+    "name": "Investigation",
+    "slug": "investigation",
+    "description": "Investigation quest type.",
+    "sort_order": 13,
+    "is_active": true
+  },
+  {
+    "type_id": "QTYPE0014",
+    "code": "tutorial",
+    "name": "Tutorial",
+    "slug": "tutorial",
+    "description": "Tutorial quest type.",
+    "sort_order": 14,
+    "is_active": true
+  },
+  {
+    "type_id": "QTYPE0015",
+    "code": "boss_trial",
+    "name": "Boss Trial",
+    "slug": "boss-trial",
+    "description": "Boss Trial quest type.",
+    "sort_order": 15,
+    "is_active": true
+  },
+  {
+    "type_id": "QTYPE0016",
+    "code": "companion",
+    "name": "Companion",
+    "slug": "companion",
+    "description": "Companion quest type.",
+    "sort_order": 16,
+    "is_active": true
+  }
+]

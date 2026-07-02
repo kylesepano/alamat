@@ -1,0 +1,665 @@
+[
+  {
+    "route_id": "WROUTE00001",
+    "name": "Laguna River Dock Route",
+    "from_location_id": "WLOC000005",
+    "to_location_id": "WLOC000006",
+    "route_type": "river",
+    "travel_time_minutes": 5,
+    "encounter_rate": 0.1,
+    "condition_payload": {
+      "weather_sensitive": true
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00002",
+    "name": "Laguna Mountain Pass Route",
+    "from_location_id": "WLOC000006",
+    "to_location_id": "WLOC000007",
+    "route_type": "mountain",
+    "travel_time_minutes": 6,
+    "encounter_rate": 0.15,
+    "condition_payload": {
+      "weather_sensitive": false
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00003",
+    "name": "Laguna Coral Reef Route Route",
+    "from_location_id": "WLOC000008",
+    "to_location_id": "WLOC000009",
+    "route_type": "coral_reef",
+    "travel_time_minutes": 7,
+    "encounter_rate": 0.2,
+    "condition_payload": {
+      "weather_sensitive": false
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00004",
+    "name": "Cebu River Dock Route",
+    "from_location_id": "WLOC000015",
+    "to_location_id": "WLOC000016",
+    "route_type": "river",
+    "travel_time_minutes": 8,
+    "encounter_rate": 0.25,
+    "condition_payload": {
+      "weather_sensitive": true
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00005",
+    "name": "Cebu Mountain Pass Route",
+    "from_location_id": "WLOC000016",
+    "to_location_id": "WLOC000017",
+    "route_type": "mountain",
+    "travel_time_minutes": 9,
+    "encounter_rate": 0.3,
+    "condition_payload": {
+      "weather_sensitive": false
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00006",
+    "name": "Cebu Coral Reef Route Route",
+    "from_location_id": "WLOC000018",
+    "to_location_id": "WLOC000019",
+    "route_type": "coral_reef",
+    "travel_time_minutes": 10,
+    "encounter_rate": 0.1,
+    "condition_payload": {
+      "weather_sensitive": false
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00007",
+    "name": "Davao del Sur River Dock Route",
+    "from_location_id": "WLOC000025",
+    "to_location_id": "WLOC000026",
+    "route_type": "river",
+    "travel_time_minutes": 11,
+    "encounter_rate": 0.15,
+    "condition_payload": {
+      "weather_sensitive": true
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00008",
+    "name": "Davao del Sur Mountain Pass Route",
+    "from_location_id": "WLOC000026",
+    "to_location_id": "WLOC000027",
+    "route_type": "mountain",
+    "travel_time_minutes": 12,
+    "encounter_rate": 0.2,
+    "condition_payload": {
+      "weather_sensitive": false
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00009",
+    "name": "Davao del Sur Coral Reef Route Route",
+    "from_location_id": "WLOC000028",
+    "to_location_id": "WLOC000029",
+    "route_type": "coral_reef",
+    "travel_time_minutes": 13,
+    "encounter_rate": 0.25,
+    "condition_payload": {
+      "weather_sensitive": false
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00010",
+    "name": "Palawan River Dock Route",
+    "from_location_id": "WLOC000035",
+    "to_location_id": "WLOC000036",
+    "route_type": "river",
+    "travel_time_minutes": 14,
+    "encounter_rate": 0.3,
+    "condition_payload": {
+      "weather_sensitive": true
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00011",
+    "name": "Palawan Mountain Pass Route",
+    "from_location_id": "WLOC000036",
+    "to_location_id": "WLOC000037",
+    "route_type": "mountain",
+    "travel_time_minutes": 15,
+    "encounter_rate": 0.1,
+    "condition_payload": {
+      "weather_sensitive": false
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00012",
+    "name": "Palawan Coral Reef Route Route",
+    "from_location_id": "WLOC000038",
+    "to_location_id": "WLOC000039",
+    "route_type": "coral_reef",
+    "travel_time_minutes": 16,
+    "encounter_rate": 0.15,
+    "condition_payload": {
+      "weather_sensitive": false
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00013",
+    "name": "Iloilo River Dock Route",
+    "from_location_id": "WLOC000045",
+    "to_location_id": "WLOC000046",
+    "route_type": "river",
+    "travel_time_minutes": 17,
+    "encounter_rate": 0.2,
+    "condition_payload": {
+      "weather_sensitive": true
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00014",
+    "name": "Iloilo Mountain Pass Route",
+    "from_location_id": "WLOC000046",
+    "to_location_id": "WLOC000047",
+    "route_type": "mountain",
+    "travel_time_minutes": 18,
+    "encounter_rate": 0.25,
+    "condition_payload": {
+      "weather_sensitive": false
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00015",
+    "name": "Iloilo Coral Reef Route Route",
+    "from_location_id": "WLOC000048",
+    "to_location_id": "WLOC000049",
+    "route_type": "coral_reef",
+    "travel_time_minutes": 19,
+    "encounter_rate": 0.3,
+    "condition_payload": {
+      "weather_sensitive": false
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00016",
+    "name": "Sulu River Dock Route",
+    "from_location_id": "WLOC000055",
+    "to_location_id": "WLOC000056",
+    "route_type": "river",
+    "travel_time_minutes": 20,
+    "encounter_rate": 0.1,
+    "condition_payload": {
+      "weather_sensitive": true
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00017",
+    "name": "Sulu Mountain Pass Route",
+    "from_location_id": "WLOC000056",
+    "to_location_id": "WLOC000057",
+    "route_type": "mountain",
+    "travel_time_minutes": 21,
+    "encounter_rate": 0.15,
+    "condition_payload": {
+      "weather_sensitive": false
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00018",
+    "name": "Sulu Coral Reef Route Route",
+    "from_location_id": "WLOC000058",
+    "to_location_id": "WLOC000059",
+    "route_type": "coral_reef",
+    "travel_time_minutes": 22,
+    "encounter_rate": 0.2,
+    "condition_payload": {
+      "weather_sensitive": false
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00019",
+    "name": "Benguet River Dock Route",
+    "from_location_id": "WLOC000065",
+    "to_location_id": "WLOC000066",
+    "route_type": "river",
+    "travel_time_minutes": 23,
+    "encounter_rate": 0.25,
+    "condition_payload": {
+      "weather_sensitive": true
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00020",
+    "name": "Benguet Mountain Pass Route",
+    "from_location_id": "WLOC000066",
+    "to_location_id": "WLOC000067",
+    "route_type": "mountain",
+    "travel_time_minutes": 24,
+    "encounter_rate": 0.3,
+    "condition_payload": {
+      "weather_sensitive": false
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00021",
+    "name": "Benguet Coral Reef Route Route",
+    "from_location_id": "WLOC000068",
+    "to_location_id": "WLOC000069",
+    "route_type": "coral_reef",
+    "travel_time_minutes": 5,
+    "encounter_rate": 0.1,
+    "condition_payload": {
+      "weather_sensitive": false
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00022",
+    "name": "Bohol River Dock Route",
+    "from_location_id": "WLOC000075",
+    "to_location_id": "WLOC000076",
+    "route_type": "river",
+    "travel_time_minutes": 6,
+    "encounter_rate": 0.15,
+    "condition_payload": {
+      "weather_sensitive": true
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00023",
+    "name": "Bohol Mountain Pass Route",
+    "from_location_id": "WLOC000076",
+    "to_location_id": "WLOC000077",
+    "route_type": "mountain",
+    "travel_time_minutes": 7,
+    "encounter_rate": 0.2,
+    "condition_payload": {
+      "weather_sensitive": false
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00024",
+    "name": "Bohol Coral Reef Route Route",
+    "from_location_id": "WLOC000078",
+    "to_location_id": "WLOC000079",
+    "route_type": "coral_reef",
+    "travel_time_minutes": 8,
+    "encounter_rate": 0.25,
+    "condition_payload": {
+      "weather_sensitive": false
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00025",
+    "name": "Samar River Dock Route",
+    "from_location_id": "WLOC000085",
+    "to_location_id": "WLOC000086",
+    "route_type": "river",
+    "travel_time_minutes": 9,
+    "encounter_rate": 0.3,
+    "condition_payload": {
+      "weather_sensitive": true
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00026",
+    "name": "Samar Mountain Pass Route",
+    "from_location_id": "WLOC000086",
+    "to_location_id": "WLOC000087",
+    "route_type": "mountain",
+    "travel_time_minutes": 10,
+    "encounter_rate": 0.1,
+    "condition_payload": {
+      "weather_sensitive": false
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00027",
+    "name": "Samar Coral Reef Route Route",
+    "from_location_id": "WLOC000088",
+    "to_location_id": "WLOC000089",
+    "route_type": "coral_reef",
+    "travel_time_minutes": 11,
+    "encounter_rate": 0.15,
+    "condition_payload": {
+      "weather_sensitive": false
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00028",
+    "name": "Aklan River Dock Route",
+    "from_location_id": "WLOC000095",
+    "to_location_id": "WLOC000096",
+    "route_type": "river",
+    "travel_time_minutes": 12,
+    "encounter_rate": 0.2,
+    "condition_payload": {
+      "weather_sensitive": true
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00029",
+    "name": "Aklan Mountain Pass Route",
+    "from_location_id": "WLOC000096",
+    "to_location_id": "WLOC000097",
+    "route_type": "mountain",
+    "travel_time_minutes": 13,
+    "encounter_rate": 0.25,
+    "condition_payload": {
+      "weather_sensitive": false
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00030",
+    "name": "Aklan Coral Reef Route Route",
+    "from_location_id": "WLOC000098",
+    "to_location_id": "WLOC000099",
+    "route_type": "coral_reef",
+    "travel_time_minutes": 14,
+    "encounter_rate": 0.3,
+    "condition_payload": {
+      "weather_sensitive": false
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00031",
+    "name": "Albay River Dock Route",
+    "from_location_id": "WLOC000105",
+    "to_location_id": "WLOC000106",
+    "route_type": "river",
+    "travel_time_minutes": 15,
+    "encounter_rate": 0.1,
+    "condition_payload": {
+      "weather_sensitive": true
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00032",
+    "name": "Albay Mountain Pass Route",
+    "from_location_id": "WLOC000106",
+    "to_location_id": "WLOC000107",
+    "route_type": "mountain",
+    "travel_time_minutes": 16,
+    "encounter_rate": 0.15,
+    "condition_payload": {
+      "weather_sensitive": false
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00033",
+    "name": "Albay Coral Reef Route Route",
+    "from_location_id": "WLOC000108",
+    "to_location_id": "WLOC000109",
+    "route_type": "coral_reef",
+    "travel_time_minutes": 17,
+    "encounter_rate": 0.2,
+    "condition_payload": {
+      "weather_sensitive": false
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00034",
+    "name": "Rizal River Dock Route",
+    "from_location_id": "WLOC000115",
+    "to_location_id": "WLOC000116",
+    "route_type": "river",
+    "travel_time_minutes": 18,
+    "encounter_rate": 0.25,
+    "condition_payload": {
+      "weather_sensitive": true
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00035",
+    "name": "Rizal Mountain Pass Route",
+    "from_location_id": "WLOC000116",
+    "to_location_id": "WLOC000117",
+    "route_type": "mountain",
+    "travel_time_minutes": 19,
+    "encounter_rate": 0.3,
+    "condition_payload": {
+      "weather_sensitive": false
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00036",
+    "name": "Rizal Coral Reef Route Route",
+    "from_location_id": "WLOC000118",
+    "to_location_id": "WLOC000119",
+    "route_type": "coral_reef",
+    "travel_time_minutes": 20,
+    "encounter_rate": 0.1,
+    "condition_payload": {
+      "weather_sensitive": false
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00037",
+    "name": "Bukidnon River Dock Route",
+    "from_location_id": "WLOC000125",
+    "to_location_id": "WLOC000126",
+    "route_type": "river",
+    "travel_time_minutes": 21,
+    "encounter_rate": 0.15,
+    "condition_payload": {
+      "weather_sensitive": true
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00038",
+    "name": "Bukidnon Mountain Pass Route",
+    "from_location_id": "WLOC000126",
+    "to_location_id": "WLOC000127",
+    "route_type": "mountain",
+    "travel_time_minutes": 22,
+    "encounter_rate": 0.2,
+    "condition_payload": {
+      "weather_sensitive": false
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00039",
+    "name": "Bukidnon Coral Reef Route Route",
+    "from_location_id": "WLOC000128",
+    "to_location_id": "WLOC000129",
+    "route_type": "coral_reef",
+    "travel_time_minutes": 23,
+    "encounter_rate": 0.25,
+    "condition_payload": {
+      "weather_sensitive": false
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00040",
+    "name": "Agusan del Norte River Dock Route",
+    "from_location_id": "WLOC000135",
+    "to_location_id": "WLOC000136",
+    "route_type": "river",
+    "travel_time_minutes": 24,
+    "encounter_rate": 0.3,
+    "condition_payload": {
+      "weather_sensitive": true
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00041",
+    "name": "Agusan del Norte Mountain Pass Route",
+    "from_location_id": "WLOC000136",
+    "to_location_id": "WLOC000137",
+    "route_type": "mountain",
+    "travel_time_minutes": 5,
+    "encounter_rate": 0.1,
+    "condition_payload": {
+      "weather_sensitive": false
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00042",
+    "name": "Agusan del Norte Coral Reef Route Route",
+    "from_location_id": "WLOC000138",
+    "to_location_id": "WLOC000139",
+    "route_type": "coral_reef",
+    "travel_time_minutes": 6,
+    "encounter_rate": 0.15,
+    "condition_payload": {
+      "weather_sensitive": false
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00043",
+    "name": "Tawi-Tawi River Dock Route",
+    "from_location_id": "WLOC000145",
+    "to_location_id": "WLOC000146",
+    "route_type": "river",
+    "travel_time_minutes": 7,
+    "encounter_rate": 0.2,
+    "condition_payload": {
+      "weather_sensitive": true
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00044",
+    "name": "Tawi-Tawi Mountain Pass Route",
+    "from_location_id": "WLOC000146",
+    "to_location_id": "WLOC000147",
+    "route_type": "mountain",
+    "travel_time_minutes": 8,
+    "encounter_rate": 0.25,
+    "condition_payload": {
+      "weather_sensitive": false
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00045",
+    "name": "Tawi-Tawi Coral Reef Route Route",
+    "from_location_id": "WLOC000148",
+    "to_location_id": "WLOC000149",
+    "route_type": "coral_reef",
+    "travel_time_minutes": 9,
+    "encounter_rate": 0.3,
+    "condition_payload": {
+      "weather_sensitive": false
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00046",
+    "name": "Ifugao River Dock Route",
+    "from_location_id": "WLOC000155",
+    "to_location_id": "WLOC000156",
+    "route_type": "river",
+    "travel_time_minutes": 10,
+    "encounter_rate": 0.1,
+    "condition_payload": {
+      "weather_sensitive": true
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00047",
+    "name": "Ifugao Mountain Pass Route",
+    "from_location_id": "WLOC000156",
+    "to_location_id": "WLOC000157",
+    "route_type": "mountain",
+    "travel_time_minutes": 11,
+    "encounter_rate": 0.15,
+    "condition_payload": {
+      "weather_sensitive": false
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00048",
+    "name": "Ifugao Coral Reef Route Route",
+    "from_location_id": "WLOC000158",
+    "to_location_id": "WLOC000159",
+    "route_type": "coral_reef",
+    "travel_time_minutes": 12,
+    "encounter_rate": 0.2,
+    "condition_payload": {
+      "weather_sensitive": false
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00049",
+    "name": "Metro Manila River Dock Route",
+    "from_location_id": "WLOC000165",
+    "to_location_id": "WLOC000166",
+    "route_type": "river",
+    "travel_time_minutes": 13,
+    "encounter_rate": 0.25,
+    "condition_payload": {
+      "weather_sensitive": true
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00050",
+    "name": "Metro Manila Mountain Pass Route",
+    "from_location_id": "WLOC000166",
+    "to_location_id": "WLOC000167",
+    "route_type": "mountain",
+    "travel_time_minutes": 14,
+    "encounter_rate": 0.3,
+    "condition_payload": {
+      "weather_sensitive": false
+    },
+    "is_active": true
+  },
+  {
+    "route_id": "WROUTE00051",
+    "name": "Metro Manila Coral Reef Route Route",
+    "from_location_id": "WLOC000168",
+    "to_location_id": "WLOC000169",
+    "route_type": "coral_reef",
+    "travel_time_minutes": 15,
+    "encounter_rate": 0.1,
+    "condition_payload": {
+      "weather_sensitive": false
+    },
+    "is_active": true
+  }
+]

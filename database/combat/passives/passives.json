@@ -1,0 +1,175 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "alamat://combat/passives/passives.json",
+  "title": "ALAMAT Combat Bible - passive",
+  "description": "Passive ability definitions referenced by Nilalang, equipment, bosses, and events.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "id": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "uuid": {
+        "type": "string",
+        "format": "uuid"
+      },
+      "slug": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "created_at": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "updated_at": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "version": {
+        "type": "string",
+        "pattern": "^\\d+\\.\\d+\\.\\d+$"
+      },
+      "source": {
+        "type": "string",
+        "minLength": 1
+      },
+      "notes": {
+        "type": "string"
+      },
+      "passive_id": {
+        "type": "string",
+        "pattern": "^PAS-?[A-Z0-9-]+$"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "trigger": {
+        "type": "string",
+        "enum": [
+          "battle_start",
+          "turn_start",
+          "turn_end",
+          "on_hit",
+          "on_crit",
+          "on_status",
+          "on_down",
+          "on_capture_check"
+        ]
+      },
+      "condition": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Formula reference or documented condition expression."
+      },
+      "duration": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": [
+              "instant",
+              "turns",
+              "rounds",
+              "battle",
+              "permanent"
+            ]
+          },
+          "value": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "required": [
+          "type",
+          "value"
+        ]
+      },
+      "stacking": {
+        "type": "string",
+        "enum": [
+          "none",
+          "refresh",
+          "stack_additive",
+          "stack_multiplicative",
+          "unique"
+        ]
+      },
+      "cooldown": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "effect_formula": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Reference to formula_id; resolve through Combat Bible registry or Phase B library."
+      },
+      "icon": {
+        "type": "string",
+        "minLength": 1
+      },
+      "animation": {
+        "type": "string",
+        "minLength": 1
+      },
+      "lore": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "required": [
+      "id",
+      "uuid",
+      "slug",
+      "created_at",
+      "updated_at",
+      "version",
+      "source",
+      "notes",
+      "passive_id",
+      "passive_id",
+      "name",
+      "trigger",
+      "condition",
+      "duration",
+      "stacking",
+      "cooldown",
+      "effect_formula",
+      "icon",
+      "animation",
+      "lore"
+    ]
+  },
+  "examples": [
+    [
+      {
+        "id": 8,
+        "uuid": "00000000-0000-4000-8000-000000000008",
+        "created_at": "2026-07-02T00:00:00+08:00",
+        "updated_at": "2026-07-02T00:00:00+08:00",
+        "version": "1.0.0",
+        "source": "Phase D architecture example",
+        "notes": "Example record for schema validation only; not production balance content.",
+        "passive_id": "PAS-0001",
+        "slug": "guardian-vow",
+        "name": "Guardian Vow",
+        "trigger": "battle_start",
+        "condition": "owner.hp_percent >= 50",
+        "duration": {
+          "type": "turns",
+          "value": 3
+        },
+        "stacking": "refresh",
+        "cooldown": 4,
+        "effect_formula": "FRM-BUFF-DEFENSE-001",
+        "icon": "shield",
+        "animation": "ward_green",
+        "lore": "A protective vow strengthens the Nilalang at the start of combat."
+      }
+    ]
+  ]
+}

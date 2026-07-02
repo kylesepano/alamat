@@ -1,0 +1,114 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "alamat://combat/balance/combat_balance_rules.json",
+  "title": "ALAMAT Combat Bible - combat_balance_rule",
+  "description": "combat balance rule records for the Combat Bible.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "id": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "uuid": {
+        "type": "string",
+        "format": "uuid"
+      },
+      "slug": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "created_at": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "updated_at": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "version": {
+        "type": "string",
+        "pattern": "^\\d+\\.\\d+\\.\\d+$"
+      },
+      "source": {
+        "type": "string",
+        "minLength": 1
+      },
+      "notes": {
+        "type": "string"
+      },
+      "rule_id": {
+        "type": "string",
+        "pattern": "^BAL-?[A-Z0-9-]+$"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "scope": {
+        "type": "string",
+        "minLength": 1
+      },
+      "rule_type": {
+        "type": "string",
+        "enum": [
+          "range",
+          "limit",
+          "multiplier",
+          "benchmark",
+          "cost",
+          "cooldown",
+          "ai"
+        ]
+      },
+      "value": {
+        "type": "object"
+      },
+      "rationale": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "required": [
+      "id",
+      "uuid",
+      "slug",
+      "created_at",
+      "updated_at",
+      "version",
+      "source",
+      "notes",
+      "rule_id",
+      "rule_id",
+      "name",
+      "scope",
+      "rule_type",
+      "value",
+      "rationale"
+    ]
+  },
+  "examples": [
+    [
+      {
+        "id": 27,
+        "uuid": "00000000-0000-4000-8000-000000000027",
+        "created_at": "2026-07-02T00:00:00+08:00",
+        "updated_at": "2026-07-02T00:00:00+08:00",
+        "version": "1.0.0",
+        "source": "Phase D architecture example",
+        "notes": "Example record for schema validation only; not production balance content.",
+        "rule_id": "BAL-0001",
+        "slug": "critical-rate-limit",
+        "name": "Critical Rate Limit",
+        "scope": "skills",
+        "rule_type": "limit",
+        "value": {
+          "max_critical_rate": 35
+        },
+        "rationale": "Keeps burst damage readable and prevents permanent critical chains."
+      }
+    ]
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "alamat://combat/ai/ai_profiles.json",
+  "title": "ALAMAT Combat Bible - ai_profile",
+  "description": "ai profile records for the Combat Bible.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "id": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "uuid": {
+        "type": "string",
+        "format": "uuid"
+      },
+      "slug": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "created_at": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "updated_at": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "version": {
+        "type": "string",
+        "pattern": "^\\d+\\.\\d+\\.\\d+$"
+      },
+      "source": {
+        "type": "string",
+        "minLength": 1
+      },
+      "notes": {
+        "type": "string"
+      },
+      "ai_profile_id": {
+        "type": "string",
+        "pattern": "^AIP-?[A-Z0-9-]+$"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "decision_tree": {
+        "type": "array",
+        "items": {
+          "type": "object"
+        }
+      },
+      "priority_table": {
+        "type": "array",
+        "items": {
+          "type": "object"
+        }
+      },
+      "target_selection": {
+        "type": "string",
+        "minLength": 1
+      },
+      "resource_management": {
+        "type": "object"
+      },
+      "escape_logic": {
+        "type": "object"
+      },
+      "description": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "required": [
+      "id",
+      "uuid",
+      "slug",
+      "created_at",
+      "updated_at",
+      "version",
+      "source",
+      "notes",
+      "ai_profile_id",
+      "ai_profile_id",
+      "name",
+      "decision_tree",
+      "priority_table",
+      "target_selection",
+      "resource_management",
+      "escape_logic",
+      "description"
+    ]
+  },
+  "examples": [
+    [
+      {
+        "id": 18,
+        "uuid": "00000000-0000-4000-8000-000000000018",
+        "created_at": "2026-07-02T00:00:00+08:00",
+        "updated_at": "2026-07-02T00:00:00+08:00",
+        "version": "1.0.0",
+        "source": "Phase D architecture example",
+        "notes": "Example record for schema validation only; not production balance content.",
+        "ai_profile_id": "AIP-0001",
+        "slug": "guardian",
+        "name": "Guardian",
+        "decision_tree": [
+          {
+            "when": "ally.hp_percent < 40",
+            "action": "protect_ally"
+          }
+        ],
+        "priority_table": [
+          {
+            "action": "taunt",
+            "weight": 1.2
+          }
+        ],
+        "target_selection": "lowest_hp_ally",
+        "resource_management": {
+          "conserve_mana_below_percent": 20
+        },
+        "escape_logic": {
+          "can_escape": false
+        },
+        "description": "Prioritizes protection, taunts, and ally survival."
+      }
+    ]
+  ]
+}

@@ -1,0 +1,2892 @@
+[
+  {
+    "placement_id": "WNPCPLACE000001",
+    "npc_id": "NPC000001",
+    "location_id": "WLOC000001",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 0,
+      "y": 0
+    },
+    "condition_payload": {
+      "story_chapter_min": 0
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000002",
+    "npc_id": "NPC000002",
+    "location_id": "WLOC000002",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 17,
+      "y": 19
+    },
+    "condition_payload": {
+      "story_chapter_min": 1
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000003",
+    "npc_id": "NPC000003",
+    "location_id": "WLOC000003",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 34,
+      "y": 38
+    },
+    "condition_payload": {
+      "story_chapter_min": 2
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000004",
+    "npc_id": "NPC000004",
+    "location_id": "WLOC000004",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 51,
+      "y": 57
+    },
+    "condition_payload": {
+      "story_chapter_min": 3
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000005",
+    "npc_id": "NPC000005",
+    "location_id": "WLOC000005",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 68,
+      "y": 76
+    },
+    "condition_payload": {
+      "story_chapter_min": 4
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000006",
+    "npc_id": "NPC000006",
+    "location_id": "WLOC000006",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 85,
+      "y": 95
+    },
+    "condition_payload": {
+      "story_chapter_min": 5
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000007",
+    "npc_id": "NPC000007",
+    "location_id": "WLOC000007",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 2,
+      "y": 14
+    },
+    "condition_payload": {
+      "story_chapter_min": 6
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000008",
+    "npc_id": "NPC000008",
+    "location_id": "WLOC000008",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 19,
+      "y": 33
+    },
+    "condition_payload": {
+      "story_chapter_min": 7
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000009",
+    "npc_id": "NPC000009",
+    "location_id": "WLOC000009",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 36,
+      "y": 52
+    },
+    "condition_payload": {
+      "story_chapter_min": 0
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000010",
+    "npc_id": "NPC000010",
+    "location_id": "WLOC000010",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 53,
+      "y": 71
+    },
+    "condition_payload": {
+      "story_chapter_min": 1
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000011",
+    "npc_id": "NPC000011",
+    "location_id": "WLOC000011",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 70,
+      "y": 90
+    },
+    "condition_payload": {
+      "story_chapter_min": 2
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000012",
+    "npc_id": "NPC000012",
+    "location_id": "WLOC000012",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 87,
+      "y": 9
+    },
+    "condition_payload": {
+      "story_chapter_min": 3
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000013",
+    "npc_id": "NPC000013",
+    "location_id": "WLOC000013",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 4,
+      "y": 28
+    },
+    "condition_payload": {
+      "story_chapter_min": 4
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000014",
+    "npc_id": "NPC000014",
+    "location_id": "WLOC000014",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 21,
+      "y": 47
+    },
+    "condition_payload": {
+      "story_chapter_min": 5
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000015",
+    "npc_id": "NPC000015",
+    "location_id": "WLOC000015",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 38,
+      "y": 66
+    },
+    "condition_payload": {
+      "story_chapter_min": 6
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000016",
+    "npc_id": "NPC000016",
+    "location_id": "WLOC000016",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 55,
+      "y": 85
+    },
+    "condition_payload": {
+      "story_chapter_min": 7
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000017",
+    "npc_id": "NPC000017",
+    "location_id": "WLOC000017",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 72,
+      "y": 4
+    },
+    "condition_payload": {
+      "story_chapter_min": 0
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000018",
+    "npc_id": "NPC000018",
+    "location_id": "WLOC000018",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 89,
+      "y": 23
+    },
+    "condition_payload": {
+      "story_chapter_min": 1
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000019",
+    "npc_id": "NPC000019",
+    "location_id": "WLOC000019",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 6,
+      "y": 42
+    },
+    "condition_payload": {
+      "story_chapter_min": 2
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000020",
+    "npc_id": "NPC000020",
+    "location_id": "WLOC000020",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 23,
+      "y": 61
+    },
+    "condition_payload": {
+      "story_chapter_min": 3
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000021",
+    "npc_id": "NPC000021",
+    "location_id": "WLOC000021",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 40,
+      "y": 80
+    },
+    "condition_payload": {
+      "story_chapter_min": 4
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000022",
+    "npc_id": "NPC000022",
+    "location_id": "WLOC000022",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 57,
+      "y": 99
+    },
+    "condition_payload": {
+      "story_chapter_min": 5
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000023",
+    "npc_id": "NPC000023",
+    "location_id": "WLOC000023",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 74,
+      "y": 18
+    },
+    "condition_payload": {
+      "story_chapter_min": 6
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000024",
+    "npc_id": "NPC000024",
+    "location_id": "WLOC000024",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 91,
+      "y": 37
+    },
+    "condition_payload": {
+      "story_chapter_min": 7
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000025",
+    "npc_id": "NPC000025",
+    "location_id": "WLOC000025",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 8,
+      "y": 56
+    },
+    "condition_payload": {
+      "story_chapter_min": 0
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000026",
+    "npc_id": "NPC000026",
+    "location_id": "WLOC000026",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 25,
+      "y": 75
+    },
+    "condition_payload": {
+      "story_chapter_min": 1
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000027",
+    "npc_id": "NPC000027",
+    "location_id": "WLOC000027",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 42,
+      "y": 94
+    },
+    "condition_payload": {
+      "story_chapter_min": 2
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000028",
+    "npc_id": "NPC000028",
+    "location_id": "WLOC000028",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 59,
+      "y": 13
+    },
+    "condition_payload": {
+      "story_chapter_min": 3
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000029",
+    "npc_id": "NPC000029",
+    "location_id": "WLOC000029",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 76,
+      "y": 32
+    },
+    "condition_payload": {
+      "story_chapter_min": 4
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000030",
+    "npc_id": "NPC000030",
+    "location_id": "WLOC000030",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 93,
+      "y": 51
+    },
+    "condition_payload": {
+      "story_chapter_min": 5
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000031",
+    "npc_id": "NPC000031",
+    "location_id": "WLOC000031",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 10,
+      "y": 70
+    },
+    "condition_payload": {
+      "story_chapter_min": 6
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000032",
+    "npc_id": "NPC000032",
+    "location_id": "WLOC000032",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 27,
+      "y": 89
+    },
+    "condition_payload": {
+      "story_chapter_min": 7
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000033",
+    "npc_id": "NPC000033",
+    "location_id": "WLOC000033",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 44,
+      "y": 8
+    },
+    "condition_payload": {
+      "story_chapter_min": 0
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000034",
+    "npc_id": "NPC000034",
+    "location_id": "WLOC000034",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 61,
+      "y": 27
+    },
+    "condition_payload": {
+      "story_chapter_min": 1
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000035",
+    "npc_id": "NPC000035",
+    "location_id": "WLOC000035",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 78,
+      "y": 46
+    },
+    "condition_payload": {
+      "story_chapter_min": 2
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000036",
+    "npc_id": "NPC000036",
+    "location_id": "WLOC000036",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 95,
+      "y": 65
+    },
+    "condition_payload": {
+      "story_chapter_min": 3
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000037",
+    "npc_id": "NPC000037",
+    "location_id": "WLOC000037",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 12,
+      "y": 84
+    },
+    "condition_payload": {
+      "story_chapter_min": 4
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000038",
+    "npc_id": "NPC000038",
+    "location_id": "WLOC000038",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 29,
+      "y": 3
+    },
+    "condition_payload": {
+      "story_chapter_min": 5
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000039",
+    "npc_id": "NPC000039",
+    "location_id": "WLOC000039",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 46,
+      "y": 22
+    },
+    "condition_payload": {
+      "story_chapter_min": 6
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000040",
+    "npc_id": "NPC000040",
+    "location_id": "WLOC000040",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 63,
+      "y": 41
+    },
+    "condition_payload": {
+      "story_chapter_min": 7
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000041",
+    "npc_id": "NPC000041",
+    "location_id": "WLOC000041",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 80,
+      "y": 60
+    },
+    "condition_payload": {
+      "story_chapter_min": 0
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000042",
+    "npc_id": "NPC000042",
+    "location_id": "WLOC000042",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 97,
+      "y": 79
+    },
+    "condition_payload": {
+      "story_chapter_min": 1
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000043",
+    "npc_id": "NPC000043",
+    "location_id": "WLOC000043",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 14,
+      "y": 98
+    },
+    "condition_payload": {
+      "story_chapter_min": 2
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000044",
+    "npc_id": "NPC000044",
+    "location_id": "WLOC000044",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 31,
+      "y": 17
+    },
+    "condition_payload": {
+      "story_chapter_min": 3
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000045",
+    "npc_id": "NPC000045",
+    "location_id": "WLOC000045",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 48,
+      "y": 36
+    },
+    "condition_payload": {
+      "story_chapter_min": 4
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000046",
+    "npc_id": "NPC000046",
+    "location_id": "WLOC000046",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 65,
+      "y": 55
+    },
+    "condition_payload": {
+      "story_chapter_min": 5
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000047",
+    "npc_id": "NPC000047",
+    "location_id": "WLOC000047",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 82,
+      "y": 74
+    },
+    "condition_payload": {
+      "story_chapter_min": 6
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000048",
+    "npc_id": "NPC000048",
+    "location_id": "WLOC000048",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 99,
+      "y": 93
+    },
+    "condition_payload": {
+      "story_chapter_min": 7
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000049",
+    "npc_id": "NPC000049",
+    "location_id": "WLOC000049",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 16,
+      "y": 12
+    },
+    "condition_payload": {
+      "story_chapter_min": 0
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000050",
+    "npc_id": "NPC000050",
+    "location_id": "WLOC000050",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 33,
+      "y": 31
+    },
+    "condition_payload": {
+      "story_chapter_min": 1
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000051",
+    "npc_id": "NPC000051",
+    "location_id": "WLOC000051",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 50,
+      "y": 50
+    },
+    "condition_payload": {
+      "story_chapter_min": 2
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000052",
+    "npc_id": "NPC000052",
+    "location_id": "WLOC000052",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 67,
+      "y": 69
+    },
+    "condition_payload": {
+      "story_chapter_min": 3
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000053",
+    "npc_id": "NPC000053",
+    "location_id": "WLOC000053",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 84,
+      "y": 88
+    },
+    "condition_payload": {
+      "story_chapter_min": 4
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000054",
+    "npc_id": "NPC000054",
+    "location_id": "WLOC000054",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 1,
+      "y": 7
+    },
+    "condition_payload": {
+      "story_chapter_min": 5
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000055",
+    "npc_id": "NPC000055",
+    "location_id": "WLOC000055",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 18,
+      "y": 26
+    },
+    "condition_payload": {
+      "story_chapter_min": 6
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000056",
+    "npc_id": "NPC000056",
+    "location_id": "WLOC000056",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 35,
+      "y": 45
+    },
+    "condition_payload": {
+      "story_chapter_min": 7
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000057",
+    "npc_id": "NPC000057",
+    "location_id": "WLOC000057",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 52,
+      "y": 64
+    },
+    "condition_payload": {
+      "story_chapter_min": 0
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000058",
+    "npc_id": "NPC000058",
+    "location_id": "WLOC000058",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 69,
+      "y": 83
+    },
+    "condition_payload": {
+      "story_chapter_min": 1
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000059",
+    "npc_id": "NPC000059",
+    "location_id": "WLOC000059",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 86,
+      "y": 2
+    },
+    "condition_payload": {
+      "story_chapter_min": 2
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000060",
+    "npc_id": "NPC000060",
+    "location_id": "WLOC000060",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 3,
+      "y": 21
+    },
+    "condition_payload": {
+      "story_chapter_min": 3
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000061",
+    "npc_id": "NPC000061",
+    "location_id": "WLOC000061",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 20,
+      "y": 40
+    },
+    "condition_payload": {
+      "story_chapter_min": 4
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000062",
+    "npc_id": "NPC000062",
+    "location_id": "WLOC000062",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 37,
+      "y": 59
+    },
+    "condition_payload": {
+      "story_chapter_min": 5
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000063",
+    "npc_id": "NPC000063",
+    "location_id": "WLOC000063",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 54,
+      "y": 78
+    },
+    "condition_payload": {
+      "story_chapter_min": 6
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000064",
+    "npc_id": "NPC000064",
+    "location_id": "WLOC000064",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 71,
+      "y": 97
+    },
+    "condition_payload": {
+      "story_chapter_min": 7
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000065",
+    "npc_id": "NPC000065",
+    "location_id": "WLOC000065",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 88,
+      "y": 16
+    },
+    "condition_payload": {
+      "story_chapter_min": 0
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000066",
+    "npc_id": "NPC000066",
+    "location_id": "WLOC000066",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 5,
+      "y": 35
+    },
+    "condition_payload": {
+      "story_chapter_min": 1
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000067",
+    "npc_id": "NPC000067",
+    "location_id": "WLOC000067",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 22,
+      "y": 54
+    },
+    "condition_payload": {
+      "story_chapter_min": 2
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000068",
+    "npc_id": "NPC000068",
+    "location_id": "WLOC000068",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 39,
+      "y": 73
+    },
+    "condition_payload": {
+      "story_chapter_min": 3
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000069",
+    "npc_id": "NPC000069",
+    "location_id": "WLOC000069",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 56,
+      "y": 92
+    },
+    "condition_payload": {
+      "story_chapter_min": 4
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000070",
+    "npc_id": "NPC000070",
+    "location_id": "WLOC000070",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 73,
+      "y": 11
+    },
+    "condition_payload": {
+      "story_chapter_min": 5
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000071",
+    "npc_id": "NPC000071",
+    "location_id": "WLOC000071",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 90,
+      "y": 30
+    },
+    "condition_payload": {
+      "story_chapter_min": 6
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000072",
+    "npc_id": "NPC000072",
+    "location_id": "WLOC000072",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 7,
+      "y": 49
+    },
+    "condition_payload": {
+      "story_chapter_min": 7
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000073",
+    "npc_id": "NPC000073",
+    "location_id": "WLOC000073",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 24,
+      "y": 68
+    },
+    "condition_payload": {
+      "story_chapter_min": 0
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000074",
+    "npc_id": "NPC000074",
+    "location_id": "WLOC000074",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 41,
+      "y": 87
+    },
+    "condition_payload": {
+      "story_chapter_min": 1
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000075",
+    "npc_id": "NPC000075",
+    "location_id": "WLOC000075",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 58,
+      "y": 6
+    },
+    "condition_payload": {
+      "story_chapter_min": 2
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000076",
+    "npc_id": "NPC000076",
+    "location_id": "WLOC000076",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 75,
+      "y": 25
+    },
+    "condition_payload": {
+      "story_chapter_min": 3
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000077",
+    "npc_id": "NPC000077",
+    "location_id": "WLOC000077",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 92,
+      "y": 44
+    },
+    "condition_payload": {
+      "story_chapter_min": 4
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000078",
+    "npc_id": "NPC000078",
+    "location_id": "WLOC000078",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 9,
+      "y": 63
+    },
+    "condition_payload": {
+      "story_chapter_min": 5
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000079",
+    "npc_id": "NPC000079",
+    "location_id": "WLOC000079",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 26,
+      "y": 82
+    },
+    "condition_payload": {
+      "story_chapter_min": 6
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000080",
+    "npc_id": "NPC000080",
+    "location_id": "WLOC000080",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 43,
+      "y": 1
+    },
+    "condition_payload": {
+      "story_chapter_min": 7
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000081",
+    "npc_id": "NPC000081",
+    "location_id": "WLOC000081",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 60,
+      "y": 20
+    },
+    "condition_payload": {
+      "story_chapter_min": 0
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000082",
+    "npc_id": "NPC000082",
+    "location_id": "WLOC000082",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 77,
+      "y": 39
+    },
+    "condition_payload": {
+      "story_chapter_min": 1
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000083",
+    "npc_id": "NPC000083",
+    "location_id": "WLOC000083",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 94,
+      "y": 58
+    },
+    "condition_payload": {
+      "story_chapter_min": 2
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000084",
+    "npc_id": "NPC000084",
+    "location_id": "WLOC000084",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 11,
+      "y": 77
+    },
+    "condition_payload": {
+      "story_chapter_min": 3
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000085",
+    "npc_id": "NPC000085",
+    "location_id": "WLOC000085",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 28,
+      "y": 96
+    },
+    "condition_payload": {
+      "story_chapter_min": 4
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000086",
+    "npc_id": "NPC000086",
+    "location_id": "WLOC000086",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 45,
+      "y": 15
+    },
+    "condition_payload": {
+      "story_chapter_min": 5
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000087",
+    "npc_id": "NPC000087",
+    "location_id": "WLOC000087",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 62,
+      "y": 34
+    },
+    "condition_payload": {
+      "story_chapter_min": 6
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000088",
+    "npc_id": "NPC000088",
+    "location_id": "WLOC000088",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 79,
+      "y": 53
+    },
+    "condition_payload": {
+      "story_chapter_min": 7
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000089",
+    "npc_id": "NPC000089",
+    "location_id": "WLOC000089",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 96,
+      "y": 72
+    },
+    "condition_payload": {
+      "story_chapter_min": 0
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000090",
+    "npc_id": "NPC000090",
+    "location_id": "WLOC000090",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 13,
+      "y": 91
+    },
+    "condition_payload": {
+      "story_chapter_min": 1
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000091",
+    "npc_id": "NPC000091",
+    "location_id": "WLOC000091",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 30,
+      "y": 10
+    },
+    "condition_payload": {
+      "story_chapter_min": 2
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000092",
+    "npc_id": "NPC000092",
+    "location_id": "WLOC000092",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 47,
+      "y": 29
+    },
+    "condition_payload": {
+      "story_chapter_min": 3
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000093",
+    "npc_id": "NPC000093",
+    "location_id": "WLOC000093",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 64,
+      "y": 48
+    },
+    "condition_payload": {
+      "story_chapter_min": 4
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000094",
+    "npc_id": "NPC000094",
+    "location_id": "WLOC000094",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 81,
+      "y": 67
+    },
+    "condition_payload": {
+      "story_chapter_min": 5
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000095",
+    "npc_id": "NPC000095",
+    "location_id": "WLOC000095",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 98,
+      "y": 86
+    },
+    "condition_payload": {
+      "story_chapter_min": 6
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000096",
+    "npc_id": "NPC000096",
+    "location_id": "WLOC000096",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 15,
+      "y": 5
+    },
+    "condition_payload": {
+      "story_chapter_min": 7
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000097",
+    "npc_id": "NPC000097",
+    "location_id": "WLOC000097",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 32,
+      "y": 24
+    },
+    "condition_payload": {
+      "story_chapter_min": 0
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000098",
+    "npc_id": "NPC000098",
+    "location_id": "WLOC000098",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 49,
+      "y": 43
+    },
+    "condition_payload": {
+      "story_chapter_min": 1
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000099",
+    "npc_id": "NPC000099",
+    "location_id": "WLOC000099",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 66,
+      "y": 62
+    },
+    "condition_payload": {
+      "story_chapter_min": 2
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000100",
+    "npc_id": "NPC000100",
+    "location_id": "WLOC000100",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 83,
+      "y": 81
+    },
+    "condition_payload": {
+      "story_chapter_min": 3
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000101",
+    "npc_id": "NPC000101",
+    "location_id": "WLOC000101",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 0,
+      "y": 0
+    },
+    "condition_payload": {
+      "story_chapter_min": 4
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000102",
+    "npc_id": "NPC000102",
+    "location_id": "WLOC000102",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 17,
+      "y": 19
+    },
+    "condition_payload": {
+      "story_chapter_min": 5
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000103",
+    "npc_id": "NPC000103",
+    "location_id": "WLOC000103",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 34,
+      "y": 38
+    },
+    "condition_payload": {
+      "story_chapter_min": 6
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000104",
+    "npc_id": "NPC000104",
+    "location_id": "WLOC000104",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 51,
+      "y": 57
+    },
+    "condition_payload": {
+      "story_chapter_min": 7
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000105",
+    "npc_id": "NPC000105",
+    "location_id": "WLOC000105",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 68,
+      "y": 76
+    },
+    "condition_payload": {
+      "story_chapter_min": 0
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000106",
+    "npc_id": "NPC000106",
+    "location_id": "WLOC000106",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 85,
+      "y": 95
+    },
+    "condition_payload": {
+      "story_chapter_min": 1
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000107",
+    "npc_id": "NPC000107",
+    "location_id": "WLOC000107",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 2,
+      "y": 14
+    },
+    "condition_payload": {
+      "story_chapter_min": 2
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000108",
+    "npc_id": "NPC000108",
+    "location_id": "WLOC000108",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 19,
+      "y": 33
+    },
+    "condition_payload": {
+      "story_chapter_min": 3
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000109",
+    "npc_id": "NPC000109",
+    "location_id": "WLOC000109",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 36,
+      "y": 52
+    },
+    "condition_payload": {
+      "story_chapter_min": 4
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000110",
+    "npc_id": "NPC000110",
+    "location_id": "WLOC000110",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 53,
+      "y": 71
+    },
+    "condition_payload": {
+      "story_chapter_min": 5
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000111",
+    "npc_id": "NPC000111",
+    "location_id": "WLOC000111",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 70,
+      "y": 90
+    },
+    "condition_payload": {
+      "story_chapter_min": 6
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000112",
+    "npc_id": "NPC000112",
+    "location_id": "WLOC000112",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 87,
+      "y": 9
+    },
+    "condition_payload": {
+      "story_chapter_min": 7
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000113",
+    "npc_id": "NPC000113",
+    "location_id": "WLOC000113",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 4,
+      "y": 28
+    },
+    "condition_payload": {
+      "story_chapter_min": 0
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000114",
+    "npc_id": "NPC000114",
+    "location_id": "WLOC000114",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 21,
+      "y": 47
+    },
+    "condition_payload": {
+      "story_chapter_min": 1
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000115",
+    "npc_id": "NPC000115",
+    "location_id": "WLOC000115",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 38,
+      "y": 66
+    },
+    "condition_payload": {
+      "story_chapter_min": 2
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000116",
+    "npc_id": "NPC000116",
+    "location_id": "WLOC000116",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 55,
+      "y": 85
+    },
+    "condition_payload": {
+      "story_chapter_min": 3
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000117",
+    "npc_id": "NPC000117",
+    "location_id": "WLOC000117",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 72,
+      "y": 4
+    },
+    "condition_payload": {
+      "story_chapter_min": 4
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000118",
+    "npc_id": "NPC000118",
+    "location_id": "WLOC000118",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 89,
+      "y": 23
+    },
+    "condition_payload": {
+      "story_chapter_min": 5
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000119",
+    "npc_id": "NPC000119",
+    "location_id": "WLOC000119",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 6,
+      "y": 42
+    },
+    "condition_payload": {
+      "story_chapter_min": 6
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000120",
+    "npc_id": "NPC000120",
+    "location_id": "WLOC000120",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 23,
+      "y": 61
+    },
+    "condition_payload": {
+      "story_chapter_min": 7
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000121",
+    "npc_id": "NPC000121",
+    "location_id": "WLOC000121",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 40,
+      "y": 80
+    },
+    "condition_payload": {
+      "story_chapter_min": 0
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000122",
+    "npc_id": "NPC000122",
+    "location_id": "WLOC000122",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 57,
+      "y": 99
+    },
+    "condition_payload": {
+      "story_chapter_min": 1
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000123",
+    "npc_id": "NPC000123",
+    "location_id": "WLOC000123",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 74,
+      "y": 18
+    },
+    "condition_payload": {
+      "story_chapter_min": 2
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000124",
+    "npc_id": "NPC000124",
+    "location_id": "WLOC000124",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 91,
+      "y": 37
+    },
+    "condition_payload": {
+      "story_chapter_min": 3
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000125",
+    "npc_id": "NPC000125",
+    "location_id": "WLOC000125",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 8,
+      "y": 56
+    },
+    "condition_payload": {
+      "story_chapter_min": 4
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000126",
+    "npc_id": "NPC000126",
+    "location_id": "WLOC000126",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 25,
+      "y": 75
+    },
+    "condition_payload": {
+      "story_chapter_min": 5
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000127",
+    "npc_id": "NPC000127",
+    "location_id": "WLOC000127",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 42,
+      "y": 94
+    },
+    "condition_payload": {
+      "story_chapter_min": 6
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000128",
+    "npc_id": "NPC000128",
+    "location_id": "WLOC000128",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 59,
+      "y": 13
+    },
+    "condition_payload": {
+      "story_chapter_min": 7
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000129",
+    "npc_id": "NPC000129",
+    "location_id": "WLOC000129",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 76,
+      "y": 32
+    },
+    "condition_payload": {
+      "story_chapter_min": 0
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000130",
+    "npc_id": "NPC000130",
+    "location_id": "WLOC000130",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 93,
+      "y": 51
+    },
+    "condition_payload": {
+      "story_chapter_min": 1
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000131",
+    "npc_id": "NPC000131",
+    "location_id": "WLOC000131",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 10,
+      "y": 70
+    },
+    "condition_payload": {
+      "story_chapter_min": 2
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000132",
+    "npc_id": "NPC000132",
+    "location_id": "WLOC000132",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 27,
+      "y": 89
+    },
+    "condition_payload": {
+      "story_chapter_min": 3
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000133",
+    "npc_id": "NPC000133",
+    "location_id": "WLOC000133",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 44,
+      "y": 8
+    },
+    "condition_payload": {
+      "story_chapter_min": 4
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000134",
+    "npc_id": "NPC000134",
+    "location_id": "WLOC000134",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 61,
+      "y": 27
+    },
+    "condition_payload": {
+      "story_chapter_min": 5
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000135",
+    "npc_id": "NPC000135",
+    "location_id": "WLOC000135",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 78,
+      "y": 46
+    },
+    "condition_payload": {
+      "story_chapter_min": 6
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000136",
+    "npc_id": "NPC000136",
+    "location_id": "WLOC000136",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 95,
+      "y": 65
+    },
+    "condition_payload": {
+      "story_chapter_min": 7
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000137",
+    "npc_id": "NPC000137",
+    "location_id": "WLOC000137",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 12,
+      "y": 84
+    },
+    "condition_payload": {
+      "story_chapter_min": 0
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000138",
+    "npc_id": "NPC000138",
+    "location_id": "WLOC000138",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 29,
+      "y": 3
+    },
+    "condition_payload": {
+      "story_chapter_min": 1
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000139",
+    "npc_id": "NPC000139",
+    "location_id": "WLOC000139",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 46,
+      "y": 22
+    },
+    "condition_payload": {
+      "story_chapter_min": 2
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000140",
+    "npc_id": "NPC000140",
+    "location_id": "WLOC000140",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 63,
+      "y": 41
+    },
+    "condition_payload": {
+      "story_chapter_min": 3
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000141",
+    "npc_id": "NPC000141",
+    "location_id": "WLOC000141",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 80,
+      "y": 60
+    },
+    "condition_payload": {
+      "story_chapter_min": 4
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000142",
+    "npc_id": "NPC000142",
+    "location_id": "WLOC000142",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 97,
+      "y": 79
+    },
+    "condition_payload": {
+      "story_chapter_min": 5
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000143",
+    "npc_id": "NPC000143",
+    "location_id": "WLOC000143",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 14,
+      "y": 98
+    },
+    "condition_payload": {
+      "story_chapter_min": 6
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000144",
+    "npc_id": "NPC000144",
+    "location_id": "WLOC000144",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 31,
+      "y": 17
+    },
+    "condition_payload": {
+      "story_chapter_min": 7
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000145",
+    "npc_id": "NPC000145",
+    "location_id": "WLOC000145",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 48,
+      "y": 36
+    },
+    "condition_payload": {
+      "story_chapter_min": 0
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000146",
+    "npc_id": "NPC000146",
+    "location_id": "WLOC000146",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 65,
+      "y": 55
+    },
+    "condition_payload": {
+      "story_chapter_min": 1
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000147",
+    "npc_id": "NPC000147",
+    "location_id": "WLOC000147",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 82,
+      "y": 74
+    },
+    "condition_payload": {
+      "story_chapter_min": 2
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000148",
+    "npc_id": "NPC000148",
+    "location_id": "WLOC000148",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 99,
+      "y": 93
+    },
+    "condition_payload": {
+      "story_chapter_min": 3
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000149",
+    "npc_id": "NPC000149",
+    "location_id": "WLOC000149",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 16,
+      "y": 12
+    },
+    "condition_payload": {
+      "story_chapter_min": 4
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000150",
+    "npc_id": "NPC000150",
+    "location_id": "WLOC000150",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 33,
+      "y": 31
+    },
+    "condition_payload": {
+      "story_chapter_min": 5
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000151",
+    "npc_id": "NPC000151",
+    "location_id": "WLOC000151",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 50,
+      "y": 50
+    },
+    "condition_payload": {
+      "story_chapter_min": 6
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000152",
+    "npc_id": "NPC000152",
+    "location_id": "WLOC000152",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 67,
+      "y": 69
+    },
+    "condition_payload": {
+      "story_chapter_min": 7
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000153",
+    "npc_id": "NPC000153",
+    "location_id": "WLOC000153",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 84,
+      "y": 88
+    },
+    "condition_payload": {
+      "story_chapter_min": 0
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000154",
+    "npc_id": "NPC000154",
+    "location_id": "WLOC000154",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 1,
+      "y": 7
+    },
+    "condition_payload": {
+      "story_chapter_min": 1
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000155",
+    "npc_id": "NPC000155",
+    "location_id": "WLOC000155",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 18,
+      "y": 26
+    },
+    "condition_payload": {
+      "story_chapter_min": 2
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000156",
+    "npc_id": "NPC000156",
+    "location_id": "WLOC000156",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 35,
+      "y": 45
+    },
+    "condition_payload": {
+      "story_chapter_min": 3
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000157",
+    "npc_id": "NPC000157",
+    "location_id": "WLOC000157",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 52,
+      "y": 64
+    },
+    "condition_payload": {
+      "story_chapter_min": 4
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000158",
+    "npc_id": "NPC000158",
+    "location_id": "WLOC000158",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 69,
+      "y": 83
+    },
+    "condition_payload": {
+      "story_chapter_min": 5
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000159",
+    "npc_id": "NPC000159",
+    "location_id": "WLOC000159",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 86,
+      "y": 2
+    },
+    "condition_payload": {
+      "story_chapter_min": 6
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000160",
+    "npc_id": "NPC000160",
+    "location_id": "WLOC000160",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 3,
+      "y": 21
+    },
+    "condition_payload": {
+      "story_chapter_min": 7
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000161",
+    "npc_id": "NPC000161",
+    "location_id": "WLOC000161",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 20,
+      "y": 40
+    },
+    "condition_payload": {
+      "story_chapter_min": 0
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000162",
+    "npc_id": "NPC000162",
+    "location_id": "WLOC000162",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 37,
+      "y": 59
+    },
+    "condition_payload": {
+      "story_chapter_min": 1
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000163",
+    "npc_id": "NPC000163",
+    "location_id": "WLOC000163",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 54,
+      "y": 78
+    },
+    "condition_payload": {
+      "story_chapter_min": 2
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000164",
+    "npc_id": "NPC000164",
+    "location_id": "WLOC000164",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 71,
+      "y": 97
+    },
+    "condition_payload": {
+      "story_chapter_min": 3
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000165",
+    "npc_id": "NPC000165",
+    "location_id": "WLOC000165",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 88,
+      "y": 16
+    },
+    "condition_payload": {
+      "story_chapter_min": 4
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000166",
+    "npc_id": "NPC000166",
+    "location_id": "WLOC000166",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 5,
+      "y": 35
+    },
+    "condition_payload": {
+      "story_chapter_min": 5
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000167",
+    "npc_id": "NPC000167",
+    "location_id": "WLOC000167",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 22,
+      "y": 54
+    },
+    "condition_payload": {
+      "story_chapter_min": 6
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000168",
+    "npc_id": "NPC000168",
+    "location_id": "WLOC000168",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 39,
+      "y": 73
+    },
+    "condition_payload": {
+      "story_chapter_min": 7
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000169",
+    "npc_id": "NPC000169",
+    "location_id": "WLOC000169",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 56,
+      "y": 92
+    },
+    "condition_payload": {
+      "story_chapter_min": 0
+    }
+  },
+  {
+    "placement_id": "WNPCPLACE000170",
+    "npc_id": "NPC000170",
+    "location_id": "WLOC000170",
+    "schedule_payload": {
+      "morning": "work",
+      "afternoon": "wander",
+      "evening": "home"
+    },
+    "coordinates_payload": {
+      "x": 73,
+      "y": 11
+    },
+    "condition_payload": {
+      "story_chapter_min": 1
+    }
+  }
+]

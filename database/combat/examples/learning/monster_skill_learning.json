@@ -1,0 +1,19 @@
+[
+  {
+    "id": 25,
+    "uuid": "00000000-0000-4000-8000-000000000025",
+    "created_at": "2026-07-02T00:00:00+08:00",
+    "updated_at": "2026-07-02T00:00:00+08:00",
+    "version": "1.0.0",
+    "source": "Phase D architecture example",
+    "notes": "Example only; production records should reference approved skill IDs.",
+    "learning_id": "LRN-MON-0001",
+    "slug": "mon0015-moon-devour-level",
+    "learner_type": "monster",
+    "learner_id": "MON0015",
+    "skill_id": "SKL-SIG-0001",
+    "unlock_method": "level",
+    "unlock_value": "30",
+    "prerequisites": []
+  }
+]

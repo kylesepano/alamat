@@ -1,0 +1,4082 @@
+[
+  {
+    "quest_id": "QST000001",
+    "branch_id": "QST000001-BRANCH-combat",
+    "branch_name": "Combat",
+    "condition_payload": {
+      "choice": "combat",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000001_combat"
+    },
+    "moral_alignment": "combat",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000001",
+    "branch_id": "QST000001-BRANCH-deception",
+    "branch_name": "Deception",
+    "condition_payload": {
+      "choice": "deception",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000001_deception"
+    },
+    "moral_alignment": "deception",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000002",
+    "branch_id": "QST000002-BRANCH-deception",
+    "branch_name": "Deception",
+    "condition_payload": {
+      "choice": "deception",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000002_deception"
+    },
+    "moral_alignment": "deception",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000002",
+    "branch_id": "QST000002-BRANCH-truth",
+    "branch_name": "Truth",
+    "condition_payload": {
+      "choice": "truth",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000002_truth"
+    },
+    "moral_alignment": "truth",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000003",
+    "branch_id": "QST000003-BRANCH-truth",
+    "branch_name": "Truth",
+    "condition_payload": {
+      "choice": "truth",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000003_truth"
+    },
+    "moral_alignment": "truth",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000003",
+    "branch_id": "QST000003-BRANCH-offering",
+    "branch_name": "Offering",
+    "condition_payload": {
+      "choice": "offering",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000003_offering"
+    },
+    "moral_alignment": "offering",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000004",
+    "branch_id": "QST000004-BRANCH-offering",
+    "branch_name": "Offering",
+    "condition_payload": {
+      "choice": "offering",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000004_offering"
+    },
+    "moral_alignment": "offering",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000004",
+    "branch_id": "QST000004-BRANCH-sacrifice",
+    "branch_name": "Sacrifice",
+    "condition_payload": {
+      "choice": "sacrifice",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000004_sacrifice"
+    },
+    "moral_alignment": "sacrifice",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000005",
+    "branch_id": "QST000005-BRANCH-sacrifice",
+    "branch_name": "Sacrifice",
+    "condition_payload": {
+      "choice": "sacrifice",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000005_sacrifice"
+    },
+    "moral_alignment": "sacrifice",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000005",
+    "branch_id": "QST000005-BRANCH-restoration",
+    "branch_name": "Restoration",
+    "condition_payload": {
+      "choice": "restoration",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000005_restoration"
+    },
+    "moral_alignment": "restoration",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000006",
+    "branch_id": "QST000006-BRANCH-restoration",
+    "branch_name": "Restoration",
+    "condition_payload": {
+      "choice": "restoration",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000006_restoration"
+    },
+    "moral_alignment": "restoration",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000006",
+    "branch_id": "QST000006-BRANCH-exile",
+    "branch_name": "Exile",
+    "condition_payload": {
+      "choice": "exile",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000006_exile"
+    },
+    "moral_alignment": "exile",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000007",
+    "branch_id": "QST000007-BRANCH-exile",
+    "branch_name": "Exile",
+    "condition_payload": {
+      "choice": "exile",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000007_exile"
+    },
+    "moral_alignment": "exile",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000007",
+    "branch_id": "QST000007-BRANCH-alliance",
+    "branch_name": "Alliance",
+    "condition_payload": {
+      "choice": "alliance",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000007_alliance"
+    },
+    "moral_alignment": "alliance",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000008",
+    "branch_id": "QST000008-BRANCH-alliance",
+    "branch_name": "Alliance",
+    "condition_payload": {
+      "choice": "alliance",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000008_alliance"
+    },
+    "moral_alignment": "alliance",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000008",
+    "branch_id": "QST000008-BRANCH-refusal",
+    "branch_name": "Refusal",
+    "condition_payload": {
+      "choice": "refusal",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000008_refusal"
+    },
+    "moral_alignment": "refusal",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000009",
+    "branch_id": "QST000009-BRANCH-refusal",
+    "branch_name": "Refusal",
+    "condition_payload": {
+      "choice": "refusal",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000009_refusal"
+    },
+    "moral_alignment": "refusal",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000009",
+    "branch_id": "QST000009-BRANCH-mercy",
+    "branch_name": "Mercy",
+    "condition_payload": {
+      "choice": "mercy",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000009_mercy"
+    },
+    "moral_alignment": "mercy",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000010",
+    "branch_id": "QST000010-BRANCH-mercy",
+    "branch_name": "Mercy",
+    "condition_payload": {
+      "choice": "mercy",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000010_mercy"
+    },
+    "moral_alignment": "mercy",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000010",
+    "branch_id": "QST000010-BRANCH-combat",
+    "branch_name": "Combat",
+    "condition_payload": {
+      "choice": "combat",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000010_combat"
+    },
+    "moral_alignment": "combat",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000011",
+    "branch_id": "QST000011-BRANCH-combat",
+    "branch_name": "Combat",
+    "condition_payload": {
+      "choice": "combat",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000011_combat"
+    },
+    "moral_alignment": "combat",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000011",
+    "branch_id": "QST000011-BRANCH-deception",
+    "branch_name": "Deception",
+    "condition_payload": {
+      "choice": "deception",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000011_deception"
+    },
+    "moral_alignment": "deception",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000012",
+    "branch_id": "QST000012-BRANCH-deception",
+    "branch_name": "Deception",
+    "condition_payload": {
+      "choice": "deception",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000012_deception"
+    },
+    "moral_alignment": "deception",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000012",
+    "branch_id": "QST000012-BRANCH-truth",
+    "branch_name": "Truth",
+    "condition_payload": {
+      "choice": "truth",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000012_truth"
+    },
+    "moral_alignment": "truth",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000013",
+    "branch_id": "QST000013-BRANCH-truth",
+    "branch_name": "Truth",
+    "condition_payload": {
+      "choice": "truth",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000013_truth"
+    },
+    "moral_alignment": "truth",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000013",
+    "branch_id": "QST000013-BRANCH-offering",
+    "branch_name": "Offering",
+    "condition_payload": {
+      "choice": "offering",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000013_offering"
+    },
+    "moral_alignment": "offering",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000014",
+    "branch_id": "QST000014-BRANCH-offering",
+    "branch_name": "Offering",
+    "condition_payload": {
+      "choice": "offering",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000014_offering"
+    },
+    "moral_alignment": "offering",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000014",
+    "branch_id": "QST000014-BRANCH-sacrifice",
+    "branch_name": "Sacrifice",
+    "condition_payload": {
+      "choice": "sacrifice",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000014_sacrifice"
+    },
+    "moral_alignment": "sacrifice",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000015",
+    "branch_id": "QST000015-BRANCH-sacrifice",
+    "branch_name": "Sacrifice",
+    "condition_payload": {
+      "choice": "sacrifice",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000015_sacrifice"
+    },
+    "moral_alignment": "sacrifice",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000015",
+    "branch_id": "QST000015-BRANCH-restoration",
+    "branch_name": "Restoration",
+    "condition_payload": {
+      "choice": "restoration",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000015_restoration"
+    },
+    "moral_alignment": "restoration",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000016",
+    "branch_id": "QST000016-BRANCH-restoration",
+    "branch_name": "Restoration",
+    "condition_payload": {
+      "choice": "restoration",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000016_restoration"
+    },
+    "moral_alignment": "restoration",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000016",
+    "branch_id": "QST000016-BRANCH-exile",
+    "branch_name": "Exile",
+    "condition_payload": {
+      "choice": "exile",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000016_exile"
+    },
+    "moral_alignment": "exile",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000017",
+    "branch_id": "QST000017-BRANCH-exile",
+    "branch_name": "Exile",
+    "condition_payload": {
+      "choice": "exile",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000017_exile"
+    },
+    "moral_alignment": "exile",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000017",
+    "branch_id": "QST000017-BRANCH-alliance",
+    "branch_name": "Alliance",
+    "condition_payload": {
+      "choice": "alliance",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000017_alliance"
+    },
+    "moral_alignment": "alliance",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000018",
+    "branch_id": "QST000018-BRANCH-alliance",
+    "branch_name": "Alliance",
+    "condition_payload": {
+      "choice": "alliance",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000018_alliance"
+    },
+    "moral_alignment": "alliance",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000018",
+    "branch_id": "QST000018-BRANCH-refusal",
+    "branch_name": "Refusal",
+    "condition_payload": {
+      "choice": "refusal",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000018_refusal"
+    },
+    "moral_alignment": "refusal",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000019",
+    "branch_id": "QST000019-BRANCH-refusal",
+    "branch_name": "Refusal",
+    "condition_payload": {
+      "choice": "refusal",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000019_refusal"
+    },
+    "moral_alignment": "refusal",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000019",
+    "branch_id": "QST000019-BRANCH-mercy",
+    "branch_name": "Mercy",
+    "condition_payload": {
+      "choice": "mercy",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000019_mercy"
+    },
+    "moral_alignment": "mercy",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000020",
+    "branch_id": "QST000020-BRANCH-mercy",
+    "branch_name": "Mercy",
+    "condition_payload": {
+      "choice": "mercy",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000020_mercy"
+    },
+    "moral_alignment": "mercy",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000020",
+    "branch_id": "QST000020-BRANCH-combat",
+    "branch_name": "Combat",
+    "condition_payload": {
+      "choice": "combat",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000020_combat"
+    },
+    "moral_alignment": "combat",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000121",
+    "branch_id": "QST000121-BRANCH-combat",
+    "branch_name": "Combat",
+    "condition_payload": {
+      "choice": "combat",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000121_combat"
+    },
+    "moral_alignment": "combat",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000121",
+    "branch_id": "QST000121-BRANCH-deception",
+    "branch_name": "Deception",
+    "condition_payload": {
+      "choice": "deception",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000121_deception"
+    },
+    "moral_alignment": "deception",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000122",
+    "branch_id": "QST000122-BRANCH-deception",
+    "branch_name": "Deception",
+    "condition_payload": {
+      "choice": "deception",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000122_deception"
+    },
+    "moral_alignment": "deception",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000122",
+    "branch_id": "QST000122-BRANCH-truth",
+    "branch_name": "Truth",
+    "condition_payload": {
+      "choice": "truth",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000122_truth"
+    },
+    "moral_alignment": "truth",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000123",
+    "branch_id": "QST000123-BRANCH-truth",
+    "branch_name": "Truth",
+    "condition_payload": {
+      "choice": "truth",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000123_truth"
+    },
+    "moral_alignment": "truth",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000123",
+    "branch_id": "QST000123-BRANCH-offering",
+    "branch_name": "Offering",
+    "condition_payload": {
+      "choice": "offering",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000123_offering"
+    },
+    "moral_alignment": "offering",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000124",
+    "branch_id": "QST000124-BRANCH-offering",
+    "branch_name": "Offering",
+    "condition_payload": {
+      "choice": "offering",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000124_offering"
+    },
+    "moral_alignment": "offering",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000124",
+    "branch_id": "QST000124-BRANCH-sacrifice",
+    "branch_name": "Sacrifice",
+    "condition_payload": {
+      "choice": "sacrifice",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000124_sacrifice"
+    },
+    "moral_alignment": "sacrifice",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000125",
+    "branch_id": "QST000125-BRANCH-sacrifice",
+    "branch_name": "Sacrifice",
+    "condition_payload": {
+      "choice": "sacrifice",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000125_sacrifice"
+    },
+    "moral_alignment": "sacrifice",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000125",
+    "branch_id": "QST000125-BRANCH-restoration",
+    "branch_name": "Restoration",
+    "condition_payload": {
+      "choice": "restoration",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000125_restoration"
+    },
+    "moral_alignment": "restoration",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000126",
+    "branch_id": "QST000126-BRANCH-restoration",
+    "branch_name": "Restoration",
+    "condition_payload": {
+      "choice": "restoration",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000126_restoration"
+    },
+    "moral_alignment": "restoration",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000126",
+    "branch_id": "QST000126-BRANCH-exile",
+    "branch_name": "Exile",
+    "condition_payload": {
+      "choice": "exile",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000126_exile"
+    },
+    "moral_alignment": "exile",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000127",
+    "branch_id": "QST000127-BRANCH-exile",
+    "branch_name": "Exile",
+    "condition_payload": {
+      "choice": "exile",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000127_exile"
+    },
+    "moral_alignment": "exile",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000127",
+    "branch_id": "QST000127-BRANCH-alliance",
+    "branch_name": "Alliance",
+    "condition_payload": {
+      "choice": "alliance",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000127_alliance"
+    },
+    "moral_alignment": "alliance",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000128",
+    "branch_id": "QST000128-BRANCH-alliance",
+    "branch_name": "Alliance",
+    "condition_payload": {
+      "choice": "alliance",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000128_alliance"
+    },
+    "moral_alignment": "alliance",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000128",
+    "branch_id": "QST000128-BRANCH-refusal",
+    "branch_name": "Refusal",
+    "condition_payload": {
+      "choice": "refusal",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000128_refusal"
+    },
+    "moral_alignment": "refusal",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000129",
+    "branch_id": "QST000129-BRANCH-refusal",
+    "branch_name": "Refusal",
+    "condition_payload": {
+      "choice": "refusal",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000129_refusal"
+    },
+    "moral_alignment": "refusal",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000129",
+    "branch_id": "QST000129-BRANCH-mercy",
+    "branch_name": "Mercy",
+    "condition_payload": {
+      "choice": "mercy",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000129_mercy"
+    },
+    "moral_alignment": "mercy",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000130",
+    "branch_id": "QST000130-BRANCH-mercy",
+    "branch_name": "Mercy",
+    "condition_payload": {
+      "choice": "mercy",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000130_mercy"
+    },
+    "moral_alignment": "mercy",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000130",
+    "branch_id": "QST000130-BRANCH-combat",
+    "branch_name": "Combat",
+    "condition_payload": {
+      "choice": "combat",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000130_combat"
+    },
+    "moral_alignment": "combat",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000131",
+    "branch_id": "QST000131-BRANCH-combat",
+    "branch_name": "Combat",
+    "condition_payload": {
+      "choice": "combat",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000131_combat"
+    },
+    "moral_alignment": "combat",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000131",
+    "branch_id": "QST000131-BRANCH-deception",
+    "branch_name": "Deception",
+    "condition_payload": {
+      "choice": "deception",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000131_deception"
+    },
+    "moral_alignment": "deception",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000132",
+    "branch_id": "QST000132-BRANCH-deception",
+    "branch_name": "Deception",
+    "condition_payload": {
+      "choice": "deception",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000132_deception"
+    },
+    "moral_alignment": "deception",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000132",
+    "branch_id": "QST000132-BRANCH-truth",
+    "branch_name": "Truth",
+    "condition_payload": {
+      "choice": "truth",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000132_truth"
+    },
+    "moral_alignment": "truth",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000133",
+    "branch_id": "QST000133-BRANCH-truth",
+    "branch_name": "Truth",
+    "condition_payload": {
+      "choice": "truth",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000133_truth"
+    },
+    "moral_alignment": "truth",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000133",
+    "branch_id": "QST000133-BRANCH-offering",
+    "branch_name": "Offering",
+    "condition_payload": {
+      "choice": "offering",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000133_offering"
+    },
+    "moral_alignment": "offering",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000134",
+    "branch_id": "QST000134-BRANCH-offering",
+    "branch_name": "Offering",
+    "condition_payload": {
+      "choice": "offering",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000134_offering"
+    },
+    "moral_alignment": "offering",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000134",
+    "branch_id": "QST000134-BRANCH-sacrifice",
+    "branch_name": "Sacrifice",
+    "condition_payload": {
+      "choice": "sacrifice",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000134_sacrifice"
+    },
+    "moral_alignment": "sacrifice",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000135",
+    "branch_id": "QST000135-BRANCH-sacrifice",
+    "branch_name": "Sacrifice",
+    "condition_payload": {
+      "choice": "sacrifice",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000135_sacrifice"
+    },
+    "moral_alignment": "sacrifice",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000135",
+    "branch_id": "QST000135-BRANCH-restoration",
+    "branch_name": "Restoration",
+    "condition_payload": {
+      "choice": "restoration",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000135_restoration"
+    },
+    "moral_alignment": "restoration",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000136",
+    "branch_id": "QST000136-BRANCH-restoration",
+    "branch_name": "Restoration",
+    "condition_payload": {
+      "choice": "restoration",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000136_restoration"
+    },
+    "moral_alignment": "restoration",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000136",
+    "branch_id": "QST000136-BRANCH-exile",
+    "branch_name": "Exile",
+    "condition_payload": {
+      "choice": "exile",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000136_exile"
+    },
+    "moral_alignment": "exile",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000137",
+    "branch_id": "QST000137-BRANCH-exile",
+    "branch_name": "Exile",
+    "condition_payload": {
+      "choice": "exile",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000137_exile"
+    },
+    "moral_alignment": "exile",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000137",
+    "branch_id": "QST000137-BRANCH-alliance",
+    "branch_name": "Alliance",
+    "condition_payload": {
+      "choice": "alliance",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000137_alliance"
+    },
+    "moral_alignment": "alliance",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000138",
+    "branch_id": "QST000138-BRANCH-alliance",
+    "branch_name": "Alliance",
+    "condition_payload": {
+      "choice": "alliance",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000138_alliance"
+    },
+    "moral_alignment": "alliance",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000138",
+    "branch_id": "QST000138-BRANCH-refusal",
+    "branch_name": "Refusal",
+    "condition_payload": {
+      "choice": "refusal",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000138_refusal"
+    },
+    "moral_alignment": "refusal",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000139",
+    "branch_id": "QST000139-BRANCH-refusal",
+    "branch_name": "Refusal",
+    "condition_payload": {
+      "choice": "refusal",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000139_refusal"
+    },
+    "moral_alignment": "refusal",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000139",
+    "branch_id": "QST000139-BRANCH-mercy",
+    "branch_name": "Mercy",
+    "condition_payload": {
+      "choice": "mercy",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000139_mercy"
+    },
+    "moral_alignment": "mercy",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000140",
+    "branch_id": "QST000140-BRANCH-mercy",
+    "branch_name": "Mercy",
+    "condition_payload": {
+      "choice": "mercy",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000140_mercy"
+    },
+    "moral_alignment": "mercy",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000140",
+    "branch_id": "QST000140-BRANCH-combat",
+    "branch_name": "Combat",
+    "condition_payload": {
+      "choice": "combat",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000140_combat"
+    },
+    "moral_alignment": "combat",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000141",
+    "branch_id": "QST000141-BRANCH-combat",
+    "branch_name": "Combat",
+    "condition_payload": {
+      "choice": "combat",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000141_combat"
+    },
+    "moral_alignment": "combat",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000141",
+    "branch_id": "QST000141-BRANCH-deception",
+    "branch_name": "Deception",
+    "condition_payload": {
+      "choice": "deception",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000141_deception"
+    },
+    "moral_alignment": "deception",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000142",
+    "branch_id": "QST000142-BRANCH-deception",
+    "branch_name": "Deception",
+    "condition_payload": {
+      "choice": "deception",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000142_deception"
+    },
+    "moral_alignment": "deception",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000142",
+    "branch_id": "QST000142-BRANCH-truth",
+    "branch_name": "Truth",
+    "condition_payload": {
+      "choice": "truth",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000142_truth"
+    },
+    "moral_alignment": "truth",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000143",
+    "branch_id": "QST000143-BRANCH-truth",
+    "branch_name": "Truth",
+    "condition_payload": {
+      "choice": "truth",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000143_truth"
+    },
+    "moral_alignment": "truth",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000143",
+    "branch_id": "QST000143-BRANCH-offering",
+    "branch_name": "Offering",
+    "condition_payload": {
+      "choice": "offering",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000143_offering"
+    },
+    "moral_alignment": "offering",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000144",
+    "branch_id": "QST000144-BRANCH-offering",
+    "branch_name": "Offering",
+    "condition_payload": {
+      "choice": "offering",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000144_offering"
+    },
+    "moral_alignment": "offering",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000144",
+    "branch_id": "QST000144-BRANCH-sacrifice",
+    "branch_name": "Sacrifice",
+    "condition_payload": {
+      "choice": "sacrifice",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000144_sacrifice"
+    },
+    "moral_alignment": "sacrifice",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000145",
+    "branch_id": "QST000145-BRANCH-sacrifice",
+    "branch_name": "Sacrifice",
+    "condition_payload": {
+      "choice": "sacrifice",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000145_sacrifice"
+    },
+    "moral_alignment": "sacrifice",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000145",
+    "branch_id": "QST000145-BRANCH-restoration",
+    "branch_name": "Restoration",
+    "condition_payload": {
+      "choice": "restoration",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000145_restoration"
+    },
+    "moral_alignment": "restoration",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000146",
+    "branch_id": "QST000146-BRANCH-restoration",
+    "branch_name": "Restoration",
+    "condition_payload": {
+      "choice": "restoration",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000146_restoration"
+    },
+    "moral_alignment": "restoration",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000146",
+    "branch_id": "QST000146-BRANCH-exile",
+    "branch_name": "Exile",
+    "condition_payload": {
+      "choice": "exile",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000146_exile"
+    },
+    "moral_alignment": "exile",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000147",
+    "branch_id": "QST000147-BRANCH-exile",
+    "branch_name": "Exile",
+    "condition_payload": {
+      "choice": "exile",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000147_exile"
+    },
+    "moral_alignment": "exile",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000147",
+    "branch_id": "QST000147-BRANCH-alliance",
+    "branch_name": "Alliance",
+    "condition_payload": {
+      "choice": "alliance",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000147_alliance"
+    },
+    "moral_alignment": "alliance",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000148",
+    "branch_id": "QST000148-BRANCH-alliance",
+    "branch_name": "Alliance",
+    "condition_payload": {
+      "choice": "alliance",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000148_alliance"
+    },
+    "moral_alignment": "alliance",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000148",
+    "branch_id": "QST000148-BRANCH-refusal",
+    "branch_name": "Refusal",
+    "condition_payload": {
+      "choice": "refusal",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000148_refusal"
+    },
+    "moral_alignment": "refusal",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000149",
+    "branch_id": "QST000149-BRANCH-refusal",
+    "branch_name": "Refusal",
+    "condition_payload": {
+      "choice": "refusal",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000149_refusal"
+    },
+    "moral_alignment": "refusal",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000149",
+    "branch_id": "QST000149-BRANCH-mercy",
+    "branch_name": "Mercy",
+    "condition_payload": {
+      "choice": "mercy",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000149_mercy"
+    },
+    "moral_alignment": "mercy",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000150",
+    "branch_id": "QST000150-BRANCH-mercy",
+    "branch_name": "Mercy",
+    "condition_payload": {
+      "choice": "mercy",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000150_mercy"
+    },
+    "moral_alignment": "mercy",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000150",
+    "branch_id": "QST000150-BRANCH-combat",
+    "branch_name": "Combat",
+    "condition_payload": {
+      "choice": "combat",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000150_combat"
+    },
+    "moral_alignment": "combat",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000151",
+    "branch_id": "QST000151-BRANCH-combat",
+    "branch_name": "Combat",
+    "condition_payload": {
+      "choice": "combat",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000151_combat"
+    },
+    "moral_alignment": "combat",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000151",
+    "branch_id": "QST000151-BRANCH-deception",
+    "branch_name": "Deception",
+    "condition_payload": {
+      "choice": "deception",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000151_deception"
+    },
+    "moral_alignment": "deception",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000152",
+    "branch_id": "QST000152-BRANCH-deception",
+    "branch_name": "Deception",
+    "condition_payload": {
+      "choice": "deception",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000152_deception"
+    },
+    "moral_alignment": "deception",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000152",
+    "branch_id": "QST000152-BRANCH-truth",
+    "branch_name": "Truth",
+    "condition_payload": {
+      "choice": "truth",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000152_truth"
+    },
+    "moral_alignment": "truth",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000153",
+    "branch_id": "QST000153-BRANCH-truth",
+    "branch_name": "Truth",
+    "condition_payload": {
+      "choice": "truth",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000153_truth"
+    },
+    "moral_alignment": "truth",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000153",
+    "branch_id": "QST000153-BRANCH-offering",
+    "branch_name": "Offering",
+    "condition_payload": {
+      "choice": "offering",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000153_offering"
+    },
+    "moral_alignment": "offering",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000154",
+    "branch_id": "QST000154-BRANCH-offering",
+    "branch_name": "Offering",
+    "condition_payload": {
+      "choice": "offering",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000154_offering"
+    },
+    "moral_alignment": "offering",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000154",
+    "branch_id": "QST000154-BRANCH-sacrifice",
+    "branch_name": "Sacrifice",
+    "condition_payload": {
+      "choice": "sacrifice",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000154_sacrifice"
+    },
+    "moral_alignment": "sacrifice",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000155",
+    "branch_id": "QST000155-BRANCH-sacrifice",
+    "branch_name": "Sacrifice",
+    "condition_payload": {
+      "choice": "sacrifice",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000155_sacrifice"
+    },
+    "moral_alignment": "sacrifice",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000155",
+    "branch_id": "QST000155-BRANCH-restoration",
+    "branch_name": "Restoration",
+    "condition_payload": {
+      "choice": "restoration",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000155_restoration"
+    },
+    "moral_alignment": "restoration",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000156",
+    "branch_id": "QST000156-BRANCH-restoration",
+    "branch_name": "Restoration",
+    "condition_payload": {
+      "choice": "restoration",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000156_restoration"
+    },
+    "moral_alignment": "restoration",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000156",
+    "branch_id": "QST000156-BRANCH-exile",
+    "branch_name": "Exile",
+    "condition_payload": {
+      "choice": "exile",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000156_exile"
+    },
+    "moral_alignment": "exile",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000157",
+    "branch_id": "QST000157-BRANCH-exile",
+    "branch_name": "Exile",
+    "condition_payload": {
+      "choice": "exile",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000157_exile"
+    },
+    "moral_alignment": "exile",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000157",
+    "branch_id": "QST000157-BRANCH-alliance",
+    "branch_name": "Alliance",
+    "condition_payload": {
+      "choice": "alliance",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000157_alliance"
+    },
+    "moral_alignment": "alliance",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000158",
+    "branch_id": "QST000158-BRANCH-alliance",
+    "branch_name": "Alliance",
+    "condition_payload": {
+      "choice": "alliance",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000158_alliance"
+    },
+    "moral_alignment": "alliance",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000158",
+    "branch_id": "QST000158-BRANCH-refusal",
+    "branch_name": "Refusal",
+    "condition_payload": {
+      "choice": "refusal",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000158_refusal"
+    },
+    "moral_alignment": "refusal",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000159",
+    "branch_id": "QST000159-BRANCH-refusal",
+    "branch_name": "Refusal",
+    "condition_payload": {
+      "choice": "refusal",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000159_refusal"
+    },
+    "moral_alignment": "refusal",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000159",
+    "branch_id": "QST000159-BRANCH-mercy",
+    "branch_name": "Mercy",
+    "condition_payload": {
+      "choice": "mercy",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000159_mercy"
+    },
+    "moral_alignment": "mercy",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000160",
+    "branch_id": "QST000160-BRANCH-mercy",
+    "branch_name": "Mercy",
+    "condition_payload": {
+      "choice": "mercy",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000160_mercy"
+    },
+    "moral_alignment": "mercy",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000160",
+    "branch_id": "QST000160-BRANCH-combat",
+    "branch_name": "Combat",
+    "condition_payload": {
+      "choice": "combat",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000160_combat"
+    },
+    "moral_alignment": "combat",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000161",
+    "branch_id": "QST000161-BRANCH-combat",
+    "branch_name": "Combat",
+    "condition_payload": {
+      "choice": "combat",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000161_combat"
+    },
+    "moral_alignment": "combat",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000161",
+    "branch_id": "QST000161-BRANCH-deception",
+    "branch_name": "Deception",
+    "condition_payload": {
+      "choice": "deception",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000161_deception"
+    },
+    "moral_alignment": "deception",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000162",
+    "branch_id": "QST000162-BRANCH-deception",
+    "branch_name": "Deception",
+    "condition_payload": {
+      "choice": "deception",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000162_deception"
+    },
+    "moral_alignment": "deception",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000162",
+    "branch_id": "QST000162-BRANCH-truth",
+    "branch_name": "Truth",
+    "condition_payload": {
+      "choice": "truth",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000162_truth"
+    },
+    "moral_alignment": "truth",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000163",
+    "branch_id": "QST000163-BRANCH-truth",
+    "branch_name": "Truth",
+    "condition_payload": {
+      "choice": "truth",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000163_truth"
+    },
+    "moral_alignment": "truth",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000163",
+    "branch_id": "QST000163-BRANCH-offering",
+    "branch_name": "Offering",
+    "condition_payload": {
+      "choice": "offering",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000163_offering"
+    },
+    "moral_alignment": "offering",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000164",
+    "branch_id": "QST000164-BRANCH-offering",
+    "branch_name": "Offering",
+    "condition_payload": {
+      "choice": "offering",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000164_offering"
+    },
+    "moral_alignment": "offering",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000164",
+    "branch_id": "QST000164-BRANCH-sacrifice",
+    "branch_name": "Sacrifice",
+    "condition_payload": {
+      "choice": "sacrifice",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000164_sacrifice"
+    },
+    "moral_alignment": "sacrifice",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000165",
+    "branch_id": "QST000165-BRANCH-sacrifice",
+    "branch_name": "Sacrifice",
+    "condition_payload": {
+      "choice": "sacrifice",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000165_sacrifice"
+    },
+    "moral_alignment": "sacrifice",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000165",
+    "branch_id": "QST000165-BRANCH-restoration",
+    "branch_name": "Restoration",
+    "condition_payload": {
+      "choice": "restoration",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000165_restoration"
+    },
+    "moral_alignment": "restoration",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000166",
+    "branch_id": "QST000166-BRANCH-restoration",
+    "branch_name": "Restoration",
+    "condition_payload": {
+      "choice": "restoration",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000166_restoration"
+    },
+    "moral_alignment": "restoration",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000166",
+    "branch_id": "QST000166-BRANCH-exile",
+    "branch_name": "Exile",
+    "condition_payload": {
+      "choice": "exile",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000166_exile"
+    },
+    "moral_alignment": "exile",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000167",
+    "branch_id": "QST000167-BRANCH-exile",
+    "branch_name": "Exile",
+    "condition_payload": {
+      "choice": "exile",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000167_exile"
+    },
+    "moral_alignment": "exile",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000167",
+    "branch_id": "QST000167-BRANCH-alliance",
+    "branch_name": "Alliance",
+    "condition_payload": {
+      "choice": "alliance",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000167_alliance"
+    },
+    "moral_alignment": "alliance",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000168",
+    "branch_id": "QST000168-BRANCH-alliance",
+    "branch_name": "Alliance",
+    "condition_payload": {
+      "choice": "alliance",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000168_alliance"
+    },
+    "moral_alignment": "alliance",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000168",
+    "branch_id": "QST000168-BRANCH-refusal",
+    "branch_name": "Refusal",
+    "condition_payload": {
+      "choice": "refusal",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000168_refusal"
+    },
+    "moral_alignment": "refusal",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000169",
+    "branch_id": "QST000169-BRANCH-refusal",
+    "branch_name": "Refusal",
+    "condition_payload": {
+      "choice": "refusal",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000169_refusal"
+    },
+    "moral_alignment": "refusal",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000169",
+    "branch_id": "QST000169-BRANCH-mercy",
+    "branch_name": "Mercy",
+    "condition_payload": {
+      "choice": "mercy",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000169_mercy"
+    },
+    "moral_alignment": "mercy",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000170",
+    "branch_id": "QST000170-BRANCH-mercy",
+    "branch_name": "Mercy",
+    "condition_payload": {
+      "choice": "mercy",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000170_mercy"
+    },
+    "moral_alignment": "mercy",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000170",
+    "branch_id": "QST000170-BRANCH-combat",
+    "branch_name": "Combat",
+    "condition_payload": {
+      "choice": "combat",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000170_combat"
+    },
+    "moral_alignment": "combat",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000171",
+    "branch_id": "QST000171-BRANCH-combat",
+    "branch_name": "Combat",
+    "condition_payload": {
+      "choice": "combat",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000171_combat"
+    },
+    "moral_alignment": "combat",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000171",
+    "branch_id": "QST000171-BRANCH-deception",
+    "branch_name": "Deception",
+    "condition_payload": {
+      "choice": "deception",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000171_deception"
+    },
+    "moral_alignment": "deception",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000172",
+    "branch_id": "QST000172-BRANCH-deception",
+    "branch_name": "Deception",
+    "condition_payload": {
+      "choice": "deception",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000172_deception"
+    },
+    "moral_alignment": "deception",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000172",
+    "branch_id": "QST000172-BRANCH-truth",
+    "branch_name": "Truth",
+    "condition_payload": {
+      "choice": "truth",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000172_truth"
+    },
+    "moral_alignment": "truth",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000173",
+    "branch_id": "QST000173-BRANCH-truth",
+    "branch_name": "Truth",
+    "condition_payload": {
+      "choice": "truth",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000173_truth"
+    },
+    "moral_alignment": "truth",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000173",
+    "branch_id": "QST000173-BRANCH-offering",
+    "branch_name": "Offering",
+    "condition_payload": {
+      "choice": "offering",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000173_offering"
+    },
+    "moral_alignment": "offering",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000174",
+    "branch_id": "QST000174-BRANCH-offering",
+    "branch_name": "Offering",
+    "condition_payload": {
+      "choice": "offering",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000174_offering"
+    },
+    "moral_alignment": "offering",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000174",
+    "branch_id": "QST000174-BRANCH-sacrifice",
+    "branch_name": "Sacrifice",
+    "condition_payload": {
+      "choice": "sacrifice",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000174_sacrifice"
+    },
+    "moral_alignment": "sacrifice",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000175",
+    "branch_id": "QST000175-BRANCH-sacrifice",
+    "branch_name": "Sacrifice",
+    "condition_payload": {
+      "choice": "sacrifice",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000175_sacrifice"
+    },
+    "moral_alignment": "sacrifice",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000175",
+    "branch_id": "QST000175-BRANCH-restoration",
+    "branch_name": "Restoration",
+    "condition_payload": {
+      "choice": "restoration",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000175_restoration"
+    },
+    "moral_alignment": "restoration",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000176",
+    "branch_id": "QST000176-BRANCH-restoration",
+    "branch_name": "Restoration",
+    "condition_payload": {
+      "choice": "restoration",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000176_restoration"
+    },
+    "moral_alignment": "restoration",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000176",
+    "branch_id": "QST000176-BRANCH-exile",
+    "branch_name": "Exile",
+    "condition_payload": {
+      "choice": "exile",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000176_exile"
+    },
+    "moral_alignment": "exile",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000177",
+    "branch_id": "QST000177-BRANCH-exile",
+    "branch_name": "Exile",
+    "condition_payload": {
+      "choice": "exile",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000177_exile"
+    },
+    "moral_alignment": "exile",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000177",
+    "branch_id": "QST000177-BRANCH-alliance",
+    "branch_name": "Alliance",
+    "condition_payload": {
+      "choice": "alliance",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000177_alliance"
+    },
+    "moral_alignment": "alliance",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000178",
+    "branch_id": "QST000178-BRANCH-alliance",
+    "branch_name": "Alliance",
+    "condition_payload": {
+      "choice": "alliance",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000178_alliance"
+    },
+    "moral_alignment": "alliance",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000178",
+    "branch_id": "QST000178-BRANCH-refusal",
+    "branch_name": "Refusal",
+    "condition_payload": {
+      "choice": "refusal",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000178_refusal"
+    },
+    "moral_alignment": "refusal",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000179",
+    "branch_id": "QST000179-BRANCH-refusal",
+    "branch_name": "Refusal",
+    "condition_payload": {
+      "choice": "refusal",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000179_refusal"
+    },
+    "moral_alignment": "refusal",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000179",
+    "branch_id": "QST000179-BRANCH-mercy",
+    "branch_name": "Mercy",
+    "condition_payload": {
+      "choice": "mercy",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000179_mercy"
+    },
+    "moral_alignment": "mercy",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000180",
+    "branch_id": "QST000180-BRANCH-mercy",
+    "branch_name": "Mercy",
+    "condition_payload": {
+      "choice": "mercy",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000180_mercy"
+    },
+    "moral_alignment": "mercy",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000180",
+    "branch_id": "QST000180-BRANCH-combat",
+    "branch_name": "Combat",
+    "condition_payload": {
+      "choice": "combat",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000180_combat"
+    },
+    "moral_alignment": "combat",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000181",
+    "branch_id": "QST000181-BRANCH-combat",
+    "branch_name": "Combat",
+    "condition_payload": {
+      "choice": "combat",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000181_combat"
+    },
+    "moral_alignment": "combat",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000181",
+    "branch_id": "QST000181-BRANCH-deception",
+    "branch_name": "Deception",
+    "condition_payload": {
+      "choice": "deception",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000181_deception"
+    },
+    "moral_alignment": "deception",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000182",
+    "branch_id": "QST000182-BRANCH-deception",
+    "branch_name": "Deception",
+    "condition_payload": {
+      "choice": "deception",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000182_deception"
+    },
+    "moral_alignment": "deception",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000182",
+    "branch_id": "QST000182-BRANCH-truth",
+    "branch_name": "Truth",
+    "condition_payload": {
+      "choice": "truth",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000182_truth"
+    },
+    "moral_alignment": "truth",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000183",
+    "branch_id": "QST000183-BRANCH-truth",
+    "branch_name": "Truth",
+    "condition_payload": {
+      "choice": "truth",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000183_truth"
+    },
+    "moral_alignment": "truth",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000183",
+    "branch_id": "QST000183-BRANCH-offering",
+    "branch_name": "Offering",
+    "condition_payload": {
+      "choice": "offering",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000183_offering"
+    },
+    "moral_alignment": "offering",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000184",
+    "branch_id": "QST000184-BRANCH-offering",
+    "branch_name": "Offering",
+    "condition_payload": {
+      "choice": "offering",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000184_offering"
+    },
+    "moral_alignment": "offering",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000184",
+    "branch_id": "QST000184-BRANCH-sacrifice",
+    "branch_name": "Sacrifice",
+    "condition_payload": {
+      "choice": "sacrifice",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000184_sacrifice"
+    },
+    "moral_alignment": "sacrifice",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000185",
+    "branch_id": "QST000185-BRANCH-sacrifice",
+    "branch_name": "Sacrifice",
+    "condition_payload": {
+      "choice": "sacrifice",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000185_sacrifice"
+    },
+    "moral_alignment": "sacrifice",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000185",
+    "branch_id": "QST000185-BRANCH-restoration",
+    "branch_name": "Restoration",
+    "condition_payload": {
+      "choice": "restoration",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000185_restoration"
+    },
+    "moral_alignment": "restoration",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000186",
+    "branch_id": "QST000186-BRANCH-restoration",
+    "branch_name": "Restoration",
+    "condition_payload": {
+      "choice": "restoration",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000186_restoration"
+    },
+    "moral_alignment": "restoration",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000186",
+    "branch_id": "QST000186-BRANCH-exile",
+    "branch_name": "Exile",
+    "condition_payload": {
+      "choice": "exile",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000186_exile"
+    },
+    "moral_alignment": "exile",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000187",
+    "branch_id": "QST000187-BRANCH-exile",
+    "branch_name": "Exile",
+    "condition_payload": {
+      "choice": "exile",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000187_exile"
+    },
+    "moral_alignment": "exile",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000187",
+    "branch_id": "QST000187-BRANCH-alliance",
+    "branch_name": "Alliance",
+    "condition_payload": {
+      "choice": "alliance",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000187_alliance"
+    },
+    "moral_alignment": "alliance",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000188",
+    "branch_id": "QST000188-BRANCH-alliance",
+    "branch_name": "Alliance",
+    "condition_payload": {
+      "choice": "alliance",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000188_alliance"
+    },
+    "moral_alignment": "alliance",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000188",
+    "branch_id": "QST000188-BRANCH-refusal",
+    "branch_name": "Refusal",
+    "condition_payload": {
+      "choice": "refusal",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000188_refusal"
+    },
+    "moral_alignment": "refusal",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000189",
+    "branch_id": "QST000189-BRANCH-refusal",
+    "branch_name": "Refusal",
+    "condition_payload": {
+      "choice": "refusal",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000189_refusal"
+    },
+    "moral_alignment": "refusal",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000189",
+    "branch_id": "QST000189-BRANCH-mercy",
+    "branch_name": "Mercy",
+    "condition_payload": {
+      "choice": "mercy",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000189_mercy"
+    },
+    "moral_alignment": "mercy",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000190",
+    "branch_id": "QST000190-BRANCH-mercy",
+    "branch_name": "Mercy",
+    "condition_payload": {
+      "choice": "mercy",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000190_mercy"
+    },
+    "moral_alignment": "mercy",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000190",
+    "branch_id": "QST000190-BRANCH-combat",
+    "branch_name": "Combat",
+    "condition_payload": {
+      "choice": "combat",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000190_combat"
+    },
+    "moral_alignment": "combat",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000191",
+    "branch_id": "QST000191-BRANCH-combat",
+    "branch_name": "Combat",
+    "condition_payload": {
+      "choice": "combat",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000191_combat"
+    },
+    "moral_alignment": "combat",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000191",
+    "branch_id": "QST000191-BRANCH-deception",
+    "branch_name": "Deception",
+    "condition_payload": {
+      "choice": "deception",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000191_deception"
+    },
+    "moral_alignment": "deception",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000192",
+    "branch_id": "QST000192-BRANCH-deception",
+    "branch_name": "Deception",
+    "condition_payload": {
+      "choice": "deception",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000192_deception"
+    },
+    "moral_alignment": "deception",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000192",
+    "branch_id": "QST000192-BRANCH-truth",
+    "branch_name": "Truth",
+    "condition_payload": {
+      "choice": "truth",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000192_truth"
+    },
+    "moral_alignment": "truth",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000193",
+    "branch_id": "QST000193-BRANCH-truth",
+    "branch_name": "Truth",
+    "condition_payload": {
+      "choice": "truth",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000193_truth"
+    },
+    "moral_alignment": "truth",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000193",
+    "branch_id": "QST000193-BRANCH-offering",
+    "branch_name": "Offering",
+    "condition_payload": {
+      "choice": "offering",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000193_offering"
+    },
+    "moral_alignment": "offering",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000194",
+    "branch_id": "QST000194-BRANCH-offering",
+    "branch_name": "Offering",
+    "condition_payload": {
+      "choice": "offering",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000194_offering"
+    },
+    "moral_alignment": "offering",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000194",
+    "branch_id": "QST000194-BRANCH-sacrifice",
+    "branch_name": "Sacrifice",
+    "condition_payload": {
+      "choice": "sacrifice",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000194_sacrifice"
+    },
+    "moral_alignment": "sacrifice",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000195",
+    "branch_id": "QST000195-BRANCH-sacrifice",
+    "branch_name": "Sacrifice",
+    "condition_payload": {
+      "choice": "sacrifice",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000195_sacrifice"
+    },
+    "moral_alignment": "sacrifice",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000195",
+    "branch_id": "QST000195-BRANCH-restoration",
+    "branch_name": "Restoration",
+    "condition_payload": {
+      "choice": "restoration",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000195_restoration"
+    },
+    "moral_alignment": "restoration",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000196",
+    "branch_id": "QST000196-BRANCH-restoration",
+    "branch_name": "Restoration",
+    "condition_payload": {
+      "choice": "restoration",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000196_restoration"
+    },
+    "moral_alignment": "restoration",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000196",
+    "branch_id": "QST000196-BRANCH-exile",
+    "branch_name": "Exile",
+    "condition_payload": {
+      "choice": "exile",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000196_exile"
+    },
+    "moral_alignment": "exile",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000197",
+    "branch_id": "QST000197-BRANCH-exile",
+    "branch_name": "Exile",
+    "condition_payload": {
+      "choice": "exile",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000197_exile"
+    },
+    "moral_alignment": "exile",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000197",
+    "branch_id": "QST000197-BRANCH-alliance",
+    "branch_name": "Alliance",
+    "condition_payload": {
+      "choice": "alliance",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000197_alliance"
+    },
+    "moral_alignment": "alliance",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000198",
+    "branch_id": "QST000198-BRANCH-alliance",
+    "branch_name": "Alliance",
+    "condition_payload": {
+      "choice": "alliance",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000198_alliance"
+    },
+    "moral_alignment": "alliance",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000198",
+    "branch_id": "QST000198-BRANCH-refusal",
+    "branch_name": "Refusal",
+    "condition_payload": {
+      "choice": "refusal",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000198_refusal"
+    },
+    "moral_alignment": "refusal",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000199",
+    "branch_id": "QST000199-BRANCH-refusal",
+    "branch_name": "Refusal",
+    "condition_payload": {
+      "choice": "refusal",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000199_refusal"
+    },
+    "moral_alignment": "refusal",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000199",
+    "branch_id": "QST000199-BRANCH-mercy",
+    "branch_name": "Mercy",
+    "condition_payload": {
+      "choice": "mercy",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000199_mercy"
+    },
+    "moral_alignment": "mercy",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000200",
+    "branch_id": "QST000200-BRANCH-mercy",
+    "branch_name": "Mercy",
+    "condition_payload": {
+      "choice": "mercy",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000200_mercy"
+    },
+    "moral_alignment": "mercy",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000200",
+    "branch_id": "QST000200-BRANCH-combat",
+    "branch_name": "Combat",
+    "condition_payload": {
+      "choice": "combat",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000200_combat"
+    },
+    "moral_alignment": "combat",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000241",
+    "branch_id": "QST000241-BRANCH-combat",
+    "branch_name": "Combat",
+    "condition_payload": {
+      "choice": "combat",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000241_combat"
+    },
+    "moral_alignment": "combat",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000241",
+    "branch_id": "QST000241-BRANCH-deception",
+    "branch_name": "Deception",
+    "condition_payload": {
+      "choice": "deception",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000241_deception"
+    },
+    "moral_alignment": "deception",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000242",
+    "branch_id": "QST000242-BRANCH-deception",
+    "branch_name": "Deception",
+    "condition_payload": {
+      "choice": "deception",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000242_deception"
+    },
+    "moral_alignment": "deception",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000242",
+    "branch_id": "QST000242-BRANCH-truth",
+    "branch_name": "Truth",
+    "condition_payload": {
+      "choice": "truth",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000242_truth"
+    },
+    "moral_alignment": "truth",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000243",
+    "branch_id": "QST000243-BRANCH-truth",
+    "branch_name": "Truth",
+    "condition_payload": {
+      "choice": "truth",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000243_truth"
+    },
+    "moral_alignment": "truth",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000243",
+    "branch_id": "QST000243-BRANCH-offering",
+    "branch_name": "Offering",
+    "condition_payload": {
+      "choice": "offering",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000243_offering"
+    },
+    "moral_alignment": "offering",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000244",
+    "branch_id": "QST000244-BRANCH-offering",
+    "branch_name": "Offering",
+    "condition_payload": {
+      "choice": "offering",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000244_offering"
+    },
+    "moral_alignment": "offering",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000244",
+    "branch_id": "QST000244-BRANCH-sacrifice",
+    "branch_name": "Sacrifice",
+    "condition_payload": {
+      "choice": "sacrifice",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000244_sacrifice"
+    },
+    "moral_alignment": "sacrifice",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000245",
+    "branch_id": "QST000245-BRANCH-sacrifice",
+    "branch_name": "Sacrifice",
+    "condition_payload": {
+      "choice": "sacrifice",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000245_sacrifice"
+    },
+    "moral_alignment": "sacrifice",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000245",
+    "branch_id": "QST000245-BRANCH-restoration",
+    "branch_name": "Restoration",
+    "condition_payload": {
+      "choice": "restoration",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000245_restoration"
+    },
+    "moral_alignment": "restoration",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000246",
+    "branch_id": "QST000246-BRANCH-restoration",
+    "branch_name": "Restoration",
+    "condition_payload": {
+      "choice": "restoration",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000246_restoration"
+    },
+    "moral_alignment": "restoration",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000246",
+    "branch_id": "QST000246-BRANCH-exile",
+    "branch_name": "Exile",
+    "condition_payload": {
+      "choice": "exile",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000246_exile"
+    },
+    "moral_alignment": "exile",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000247",
+    "branch_id": "QST000247-BRANCH-exile",
+    "branch_name": "Exile",
+    "condition_payload": {
+      "choice": "exile",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000247_exile"
+    },
+    "moral_alignment": "exile",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000247",
+    "branch_id": "QST000247-BRANCH-alliance",
+    "branch_name": "Alliance",
+    "condition_payload": {
+      "choice": "alliance",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000247_alliance"
+    },
+    "moral_alignment": "alliance",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000248",
+    "branch_id": "QST000248-BRANCH-alliance",
+    "branch_name": "Alliance",
+    "condition_payload": {
+      "choice": "alliance",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000248_alliance"
+    },
+    "moral_alignment": "alliance",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000248",
+    "branch_id": "QST000248-BRANCH-refusal",
+    "branch_name": "Refusal",
+    "condition_payload": {
+      "choice": "refusal",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000248_refusal"
+    },
+    "moral_alignment": "refusal",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000249",
+    "branch_id": "QST000249-BRANCH-refusal",
+    "branch_name": "Refusal",
+    "condition_payload": {
+      "choice": "refusal",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000249_refusal"
+    },
+    "moral_alignment": "refusal",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000249",
+    "branch_id": "QST000249-BRANCH-mercy",
+    "branch_name": "Mercy",
+    "condition_payload": {
+      "choice": "mercy",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000249_mercy"
+    },
+    "moral_alignment": "mercy",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000250",
+    "branch_id": "QST000250-BRANCH-mercy",
+    "branch_name": "Mercy",
+    "condition_payload": {
+      "choice": "mercy",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000250_mercy"
+    },
+    "moral_alignment": "mercy",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000250",
+    "branch_id": "QST000250-BRANCH-combat",
+    "branch_name": "Combat",
+    "condition_payload": {
+      "choice": "combat",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000250_combat"
+    },
+    "moral_alignment": "combat",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000251",
+    "branch_id": "QST000251-BRANCH-combat",
+    "branch_name": "Combat",
+    "condition_payload": {
+      "choice": "combat",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000251_combat"
+    },
+    "moral_alignment": "combat",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000251",
+    "branch_id": "QST000251-BRANCH-deception",
+    "branch_name": "Deception",
+    "condition_payload": {
+      "choice": "deception",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000251_deception"
+    },
+    "moral_alignment": "deception",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000252",
+    "branch_id": "QST000252-BRANCH-deception",
+    "branch_name": "Deception",
+    "condition_payload": {
+      "choice": "deception",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000252_deception"
+    },
+    "moral_alignment": "deception",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000252",
+    "branch_id": "QST000252-BRANCH-truth",
+    "branch_name": "Truth",
+    "condition_payload": {
+      "choice": "truth",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000252_truth"
+    },
+    "moral_alignment": "truth",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000253",
+    "branch_id": "QST000253-BRANCH-truth",
+    "branch_name": "Truth",
+    "condition_payload": {
+      "choice": "truth",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000253_truth"
+    },
+    "moral_alignment": "truth",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000253",
+    "branch_id": "QST000253-BRANCH-offering",
+    "branch_name": "Offering",
+    "condition_payload": {
+      "choice": "offering",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000253_offering"
+    },
+    "moral_alignment": "offering",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000254",
+    "branch_id": "QST000254-BRANCH-offering",
+    "branch_name": "Offering",
+    "condition_payload": {
+      "choice": "offering",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000254_offering"
+    },
+    "moral_alignment": "offering",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000254",
+    "branch_id": "QST000254-BRANCH-sacrifice",
+    "branch_name": "Sacrifice",
+    "condition_payload": {
+      "choice": "sacrifice",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000254_sacrifice"
+    },
+    "moral_alignment": "sacrifice",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000255",
+    "branch_id": "QST000255-BRANCH-sacrifice",
+    "branch_name": "Sacrifice",
+    "condition_payload": {
+      "choice": "sacrifice",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000255_sacrifice"
+    },
+    "moral_alignment": "sacrifice",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000255",
+    "branch_id": "QST000255-BRANCH-restoration",
+    "branch_name": "Restoration",
+    "condition_payload": {
+      "choice": "restoration",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000255_restoration"
+    },
+    "moral_alignment": "restoration",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000256",
+    "branch_id": "QST000256-BRANCH-restoration",
+    "branch_name": "Restoration",
+    "condition_payload": {
+      "choice": "restoration",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000256_restoration"
+    },
+    "moral_alignment": "restoration",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000256",
+    "branch_id": "QST000256-BRANCH-exile",
+    "branch_name": "Exile",
+    "condition_payload": {
+      "choice": "exile",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000256_exile"
+    },
+    "moral_alignment": "exile",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000257",
+    "branch_id": "QST000257-BRANCH-exile",
+    "branch_name": "Exile",
+    "condition_payload": {
+      "choice": "exile",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000257_exile"
+    },
+    "moral_alignment": "exile",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000257",
+    "branch_id": "QST000257-BRANCH-alliance",
+    "branch_name": "Alliance",
+    "condition_payload": {
+      "choice": "alliance",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000257_alliance"
+    },
+    "moral_alignment": "alliance",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000258",
+    "branch_id": "QST000258-BRANCH-alliance",
+    "branch_name": "Alliance",
+    "condition_payload": {
+      "choice": "alliance",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000258_alliance"
+    },
+    "moral_alignment": "alliance",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000258",
+    "branch_id": "QST000258-BRANCH-refusal",
+    "branch_name": "Refusal",
+    "condition_payload": {
+      "choice": "refusal",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000258_refusal"
+    },
+    "moral_alignment": "refusal",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000259",
+    "branch_id": "QST000259-BRANCH-refusal",
+    "branch_name": "Refusal",
+    "condition_payload": {
+      "choice": "refusal",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000259_refusal"
+    },
+    "moral_alignment": "refusal",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000259",
+    "branch_id": "QST000259-BRANCH-mercy",
+    "branch_name": "Mercy",
+    "condition_payload": {
+      "choice": "mercy",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000259_mercy"
+    },
+    "moral_alignment": "mercy",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000260",
+    "branch_id": "QST000260-BRANCH-mercy",
+    "branch_name": "Mercy",
+    "condition_payload": {
+      "choice": "mercy",
+      "relationship_min": "Acquaintance"
+    },
+    "result_payload": {
+      "faction_reputation_delta": 5,
+      "monster_trust_delta": 10,
+      "world_flag": "QST000260_mercy"
+    },
+    "moral_alignment": "mercy",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  },
+  {
+    "quest_id": "QST000260",
+    "branch_id": "QST000260-BRANCH-combat",
+    "branch_name": "Combat",
+    "condition_payload": {
+      "choice": "combat",
+      "relationship_min": "Trusted"
+    },
+    "result_payload": {
+      "faction_reputation_delta": -5,
+      "monster_trust_delta": 0,
+      "world_flag": "QST000260_combat"
+    },
+    "moral_alignment": "combat",
+    "unlocks_quest_id": null,
+    "locks_quest_id": null
+  }
+]
