@@ -1,0 +1,299 @@
+[
+  {
+    "tale_id": "FTALE00001",
+    "title": "The River That Remembered Names",
+    "slug": "folk-tale-1",
+    "region": "Region 1",
+    "narrator": "elder",
+    "summary": "A fictional in-world folk tale used as tone reference for quests, not a claim about real belief.",
+    "moral_axes": [
+      "Mercy",
+      "Wisdom"
+    ],
+    "related_monsters": [
+      "ALM-0001"
+    ],
+    "localization_notes": "Preserve respect and avoid flattening regional voices."
+  },
+  {
+    "tale_id": "FTALE00002",
+    "title": "The Lamp Below the House",
+    "slug": "folk-tale-2",
+    "region": "Region 2",
+    "narrator": "child",
+    "summary": "A fictional in-world folk tale used as tone reference for quests, not a claim about real belief.",
+    "moral_axes": [
+      "Mercy",
+      "Wisdom",
+      "Balance"
+    ],
+    "related_monsters": [
+      "ALM-0002"
+    ],
+    "localization_notes": "Preserve respect and avoid flattening regional voices."
+  },
+  {
+    "tale_id": "FTALE00003",
+    "title": "The Bird Who Carried Thunder",
+    "slug": "folk-tale-3",
+    "region": "Region 3",
+    "narrator": "traveler",
+    "summary": "A fictional in-world folk tale used as tone reference for quests, not a claim about real belief.",
+    "moral_axes": [
+      "Mercy",
+      "Wisdom"
+    ],
+    "related_monsters": [
+      "ALM-0003"
+    ],
+    "localization_notes": "Preserve respect and avoid flattening regional voices."
+  },
+  {
+    "tale_id": "FTALE00004",
+    "title": "The Net of Moonlight",
+    "slug": "folk-tale-4",
+    "region": "Region 4",
+    "narrator": "keeper",
+    "summary": "A fictional in-world folk tale used as tone reference for quests, not a claim about real belief.",
+    "moral_axes": [
+      "Mercy",
+      "Wisdom",
+      "Balance"
+    ],
+    "related_monsters": [
+      "ALM-0004"
+    ],
+    "localization_notes": "Preserve respect and avoid flattening regional voices."
+  },
+  {
+    "tale_id": "FTALE00005",
+    "title": "The River That Remembered Names",
+    "slug": "folk-tale-5",
+    "region": "Region 5",
+    "narrator": "elder",
+    "summary": "A fictional in-world folk tale used as tone reference for quests, not a claim about real belief.",
+    "moral_axes": [
+      "Mercy",
+      "Wisdom"
+    ],
+    "related_monsters": [
+      "ALM-0005"
+    ],
+    "localization_notes": "Preserve respect and avoid flattening regional voices."
+  },
+  {
+    "tale_id": "FTALE00006",
+    "title": "The Lamp Below the House",
+    "slug": "folk-tale-6",
+    "region": "Region 6",
+    "narrator": "child",
+    "summary": "A fictional in-world folk tale used as tone reference for quests, not a claim about real belief.",
+    "moral_axes": [
+      "Mercy",
+      "Wisdom",
+      "Balance"
+    ],
+    "related_monsters": [
+      "ALM-0006"
+    ],
+    "localization_notes": "Preserve respect and avoid flattening regional voices."
+  },
+  {
+    "tale_id": "FTALE00007",
+    "title": "The Bird Who Carried Thunder",
+    "slug": "folk-tale-7",
+    "region": "Region 1",
+    "narrator": "traveler",
+    "summary": "A fictional in-world folk tale used as tone reference for quests, not a claim about real belief.",
+    "moral_axes": [
+      "Mercy",
+      "Wisdom"
+    ],
+    "related_monsters": [
+      "ALM-0007"
+    ],
+    "localization_notes": "Preserve respect and avoid flattening regional voices."
+  },
+  {
+    "tale_id": "FTALE00008",
+    "title": "The Net of Moonlight",
+    "slug": "folk-tale-8",
+    "region": "Region 2",
+    "narrator": "keeper",
+    "summary": "A fictional in-world folk tale used as tone reference for quests, not a claim about real belief.",
+    "moral_axes": [
+      "Mercy",
+      "Wisdom",
+      "Balance"
+    ],
+    "related_monsters": [
+      "ALM-0008"
+    ],
+    "localization_notes": "Preserve respect and avoid flattening regional voices."
+  },
+  {
+    "tale_id": "FTALE00009",
+    "title": "The River That Remembered Names",
+    "slug": "folk-tale-9",
+    "region": "Region 3",
+    "narrator": "elder",
+    "summary": "A fictional in-world folk tale used as tone reference for quests, not a claim about real belief.",
+    "moral_axes": [
+      "Mercy",
+      "Wisdom"
+    ],
+    "related_monsters": [
+      "ALM-0009"
+    ],
+    "localization_notes": "Preserve respect and avoid flattening regional voices."
+  },
+  {
+    "tale_id": "FTALE00010",
+    "title": "The Lamp Below the House",
+    "slug": "folk-tale-10",
+    "region": "Region 4",
+    "narrator": "child",
+    "summary": "A fictional in-world folk tale used as tone reference for quests, not a claim about real belief.",
+    "moral_axes": [
+      "Mercy",
+      "Wisdom",
+      "Balance"
+    ],
+    "related_monsters": [
+      "ALM-0010"
+    ],
+    "localization_notes": "Preserve respect and avoid flattening regional voices."
+  },
+  {
+    "tale_id": "FTALE00011",
+    "title": "The Bird Who Carried Thunder",
+    "slug": "folk-tale-11",
+    "region": "Region 5",
+    "narrator": "traveler",
+    "summary": "A fictional in-world folk tale used as tone reference for quests, not a claim about real belief.",
+    "moral_axes": [
+      "Mercy",
+      "Wisdom"
+    ],
+    "related_monsters": [
+      "ALM-0011"
+    ],
+    "localization_notes": "Preserve respect and avoid flattening regional voices."
+  },
+  {
+    "tale_id": "FTALE00012",
+    "title": "The Net of Moonlight",
+    "slug": "folk-tale-12",
+    "region": "Region 6",
+    "narrator": "keeper",
+    "summary": "A fictional in-world folk tale used as tone reference for quests, not a claim about real belief.",
+    "moral_axes": [
+      "Mercy",
+      "Wisdom",
+      "Balance"
+    ],
+    "related_monsters": [
+      "ALM-0012"
+    ],
+    "localization_notes": "Preserve respect and avoid flattening regional voices."
+  },
+  {
+    "tale_id": "FTALE00013",
+    "title": "The River That Remembered Names",
+    "slug": "folk-tale-13",
+    "region": "Region 1",
+    "narrator": "elder",
+    "summary": "A fictional in-world folk tale used as tone reference for quests, not a claim about real belief.",
+    "moral_axes": [
+      "Mercy",
+      "Wisdom"
+    ],
+    "related_monsters": [
+      "ALM-0013"
+    ],
+    "localization_notes": "Preserve respect and avoid flattening regional voices."
+  },
+  {
+    "tale_id": "FTALE00014",
+    "title": "The Lamp Below the House",
+    "slug": "folk-tale-14",
+    "region": "Region 2",
+    "narrator": "child",
+    "summary": "A fictional in-world folk tale used as tone reference for quests, not a claim about real belief.",
+    "moral_axes": [
+      "Mercy",
+      "Wisdom",
+      "Balance"
+    ],
+    "related_monsters": [
+      "ALM-0014"
+    ],
+    "localization_notes": "Preserve respect and avoid flattening regional voices."
+  },
+  {
+    "tale_id": "FTALE00015",
+    "title": "The Bird Who Carried Thunder",
+    "slug": "folk-tale-15",
+    "region": "Region 3",
+    "narrator": "traveler",
+    "summary": "A fictional in-world folk tale used as tone reference for quests, not a claim about real belief.",
+    "moral_axes": [
+      "Mercy",
+      "Wisdom"
+    ],
+    "related_monsters": [
+      "ALM-0015"
+    ],
+    "localization_notes": "Preserve respect and avoid flattening regional voices."
+  },
+  {
+    "tale_id": "FTALE00016",
+    "title": "The Net of Moonlight",
+    "slug": "folk-tale-16",
+    "region": "Region 4",
+    "narrator": "keeper",
+    "summary": "A fictional in-world folk tale used as tone reference for quests, not a claim about real belief.",
+    "moral_axes": [
+      "Mercy",
+      "Wisdom",
+      "Balance"
+    ],
+    "related_monsters": [
+      "ALM-0016"
+    ],
+    "localization_notes": "Preserve respect and avoid flattening regional voices."
+  },
+  {
+    "tale_id": "FTALE00017",
+    "title": "The River That Remembered Names",
+    "slug": "folk-tale-17",
+    "region": "Region 5",
+    "narrator": "elder",
+    "summary": "A fictional in-world folk tale used as tone reference for quests, not a claim about real belief.",
+    "moral_axes": [
+      "Mercy",
+      "Wisdom"
+    ],
+    "related_monsters": [
+      "ALM-0017"
+    ],
+    "localization_notes": "Preserve respect and avoid flattening regional voices."
+  },
+  {
+    "tale_id": "FTALE00018",
+    "title": "The Lamp Below the House",
+    "slug": "folk-tale-18",
+    "region": "Region 6",
+    "narrator": "child",
+    "summary": "A fictional in-world folk tale used as tone reference for quests, not a claim about real belief.",
+    "moral_axes": [
+      "Mercy",
+      "Wisdom",
+      "Balance"
+    ],
+    "related_monsters": [
+      "ALM-0018"
+    ],
+    "localization_notes": "Preserve respect and avoid flattening regional voices."
+  }
+]

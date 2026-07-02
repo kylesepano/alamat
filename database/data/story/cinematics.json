@@ -1,0 +1,137 @@
+[
+  {
+    "cinematic_id": "CIN00002",
+    "title": "Home by the River: Decision Cinematic",
+    "cinematic_type": "opening",
+    "camera_direction": "Painterly 2.5D cinematic with grounded human gestures and respectful Filipino fantasy motifs.",
+    "music_reference": "music_home-by-the-river-decision-cutscene",
+    "duration_seconds": 45,
+    "asset_prompt_id": "STAP00001"
+  },
+  {
+    "cinematic_id": "CIN00004",
+    "title": "First Oath of Trust: Decision Cinematic",
+    "cinematic_type": "memory",
+    "camera_direction": "Painterly 2.5D cinematic with grounded human gestures and respectful Filipino fantasy motifs.",
+    "music_reference": "music_first-oath-of-trust-decision-cutscene",
+    "duration_seconds": 50,
+    "asset_prompt_id": "STAP00002"
+  },
+  {
+    "cinematic_id": "CIN00006",
+    "title": "Market of Broken Bowls: Decision Cinematic",
+    "cinematic_type": "festival",
+    "camera_direction": "Painterly 2.5D cinematic with grounded human gestures and respectful Filipino fantasy motifs.",
+    "music_reference": "music_market-of-broken-bowls-decision-cutscene",
+    "duration_seconds": 55,
+    "asset_prompt_id": "STAP00003"
+  },
+  {
+    "cinematic_id": "CIN00008",
+    "title": "The Balete Vigil: Decision Cinematic",
+    "cinematic_type": "ending",
+    "camera_direction": "Painterly 2.5D cinematic with grounded human gestures and respectful Filipino fantasy motifs.",
+    "music_reference": "music_the-balete-vigil-decision-cutscene",
+    "duration_seconds": 60,
+    "asset_prompt_id": "STAP00004"
+  },
+  {
+    "cinematic_id": "CIN00010",
+    "title": "Rain Roads: Decision Cinematic",
+    "cinematic_type": "opening",
+    "camera_direction": "Painterly 2.5D cinematic with grounded human gestures and respectful Filipino fantasy motifs.",
+    "music_reference": "music_rain-roads-decision-cutscene",
+    "duration_seconds": 65,
+    "asset_prompt_id": "STAP00005"
+  },
+  {
+    "cinematic_id": "CIN00012",
+    "title": "Council of Ash: Decision Cinematic",
+    "cinematic_type": "memory",
+    "camera_direction": "Painterly 2.5D cinematic with grounded human gestures and respectful Filipino fantasy motifs.",
+    "music_reference": "music_council-of-ash-decision-cutscene",
+    "duration_seconds": 70,
+    "asset_prompt_id": "STAP00006"
+  },
+  {
+    "cinematic_id": "CIN00014",
+    "title": "Dream Gate: Decision Cinematic",
+    "cinematic_type": "festival",
+    "camera_direction": "Painterly 2.5D cinematic with grounded human gestures and respectful Filipino fantasy motifs.",
+    "music_reference": "music_dream-gate-decision-cutscene",
+    "duration_seconds": 75,
+    "asset_prompt_id": "STAP00007"
+  },
+  {
+    "cinematic_id": "CIN00016",
+    "title": "Lamp of the Below: Decision Cinematic",
+    "cinematic_type": "ending",
+    "camera_direction": "Painterly 2.5D cinematic with grounded human gestures and respectful Filipino fantasy motifs.",
+    "music_reference": "music_lamp-of-the-below-decision-cutscene",
+    "duration_seconds": 80,
+    "asset_prompt_id": "STAP00008"
+  },
+  {
+    "cinematic_id": "CIN00018",
+    "title": "Court of Tides: Decision Cinematic",
+    "cinematic_type": "opening",
+    "camera_direction": "Painterly 2.5D cinematic with grounded human gestures and respectful Filipino fantasy motifs.",
+    "music_reference": "music_court-of-tides-decision-cutscene",
+    "duration_seconds": 85,
+    "asset_prompt_id": "STAP00009"
+  },
+  {
+    "cinematic_id": "CIN00020",
+    "title": "Pact of Thunder: Decision Cinematic",
+    "cinematic_type": "memory",
+    "camera_direction": "Painterly 2.5D cinematic with grounded human gestures and respectful Filipino fantasy motifs.",
+    "music_reference": "music_pact-of-thunder-decision-cutscene",
+    "duration_seconds": 90,
+    "asset_prompt_id": "STAP00010"
+  },
+  {
+    "cinematic_id": "CIN00022",
+    "title": "Many Councils: Decision Cinematic",
+    "cinematic_type": "festival",
+    "camera_direction": "Painterly 2.5D cinematic with grounded human gestures and respectful Filipino fantasy motifs.",
+    "music_reference": "music_many-councils-decision-cutscene",
+    "duration_seconds": 95,
+    "asset_prompt_id": "STAP00011"
+  },
+  {
+    "cinematic_id": "CIN00024",
+    "title": "Final Threshold: Decision Cinematic",
+    "cinematic_type": "ending",
+    "camera_direction": "Painterly 2.5D cinematic with grounded human gestures and respectful Filipino fantasy motifs.",
+    "music_reference": "music_final-threshold-decision-cutscene",
+    "duration_seconds": 100,
+    "asset_prompt_id": "STAP00012"
+  },
+  {
+    "cinematic_id": "CIN00026",
+    "title": "Song Returned: Decision Cinematic",
+    "cinematic_type": "opening",
+    "camera_direction": "Painterly 2.5D cinematic with grounded human gestures and respectful Filipino fantasy motifs.",
+    "music_reference": "music_song-returned-decision-cutscene",
+    "duration_seconds": 105,
+    "asset_prompt_id": "STAP00013"
+  },
+  {
+    "cinematic_id": "CIN00028",
+    "title": "New Fires at Dawn: Decision Cinematic",
+    "cinematic_type": "memory",
+    "camera_direction": "Painterly 2.5D cinematic with grounded human gestures and respectful Filipino fantasy motifs.",
+    "music_reference": "music_new-fires-at-dawn-decision-cutscene",
+    "duration_seconds": 110,
+    "asset_prompt_id": "STAP00014"
+  },
+  {
+    "cinematic_id": "CIN00030",
+    "title": "Islands Beyond the Map: Decision Cinematic",
+    "cinematic_type": "festival",
+    "camera_direction": "Painterly 2.5D cinematic with grounded human gestures and respectful Filipino fantasy motifs.",
+    "music_reference": "music_islands-beyond-the-map-decision-cutscene",
+    "duration_seconds": 115,
+    "asset_prompt_id": "STAP00015"
+  }
+]

@@ -1,0 +1,622 @@
+[
+  {
+    "asset_prompt_id": "STAP00001",
+    "asset_type": "act_key_art",
+    "owner_type": "story_act",
+    "owner_id": "STACT001",
+    "filename": "act_STACT001_the-waking-river.png",
+    "prompt": "Filipino fantasy RPG key art for Prologue, theme Memory and return, warm natural light, woven textures, respectful fictional cultural motifs, no text, no logo.",
+    "negative_prompt": "No stereotypes, no religious superiority, no gore, no modern brand marks.",
+    "style_notes": "Painterly 2.5D storybook realism with clean game UI readability."
+  },
+  {
+    "asset_prompt_id": "STAP00002",
+    "asset_type": "act_key_art",
+    "owner_type": "story_act",
+    "owner_id": "STACT002",
+    "filename": "act_STACT002_the-broken-offerings.png",
+    "prompt": "Filipino fantasy RPG key art for Act I, theme Trust before power, warm natural light, woven textures, respectful fictional cultural motifs, no text, no logo.",
+    "negative_prompt": "No stereotypes, no religious superiority, no gore, no modern brand marks.",
+    "style_notes": "Painterly 2.5D storybook realism with clean game UI readability."
+  },
+  {
+    "asset_prompt_id": "STAP00003",
+    "asset_type": "act_key_art",
+    "owner_type": "story_act",
+    "owner_id": "STACT003",
+    "filename": "act_STACT003_roads-of-rain-and-ash.png",
+    "prompt": "Filipino fantasy RPG key art for Act II, theme Many duties, one land, warm natural light, woven textures, respectful fictional cultural motifs, no text, no logo.",
+    "negative_prompt": "No stereotypes, no religious superiority, no gore, no modern brand marks.",
+    "style_notes": "Painterly 2.5D storybook realism with clean game UI readability."
+  },
+  {
+    "asset_prompt_id": "STAP00004",
+    "asset_type": "act_key_art",
+    "owner_type": "story_act",
+    "owner_id": "STACT004",
+    "filename": "act_STACT004_the-dream-below.png",
+    "prompt": "Filipino fantasy RPG key art for Act III, theme Ancestry and consequence, warm natural light, woven textures, respectful fictional cultural motifs, no text, no logo.",
+    "negative_prompt": "No stereotypes, no religious superiority, no gore, no modern brand marks.",
+    "style_notes": "Painterly 2.5D storybook realism with clean game UI readability."
+  },
+  {
+    "asset_prompt_id": "STAP00005",
+    "asset_type": "act_key_art",
+    "owner_type": "story_act",
+    "owner_id": "STACT005",
+    "filename": "act_STACT005_sky-sea-and-storm.png",
+    "prompt": "Filipino fantasy RPG key art for Act IV, theme Humility before vastness, warm natural light, woven textures, respectful fictional cultural motifs, no text, no logo.",
+    "negative_prompt": "No stereotypes, no religious superiority, no gore, no modern brand marks.",
+    "style_notes": "Painterly 2.5D storybook realism with clean game UI readability."
+  },
+  {
+    "asset_prompt_id": "STAP00006",
+    "asset_type": "act_key_art",
+    "owner_type": "story_act",
+    "owner_id": "STACT006",
+    "filename": "act_STACT006_the-last-balancing.png",
+    "prompt": "Filipino fantasy RPG key art for Act V, theme Balance as living work, warm natural light, woven textures, respectful fictional cultural motifs, no text, no logo.",
+    "negative_prompt": "No stereotypes, no religious superiority, no gore, no modern brand marks.",
+    "style_notes": "Painterly 2.5D storybook realism with clean game UI readability."
+  },
+  {
+    "asset_prompt_id": "STAP00007",
+    "asset_type": "act_key_art",
+    "owner_type": "story_act",
+    "owner_id": "STACT007",
+    "filename": "act_STACT007_the-song-returned.png",
+    "prompt": "Filipino fantasy RPG key art for Finale, theme Choice without purity tests, warm natural light, woven textures, respectful fictional cultural motifs, no text, no logo.",
+    "negative_prompt": "No stereotypes, no religious superiority, no gore, no modern brand marks.",
+    "style_notes": "Painterly 2.5D storybook realism with clean game UI readability."
+  },
+  {
+    "asset_prompt_id": "STAP00008",
+    "asset_type": "act_key_art",
+    "owner_type": "story_act",
+    "owner_id": "STACT008",
+    "filename": "act_STACT008_new-fires-at-dawn.png",
+    "prompt": "Filipino fantasy RPG key art for Postgame, theme Repair and stewardship, warm natural light, woven textures, respectful fictional cultural motifs, no text, no logo.",
+    "negative_prompt": "No stereotypes, no religious superiority, no gore, no modern brand marks.",
+    "style_notes": "Painterly 2.5D storybook realism with clean game UI readability."
+  },
+  {
+    "asset_prompt_id": "STAP00009",
+    "asset_type": "act_key_art",
+    "owner_type": "story_act",
+    "owner_id": "STACT009",
+    "filename": "act_STACT009_islands-beyond-the-map.png",
+    "prompt": "Filipino fantasy RPG key art for Expansion Hooks, theme The world continues, warm natural light, woven textures, respectful fictional cultural motifs, no text, no logo.",
+    "negative_prompt": "No stereotypes, no religious superiority, no gore, no modern brand marks.",
+    "style_notes": "Painterly 2.5D storybook realism with clean game UI readability."
+  },
+  {
+    "asset_prompt_id": "STAP00021",
+    "asset_type": "chapter_banner",
+    "owner_type": "story_chapter",
+    "owner_id": "STCH001",
+    "filename": "chapter_STCH001_home-by-the-river.png",
+    "prompt": "Wide chapter banner for Home by the River, ALAMAT Filipino fantasy region WREG0001, atmospheric but readable, natural materials, community details, no text.",
+    "negative_prompt": "No stock-photo look, no caricature, no text overlays.",
+    "style_notes": "Cinematic banner suitable for codex and chapter selection."
+  },
+  {
+    "asset_prompt_id": "STAP00022",
+    "asset_type": "chapter_banner",
+    "owner_type": "story_chapter",
+    "owner_id": "STCH002",
+    "filename": "chapter_STCH002_first-oath-of-trust.png",
+    "prompt": "Wide chapter banner for First Oath of Trust, ALAMAT Filipino fantasy region WREG0001, atmospheric but readable, natural materials, community details, no text.",
+    "negative_prompt": "No stock-photo look, no caricature, no text overlays.",
+    "style_notes": "Cinematic banner suitable for codex and chapter selection."
+  },
+  {
+    "asset_prompt_id": "STAP00023",
+    "asset_type": "chapter_banner",
+    "owner_type": "story_chapter",
+    "owner_id": "STCH003",
+    "filename": "chapter_STCH003_market-of-broken-bowls.png",
+    "prompt": "Wide chapter banner for Market of Broken Bowls, ALAMAT Filipino fantasy region WREG0004, atmospheric but readable, natural materials, community details, no text.",
+    "negative_prompt": "No stock-photo look, no caricature, no text overlays.",
+    "style_notes": "Cinematic banner suitable for codex and chapter selection."
+  },
+  {
+    "asset_prompt_id": "STAP00024",
+    "asset_type": "chapter_banner",
+    "owner_type": "story_chapter",
+    "owner_id": "STCH004",
+    "filename": "chapter_STCH004_the-balete-vigil.png",
+    "prompt": "Wide chapter banner for The Balete Vigil, ALAMAT Filipino fantasy region WREG0004, atmospheric but readable, natural materials, community details, no text.",
+    "negative_prompt": "No stock-photo look, no caricature, no text overlays.",
+    "style_notes": "Cinematic banner suitable for codex and chapter selection."
+  },
+  {
+    "asset_prompt_id": "STAP00025",
+    "asset_type": "chapter_banner",
+    "owner_type": "story_chapter",
+    "owner_id": "STCH005",
+    "filename": "chapter_STCH005_rain-roads.png",
+    "prompt": "Wide chapter banner for Rain Roads, ALAMAT Filipino fantasy region WREG0007, atmospheric but readable, natural materials, community details, no text.",
+    "negative_prompt": "No stock-photo look, no caricature, no text overlays.",
+    "style_notes": "Cinematic banner suitable for codex and chapter selection."
+  },
+  {
+    "asset_prompt_id": "STAP00026",
+    "asset_type": "chapter_banner",
+    "owner_type": "story_chapter",
+    "owner_id": "STCH006",
+    "filename": "chapter_STCH006_council-of-ash.png",
+    "prompt": "Wide chapter banner for Council of Ash, ALAMAT Filipino fantasy region WREG0007, atmospheric but readable, natural materials, community details, no text.",
+    "negative_prompt": "No stock-photo look, no caricature, no text overlays.",
+    "style_notes": "Cinematic banner suitable for codex and chapter selection."
+  },
+  {
+    "asset_prompt_id": "STAP00027",
+    "asset_type": "chapter_banner",
+    "owner_type": "story_chapter",
+    "owner_id": "STCH007",
+    "filename": "chapter_STCH007_dream-gate.png",
+    "prompt": "Wide chapter banner for Dream Gate, ALAMAT Filipino fantasy region WREG0012, atmospheric but readable, natural materials, community details, no text.",
+    "negative_prompt": "No stock-photo look, no caricature, no text overlays.",
+    "style_notes": "Cinematic banner suitable for codex and chapter selection."
+  },
+  {
+    "asset_prompt_id": "STAP00028",
+    "asset_type": "chapter_banner",
+    "owner_type": "story_chapter",
+    "owner_id": "STCH008",
+    "filename": "chapter_STCH008_lamp-of-the-below.png",
+    "prompt": "Wide chapter banner for Lamp of the Below, ALAMAT Filipino fantasy region WREG0012, atmospheric but readable, natural materials, community details, no text.",
+    "negative_prompt": "No stock-photo look, no caricature, no text overlays.",
+    "style_notes": "Cinematic banner suitable for codex and chapter selection."
+  },
+  {
+    "asset_prompt_id": "STAP00029",
+    "asset_type": "chapter_banner",
+    "owner_type": "story_chapter",
+    "owner_id": "STCH009",
+    "filename": "chapter_STCH009_court-of-tides.png",
+    "prompt": "Wide chapter banner for Court of Tides, ALAMAT Filipino fantasy region WREG0015, atmospheric but readable, natural materials, community details, no text.",
+    "negative_prompt": "No stock-photo look, no caricature, no text overlays.",
+    "style_notes": "Cinematic banner suitable for codex and chapter selection."
+  },
+  {
+    "asset_prompt_id": "STAP00030",
+    "asset_type": "chapter_banner",
+    "owner_type": "story_chapter",
+    "owner_id": "STCH010",
+    "filename": "chapter_STCH010_pact-of-thunder.png",
+    "prompt": "Wide chapter banner for Pact of Thunder, ALAMAT Filipino fantasy region WREG0015, atmospheric but readable, natural materials, community details, no text.",
+    "negative_prompt": "No stock-photo look, no caricature, no text overlays.",
+    "style_notes": "Cinematic banner suitable for codex and chapter selection."
+  },
+  {
+    "asset_prompt_id": "STAP00031",
+    "asset_type": "chapter_banner",
+    "owner_type": "story_chapter",
+    "owner_id": "STCH011",
+    "filename": "chapter_STCH011_many-councils.png",
+    "prompt": "Wide chapter banner for Many Councils, ALAMAT Filipino fantasy region WREG0001, atmospheric but readable, natural materials, community details, no text.",
+    "negative_prompt": "No stock-photo look, no caricature, no text overlays.",
+    "style_notes": "Cinematic banner suitable for codex and chapter selection."
+  },
+  {
+    "asset_prompt_id": "STAP00032",
+    "asset_type": "chapter_banner",
+    "owner_type": "story_chapter",
+    "owner_id": "STCH012",
+    "filename": "chapter_STCH012_final-threshold.png",
+    "prompt": "Wide chapter banner for Final Threshold, ALAMAT Filipino fantasy region WREG0004, atmospheric but readable, natural materials, community details, no text.",
+    "negative_prompt": "No stock-photo look, no caricature, no text overlays.",
+    "style_notes": "Cinematic banner suitable for codex and chapter selection."
+  },
+  {
+    "asset_prompt_id": "STAP00033",
+    "asset_type": "chapter_banner",
+    "owner_type": "story_chapter",
+    "owner_id": "STCH013",
+    "filename": "chapter_STCH013_song-returned.png",
+    "prompt": "Wide chapter banner for Song Returned, ALAMAT Filipino fantasy region WREG0007, atmospheric but readable, natural materials, community details, no text.",
+    "negative_prompt": "No stock-photo look, no caricature, no text overlays.",
+    "style_notes": "Cinematic banner suitable for codex and chapter selection."
+  },
+  {
+    "asset_prompt_id": "STAP00034",
+    "asset_type": "chapter_banner",
+    "owner_type": "story_chapter",
+    "owner_id": "STCH014",
+    "filename": "chapter_STCH014_new-fires-at-dawn.png",
+    "prompt": "Wide chapter banner for New Fires at Dawn, ALAMAT Filipino fantasy region WREG0012, atmospheric but readable, natural materials, community details, no text.",
+    "negative_prompt": "No stock-photo look, no caricature, no text overlays.",
+    "style_notes": "Cinematic banner suitable for codex and chapter selection."
+  },
+  {
+    "asset_prompt_id": "STAP00035",
+    "asset_type": "chapter_banner",
+    "owner_type": "story_chapter",
+    "owner_id": "STCH015",
+    "filename": "chapter_STCH015_islands-beyond-the-map.png",
+    "prompt": "Wide chapter banner for Islands Beyond the Map, ALAMAT Filipino fantasy region WREG0015, atmospheric but readable, natural materials, community details, no text.",
+    "negative_prompt": "No stock-photo look, no caricature, no text overlays.",
+    "style_notes": "Cinematic banner suitable for codex and chapter selection."
+  },
+  {
+    "asset_prompt_id": "STAP00041",
+    "asset_type": "dialogue_portrait",
+    "owner_type": "dialogue",
+    "owner_id": "DLG00001",
+    "filename": "portrait_DLG00001.png",
+    "prompt": "Dialogue portrait for Player Mentor, emotion calm, Filipino fantasy RPG, expressive face, practical clothing, transparent background friendly, no text.",
+    "negative_prompt": "No exaggerated stereotypes, no religious icon misuse, no horror gore.",
+    "style_notes": "Consistent portrait crop for dialogue UI."
+  },
+  {
+    "asset_prompt_id": "STAP00042",
+    "asset_type": "dialogue_portrait",
+    "owner_type": "dialogue",
+    "owner_id": "DLG00002",
+    "filename": "portrait_DLG00002.png",
+    "prompt": "Dialogue portrait for Local Witness, emotion worried, Filipino fantasy RPG, expressive face, practical clothing, transparent background friendly, no text.",
+    "negative_prompt": "No exaggerated stereotypes, no religious icon misuse, no horror gore.",
+    "style_notes": "Consistent portrait crop for dialogue UI."
+  },
+  {
+    "asset_prompt_id": "STAP00043",
+    "asset_type": "dialogue_portrait",
+    "owner_type": "dialogue",
+    "owner_id": "DLG00003",
+    "filename": "portrait_DLG00003.png",
+    "prompt": "Dialogue portrait for Companion Nilalang, emotion resolute, Filipino fantasy RPG, expressive face, practical clothing, transparent background friendly, no text.",
+    "negative_prompt": "No exaggerated stereotypes, no religious icon misuse, no horror gore.",
+    "style_notes": "Consistent portrait crop for dialogue UI."
+  },
+  {
+    "asset_prompt_id": "STAP00044",
+    "asset_type": "dialogue_portrait",
+    "owner_type": "dialogue",
+    "owner_id": "DLG00004",
+    "filename": "portrait_DLG00004.png",
+    "prompt": "Dialogue portrait for Player Mentor, emotion warm, Filipino fantasy RPG, expressive face, practical clothing, transparent background friendly, no text.",
+    "negative_prompt": "No exaggerated stereotypes, no religious icon misuse, no horror gore.",
+    "style_notes": "Consistent portrait crop for dialogue UI."
+  },
+  {
+    "asset_prompt_id": "STAP00045",
+    "asset_type": "dialogue_portrait",
+    "owner_type": "dialogue",
+    "owner_id": "DLG00005",
+    "filename": "portrait_DLG00005.png",
+    "prompt": "Dialogue portrait for Local Witness, emotion haunted, Filipino fantasy RPG, expressive face, practical clothing, transparent background friendly, no text.",
+    "negative_prompt": "No exaggerated stereotypes, no religious icon misuse, no horror gore.",
+    "style_notes": "Consistent portrait crop for dialogue UI."
+  },
+  {
+    "asset_prompt_id": "STAP00046",
+    "asset_type": "dialogue_portrait",
+    "owner_type": "dialogue",
+    "owner_id": "DLG00006",
+    "filename": "portrait_DLG00006.png",
+    "prompt": "Dialogue portrait for Companion Nilalang, emotion calm, Filipino fantasy RPG, expressive face, practical clothing, transparent background friendly, no text.",
+    "negative_prompt": "No exaggerated stereotypes, no religious icon misuse, no horror gore.",
+    "style_notes": "Consistent portrait crop for dialogue UI."
+  },
+  {
+    "asset_prompt_id": "STAP00047",
+    "asset_type": "dialogue_portrait",
+    "owner_type": "dialogue",
+    "owner_id": "DLG00007",
+    "filename": "portrait_DLG00007.png",
+    "prompt": "Dialogue portrait for Player Mentor, emotion worried, Filipino fantasy RPG, expressive face, practical clothing, transparent background friendly, no text.",
+    "negative_prompt": "No exaggerated stereotypes, no religious icon misuse, no horror gore.",
+    "style_notes": "Consistent portrait crop for dialogue UI."
+  },
+  {
+    "asset_prompt_id": "STAP00048",
+    "asset_type": "dialogue_portrait",
+    "owner_type": "dialogue",
+    "owner_id": "DLG00008",
+    "filename": "portrait_DLG00008.png",
+    "prompt": "Dialogue portrait for Local Witness, emotion resolute, Filipino fantasy RPG, expressive face, practical clothing, transparent background friendly, no text.",
+    "negative_prompt": "No exaggerated stereotypes, no religious icon misuse, no horror gore.",
+    "style_notes": "Consistent portrait crop for dialogue UI."
+  },
+  {
+    "asset_prompt_id": "STAP00049",
+    "asset_type": "dialogue_portrait",
+    "owner_type": "dialogue",
+    "owner_id": "DLG00009",
+    "filename": "portrait_DLG00009.png",
+    "prompt": "Dialogue portrait for Companion Nilalang, emotion warm, Filipino fantasy RPG, expressive face, practical clothing, transparent background friendly, no text.",
+    "negative_prompt": "No exaggerated stereotypes, no religious icon misuse, no horror gore.",
+    "style_notes": "Consistent portrait crop for dialogue UI."
+  },
+  {
+    "asset_prompt_id": "STAP00050",
+    "asset_type": "dialogue_portrait",
+    "owner_type": "dialogue",
+    "owner_id": "DLG00010",
+    "filename": "portrait_DLG00010.png",
+    "prompt": "Dialogue portrait for Player Mentor, emotion haunted, Filipino fantasy RPG, expressive face, practical clothing, transparent background friendly, no text.",
+    "negative_prompt": "No exaggerated stereotypes, no religious icon misuse, no horror gore.",
+    "style_notes": "Consistent portrait crop for dialogue UI."
+  },
+  {
+    "asset_prompt_id": "STAP00051",
+    "asset_type": "dialogue_portrait",
+    "owner_type": "dialogue",
+    "owner_id": "DLG00011",
+    "filename": "portrait_DLG00011.png",
+    "prompt": "Dialogue portrait for Local Witness, emotion calm, Filipino fantasy RPG, expressive face, practical clothing, transparent background friendly, no text.",
+    "negative_prompt": "No exaggerated stereotypes, no religious icon misuse, no horror gore.",
+    "style_notes": "Consistent portrait crop for dialogue UI."
+  },
+  {
+    "asset_prompt_id": "STAP00052",
+    "asset_type": "dialogue_portrait",
+    "owner_type": "dialogue",
+    "owner_id": "DLG00012",
+    "filename": "portrait_DLG00012.png",
+    "prompt": "Dialogue portrait for Companion Nilalang, emotion worried, Filipino fantasy RPG, expressive face, practical clothing, transparent background friendly, no text.",
+    "negative_prompt": "No exaggerated stereotypes, no religious icon misuse, no horror gore.",
+    "style_notes": "Consistent portrait crop for dialogue UI."
+  },
+  {
+    "asset_prompt_id": "STAP00053",
+    "asset_type": "dialogue_portrait",
+    "owner_type": "dialogue",
+    "owner_id": "DLG00013",
+    "filename": "portrait_DLG00013.png",
+    "prompt": "Dialogue portrait for Player Mentor, emotion resolute, Filipino fantasy RPG, expressive face, practical clothing, transparent background friendly, no text.",
+    "negative_prompt": "No exaggerated stereotypes, no religious icon misuse, no horror gore.",
+    "style_notes": "Consistent portrait crop for dialogue UI."
+  },
+  {
+    "asset_prompt_id": "STAP00054",
+    "asset_type": "dialogue_portrait",
+    "owner_type": "dialogue",
+    "owner_id": "DLG00014",
+    "filename": "portrait_DLG00014.png",
+    "prompt": "Dialogue portrait for Local Witness, emotion warm, Filipino fantasy RPG, expressive face, practical clothing, transparent background friendly, no text.",
+    "negative_prompt": "No exaggerated stereotypes, no religious icon misuse, no horror gore.",
+    "style_notes": "Consistent portrait crop for dialogue UI."
+  },
+  {
+    "asset_prompt_id": "STAP00055",
+    "asset_type": "dialogue_portrait",
+    "owner_type": "dialogue",
+    "owner_id": "DLG00015",
+    "filename": "portrait_DLG00015.png",
+    "prompt": "Dialogue portrait for Companion Nilalang, emotion haunted, Filipino fantasy RPG, expressive face, practical clothing, transparent background friendly, no text.",
+    "negative_prompt": "No exaggerated stereotypes, no religious icon misuse, no horror gore.",
+    "style_notes": "Consistent portrait crop for dialogue UI."
+  },
+  {
+    "asset_prompt_id": "STAP00056",
+    "asset_type": "dialogue_portrait",
+    "owner_type": "dialogue",
+    "owner_id": "DLG00016",
+    "filename": "portrait_DLG00016.png",
+    "prompt": "Dialogue portrait for Player Mentor, emotion calm, Filipino fantasy RPG, expressive face, practical clothing, transparent background friendly, no text.",
+    "negative_prompt": "No exaggerated stereotypes, no religious icon misuse, no horror gore.",
+    "style_notes": "Consistent portrait crop for dialogue UI."
+  },
+  {
+    "asset_prompt_id": "STAP00057",
+    "asset_type": "dialogue_portrait",
+    "owner_type": "dialogue",
+    "owner_id": "DLG00017",
+    "filename": "portrait_DLG00017.png",
+    "prompt": "Dialogue portrait for Local Witness, emotion worried, Filipino fantasy RPG, expressive face, practical clothing, transparent background friendly, no text.",
+    "negative_prompt": "No exaggerated stereotypes, no religious icon misuse, no horror gore.",
+    "style_notes": "Consistent portrait crop for dialogue UI."
+  },
+  {
+    "asset_prompt_id": "STAP00058",
+    "asset_type": "dialogue_portrait",
+    "owner_type": "dialogue",
+    "owner_id": "DLG00018",
+    "filename": "portrait_DLG00018.png",
+    "prompt": "Dialogue portrait for Companion Nilalang, emotion resolute, Filipino fantasy RPG, expressive face, practical clothing, transparent background friendly, no text.",
+    "negative_prompt": "No exaggerated stereotypes, no religious icon misuse, no horror gore.",
+    "style_notes": "Consistent portrait crop for dialogue UI."
+  },
+  {
+    "asset_prompt_id": "STAP00059",
+    "asset_type": "dialogue_portrait",
+    "owner_type": "dialogue",
+    "owner_id": "DLG00019",
+    "filename": "portrait_DLG00019.png",
+    "prompt": "Dialogue portrait for Player Mentor, emotion warm, Filipino fantasy RPG, expressive face, practical clothing, transparent background friendly, no text.",
+    "negative_prompt": "No exaggerated stereotypes, no religious icon misuse, no horror gore.",
+    "style_notes": "Consistent portrait crop for dialogue UI."
+  },
+  {
+    "asset_prompt_id": "STAP00060",
+    "asset_type": "dialogue_portrait",
+    "owner_type": "dialogue",
+    "owner_id": "DLG00020",
+    "filename": "portrait_DLG00020.png",
+    "prompt": "Dialogue portrait for Local Witness, emotion haunted, Filipino fantasy RPG, expressive face, practical clothing, transparent background friendly, no text.",
+    "negative_prompt": "No exaggerated stereotypes, no religious icon misuse, no horror gore.",
+    "style_notes": "Consistent portrait crop for dialogue UI."
+  },
+  {
+    "asset_prompt_id": "STAP00061",
+    "asset_type": "dialogue_portrait",
+    "owner_type": "dialogue",
+    "owner_id": "DLG00021",
+    "filename": "portrait_DLG00021.png",
+    "prompt": "Dialogue portrait for Companion Nilalang, emotion calm, Filipino fantasy RPG, expressive face, practical clothing, transparent background friendly, no text.",
+    "negative_prompt": "No exaggerated stereotypes, no religious icon misuse, no horror gore.",
+    "style_notes": "Consistent portrait crop for dialogue UI."
+  },
+  {
+    "asset_prompt_id": "STAP00062",
+    "asset_type": "dialogue_portrait",
+    "owner_type": "dialogue",
+    "owner_id": "DLG00022",
+    "filename": "portrait_DLG00022.png",
+    "prompt": "Dialogue portrait for Player Mentor, emotion worried, Filipino fantasy RPG, expressive face, practical clothing, transparent background friendly, no text.",
+    "negative_prompt": "No exaggerated stereotypes, no religious icon misuse, no horror gore.",
+    "style_notes": "Consistent portrait crop for dialogue UI."
+  },
+  {
+    "asset_prompt_id": "STAP00063",
+    "asset_type": "dialogue_portrait",
+    "owner_type": "dialogue",
+    "owner_id": "DLG00023",
+    "filename": "portrait_DLG00023.png",
+    "prompt": "Dialogue portrait for Local Witness, emotion resolute, Filipino fantasy RPG, expressive face, practical clothing, transparent background friendly, no text.",
+    "negative_prompt": "No exaggerated stereotypes, no religious icon misuse, no horror gore.",
+    "style_notes": "Consistent portrait crop for dialogue UI."
+  },
+  {
+    "asset_prompt_id": "STAP00064",
+    "asset_type": "dialogue_portrait",
+    "owner_type": "dialogue",
+    "owner_id": "DLG00024",
+    "filename": "portrait_DLG00024.png",
+    "prompt": "Dialogue portrait for Companion Nilalang, emotion warm, Filipino fantasy RPG, expressive face, practical clothing, transparent background friendly, no text.",
+    "negative_prompt": "No exaggerated stereotypes, no religious icon misuse, no horror gore.",
+    "style_notes": "Consistent portrait crop for dialogue UI."
+  },
+  {
+    "asset_prompt_id": "STAP00065",
+    "asset_type": "dialogue_portrait",
+    "owner_type": "dialogue",
+    "owner_id": "DLG00025",
+    "filename": "portrait_DLG00025.png",
+    "prompt": "Dialogue portrait for Player Mentor, emotion haunted, Filipino fantasy RPG, expressive face, practical clothing, transparent background friendly, no text.",
+    "negative_prompt": "No exaggerated stereotypes, no religious icon misuse, no horror gore.",
+    "style_notes": "Consistent portrait crop for dialogue UI."
+  },
+  {
+    "asset_prompt_id": "STAP00066",
+    "asset_type": "dialogue_portrait",
+    "owner_type": "dialogue",
+    "owner_id": "DLG00026",
+    "filename": "portrait_DLG00026.png",
+    "prompt": "Dialogue portrait for Local Witness, emotion calm, Filipino fantasy RPG, expressive face, practical clothing, transparent background friendly, no text.",
+    "negative_prompt": "No exaggerated stereotypes, no religious icon misuse, no horror gore.",
+    "style_notes": "Consistent portrait crop for dialogue UI."
+  },
+  {
+    "asset_prompt_id": "STAP00067",
+    "asset_type": "dialogue_portrait",
+    "owner_type": "dialogue",
+    "owner_id": "DLG00027",
+    "filename": "portrait_DLG00027.png",
+    "prompt": "Dialogue portrait for Companion Nilalang, emotion worried, Filipino fantasy RPG, expressive face, practical clothing, transparent background friendly, no text.",
+    "negative_prompt": "No exaggerated stereotypes, no religious icon misuse, no horror gore.",
+    "style_notes": "Consistent portrait crop for dialogue UI."
+  },
+  {
+    "asset_prompt_id": "STAP00068",
+    "asset_type": "dialogue_portrait",
+    "owner_type": "dialogue",
+    "owner_id": "DLG00028",
+    "filename": "portrait_DLG00028.png",
+    "prompt": "Dialogue portrait for Player Mentor, emotion resolute, Filipino fantasy RPG, expressive face, practical clothing, transparent background friendly, no text.",
+    "negative_prompt": "No exaggerated stereotypes, no religious icon misuse, no horror gore.",
+    "style_notes": "Consistent portrait crop for dialogue UI."
+  },
+  {
+    "asset_prompt_id": "STAP00069",
+    "asset_type": "dialogue_portrait",
+    "owner_type": "dialogue",
+    "owner_id": "DLG00029",
+    "filename": "portrait_DLG00029.png",
+    "prompt": "Dialogue portrait for Local Witness, emotion warm, Filipino fantasy RPG, expressive face, practical clothing, transparent background friendly, no text.",
+    "negative_prompt": "No exaggerated stereotypes, no religious icon misuse, no horror gore.",
+    "style_notes": "Consistent portrait crop for dialogue UI."
+  },
+  {
+    "asset_prompt_id": "STAP00070",
+    "asset_type": "dialogue_portrait",
+    "owner_type": "dialogue",
+    "owner_id": "DLG00030",
+    "filename": "portrait_DLG00030.png",
+    "prompt": "Dialogue portrait for Companion Nilalang, emotion haunted, Filipino fantasy RPG, expressive face, practical clothing, transparent background friendly, no text.",
+    "negative_prompt": "No exaggerated stereotypes, no religious icon misuse, no horror gore.",
+    "style_notes": "Consistent portrait crop for dialogue UI."
+  },
+  {
+    "asset_prompt_id": "STAP00081",
+    "asset_type": "ending_illustration",
+    "owner_type": "ending_route",
+    "owner_id": "END001",
+    "filename": "ending_END001_song-returned.png",
+    "prompt": "Ending illustration for Song Returned, Requires high balance, companion trust, and repaired regional bonds., hopeful Filipino fantasy storybook composition, community and landscape visible, no text.",
+    "negative_prompt": "No single religion shown as final truth, no conquest imagery, no logo.",
+    "style_notes": "Gallery art with room for UI overlay."
+  },
+  {
+    "asset_prompt_id": "STAP00082",
+    "asset_type": "ending_illustration",
+    "owner_type": "ending_route",
+    "owner_id": "END002",
+    "filename": "ending_END002_islands-remembered.png",
+    "prompt": "Ending illustration for Islands Remembered, Prioritizes one region while leaving others with unresolved work., hopeful Filipino fantasy storybook composition, community and landscape visible, no text.",
+    "negative_prompt": "No single religion shown as final truth, no conquest imagery, no logo.",
+    "style_notes": "Gallery art with room for UI overlay."
+  },
+  {
+    "asset_prompt_id": "STAP00083",
+    "asset_type": "ending_illustration",
+    "owner_type": "ending_route",
+    "owner_id": "END003",
+    "filename": "ending_END003_council-oath.png",
+    "prompt": "Ending illustration for Council Oath, A faction alliance defines the final restoration plan., hopeful Filipino fantasy storybook composition, community and landscape visible, no text.",
+    "negative_prompt": "No single religion shown as final truth, no conquest imagery, no logo.",
+    "style_notes": "Gallery art with room for UI overlay."
+  },
+  {
+    "asset_prompt_id": "STAP00084",
+    "asset_type": "ending_illustration",
+    "owner_type": "ending_route",
+    "owner_id": "END004",
+    "filename": "ending_END004_beside-the-first-friend.png",
+    "prompt": "Ending illustration for Beside the First Friend, Companion Nilalang trust reshapes the final scene., hopeful Filipino fantasy storybook composition, community and landscape visible, no text.",
+    "negative_prompt": "No single religion shown as final truth, no conquest imagery, no logo.",
+    "style_notes": "Gallery art with room for UI overlay."
+  },
+  {
+    "asset_prompt_id": "STAP00085",
+    "asset_type": "ending_illustration",
+    "owner_type": "ending_route",
+    "owner_id": "END005",
+    "filename": "ending_END005_doors-of-the-great-ones.png",
+    "prompt": "Ending illustration for Doors of the Great Ones, Legendary encounters open an older route., hopeful Filipino fantasy storybook composition, community and landscape visible, no text.",
+    "negative_prompt": "No single religion shown as final truth, no conquest imagery, no logo.",
+    "style_notes": "Gallery art with room for UI overlay."
+  },
+  {
+    "asset_prompt_id": "STAP00086",
+    "asset_type": "ending_illustration",
+    "owner_type": "ending_route",
+    "owner_id": "END006",
+    "filename": "ending_END006_the-quiet-name.png",
+    "prompt": "Ending illustration for The Quiet Name, Curiosity and secret flags reveal a hidden memory path., hopeful Filipino fantasy storybook composition, community and landscape visible, no text.",
+    "negative_prompt": "No single religion shown as final truth, no conquest imagery, no logo.",
+    "style_notes": "Gallery art with room for UI overlay."
+  },
+  {
+    "asset_prompt_id": "STAP00087",
+    "asset_type": "ending_illustration",
+    "owner_type": "ending_route",
+    "owner_id": "END007",
+    "filename": "ending_END007_new-fires-at-dawn.png",
+    "prompt": "Ending illustration for New Fires at Dawn, Postgame restoration becomes the main reward., hopeful Filipino fantasy storybook composition, community and landscape visible, no text.",
+    "negative_prompt": "No single religion shown as final truth, no conquest imagery, no logo.",
+    "style_notes": "Gallery art with room for UI overlay."
+  },
+  {
+    "asset_prompt_id": "STAP00088",
+    "asset_type": "ending_illustration",
+    "owner_type": "ending_route",
+    "owner_id": "END008",
+    "filename": "ending_END008_sail-beyond-the-map.png",
+    "prompt": "Ending illustration for Sail Beyond the Map, Hooks future regions, seasonal arcs, and transmedia stories., hopeful Filipino fantasy storybook composition, community and landscape visible, no text.",
+    "negative_prompt": "No single religion shown as final truth, no conquest imagery, no logo.",
+    "style_notes": "Gallery art with room for UI overlay."
+  }
+]

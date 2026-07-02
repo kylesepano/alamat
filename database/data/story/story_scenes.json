@@ -1,0 +1,842 @@
+[
+  {
+    "scene_id": "STSC00001",
+    "chapter_id": "STCH001",
+    "scene_order": 1,
+    "title": "Home by the River: Arrival",
+    "scene_type": "quest",
+    "location_id": "WLOC000002",
+    "participating_npcs": [
+      "NPC000001",
+      "NPC000002"
+    ],
+    "participating_monsters": [
+      "ALM-0001",
+      "ALM-0002"
+    ],
+    "dialogue_root": "DLG00001",
+    "cinematic_id": null,
+    "music_track": "home-by-the-river_theme",
+    "weather": "Rain",
+    "time_of_day": "Day",
+    "story_flags": {
+      "grants": [
+        "scene_1_seen"
+      ],
+      "requires": []
+    }
+  },
+  {
+    "scene_id": "STSC00002",
+    "chapter_id": "STCH001",
+    "scene_order": 2,
+    "title": "Home by the River: Decision",
+    "scene_type": "festival",
+    "location_id": "WLOC000003",
+    "participating_npcs": [
+      "NPC000001",
+      "NPC000002"
+    ],
+    "participating_monsters": [
+      "ALM-0001",
+      "ALM-0002"
+    ],
+    "dialogue_root": "DLG00002",
+    "cinematic_id": "CIN00002",
+    "music_track": "home-by-the-river_choice",
+    "weather": "Storm",
+    "time_of_day": "Dusk",
+    "story_flags": {
+      "grants": [
+        "scene_2_seen"
+      ],
+      "requires": [
+        "scene_1_seen"
+      ]
+    }
+  },
+  {
+    "scene_id": "STSC00003",
+    "chapter_id": "STCH002",
+    "scene_order": 1,
+    "title": "First Oath of Trust: Arrival",
+    "scene_type": "relationship",
+    "location_id": "WLOC000004",
+    "participating_npcs": [
+      "NPC000003",
+      "NPC000004"
+    ],
+    "participating_monsters": [
+      "ALM-0003",
+      "ALM-0004"
+    ],
+    "dialogue_root": "DLG00003",
+    "cinematic_id": null,
+    "music_track": "first-oath-of-trust_theme",
+    "weather": "Mist",
+    "time_of_day": "Night",
+    "story_flags": {
+      "grants": [
+        "scene_3_seen"
+      ],
+      "requires": []
+    }
+  },
+  {
+    "scene_id": "STSC00004",
+    "chapter_id": "STCH002",
+    "scene_order": 2,
+    "title": "First Oath of Trust: Decision",
+    "scene_type": "cinematic",
+    "location_id": "WLOC000005",
+    "participating_npcs": [
+      "NPC000003",
+      "NPC000004"
+    ],
+    "participating_monsters": [
+      "ALM-0003",
+      "ALM-0004"
+    ],
+    "dialogue_root": "DLG00004",
+    "cinematic_id": "CIN00004",
+    "music_track": "first-oath-of-trust_choice",
+    "weather": "New Moon",
+    "time_of_day": "Dawn",
+    "story_flags": {
+      "grants": [
+        "scene_4_seen"
+      ],
+      "requires": [
+        "scene_3_seen"
+      ]
+    }
+  },
+  {
+    "scene_id": "STSC00005",
+    "chapter_id": "STCH003",
+    "scene_order": 1,
+    "title": "Market of Broken Bowls: Arrival",
+    "scene_type": "choice",
+    "location_id": "WLOC000006",
+    "participating_npcs": [
+      "NPC000005",
+      "NPC000006"
+    ],
+    "participating_monsters": [
+      "ALM-0005",
+      "ALM-0006"
+    ],
+    "dialogue_root": "DLG00005",
+    "cinematic_id": null,
+    "music_track": "market-of-broken-bowls_theme",
+    "weather": "Clear",
+    "time_of_day": "Day",
+    "story_flags": {
+      "grants": [
+        "scene_5_seen"
+      ],
+      "requires": []
+    }
+  },
+  {
+    "scene_id": "STSC00006",
+    "chapter_id": "STCH003",
+    "scene_order": 2,
+    "title": "Market of Broken Bowls: Decision",
+    "scene_type": "story",
+    "location_id": "WLOC000007",
+    "participating_npcs": [
+      "NPC000005",
+      "NPC000006"
+    ],
+    "participating_monsters": [
+      "ALM-0005",
+      "ALM-0006"
+    ],
+    "dialogue_root": "DLG00006",
+    "cinematic_id": "CIN00006",
+    "music_track": "market-of-broken-bowls_choice",
+    "weather": "Rain",
+    "time_of_day": "Dusk",
+    "story_flags": {
+      "grants": [
+        "scene_6_seen"
+      ],
+      "requires": [
+        "scene_5_seen"
+      ]
+    }
+  },
+  {
+    "scene_id": "STSC00007",
+    "chapter_id": "STCH004",
+    "scene_order": 1,
+    "title": "The Balete Vigil: Arrival",
+    "scene_type": "quest",
+    "location_id": "WLOC000008",
+    "participating_npcs": [
+      "NPC000007",
+      "NPC000008"
+    ],
+    "participating_monsters": [
+      "ALM-0007",
+      "ALM-0008"
+    ],
+    "dialogue_root": "DLG00007",
+    "cinematic_id": null,
+    "music_track": "the-balete-vigil_theme",
+    "weather": "Storm",
+    "time_of_day": "Night",
+    "story_flags": {
+      "grants": [
+        "scene_7_seen"
+      ],
+      "requires": []
+    }
+  },
+  {
+    "scene_id": "STSC00008",
+    "chapter_id": "STCH004",
+    "scene_order": 2,
+    "title": "The Balete Vigil: Decision",
+    "scene_type": "festival",
+    "location_id": "WLOC000009",
+    "participating_npcs": [
+      "NPC000007",
+      "NPC000008"
+    ],
+    "participating_monsters": [
+      "ALM-0007",
+      "ALM-0008"
+    ],
+    "dialogue_root": "DLG00008",
+    "cinematic_id": "CIN00008",
+    "music_track": "the-balete-vigil_choice",
+    "weather": "Mist",
+    "time_of_day": "Dawn",
+    "story_flags": {
+      "grants": [
+        "scene_8_seen"
+      ],
+      "requires": [
+        "scene_7_seen"
+      ]
+    }
+  },
+  {
+    "scene_id": "STSC00009",
+    "chapter_id": "STCH005",
+    "scene_order": 1,
+    "title": "Rain Roads: Arrival",
+    "scene_type": "relationship",
+    "location_id": "WLOC000010",
+    "participating_npcs": [
+      "NPC000009",
+      "NPC000010"
+    ],
+    "participating_monsters": [
+      "ALM-0009",
+      "ALM-0010"
+    ],
+    "dialogue_root": "DLG00009",
+    "cinematic_id": null,
+    "music_track": "rain-roads_theme",
+    "weather": "New Moon",
+    "time_of_day": "Day",
+    "story_flags": {
+      "grants": [
+        "scene_9_seen"
+      ],
+      "requires": []
+    }
+  },
+  {
+    "scene_id": "STSC00010",
+    "chapter_id": "STCH005",
+    "scene_order": 2,
+    "title": "Rain Roads: Decision",
+    "scene_type": "cinematic",
+    "location_id": "WLOC000011",
+    "participating_npcs": [
+      "NPC000009",
+      "NPC000010"
+    ],
+    "participating_monsters": [
+      "ALM-0009",
+      "ALM-0010"
+    ],
+    "dialogue_root": "DLG00010",
+    "cinematic_id": "CIN00010",
+    "music_track": "rain-roads_choice",
+    "weather": "Clear",
+    "time_of_day": "Dusk",
+    "story_flags": {
+      "grants": [
+        "scene_10_seen"
+      ],
+      "requires": [
+        "scene_9_seen"
+      ]
+    }
+  },
+  {
+    "scene_id": "STSC00011",
+    "chapter_id": "STCH006",
+    "scene_order": 1,
+    "title": "Council of Ash: Arrival",
+    "scene_type": "choice",
+    "location_id": "WLOC000012",
+    "participating_npcs": [
+      "NPC000011",
+      "NPC000012"
+    ],
+    "participating_monsters": [
+      "ALM-0011",
+      "ALM-0012"
+    ],
+    "dialogue_root": "DLG00011",
+    "cinematic_id": null,
+    "music_track": "council-of-ash_theme",
+    "weather": "Rain",
+    "time_of_day": "Night",
+    "story_flags": {
+      "grants": [
+        "scene_11_seen"
+      ],
+      "requires": []
+    }
+  },
+  {
+    "scene_id": "STSC00012",
+    "chapter_id": "STCH006",
+    "scene_order": 2,
+    "title": "Council of Ash: Decision",
+    "scene_type": "story",
+    "location_id": "WLOC000013",
+    "participating_npcs": [
+      "NPC000011",
+      "NPC000012"
+    ],
+    "participating_monsters": [
+      "ALM-0011",
+      "ALM-0012"
+    ],
+    "dialogue_root": "DLG00012",
+    "cinematic_id": "CIN00012",
+    "music_track": "council-of-ash_choice",
+    "weather": "Storm",
+    "time_of_day": "Dawn",
+    "story_flags": {
+      "grants": [
+        "scene_12_seen"
+      ],
+      "requires": [
+        "scene_11_seen"
+      ]
+    }
+  },
+  {
+    "scene_id": "STSC00013",
+    "chapter_id": "STCH007",
+    "scene_order": 1,
+    "title": "Dream Gate: Arrival",
+    "scene_type": "quest",
+    "location_id": "WLOC000014",
+    "participating_npcs": [
+      "NPC000013",
+      "NPC000014"
+    ],
+    "participating_monsters": [
+      "ALM-0013",
+      "ALM-0014"
+    ],
+    "dialogue_root": "DLG00013",
+    "cinematic_id": null,
+    "music_track": "dream-gate_theme",
+    "weather": "Mist",
+    "time_of_day": "Day",
+    "story_flags": {
+      "grants": [
+        "scene_13_seen"
+      ],
+      "requires": []
+    }
+  },
+  {
+    "scene_id": "STSC00014",
+    "chapter_id": "STCH007",
+    "scene_order": 2,
+    "title": "Dream Gate: Decision",
+    "scene_type": "festival",
+    "location_id": "WLOC000015",
+    "participating_npcs": [
+      "NPC000013",
+      "NPC000014"
+    ],
+    "participating_monsters": [
+      "ALM-0013",
+      "ALM-0014"
+    ],
+    "dialogue_root": "DLG00014",
+    "cinematic_id": "CIN00014",
+    "music_track": "dream-gate_choice",
+    "weather": "New Moon",
+    "time_of_day": "Dusk",
+    "story_flags": {
+      "grants": [
+        "scene_14_seen"
+      ],
+      "requires": [
+        "scene_13_seen"
+      ]
+    }
+  },
+  {
+    "scene_id": "STSC00015",
+    "chapter_id": "STCH008",
+    "scene_order": 1,
+    "title": "Lamp of the Below: Arrival",
+    "scene_type": "relationship",
+    "location_id": "WLOC000016",
+    "participating_npcs": [
+      "NPC000015",
+      "NPC000016"
+    ],
+    "participating_monsters": [
+      "ALM-0015",
+      "ALM-0016"
+    ],
+    "dialogue_root": "DLG00015",
+    "cinematic_id": null,
+    "music_track": "lamp-of-the-below_theme",
+    "weather": "Clear",
+    "time_of_day": "Night",
+    "story_flags": {
+      "grants": [
+        "scene_15_seen"
+      ],
+      "requires": []
+    }
+  },
+  {
+    "scene_id": "STSC00016",
+    "chapter_id": "STCH008",
+    "scene_order": 2,
+    "title": "Lamp of the Below: Decision",
+    "scene_type": "cinematic",
+    "location_id": "WLOC000017",
+    "participating_npcs": [
+      "NPC000015",
+      "NPC000016"
+    ],
+    "participating_monsters": [
+      "ALM-0015",
+      "ALM-0016"
+    ],
+    "dialogue_root": "DLG00016",
+    "cinematic_id": "CIN00016",
+    "music_track": "lamp-of-the-below_choice",
+    "weather": "Rain",
+    "time_of_day": "Dawn",
+    "story_flags": {
+      "grants": [
+        "scene_16_seen"
+      ],
+      "requires": [
+        "scene_15_seen"
+      ]
+    }
+  },
+  {
+    "scene_id": "STSC00017",
+    "chapter_id": "STCH009",
+    "scene_order": 1,
+    "title": "Court of Tides: Arrival",
+    "scene_type": "choice",
+    "location_id": "WLOC000018",
+    "participating_npcs": [
+      "NPC000017",
+      "NPC000018"
+    ],
+    "participating_monsters": [
+      "ALM-0017",
+      "ALM-0018"
+    ],
+    "dialogue_root": "DLG00017",
+    "cinematic_id": null,
+    "music_track": "court-of-tides_theme",
+    "weather": "Storm",
+    "time_of_day": "Day",
+    "story_flags": {
+      "grants": [
+        "scene_17_seen"
+      ],
+      "requires": []
+    }
+  },
+  {
+    "scene_id": "STSC00018",
+    "chapter_id": "STCH009",
+    "scene_order": 2,
+    "title": "Court of Tides: Decision",
+    "scene_type": "story",
+    "location_id": "WLOC000019",
+    "participating_npcs": [
+      "NPC000017",
+      "NPC000018"
+    ],
+    "participating_monsters": [
+      "ALM-0017",
+      "ALM-0018"
+    ],
+    "dialogue_root": "DLG00018",
+    "cinematic_id": "CIN00018",
+    "music_track": "court-of-tides_choice",
+    "weather": "Mist",
+    "time_of_day": "Dusk",
+    "story_flags": {
+      "grants": [
+        "scene_18_seen"
+      ],
+      "requires": [
+        "scene_17_seen"
+      ]
+    }
+  },
+  {
+    "scene_id": "STSC00019",
+    "chapter_id": "STCH010",
+    "scene_order": 1,
+    "title": "Pact of Thunder: Arrival",
+    "scene_type": "quest",
+    "location_id": "WLOC000020",
+    "participating_npcs": [
+      "NPC000019",
+      "NPC000020"
+    ],
+    "participating_monsters": [
+      "ALM-0019",
+      "ALM-0020"
+    ],
+    "dialogue_root": "DLG00019",
+    "cinematic_id": null,
+    "music_track": "pact-of-thunder_theme",
+    "weather": "New Moon",
+    "time_of_day": "Night",
+    "story_flags": {
+      "grants": [
+        "scene_19_seen"
+      ],
+      "requires": []
+    }
+  },
+  {
+    "scene_id": "STSC00020",
+    "chapter_id": "STCH010",
+    "scene_order": 2,
+    "title": "Pact of Thunder: Decision",
+    "scene_type": "festival",
+    "location_id": "WLOC000021",
+    "participating_npcs": [
+      "NPC000019",
+      "NPC000020"
+    ],
+    "participating_monsters": [
+      "ALM-0019",
+      "ALM-0020"
+    ],
+    "dialogue_root": "DLG00020",
+    "cinematic_id": "CIN00020",
+    "music_track": "pact-of-thunder_choice",
+    "weather": "Clear",
+    "time_of_day": "Dawn",
+    "story_flags": {
+      "grants": [
+        "scene_20_seen"
+      ],
+      "requires": [
+        "scene_19_seen"
+      ]
+    }
+  },
+  {
+    "scene_id": "STSC00021",
+    "chapter_id": "STCH011",
+    "scene_order": 1,
+    "title": "Many Councils: Arrival",
+    "scene_type": "relationship",
+    "location_id": "WLOC000022",
+    "participating_npcs": [
+      "NPC000021",
+      "NPC000022"
+    ],
+    "participating_monsters": [
+      "ALM-0021",
+      "ALM-0022"
+    ],
+    "dialogue_root": "DLG00021",
+    "cinematic_id": null,
+    "music_track": "many-councils_theme",
+    "weather": "Rain",
+    "time_of_day": "Day",
+    "story_flags": {
+      "grants": [
+        "scene_21_seen"
+      ],
+      "requires": []
+    }
+  },
+  {
+    "scene_id": "STSC00022",
+    "chapter_id": "STCH011",
+    "scene_order": 2,
+    "title": "Many Councils: Decision",
+    "scene_type": "cinematic",
+    "location_id": "WLOC000023",
+    "participating_npcs": [
+      "NPC000021",
+      "NPC000022"
+    ],
+    "participating_monsters": [
+      "ALM-0021",
+      "ALM-0022"
+    ],
+    "dialogue_root": "DLG00022",
+    "cinematic_id": "CIN00022",
+    "music_track": "many-councils_choice",
+    "weather": "Storm",
+    "time_of_day": "Dusk",
+    "story_flags": {
+      "grants": [
+        "scene_22_seen"
+      ],
+      "requires": [
+        "scene_21_seen"
+      ]
+    }
+  },
+  {
+    "scene_id": "STSC00023",
+    "chapter_id": "STCH012",
+    "scene_order": 1,
+    "title": "Final Threshold: Arrival",
+    "scene_type": "choice",
+    "location_id": "WLOC000024",
+    "participating_npcs": [
+      "NPC000023",
+      "NPC000024"
+    ],
+    "participating_monsters": [
+      "ALM-0023",
+      "ALM-0024"
+    ],
+    "dialogue_root": "DLG00023",
+    "cinematic_id": null,
+    "music_track": "final-threshold_theme",
+    "weather": "Mist",
+    "time_of_day": "Night",
+    "story_flags": {
+      "grants": [
+        "scene_23_seen"
+      ],
+      "requires": []
+    }
+  },
+  {
+    "scene_id": "STSC00024",
+    "chapter_id": "STCH012",
+    "scene_order": 2,
+    "title": "Final Threshold: Decision",
+    "scene_type": "story",
+    "location_id": "WLOC000025",
+    "participating_npcs": [
+      "NPC000023",
+      "NPC000024"
+    ],
+    "participating_monsters": [
+      "ALM-0023",
+      "ALM-0024"
+    ],
+    "dialogue_root": "DLG00024",
+    "cinematic_id": "CIN00024",
+    "music_track": "final-threshold_choice",
+    "weather": "New Moon",
+    "time_of_day": "Dawn",
+    "story_flags": {
+      "grants": [
+        "scene_24_seen"
+      ],
+      "requires": [
+        "scene_23_seen"
+      ]
+    }
+  },
+  {
+    "scene_id": "STSC00025",
+    "chapter_id": "STCH013",
+    "scene_order": 1,
+    "title": "Song Returned: Arrival",
+    "scene_type": "quest",
+    "location_id": "WLOC000026",
+    "participating_npcs": [
+      "NPC000025",
+      "NPC000026"
+    ],
+    "participating_monsters": [
+      "ALM-0025",
+      "ALM-0026"
+    ],
+    "dialogue_root": "DLG00025",
+    "cinematic_id": null,
+    "music_track": "song-returned_theme",
+    "weather": "Clear",
+    "time_of_day": "Day",
+    "story_flags": {
+      "grants": [
+        "scene_25_seen"
+      ],
+      "requires": []
+    }
+  },
+  {
+    "scene_id": "STSC00026",
+    "chapter_id": "STCH013",
+    "scene_order": 2,
+    "title": "Song Returned: Decision",
+    "scene_type": "festival",
+    "location_id": "WLOC000027",
+    "participating_npcs": [
+      "NPC000025",
+      "NPC000026"
+    ],
+    "participating_monsters": [
+      "ALM-0025",
+      "ALM-0026"
+    ],
+    "dialogue_root": "DLG00026",
+    "cinematic_id": "CIN00026",
+    "music_track": "song-returned_choice",
+    "weather": "Rain",
+    "time_of_day": "Dusk",
+    "story_flags": {
+      "grants": [
+        "scene_26_seen"
+      ],
+      "requires": [
+        "scene_25_seen"
+      ]
+    }
+  },
+  {
+    "scene_id": "STSC00027",
+    "chapter_id": "STCH014",
+    "scene_order": 1,
+    "title": "New Fires at Dawn: Arrival",
+    "scene_type": "relationship",
+    "location_id": "WLOC000028",
+    "participating_npcs": [
+      "NPC000027",
+      "NPC000028"
+    ],
+    "participating_monsters": [
+      "ALM-0027",
+      "ALM-0028"
+    ],
+    "dialogue_root": "DLG00027",
+    "cinematic_id": null,
+    "music_track": "new-fires-at-dawn_theme",
+    "weather": "Storm",
+    "time_of_day": "Night",
+    "story_flags": {
+      "grants": [
+        "scene_27_seen"
+      ],
+      "requires": []
+    }
+  },
+  {
+    "scene_id": "STSC00028",
+    "chapter_id": "STCH014",
+    "scene_order": 2,
+    "title": "New Fires at Dawn: Decision",
+    "scene_type": "cinematic",
+    "location_id": "WLOC000029",
+    "participating_npcs": [
+      "NPC000027",
+      "NPC000028"
+    ],
+    "participating_monsters": [
+      "ALM-0027",
+      "ALM-0028"
+    ],
+    "dialogue_root": "DLG00028",
+    "cinematic_id": "CIN00028",
+    "music_track": "new-fires-at-dawn_choice",
+    "weather": "Mist",
+    "time_of_day": "Dawn",
+    "story_flags": {
+      "grants": [
+        "scene_28_seen"
+      ],
+      "requires": [
+        "scene_27_seen"
+      ]
+    }
+  },
+  {
+    "scene_id": "STSC00029",
+    "chapter_id": "STCH015",
+    "scene_order": 1,
+    "title": "Islands Beyond the Map: Arrival",
+    "scene_type": "choice",
+    "location_id": "WLOC000030",
+    "participating_npcs": [
+      "NPC000029",
+      "NPC000030"
+    ],
+    "participating_monsters": [
+      "ALM-0029",
+      "ALM-0030"
+    ],
+    "dialogue_root": "DLG00029",
+    "cinematic_id": null,
+    "music_track": "islands-beyond-the-map_theme",
+    "weather": "New Moon",
+    "time_of_day": "Day",
+    "story_flags": {
+      "grants": [
+        "scene_29_seen"
+      ],
+      "requires": []
+    }
+  },
+  {
+    "scene_id": "STSC00030",
+    "chapter_id": "STCH015",
+    "scene_order": 2,
+    "title": "Islands Beyond the Map: Decision",
+    "scene_type": "story",
+    "location_id": "WLOC000031",
+    "participating_npcs": [
+      "NPC000029",
+      "NPC000030"
+    ],
+    "participating_monsters": [
+      "ALM-0029",
+      "ALM-0030"
+    ],
+    "dialogue_root": "DLG00030",
+    "cinematic_id": "CIN00030",
+    "music_track": "islands-beyond-the-map_choice",
+    "weather": "Clear",
+    "time_of_day": "Dusk",
+    "story_flags": {
+      "grants": [
+        "scene_30_seen"
+      ],
+      "requires": [
+        "scene_29_seen"
+      ]
+    }
+  }
+]

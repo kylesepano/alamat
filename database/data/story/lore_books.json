@@ -1,0 +1,338 @@
+[
+  {
+    "lore_book_id": "LBOOK00001",
+    "title": "Old Letters from the River 1",
+    "slug": "lore-book-1",
+    "collectible_type": "folklore_book",
+    "excerpt": "A fictional ALAMAT collectible that enriches world context without becoming mandatory progression.",
+    "full_text": "This entry records local memory, uncertainty, and care. It avoids claiming authority over real-world traditions and remains internal to ALAMAT.",
+    "region_id": "WREG0001",
+    "location_id": "WLOC000001",
+    "unlock_condition_payload": {
+      "chapter": "STCH001"
+    },
+    "sort_order": 1
+  },
+  {
+    "lore_book_id": "LBOOK00002",
+    "title": "Field Notes on Trust 1",
+    "slug": "lore-book-2",
+    "collectible_type": "old_letter",
+    "excerpt": "A fictional ALAMAT collectible that enriches world context without becoming mandatory progression.",
+    "full_text": "This entry records local memory, uncertainty, and care. It avoids claiming authority over real-world traditions and remains internal to ALAMAT.",
+    "region_id": "WREG0002",
+    "location_id": "WLOC000002",
+    "unlock_condition_payload": {
+      "chapter": "STCH002"
+    },
+    "sort_order": 2
+  },
+  {
+    "lore_book_id": "LBOOK00003",
+    "title": "Maps of Rain Roads 1",
+    "slug": "lore-book-3",
+    "collectible_type": "field_note",
+    "excerpt": "A fictional ALAMAT collectible that enriches world context without becoming mandatory progression.",
+    "full_text": "This entry records local memory, uncertainty, and care. It avoids claiming authority over real-world traditions and remains internal to ALAMAT.",
+    "region_id": "WREG0003",
+    "location_id": "WLOC000003",
+    "unlock_condition_payload": {
+      "chapter": "STCH003"
+    },
+    "sort_order": 3
+  },
+  {
+    "lore_book_id": "LBOOK00004",
+    "title": "Shrine Inscriptions 1",
+    "slug": "lore-book-4",
+    "collectible_type": "historical_journal",
+    "excerpt": "A fictional ALAMAT collectible that enriches world context without becoming mandatory progression.",
+    "full_text": "This entry records local memory, uncertainty, and care. It avoids claiming authority over real-world traditions and remains internal to ALAMAT.",
+    "region_id": "WREG0004",
+    "location_id": "WLOC000004",
+    "unlock_condition_payload": {
+      "chapter": "STCH004"
+    },
+    "sort_order": 4
+  },
+  {
+    "lore_book_id": "LBOOK00005",
+    "title": "Family Records 1",
+    "slug": "lore-book-5",
+    "collectible_type": "map",
+    "excerpt": "A fictional ALAMAT collectible that enriches world context without becoming mandatory progression.",
+    "full_text": "This entry records local memory, uncertainty, and care. It avoids claiming authority over real-world traditions and remains internal to ALAMAT.",
+    "region_id": "WREG0005",
+    "location_id": "WLOC000005",
+    "unlock_condition_payload": {
+      "chapter": "STCH005"
+    },
+    "sort_order": 5
+  },
+  {
+    "lore_book_id": "LBOOK00006",
+    "title": "Old Letters from the River 2",
+    "slug": "lore-book-6",
+    "collectible_type": "shrine_inscription",
+    "excerpt": "A fictional ALAMAT collectible that enriches world context without becoming mandatory progression.",
+    "full_text": "This entry records local memory, uncertainty, and care. It avoids claiming authority over real-world traditions and remains internal to ALAMAT.",
+    "region_id": "WREG0006",
+    "location_id": "WLOC000006",
+    "unlock_condition_payload": {
+      "chapter": "STCH006"
+    },
+    "sort_order": 6
+  },
+  {
+    "lore_book_id": "LBOOK00007",
+    "title": "Field Notes on Trust 2",
+    "slug": "lore-book-7",
+    "collectible_type": "family_record",
+    "excerpt": "A fictional ALAMAT collectible that enriches world context without becoming mandatory progression.",
+    "full_text": "This entry records local memory, uncertainty, and care. It avoids claiming authority over real-world traditions and remains internal to ALAMAT.",
+    "region_id": "WREG0007",
+    "location_id": "WLOC000007",
+    "unlock_condition_payload": {
+      "chapter": "STCH007"
+    },
+    "sort_order": 7
+  },
+  {
+    "lore_book_id": "LBOOK00008",
+    "title": "Maps of Rain Roads 2",
+    "slug": "lore-book-8",
+    "collectible_type": "folklore_book",
+    "excerpt": "A fictional ALAMAT collectible that enriches world context without becoming mandatory progression.",
+    "full_text": "This entry records local memory, uncertainty, and care. It avoids claiming authority over real-world traditions and remains internal to ALAMAT.",
+    "region_id": "WREG0008",
+    "location_id": "WLOC000008",
+    "unlock_condition_payload": {
+      "chapter": "STCH008"
+    },
+    "sort_order": 8
+  },
+  {
+    "lore_book_id": "LBOOK00009",
+    "title": "Shrine Inscriptions 2",
+    "slug": "lore-book-9",
+    "collectible_type": "old_letter",
+    "excerpt": "A fictional ALAMAT collectible that enriches world context without becoming mandatory progression.",
+    "full_text": "This entry records local memory, uncertainty, and care. It avoids claiming authority over real-world traditions and remains internal to ALAMAT.",
+    "region_id": "WREG0009",
+    "location_id": "WLOC000009",
+    "unlock_condition_payload": {
+      "chapter": "STCH009"
+    },
+    "sort_order": 9
+  },
+  {
+    "lore_book_id": "LBOOK00010",
+    "title": "Family Records 2",
+    "slug": "lore-book-10",
+    "collectible_type": "field_note",
+    "excerpt": "A fictional ALAMAT collectible that enriches world context without becoming mandatory progression.",
+    "full_text": "This entry records local memory, uncertainty, and care. It avoids claiming authority over real-world traditions and remains internal to ALAMAT.",
+    "region_id": "WREG0010",
+    "location_id": "WLOC000010",
+    "unlock_condition_payload": {
+      "chapter": "STCH010"
+    },
+    "sort_order": 10
+  },
+  {
+    "lore_book_id": "LBOOK00011",
+    "title": "Old Letters from the River 3",
+    "slug": "lore-book-11",
+    "collectible_type": "historical_journal",
+    "excerpt": "A fictional ALAMAT collectible that enriches world context without becoming mandatory progression.",
+    "full_text": "This entry records local memory, uncertainty, and care. It avoids claiming authority over real-world traditions and remains internal to ALAMAT.",
+    "region_id": "WREG0011",
+    "location_id": "WLOC000011",
+    "unlock_condition_payload": {
+      "chapter": "STCH011"
+    },
+    "sort_order": 11
+  },
+  {
+    "lore_book_id": "LBOOK00012",
+    "title": "Field Notes on Trust 3",
+    "slug": "lore-book-12",
+    "collectible_type": "map",
+    "excerpt": "A fictional ALAMAT collectible that enriches world context without becoming mandatory progression.",
+    "full_text": "This entry records local memory, uncertainty, and care. It avoids claiming authority over real-world traditions and remains internal to ALAMAT.",
+    "region_id": "WREG0012",
+    "location_id": "WLOC000012",
+    "unlock_condition_payload": {
+      "chapter": "STCH012"
+    },
+    "sort_order": 12
+  },
+  {
+    "lore_book_id": "LBOOK00013",
+    "title": "Maps of Rain Roads 3",
+    "slug": "lore-book-13",
+    "collectible_type": "shrine_inscription",
+    "excerpt": "A fictional ALAMAT collectible that enriches world context without becoming mandatory progression.",
+    "full_text": "This entry records local memory, uncertainty, and care. It avoids claiming authority over real-world traditions and remains internal to ALAMAT.",
+    "region_id": "WREG0013",
+    "location_id": "WLOC000013",
+    "unlock_condition_payload": {
+      "chapter": "STCH013"
+    },
+    "sort_order": 13
+  },
+  {
+    "lore_book_id": "LBOOK00014",
+    "title": "Shrine Inscriptions 3",
+    "slug": "lore-book-14",
+    "collectible_type": "family_record",
+    "excerpt": "A fictional ALAMAT collectible that enriches world context without becoming mandatory progression.",
+    "full_text": "This entry records local memory, uncertainty, and care. It avoids claiming authority over real-world traditions and remains internal to ALAMAT.",
+    "region_id": "WREG0014",
+    "location_id": "WLOC000014",
+    "unlock_condition_payload": {
+      "chapter": "STCH014"
+    },
+    "sort_order": 14
+  },
+  {
+    "lore_book_id": "LBOOK00015",
+    "title": "Family Records 3",
+    "slug": "lore-book-15",
+    "collectible_type": "folklore_book",
+    "excerpt": "A fictional ALAMAT collectible that enriches world context without becoming mandatory progression.",
+    "full_text": "This entry records local memory, uncertainty, and care. It avoids claiming authority over real-world traditions and remains internal to ALAMAT.",
+    "region_id": "WREG0015",
+    "location_id": "WLOC000015",
+    "unlock_condition_payload": {
+      "chapter": "STCH015"
+    },
+    "sort_order": 15
+  },
+  {
+    "lore_book_id": "LBOOK00016",
+    "title": "Old Letters from the River 4",
+    "slug": "lore-book-16",
+    "collectible_type": "old_letter",
+    "excerpt": "A fictional ALAMAT collectible that enriches world context without becoming mandatory progression.",
+    "full_text": "This entry records local memory, uncertainty, and care. It avoids claiming authority over real-world traditions and remains internal to ALAMAT.",
+    "region_id": "WREG0001",
+    "location_id": "WLOC000016",
+    "unlock_condition_payload": {
+      "chapter": "STCH001"
+    },
+    "sort_order": 16
+  },
+  {
+    "lore_book_id": "LBOOK00017",
+    "title": "Field Notes on Trust 4",
+    "slug": "lore-book-17",
+    "collectible_type": "field_note",
+    "excerpt": "A fictional ALAMAT collectible that enriches world context without becoming mandatory progression.",
+    "full_text": "This entry records local memory, uncertainty, and care. It avoids claiming authority over real-world traditions and remains internal to ALAMAT.",
+    "region_id": "WREG0002",
+    "location_id": "WLOC000017",
+    "unlock_condition_payload": {
+      "chapter": "STCH002"
+    },
+    "sort_order": 17
+  },
+  {
+    "lore_book_id": "LBOOK00018",
+    "title": "Maps of Rain Roads 4",
+    "slug": "lore-book-18",
+    "collectible_type": "historical_journal",
+    "excerpt": "A fictional ALAMAT collectible that enriches world context without becoming mandatory progression.",
+    "full_text": "This entry records local memory, uncertainty, and care. It avoids claiming authority over real-world traditions and remains internal to ALAMAT.",
+    "region_id": "WREG0003",
+    "location_id": "WLOC000018",
+    "unlock_condition_payload": {
+      "chapter": "STCH003"
+    },
+    "sort_order": 18
+  },
+  {
+    "lore_book_id": "LBOOK00019",
+    "title": "Shrine Inscriptions 4",
+    "slug": "lore-book-19",
+    "collectible_type": "map",
+    "excerpt": "A fictional ALAMAT collectible that enriches world context without becoming mandatory progression.",
+    "full_text": "This entry records local memory, uncertainty, and care. It avoids claiming authority over real-world traditions and remains internal to ALAMAT.",
+    "region_id": "WREG0004",
+    "location_id": "WLOC000019",
+    "unlock_condition_payload": {
+      "chapter": "STCH004"
+    },
+    "sort_order": 19
+  },
+  {
+    "lore_book_id": "LBOOK00020",
+    "title": "Family Records 4",
+    "slug": "lore-book-20",
+    "collectible_type": "shrine_inscription",
+    "excerpt": "A fictional ALAMAT collectible that enriches world context without becoming mandatory progression.",
+    "full_text": "This entry records local memory, uncertainty, and care. It avoids claiming authority over real-world traditions and remains internal to ALAMAT.",
+    "region_id": "WREG0005",
+    "location_id": "WLOC000020",
+    "unlock_condition_payload": {
+      "chapter": "STCH005"
+    },
+    "sort_order": 20
+  },
+  {
+    "lore_book_id": "LBOOK00021",
+    "title": "Old Letters from the River 5",
+    "slug": "lore-book-21",
+    "collectible_type": "family_record",
+    "excerpt": "A fictional ALAMAT collectible that enriches world context without becoming mandatory progression.",
+    "full_text": "This entry records local memory, uncertainty, and care. It avoids claiming authority over real-world traditions and remains internal to ALAMAT.",
+    "region_id": "WREG0006",
+    "location_id": "WLOC000021",
+    "unlock_condition_payload": {
+      "chapter": "STCH006"
+    },
+    "sort_order": 21
+  },
+  {
+    "lore_book_id": "LBOOK00022",
+    "title": "Field Notes on Trust 5",
+    "slug": "lore-book-22",
+    "collectible_type": "folklore_book",
+    "excerpt": "A fictional ALAMAT collectible that enriches world context without becoming mandatory progression.",
+    "full_text": "This entry records local memory, uncertainty, and care. It avoids claiming authority over real-world traditions and remains internal to ALAMAT.",
+    "region_id": "WREG0007",
+    "location_id": "WLOC000022",
+    "unlock_condition_payload": {
+      "chapter": "STCH007"
+    },
+    "sort_order": 22
+  },
+  {
+    "lore_book_id": "LBOOK00023",
+    "title": "Maps of Rain Roads 5",
+    "slug": "lore-book-23",
+    "collectible_type": "old_letter",
+    "excerpt": "A fictional ALAMAT collectible that enriches world context without becoming mandatory progression.",
+    "full_text": "This entry records local memory, uncertainty, and care. It avoids claiming authority over real-world traditions and remains internal to ALAMAT.",
+    "region_id": "WREG0008",
+    "location_id": "WLOC000023",
+    "unlock_condition_payload": {
+      "chapter": "STCH008"
+    },
+    "sort_order": 23
+  },
+  {
+    "lore_book_id": "LBOOK00024",
+    "title": "Shrine Inscriptions 5",
+    "slug": "lore-book-24",
+    "collectible_type": "field_note",
+    "excerpt": "A fictional ALAMAT collectible that enriches world context without becoming mandatory progression.",
+    "full_text": "This entry records local memory, uncertainty, and care. It avoids claiming authority over real-world traditions and remains internal to ALAMAT.",
+    "region_id": "WREG0009",
+    "location_id": "WLOC000024",
+    "unlock_condition_payload": {
+      "chapter": "STCH009"
+    },
+    "sort_order": 24
+  }
+]

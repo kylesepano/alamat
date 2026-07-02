@@ -22,5 +22,8 @@ class DatabaseSeeder extends Seeder
         $this->call(NPCSeeder::class);
         $this->call(QuestSeeder::class);
         $this->call(WorldSeeder::class);
+        $this->call(EconomySeeder::class);
+        $this->call(StorySeeder::class);
+        $this->call(ProductionSeeder::class);
     }
 }

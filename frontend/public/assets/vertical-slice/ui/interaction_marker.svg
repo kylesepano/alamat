@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="ui_interaction_marker">
+  <rect width="256" height="256" rx="24" fill="#11180f"/>
+  <rect x="14" y="14" width="228" height="228" rx="18" fill="#f7d98b" opacity="0.22" stroke="#d8b765" stroke-width="4"/>
+  <circle cx="128" cy="108" r="44" fill="#f7d98b" opacity="0.9"/>
+  <path d="M128 48l22 54 58 5-44 38 14 57-50-30-50 30 14-57-44-38 58-5 22-54z" fill="#fff6df" opacity="0.92"/>
+</svg>

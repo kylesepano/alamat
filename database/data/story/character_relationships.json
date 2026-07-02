@@ -1,0 +1,1262 @@
+[
+  {
+    "relationship_id": "SREL00001",
+    "source_type": "monster",
+    "source_id": "ALM-0001",
+    "target_type": "faction",
+    "target_id": "NPCF0001",
+    "relationship_type": "Parent",
+    "trust_level": 0,
+    "conflict_level": 0,
+    "visibility": "public",
+    "unlock_condition_payload": {
+      "chapter": "STCH001"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": true
+    }
+  },
+  {
+    "relationship_id": "SREL00002",
+    "source_type": "npc",
+    "source_id": "NPC000002",
+    "target_type": "npc",
+    "target_id": "NPC000009",
+    "relationship_type": "Sibling",
+    "trust_level": 1,
+    "conflict_level": 1,
+    "visibility": "private",
+    "unlock_condition_payload": {
+      "chapter": "STCH002"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00003",
+    "source_type": "npc",
+    "source_id": "NPC000003",
+    "target_type": "npc",
+    "target_id": "NPC000010",
+    "relationship_type": "Teacher",
+    "trust_level": 2,
+    "conflict_level": 2,
+    "visibility": "secret",
+    "unlock_condition_payload": {
+      "chapter": "STCH003"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00004",
+    "source_type": "npc",
+    "source_id": "NPC000004",
+    "target_type": "npc",
+    "target_id": "NPC000011",
+    "relationship_type": "Student",
+    "trust_level": 3,
+    "conflict_level": 3,
+    "visibility": "public",
+    "unlock_condition_payload": {
+      "chapter": "STCH004"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00005",
+    "source_type": "monster",
+    "source_id": "ALM-0005",
+    "target_type": "npc",
+    "target_id": "NPC000012",
+    "relationship_type": "Rival",
+    "trust_level": 4,
+    "conflict_level": 4,
+    "visibility": "private",
+    "unlock_condition_payload": {
+      "chapter": "STCH005"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": true
+    }
+  },
+  {
+    "relationship_id": "SREL00006",
+    "source_type": "npc",
+    "source_id": "NPC000006",
+    "target_type": "faction",
+    "target_id": "NPCF0006",
+    "relationship_type": "Friend",
+    "trust_level": 5,
+    "conflict_level": 5,
+    "visibility": "secret",
+    "unlock_condition_payload": {
+      "chapter": "STCH006"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00007",
+    "source_type": "npc",
+    "source_id": "NPC000007",
+    "target_type": "npc",
+    "target_id": "NPC000014",
+    "relationship_type": "Enemy",
+    "trust_level": 6,
+    "conflict_level": 0,
+    "visibility": "public",
+    "unlock_condition_payload": {
+      "chapter": "STCH007"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00008",
+    "source_type": "npc",
+    "source_id": "NPC000008",
+    "target_type": "npc",
+    "target_id": "NPC000015",
+    "relationship_type": "Companion",
+    "trust_level": 7,
+    "conflict_level": 1,
+    "visibility": "private",
+    "unlock_condition_payload": {
+      "chapter": "STCH008"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00009",
+    "source_type": "monster",
+    "source_id": "ALM-0009",
+    "target_type": "npc",
+    "target_id": "NPC000016",
+    "relationship_type": "Mentor",
+    "trust_level": 8,
+    "conflict_level": 2,
+    "visibility": "secret",
+    "unlock_condition_payload": {
+      "chapter": "STCH009"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": true
+    }
+  },
+  {
+    "relationship_id": "SREL00010",
+    "source_type": "npc",
+    "source_id": "NPC000010",
+    "target_type": "npc",
+    "target_id": "NPC000017",
+    "relationship_type": "Guardian",
+    "trust_level": 9,
+    "conflict_level": 3,
+    "visibility": "public",
+    "unlock_condition_payload": {
+      "chapter": "STCH010"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00011",
+    "source_type": "npc",
+    "source_id": "NPC000011",
+    "target_type": "faction",
+    "target_id": "NPCF0011",
+    "relationship_type": "Political Alliance",
+    "trust_level": 0,
+    "conflict_level": 4,
+    "visibility": "private",
+    "unlock_condition_payload": {
+      "chapter": "STCH011"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00012",
+    "source_type": "npc",
+    "source_id": "NPC000012",
+    "target_type": "npc",
+    "target_id": "NPC000019",
+    "relationship_type": "Faction Loyalty",
+    "trust_level": 1,
+    "conflict_level": 5,
+    "visibility": "secret",
+    "unlock_condition_payload": {
+      "chapter": "STCH012"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00013",
+    "source_type": "monster",
+    "source_id": "ALM-0013",
+    "target_type": "npc",
+    "target_id": "NPC000020",
+    "relationship_type": "Secret Identity",
+    "trust_level": 2,
+    "conflict_level": 0,
+    "visibility": "public",
+    "unlock_condition_payload": {
+      "chapter": "STCH013"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": true
+    }
+  },
+  {
+    "relationship_id": "SREL00014",
+    "source_type": "npc",
+    "source_id": "NPC000014",
+    "target_type": "npc",
+    "target_id": "NPC000021",
+    "relationship_type": "Family Tree",
+    "trust_level": 3,
+    "conflict_level": 1,
+    "visibility": "private",
+    "unlock_condition_payload": {
+      "chapter": "STCH014"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00015",
+    "source_type": "npc",
+    "source_id": "NPC000015",
+    "target_type": "npc",
+    "target_id": "NPC000022",
+    "relationship_type": "Parent",
+    "trust_level": 4,
+    "conflict_level": 2,
+    "visibility": "secret",
+    "unlock_condition_payload": {
+      "chapter": "STCH015"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00016",
+    "source_type": "npc",
+    "source_id": "NPC000016",
+    "target_type": "faction",
+    "target_id": "NPCF0001",
+    "relationship_type": "Sibling",
+    "trust_level": 5,
+    "conflict_level": 3,
+    "visibility": "public",
+    "unlock_condition_payload": {
+      "chapter": "STCH001"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00017",
+    "source_type": "monster",
+    "source_id": "ALM-0017",
+    "target_type": "npc",
+    "target_id": "NPC000024",
+    "relationship_type": "Teacher",
+    "trust_level": 6,
+    "conflict_level": 4,
+    "visibility": "private",
+    "unlock_condition_payload": {
+      "chapter": "STCH002"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": true
+    }
+  },
+  {
+    "relationship_id": "SREL00018",
+    "source_type": "npc",
+    "source_id": "NPC000018",
+    "target_type": "npc",
+    "target_id": "NPC000025",
+    "relationship_type": "Student",
+    "trust_level": 7,
+    "conflict_level": 5,
+    "visibility": "secret",
+    "unlock_condition_payload": {
+      "chapter": "STCH003"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00019",
+    "source_type": "npc",
+    "source_id": "NPC000019",
+    "target_type": "npc",
+    "target_id": "NPC000026",
+    "relationship_type": "Rival",
+    "trust_level": 8,
+    "conflict_level": 0,
+    "visibility": "public",
+    "unlock_condition_payload": {
+      "chapter": "STCH004"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00020",
+    "source_type": "npc",
+    "source_id": "NPC000020",
+    "target_type": "npc",
+    "target_id": "NPC000027",
+    "relationship_type": "Friend",
+    "trust_level": 9,
+    "conflict_level": 1,
+    "visibility": "private",
+    "unlock_condition_payload": {
+      "chapter": "STCH005"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00021",
+    "source_type": "monster",
+    "source_id": "ALM-0021",
+    "target_type": "faction",
+    "target_id": "NPCF0006",
+    "relationship_type": "Enemy",
+    "trust_level": 0,
+    "conflict_level": 2,
+    "visibility": "secret",
+    "unlock_condition_payload": {
+      "chapter": "STCH006"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": true
+    }
+  },
+  {
+    "relationship_id": "SREL00022",
+    "source_type": "npc",
+    "source_id": "NPC000022",
+    "target_type": "npc",
+    "target_id": "NPC000029",
+    "relationship_type": "Companion",
+    "trust_level": 1,
+    "conflict_level": 3,
+    "visibility": "public",
+    "unlock_condition_payload": {
+      "chapter": "STCH007"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00023",
+    "source_type": "npc",
+    "source_id": "NPC000023",
+    "target_type": "npc",
+    "target_id": "NPC000030",
+    "relationship_type": "Mentor",
+    "trust_level": 2,
+    "conflict_level": 4,
+    "visibility": "private",
+    "unlock_condition_payload": {
+      "chapter": "STCH008"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00024",
+    "source_type": "npc",
+    "source_id": "NPC000024",
+    "target_type": "npc",
+    "target_id": "NPC000031",
+    "relationship_type": "Guardian",
+    "trust_level": 3,
+    "conflict_level": 5,
+    "visibility": "secret",
+    "unlock_condition_payload": {
+      "chapter": "STCH009"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00025",
+    "source_type": "monster",
+    "source_id": "ALM-0025",
+    "target_type": "npc",
+    "target_id": "NPC000032",
+    "relationship_type": "Political Alliance",
+    "trust_level": 4,
+    "conflict_level": 0,
+    "visibility": "public",
+    "unlock_condition_payload": {
+      "chapter": "STCH010"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": true
+    }
+  },
+  {
+    "relationship_id": "SREL00026",
+    "source_type": "npc",
+    "source_id": "NPC000026",
+    "target_type": "faction",
+    "target_id": "NPCF0011",
+    "relationship_type": "Faction Loyalty",
+    "trust_level": 5,
+    "conflict_level": 1,
+    "visibility": "private",
+    "unlock_condition_payload": {
+      "chapter": "STCH011"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00027",
+    "source_type": "npc",
+    "source_id": "NPC000027",
+    "target_type": "npc",
+    "target_id": "NPC000034",
+    "relationship_type": "Secret Identity",
+    "trust_level": 6,
+    "conflict_level": 2,
+    "visibility": "secret",
+    "unlock_condition_payload": {
+      "chapter": "STCH012"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00028",
+    "source_type": "npc",
+    "source_id": "NPC000028",
+    "target_type": "npc",
+    "target_id": "NPC000035",
+    "relationship_type": "Family Tree",
+    "trust_level": 7,
+    "conflict_level": 3,
+    "visibility": "public",
+    "unlock_condition_payload": {
+      "chapter": "STCH013"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00029",
+    "source_type": "monster",
+    "source_id": "ALM-0029",
+    "target_type": "npc",
+    "target_id": "NPC000036",
+    "relationship_type": "Parent",
+    "trust_level": 8,
+    "conflict_level": 4,
+    "visibility": "private",
+    "unlock_condition_payload": {
+      "chapter": "STCH014"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": true
+    }
+  },
+  {
+    "relationship_id": "SREL00030",
+    "source_type": "npc",
+    "source_id": "NPC000030",
+    "target_type": "npc",
+    "target_id": "NPC000037",
+    "relationship_type": "Sibling",
+    "trust_level": 9,
+    "conflict_level": 5,
+    "visibility": "secret",
+    "unlock_condition_payload": {
+      "chapter": "STCH015"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00031",
+    "source_type": "npc",
+    "source_id": "NPC000031",
+    "target_type": "faction",
+    "target_id": "NPCF0001",
+    "relationship_type": "Teacher",
+    "trust_level": 0,
+    "conflict_level": 0,
+    "visibility": "public",
+    "unlock_condition_payload": {
+      "chapter": "STCH001"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00032",
+    "source_type": "npc",
+    "source_id": "NPC000032",
+    "target_type": "npc",
+    "target_id": "NPC000039",
+    "relationship_type": "Student",
+    "trust_level": 1,
+    "conflict_level": 1,
+    "visibility": "private",
+    "unlock_condition_payload": {
+      "chapter": "STCH002"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00033",
+    "source_type": "monster",
+    "source_id": "ALM-0033",
+    "target_type": "npc",
+    "target_id": "NPC000040",
+    "relationship_type": "Rival",
+    "trust_level": 2,
+    "conflict_level": 2,
+    "visibility": "secret",
+    "unlock_condition_payload": {
+      "chapter": "STCH003"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": true
+    }
+  },
+  {
+    "relationship_id": "SREL00034",
+    "source_type": "npc",
+    "source_id": "NPC000034",
+    "target_type": "npc",
+    "target_id": "NPC000041",
+    "relationship_type": "Friend",
+    "trust_level": 3,
+    "conflict_level": 3,
+    "visibility": "public",
+    "unlock_condition_payload": {
+      "chapter": "STCH004"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00035",
+    "source_type": "npc",
+    "source_id": "NPC000035",
+    "target_type": "npc",
+    "target_id": "NPC000042",
+    "relationship_type": "Enemy",
+    "trust_level": 4,
+    "conflict_level": 4,
+    "visibility": "private",
+    "unlock_condition_payload": {
+      "chapter": "STCH005"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00036",
+    "source_type": "npc",
+    "source_id": "NPC000036",
+    "target_type": "faction",
+    "target_id": "NPCF0006",
+    "relationship_type": "Companion",
+    "trust_level": 5,
+    "conflict_level": 5,
+    "visibility": "secret",
+    "unlock_condition_payload": {
+      "chapter": "STCH006"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00037",
+    "source_type": "monster",
+    "source_id": "ALM-0037",
+    "target_type": "npc",
+    "target_id": "NPC000044",
+    "relationship_type": "Mentor",
+    "trust_level": 6,
+    "conflict_level": 0,
+    "visibility": "public",
+    "unlock_condition_payload": {
+      "chapter": "STCH007"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": true
+    }
+  },
+  {
+    "relationship_id": "SREL00038",
+    "source_type": "npc",
+    "source_id": "NPC000038",
+    "target_type": "npc",
+    "target_id": "NPC000045",
+    "relationship_type": "Guardian",
+    "trust_level": 7,
+    "conflict_level": 1,
+    "visibility": "private",
+    "unlock_condition_payload": {
+      "chapter": "STCH008"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00039",
+    "source_type": "npc",
+    "source_id": "NPC000039",
+    "target_type": "npc",
+    "target_id": "NPC000046",
+    "relationship_type": "Political Alliance",
+    "trust_level": 8,
+    "conflict_level": 2,
+    "visibility": "secret",
+    "unlock_condition_payload": {
+      "chapter": "STCH009"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00040",
+    "source_type": "npc",
+    "source_id": "NPC000040",
+    "target_type": "npc",
+    "target_id": "NPC000047",
+    "relationship_type": "Faction Loyalty",
+    "trust_level": 9,
+    "conflict_level": 3,
+    "visibility": "public",
+    "unlock_condition_payload": {
+      "chapter": "STCH010"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00041",
+    "source_type": "monster",
+    "source_id": "ALM-0041",
+    "target_type": "faction",
+    "target_id": "NPCF0011",
+    "relationship_type": "Secret Identity",
+    "trust_level": 0,
+    "conflict_level": 4,
+    "visibility": "private",
+    "unlock_condition_payload": {
+      "chapter": "STCH011"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": true
+    }
+  },
+  {
+    "relationship_id": "SREL00042",
+    "source_type": "npc",
+    "source_id": "NPC000042",
+    "target_type": "npc",
+    "target_id": "NPC000049",
+    "relationship_type": "Family Tree",
+    "trust_level": 1,
+    "conflict_level": 5,
+    "visibility": "secret",
+    "unlock_condition_payload": {
+      "chapter": "STCH012"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00043",
+    "source_type": "npc",
+    "source_id": "NPC000043",
+    "target_type": "npc",
+    "target_id": "NPC000050",
+    "relationship_type": "Parent",
+    "trust_level": 2,
+    "conflict_level": 0,
+    "visibility": "public",
+    "unlock_condition_payload": {
+      "chapter": "STCH013"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00044",
+    "source_type": "npc",
+    "source_id": "NPC000044",
+    "target_type": "npc",
+    "target_id": "NPC000051",
+    "relationship_type": "Sibling",
+    "trust_level": 3,
+    "conflict_level": 1,
+    "visibility": "private",
+    "unlock_condition_payload": {
+      "chapter": "STCH014"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00045",
+    "source_type": "monster",
+    "source_id": "ALM-0045",
+    "target_type": "npc",
+    "target_id": "NPC000052",
+    "relationship_type": "Teacher",
+    "trust_level": 4,
+    "conflict_level": 2,
+    "visibility": "secret",
+    "unlock_condition_payload": {
+      "chapter": "STCH015"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": true
+    }
+  },
+  {
+    "relationship_id": "SREL00046",
+    "source_type": "npc",
+    "source_id": "NPC000046",
+    "target_type": "faction",
+    "target_id": "NPCF0001",
+    "relationship_type": "Student",
+    "trust_level": 5,
+    "conflict_level": 3,
+    "visibility": "public",
+    "unlock_condition_payload": {
+      "chapter": "STCH001"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00047",
+    "source_type": "npc",
+    "source_id": "NPC000047",
+    "target_type": "npc",
+    "target_id": "NPC000054",
+    "relationship_type": "Rival",
+    "trust_level": 6,
+    "conflict_level": 4,
+    "visibility": "private",
+    "unlock_condition_payload": {
+      "chapter": "STCH002"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00048",
+    "source_type": "npc",
+    "source_id": "NPC000048",
+    "target_type": "npc",
+    "target_id": "NPC000055",
+    "relationship_type": "Friend",
+    "trust_level": 7,
+    "conflict_level": 5,
+    "visibility": "secret",
+    "unlock_condition_payload": {
+      "chapter": "STCH003"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00049",
+    "source_type": "monster",
+    "source_id": "ALM-0049",
+    "target_type": "npc",
+    "target_id": "NPC000056",
+    "relationship_type": "Enemy",
+    "trust_level": 8,
+    "conflict_level": 0,
+    "visibility": "public",
+    "unlock_condition_payload": {
+      "chapter": "STCH004"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": true
+    }
+  },
+  {
+    "relationship_id": "SREL00050",
+    "source_type": "npc",
+    "source_id": "NPC000050",
+    "target_type": "npc",
+    "target_id": "NPC000057",
+    "relationship_type": "Companion",
+    "trust_level": 9,
+    "conflict_level": 1,
+    "visibility": "private",
+    "unlock_condition_payload": {
+      "chapter": "STCH005"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00051",
+    "source_type": "npc",
+    "source_id": "NPC000051",
+    "target_type": "faction",
+    "target_id": "NPCF0006",
+    "relationship_type": "Mentor",
+    "trust_level": 0,
+    "conflict_level": 2,
+    "visibility": "secret",
+    "unlock_condition_payload": {
+      "chapter": "STCH006"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00052",
+    "source_type": "npc",
+    "source_id": "NPC000052",
+    "target_type": "npc",
+    "target_id": "NPC000059",
+    "relationship_type": "Guardian",
+    "trust_level": 1,
+    "conflict_level": 3,
+    "visibility": "public",
+    "unlock_condition_payload": {
+      "chapter": "STCH007"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00053",
+    "source_type": "monster",
+    "source_id": "ALM-0053",
+    "target_type": "npc",
+    "target_id": "NPC000060",
+    "relationship_type": "Political Alliance",
+    "trust_level": 2,
+    "conflict_level": 4,
+    "visibility": "private",
+    "unlock_condition_payload": {
+      "chapter": "STCH008"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": true
+    }
+  },
+  {
+    "relationship_id": "SREL00054",
+    "source_type": "npc",
+    "source_id": "NPC000054",
+    "target_type": "npc",
+    "target_id": "NPC000061",
+    "relationship_type": "Faction Loyalty",
+    "trust_level": 3,
+    "conflict_level": 5,
+    "visibility": "secret",
+    "unlock_condition_payload": {
+      "chapter": "STCH009"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00055",
+    "source_type": "npc",
+    "source_id": "NPC000055",
+    "target_type": "npc",
+    "target_id": "NPC000062",
+    "relationship_type": "Secret Identity",
+    "trust_level": 4,
+    "conflict_level": 0,
+    "visibility": "public",
+    "unlock_condition_payload": {
+      "chapter": "STCH010"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00056",
+    "source_type": "npc",
+    "source_id": "NPC000056",
+    "target_type": "faction",
+    "target_id": "NPCF0011",
+    "relationship_type": "Family Tree",
+    "trust_level": 5,
+    "conflict_level": 1,
+    "visibility": "private",
+    "unlock_condition_payload": {
+      "chapter": "STCH011"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00057",
+    "source_type": "monster",
+    "source_id": "ALM-0057",
+    "target_type": "npc",
+    "target_id": "NPC000064",
+    "relationship_type": "Parent",
+    "trust_level": 6,
+    "conflict_level": 2,
+    "visibility": "secret",
+    "unlock_condition_payload": {
+      "chapter": "STCH012"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": true
+    }
+  },
+  {
+    "relationship_id": "SREL00058",
+    "source_type": "npc",
+    "source_id": "NPC000058",
+    "target_type": "npc",
+    "target_id": "NPC000065",
+    "relationship_type": "Sibling",
+    "trust_level": 7,
+    "conflict_level": 3,
+    "visibility": "public",
+    "unlock_condition_payload": {
+      "chapter": "STCH013"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00059",
+    "source_type": "npc",
+    "source_id": "NPC000059",
+    "target_type": "npc",
+    "target_id": "NPC000066",
+    "relationship_type": "Teacher",
+    "trust_level": 8,
+    "conflict_level": 4,
+    "visibility": "private",
+    "unlock_condition_payload": {
+      "chapter": "STCH014"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00060",
+    "source_type": "npc",
+    "source_id": "NPC000060",
+    "target_type": "npc",
+    "target_id": "NPC000067",
+    "relationship_type": "Student",
+    "trust_level": 9,
+    "conflict_level": 5,
+    "visibility": "secret",
+    "unlock_condition_payload": {
+      "chapter": "STCH015"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00061",
+    "source_type": "monster",
+    "source_id": "ALM-0061",
+    "target_type": "faction",
+    "target_id": "NPCF0001",
+    "relationship_type": "Rival",
+    "trust_level": 0,
+    "conflict_level": 0,
+    "visibility": "public",
+    "unlock_condition_payload": {
+      "chapter": "STCH001"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": true
+    }
+  },
+  {
+    "relationship_id": "SREL00062",
+    "source_type": "npc",
+    "source_id": "NPC000062",
+    "target_type": "npc",
+    "target_id": "NPC000069",
+    "relationship_type": "Friend",
+    "trust_level": 1,
+    "conflict_level": 1,
+    "visibility": "private",
+    "unlock_condition_payload": {
+      "chapter": "STCH002"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00063",
+    "source_type": "npc",
+    "source_id": "NPC000063",
+    "target_type": "npc",
+    "target_id": "NPC000070",
+    "relationship_type": "Enemy",
+    "trust_level": 2,
+    "conflict_level": 2,
+    "visibility": "secret",
+    "unlock_condition_payload": {
+      "chapter": "STCH003"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00064",
+    "source_type": "npc",
+    "source_id": "NPC000064",
+    "target_type": "npc",
+    "target_id": "NPC000071",
+    "relationship_type": "Companion",
+    "trust_level": 3,
+    "conflict_level": 3,
+    "visibility": "public",
+    "unlock_condition_payload": {
+      "chapter": "STCH004"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00065",
+    "source_type": "monster",
+    "source_id": "ALM-0065",
+    "target_type": "npc",
+    "target_id": "NPC000072",
+    "relationship_type": "Mentor",
+    "trust_level": 4,
+    "conflict_level": 4,
+    "visibility": "private",
+    "unlock_condition_payload": {
+      "chapter": "STCH005"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": true
+    }
+  },
+  {
+    "relationship_id": "SREL00066",
+    "source_type": "npc",
+    "source_id": "NPC000066",
+    "target_type": "faction",
+    "target_id": "NPCF0006",
+    "relationship_type": "Guardian",
+    "trust_level": 5,
+    "conflict_level": 5,
+    "visibility": "secret",
+    "unlock_condition_payload": {
+      "chapter": "STCH006"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00067",
+    "source_type": "npc",
+    "source_id": "NPC000067",
+    "target_type": "npc",
+    "target_id": "NPC000074",
+    "relationship_type": "Political Alliance",
+    "trust_level": 6,
+    "conflict_level": 0,
+    "visibility": "public",
+    "unlock_condition_payload": {
+      "chapter": "STCH007"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00068",
+    "source_type": "npc",
+    "source_id": "NPC000068",
+    "target_type": "npc",
+    "target_id": "NPC000075",
+    "relationship_type": "Faction Loyalty",
+    "trust_level": 7,
+    "conflict_level": 1,
+    "visibility": "private",
+    "unlock_condition_payload": {
+      "chapter": "STCH008"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  },
+  {
+    "relationship_id": "SREL00069",
+    "source_type": "monster",
+    "source_id": "ALM-0069",
+    "target_type": "npc",
+    "target_id": "NPC000076",
+    "relationship_type": "Secret Identity",
+    "trust_level": 8,
+    "conflict_level": 2,
+    "visibility": "secret",
+    "unlock_condition_payload": {
+      "chapter": "STCH009"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": true
+    }
+  },
+  {
+    "relationship_id": "SREL00070",
+    "source_type": "npc",
+    "source_id": "NPC000070",
+    "target_type": "npc",
+    "target_id": "NPC000077",
+    "relationship_type": "Family Tree",
+    "trust_level": 9,
+    "conflict_level": 3,
+    "visibility": "public",
+    "unlock_condition_payload": {
+      "chapter": "STCH010"
+    },
+    "story_impact_payload": {
+      "affects_dialogue": true,
+      "affects_ending": false
+    }
+  }
+]

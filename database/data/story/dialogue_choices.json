@@ -1,0 +1,1502 @@
+[
+  {
+    "choice_id": "DCH00001A",
+    "dialogue_id": "DLG00001",
+    "choice_text": "Listen before deciding.",
+    "value_axis": "Compassion",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 0
+    },
+    "consequence_payload": {
+      "npc_trust": 1,
+      "monster_trust": 1,
+      "faction_reputation": 0,
+      "quest_routes": [
+        "route_1"
+      ],
+      "endings": [
+        "true-ending"
+      ],
+      "world_state": [
+        "choice_DLG00001_A"
+      ]
+    },
+    "sort_order": 1
+  },
+  {
+    "choice_id": "DCH00001B",
+    "dialogue_id": "DLG00001",
+    "choice_text": "Ask what was forgotten.",
+    "value_axis": "Curiosity",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 5
+    },
+    "consequence_payload": {
+      "npc_trust": 0,
+      "monster_trust": 0,
+      "faction_reputation": 1,
+      "quest_routes": [
+        "route_2"
+      ],
+      "endings": [
+        "hidden-ending"
+      ],
+      "world_state": [
+        "choice_DLG00001_B"
+      ]
+    },
+    "sort_order": 2
+  },
+  {
+    "choice_id": "DCH00002A",
+    "dialogue_id": "DLG00002",
+    "choice_text": "Listen before deciding.",
+    "value_axis": "Compassion",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 0
+    },
+    "consequence_payload": {
+      "npc_trust": 1,
+      "monster_trust": 1,
+      "faction_reputation": 0,
+      "quest_routes": [
+        "route_1"
+      ],
+      "endings": [
+        "true-ending"
+      ],
+      "world_state": [
+        "choice_DLG00002_A"
+      ]
+    },
+    "sort_order": 1
+  },
+  {
+    "choice_id": "DCH00002B",
+    "dialogue_id": "DLG00002",
+    "choice_text": "Ask what was forgotten.",
+    "value_axis": "Curiosity",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 5
+    },
+    "consequence_payload": {
+      "npc_trust": 0,
+      "monster_trust": 0,
+      "faction_reputation": 1,
+      "quest_routes": [
+        "route_2"
+      ],
+      "endings": [
+        "hidden-ending"
+      ],
+      "world_state": [
+        "choice_DLG00002_B"
+      ]
+    },
+    "sort_order": 2
+  },
+  {
+    "choice_id": "DCH00003A",
+    "dialogue_id": "DLG00003",
+    "choice_text": "Listen before deciding.",
+    "value_axis": "Compassion",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 0
+    },
+    "consequence_payload": {
+      "npc_trust": 1,
+      "monster_trust": 1,
+      "faction_reputation": 0,
+      "quest_routes": [
+        "route_1"
+      ],
+      "endings": [
+        "true-ending"
+      ],
+      "world_state": [
+        "choice_DLG00003_A"
+      ]
+    },
+    "sort_order": 1
+  },
+  {
+    "choice_id": "DCH00003B",
+    "dialogue_id": "DLG00003",
+    "choice_text": "Ask what was forgotten.",
+    "value_axis": "Curiosity",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 5
+    },
+    "consequence_payload": {
+      "npc_trust": 0,
+      "monster_trust": 0,
+      "faction_reputation": 1,
+      "quest_routes": [
+        "route_2"
+      ],
+      "endings": [
+        "hidden-ending"
+      ],
+      "world_state": [
+        "choice_DLG00003_B"
+      ]
+    },
+    "sort_order": 2
+  },
+  {
+    "choice_id": "DCH00004A",
+    "dialogue_id": "DLG00004",
+    "choice_text": "Listen before deciding.",
+    "value_axis": "Compassion",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 0
+    },
+    "consequence_payload": {
+      "npc_trust": 1,
+      "monster_trust": 1,
+      "faction_reputation": 0,
+      "quest_routes": [
+        "route_1"
+      ],
+      "endings": [
+        "true-ending"
+      ],
+      "world_state": [
+        "choice_DLG00004_A"
+      ]
+    },
+    "sort_order": 1
+  },
+  {
+    "choice_id": "DCH00004B",
+    "dialogue_id": "DLG00004",
+    "choice_text": "Ask what was forgotten.",
+    "value_axis": "Curiosity",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 5
+    },
+    "consequence_payload": {
+      "npc_trust": 0,
+      "monster_trust": 0,
+      "faction_reputation": 1,
+      "quest_routes": [
+        "route_2"
+      ],
+      "endings": [
+        "hidden-ending"
+      ],
+      "world_state": [
+        "choice_DLG00004_B"
+      ]
+    },
+    "sort_order": 2
+  },
+  {
+    "choice_id": "DCH00005A",
+    "dialogue_id": "DLG00005",
+    "choice_text": "Listen before deciding.",
+    "value_axis": "Compassion",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 0
+    },
+    "consequence_payload": {
+      "npc_trust": 1,
+      "monster_trust": 1,
+      "faction_reputation": 0,
+      "quest_routes": [
+        "route_1"
+      ],
+      "endings": [
+        "true-ending"
+      ],
+      "world_state": [
+        "choice_DLG00005_A"
+      ]
+    },
+    "sort_order": 1
+  },
+  {
+    "choice_id": "DCH00005B",
+    "dialogue_id": "DLG00005",
+    "choice_text": "Ask what was forgotten.",
+    "value_axis": "Curiosity",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 5
+    },
+    "consequence_payload": {
+      "npc_trust": 0,
+      "monster_trust": 0,
+      "faction_reputation": 1,
+      "quest_routes": [
+        "route_2"
+      ],
+      "endings": [
+        "hidden-ending"
+      ],
+      "world_state": [
+        "choice_DLG00005_B"
+      ]
+    },
+    "sort_order": 2
+  },
+  {
+    "choice_id": "DCH00006A",
+    "dialogue_id": "DLG00006",
+    "choice_text": "Listen before deciding.",
+    "value_axis": "Compassion",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 0
+    },
+    "consequence_payload": {
+      "npc_trust": 1,
+      "monster_trust": 1,
+      "faction_reputation": 0,
+      "quest_routes": [
+        "route_1"
+      ],
+      "endings": [
+        "true-ending"
+      ],
+      "world_state": [
+        "choice_DLG00006_A"
+      ]
+    },
+    "sort_order": 1
+  },
+  {
+    "choice_id": "DCH00006B",
+    "dialogue_id": "DLG00006",
+    "choice_text": "Ask what was forgotten.",
+    "value_axis": "Curiosity",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 5
+    },
+    "consequence_payload": {
+      "npc_trust": 0,
+      "monster_trust": 0,
+      "faction_reputation": 1,
+      "quest_routes": [
+        "route_2"
+      ],
+      "endings": [
+        "hidden-ending"
+      ],
+      "world_state": [
+        "choice_DLG00006_B"
+      ]
+    },
+    "sort_order": 2
+  },
+  {
+    "choice_id": "DCH00007A",
+    "dialogue_id": "DLG00007",
+    "choice_text": "Listen before deciding.",
+    "value_axis": "Compassion",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 0
+    },
+    "consequence_payload": {
+      "npc_trust": 1,
+      "monster_trust": 1,
+      "faction_reputation": 0,
+      "quest_routes": [
+        "route_1"
+      ],
+      "endings": [
+        "true-ending"
+      ],
+      "world_state": [
+        "choice_DLG00007_A"
+      ]
+    },
+    "sort_order": 1
+  },
+  {
+    "choice_id": "DCH00007B",
+    "dialogue_id": "DLG00007",
+    "choice_text": "Ask what was forgotten.",
+    "value_axis": "Curiosity",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 5
+    },
+    "consequence_payload": {
+      "npc_trust": 0,
+      "monster_trust": 0,
+      "faction_reputation": 1,
+      "quest_routes": [
+        "route_2"
+      ],
+      "endings": [
+        "hidden-ending"
+      ],
+      "world_state": [
+        "choice_DLG00007_B"
+      ]
+    },
+    "sort_order": 2
+  },
+  {
+    "choice_id": "DCH00008A",
+    "dialogue_id": "DLG00008",
+    "choice_text": "Listen before deciding.",
+    "value_axis": "Compassion",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 0
+    },
+    "consequence_payload": {
+      "npc_trust": 1,
+      "monster_trust": 1,
+      "faction_reputation": 0,
+      "quest_routes": [
+        "route_1"
+      ],
+      "endings": [
+        "true-ending"
+      ],
+      "world_state": [
+        "choice_DLG00008_A"
+      ]
+    },
+    "sort_order": 1
+  },
+  {
+    "choice_id": "DCH00008B",
+    "dialogue_id": "DLG00008",
+    "choice_text": "Ask what was forgotten.",
+    "value_axis": "Curiosity",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 5
+    },
+    "consequence_payload": {
+      "npc_trust": 0,
+      "monster_trust": 0,
+      "faction_reputation": 1,
+      "quest_routes": [
+        "route_2"
+      ],
+      "endings": [
+        "hidden-ending"
+      ],
+      "world_state": [
+        "choice_DLG00008_B"
+      ]
+    },
+    "sort_order": 2
+  },
+  {
+    "choice_id": "DCH00009A",
+    "dialogue_id": "DLG00009",
+    "choice_text": "Listen before deciding.",
+    "value_axis": "Compassion",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 0
+    },
+    "consequence_payload": {
+      "npc_trust": 1,
+      "monster_trust": 1,
+      "faction_reputation": 0,
+      "quest_routes": [
+        "route_1"
+      ],
+      "endings": [
+        "true-ending"
+      ],
+      "world_state": [
+        "choice_DLG00009_A"
+      ]
+    },
+    "sort_order": 1
+  },
+  {
+    "choice_id": "DCH00009B",
+    "dialogue_id": "DLG00009",
+    "choice_text": "Ask what was forgotten.",
+    "value_axis": "Curiosity",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 5
+    },
+    "consequence_payload": {
+      "npc_trust": 0,
+      "monster_trust": 0,
+      "faction_reputation": 1,
+      "quest_routes": [
+        "route_2"
+      ],
+      "endings": [
+        "hidden-ending"
+      ],
+      "world_state": [
+        "choice_DLG00009_B"
+      ]
+    },
+    "sort_order": 2
+  },
+  {
+    "choice_id": "DCH00010A",
+    "dialogue_id": "DLG00010",
+    "choice_text": "Listen before deciding.",
+    "value_axis": "Compassion",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 0
+    },
+    "consequence_payload": {
+      "npc_trust": 1,
+      "monster_trust": 1,
+      "faction_reputation": 0,
+      "quest_routes": [
+        "route_1"
+      ],
+      "endings": [
+        "true-ending"
+      ],
+      "world_state": [
+        "choice_DLG00010_A"
+      ]
+    },
+    "sort_order": 1
+  },
+  {
+    "choice_id": "DCH00010B",
+    "dialogue_id": "DLG00010",
+    "choice_text": "Ask what was forgotten.",
+    "value_axis": "Curiosity",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 5
+    },
+    "consequence_payload": {
+      "npc_trust": 0,
+      "monster_trust": 0,
+      "faction_reputation": 1,
+      "quest_routes": [
+        "route_2"
+      ],
+      "endings": [
+        "hidden-ending"
+      ],
+      "world_state": [
+        "choice_DLG00010_B"
+      ]
+    },
+    "sort_order": 2
+  },
+  {
+    "choice_id": "DCH00011A",
+    "dialogue_id": "DLG00011",
+    "choice_text": "Listen before deciding.",
+    "value_axis": "Compassion",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 0
+    },
+    "consequence_payload": {
+      "npc_trust": 1,
+      "monster_trust": 1,
+      "faction_reputation": 0,
+      "quest_routes": [
+        "route_1"
+      ],
+      "endings": [
+        "true-ending"
+      ],
+      "world_state": [
+        "choice_DLG00011_A"
+      ]
+    },
+    "sort_order": 1
+  },
+  {
+    "choice_id": "DCH00011B",
+    "dialogue_id": "DLG00011",
+    "choice_text": "Ask what was forgotten.",
+    "value_axis": "Curiosity",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 5
+    },
+    "consequence_payload": {
+      "npc_trust": 0,
+      "monster_trust": 0,
+      "faction_reputation": 1,
+      "quest_routes": [
+        "route_2"
+      ],
+      "endings": [
+        "hidden-ending"
+      ],
+      "world_state": [
+        "choice_DLG00011_B"
+      ]
+    },
+    "sort_order": 2
+  },
+  {
+    "choice_id": "DCH00012A",
+    "dialogue_id": "DLG00012",
+    "choice_text": "Listen before deciding.",
+    "value_axis": "Compassion",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 0
+    },
+    "consequence_payload": {
+      "npc_trust": 1,
+      "monster_trust": 1,
+      "faction_reputation": 0,
+      "quest_routes": [
+        "route_1"
+      ],
+      "endings": [
+        "true-ending"
+      ],
+      "world_state": [
+        "choice_DLG00012_A"
+      ]
+    },
+    "sort_order": 1
+  },
+  {
+    "choice_id": "DCH00012B",
+    "dialogue_id": "DLG00012",
+    "choice_text": "Ask what was forgotten.",
+    "value_axis": "Curiosity",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 5
+    },
+    "consequence_payload": {
+      "npc_trust": 0,
+      "monster_trust": 0,
+      "faction_reputation": 1,
+      "quest_routes": [
+        "route_2"
+      ],
+      "endings": [
+        "hidden-ending"
+      ],
+      "world_state": [
+        "choice_DLG00012_B"
+      ]
+    },
+    "sort_order": 2
+  },
+  {
+    "choice_id": "DCH00013A",
+    "dialogue_id": "DLG00013",
+    "choice_text": "Listen before deciding.",
+    "value_axis": "Compassion",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 0
+    },
+    "consequence_payload": {
+      "npc_trust": 1,
+      "monster_trust": 1,
+      "faction_reputation": 0,
+      "quest_routes": [
+        "route_1"
+      ],
+      "endings": [
+        "true-ending"
+      ],
+      "world_state": [
+        "choice_DLG00013_A"
+      ]
+    },
+    "sort_order": 1
+  },
+  {
+    "choice_id": "DCH00013B",
+    "dialogue_id": "DLG00013",
+    "choice_text": "Ask what was forgotten.",
+    "value_axis": "Curiosity",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 5
+    },
+    "consequence_payload": {
+      "npc_trust": 0,
+      "monster_trust": 0,
+      "faction_reputation": 1,
+      "quest_routes": [
+        "route_2"
+      ],
+      "endings": [
+        "hidden-ending"
+      ],
+      "world_state": [
+        "choice_DLG00013_B"
+      ]
+    },
+    "sort_order": 2
+  },
+  {
+    "choice_id": "DCH00014A",
+    "dialogue_id": "DLG00014",
+    "choice_text": "Listen before deciding.",
+    "value_axis": "Compassion",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 0
+    },
+    "consequence_payload": {
+      "npc_trust": 1,
+      "monster_trust": 1,
+      "faction_reputation": 0,
+      "quest_routes": [
+        "route_1"
+      ],
+      "endings": [
+        "true-ending"
+      ],
+      "world_state": [
+        "choice_DLG00014_A"
+      ]
+    },
+    "sort_order": 1
+  },
+  {
+    "choice_id": "DCH00014B",
+    "dialogue_id": "DLG00014",
+    "choice_text": "Ask what was forgotten.",
+    "value_axis": "Curiosity",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 5
+    },
+    "consequence_payload": {
+      "npc_trust": 0,
+      "monster_trust": 0,
+      "faction_reputation": 1,
+      "quest_routes": [
+        "route_2"
+      ],
+      "endings": [
+        "hidden-ending"
+      ],
+      "world_state": [
+        "choice_DLG00014_B"
+      ]
+    },
+    "sort_order": 2
+  },
+  {
+    "choice_id": "DCH00015A",
+    "dialogue_id": "DLG00015",
+    "choice_text": "Listen before deciding.",
+    "value_axis": "Compassion",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 0
+    },
+    "consequence_payload": {
+      "npc_trust": 1,
+      "monster_trust": 1,
+      "faction_reputation": 0,
+      "quest_routes": [
+        "route_1"
+      ],
+      "endings": [
+        "true-ending"
+      ],
+      "world_state": [
+        "choice_DLG00015_A"
+      ]
+    },
+    "sort_order": 1
+  },
+  {
+    "choice_id": "DCH00015B",
+    "dialogue_id": "DLG00015",
+    "choice_text": "Ask what was forgotten.",
+    "value_axis": "Curiosity",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 5
+    },
+    "consequence_payload": {
+      "npc_trust": 0,
+      "monster_trust": 0,
+      "faction_reputation": 1,
+      "quest_routes": [
+        "route_2"
+      ],
+      "endings": [
+        "hidden-ending"
+      ],
+      "world_state": [
+        "choice_DLG00015_B"
+      ]
+    },
+    "sort_order": 2
+  },
+  {
+    "choice_id": "DCH00016A",
+    "dialogue_id": "DLG00016",
+    "choice_text": "Listen before deciding.",
+    "value_axis": "Compassion",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 0
+    },
+    "consequence_payload": {
+      "npc_trust": 1,
+      "monster_trust": 1,
+      "faction_reputation": 0,
+      "quest_routes": [
+        "route_1"
+      ],
+      "endings": [
+        "true-ending"
+      ],
+      "world_state": [
+        "choice_DLG00016_A"
+      ]
+    },
+    "sort_order": 1
+  },
+  {
+    "choice_id": "DCH00016B",
+    "dialogue_id": "DLG00016",
+    "choice_text": "Ask what was forgotten.",
+    "value_axis": "Curiosity",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 5
+    },
+    "consequence_payload": {
+      "npc_trust": 0,
+      "monster_trust": 0,
+      "faction_reputation": 1,
+      "quest_routes": [
+        "route_2"
+      ],
+      "endings": [
+        "hidden-ending"
+      ],
+      "world_state": [
+        "choice_DLG00016_B"
+      ]
+    },
+    "sort_order": 2
+  },
+  {
+    "choice_id": "DCH00017A",
+    "dialogue_id": "DLG00017",
+    "choice_text": "Listen before deciding.",
+    "value_axis": "Compassion",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 0
+    },
+    "consequence_payload": {
+      "npc_trust": 1,
+      "monster_trust": 1,
+      "faction_reputation": 0,
+      "quest_routes": [
+        "route_1"
+      ],
+      "endings": [
+        "true-ending"
+      ],
+      "world_state": [
+        "choice_DLG00017_A"
+      ]
+    },
+    "sort_order": 1
+  },
+  {
+    "choice_id": "DCH00017B",
+    "dialogue_id": "DLG00017",
+    "choice_text": "Ask what was forgotten.",
+    "value_axis": "Curiosity",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 5
+    },
+    "consequence_payload": {
+      "npc_trust": 0,
+      "monster_trust": 0,
+      "faction_reputation": 1,
+      "quest_routes": [
+        "route_2"
+      ],
+      "endings": [
+        "hidden-ending"
+      ],
+      "world_state": [
+        "choice_DLG00017_B"
+      ]
+    },
+    "sort_order": 2
+  },
+  {
+    "choice_id": "DCH00018A",
+    "dialogue_id": "DLG00018",
+    "choice_text": "Listen before deciding.",
+    "value_axis": "Compassion",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 0
+    },
+    "consequence_payload": {
+      "npc_trust": 1,
+      "monster_trust": 1,
+      "faction_reputation": 0,
+      "quest_routes": [
+        "route_1"
+      ],
+      "endings": [
+        "true-ending"
+      ],
+      "world_state": [
+        "choice_DLG00018_A"
+      ]
+    },
+    "sort_order": 1
+  },
+  {
+    "choice_id": "DCH00018B",
+    "dialogue_id": "DLG00018",
+    "choice_text": "Ask what was forgotten.",
+    "value_axis": "Curiosity",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 5
+    },
+    "consequence_payload": {
+      "npc_trust": 0,
+      "monster_trust": 0,
+      "faction_reputation": 1,
+      "quest_routes": [
+        "route_2"
+      ],
+      "endings": [
+        "hidden-ending"
+      ],
+      "world_state": [
+        "choice_DLG00018_B"
+      ]
+    },
+    "sort_order": 2
+  },
+  {
+    "choice_id": "DCH00019A",
+    "dialogue_id": "DLG00019",
+    "choice_text": "Listen before deciding.",
+    "value_axis": "Compassion",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 0
+    },
+    "consequence_payload": {
+      "npc_trust": 1,
+      "monster_trust": 1,
+      "faction_reputation": 0,
+      "quest_routes": [
+        "route_1"
+      ],
+      "endings": [
+        "true-ending"
+      ],
+      "world_state": [
+        "choice_DLG00019_A"
+      ]
+    },
+    "sort_order": 1
+  },
+  {
+    "choice_id": "DCH00019B",
+    "dialogue_id": "DLG00019",
+    "choice_text": "Ask what was forgotten.",
+    "value_axis": "Curiosity",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 5
+    },
+    "consequence_payload": {
+      "npc_trust": 0,
+      "monster_trust": 0,
+      "faction_reputation": 1,
+      "quest_routes": [
+        "route_2"
+      ],
+      "endings": [
+        "hidden-ending"
+      ],
+      "world_state": [
+        "choice_DLG00019_B"
+      ]
+    },
+    "sort_order": 2
+  },
+  {
+    "choice_id": "DCH00020A",
+    "dialogue_id": "DLG00020",
+    "choice_text": "Listen before deciding.",
+    "value_axis": "Compassion",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 0
+    },
+    "consequence_payload": {
+      "npc_trust": 1,
+      "monster_trust": 1,
+      "faction_reputation": 0,
+      "quest_routes": [
+        "route_1"
+      ],
+      "endings": [
+        "true-ending"
+      ],
+      "world_state": [
+        "choice_DLG00020_A"
+      ]
+    },
+    "sort_order": 1
+  },
+  {
+    "choice_id": "DCH00020B",
+    "dialogue_id": "DLG00020",
+    "choice_text": "Ask what was forgotten.",
+    "value_axis": "Curiosity",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 5
+    },
+    "consequence_payload": {
+      "npc_trust": 0,
+      "monster_trust": 0,
+      "faction_reputation": 1,
+      "quest_routes": [
+        "route_2"
+      ],
+      "endings": [
+        "hidden-ending"
+      ],
+      "world_state": [
+        "choice_DLG00020_B"
+      ]
+    },
+    "sort_order": 2
+  },
+  {
+    "choice_id": "DCH00021A",
+    "dialogue_id": "DLG00021",
+    "choice_text": "Listen before deciding.",
+    "value_axis": "Compassion",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 0
+    },
+    "consequence_payload": {
+      "npc_trust": 1,
+      "monster_trust": 1,
+      "faction_reputation": 0,
+      "quest_routes": [
+        "route_1"
+      ],
+      "endings": [
+        "true-ending"
+      ],
+      "world_state": [
+        "choice_DLG00021_A"
+      ]
+    },
+    "sort_order": 1
+  },
+  {
+    "choice_id": "DCH00021B",
+    "dialogue_id": "DLG00021",
+    "choice_text": "Ask what was forgotten.",
+    "value_axis": "Curiosity",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 5
+    },
+    "consequence_payload": {
+      "npc_trust": 0,
+      "monster_trust": 0,
+      "faction_reputation": 1,
+      "quest_routes": [
+        "route_2"
+      ],
+      "endings": [
+        "hidden-ending"
+      ],
+      "world_state": [
+        "choice_DLG00021_B"
+      ]
+    },
+    "sort_order": 2
+  },
+  {
+    "choice_id": "DCH00022A",
+    "dialogue_id": "DLG00022",
+    "choice_text": "Listen before deciding.",
+    "value_axis": "Compassion",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 0
+    },
+    "consequence_payload": {
+      "npc_trust": 1,
+      "monster_trust": 1,
+      "faction_reputation": 0,
+      "quest_routes": [
+        "route_1"
+      ],
+      "endings": [
+        "true-ending"
+      ],
+      "world_state": [
+        "choice_DLG00022_A"
+      ]
+    },
+    "sort_order": 1
+  },
+  {
+    "choice_id": "DCH00022B",
+    "dialogue_id": "DLG00022",
+    "choice_text": "Ask what was forgotten.",
+    "value_axis": "Curiosity",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 5
+    },
+    "consequence_payload": {
+      "npc_trust": 0,
+      "monster_trust": 0,
+      "faction_reputation": 1,
+      "quest_routes": [
+        "route_2"
+      ],
+      "endings": [
+        "hidden-ending"
+      ],
+      "world_state": [
+        "choice_DLG00022_B"
+      ]
+    },
+    "sort_order": 2
+  },
+  {
+    "choice_id": "DCH00023A",
+    "dialogue_id": "DLG00023",
+    "choice_text": "Listen before deciding.",
+    "value_axis": "Compassion",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 0
+    },
+    "consequence_payload": {
+      "npc_trust": 1,
+      "monster_trust": 1,
+      "faction_reputation": 0,
+      "quest_routes": [
+        "route_1"
+      ],
+      "endings": [
+        "true-ending"
+      ],
+      "world_state": [
+        "choice_DLG00023_A"
+      ]
+    },
+    "sort_order": 1
+  },
+  {
+    "choice_id": "DCH00023B",
+    "dialogue_id": "DLG00023",
+    "choice_text": "Ask what was forgotten.",
+    "value_axis": "Curiosity",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 5
+    },
+    "consequence_payload": {
+      "npc_trust": 0,
+      "monster_trust": 0,
+      "faction_reputation": 1,
+      "quest_routes": [
+        "route_2"
+      ],
+      "endings": [
+        "hidden-ending"
+      ],
+      "world_state": [
+        "choice_DLG00023_B"
+      ]
+    },
+    "sort_order": 2
+  },
+  {
+    "choice_id": "DCH00024A",
+    "dialogue_id": "DLG00024",
+    "choice_text": "Listen before deciding.",
+    "value_axis": "Compassion",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 0
+    },
+    "consequence_payload": {
+      "npc_trust": 1,
+      "monster_trust": 1,
+      "faction_reputation": 0,
+      "quest_routes": [
+        "route_1"
+      ],
+      "endings": [
+        "true-ending"
+      ],
+      "world_state": [
+        "choice_DLG00024_A"
+      ]
+    },
+    "sort_order": 1
+  },
+  {
+    "choice_id": "DCH00024B",
+    "dialogue_id": "DLG00024",
+    "choice_text": "Ask what was forgotten.",
+    "value_axis": "Curiosity",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 5
+    },
+    "consequence_payload": {
+      "npc_trust": 0,
+      "monster_trust": 0,
+      "faction_reputation": 1,
+      "quest_routes": [
+        "route_2"
+      ],
+      "endings": [
+        "hidden-ending"
+      ],
+      "world_state": [
+        "choice_DLG00024_B"
+      ]
+    },
+    "sort_order": 2
+  },
+  {
+    "choice_id": "DCH00025A",
+    "dialogue_id": "DLG00025",
+    "choice_text": "Listen before deciding.",
+    "value_axis": "Compassion",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 0
+    },
+    "consequence_payload": {
+      "npc_trust": 1,
+      "monster_trust": 1,
+      "faction_reputation": 0,
+      "quest_routes": [
+        "route_1"
+      ],
+      "endings": [
+        "true-ending"
+      ],
+      "world_state": [
+        "choice_DLG00025_A"
+      ]
+    },
+    "sort_order": 1
+  },
+  {
+    "choice_id": "DCH00025B",
+    "dialogue_id": "DLG00025",
+    "choice_text": "Ask what was forgotten.",
+    "value_axis": "Curiosity",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 5
+    },
+    "consequence_payload": {
+      "npc_trust": 0,
+      "monster_trust": 0,
+      "faction_reputation": 1,
+      "quest_routes": [
+        "route_2"
+      ],
+      "endings": [
+        "hidden-ending"
+      ],
+      "world_state": [
+        "choice_DLG00025_B"
+      ]
+    },
+    "sort_order": 2
+  },
+  {
+    "choice_id": "DCH00026A",
+    "dialogue_id": "DLG00026",
+    "choice_text": "Listen before deciding.",
+    "value_axis": "Compassion",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 0
+    },
+    "consequence_payload": {
+      "npc_trust": 1,
+      "monster_trust": 1,
+      "faction_reputation": 0,
+      "quest_routes": [
+        "route_1"
+      ],
+      "endings": [
+        "true-ending"
+      ],
+      "world_state": [
+        "choice_DLG00026_A"
+      ]
+    },
+    "sort_order": 1
+  },
+  {
+    "choice_id": "DCH00026B",
+    "dialogue_id": "DLG00026",
+    "choice_text": "Ask what was forgotten.",
+    "value_axis": "Curiosity",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 5
+    },
+    "consequence_payload": {
+      "npc_trust": 0,
+      "monster_trust": 0,
+      "faction_reputation": 1,
+      "quest_routes": [
+        "route_2"
+      ],
+      "endings": [
+        "hidden-ending"
+      ],
+      "world_state": [
+        "choice_DLG00026_B"
+      ]
+    },
+    "sort_order": 2
+  },
+  {
+    "choice_id": "DCH00027A",
+    "dialogue_id": "DLG00027",
+    "choice_text": "Listen before deciding.",
+    "value_axis": "Compassion",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 0
+    },
+    "consequence_payload": {
+      "npc_trust": 1,
+      "monster_trust": 1,
+      "faction_reputation": 0,
+      "quest_routes": [
+        "route_1"
+      ],
+      "endings": [
+        "true-ending"
+      ],
+      "world_state": [
+        "choice_DLG00027_A"
+      ]
+    },
+    "sort_order": 1
+  },
+  {
+    "choice_id": "DCH00027B",
+    "dialogue_id": "DLG00027",
+    "choice_text": "Ask what was forgotten.",
+    "value_axis": "Curiosity",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 5
+    },
+    "consequence_payload": {
+      "npc_trust": 0,
+      "monster_trust": 0,
+      "faction_reputation": 1,
+      "quest_routes": [
+        "route_2"
+      ],
+      "endings": [
+        "hidden-ending"
+      ],
+      "world_state": [
+        "choice_DLG00027_B"
+      ]
+    },
+    "sort_order": 2
+  },
+  {
+    "choice_id": "DCH00028A",
+    "dialogue_id": "DLG00028",
+    "choice_text": "Listen before deciding.",
+    "value_axis": "Compassion",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 0
+    },
+    "consequence_payload": {
+      "npc_trust": 1,
+      "monster_trust": 1,
+      "faction_reputation": 0,
+      "quest_routes": [
+        "route_1"
+      ],
+      "endings": [
+        "true-ending"
+      ],
+      "world_state": [
+        "choice_DLG00028_A"
+      ]
+    },
+    "sort_order": 1
+  },
+  {
+    "choice_id": "DCH00028B",
+    "dialogue_id": "DLG00028",
+    "choice_text": "Ask what was forgotten.",
+    "value_axis": "Curiosity",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 5
+    },
+    "consequence_payload": {
+      "npc_trust": 0,
+      "monster_trust": 0,
+      "faction_reputation": 1,
+      "quest_routes": [
+        "route_2"
+      ],
+      "endings": [
+        "hidden-ending"
+      ],
+      "world_state": [
+        "choice_DLG00028_B"
+      ]
+    },
+    "sort_order": 2
+  },
+  {
+    "choice_id": "DCH00029A",
+    "dialogue_id": "DLG00029",
+    "choice_text": "Listen before deciding.",
+    "value_axis": "Compassion",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 0
+    },
+    "consequence_payload": {
+      "npc_trust": 1,
+      "monster_trust": 1,
+      "faction_reputation": 0,
+      "quest_routes": [
+        "route_1"
+      ],
+      "endings": [
+        "true-ending"
+      ],
+      "world_state": [
+        "choice_DLG00029_A"
+      ]
+    },
+    "sort_order": 1
+  },
+  {
+    "choice_id": "DCH00029B",
+    "dialogue_id": "DLG00029",
+    "choice_text": "Ask what was forgotten.",
+    "value_axis": "Curiosity",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 5
+    },
+    "consequence_payload": {
+      "npc_trust": 0,
+      "monster_trust": 0,
+      "faction_reputation": 1,
+      "quest_routes": [
+        "route_2"
+      ],
+      "endings": [
+        "hidden-ending"
+      ],
+      "world_state": [
+        "choice_DLG00029_B"
+      ]
+    },
+    "sort_order": 2
+  },
+  {
+    "choice_id": "DCH00030A",
+    "dialogue_id": "DLG00030",
+    "choice_text": "Listen before deciding.",
+    "value_axis": "Compassion",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 0
+    },
+    "consequence_payload": {
+      "npc_trust": 1,
+      "monster_trust": 1,
+      "faction_reputation": 0,
+      "quest_routes": [
+        "route_1"
+      ],
+      "endings": [
+        "true-ending"
+      ],
+      "world_state": [
+        "choice_DLG00030_A"
+      ]
+    },
+    "sort_order": 1
+  },
+  {
+    "choice_id": "DCH00030B",
+    "dialogue_id": "DLG00030",
+    "choice_text": "Ask what was forgotten.",
+    "value_axis": "Curiosity",
+    "next_dialogue_id": null,
+    "condition_payload": {
+      "min_trust": 5
+    },
+    "consequence_payload": {
+      "npc_trust": 0,
+      "monster_trust": 0,
+      "faction_reputation": 1,
+      "quest_routes": [
+        "route_2"
+      ],
+      "endings": [
+        "hidden-ending"
+      ],
+      "world_state": [
+        "choice_DLG00030_B"
+      ]
+    },
+    "sort_order": 2
+  }
+]

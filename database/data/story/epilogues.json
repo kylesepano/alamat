@@ -1,0 +1,210 @@
+[
+  {
+    "epilogue_id": "EPI00001",
+    "ending_id": "END001",
+    "title": "Song Returned: Community Epilogue",
+    "text": "An epilogue card describing consequences without declaring one culture, faction, or belief system superior.",
+    "affected_regions": [
+      "WREG0001"
+    ],
+    "affected_characters": [
+      "NPC000001"
+    ],
+    "asset_prompt_id": "STAP00061"
+  },
+  {
+    "epilogue_id": "EPI00002",
+    "ending_id": "END001",
+    "title": "Song Returned: Companion Epilogue",
+    "text": "An epilogue card describing consequences without declaring one culture, faction, or belief system superior.",
+    "affected_regions": [
+      "WREG0001"
+    ],
+    "affected_characters": [
+      "NPC000001"
+    ],
+    "asset_prompt_id": "STAP00062"
+  },
+  {
+    "epilogue_id": "EPI00003",
+    "ending_id": "END002",
+    "title": "Islands Remembered: Community Epilogue",
+    "text": "An epilogue card describing consequences without declaring one culture, faction, or belief system superior.",
+    "affected_regions": [
+      "WREG0002"
+    ],
+    "affected_characters": [
+      "NPC000002"
+    ],
+    "asset_prompt_id": "STAP00063"
+  },
+  {
+    "epilogue_id": "EPI00004",
+    "ending_id": "END002",
+    "title": "Islands Remembered: Companion Epilogue",
+    "text": "An epilogue card describing consequences without declaring one culture, faction, or belief system superior.",
+    "affected_regions": [
+      "WREG0002"
+    ],
+    "affected_characters": [
+      "NPC000002"
+    ],
+    "asset_prompt_id": "STAP00064"
+  },
+  {
+    "epilogue_id": "EPI00005",
+    "ending_id": "END003",
+    "title": "Council Oath: Community Epilogue",
+    "text": "An epilogue card describing consequences without declaring one culture, faction, or belief system superior.",
+    "affected_regions": [
+      "WREG0003"
+    ],
+    "affected_characters": [
+      "NPC000003"
+    ],
+    "asset_prompt_id": "STAP00065"
+  },
+  {
+    "epilogue_id": "EPI00006",
+    "ending_id": "END003",
+    "title": "Council Oath: Companion Epilogue",
+    "text": "An epilogue card describing consequences without declaring one culture, faction, or belief system superior.",
+    "affected_regions": [
+      "WREG0003"
+    ],
+    "affected_characters": [
+      "NPC000003"
+    ],
+    "asset_prompt_id": "STAP00066"
+  },
+  {
+    "epilogue_id": "EPI00007",
+    "ending_id": "END004",
+    "title": "Beside the First Friend: Community Epilogue",
+    "text": "An epilogue card describing consequences without declaring one culture, faction, or belief system superior.",
+    "affected_regions": [
+      "WREG0004"
+    ],
+    "affected_characters": [
+      "NPC000004"
+    ],
+    "asset_prompt_id": "STAP00067"
+  },
+  {
+    "epilogue_id": "EPI00008",
+    "ending_id": "END004",
+    "title": "Beside the First Friend: Companion Epilogue",
+    "text": "An epilogue card describing consequences without declaring one culture, faction, or belief system superior.",
+    "affected_regions": [
+      "WREG0004"
+    ],
+    "affected_characters": [
+      "NPC000004"
+    ],
+    "asset_prompt_id": "STAP00068"
+  },
+  {
+    "epilogue_id": "EPI00009",
+    "ending_id": "END005",
+    "title": "Doors of the Great Ones: Community Epilogue",
+    "text": "An epilogue card describing consequences without declaring one culture, faction, or belief system superior.",
+    "affected_regions": [
+      "WREG0005"
+    ],
+    "affected_characters": [
+      "NPC000005"
+    ],
+    "asset_prompt_id": "STAP00069"
+  },
+  {
+    "epilogue_id": "EPI00010",
+    "ending_id": "END005",
+    "title": "Doors of the Great Ones: Companion Epilogue",
+    "text": "An epilogue card describing consequences without declaring one culture, faction, or belief system superior.",
+    "affected_regions": [
+      "WREG0005"
+    ],
+    "affected_characters": [
+      "NPC000005"
+    ],
+    "asset_prompt_id": "STAP00070"
+  },
+  {
+    "epilogue_id": "EPI00011",
+    "ending_id": "END006",
+    "title": "The Quiet Name: Community Epilogue",
+    "text": "An epilogue card describing consequences without declaring one culture, faction, or belief system superior.",
+    "affected_regions": [
+      "WREG0006"
+    ],
+    "affected_characters": [
+      "NPC000006"
+    ],
+    "asset_prompt_id": "STAP00071"
+  },
+  {
+    "epilogue_id": "EPI00012",
+    "ending_id": "END006",
+    "title": "The Quiet Name: Companion Epilogue",
+    "text": "An epilogue card describing consequences without declaring one culture, faction, or belief system superior.",
+    "affected_regions": [
+      "WREG0006"
+    ],
+    "affected_characters": [
+      "NPC000006"
+    ],
+    "asset_prompt_id": "STAP00072"
+  },
+  {
+    "epilogue_id": "EPI00013",
+    "ending_id": "END007",
+    "title": "New Fires at Dawn: Community Epilogue",
+    "text": "An epilogue card describing consequences without declaring one culture, faction, or belief system superior.",
+    "affected_regions": [
+      "WREG0007"
+    ],
+    "affected_characters": [
+      "NPC000007"
+    ],
+    "asset_prompt_id": "STAP00073"
+  },
+  {
+    "epilogue_id": "EPI00014",
+    "ending_id": "END007",
+    "title": "New Fires at Dawn: Companion Epilogue",
+    "text": "An epilogue card describing consequences without declaring one culture, faction, or belief system superior.",
+    "affected_regions": [
+      "WREG0007"
+    ],
+    "affected_characters": [
+      "NPC000007"
+    ],
+    "asset_prompt_id": "STAP00074"
+  },
+  {
+    "epilogue_id": "EPI00015",
+    "ending_id": "END008",
+    "title": "Sail Beyond the Map: Community Epilogue",
+    "text": "An epilogue card describing consequences without declaring one culture, faction, or belief system superior.",
+    "affected_regions": [
+      "WREG0008"
+    ],
+    "affected_characters": [
+      "NPC000008"
+    ],
+    "asset_prompt_id": "STAP00075"
+  },
+  {
+    "epilogue_id": "EPI00016",
+    "ending_id": "END008",
+    "title": "Sail Beyond the Map: Companion Epilogue",
+    "text": "An epilogue card describing consequences without declaring one culture, faction, or belief system superior.",
+    "affected_regions": [
+      "WREG0008"
+    ],
+    "affected_characters": [
+      "NPC000008"
+    ],
+    "asset_prompt_id": "STAP00076"
+  }
+]

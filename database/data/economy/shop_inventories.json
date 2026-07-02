@@ -1,0 +1,4802 @@
+[
+  {
+    "shop_inventory_id": "SHINV000010",
+    "shop_id": "SHOPJ00001",
+    "inventory_type": "item",
+    "item_id": "ITM000001",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 25,
+    "stock_limit": 5,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000011",
+    "shop_id": "SHOPJ00001",
+    "inventory_type": "item",
+    "item_id": "ITM000002",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 35,
+    "stock_limit": 6,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000012",
+    "shop_id": "SHOPJ00001",
+    "inventory_type": "item",
+    "item_id": "ITM000003",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 45,
+    "stock_limit": 7,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000013",
+    "shop_id": "SHOPJ00001",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000004",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 55,
+    "stock_limit": 8,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000020",
+    "shop_id": "SHOPJ00002",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000005",
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 28,
+    "stock_limit": 5,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000021",
+    "shop_id": "SHOPJ00002",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000006",
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 38,
+    "stock_limit": 6,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000022",
+    "shop_id": "SHOPJ00002",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000007",
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 48,
+    "stock_limit": 7,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000023",
+    "shop_id": "SHOPJ00002",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000008",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 58,
+    "stock_limit": 8,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000030",
+    "shop_id": "SHOPJ00003",
+    "inventory_type": "item",
+    "item_id": "ITM000009",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 31,
+    "stock_limit": 5,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000031",
+    "shop_id": "SHOPJ00003",
+    "inventory_type": "item",
+    "item_id": "ITM000010",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 41,
+    "stock_limit": 6,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000032",
+    "shop_id": "SHOPJ00003",
+    "inventory_type": "item",
+    "item_id": "ITM000011",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 51,
+    "stock_limit": 7,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000033",
+    "shop_id": "SHOPJ00003",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000012",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 61,
+    "stock_limit": 8,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000040",
+    "shop_id": "SHOPJ00004",
+    "inventory_type": "item",
+    "item_id": "ITM000013",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 34,
+    "stock_limit": 5,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000041",
+    "shop_id": "SHOPJ00004",
+    "inventory_type": "item",
+    "item_id": "ITM000014",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 44,
+    "stock_limit": 6,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000042",
+    "shop_id": "SHOPJ00004",
+    "inventory_type": "item",
+    "item_id": "ITM000015",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 54,
+    "stock_limit": 7,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000043",
+    "shop_id": "SHOPJ00004",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000016",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 64,
+    "stock_limit": 8,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000050",
+    "shop_id": "SHOPJ00005",
+    "inventory_type": "item",
+    "item_id": "ITM000017",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 37,
+    "stock_limit": 5,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000051",
+    "shop_id": "SHOPJ00005",
+    "inventory_type": "item",
+    "item_id": "ITM000018",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 47,
+    "stock_limit": 6,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000052",
+    "shop_id": "SHOPJ00005",
+    "inventory_type": "item",
+    "item_id": "ITM000019",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 57,
+    "stock_limit": 7,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000053",
+    "shop_id": "SHOPJ00005",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000020",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 67,
+    "stock_limit": 8,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000060",
+    "shop_id": "SHOPJ00006",
+    "inventory_type": "item",
+    "item_id": "ITM000021",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 40,
+    "stock_limit": 5,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000061",
+    "shop_id": "SHOPJ00006",
+    "inventory_type": "item",
+    "item_id": "ITM000022",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 50,
+    "stock_limit": 6,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000062",
+    "shop_id": "SHOPJ00006",
+    "inventory_type": "item",
+    "item_id": "ITM000023",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 60,
+    "stock_limit": 7,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000063",
+    "shop_id": "SHOPJ00006",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000024",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 70,
+    "stock_limit": 8,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000070",
+    "shop_id": "SHOPJ00007",
+    "inventory_type": "item",
+    "item_id": "ITM000025",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 43,
+    "stock_limit": 5,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000071",
+    "shop_id": "SHOPJ00007",
+    "inventory_type": "item",
+    "item_id": "ITM000026",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 53,
+    "stock_limit": 6,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000072",
+    "shop_id": "SHOPJ00007",
+    "inventory_type": "item",
+    "item_id": "ITM000027",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 63,
+    "stock_limit": 7,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000073",
+    "shop_id": "SHOPJ00007",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000028",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 73,
+    "stock_limit": 8,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000080",
+    "shop_id": "SHOPJ00008",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000029",
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 46,
+    "stock_limit": 5,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000081",
+    "shop_id": "SHOPJ00008",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000030",
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 56,
+    "stock_limit": 6,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000082",
+    "shop_id": "SHOPJ00008",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000031",
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 66,
+    "stock_limit": 7,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000083",
+    "shop_id": "SHOPJ00008",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000032",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 76,
+    "stock_limit": 8,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000090",
+    "shop_id": "SHOPJ00009",
+    "inventory_type": "item",
+    "item_id": "ITM000033",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 49,
+    "stock_limit": 5,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000091",
+    "shop_id": "SHOPJ00009",
+    "inventory_type": "item",
+    "item_id": "ITM000034",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 59,
+    "stock_limit": 6,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000092",
+    "shop_id": "SHOPJ00009",
+    "inventory_type": "item",
+    "item_id": "ITM000035",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 69,
+    "stock_limit": 7,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000093",
+    "shop_id": "SHOPJ00009",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000036",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 79,
+    "stock_limit": 8,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000100",
+    "shop_id": "SHOPJ00010",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000037",
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 52,
+    "stock_limit": 5,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000101",
+    "shop_id": "SHOPJ00010",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000038",
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 62,
+    "stock_limit": 6,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000102",
+    "shop_id": "SHOPJ00010",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000039",
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 72,
+    "stock_limit": 7,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000103",
+    "shop_id": "SHOPJ00010",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000040",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 82,
+    "stock_limit": 8,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000110",
+    "shop_id": "SHOPJ00011",
+    "inventory_type": "item",
+    "item_id": "ITM000041",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 55,
+    "stock_limit": 5,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000111",
+    "shop_id": "SHOPJ00011",
+    "inventory_type": "item",
+    "item_id": "ITM000042",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 65,
+    "stock_limit": 6,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000112",
+    "shop_id": "SHOPJ00011",
+    "inventory_type": "item",
+    "item_id": "ITM000043",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 75,
+    "stock_limit": 7,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000113",
+    "shop_id": "SHOPJ00011",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000044",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 85,
+    "stock_limit": 8,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000120",
+    "shop_id": "SHOPJ00012",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000045",
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 58,
+    "stock_limit": 5,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000121",
+    "shop_id": "SHOPJ00012",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000046",
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 68,
+    "stock_limit": 6,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000122",
+    "shop_id": "SHOPJ00012",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000047",
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 78,
+    "stock_limit": 7,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000123",
+    "shop_id": "SHOPJ00012",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000048",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 88,
+    "stock_limit": 8,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000130",
+    "shop_id": "SHOPJ00013",
+    "inventory_type": "item",
+    "item_id": "ITM000049",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 61,
+    "stock_limit": 5,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000131",
+    "shop_id": "SHOPJ00013",
+    "inventory_type": "item",
+    "item_id": "ITM000050",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 71,
+    "stock_limit": 6,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000132",
+    "shop_id": "SHOPJ00013",
+    "inventory_type": "item",
+    "item_id": "ITM000051",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 81,
+    "stock_limit": 7,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000133",
+    "shop_id": "SHOPJ00013",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000052",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 91,
+    "stock_limit": 8,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000140",
+    "shop_id": "SHOPJ00014",
+    "inventory_type": "item",
+    "item_id": "ITM000053",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 64,
+    "stock_limit": 5,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000141",
+    "shop_id": "SHOPJ00014",
+    "inventory_type": "item",
+    "item_id": "ITM000054",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 74,
+    "stock_limit": 6,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000142",
+    "shop_id": "SHOPJ00014",
+    "inventory_type": "item",
+    "item_id": "ITM000055",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 84,
+    "stock_limit": 7,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000143",
+    "shop_id": "SHOPJ00014",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000056",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 94,
+    "stock_limit": 8,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000150",
+    "shop_id": "SHOPJ00015",
+    "inventory_type": "item",
+    "item_id": "ITM000057",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 67,
+    "stock_limit": 5,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000151",
+    "shop_id": "SHOPJ00015",
+    "inventory_type": "item",
+    "item_id": "ITM000058",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 77,
+    "stock_limit": 6,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000152",
+    "shop_id": "SHOPJ00015",
+    "inventory_type": "item",
+    "item_id": "ITM000059",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 87,
+    "stock_limit": 7,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000153",
+    "shop_id": "SHOPJ00015",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000060",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 97,
+    "stock_limit": 8,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000160",
+    "shop_id": "SHOPJ00016",
+    "inventory_type": "item",
+    "item_id": "ITM000061",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 70,
+    "stock_limit": 5,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000161",
+    "shop_id": "SHOPJ00016",
+    "inventory_type": "item",
+    "item_id": "ITM000062",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 80,
+    "stock_limit": 6,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000162",
+    "shop_id": "SHOPJ00016",
+    "inventory_type": "item",
+    "item_id": "ITM000063",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 90,
+    "stock_limit": 7,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000163",
+    "shop_id": "SHOPJ00016",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000064",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 100,
+    "stock_limit": 8,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000170",
+    "shop_id": "SHOPJ00017",
+    "inventory_type": "item",
+    "item_id": "ITM000065",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 73,
+    "stock_limit": 5,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000171",
+    "shop_id": "SHOPJ00017",
+    "inventory_type": "item",
+    "item_id": "ITM000066",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 83,
+    "stock_limit": 6,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000172",
+    "shop_id": "SHOPJ00017",
+    "inventory_type": "item",
+    "item_id": "ITM000067",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 93,
+    "stock_limit": 7,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000173",
+    "shop_id": "SHOPJ00017",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000068",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 103,
+    "stock_limit": 8,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000180",
+    "shop_id": "SHOPJ00018",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000069",
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 76,
+    "stock_limit": 5,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000181",
+    "shop_id": "SHOPJ00018",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000070",
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 86,
+    "stock_limit": 6,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000182",
+    "shop_id": "SHOPJ00018",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000071",
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 96,
+    "stock_limit": 7,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000183",
+    "shop_id": "SHOPJ00018",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000072",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 106,
+    "stock_limit": 8,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000190",
+    "shop_id": "SHOPJ00019",
+    "inventory_type": "item",
+    "item_id": "ITM000073",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 79,
+    "stock_limit": 5,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000191",
+    "shop_id": "SHOPJ00019",
+    "inventory_type": "item",
+    "item_id": "ITM000074",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 89,
+    "stock_limit": 6,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000192",
+    "shop_id": "SHOPJ00019",
+    "inventory_type": "item",
+    "item_id": "ITM000075",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 99,
+    "stock_limit": 7,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000193",
+    "shop_id": "SHOPJ00019",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000076",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 109,
+    "stock_limit": 8,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000200",
+    "shop_id": "SHOPJ00020",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000077",
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 82,
+    "stock_limit": 5,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000201",
+    "shop_id": "SHOPJ00020",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000078",
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 92,
+    "stock_limit": 6,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000202",
+    "shop_id": "SHOPJ00020",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000079",
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 102,
+    "stock_limit": 7,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000203",
+    "shop_id": "SHOPJ00020",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000080",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 112,
+    "stock_limit": 8,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000210",
+    "shop_id": "SHOPJ00021",
+    "inventory_type": "item",
+    "item_id": "ITM000081",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 85,
+    "stock_limit": 5,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000211",
+    "shop_id": "SHOPJ00021",
+    "inventory_type": "item",
+    "item_id": "ITM000082",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 95,
+    "stock_limit": 6,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000212",
+    "shop_id": "SHOPJ00021",
+    "inventory_type": "item",
+    "item_id": "ITM000083",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 105,
+    "stock_limit": 7,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000213",
+    "shop_id": "SHOPJ00021",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000084",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 115,
+    "stock_limit": 8,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000220",
+    "shop_id": "SHOPJ00022",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000085",
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 88,
+    "stock_limit": 5,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000221",
+    "shop_id": "SHOPJ00022",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000086",
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 98,
+    "stock_limit": 6,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000222",
+    "shop_id": "SHOPJ00022",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000087",
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 108,
+    "stock_limit": 7,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000223",
+    "shop_id": "SHOPJ00022",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000088",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 118,
+    "stock_limit": 8,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000230",
+    "shop_id": "SHOPJ00023",
+    "inventory_type": "item",
+    "item_id": "ITM000089",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 91,
+    "stock_limit": 5,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000231",
+    "shop_id": "SHOPJ00023",
+    "inventory_type": "item",
+    "item_id": "ITM000090",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 101,
+    "stock_limit": 6,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000232",
+    "shop_id": "SHOPJ00023",
+    "inventory_type": "item",
+    "item_id": "ITM000091",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 111,
+    "stock_limit": 7,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000233",
+    "shop_id": "SHOPJ00023",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000092",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 121,
+    "stock_limit": 8,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000240",
+    "shop_id": "SHOPJ00024",
+    "inventory_type": "item",
+    "item_id": "ITM000093",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 94,
+    "stock_limit": 5,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000241",
+    "shop_id": "SHOPJ00024",
+    "inventory_type": "item",
+    "item_id": "ITM000094",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 104,
+    "stock_limit": 6,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000242",
+    "shop_id": "SHOPJ00024",
+    "inventory_type": "item",
+    "item_id": "ITM000095",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 114,
+    "stock_limit": 7,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000243",
+    "shop_id": "SHOPJ00024",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000096",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 124,
+    "stock_limit": 8,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000250",
+    "shop_id": "SHOPJ00025",
+    "inventory_type": "item",
+    "item_id": "ITM000097",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 97,
+    "stock_limit": 5,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000251",
+    "shop_id": "SHOPJ00025",
+    "inventory_type": "item",
+    "item_id": "ITM000098",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 107,
+    "stock_limit": 6,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000252",
+    "shop_id": "SHOPJ00025",
+    "inventory_type": "item",
+    "item_id": "ITM000099",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 117,
+    "stock_limit": 7,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000253",
+    "shop_id": "SHOPJ00025",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000100",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 127,
+    "stock_limit": 8,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000260",
+    "shop_id": "SHOPJ00026",
+    "inventory_type": "item",
+    "item_id": "ITM000101",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 100,
+    "stock_limit": 5,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000261",
+    "shop_id": "SHOPJ00026",
+    "inventory_type": "item",
+    "item_id": "ITM000102",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 110,
+    "stock_limit": 6,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000262",
+    "shop_id": "SHOPJ00026",
+    "inventory_type": "item",
+    "item_id": "ITM000103",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 120,
+    "stock_limit": 7,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000263",
+    "shop_id": "SHOPJ00026",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000104",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 130,
+    "stock_limit": 8,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000270",
+    "shop_id": "SHOPJ00027",
+    "inventory_type": "item",
+    "item_id": "ITM000105",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 103,
+    "stock_limit": 5,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000271",
+    "shop_id": "SHOPJ00027",
+    "inventory_type": "item",
+    "item_id": "ITM000106",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 113,
+    "stock_limit": 6,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000272",
+    "shop_id": "SHOPJ00027",
+    "inventory_type": "item",
+    "item_id": "ITM000107",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 123,
+    "stock_limit": 7,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000273",
+    "shop_id": "SHOPJ00027",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000108",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 133,
+    "stock_limit": 8,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000280",
+    "shop_id": "SHOPJ00028",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000109",
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 106,
+    "stock_limit": 5,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000281",
+    "shop_id": "SHOPJ00028",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000110",
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 116,
+    "stock_limit": 6,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000282",
+    "shop_id": "SHOPJ00028",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000111",
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 126,
+    "stock_limit": 7,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000283",
+    "shop_id": "SHOPJ00028",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000112",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 136,
+    "stock_limit": 8,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000290",
+    "shop_id": "SHOPJ00029",
+    "inventory_type": "item",
+    "item_id": "ITM000113",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 109,
+    "stock_limit": 5,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000291",
+    "shop_id": "SHOPJ00029",
+    "inventory_type": "item",
+    "item_id": "ITM000114",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 119,
+    "stock_limit": 6,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000292",
+    "shop_id": "SHOPJ00029",
+    "inventory_type": "item",
+    "item_id": "ITM000115",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 129,
+    "stock_limit": 7,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000293",
+    "shop_id": "SHOPJ00029",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000116",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 139,
+    "stock_limit": 8,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000300",
+    "shop_id": "SHOPJ00030",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000117",
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 112,
+    "stock_limit": 5,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000301",
+    "shop_id": "SHOPJ00030",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000118",
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 122,
+    "stock_limit": 6,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000302",
+    "shop_id": "SHOPJ00030",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000119",
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 132,
+    "stock_limit": 7,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000303",
+    "shop_id": "SHOPJ00030",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000120",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 142,
+    "stock_limit": 8,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000310",
+    "shop_id": "SHOPJ00031",
+    "inventory_type": "item",
+    "item_id": "ITM000121",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 115,
+    "stock_limit": 5,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000311",
+    "shop_id": "SHOPJ00031",
+    "inventory_type": "item",
+    "item_id": "ITM000122",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 125,
+    "stock_limit": 6,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000312",
+    "shop_id": "SHOPJ00031",
+    "inventory_type": "item",
+    "item_id": "ITM000123",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 135,
+    "stock_limit": 7,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000313",
+    "shop_id": "SHOPJ00031",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000124",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 145,
+    "stock_limit": 8,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000320",
+    "shop_id": "SHOPJ00032",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000125",
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 118,
+    "stock_limit": 5,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000321",
+    "shop_id": "SHOPJ00032",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000126",
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 128,
+    "stock_limit": 6,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000322",
+    "shop_id": "SHOPJ00032",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000127",
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 138,
+    "stock_limit": 7,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000323",
+    "shop_id": "SHOPJ00032",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000128",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 148,
+    "stock_limit": 8,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000330",
+    "shop_id": "SHOPJ00033",
+    "inventory_type": "item",
+    "item_id": "ITM000129",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 121,
+    "stock_limit": 5,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000331",
+    "shop_id": "SHOPJ00033",
+    "inventory_type": "item",
+    "item_id": "ITM000130",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 131,
+    "stock_limit": 6,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000332",
+    "shop_id": "SHOPJ00033",
+    "inventory_type": "item",
+    "item_id": "ITM000131",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 141,
+    "stock_limit": 7,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000333",
+    "shop_id": "SHOPJ00033",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000132",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 151,
+    "stock_limit": 8,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000340",
+    "shop_id": "SHOPJ00034",
+    "inventory_type": "item",
+    "item_id": "ITM000133",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 124,
+    "stock_limit": 5,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000341",
+    "shop_id": "SHOPJ00034",
+    "inventory_type": "item",
+    "item_id": "ITM000134",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 134,
+    "stock_limit": 6,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000342",
+    "shop_id": "SHOPJ00034",
+    "inventory_type": "item",
+    "item_id": "ITM000135",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 144,
+    "stock_limit": 7,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000343",
+    "shop_id": "SHOPJ00034",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000136",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 154,
+    "stock_limit": 8,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000350",
+    "shop_id": "SHOPJ00035",
+    "inventory_type": "item",
+    "item_id": "ITM000137",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 127,
+    "stock_limit": 5,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000351",
+    "shop_id": "SHOPJ00035",
+    "inventory_type": "item",
+    "item_id": "ITM000138",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 137,
+    "stock_limit": 6,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000352",
+    "shop_id": "SHOPJ00035",
+    "inventory_type": "item",
+    "item_id": "ITM000139",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 147,
+    "stock_limit": 7,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000353",
+    "shop_id": "SHOPJ00035",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000140",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 157,
+    "stock_limit": 8,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000360",
+    "shop_id": "SHOPJ00036",
+    "inventory_type": "item",
+    "item_id": "ITM000141",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 130,
+    "stock_limit": 5,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000361",
+    "shop_id": "SHOPJ00036",
+    "inventory_type": "item",
+    "item_id": "ITM000142",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 140,
+    "stock_limit": 6,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000362",
+    "shop_id": "SHOPJ00036",
+    "inventory_type": "item",
+    "item_id": "ITM000143",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 150,
+    "stock_limit": 7,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000363",
+    "shop_id": "SHOPJ00036",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000144",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 160,
+    "stock_limit": 8,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000370",
+    "shop_id": "SHOPJ00037",
+    "inventory_type": "item",
+    "item_id": "ITM000145",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 133,
+    "stock_limit": 5,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000371",
+    "shop_id": "SHOPJ00037",
+    "inventory_type": "item",
+    "item_id": "ITM000146",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 143,
+    "stock_limit": 6,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000372",
+    "shop_id": "SHOPJ00037",
+    "inventory_type": "item",
+    "item_id": "ITM000147",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 153,
+    "stock_limit": 7,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000373",
+    "shop_id": "SHOPJ00037",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000148",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 163,
+    "stock_limit": 8,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000380",
+    "shop_id": "SHOPJ00038",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000149",
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 136,
+    "stock_limit": 5,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000381",
+    "shop_id": "SHOPJ00038",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000150",
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 146,
+    "stock_limit": 6,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000382",
+    "shop_id": "SHOPJ00038",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000151",
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 156,
+    "stock_limit": 7,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000383",
+    "shop_id": "SHOPJ00038",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000152",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 166,
+    "stock_limit": 8,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000390",
+    "shop_id": "SHOPJ00039",
+    "inventory_type": "item",
+    "item_id": "ITM000153",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 139,
+    "stock_limit": 5,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000391",
+    "shop_id": "SHOPJ00039",
+    "inventory_type": "item",
+    "item_id": "ITM000154",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 149,
+    "stock_limit": 6,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000392",
+    "shop_id": "SHOPJ00039",
+    "inventory_type": "item",
+    "item_id": "ITM000155",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 159,
+    "stock_limit": 7,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000393",
+    "shop_id": "SHOPJ00039",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000156",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 169,
+    "stock_limit": 8,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000400",
+    "shop_id": "SHOPJ00040",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000157",
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 142,
+    "stock_limit": 5,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000401",
+    "shop_id": "SHOPJ00040",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000158",
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 152,
+    "stock_limit": 6,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000402",
+    "shop_id": "SHOPJ00040",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000159",
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 162,
+    "stock_limit": 7,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000403",
+    "shop_id": "SHOPJ00040",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000160",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 172,
+    "stock_limit": 8,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000410",
+    "shop_id": "SHOPJ00041",
+    "inventory_type": "item",
+    "item_id": "ITM000161",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 145,
+    "stock_limit": 5,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000411",
+    "shop_id": "SHOPJ00041",
+    "inventory_type": "item",
+    "item_id": "ITM000162",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 155,
+    "stock_limit": 6,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000412",
+    "shop_id": "SHOPJ00041",
+    "inventory_type": "item",
+    "item_id": "ITM000163",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 165,
+    "stock_limit": 7,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000413",
+    "shop_id": "SHOPJ00041",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000164",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 175,
+    "stock_limit": 8,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000420",
+    "shop_id": "SHOPJ00042",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000165",
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 148,
+    "stock_limit": 5,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000421",
+    "shop_id": "SHOPJ00042",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000166",
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 158,
+    "stock_limit": 6,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000422",
+    "shop_id": "SHOPJ00042",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000167",
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 168,
+    "stock_limit": 7,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000423",
+    "shop_id": "SHOPJ00042",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000168",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 178,
+    "stock_limit": 8,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000430",
+    "shop_id": "SHOPJ00043",
+    "inventory_type": "item",
+    "item_id": "ITM000169",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 151,
+    "stock_limit": 5,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000431",
+    "shop_id": "SHOPJ00043",
+    "inventory_type": "item",
+    "item_id": "ITM000170",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 161,
+    "stock_limit": 6,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000432",
+    "shop_id": "SHOPJ00043",
+    "inventory_type": "item",
+    "item_id": "ITM000171",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 171,
+    "stock_limit": 7,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000433",
+    "shop_id": "SHOPJ00043",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000172",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 181,
+    "stock_limit": 8,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000440",
+    "shop_id": "SHOPJ00044",
+    "inventory_type": "item",
+    "item_id": "ITM000173",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 154,
+    "stock_limit": 5,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000441",
+    "shop_id": "SHOPJ00044",
+    "inventory_type": "item",
+    "item_id": "ITM000174",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 164,
+    "stock_limit": 6,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000442",
+    "shop_id": "SHOPJ00044",
+    "inventory_type": "item",
+    "item_id": "ITM000175",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 174,
+    "stock_limit": 7,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000443",
+    "shop_id": "SHOPJ00044",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000176",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 184,
+    "stock_limit": 8,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000450",
+    "shop_id": "SHOPJ00045",
+    "inventory_type": "item",
+    "item_id": "ITM000177",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 157,
+    "stock_limit": 5,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000451",
+    "shop_id": "SHOPJ00045",
+    "inventory_type": "item",
+    "item_id": "ITM000178",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 167,
+    "stock_limit": 6,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000452",
+    "shop_id": "SHOPJ00045",
+    "inventory_type": "item",
+    "item_id": "ITM000179",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 177,
+    "stock_limit": 7,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000453",
+    "shop_id": "SHOPJ00045",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000180",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 187,
+    "stock_limit": 8,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000460",
+    "shop_id": "SHOPJ00046",
+    "inventory_type": "item",
+    "item_id": "ITM000181",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 160,
+    "stock_limit": 5,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000461",
+    "shop_id": "SHOPJ00046",
+    "inventory_type": "item",
+    "item_id": "ITM000182",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 170,
+    "stock_limit": 6,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000462",
+    "shop_id": "SHOPJ00046",
+    "inventory_type": "item",
+    "item_id": "ITM000183",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 180,
+    "stock_limit": 7,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000463",
+    "shop_id": "SHOPJ00046",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000184",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 190,
+    "stock_limit": 8,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000470",
+    "shop_id": "SHOPJ00047",
+    "inventory_type": "item",
+    "item_id": "ITM000185",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 163,
+    "stock_limit": 5,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000471",
+    "shop_id": "SHOPJ00047",
+    "inventory_type": "item",
+    "item_id": "ITM000186",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 173,
+    "stock_limit": 6,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000472",
+    "shop_id": "SHOPJ00047",
+    "inventory_type": "item",
+    "item_id": "ITM000187",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 183,
+    "stock_limit": 7,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000473",
+    "shop_id": "SHOPJ00047",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000188",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 193,
+    "stock_limit": 8,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000480",
+    "shop_id": "SHOPJ00048",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000189",
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 166,
+    "stock_limit": 5,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000481",
+    "shop_id": "SHOPJ00048",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000190",
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 176,
+    "stock_limit": 6,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000482",
+    "shop_id": "SHOPJ00048",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000191",
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 186,
+    "stock_limit": 7,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000483",
+    "shop_id": "SHOPJ00048",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000192",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 196,
+    "stock_limit": 8,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000490",
+    "shop_id": "SHOPJ00049",
+    "inventory_type": "item",
+    "item_id": "ITM000193",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 169,
+    "stock_limit": 5,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000491",
+    "shop_id": "SHOPJ00049",
+    "inventory_type": "item",
+    "item_id": "ITM000194",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 179,
+    "stock_limit": 6,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000492",
+    "shop_id": "SHOPJ00049",
+    "inventory_type": "item",
+    "item_id": "ITM000195",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 189,
+    "stock_limit": 7,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000493",
+    "shop_id": "SHOPJ00049",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000196",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 199,
+    "stock_limit": 8,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000500",
+    "shop_id": "SHOPJ00050",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000197",
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 172,
+    "stock_limit": 5,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000501",
+    "shop_id": "SHOPJ00050",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000198",
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 182,
+    "stock_limit": 6,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000502",
+    "shop_id": "SHOPJ00050",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000199",
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 192,
+    "stock_limit": 7,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000503",
+    "shop_id": "SHOPJ00050",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000200",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 202,
+    "stock_limit": 8,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000510",
+    "shop_id": "SHOPJ00051",
+    "inventory_type": "item",
+    "item_id": "ITM000201",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 175,
+    "stock_limit": 5,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000511",
+    "shop_id": "SHOPJ00051",
+    "inventory_type": "item",
+    "item_id": "ITM000202",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 185,
+    "stock_limit": 6,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000512",
+    "shop_id": "SHOPJ00051",
+    "inventory_type": "item",
+    "item_id": "ITM000203",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 195,
+    "stock_limit": 7,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000513",
+    "shop_id": "SHOPJ00051",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000204",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 205,
+    "stock_limit": 8,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000520",
+    "shop_id": "SHOPJ00052",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000205",
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 178,
+    "stock_limit": 5,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000521",
+    "shop_id": "SHOPJ00052",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000206",
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 188,
+    "stock_limit": 6,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000522",
+    "shop_id": "SHOPJ00052",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000207",
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 198,
+    "stock_limit": 7,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000523",
+    "shop_id": "SHOPJ00052",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000208",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 208,
+    "stock_limit": 8,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000530",
+    "shop_id": "SHOPJ00053",
+    "inventory_type": "item",
+    "item_id": "ITM000209",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 181,
+    "stock_limit": 5,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000531",
+    "shop_id": "SHOPJ00053",
+    "inventory_type": "item",
+    "item_id": "ITM000210",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 191,
+    "stock_limit": 6,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000532",
+    "shop_id": "SHOPJ00053",
+    "inventory_type": "item",
+    "item_id": "ITM000211",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 201,
+    "stock_limit": 7,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000533",
+    "shop_id": "SHOPJ00053",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000212",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 211,
+    "stock_limit": 8,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000540",
+    "shop_id": "SHOPJ00054",
+    "inventory_type": "item",
+    "item_id": "ITM000213",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 184,
+    "stock_limit": 5,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000541",
+    "shop_id": "SHOPJ00054",
+    "inventory_type": "item",
+    "item_id": "ITM000214",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 194,
+    "stock_limit": 6,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000542",
+    "shop_id": "SHOPJ00054",
+    "inventory_type": "item",
+    "item_id": "ITM000215",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 204,
+    "stock_limit": 7,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000543",
+    "shop_id": "SHOPJ00054",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000216",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 214,
+    "stock_limit": 8,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000550",
+    "shop_id": "SHOPJ00055",
+    "inventory_type": "item",
+    "item_id": "ITM000217",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 187,
+    "stock_limit": 5,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000551",
+    "shop_id": "SHOPJ00055",
+    "inventory_type": "item",
+    "item_id": "ITM000218",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 197,
+    "stock_limit": 6,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000552",
+    "shop_id": "SHOPJ00055",
+    "inventory_type": "item",
+    "item_id": "ITM000219",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 207,
+    "stock_limit": 7,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000553",
+    "shop_id": "SHOPJ00055",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000220",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 217,
+    "stock_limit": 8,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000560",
+    "shop_id": "SHOPJ00056",
+    "inventory_type": "item",
+    "item_id": "ITM000221",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 190,
+    "stock_limit": 5,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000561",
+    "shop_id": "SHOPJ00056",
+    "inventory_type": "item",
+    "item_id": "ITM000222",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 200,
+    "stock_limit": 6,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000562",
+    "shop_id": "SHOPJ00056",
+    "inventory_type": "item",
+    "item_id": "ITM000223",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 210,
+    "stock_limit": 7,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000563",
+    "shop_id": "SHOPJ00056",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000224",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 220,
+    "stock_limit": 8,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000570",
+    "shop_id": "SHOPJ00057",
+    "inventory_type": "item",
+    "item_id": "ITM000225",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 193,
+    "stock_limit": 5,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000571",
+    "shop_id": "SHOPJ00057",
+    "inventory_type": "item",
+    "item_id": "ITM000226",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 203,
+    "stock_limit": 6,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000572",
+    "shop_id": "SHOPJ00057",
+    "inventory_type": "item",
+    "item_id": "ITM000227",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 213,
+    "stock_limit": 7,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000573",
+    "shop_id": "SHOPJ00057",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000228",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 223,
+    "stock_limit": 8,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000580",
+    "shop_id": "SHOPJ00058",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000229",
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 196,
+    "stock_limit": 5,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000581",
+    "shop_id": "SHOPJ00058",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000230",
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 206,
+    "stock_limit": 6,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000582",
+    "shop_id": "SHOPJ00058",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000231",
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 216,
+    "stock_limit": 7,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000583",
+    "shop_id": "SHOPJ00058",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000232",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 226,
+    "stock_limit": 8,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000590",
+    "shop_id": "SHOPJ00059",
+    "inventory_type": "item",
+    "item_id": "ITM000233",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 199,
+    "stock_limit": 5,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000591",
+    "shop_id": "SHOPJ00059",
+    "inventory_type": "item",
+    "item_id": "ITM000234",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 209,
+    "stock_limit": 6,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000592",
+    "shop_id": "SHOPJ00059",
+    "inventory_type": "item",
+    "item_id": "ITM000235",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 219,
+    "stock_limit": 7,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000593",
+    "shop_id": "SHOPJ00059",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000236",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 229,
+    "stock_limit": 8,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000600",
+    "shop_id": "SHOPJ00060",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000237",
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 202,
+    "stock_limit": 5,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000601",
+    "shop_id": "SHOPJ00060",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000238",
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 212,
+    "stock_limit": 6,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000602",
+    "shop_id": "SHOPJ00060",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000239",
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 222,
+    "stock_limit": 7,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000603",
+    "shop_id": "SHOPJ00060",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000240",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 232,
+    "stock_limit": 8,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000610",
+    "shop_id": "SHOPJ00061",
+    "inventory_type": "item",
+    "item_id": "ITM000241",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 205,
+    "stock_limit": 5,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000611",
+    "shop_id": "SHOPJ00061",
+    "inventory_type": "item",
+    "item_id": "ITM000242",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 215,
+    "stock_limit": 6,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000612",
+    "shop_id": "SHOPJ00061",
+    "inventory_type": "item",
+    "item_id": "ITM000243",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 225,
+    "stock_limit": 7,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000613",
+    "shop_id": "SHOPJ00061",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000244",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 235,
+    "stock_limit": 8,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000620",
+    "shop_id": "SHOPJ00062",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000245",
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 208,
+    "stock_limit": 5,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000621",
+    "shop_id": "SHOPJ00062",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000246",
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 218,
+    "stock_limit": 6,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000622",
+    "shop_id": "SHOPJ00062",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000247",
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 228,
+    "stock_limit": 7,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000623",
+    "shop_id": "SHOPJ00062",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000248",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 238,
+    "stock_limit": 8,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000630",
+    "shop_id": "SHOPJ00063",
+    "inventory_type": "item",
+    "item_id": "ITM000249",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 211,
+    "stock_limit": 5,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000631",
+    "shop_id": "SHOPJ00063",
+    "inventory_type": "item",
+    "item_id": "ITM000250",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 221,
+    "stock_limit": 6,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000632",
+    "shop_id": "SHOPJ00063",
+    "inventory_type": "item",
+    "item_id": "ITM000251",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 231,
+    "stock_limit": 7,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000633",
+    "shop_id": "SHOPJ00063",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000252",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 241,
+    "stock_limit": 8,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000640",
+    "shop_id": "SHOPJ00064",
+    "inventory_type": "item",
+    "item_id": "ITM000253",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 214,
+    "stock_limit": 5,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000641",
+    "shop_id": "SHOPJ00064",
+    "inventory_type": "item",
+    "item_id": "ITM000254",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 224,
+    "stock_limit": 6,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000642",
+    "shop_id": "SHOPJ00064",
+    "inventory_type": "item",
+    "item_id": "ITM000255",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 234,
+    "stock_limit": 7,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000643",
+    "shop_id": "SHOPJ00064",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000256",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 244,
+    "stock_limit": 8,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000650",
+    "shop_id": "SHOPJ00065",
+    "inventory_type": "item",
+    "item_id": "ITM000257",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 217,
+    "stock_limit": 5,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000651",
+    "shop_id": "SHOPJ00065",
+    "inventory_type": "item",
+    "item_id": "ITM000258",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 227,
+    "stock_limit": 6,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000652",
+    "shop_id": "SHOPJ00065",
+    "inventory_type": "item",
+    "item_id": "ITM000259",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 237,
+    "stock_limit": 7,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000653",
+    "shop_id": "SHOPJ00065",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000260",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 247,
+    "stock_limit": 8,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000660",
+    "shop_id": "SHOPJ00066",
+    "inventory_type": "item",
+    "item_id": "ITM000261",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 220,
+    "stock_limit": 5,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000661",
+    "shop_id": "SHOPJ00066",
+    "inventory_type": "item",
+    "item_id": "ITM000262",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 230,
+    "stock_limit": 6,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000662",
+    "shop_id": "SHOPJ00066",
+    "inventory_type": "item",
+    "item_id": "ITM000263",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 240,
+    "stock_limit": 7,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000663",
+    "shop_id": "SHOPJ00066",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000264",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 250,
+    "stock_limit": 8,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000670",
+    "shop_id": "SHOPJ00067",
+    "inventory_type": "item",
+    "item_id": "ITM000265",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 223,
+    "stock_limit": 5,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000671",
+    "shop_id": "SHOPJ00067",
+    "inventory_type": "item",
+    "item_id": "ITM000266",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 233,
+    "stock_limit": 6,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000672",
+    "shop_id": "SHOPJ00067",
+    "inventory_type": "item",
+    "item_id": "ITM000267",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 243,
+    "stock_limit": 7,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000673",
+    "shop_id": "SHOPJ00067",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000268",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 253,
+    "stock_limit": 8,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000680",
+    "shop_id": "SHOPJ00068",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000269",
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 226,
+    "stock_limit": 5,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000681",
+    "shop_id": "SHOPJ00068",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000270",
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 236,
+    "stock_limit": 6,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000682",
+    "shop_id": "SHOPJ00068",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000271",
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 246,
+    "stock_limit": 7,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000683",
+    "shop_id": "SHOPJ00068",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000272",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 256,
+    "stock_limit": 8,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000690",
+    "shop_id": "SHOPJ00069",
+    "inventory_type": "item",
+    "item_id": "ITM000273",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 229,
+    "stock_limit": 5,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000691",
+    "shop_id": "SHOPJ00069",
+    "inventory_type": "item",
+    "item_id": "ITM000274",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 239,
+    "stock_limit": 6,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000692",
+    "shop_id": "SHOPJ00069",
+    "inventory_type": "item",
+    "item_id": "ITM000275",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 249,
+    "stock_limit": 7,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000693",
+    "shop_id": "SHOPJ00069",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000276",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 259,
+    "stock_limit": 8,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000700",
+    "shop_id": "SHOPJ00070",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000277",
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 232,
+    "stock_limit": 5,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000701",
+    "shop_id": "SHOPJ00070",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000278",
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 242,
+    "stock_limit": 6,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000702",
+    "shop_id": "SHOPJ00070",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000279",
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 252,
+    "stock_limit": 7,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000703",
+    "shop_id": "SHOPJ00070",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000280",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 262,
+    "stock_limit": 8,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000710",
+    "shop_id": "SHOPJ00071",
+    "inventory_type": "item",
+    "item_id": "ITM000281",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 235,
+    "stock_limit": 5,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000711",
+    "shop_id": "SHOPJ00071",
+    "inventory_type": "item",
+    "item_id": "ITM000282",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 245,
+    "stock_limit": 6,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000712",
+    "shop_id": "SHOPJ00071",
+    "inventory_type": "item",
+    "item_id": "ITM000283",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 255,
+    "stock_limit": 7,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000713",
+    "shop_id": "SHOPJ00071",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000284",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 265,
+    "stock_limit": 8,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000720",
+    "shop_id": "SHOPJ00072",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000285",
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 238,
+    "stock_limit": 5,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000721",
+    "shop_id": "SHOPJ00072",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000286",
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 248,
+    "stock_limit": 6,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000722",
+    "shop_id": "SHOPJ00072",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000287",
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 258,
+    "stock_limit": 7,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000723",
+    "shop_id": "SHOPJ00072",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000288",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 268,
+    "stock_limit": 8,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000730",
+    "shop_id": "SHOPJ00073",
+    "inventory_type": "item",
+    "item_id": "ITM000289",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 241,
+    "stock_limit": 5,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000731",
+    "shop_id": "SHOPJ00073",
+    "inventory_type": "item",
+    "item_id": "ITM000290",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 251,
+    "stock_limit": 6,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000732",
+    "shop_id": "SHOPJ00073",
+    "inventory_type": "item",
+    "item_id": "ITM000291",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 261,
+    "stock_limit": 7,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000733",
+    "shop_id": "SHOPJ00073",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000292",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 271,
+    "stock_limit": 8,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000740",
+    "shop_id": "SHOPJ00074",
+    "inventory_type": "item",
+    "item_id": "ITM000293",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 244,
+    "stock_limit": 5,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000741",
+    "shop_id": "SHOPJ00074",
+    "inventory_type": "item",
+    "item_id": "ITM000294",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 254,
+    "stock_limit": 6,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000742",
+    "shop_id": "SHOPJ00074",
+    "inventory_type": "item",
+    "item_id": "ITM000295",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 264,
+    "stock_limit": 7,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000743",
+    "shop_id": "SHOPJ00074",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000296",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 274,
+    "stock_limit": 8,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000750",
+    "shop_id": "SHOPJ00075",
+    "inventory_type": "item",
+    "item_id": "ITM000297",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 247,
+    "stock_limit": 5,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000751",
+    "shop_id": "SHOPJ00075",
+    "inventory_type": "item",
+    "item_id": "ITM000298",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 257,
+    "stock_limit": 6,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000752",
+    "shop_id": "SHOPJ00075",
+    "inventory_type": "item",
+    "item_id": "ITM000299",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 267,
+    "stock_limit": 7,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000753",
+    "shop_id": "SHOPJ00075",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000300",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 277,
+    "stock_limit": 8,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000760",
+    "shop_id": "SHOPJ00076",
+    "inventory_type": "item",
+    "item_id": "ITM000301",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 250,
+    "stock_limit": 5,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000761",
+    "shop_id": "SHOPJ00076",
+    "inventory_type": "item",
+    "item_id": "ITM000302",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 260,
+    "stock_limit": 6,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000762",
+    "shop_id": "SHOPJ00076",
+    "inventory_type": "item",
+    "item_id": "ITM000303",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 270,
+    "stock_limit": 7,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000763",
+    "shop_id": "SHOPJ00076",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000304",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 280,
+    "stock_limit": 8,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000770",
+    "shop_id": "SHOPJ00077",
+    "inventory_type": "item",
+    "item_id": "ITM000305",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 253,
+    "stock_limit": 5,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000771",
+    "shop_id": "SHOPJ00077",
+    "inventory_type": "item",
+    "item_id": "ITM000306",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 263,
+    "stock_limit": 6,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000772",
+    "shop_id": "SHOPJ00077",
+    "inventory_type": "item",
+    "item_id": "ITM000307",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 273,
+    "stock_limit": 7,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000773",
+    "shop_id": "SHOPJ00077",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000308",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 283,
+    "stock_limit": 8,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000780",
+    "shop_id": "SHOPJ00078",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000309",
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 256,
+    "stock_limit": 5,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000781",
+    "shop_id": "SHOPJ00078",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000310",
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 266,
+    "stock_limit": 6,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000782",
+    "shop_id": "SHOPJ00078",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000311",
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 276,
+    "stock_limit": 7,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000783",
+    "shop_id": "SHOPJ00078",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000312",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 286,
+    "stock_limit": 8,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000790",
+    "shop_id": "SHOPJ00079",
+    "inventory_type": "item",
+    "item_id": "ITM000313",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 259,
+    "stock_limit": 5,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000791",
+    "shop_id": "SHOPJ00079",
+    "inventory_type": "item",
+    "item_id": "ITM000314",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 269,
+    "stock_limit": 6,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000792",
+    "shop_id": "SHOPJ00079",
+    "inventory_type": "item",
+    "item_id": "ITM000315",
+    "equipment_id": null,
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 279,
+    "stock_limit": 7,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000793",
+    "shop_id": "SHOPJ00079",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000316",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 289,
+    "stock_limit": 8,
+    "restock_interval": "daily",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000800",
+    "shop_id": "SHOPJ00080",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000317",
+    "skill_id": null,
+    "quantity": 2,
+    "base_price": 262,
+    "stock_limit": 5,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000801",
+    "shop_id": "SHOPJ00080",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000318",
+    "skill_id": null,
+    "quantity": 3,
+    "base_price": 272,
+    "stock_limit": 6,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000802",
+    "shop_id": "SHOPJ00080",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000319",
+    "skill_id": null,
+    "quantity": 4,
+    "base_price": 282,
+    "stock_limit": 7,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": null
+    }
+  },
+  {
+    "shop_inventory_id": "SHINV000803",
+    "shop_id": "SHOPJ00080",
+    "inventory_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000320",
+    "skill_id": null,
+    "quantity": 5,
+    "base_price": 292,
+    "stock_limit": 8,
+    "restock_interval": "weekly",
+    "condition_payload": {
+      "relationship": "Friend"
+    }
+  }
+]

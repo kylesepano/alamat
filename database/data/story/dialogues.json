@@ -1,0 +1,812 @@
+[
+  {
+    "dialogue_id": "DLG00001",
+    "scene_id": "STSC00001",
+    "speaker": "Player Mentor",
+    "portrait": "portrait_DLG00001.png",
+    "emotion": "calm",
+    "text": "This node anchors Home by the River: Arrival. Writers can localize, branch, and replace this text without changing scene code.",
+    "voice_cue": "soft",
+    "animation_cue": "idle_listen",
+    "player_choices": [
+      "DCH00001A",
+      "DCH00001B"
+    ],
+    "conditions": {
+      "flags": [],
+      "relationship_min": "Acquaintance"
+    },
+    "consequences": {
+      "flags": [
+        "scene_1_seen"
+      ],
+      "values": "Mercy"
+    },
+    "locale_key": "story.DLG00001.root",
+    "voice_direction_notes": "Respectful, grounded, and region-aware; avoid caricatured dialect."
+  },
+  {
+    "dialogue_id": "DLG00002",
+    "scene_id": "STSC00002",
+    "speaker": "Local Witness",
+    "portrait": "portrait_DLG00002.png",
+    "emotion": "worried",
+    "text": "This node anchors Home by the River: Decision. Writers can localize, branch, and replace this text without changing scene code.",
+    "voice_cue": "urgent",
+    "animation_cue": "gesture_open",
+    "player_choices": [
+      "DCH00002A",
+      "DCH00002B"
+    ],
+    "conditions": {
+      "flags": [
+        "scene_1_seen"
+      ],
+      "relationship_min": null
+    },
+    "consequences": {
+      "flags": [
+        "scene_2_seen"
+      ],
+      "values": "Wisdom"
+    },
+    "locale_key": "story.DLG00002.root",
+    "voice_direction_notes": "Respectful, grounded, and region-aware; avoid caricatured dialect."
+  },
+  {
+    "dialogue_id": "DLG00003",
+    "scene_id": "STSC00003",
+    "speaker": "Companion Nilalang",
+    "portrait": "portrait_DLG00003.png",
+    "emotion": "resolute",
+    "text": "This node anchors First Oath of Trust: Arrival. Writers can localize, branch, and replace this text without changing scene code.",
+    "voice_cue": "ritual",
+    "animation_cue": "look_to_sky",
+    "player_choices": [
+      "DCH00003A",
+      "DCH00003B"
+    ],
+    "conditions": {
+      "flags": [],
+      "relationship_min": null
+    },
+    "consequences": {
+      "flags": [
+        "scene_3_seen"
+      ],
+      "values": "Balance"
+    },
+    "locale_key": "story.DLG00003.root",
+    "voice_direction_notes": "Respectful, grounded, and region-aware; avoid caricatured dialect."
+  },
+  {
+    "dialogue_id": "DLG00004",
+    "scene_id": "STSC00004",
+    "speaker": "Player Mentor",
+    "portrait": "portrait_DLG00004.png",
+    "emotion": "warm",
+    "text": "This node anchors First Oath of Trust: Decision. Writers can localize, branch, and replace this text without changing scene code.",
+    "voice_cue": "whisper",
+    "animation_cue": "kneel_offering",
+    "player_choices": [
+      "DCH00004A",
+      "DCH00004B"
+    ],
+    "conditions": {
+      "flags": [
+        "scene_3_seen"
+      ],
+      "relationship_min": null
+    },
+    "consequences": {
+      "flags": [
+        "scene_4_seen"
+      ],
+      "values": "Mercy"
+    },
+    "locale_key": "story.DLG00004.root",
+    "voice_direction_notes": "Respectful, grounded, and region-aware; avoid caricatured dialect."
+  },
+  {
+    "dialogue_id": "DLG00005",
+    "scene_id": "STSC00005",
+    "speaker": "Local Witness",
+    "portrait": "portrait_DLG00005.png",
+    "emotion": "haunted",
+    "text": "This node anchors Market of Broken Bowls: Arrival. Writers can localize, branch, and replace this text without changing scene code.",
+    "voice_cue": "steady",
+    "animation_cue": "idle_listen",
+    "player_choices": [
+      "DCH00005A",
+      "DCH00005B"
+    ],
+    "conditions": {
+      "flags": [],
+      "relationship_min": "Acquaintance"
+    },
+    "consequences": {
+      "flags": [
+        "scene_5_seen"
+      ],
+      "values": "Wisdom"
+    },
+    "locale_key": "story.DLG00005.root",
+    "voice_direction_notes": "Respectful, grounded, and region-aware; avoid caricatured dialect."
+  },
+  {
+    "dialogue_id": "DLG00006",
+    "scene_id": "STSC00006",
+    "speaker": "Companion Nilalang",
+    "portrait": "portrait_DLG00006.png",
+    "emotion": "calm",
+    "text": "This node anchors Market of Broken Bowls: Decision. Writers can localize, branch, and replace this text without changing scene code.",
+    "voice_cue": "soft",
+    "animation_cue": "gesture_open",
+    "player_choices": [
+      "DCH00006A",
+      "DCH00006B"
+    ],
+    "conditions": {
+      "flags": [
+        "scene_5_seen"
+      ],
+      "relationship_min": null
+    },
+    "consequences": {
+      "flags": [
+        "scene_6_seen"
+      ],
+      "values": "Balance"
+    },
+    "locale_key": "story.DLG00006.root",
+    "voice_direction_notes": "Respectful, grounded, and region-aware; avoid caricatured dialect."
+  },
+  {
+    "dialogue_id": "DLG00007",
+    "scene_id": "STSC00007",
+    "speaker": "Player Mentor",
+    "portrait": "portrait_DLG00007.png",
+    "emotion": "worried",
+    "text": "This node anchors The Balete Vigil: Arrival. Writers can localize, branch, and replace this text without changing scene code.",
+    "voice_cue": "urgent",
+    "animation_cue": "look_to_sky",
+    "player_choices": [
+      "DCH00007A",
+      "DCH00007B"
+    ],
+    "conditions": {
+      "flags": [],
+      "relationship_min": null
+    },
+    "consequences": {
+      "flags": [
+        "scene_7_seen"
+      ],
+      "values": "Mercy"
+    },
+    "locale_key": "story.DLG00007.root",
+    "voice_direction_notes": "Respectful, grounded, and region-aware; avoid caricatured dialect."
+  },
+  {
+    "dialogue_id": "DLG00008",
+    "scene_id": "STSC00008",
+    "speaker": "Local Witness",
+    "portrait": "portrait_DLG00008.png",
+    "emotion": "resolute",
+    "text": "This node anchors The Balete Vigil: Decision. Writers can localize, branch, and replace this text without changing scene code.",
+    "voice_cue": "ritual",
+    "animation_cue": "kneel_offering",
+    "player_choices": [
+      "DCH00008A",
+      "DCH00008B"
+    ],
+    "conditions": {
+      "flags": [
+        "scene_7_seen"
+      ],
+      "relationship_min": null
+    },
+    "consequences": {
+      "flags": [
+        "scene_8_seen"
+      ],
+      "values": "Wisdom"
+    },
+    "locale_key": "story.DLG00008.root",
+    "voice_direction_notes": "Respectful, grounded, and region-aware; avoid caricatured dialect."
+  },
+  {
+    "dialogue_id": "DLG00009",
+    "scene_id": "STSC00009",
+    "speaker": "Companion Nilalang",
+    "portrait": "portrait_DLG00009.png",
+    "emotion": "warm",
+    "text": "This node anchors Rain Roads: Arrival. Writers can localize, branch, and replace this text without changing scene code.",
+    "voice_cue": "whisper",
+    "animation_cue": "idle_listen",
+    "player_choices": [
+      "DCH00009A",
+      "DCH00009B"
+    ],
+    "conditions": {
+      "flags": [],
+      "relationship_min": "Acquaintance"
+    },
+    "consequences": {
+      "flags": [
+        "scene_9_seen"
+      ],
+      "values": "Balance"
+    },
+    "locale_key": "story.DLG00009.root",
+    "voice_direction_notes": "Respectful, grounded, and region-aware; avoid caricatured dialect."
+  },
+  {
+    "dialogue_id": "DLG00010",
+    "scene_id": "STSC00010",
+    "speaker": "Player Mentor",
+    "portrait": "portrait_DLG00010.png",
+    "emotion": "haunted",
+    "text": "This node anchors Rain Roads: Decision. Writers can localize, branch, and replace this text without changing scene code.",
+    "voice_cue": "steady",
+    "animation_cue": "gesture_open",
+    "player_choices": [
+      "DCH00010A",
+      "DCH00010B"
+    ],
+    "conditions": {
+      "flags": [
+        "scene_9_seen"
+      ],
+      "relationship_min": null
+    },
+    "consequences": {
+      "flags": [
+        "scene_10_seen"
+      ],
+      "values": "Mercy"
+    },
+    "locale_key": "story.DLG00010.root",
+    "voice_direction_notes": "Respectful, grounded, and region-aware; avoid caricatured dialect."
+  },
+  {
+    "dialogue_id": "DLG00011",
+    "scene_id": "STSC00011",
+    "speaker": "Local Witness",
+    "portrait": "portrait_DLG00011.png",
+    "emotion": "calm",
+    "text": "This node anchors Council of Ash: Arrival. Writers can localize, branch, and replace this text without changing scene code.",
+    "voice_cue": "soft",
+    "animation_cue": "look_to_sky",
+    "player_choices": [
+      "DCH00011A",
+      "DCH00011B"
+    ],
+    "conditions": {
+      "flags": [],
+      "relationship_min": null
+    },
+    "consequences": {
+      "flags": [
+        "scene_11_seen"
+      ],
+      "values": "Wisdom"
+    },
+    "locale_key": "story.DLG00011.root",
+    "voice_direction_notes": "Respectful, grounded, and region-aware; avoid caricatured dialect."
+  },
+  {
+    "dialogue_id": "DLG00012",
+    "scene_id": "STSC00012",
+    "speaker": "Companion Nilalang",
+    "portrait": "portrait_DLG00012.png",
+    "emotion": "worried",
+    "text": "This node anchors Council of Ash: Decision. Writers can localize, branch, and replace this text without changing scene code.",
+    "voice_cue": "urgent",
+    "animation_cue": "kneel_offering",
+    "player_choices": [
+      "DCH00012A",
+      "DCH00012B"
+    ],
+    "conditions": {
+      "flags": [
+        "scene_11_seen"
+      ],
+      "relationship_min": null
+    },
+    "consequences": {
+      "flags": [
+        "scene_12_seen"
+      ],
+      "values": "Balance"
+    },
+    "locale_key": "story.DLG00012.root",
+    "voice_direction_notes": "Respectful, grounded, and region-aware; avoid caricatured dialect."
+  },
+  {
+    "dialogue_id": "DLG00013",
+    "scene_id": "STSC00013",
+    "speaker": "Player Mentor",
+    "portrait": "portrait_DLG00013.png",
+    "emotion": "resolute",
+    "text": "This node anchors Dream Gate: Arrival. Writers can localize, branch, and replace this text without changing scene code.",
+    "voice_cue": "ritual",
+    "animation_cue": "idle_listen",
+    "player_choices": [
+      "DCH00013A",
+      "DCH00013B"
+    ],
+    "conditions": {
+      "flags": [],
+      "relationship_min": "Acquaintance"
+    },
+    "consequences": {
+      "flags": [
+        "scene_13_seen"
+      ],
+      "values": "Mercy"
+    },
+    "locale_key": "story.DLG00013.root",
+    "voice_direction_notes": "Respectful, grounded, and region-aware; avoid caricatured dialect."
+  },
+  {
+    "dialogue_id": "DLG00014",
+    "scene_id": "STSC00014",
+    "speaker": "Local Witness",
+    "portrait": "portrait_DLG00014.png",
+    "emotion": "warm",
+    "text": "This node anchors Dream Gate: Decision. Writers can localize, branch, and replace this text without changing scene code.",
+    "voice_cue": "whisper",
+    "animation_cue": "gesture_open",
+    "player_choices": [
+      "DCH00014A",
+      "DCH00014B"
+    ],
+    "conditions": {
+      "flags": [
+        "scene_13_seen"
+      ],
+      "relationship_min": null
+    },
+    "consequences": {
+      "flags": [
+        "scene_14_seen"
+      ],
+      "values": "Wisdom"
+    },
+    "locale_key": "story.DLG00014.root",
+    "voice_direction_notes": "Respectful, grounded, and region-aware; avoid caricatured dialect."
+  },
+  {
+    "dialogue_id": "DLG00015",
+    "scene_id": "STSC00015",
+    "speaker": "Companion Nilalang",
+    "portrait": "portrait_DLG00015.png",
+    "emotion": "haunted",
+    "text": "This node anchors Lamp of the Below: Arrival. Writers can localize, branch, and replace this text without changing scene code.",
+    "voice_cue": "steady",
+    "animation_cue": "look_to_sky",
+    "player_choices": [
+      "DCH00015A",
+      "DCH00015B"
+    ],
+    "conditions": {
+      "flags": [],
+      "relationship_min": null
+    },
+    "consequences": {
+      "flags": [
+        "scene_15_seen"
+      ],
+      "values": "Balance"
+    },
+    "locale_key": "story.DLG00015.root",
+    "voice_direction_notes": "Respectful, grounded, and region-aware; avoid caricatured dialect."
+  },
+  {
+    "dialogue_id": "DLG00016",
+    "scene_id": "STSC00016",
+    "speaker": "Player Mentor",
+    "portrait": "portrait_DLG00016.png",
+    "emotion": "calm",
+    "text": "This node anchors Lamp of the Below: Decision. Writers can localize, branch, and replace this text without changing scene code.",
+    "voice_cue": "soft",
+    "animation_cue": "kneel_offering",
+    "player_choices": [
+      "DCH00016A",
+      "DCH00016B"
+    ],
+    "conditions": {
+      "flags": [
+        "scene_15_seen"
+      ],
+      "relationship_min": null
+    },
+    "consequences": {
+      "flags": [
+        "scene_16_seen"
+      ],
+      "values": "Mercy"
+    },
+    "locale_key": "story.DLG00016.root",
+    "voice_direction_notes": "Respectful, grounded, and region-aware; avoid caricatured dialect."
+  },
+  {
+    "dialogue_id": "DLG00017",
+    "scene_id": "STSC00017",
+    "speaker": "Local Witness",
+    "portrait": "portrait_DLG00017.png",
+    "emotion": "worried",
+    "text": "This node anchors Court of Tides: Arrival. Writers can localize, branch, and replace this text without changing scene code.",
+    "voice_cue": "urgent",
+    "animation_cue": "idle_listen",
+    "player_choices": [
+      "DCH00017A",
+      "DCH00017B"
+    ],
+    "conditions": {
+      "flags": [],
+      "relationship_min": "Acquaintance"
+    },
+    "consequences": {
+      "flags": [
+        "scene_17_seen"
+      ],
+      "values": "Wisdom"
+    },
+    "locale_key": "story.DLG00017.root",
+    "voice_direction_notes": "Respectful, grounded, and region-aware; avoid caricatured dialect."
+  },
+  {
+    "dialogue_id": "DLG00018",
+    "scene_id": "STSC00018",
+    "speaker": "Companion Nilalang",
+    "portrait": "portrait_DLG00018.png",
+    "emotion": "resolute",
+    "text": "This node anchors Court of Tides: Decision. Writers can localize, branch, and replace this text without changing scene code.",
+    "voice_cue": "ritual",
+    "animation_cue": "gesture_open",
+    "player_choices": [
+      "DCH00018A",
+      "DCH00018B"
+    ],
+    "conditions": {
+      "flags": [
+        "scene_17_seen"
+      ],
+      "relationship_min": null
+    },
+    "consequences": {
+      "flags": [
+        "scene_18_seen"
+      ],
+      "values": "Balance"
+    },
+    "locale_key": "story.DLG00018.root",
+    "voice_direction_notes": "Respectful, grounded, and region-aware; avoid caricatured dialect."
+  },
+  {
+    "dialogue_id": "DLG00019",
+    "scene_id": "STSC00019",
+    "speaker": "Player Mentor",
+    "portrait": "portrait_DLG00019.png",
+    "emotion": "warm",
+    "text": "This node anchors Pact of Thunder: Arrival. Writers can localize, branch, and replace this text without changing scene code.",
+    "voice_cue": "whisper",
+    "animation_cue": "look_to_sky",
+    "player_choices": [
+      "DCH00019A",
+      "DCH00019B"
+    ],
+    "conditions": {
+      "flags": [],
+      "relationship_min": null
+    },
+    "consequences": {
+      "flags": [
+        "scene_19_seen"
+      ],
+      "values": "Mercy"
+    },
+    "locale_key": "story.DLG00019.root",
+    "voice_direction_notes": "Respectful, grounded, and region-aware; avoid caricatured dialect."
+  },
+  {
+    "dialogue_id": "DLG00020",
+    "scene_id": "STSC00020",
+    "speaker": "Local Witness",
+    "portrait": "portrait_DLG00020.png",
+    "emotion": "haunted",
+    "text": "This node anchors Pact of Thunder: Decision. Writers can localize, branch, and replace this text without changing scene code.",
+    "voice_cue": "steady",
+    "animation_cue": "kneel_offering",
+    "player_choices": [
+      "DCH00020A",
+      "DCH00020B"
+    ],
+    "conditions": {
+      "flags": [
+        "scene_19_seen"
+      ],
+      "relationship_min": null
+    },
+    "consequences": {
+      "flags": [
+        "scene_20_seen"
+      ],
+      "values": "Wisdom"
+    },
+    "locale_key": "story.DLG00020.root",
+    "voice_direction_notes": "Respectful, grounded, and region-aware; avoid caricatured dialect."
+  },
+  {
+    "dialogue_id": "DLG00021",
+    "scene_id": "STSC00021",
+    "speaker": "Companion Nilalang",
+    "portrait": "portrait_DLG00021.png",
+    "emotion": "calm",
+    "text": "This node anchors Many Councils: Arrival. Writers can localize, branch, and replace this text without changing scene code.",
+    "voice_cue": "soft",
+    "animation_cue": "idle_listen",
+    "player_choices": [
+      "DCH00021A",
+      "DCH00021B"
+    ],
+    "conditions": {
+      "flags": [],
+      "relationship_min": "Acquaintance"
+    },
+    "consequences": {
+      "flags": [
+        "scene_21_seen"
+      ],
+      "values": "Balance"
+    },
+    "locale_key": "story.DLG00021.root",
+    "voice_direction_notes": "Respectful, grounded, and region-aware; avoid caricatured dialect."
+  },
+  {
+    "dialogue_id": "DLG00022",
+    "scene_id": "STSC00022",
+    "speaker": "Player Mentor",
+    "portrait": "portrait_DLG00022.png",
+    "emotion": "worried",
+    "text": "This node anchors Many Councils: Decision. Writers can localize, branch, and replace this text without changing scene code.",
+    "voice_cue": "urgent",
+    "animation_cue": "gesture_open",
+    "player_choices": [
+      "DCH00022A",
+      "DCH00022B"
+    ],
+    "conditions": {
+      "flags": [
+        "scene_21_seen"
+      ],
+      "relationship_min": null
+    },
+    "consequences": {
+      "flags": [
+        "scene_22_seen"
+      ],
+      "values": "Mercy"
+    },
+    "locale_key": "story.DLG00022.root",
+    "voice_direction_notes": "Respectful, grounded, and region-aware; avoid caricatured dialect."
+  },
+  {
+    "dialogue_id": "DLG00023",
+    "scene_id": "STSC00023",
+    "speaker": "Local Witness",
+    "portrait": "portrait_DLG00023.png",
+    "emotion": "resolute",
+    "text": "This node anchors Final Threshold: Arrival. Writers can localize, branch, and replace this text without changing scene code.",
+    "voice_cue": "ritual",
+    "animation_cue": "look_to_sky",
+    "player_choices": [
+      "DCH00023A",
+      "DCH00023B"
+    ],
+    "conditions": {
+      "flags": [],
+      "relationship_min": null
+    },
+    "consequences": {
+      "flags": [
+        "scene_23_seen"
+      ],
+      "values": "Wisdom"
+    },
+    "locale_key": "story.DLG00023.root",
+    "voice_direction_notes": "Respectful, grounded, and region-aware; avoid caricatured dialect."
+  },
+  {
+    "dialogue_id": "DLG00024",
+    "scene_id": "STSC00024",
+    "speaker": "Companion Nilalang",
+    "portrait": "portrait_DLG00024.png",
+    "emotion": "warm",
+    "text": "This node anchors Final Threshold: Decision. Writers can localize, branch, and replace this text without changing scene code.",
+    "voice_cue": "whisper",
+    "animation_cue": "kneel_offering",
+    "player_choices": [
+      "DCH00024A",
+      "DCH00024B"
+    ],
+    "conditions": {
+      "flags": [
+        "scene_23_seen"
+      ],
+      "relationship_min": null
+    },
+    "consequences": {
+      "flags": [
+        "scene_24_seen"
+      ],
+      "values": "Balance"
+    },
+    "locale_key": "story.DLG00024.root",
+    "voice_direction_notes": "Respectful, grounded, and region-aware; avoid caricatured dialect."
+  },
+  {
+    "dialogue_id": "DLG00025",
+    "scene_id": "STSC00025",
+    "speaker": "Player Mentor",
+    "portrait": "portrait_DLG00025.png",
+    "emotion": "haunted",
+    "text": "This node anchors Song Returned: Arrival. Writers can localize, branch, and replace this text without changing scene code.",
+    "voice_cue": "steady",
+    "animation_cue": "idle_listen",
+    "player_choices": [
+      "DCH00025A",
+      "DCH00025B"
+    ],
+    "conditions": {
+      "flags": [],
+      "relationship_min": "Acquaintance"
+    },
+    "consequences": {
+      "flags": [
+        "scene_25_seen"
+      ],
+      "values": "Mercy"
+    },
+    "locale_key": "story.DLG00025.root",
+    "voice_direction_notes": "Respectful, grounded, and region-aware; avoid caricatured dialect."
+  },
+  {
+    "dialogue_id": "DLG00026",
+    "scene_id": "STSC00026",
+    "speaker": "Local Witness",
+    "portrait": "portrait_DLG00026.png",
+    "emotion": "calm",
+    "text": "This node anchors Song Returned: Decision. Writers can localize, branch, and replace this text without changing scene code.",
+    "voice_cue": "soft",
+    "animation_cue": "gesture_open",
+    "player_choices": [
+      "DCH00026A",
+      "DCH00026B"
+    ],
+    "conditions": {
+      "flags": [
+        "scene_25_seen"
+      ],
+      "relationship_min": null
+    },
+    "consequences": {
+      "flags": [
+        "scene_26_seen"
+      ],
+      "values": "Wisdom"
+    },
+    "locale_key": "story.DLG00026.root",
+    "voice_direction_notes": "Respectful, grounded, and region-aware; avoid caricatured dialect."
+  },
+  {
+    "dialogue_id": "DLG00027",
+    "scene_id": "STSC00027",
+    "speaker": "Companion Nilalang",
+    "portrait": "portrait_DLG00027.png",
+    "emotion": "worried",
+    "text": "This node anchors New Fires at Dawn: Arrival. Writers can localize, branch, and replace this text without changing scene code.",
+    "voice_cue": "urgent",
+    "animation_cue": "look_to_sky",
+    "player_choices": [
+      "DCH00027A",
+      "DCH00027B"
+    ],
+    "conditions": {
+      "flags": [],
+      "relationship_min": null
+    },
+    "consequences": {
+      "flags": [
+        "scene_27_seen"
+      ],
+      "values": "Balance"
+    },
+    "locale_key": "story.DLG00027.root",
+    "voice_direction_notes": "Respectful, grounded, and region-aware; avoid caricatured dialect."
+  },
+  {
+    "dialogue_id": "DLG00028",
+    "scene_id": "STSC00028",
+    "speaker": "Player Mentor",
+    "portrait": "portrait_DLG00028.png",
+    "emotion": "resolute",
+    "text": "This node anchors New Fires at Dawn: Decision. Writers can localize, branch, and replace this text without changing scene code.",
+    "voice_cue": "ritual",
+    "animation_cue": "kneel_offering",
+    "player_choices": [
+      "DCH00028A",
+      "DCH00028B"
+    ],
+    "conditions": {
+      "flags": [
+        "scene_27_seen"
+      ],
+      "relationship_min": null
+    },
+    "consequences": {
+      "flags": [
+        "scene_28_seen"
+      ],
+      "values": "Mercy"
+    },
+    "locale_key": "story.DLG00028.root",
+    "voice_direction_notes": "Respectful, grounded, and region-aware; avoid caricatured dialect."
+  },
+  {
+    "dialogue_id": "DLG00029",
+    "scene_id": "STSC00029",
+    "speaker": "Local Witness",
+    "portrait": "portrait_DLG00029.png",
+    "emotion": "warm",
+    "text": "This node anchors Islands Beyond the Map: Arrival. Writers can localize, branch, and replace this text without changing scene code.",
+    "voice_cue": "whisper",
+    "animation_cue": "idle_listen",
+    "player_choices": [
+      "DCH00029A",
+      "DCH00029B"
+    ],
+    "conditions": {
+      "flags": [],
+      "relationship_min": "Acquaintance"
+    },
+    "consequences": {
+      "flags": [
+        "scene_29_seen"
+      ],
+      "values": "Wisdom"
+    },
+    "locale_key": "story.DLG00029.root",
+    "voice_direction_notes": "Respectful, grounded, and region-aware; avoid caricatured dialect."
+  },
+  {
+    "dialogue_id": "DLG00030",
+    "scene_id": "STSC00030",
+    "speaker": "Companion Nilalang",
+    "portrait": "portrait_DLG00030.png",
+    "emotion": "haunted",
+    "text": "This node anchors Islands Beyond the Map: Decision. Writers can localize, branch, and replace this text without changing scene code.",
+    "voice_cue": "steady",
+    "animation_cue": "gesture_open",
+    "player_choices": [
+      "DCH00030A",
+      "DCH00030B"
+    ],
+    "conditions": {
+      "flags": [
+        "scene_29_seen"
+      ],
+      "relationship_min": null
+    },
+    "consequences": {
+      "flags": [
+        "scene_30_seen"
+      ],
+      "values": "Balance"
+    },
+    "locale_key": "story.DLG00030.root",
+    "voice_direction_notes": "Respectful, grounded, and region-aware; avoid caricatured dialect."
+  }
+]

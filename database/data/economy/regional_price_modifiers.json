@@ -1,0 +1,722 @@
+[
+  {
+    "modifier_id": "RPM00001",
+    "region_id": "WREG0001",
+    "province_id": "WPROV0001",
+    "location_id": "WLOC000001",
+    "category": "food",
+    "modifier_payload": {
+      "price_multiplier": 0.85,
+      "reason_code": "supply"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00002",
+    "region_id": "WREG0004",
+    "province_id": null,
+    "location_id": null,
+    "category": "herb",
+    "modifier_payload": {
+      "price_multiplier": 0.9,
+      "reason_code": "festival"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00003",
+    "region_id": "WREG0007",
+    "province_id": "WPROV0003",
+    "location_id": null,
+    "category": "metal",
+    "modifier_payload": {
+      "price_multiplier": 0.95,
+      "reason_code": "weather"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00004",
+    "region_id": "WREG0012",
+    "province_id": null,
+    "location_id": null,
+    "category": "ritual",
+    "modifier_payload": {
+      "price_multiplier": 1,
+      "reason_code": "route_danger"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00005",
+    "region_id": "WREG0015",
+    "province_id": "WPROV0005",
+    "location_id": null,
+    "category": "monster_drop",
+    "modifier_payload": {
+      "price_multiplier": 1.05,
+      "reason_code": "supply"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00006",
+    "region_id": "WREG0001",
+    "province_id": null,
+    "location_id": "WLOC000006",
+    "category": "food",
+    "modifier_payload": {
+      "price_multiplier": 1.1,
+      "reason_code": "festival"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00007",
+    "region_id": "WREG0004",
+    "province_id": "WPROV0002",
+    "location_id": null,
+    "category": "herb",
+    "modifier_payload": {
+      "price_multiplier": 1.15,
+      "reason_code": "weather"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00008",
+    "region_id": "WREG0007",
+    "province_id": null,
+    "location_id": null,
+    "category": "metal",
+    "modifier_payload": {
+      "price_multiplier": 1.2,
+      "reason_code": "route_danger"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00009",
+    "region_id": "WREG0012",
+    "province_id": "WPROV0004",
+    "location_id": null,
+    "category": "ritual",
+    "modifier_payload": {
+      "price_multiplier": 0.85,
+      "reason_code": "supply"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00010",
+    "region_id": "WREG0015",
+    "province_id": null,
+    "location_id": null,
+    "category": "monster_drop",
+    "modifier_payload": {
+      "price_multiplier": 0.9,
+      "reason_code": "festival"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00011",
+    "region_id": "WREG0001",
+    "province_id": "WPROV0001",
+    "location_id": "WLOC000011",
+    "category": "food",
+    "modifier_payload": {
+      "price_multiplier": 0.95,
+      "reason_code": "weather"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00012",
+    "region_id": "WREG0004",
+    "province_id": null,
+    "location_id": null,
+    "category": "herb",
+    "modifier_payload": {
+      "price_multiplier": 1,
+      "reason_code": "route_danger"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00013",
+    "region_id": "WREG0007",
+    "province_id": "WPROV0003",
+    "location_id": null,
+    "category": "metal",
+    "modifier_payload": {
+      "price_multiplier": 1.05,
+      "reason_code": "supply"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00014",
+    "region_id": "WREG0012",
+    "province_id": null,
+    "location_id": null,
+    "category": "ritual",
+    "modifier_payload": {
+      "price_multiplier": 1.1,
+      "reason_code": "festival"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00015",
+    "region_id": "WREG0015",
+    "province_id": "WPROV0005",
+    "location_id": null,
+    "category": "monster_drop",
+    "modifier_payload": {
+      "price_multiplier": 1.15,
+      "reason_code": "weather"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00016",
+    "region_id": "WREG0001",
+    "province_id": null,
+    "location_id": "WLOC000016",
+    "category": "food",
+    "modifier_payload": {
+      "price_multiplier": 1.2,
+      "reason_code": "route_danger"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00017",
+    "region_id": "WREG0004",
+    "province_id": "WPROV0002",
+    "location_id": null,
+    "category": "herb",
+    "modifier_payload": {
+      "price_multiplier": 0.85,
+      "reason_code": "supply"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00018",
+    "region_id": "WREG0007",
+    "province_id": null,
+    "location_id": null,
+    "category": "metal",
+    "modifier_payload": {
+      "price_multiplier": 0.9,
+      "reason_code": "festival"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00019",
+    "region_id": "WREG0012",
+    "province_id": "WPROV0004",
+    "location_id": null,
+    "category": "ritual",
+    "modifier_payload": {
+      "price_multiplier": 0.95,
+      "reason_code": "weather"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00020",
+    "region_id": "WREG0015",
+    "province_id": null,
+    "location_id": null,
+    "category": "monster_drop",
+    "modifier_payload": {
+      "price_multiplier": 1,
+      "reason_code": "route_danger"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00021",
+    "region_id": "WREG0001",
+    "province_id": "WPROV0001",
+    "location_id": "WLOC000021",
+    "category": "food",
+    "modifier_payload": {
+      "price_multiplier": 1.05,
+      "reason_code": "supply"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00022",
+    "region_id": "WREG0004",
+    "province_id": null,
+    "location_id": null,
+    "category": "herb",
+    "modifier_payload": {
+      "price_multiplier": 1.1,
+      "reason_code": "festival"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00023",
+    "region_id": "WREG0007",
+    "province_id": "WPROV0003",
+    "location_id": null,
+    "category": "metal",
+    "modifier_payload": {
+      "price_multiplier": 1.15,
+      "reason_code": "weather"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00024",
+    "region_id": "WREG0012",
+    "province_id": null,
+    "location_id": null,
+    "category": "ritual",
+    "modifier_payload": {
+      "price_multiplier": 1.2,
+      "reason_code": "route_danger"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00025",
+    "region_id": "WREG0015",
+    "province_id": "WPROV0005",
+    "location_id": null,
+    "category": "monster_drop",
+    "modifier_payload": {
+      "price_multiplier": 0.85,
+      "reason_code": "supply"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00026",
+    "region_id": "WREG0001",
+    "province_id": null,
+    "location_id": "WLOC000026",
+    "category": "food",
+    "modifier_payload": {
+      "price_multiplier": 0.9,
+      "reason_code": "festival"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00027",
+    "region_id": "WREG0004",
+    "province_id": "WPROV0002",
+    "location_id": null,
+    "category": "herb",
+    "modifier_payload": {
+      "price_multiplier": 0.95,
+      "reason_code": "weather"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00028",
+    "region_id": "WREG0007",
+    "province_id": null,
+    "location_id": null,
+    "category": "metal",
+    "modifier_payload": {
+      "price_multiplier": 1,
+      "reason_code": "route_danger"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00029",
+    "region_id": "WREG0012",
+    "province_id": "WPROV0004",
+    "location_id": null,
+    "category": "ritual",
+    "modifier_payload": {
+      "price_multiplier": 1.05,
+      "reason_code": "supply"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00030",
+    "region_id": "WREG0015",
+    "province_id": null,
+    "location_id": null,
+    "category": "monster_drop",
+    "modifier_payload": {
+      "price_multiplier": 1.1,
+      "reason_code": "festival"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00031",
+    "region_id": "WREG0001",
+    "province_id": "WPROV0001",
+    "location_id": "WLOC000031",
+    "category": "food",
+    "modifier_payload": {
+      "price_multiplier": 1.15,
+      "reason_code": "weather"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00032",
+    "region_id": "WREG0004",
+    "province_id": null,
+    "location_id": null,
+    "category": "herb",
+    "modifier_payload": {
+      "price_multiplier": 1.2,
+      "reason_code": "route_danger"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00033",
+    "region_id": "WREG0007",
+    "province_id": "WPROV0003",
+    "location_id": null,
+    "category": "metal",
+    "modifier_payload": {
+      "price_multiplier": 0.85,
+      "reason_code": "supply"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00034",
+    "region_id": "WREG0012",
+    "province_id": null,
+    "location_id": null,
+    "category": "ritual",
+    "modifier_payload": {
+      "price_multiplier": 0.9,
+      "reason_code": "festival"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00035",
+    "region_id": "WREG0015",
+    "province_id": "WPROV0005",
+    "location_id": null,
+    "category": "monster_drop",
+    "modifier_payload": {
+      "price_multiplier": 0.95,
+      "reason_code": "weather"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00036",
+    "region_id": "WREG0001",
+    "province_id": null,
+    "location_id": "WLOC000036",
+    "category": "food",
+    "modifier_payload": {
+      "price_multiplier": 1,
+      "reason_code": "route_danger"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00037",
+    "region_id": "WREG0004",
+    "province_id": "WPROV0002",
+    "location_id": null,
+    "category": "herb",
+    "modifier_payload": {
+      "price_multiplier": 1.05,
+      "reason_code": "supply"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00038",
+    "region_id": "WREG0007",
+    "province_id": null,
+    "location_id": null,
+    "category": "metal",
+    "modifier_payload": {
+      "price_multiplier": 1.1,
+      "reason_code": "festival"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00039",
+    "region_id": "WREG0012",
+    "province_id": "WPROV0004",
+    "location_id": null,
+    "category": "ritual",
+    "modifier_payload": {
+      "price_multiplier": 1.15,
+      "reason_code": "weather"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00040",
+    "region_id": "WREG0015",
+    "province_id": null,
+    "location_id": null,
+    "category": "monster_drop",
+    "modifier_payload": {
+      "price_multiplier": 1.2,
+      "reason_code": "route_danger"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00041",
+    "region_id": "WREG0001",
+    "province_id": "WPROV0001",
+    "location_id": "WLOC000041",
+    "category": "food",
+    "modifier_payload": {
+      "price_multiplier": 0.85,
+      "reason_code": "supply"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00042",
+    "region_id": "WREG0004",
+    "province_id": null,
+    "location_id": null,
+    "category": "herb",
+    "modifier_payload": {
+      "price_multiplier": 0.9,
+      "reason_code": "festival"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00043",
+    "region_id": "WREG0007",
+    "province_id": "WPROV0003",
+    "location_id": null,
+    "category": "metal",
+    "modifier_payload": {
+      "price_multiplier": 0.95,
+      "reason_code": "weather"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00044",
+    "region_id": "WREG0012",
+    "province_id": null,
+    "location_id": null,
+    "category": "ritual",
+    "modifier_payload": {
+      "price_multiplier": 1,
+      "reason_code": "route_danger"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00045",
+    "region_id": "WREG0015",
+    "province_id": "WPROV0005",
+    "location_id": null,
+    "category": "monster_drop",
+    "modifier_payload": {
+      "price_multiplier": 1.05,
+      "reason_code": "supply"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00046",
+    "region_id": "WREG0001",
+    "province_id": null,
+    "location_id": "WLOC000046",
+    "category": "food",
+    "modifier_payload": {
+      "price_multiplier": 1.1,
+      "reason_code": "festival"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00047",
+    "region_id": "WREG0004",
+    "province_id": "WPROV0002",
+    "location_id": null,
+    "category": "herb",
+    "modifier_payload": {
+      "price_multiplier": 1.15,
+      "reason_code": "weather"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00048",
+    "region_id": "WREG0007",
+    "province_id": null,
+    "location_id": null,
+    "category": "metal",
+    "modifier_payload": {
+      "price_multiplier": 1.2,
+      "reason_code": "route_danger"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00049",
+    "region_id": "WREG0012",
+    "province_id": "WPROV0004",
+    "location_id": null,
+    "category": "ritual",
+    "modifier_payload": {
+      "price_multiplier": 0.85,
+      "reason_code": "supply"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00050",
+    "region_id": "WREG0015",
+    "province_id": null,
+    "location_id": null,
+    "category": "monster_drop",
+    "modifier_payload": {
+      "price_multiplier": 0.9,
+      "reason_code": "festival"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00051",
+    "region_id": "WREG0001",
+    "province_id": "WPROV0001",
+    "location_id": "WLOC000051",
+    "category": "food",
+    "modifier_payload": {
+      "price_multiplier": 0.95,
+      "reason_code": "weather"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00052",
+    "region_id": "WREG0004",
+    "province_id": null,
+    "location_id": null,
+    "category": "herb",
+    "modifier_payload": {
+      "price_multiplier": 1,
+      "reason_code": "route_danger"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00053",
+    "region_id": "WREG0007",
+    "province_id": "WPROV0003",
+    "location_id": null,
+    "category": "metal",
+    "modifier_payload": {
+      "price_multiplier": 1.05,
+      "reason_code": "supply"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00054",
+    "region_id": "WREG0012",
+    "province_id": null,
+    "location_id": null,
+    "category": "ritual",
+    "modifier_payload": {
+      "price_multiplier": 1.1,
+      "reason_code": "festival"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00055",
+    "region_id": "WREG0015",
+    "province_id": "WPROV0005",
+    "location_id": null,
+    "category": "monster_drop",
+    "modifier_payload": {
+      "price_multiplier": 1.15,
+      "reason_code": "weather"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00056",
+    "region_id": "WREG0001",
+    "province_id": null,
+    "location_id": "WLOC000056",
+    "category": "food",
+    "modifier_payload": {
+      "price_multiplier": 1.2,
+      "reason_code": "route_danger"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00057",
+    "region_id": "WREG0004",
+    "province_id": "WPROV0002",
+    "location_id": null,
+    "category": "herb",
+    "modifier_payload": {
+      "price_multiplier": 0.85,
+      "reason_code": "supply"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00058",
+    "region_id": "WREG0007",
+    "province_id": null,
+    "location_id": null,
+    "category": "metal",
+    "modifier_payload": {
+      "price_multiplier": 0.9,
+      "reason_code": "festival"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00059",
+    "region_id": "WREG0012",
+    "province_id": "WPROV0004",
+    "location_id": null,
+    "category": "ritual",
+    "modifier_payload": {
+      "price_multiplier": 0.95,
+      "reason_code": "weather"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  },
+  {
+    "modifier_id": "RPM00060",
+    "region_id": "WREG0015",
+    "province_id": null,
+    "location_id": null,
+    "category": "monster_drop",
+    "modifier_payload": {
+      "price_multiplier": 1,
+      "reason_code": "route_danger"
+    },
+    "reason": "Generated Phase J regional economy modifier."
+  }
+]

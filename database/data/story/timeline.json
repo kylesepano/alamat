@@ -1,0 +1,182 @@
+[
+  {
+    "timeline_id": "TIME00001",
+    "age": "Age of Origins",
+    "slug": "age-of-origins",
+    "sequence_order": 1,
+    "summary": "Age of Origins is part of ALAMAT's fictional chronology and supports writers without overruling real histories or beliefs.",
+    "cause": "Creation memory begins in multiple traditions.",
+    "effect": "Age of Spirits becomes possible.",
+    "participating_factions": [
+      "NPCF0001"
+    ],
+    "participating_monsters": [
+      "ALM-0001"
+    ],
+    "lasting_consequences": [
+      "changed travel routes",
+      "new rituals of trust",
+      "contested histories"
+    ]
+  },
+  {
+    "timeline_id": "TIME00002",
+    "age": "Age of Spirits",
+    "slug": "age-of-spirits",
+    "sequence_order": 2,
+    "summary": "Age of Spirits is part of ALAMAT's fictional chronology and supports writers without overruling real histories or beliefs.",
+    "cause": "Age of Origins leaves unresolved obligations.",
+    "effect": "Age of Heroes becomes possible.",
+    "participating_factions": [
+      "NPCF0002"
+    ],
+    "participating_monsters": [
+      "ALM-0002"
+    ],
+    "lasting_consequences": [
+      "changed travel routes",
+      "new rituals of trust",
+      "contested histories"
+    ]
+  },
+  {
+    "timeline_id": "TIME00003",
+    "age": "Age of Heroes",
+    "slug": "age-of-heroes",
+    "sequence_order": 3,
+    "summary": "Age of Heroes is part of ALAMAT's fictional chronology and supports writers without overruling real histories or beliefs.",
+    "cause": "Age of Spirits leaves unresolved obligations.",
+    "effect": "Age of Kingdoms becomes possible.",
+    "participating_factions": [
+      "NPCF0003"
+    ],
+    "participating_monsters": [
+      "ALM-0003"
+    ],
+    "lasting_consequences": [
+      "changed travel routes",
+      "new rituals of trust",
+      "contested histories"
+    ]
+  },
+  {
+    "timeline_id": "TIME00004",
+    "age": "Age of Kingdoms",
+    "slug": "age-of-kingdoms",
+    "sequence_order": 4,
+    "summary": "Age of Kingdoms is part of ALAMAT's fictional chronology and supports writers without overruling real histories or beliefs.",
+    "cause": "Age of Heroes leaves unresolved obligations.",
+    "effect": "Colonial Era becomes possible.",
+    "participating_factions": [
+      "NPCF0004"
+    ],
+    "participating_monsters": [
+      "ALM-0004"
+    ],
+    "lasting_consequences": [
+      "changed travel routes",
+      "new rituals of trust",
+      "contested histories"
+    ]
+  },
+  {
+    "timeline_id": "TIME00005",
+    "age": "Colonial Era",
+    "slug": "colonial-era",
+    "sequence_order": 5,
+    "summary": "Colonial Era is part of ALAMAT's fictional chronology and supports writers without overruling real histories or beliefs.",
+    "cause": "Age of Kingdoms leaves unresolved obligations.",
+    "effect": "Modern Era becomes possible.",
+    "participating_factions": [
+      "NPCF0005"
+    ],
+    "participating_monsters": [
+      "ALM-0005"
+    ],
+    "lasting_consequences": [
+      "changed travel routes",
+      "new rituals of trust",
+      "contested histories"
+    ]
+  },
+  {
+    "timeline_id": "TIME00006",
+    "age": "Modern Era",
+    "slug": "modern-era",
+    "sequence_order": 6,
+    "summary": "Modern Era is part of ALAMAT's fictional chronology and supports writers without overruling real histories or beliefs.",
+    "cause": "Colonial Era leaves unresolved obligations.",
+    "effect": "The Awakening becomes possible.",
+    "participating_factions": [
+      "NPCF0006"
+    ],
+    "participating_monsters": [
+      "ALM-0006"
+    ],
+    "lasting_consequences": [
+      "changed travel routes",
+      "new rituals of trust",
+      "contested histories"
+    ]
+  },
+  {
+    "timeline_id": "TIME00007",
+    "age": "The Awakening",
+    "slug": "the-awakening",
+    "sequence_order": 7,
+    "summary": "The Awakening is part of ALAMAT's fictional chronology and supports writers without overruling real histories or beliefs.",
+    "cause": "Modern Era leaves unresolved obligations.",
+    "effect": "Current Story becomes possible.",
+    "participating_factions": [
+      "NPCF0007"
+    ],
+    "participating_monsters": [
+      "ALM-0007"
+    ],
+    "lasting_consequences": [
+      "changed travel routes",
+      "new rituals of trust",
+      "contested histories"
+    ]
+  },
+  {
+    "timeline_id": "TIME00008",
+    "age": "Current Story",
+    "slug": "current-story",
+    "sequence_order": 8,
+    "summary": "Current Story is part of ALAMAT's fictional chronology and supports writers without overruling real histories or beliefs.",
+    "cause": "The Awakening leaves unresolved obligations.",
+    "effect": "Future Timeline becomes possible.",
+    "participating_factions": [
+      "NPCF0008"
+    ],
+    "participating_monsters": [
+      "ALM-0008"
+    ],
+    "lasting_consequences": [
+      "changed travel routes",
+      "new rituals of trust",
+      "contested histories"
+    ]
+  },
+  {
+    "timeline_id": "TIME00009",
+    "age": "Future Timeline",
+    "slug": "future-timeline",
+    "sequence_order": 9,
+    "summary": "Future Timeline is part of ALAMAT's fictional chronology and supports writers without overruling real histories or beliefs.",
+    "cause": "Current Story leaves unresolved obligations.",
+    "effect": "Future media can extend the setting.",
+    "participating_factions": [
+      "NPCF0009"
+    ],
+    "participating_monsters": [
+      "ALM-0009"
+    ],
+    "lasting_consequences": [
+      "changed travel routes",
+      "new rituals of trust",
+      "contested histories"
+    ]
+  }
+]

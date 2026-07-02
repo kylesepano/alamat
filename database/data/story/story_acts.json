@@ -1,0 +1,101 @@
+[
+  {
+    "act_id": "STACT001",
+    "title": "Prologue",
+    "slug": "the-waking-river",
+    "summary": "The player returns to a riverside town as old songs begin waking Nilalang beyond their remembered habitats.",
+    "theme": "Memory and return",
+    "opening_scene": "scene_river_homecoming",
+    "closing_scene": "scene_first_oath",
+    "recommended_level": 1,
+    "sort_order": 1
+  },
+  {
+    "act_id": "STACT002",
+    "title": "Act I",
+    "slug": "the-broken-offerings",
+    "summary": "Local shrines, farms, and markets reveal that trust between people and spirits has been weakened by fear and rushed change.",
+    "theme": "Trust before power",
+    "opening_scene": "scene_shrine_market",
+    "closing_scene": "scene_balete_vigil",
+    "recommended_level": 5,
+    "sort_order": 2
+  },
+  {
+    "act_id": "STACT003",
+    "title": "Act II",
+    "slug": "roads-of-rain-and-ash",
+    "summary": "Regional journeys expose conflicts between factions that protect tradition, commerce, safety, and survival in different ways.",
+    "theme": "Many duties, one land",
+    "opening_scene": "scene_rain_road",
+    "closing_scene": "scene_ash_council",
+    "recommended_level": 15,
+    "sort_order": 3
+  },
+  {
+    "act_id": "STACT004",
+    "title": "Act III",
+    "slug": "the-dream-below",
+    "summary": "The Dream Realm and Underworld echo each other, revealing that forgotten promises can become dangerous when buried.",
+    "theme": "Ancestry and consequence",
+    "opening_scene": "scene_dream_gate",
+    "closing_scene": "scene_underworld_lamp",
+    "recommended_level": 28,
+    "sort_order": 4
+  },
+  {
+    "act_id": "STACT005",
+    "title": "Act IV",
+    "slug": "sky-sea-and-storm",
+    "summary": "The player negotiates with coastal, mountain, and sky-linked powers as weather and memory reshape travel routes.",
+    "theme": "Humility before vastness",
+    "opening_scene": "scene_tide_court",
+    "closing_scene": "scene_thunder_pact",
+    "recommended_level": 40,
+    "sort_order": 5
+  },
+  {
+    "act_id": "STACT006",
+    "title": "Act V",
+    "slug": "the-last-balancing",
+    "summary": "Allies, rival factions, companion Nilalang, and local communities converge to decide what balance should mean in the present age.",
+    "theme": "Balance as living work",
+    "opening_scene": "scene_many_councils",
+    "closing_scene": "scene_final_threshold",
+    "recommended_level": 55,
+    "sort_order": 6
+  },
+  {
+    "act_id": "STACT007",
+    "title": "Finale",
+    "slug": "the-song-returned",
+    "summary": "The final route resolves through accumulated choices: mercy, justice, curiosity, wisdom, duty, compassion, honor, tradition, balance, and sacrifice.",
+    "theme": "Choice without purity tests",
+    "opening_scene": "scene_final_song",
+    "closing_scene": "scene_world_after",
+    "recommended_level": 65,
+    "sort_order": 7
+  },
+  {
+    "act_id": "STACT008",
+    "title": "Postgame",
+    "slug": "new-fires-at-dawn",
+    "summary": "Postgame stories examine rebuilding, remaining mysteries, legendary Nilalang, and the responsibilities left after victory.",
+    "theme": "Repair and stewardship",
+    "opening_scene": "scene_dawn_repairs",
+    "closing_scene": "scene_new_map",
+    "recommended_level": 70,
+    "sort_order": 8
+  },
+  {
+    "act_id": "STACT009",
+    "title": "Expansion Hooks",
+    "slug": "islands-beyond-the-map",
+    "summary": "Future stories can add islands, diaspora communities, seasonal festivals, novels, comics, animation, and sequels without rewriting the base arc.",
+    "theme": "The world continues",
+    "opening_scene": "scene_far_sail",
+    "closing_scene": "scene_unwritten_bell",
+    "recommended_level": 75,
+    "sort_order": 9
+  }
+]

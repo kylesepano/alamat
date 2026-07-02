@@ -1,0 +1,156 @@
+[
+  {
+    "category_id": "RCAT0001",
+    "name": "Cooking",
+    "slug": "cooking",
+    "recipe_type": "cooking",
+    "description": "Cooking recipes for ALAMAT crafting and economy systems.",
+    "icon_hint": "utensils",
+    "color_hint": "#D6A85C",
+    "sort_order": 1,
+    "is_active": true
+  },
+  {
+    "category_id": "RCAT0002",
+    "name": "Herbalism",
+    "slug": "herbalism",
+    "recipe_type": "herbalism",
+    "description": "Herbalism recipes for ALAMAT crafting and economy systems.",
+    "icon_hint": "leaf",
+    "color_hint": "#22C55E",
+    "sort_order": 2,
+    "is_active": true
+  },
+  {
+    "category_id": "RCAT0003",
+    "name": "Forging",
+    "slug": "forging",
+    "recipe_type": "forging",
+    "description": "Forging recipes for ALAMAT crafting and economy systems.",
+    "icon_hint": "hammer",
+    "color_hint": "#64748B",
+    "sort_order": 3,
+    "is_active": true
+  },
+  {
+    "category_id": "RCAT0004",
+    "name": "Weaving",
+    "slug": "weaving",
+    "recipe_type": "weaving",
+    "description": "Weaving recipes for ALAMAT crafting and economy systems.",
+    "icon_hint": "scissors",
+    "color_hint": "#A78BFA",
+    "sort_order": 4,
+    "is_active": true
+  },
+  {
+    "category_id": "RCAT0005",
+    "name": "Carving",
+    "slug": "carving",
+    "recipe_type": "carving",
+    "description": "Carving recipes for ALAMAT crafting and economy systems.",
+    "icon_hint": "knife",
+    "color_hint": "#F59E0B",
+    "sort_order": 5,
+    "is_active": true
+  },
+  {
+    "category_id": "RCAT0006",
+    "name": "Alchemy",
+    "slug": "alchemy",
+    "recipe_type": "alchemy",
+    "description": "Alchemy recipes for ALAMAT crafting and economy systems.",
+    "icon_hint": "flask",
+    "color_hint": "#D6A85C",
+    "sort_order": 6,
+    "is_active": true
+  },
+  {
+    "category_id": "RCAT0007",
+    "name": "Ritual",
+    "slug": "ritual",
+    "recipe_type": "ritual",
+    "description": "Ritual recipes for ALAMAT crafting and economy systems.",
+    "icon_hint": "sparkles",
+    "color_hint": "#22C55E",
+    "sort_order": 7,
+    "is_active": true
+  },
+  {
+    "category_id": "RCAT0008",
+    "name": "Enchanting",
+    "slug": "enchanting",
+    "recipe_type": "enchanting",
+    "description": "Enchanting recipes for ALAMAT crafting and economy systems.",
+    "icon_hint": "utensils",
+    "color_hint": "#64748B",
+    "sort_order": 8,
+    "is_active": true
+  },
+  {
+    "category_id": "RCAT0009",
+    "name": "Equipment Upgrade",
+    "slug": "equipment-upgrade",
+    "recipe_type": "equipment_upgrade",
+    "description": "Equipment Upgrade recipes for ALAMAT crafting and economy systems.",
+    "icon_hint": "leaf",
+    "color_hint": "#A78BFA",
+    "sort_order": 9,
+    "is_active": true
+  },
+  {
+    "category_id": "RCAT0010",
+    "name": "Talisman Making",
+    "slug": "talisman-making",
+    "recipe_type": "talisman_making",
+    "description": "Talisman Making recipes for ALAMAT crafting and economy systems.",
+    "icon_hint": "hammer",
+    "color_hint": "#F59E0B",
+    "sort_order": 10,
+    "is_active": true
+  },
+  {
+    "category_id": "RCAT0011",
+    "name": "Monster Care",
+    "slug": "monster-care",
+    "recipe_type": "monster_care",
+    "description": "Monster Care recipes for ALAMAT crafting and economy systems.",
+    "icon_hint": "scissors",
+    "color_hint": "#D6A85C",
+    "sort_order": 11,
+    "is_active": true
+  },
+  {
+    "category_id": "RCAT0012",
+    "name": "Fishing",
+    "slug": "fishing",
+    "recipe_type": "fishing",
+    "description": "Fishing recipes for ALAMAT crafting and economy systems.",
+    "icon_hint": "knife",
+    "color_hint": "#22C55E",
+    "sort_order": 12,
+    "is_active": true
+  },
+  {
+    "category_id": "RCAT0013",
+    "name": "Farming",
+    "slug": "farming",
+    "recipe_type": "farming",
+    "description": "Farming recipes for ALAMAT crafting and economy systems.",
+    "icon_hint": "flask",
+    "color_hint": "#64748B",
+    "sort_order": 13,
+    "is_active": true
+  },
+  {
+    "category_id": "RCAT0014",
+    "name": "Festival Crafting",
+    "slug": "festival-crafting",
+    "recipe_type": "festival_crafting",
+    "description": "Festival Crafting recipes for ALAMAT crafting and economy systems.",
+    "icon_hint": "sparkles",
+    "color_hint": "#A78BFA",
+    "sort_order": 14,
+    "is_active": true
+  }
+]

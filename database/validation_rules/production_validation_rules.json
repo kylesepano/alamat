@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "rules": [
+    "unique_ids",
+    "unique_slugs",
+    "missing_references",
+    "missing_assets",
+    "invalid_recipes",
+    "broken_quest_chains",
+    "invalid_npc_schedules",
+    "missing_map_transitions",
+    "duplicate_names",
+    "circular_references"
+  ],
+  "content_roots": [
+    "database/data/monsters",
+    "database/data/items",
+    "database/data/equipment",
+    "database/data/npcs",
+    "database/data/quests",
+    "database/data/world",
+    "database/data/economy",
+    "database/data/story"
+  ]
+}

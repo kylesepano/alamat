@@ -1,0 +1,110 @@
+[
+  {
+    "song_id": "SONG00001",
+    "title": "Rice Field Dawn",
+    "song_type": "village_theme",
+    "lyrics_excerpt": "Metadata only; final composition and lyrics remain asset-pipeline tasks.",
+    "music_reference": "music_story_1",
+    "mood": "warm",
+    "usage_context": "village"
+  },
+  {
+    "song_id": "SONG00002",
+    "title": "Storm Boat Lullaby",
+    "song_type": "forest_theme",
+    "lyrics_excerpt": "Metadata only; final composition and lyrics remain asset-pipeline tasks.",
+    "music_reference": "music_story_2",
+    "mood": "tense",
+    "usage_context": "forest"
+  },
+  {
+    "song_id": "SONG00003",
+    "title": "Market Lantern Song",
+    "song_type": "battle_theme",
+    "lyrics_excerpt": "Metadata only; final composition and lyrics remain asset-pipeline tasks.",
+    "music_reference": "music_story_3",
+    "mood": "mournful",
+    "usage_context": "battle"
+  },
+  {
+    "song_id": "SONG00004",
+    "title": "Mountain Return",
+    "song_type": "boss_theme",
+    "lyrics_excerpt": "Metadata only; final composition and lyrics remain asset-pipeline tasks.",
+    "music_reference": "music_story_4",
+    "mood": "hopeful",
+    "usage_context": "festival"
+  },
+  {
+    "song_id": "SONG00005",
+    "title": "Rice Field Dawn",
+    "song_type": "festival_theme",
+    "lyrics_excerpt": "Metadata only; final composition and lyrics remain asset-pipeline tasks.",
+    "music_reference": "music_story_5",
+    "mood": "warm",
+    "usage_context": "village"
+  },
+  {
+    "song_id": "SONG00006",
+    "title": "Storm Boat Lullaby",
+    "song_type": "spirit_theme",
+    "lyrics_excerpt": "Metadata only; final composition and lyrics remain asset-pipeline tasks.",
+    "music_reference": "music_story_6",
+    "mood": "tense",
+    "usage_context": "forest"
+  },
+  {
+    "song_id": "SONG00007",
+    "title": "Market Lantern Song",
+    "song_type": "ocean_theme",
+    "lyrics_excerpt": "Metadata only; final composition and lyrics remain asset-pipeline tasks.",
+    "music_reference": "music_story_7",
+    "mood": "mournful",
+    "usage_context": "battle"
+  },
+  {
+    "song_id": "SONG00008",
+    "title": "Mountain Return",
+    "song_type": "ending_theme",
+    "lyrics_excerpt": "Metadata only; final composition and lyrics remain asset-pipeline tasks.",
+    "music_reference": "music_story_8",
+    "mood": "hopeful",
+    "usage_context": "festival"
+  },
+  {
+    "song_id": "SONG00009",
+    "title": "Rice Field Dawn",
+    "song_type": "village_theme",
+    "lyrics_excerpt": "Metadata only; final composition and lyrics remain asset-pipeline tasks.",
+    "music_reference": "music_story_9",
+    "mood": "warm",
+    "usage_context": "village"
+  },
+  {
+    "song_id": "SONG00010",
+    "title": "Storm Boat Lullaby",
+    "song_type": "forest_theme",
+    "lyrics_excerpt": "Metadata only; final composition and lyrics remain asset-pipeline tasks.",
+    "music_reference": "music_story_10",
+    "mood": "tense",
+    "usage_context": "forest"
+  },
+  {
+    "song_id": "SONG00011",
+    "title": "Market Lantern Song",
+    "song_type": "battle_theme",
+    "lyrics_excerpt": "Metadata only; final composition and lyrics remain asset-pipeline tasks.",
+    "music_reference": "music_story_11",
+    "mood": "mournful",
+    "usage_context": "battle"
+  },
+  {
+    "song_id": "SONG00012",
+    "title": "Mountain Return",
+    "song_type": "boss_theme",
+    "lyrics_excerpt": "Metadata only; final composition and lyrics remain asset-pipeline tasks.",
+    "music_reference": "music_story_12",
+    "mood": "hopeful",
+    "usage_context": "festival"
+  }
+]

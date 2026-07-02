@@ -1,0 +1,154 @@
+{
+  "style": "Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspective, readable silhouette, warm tropical palette, respectful fictional Philippine folklore inspiration, no text, no logo.",
+  "negative_prompt": "Avoid caricature, gore, photorealism, real-world religious superiority, sacred-object misuse, text, logos, modern brands, muddy silhouettes.",
+  "assets": [
+    {
+      "id": "player_customizable_base",
+      "type": "character_sprite",
+      "path": "characters/player_customizable_base.svg",
+      "size": "48x64 per frame, 4 directions, idle and walk frames",
+      "prompt": "Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspective, readable silhouette, warm tropical palette, respectful fictional Philippine folklore inspiration, no text, no logo. Create a customizable protagonist overworld sprite sheet base for ALAMAT. Chibi proportions, neutral traveler stance, practical lightweight clothing inspired by woven fibers and natural materials, modular hair/body/outfit layers, top-down 3/4 RPG view, transparent background. Sprite must support 8-direction movement through mirrored or separate directional frames."
+    },
+    {
+      "id": "npc_npc000001_datu_magsalin",
+      "type": "npc_sprite",
+      "source_id": "NPC000001",
+      "path": "npcs/npc_NPC000001_datu_magsalin.svg",
+      "size": "48x64 per frame",
+      "prompt": "Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspective, readable silhouette, warm tropical palette, respectful fictional Philippine folklore inspiration, no text, no logo. Create an overworld chibi NPC sprite for Datu Magsalin, barangay elder and arrival anchor. Calm, grounded village leader, practical Filipino fantasy clothing, woven sash, walking cane or document bundle, transparent background, top-down 3/4 RPG view."
+    },
+    {
+      "id": "npc_npc000582_babaylan_lira_dalisay",
+      "type": "npc_sprite",
+      "source_id": "NPC000582",
+      "path": "npcs/npc_NPC000582_babaylan_lira_dalisay.svg",
+      "size": "48x64 per frame",
+      "prompt": "Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspective, readable silhouette, warm tropical palette, respectful fictional Philippine folklore inspiration, no text, no logo. Create an overworld chibi NPC sprite for Babaylan Lira Dalisay, spiritual guide for trust and balance. Respectful fictional ritual attire, leaf fiber, brass, shell, and woven details, gentle authority, transparent background, top-down 3/4 RPG view."
+    },
+    {
+      "id": "npc_npc000301_general_store",
+      "type": "npc_sprite",
+      "source_id": "NPC000301",
+      "path": "npcs/npc_NPC000301_general_store.svg",
+      "size": "48x64 per frame",
+      "prompt": "Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspective, readable silhouette, warm tropical palette, respectful fictional Philippine folklore inspiration, no text, no logo. Create an overworld chibi NPC shopkeeper sprite for the starter barangay general store. Friendly vendor, apron, small pouch, woven market cloth accents, transparent background, top-down 3/4 RPG view."
+    },
+    {
+      "id": "nilalang_mon0038_aghoy",
+      "type": "nilalang_sprite",
+      "source_id": "MON0038",
+      "path": "nilalang/nilalang_MON0038_aghoy.svg",
+      "size": "64x64 per frame",
+      "prompt": "Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspective, readable silhouette, warm tropical palette, respectful fictional Philippine folklore inspiration, no text, no logo. Create an overworld chibi Nilalang sprite for Aghoy, the little forest helper and first earned companion candidate. Small forest spirit, kind and shy, leaf cloak, basket or root charm, firefly glow, readable silhouette, transparent background, no horror tone."
+    },
+    {
+      "id": "nilalang_mon0032_duwende",
+      "type": "nilalang_sprite",
+      "source_id": "MON0032",
+      "path": "nilalang/nilalang_MON0032_duwende.svg",
+      "size": "64x64 per frame",
+      "prompt": "Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspective, readable silhouette, warm tropical palette, respectful fictional Philippine folklore inspiration, no text, no logo. Create an overworld chibi Nilalang sprite for Duwende, house-earth little folk. Small earthy spirit, mound and household motifs, friendly but mysterious, rattan/leaf details, transparent background, readable at 64x64."
+    },
+    {
+      "id": "nilalang_mon0028_ungo",
+      "type": "nilalang_sprite",
+      "source_id": "MON0028",
+      "path": "nilalang/nilalang_MON0028_ungo.svg",
+      "size": "64x64 per frame",
+      "prompt": "Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspective, readable silhouette, warm tropical palette, respectful fictional Philippine folklore inspiration, no text, no logo. Create an overworld chibi Nilalang sprite for Ungo, wild ape spirit and first dangerous encounter. Strong forest creature, muscular but readable, moss and bark accents, alert stance, not grotesque, transparent background."
+    },
+    {
+      "id": "nilalang_mon0007_batibat_boss",
+      "type": "boss_sprite",
+      "source_id": "MON0007",
+      "path": "nilalang/boss_MON0007_batibat.svg",
+      "size": "96x96 per frame",
+      "prompt": "Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspective, readable silhouette, warm tropical palette, respectful fictional Philippine folklore inspiration, no text, no logo. Create a large overworld boss sprite for Batibat, nightmare tree-mother presence. Heavy old-wood silhouette, sleep/nightmare motif, roots and housepost details, eerie but not graphic, transparent background, readable boss scale."
+    },
+    {
+      "id": "tileset_barangay_san_isidro",
+      "type": "tileset",
+      "source_id": "WLOC000001",
+      "path": "tilesets/tileset_barangay_san_isidro.svg",
+      "size": "48x48 tiles",
+      "prompt": "Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspective, readable silhouette, warm tropical palette, respectful fictional Philippine folklore inspiration, no text, no logo. Create a 48x48 top-down RPG tileset for Barangay San Isidro. Include village paths, nipa-style homes, barangay hall accents, marketplace ground, rice field edges, chapel courtyard stones, garden plants, fences, water jars, and collision-friendly landmarks. Seamless tiles, no text."
+    },
+    {
+      "id": "tileset_balete_forest",
+      "type": "tileset",
+      "source_id": "WLOC000004",
+      "path": "tilesets/tileset_balete_forest.svg",
+      "size": "48x48 tiles",
+      "prompt": "Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspective, readable silhouette, warm tropical palette, respectful fictional Philippine folklore inspiration, no text, no logo. Create a 48x48 top-down RPG tileset for Balete Forest. Include forest floor, moss, root paths, balete roots, bamboo thickets, firefly clearings, riverbank edges, rocks, hidden item spots, and collision-friendly tree trunks. Seamless tiles, no text."
+    },
+    {
+      "id": "tileset_spirit_shrine",
+      "type": "tileset",
+      "source_id": "WLOC000009",
+      "path": "tilesets/tileset_spirit_shrine.svg",
+      "size": "48x48 tiles",
+      "prompt": "Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspective, readable silhouette, warm tropical palette, respectful fictional Philippine folklore inspiration, no text, no logo. Create a 48x48 top-down RPG tileset for a fictional Spirit Shrine threshold. Include stone paths, shrine platform, mist pools, candle/offering spots, woven banners, ancient roots, luminous spirit tiles, and boss arena markings. No real religion as absolute truth, no text."
+    },
+    {
+      "id": "ui_interaction_marker",
+      "type": "ui_icon",
+      "path": "ui/interaction_marker.svg",
+      "size": "64x64",
+      "prompt": "Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspective, readable silhouette, warm tropical palette, respectful fictional Philippine folklore inspiration, no text, no logo. Create a transparent-background interaction marker icon for ALAMAT. Simple golden woven ring with small sparkle, readable over map tiles, no text, no UI frame."
+    },
+    {
+      "id": "ui_save_point",
+      "type": "map_object",
+      "path": "ui/save_point.svg",
+      "size": "64x64",
+      "prompt": "Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspective, readable silhouette, warm tropical palette, respectful fictional Philippine folklore inspiration, no text, no logo. Create a top-down save point object for ALAMAT. Small shrine lantern or woven charm post with soft blue-gold glow, transparent background, readable at 64x64, no religious superiority, no text."
+    },
+    {
+      "id": "ui_collision_debug_tile",
+      "type": "debug_tile",
+      "path": "ui/collision_debug_tile.svg",
+      "size": "48x48",
+      "prompt": "Simple transparent red collision debug tile for development only, 48x48, diagonal stripe, semi-transparent."
+    },
+    {
+      "id": "item_itm000001_healing_herb",
+      "type": "item_icon",
+      "source_id": "ITM000001",
+      "path": "items/icon_ITM000001_healing_herb.svg",
+      "size": "64x64",
+      "prompt": "Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspective, readable silhouette, warm tropical palette, respectful fictional Philippine folklore inspiration, no text, no logo. Create a polished transparent RPG inventory icon for Healing Herb. Small wrapped remedy, leaf bundle, woven fiber tie, clean healing silhouette, green and river accents, readable at 32x32 and 64x64, no text."
+    },
+    {
+      "id": "item_itm000003_sacred_river_water",
+      "type": "item_icon",
+      "source_id": "ITM000003",
+      "path": "items/icon_ITM000003_sacred_river_water.svg",
+      "size": "64x64",
+      "prompt": "Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspective, readable silhouette, warm tropical palette, respectful fictional Philippine folklore inspiration, no text, no logo. Create a polished transparent RPG inventory icon for Sacred River Water. Small glass/bamboo vial of clear water with river stone charm, soft blue glow, respectful fictional motif, no text, readable at 32x32."
+    },
+    {
+      "id": "equipment_eqp000001_bolo",
+      "type": "equipment_icon",
+      "source_id": "EQP000001",
+      "path": "equipment/icon_EQP000001_bolo.svg",
+      "size": "64x64",
+      "prompt": "Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspective, readable silhouette, warm tropical palette, respectful fictional Philippine folklore inspiration, no text, no logo. Create a polished transparent RPG equipment icon for Bolo. Clear blade silhouette, woven grip, brass and wood accents, river affinity detail, no text, readable at 32x32."
+    },
+    {
+      "id": "equipment_eqp000003_kris",
+      "type": "equipment_icon",
+      "source_id": "EQP000003",
+      "path": "equipment/icon_EQP000003_kris.svg",
+      "size": "64x64",
+      "prompt": "Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspective, readable silhouette, warm tropical palette, respectful fictional Philippine folklore inspiration, no text, no logo. Create a polished transparent RPG equipment icon for Kris. Wavy blade silhouette, respectful fictional Filipino fantasy details, woven grip, subtle glow, no text, readable at 32x32."
+    },
+    {
+      "id": "map_preview_barangay",
+      "type": "map_preview",
+      "source_id": "WLOC000001",
+      "path": "maps/preview_barangay_san_isidro.svg",
+      "size": "1024x1024",
+      "prompt": "Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspective, readable silhouette, warm tropical palette, respectful fictional Philippine folklore inspiration, no text, no logo. Create a top-down map preview for Barangay San Isidro with player house, barangay hall, small chapel, marketplace, rice fields, balete tree path, and forest entrance. Clear paths and collision landmarks, no labels or text."
+    }
+  ]
+}

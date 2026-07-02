@@ -1,0 +1,1202 @@
+[
+  {
+    "barter_id": "BART00001",
+    "npc_id": "NPC000001",
+    "faction_id": "NPCF0001",
+    "offered_payload": {
+      "item_id": "ITM000001",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000013",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Friend"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0.1
+    }
+  },
+  {
+    "barter_id": "BART00002",
+    "npc_id": "NPC000002",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000002",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000014",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Acquaintance"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00003",
+    "npc_id": "NPC000003",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000003",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000015",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Acquaintance"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00004",
+    "npc_id": "NPC000004",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000004",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000016",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Friend"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00005",
+    "npc_id": "NPC000005",
+    "faction_id": "NPCF0005",
+    "offered_payload": {
+      "item_id": "ITM000005",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000017",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Acquaintance"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0.1
+    }
+  },
+  {
+    "barter_id": "BART00006",
+    "npc_id": "NPC000006",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000006",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000018",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Acquaintance"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00007",
+    "npc_id": "NPC000007",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000007",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000019",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Friend"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00008",
+    "npc_id": "NPC000008",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000008",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000020",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Acquaintance"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00009",
+    "npc_id": "NPC000009",
+    "faction_id": "NPCF0009",
+    "offered_payload": {
+      "item_id": "ITM000009",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000021",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Acquaintance"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0.1
+    }
+  },
+  {
+    "barter_id": "BART00010",
+    "npc_id": "NPC000010",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000010",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000022",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Friend"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00011",
+    "npc_id": "NPC000011",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000011",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000023",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Acquaintance"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00012",
+    "npc_id": "NPC000012",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000012",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000024",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Acquaintance"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00013",
+    "npc_id": "NPC000013",
+    "faction_id": "NPCF0013",
+    "offered_payload": {
+      "item_id": "ITM000013",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000025",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Friend"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0.1
+    }
+  },
+  {
+    "barter_id": "BART00014",
+    "npc_id": "NPC000014",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000014",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000026",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Acquaintance"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00015",
+    "npc_id": "NPC000015",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000015",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000027",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Acquaintance"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00016",
+    "npc_id": "NPC000016",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000016",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000028",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Friend"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00017",
+    "npc_id": "NPC000017",
+    "faction_id": "NPCF0002",
+    "offered_payload": {
+      "item_id": "ITM000017",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000029",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Acquaintance"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0.1
+    }
+  },
+  {
+    "barter_id": "BART00018",
+    "npc_id": "NPC000018",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000018",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000030",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Acquaintance"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00019",
+    "npc_id": "NPC000019",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000019",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000031",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Friend"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00020",
+    "npc_id": "NPC000020",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000020",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000032",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Acquaintance"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00021",
+    "npc_id": "NPC000021",
+    "faction_id": "NPCF0006",
+    "offered_payload": {
+      "item_id": "ITM000021",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000033",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Acquaintance"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0.1
+    }
+  },
+  {
+    "barter_id": "BART00022",
+    "npc_id": "NPC000022",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000022",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000034",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Friend"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00023",
+    "npc_id": "NPC000023",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000023",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000035",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Acquaintance"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00024",
+    "npc_id": "NPC000024",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000024",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000036",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Acquaintance"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00025",
+    "npc_id": "NPC000025",
+    "faction_id": "NPCF0010",
+    "offered_payload": {
+      "item_id": "ITM000025",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000037",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Friend"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0.1
+    }
+  },
+  {
+    "barter_id": "BART00026",
+    "npc_id": "NPC000026",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000026",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000038",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Acquaintance"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00027",
+    "npc_id": "NPC000027",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000027",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000039",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Acquaintance"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00028",
+    "npc_id": "NPC000028",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000028",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000040",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Friend"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00029",
+    "npc_id": "NPC000029",
+    "faction_id": "NPCF0014",
+    "offered_payload": {
+      "item_id": "ITM000029",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000041",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Acquaintance"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0.1
+    }
+  },
+  {
+    "barter_id": "BART00030",
+    "npc_id": "NPC000030",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000030",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000042",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Acquaintance"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00031",
+    "npc_id": "NPC000031",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000031",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000043",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Friend"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00032",
+    "npc_id": "NPC000032",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000032",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000044",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Acquaintance"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00033",
+    "npc_id": "NPC000033",
+    "faction_id": "NPCF0003",
+    "offered_payload": {
+      "item_id": "ITM000033",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000045",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Acquaintance"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0.1
+    }
+  },
+  {
+    "barter_id": "BART00034",
+    "npc_id": "NPC000034",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000034",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000046",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Friend"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00035",
+    "npc_id": "NPC000035",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000035",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000047",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Acquaintance"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00036",
+    "npc_id": "NPC000036",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000036",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000048",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Acquaintance"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00037",
+    "npc_id": "NPC000037",
+    "faction_id": "NPCF0007",
+    "offered_payload": {
+      "item_id": "ITM000037",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000049",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Friend"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0.1
+    }
+  },
+  {
+    "barter_id": "BART00038",
+    "npc_id": "NPC000038",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000038",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000050",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Acquaintance"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00039",
+    "npc_id": "NPC000039",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000039",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000051",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Acquaintance"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00040",
+    "npc_id": "NPC000040",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000040",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000052",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Friend"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00041",
+    "npc_id": "NPC000041",
+    "faction_id": "NPCF0011",
+    "offered_payload": {
+      "item_id": "ITM000041",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000053",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Acquaintance"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0.1
+    }
+  },
+  {
+    "barter_id": "BART00042",
+    "npc_id": "NPC000042",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000042",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000054",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Acquaintance"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00043",
+    "npc_id": "NPC000043",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000043",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000055",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Friend"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00044",
+    "npc_id": "NPC000044",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000044",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000056",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Acquaintance"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00045",
+    "npc_id": "NPC000045",
+    "faction_id": "NPCF0015",
+    "offered_payload": {
+      "item_id": "ITM000045",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000057",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Acquaintance"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0.1
+    }
+  },
+  {
+    "barter_id": "BART00046",
+    "npc_id": "NPC000046",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000046",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000058",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Friend"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00047",
+    "npc_id": "NPC000047",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000047",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000059",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Acquaintance"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00048",
+    "npc_id": "NPC000048",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000048",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000060",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Acquaintance"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00049",
+    "npc_id": "NPC000049",
+    "faction_id": "NPCF0004",
+    "offered_payload": {
+      "item_id": "ITM000049",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000061",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Friend"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0.1
+    }
+  },
+  {
+    "barter_id": "BART00050",
+    "npc_id": "NPC000050",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000050",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000062",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Acquaintance"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00051",
+    "npc_id": "NPC000051",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000051",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000063",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Acquaintance"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00052",
+    "npc_id": "NPC000052",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000052",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000064",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Friend"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00053",
+    "npc_id": "NPC000053",
+    "faction_id": "NPCF0008",
+    "offered_payload": {
+      "item_id": "ITM000053",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000065",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Acquaintance"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0.1
+    }
+  },
+  {
+    "barter_id": "BART00054",
+    "npc_id": "NPC000054",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000054",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000066",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Acquaintance"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00055",
+    "npc_id": "NPC000055",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000055",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000067",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Friend"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00056",
+    "npc_id": "NPC000056",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000056",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000068",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Acquaintance"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00057",
+    "npc_id": "NPC000057",
+    "faction_id": "NPCF0012",
+    "offered_payload": {
+      "item_id": "ITM000057",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000069",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Acquaintance"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0.1
+    }
+  },
+  {
+    "barter_id": "BART00058",
+    "npc_id": "NPC000058",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000058",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000070",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Friend"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00059",
+    "npc_id": "NPC000059",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000059",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000071",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Acquaintance"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  },
+  {
+    "barter_id": "BART00060",
+    "npc_id": "NPC000060",
+    "faction_id": null,
+    "offered_payload": {
+      "item_id": "ITM000060",
+      "quantity": 2
+    },
+    "requested_payload": {
+      "item_id": "ITM000072",
+      "quantity": 1
+    },
+    "condition_payload": {
+      "relationship_min": "Acquaintance"
+    },
+    "success_modifier_payload": {
+      "reputation_bonus": 0.05,
+      "faction_bonus": 0
+    }
+  }
+]

@@ -1,0 +1,28 @@
+export const GAME_WIDTH = 960
+export const GAME_HEIGHT = 640
+export const TILE_SIZE = 48
+export const PLAYER_SPEED = 180
+export const SAVE_KEY = 'alamat_milestone_1_save'
+
+export const DEFAULT_SAVE = {
+  save_version: '1.0.0',
+  player: {
+    name: '',
+    appearance: {
+      body: 'body_01',
+      hair: 'hair_01',
+      outfit: 'forest',
+    },
+  },
+  world: {
+    location_id: 'WLOC000001',
+    x: 384,
+    y: 336,
+    story_flags: [],
+  },
+  companions: {
+    active_companion_id: null,
+    collection: [],
+    bond_state: {},
+  },
+}

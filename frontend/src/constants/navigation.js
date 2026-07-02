@@ -7,9 +7,13 @@ export const navigationItems = [
   { label: 'Trust', path: '/trust-system' },
   { label: 'Bible', path: '/game-bible' },
   { label: 'Libraries', path: '/libraries' },
+  { label: 'Play', path: '/play' },
   { label: 'Codex', path: '/codex' },
   { label: 'Items', path: '/items' },
   { label: 'Equipment', path: '/equipment' },
   { label: 'NPCs', path: '/npcs' },
   { label: 'Quests', path: '/quests' },
+  { label: 'Economy', path: '/economy' },
+  { label: 'Story', path: '/story' },
+  { label: 'Production', path: '/production' },
 ]

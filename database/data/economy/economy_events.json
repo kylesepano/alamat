@@ -1,0 +1,642 @@
+[
+  {
+    "economy_event_id": "ECON00001",
+    "name": "Economy Event 1",
+    "event_type": "supply_shortage",
+    "region_id": "WREG0001",
+    "location_id": "WLOC000001",
+    "trigger_payload": {
+      "weather": "Storm",
+      "quest_state": null
+    },
+    "effect_payload": {
+      "category": "food",
+      "multiplier": 0.8
+    },
+    "is_active": true
+  },
+  {
+    "economy_event_id": "ECON00002",
+    "name": "Economy Event 2",
+    "event_type": "festival_discount",
+    "region_id": "WREG0004",
+    "location_id": null,
+    "trigger_payload": {
+      "weather": null,
+      "quest_state": null
+    },
+    "effect_payload": {
+      "category": "herb",
+      "multiplier": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "economy_event_id": "ECON00003",
+    "name": "Economy Event 3",
+    "event_type": "monster_outbreak",
+    "region_id": "WREG0007",
+    "location_id": null,
+    "trigger_payload": {
+      "weather": null,
+      "quest_state": null
+    },
+    "effect_payload": {
+      "category": "metal",
+      "multiplier": 1
+    },
+    "is_active": true
+  },
+  {
+    "economy_event_id": "ECON00004",
+    "name": "Economy Event 4",
+    "event_type": "route_danger",
+    "region_id": "WREG0012",
+    "location_id": "WLOC000004",
+    "trigger_payload": {
+      "weather": null,
+      "quest_state": null
+    },
+    "effect_payload": {
+      "category": "ritual",
+      "multiplier": 1.1
+    },
+    "is_active": true
+  },
+  {
+    "economy_event_id": "ECON00005",
+    "name": "Economy Event 5",
+    "event_type": "supply_shortage",
+    "region_id": "WREG0015",
+    "location_id": null,
+    "trigger_payload": {
+      "weather": "Storm",
+      "quest_state": null
+    },
+    "effect_payload": {
+      "category": "food",
+      "multiplier": 1.2
+    },
+    "is_active": true
+  },
+  {
+    "economy_event_id": "ECON00006",
+    "name": "Economy Event 6",
+    "event_type": "festival_discount",
+    "region_id": "WREG0001",
+    "location_id": null,
+    "trigger_payload": {
+      "weather": null,
+      "quest_state": null
+    },
+    "effect_payload": {
+      "category": "herb",
+      "multiplier": 1.3
+    },
+    "is_active": true
+  },
+  {
+    "economy_event_id": "ECON00007",
+    "name": "Economy Event 7",
+    "event_type": "monster_outbreak",
+    "region_id": "WREG0004",
+    "location_id": "WLOC000007",
+    "trigger_payload": {
+      "weather": null,
+      "quest_state": null
+    },
+    "effect_payload": {
+      "category": "metal",
+      "multiplier": 0.8
+    },
+    "is_active": true
+  },
+  {
+    "economy_event_id": "ECON00008",
+    "name": "Economy Event 8",
+    "event_type": "route_danger",
+    "region_id": "WREG0007",
+    "location_id": null,
+    "trigger_payload": {
+      "weather": null,
+      "quest_state": null
+    },
+    "effect_payload": {
+      "category": "ritual",
+      "multiplier": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "economy_event_id": "ECON00009",
+    "name": "Economy Event 9",
+    "event_type": "supply_shortage",
+    "region_id": "WREG0012",
+    "location_id": null,
+    "trigger_payload": {
+      "weather": "Storm",
+      "quest_state": null
+    },
+    "effect_payload": {
+      "category": "food",
+      "multiplier": 1
+    },
+    "is_active": true
+  },
+  {
+    "economy_event_id": "ECON00010",
+    "name": "Economy Event 10",
+    "event_type": "festival_discount",
+    "region_id": "WREG0015",
+    "location_id": "WLOC000010",
+    "trigger_payload": {
+      "weather": null,
+      "quest_state": null
+    },
+    "effect_payload": {
+      "category": "herb",
+      "multiplier": 1.1
+    },
+    "is_active": true
+  },
+  {
+    "economy_event_id": "ECON00011",
+    "name": "Economy Event 11",
+    "event_type": "monster_outbreak",
+    "region_id": "WREG0001",
+    "location_id": null,
+    "trigger_payload": {
+      "weather": null,
+      "quest_state": null
+    },
+    "effect_payload": {
+      "category": "metal",
+      "multiplier": 1.2
+    },
+    "is_active": true
+  },
+  {
+    "economy_event_id": "ECON00012",
+    "name": "Economy Event 12",
+    "event_type": "route_danger",
+    "region_id": "WREG0004",
+    "location_id": null,
+    "trigger_payload": {
+      "weather": null,
+      "quest_state": null
+    },
+    "effect_payload": {
+      "category": "ritual",
+      "multiplier": 1.3
+    },
+    "is_active": true
+  },
+  {
+    "economy_event_id": "ECON00013",
+    "name": "Economy Event 13",
+    "event_type": "supply_shortage",
+    "region_id": "WREG0007",
+    "location_id": "WLOC000013",
+    "trigger_payload": {
+      "weather": "Storm",
+      "quest_state": null
+    },
+    "effect_payload": {
+      "category": "food",
+      "multiplier": 0.8
+    },
+    "is_active": true
+  },
+  {
+    "economy_event_id": "ECON00014",
+    "name": "Economy Event 14",
+    "event_type": "festival_discount",
+    "region_id": "WREG0012",
+    "location_id": null,
+    "trigger_payload": {
+      "weather": null,
+      "quest_state": null
+    },
+    "effect_payload": {
+      "category": "herb",
+      "multiplier": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "economy_event_id": "ECON00015",
+    "name": "Economy Event 15",
+    "event_type": "monster_outbreak",
+    "region_id": "WREG0015",
+    "location_id": null,
+    "trigger_payload": {
+      "weather": null,
+      "quest_state": null
+    },
+    "effect_payload": {
+      "category": "metal",
+      "multiplier": 1
+    },
+    "is_active": true
+  },
+  {
+    "economy_event_id": "ECON00016",
+    "name": "Economy Event 16",
+    "event_type": "route_danger",
+    "region_id": "WREG0001",
+    "location_id": "WLOC000016",
+    "trigger_payload": {
+      "weather": null,
+      "quest_state": null
+    },
+    "effect_payload": {
+      "category": "ritual",
+      "multiplier": 1.1
+    },
+    "is_active": true
+  },
+  {
+    "economy_event_id": "ECON00017",
+    "name": "Economy Event 17",
+    "event_type": "supply_shortage",
+    "region_id": "WREG0004",
+    "location_id": null,
+    "trigger_payload": {
+      "weather": "Storm",
+      "quest_state": null
+    },
+    "effect_payload": {
+      "category": "food",
+      "multiplier": 1.2
+    },
+    "is_active": true
+  },
+  {
+    "economy_event_id": "ECON00018",
+    "name": "Economy Event 18",
+    "event_type": "festival_discount",
+    "region_id": "WREG0007",
+    "location_id": null,
+    "trigger_payload": {
+      "weather": null,
+      "quest_state": null
+    },
+    "effect_payload": {
+      "category": "herb",
+      "multiplier": 1.3
+    },
+    "is_active": true
+  },
+  {
+    "economy_event_id": "ECON00019",
+    "name": "Economy Event 19",
+    "event_type": "monster_outbreak",
+    "region_id": "WREG0012",
+    "location_id": "WLOC000019",
+    "trigger_payload": {
+      "weather": null,
+      "quest_state": null
+    },
+    "effect_payload": {
+      "category": "metal",
+      "multiplier": 0.8
+    },
+    "is_active": true
+  },
+  {
+    "economy_event_id": "ECON00020",
+    "name": "Economy Event 20",
+    "event_type": "route_danger",
+    "region_id": "WREG0015",
+    "location_id": null,
+    "trigger_payload": {
+      "weather": null,
+      "quest_state": null
+    },
+    "effect_payload": {
+      "category": "ritual",
+      "multiplier": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "economy_event_id": "ECON00021",
+    "name": "Economy Event 21",
+    "event_type": "supply_shortage",
+    "region_id": "WREG0001",
+    "location_id": null,
+    "trigger_payload": {
+      "weather": "Storm",
+      "quest_state": null
+    },
+    "effect_payload": {
+      "category": "food",
+      "multiplier": 1
+    },
+    "is_active": true
+  },
+  {
+    "economy_event_id": "ECON00022",
+    "name": "Economy Event 22",
+    "event_type": "festival_discount",
+    "region_id": "WREG0004",
+    "location_id": "WLOC000022",
+    "trigger_payload": {
+      "weather": null,
+      "quest_state": null
+    },
+    "effect_payload": {
+      "category": "herb",
+      "multiplier": 1.1
+    },
+    "is_active": true
+  },
+  {
+    "economy_event_id": "ECON00023",
+    "name": "Economy Event 23",
+    "event_type": "monster_outbreak",
+    "region_id": "WREG0007",
+    "location_id": null,
+    "trigger_payload": {
+      "weather": null,
+      "quest_state": null
+    },
+    "effect_payload": {
+      "category": "metal",
+      "multiplier": 1.2
+    },
+    "is_active": true
+  },
+  {
+    "economy_event_id": "ECON00024",
+    "name": "Economy Event 24",
+    "event_type": "route_danger",
+    "region_id": "WREG0012",
+    "location_id": null,
+    "trigger_payload": {
+      "weather": null,
+      "quest_state": null
+    },
+    "effect_payload": {
+      "category": "ritual",
+      "multiplier": 1.3
+    },
+    "is_active": true
+  },
+  {
+    "economy_event_id": "ECON00025",
+    "name": "Economy Event 25",
+    "event_type": "supply_shortage",
+    "region_id": "WREG0015",
+    "location_id": "WLOC000025",
+    "trigger_payload": {
+      "weather": "Storm",
+      "quest_state": null
+    },
+    "effect_payload": {
+      "category": "food",
+      "multiplier": 0.8
+    },
+    "is_active": true
+  },
+  {
+    "economy_event_id": "ECON00026",
+    "name": "Economy Event 26",
+    "event_type": "festival_discount",
+    "region_id": "WREG0001",
+    "location_id": null,
+    "trigger_payload": {
+      "weather": null,
+      "quest_state": null
+    },
+    "effect_payload": {
+      "category": "herb",
+      "multiplier": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "economy_event_id": "ECON00027",
+    "name": "Economy Event 27",
+    "event_type": "monster_outbreak",
+    "region_id": "WREG0004",
+    "location_id": null,
+    "trigger_payload": {
+      "weather": null,
+      "quest_state": null
+    },
+    "effect_payload": {
+      "category": "metal",
+      "multiplier": 1
+    },
+    "is_active": true
+  },
+  {
+    "economy_event_id": "ECON00028",
+    "name": "Economy Event 28",
+    "event_type": "route_danger",
+    "region_id": "WREG0007",
+    "location_id": "WLOC000028",
+    "trigger_payload": {
+      "weather": null,
+      "quest_state": null
+    },
+    "effect_payload": {
+      "category": "ritual",
+      "multiplier": 1.1
+    },
+    "is_active": true
+  },
+  {
+    "economy_event_id": "ECON00029",
+    "name": "Economy Event 29",
+    "event_type": "supply_shortage",
+    "region_id": "WREG0012",
+    "location_id": null,
+    "trigger_payload": {
+      "weather": "Storm",
+      "quest_state": null
+    },
+    "effect_payload": {
+      "category": "food",
+      "multiplier": 1.2
+    },
+    "is_active": true
+  },
+  {
+    "economy_event_id": "ECON00030",
+    "name": "Economy Event 30",
+    "event_type": "festival_discount",
+    "region_id": "WREG0015",
+    "location_id": null,
+    "trigger_payload": {
+      "weather": null,
+      "quest_state": null
+    },
+    "effect_payload": {
+      "category": "herb",
+      "multiplier": 1.3
+    },
+    "is_active": true
+  },
+  {
+    "economy_event_id": "ECON00031",
+    "name": "Economy Event 31",
+    "event_type": "monster_outbreak",
+    "region_id": "WREG0001",
+    "location_id": "WLOC000031",
+    "trigger_payload": {
+      "weather": null,
+      "quest_state": null
+    },
+    "effect_payload": {
+      "category": "metal",
+      "multiplier": 0.8
+    },
+    "is_active": true
+  },
+  {
+    "economy_event_id": "ECON00032",
+    "name": "Economy Event 32",
+    "event_type": "route_danger",
+    "region_id": "WREG0004",
+    "location_id": null,
+    "trigger_payload": {
+      "weather": null,
+      "quest_state": null
+    },
+    "effect_payload": {
+      "category": "ritual",
+      "multiplier": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "economy_event_id": "ECON00033",
+    "name": "Economy Event 33",
+    "event_type": "supply_shortage",
+    "region_id": "WREG0007",
+    "location_id": null,
+    "trigger_payload": {
+      "weather": "Storm",
+      "quest_state": null
+    },
+    "effect_payload": {
+      "category": "food",
+      "multiplier": 1
+    },
+    "is_active": true
+  },
+  {
+    "economy_event_id": "ECON00034",
+    "name": "Economy Event 34",
+    "event_type": "festival_discount",
+    "region_id": "WREG0012",
+    "location_id": "WLOC000034",
+    "trigger_payload": {
+      "weather": null,
+      "quest_state": null
+    },
+    "effect_payload": {
+      "category": "herb",
+      "multiplier": 1.1
+    },
+    "is_active": true
+  },
+  {
+    "economy_event_id": "ECON00035",
+    "name": "Economy Event 35",
+    "event_type": "monster_outbreak",
+    "region_id": "WREG0015",
+    "location_id": null,
+    "trigger_payload": {
+      "weather": null,
+      "quest_state": null
+    },
+    "effect_payload": {
+      "category": "metal",
+      "multiplier": 1.2
+    },
+    "is_active": true
+  },
+  {
+    "economy_event_id": "ECON00036",
+    "name": "Economy Event 36",
+    "event_type": "route_danger",
+    "region_id": "WREG0001",
+    "location_id": null,
+    "trigger_payload": {
+      "weather": null,
+      "quest_state": null
+    },
+    "effect_payload": {
+      "category": "ritual",
+      "multiplier": 1.3
+    },
+    "is_active": true
+  },
+  {
+    "economy_event_id": "ECON00037",
+    "name": "Economy Event 37",
+    "event_type": "supply_shortage",
+    "region_id": "WREG0004",
+    "location_id": "WLOC000037",
+    "trigger_payload": {
+      "weather": "Storm",
+      "quest_state": null
+    },
+    "effect_payload": {
+      "category": "food",
+      "multiplier": 0.8
+    },
+    "is_active": true
+  },
+  {
+    "economy_event_id": "ECON00038",
+    "name": "Economy Event 38",
+    "event_type": "festival_discount",
+    "region_id": "WREG0007",
+    "location_id": null,
+    "trigger_payload": {
+      "weather": null,
+      "quest_state": null
+    },
+    "effect_payload": {
+      "category": "herb",
+      "multiplier": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "economy_event_id": "ECON00039",
+    "name": "Economy Event 39",
+    "event_type": "monster_outbreak",
+    "region_id": "WREG0012",
+    "location_id": null,
+    "trigger_payload": {
+      "weather": null,
+      "quest_state": null
+    },
+    "effect_payload": {
+      "category": "metal",
+      "multiplier": 1
+    },
+    "is_active": true
+  },
+  {
+    "economy_event_id": "ECON00040",
+    "name": "Economy Event 40",
+    "event_type": "route_danger",
+    "region_id": "WREG0015",
+    "location_id": "WLOC000040",
+    "trigger_payload": {
+      "weather": null,
+      "quest_state": null
+    },
+    "effect_payload": {
+      "category": "ritual",
+      "multiplier": 1.1
+    },
+    "is_active": true
+  }
+]

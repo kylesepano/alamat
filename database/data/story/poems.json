@@ -1,0 +1,86 @@
+[
+  {
+    "poem_id": "POEM00001",
+    "title": "Before the Rain",
+    "poem_type": "shrine",
+    "text": "A short in-world poetic placeholder for localization and narrative tone testing.",
+    "related_chapter_id": "STCH001"
+  },
+  {
+    "poem_id": "POEM00002",
+    "title": "Names in Smoke",
+    "poem_type": "memory",
+    "text": "A short in-world poetic placeholder for localization and narrative tone testing.",
+    "related_chapter_id": "STCH002"
+  },
+  {
+    "poem_id": "POEM00003",
+    "title": "The Bowl Repaired",
+    "poem_type": "letter",
+    "text": "A short in-world poetic placeholder for localization and narrative tone testing.",
+    "related_chapter_id": "STCH003"
+  },
+  {
+    "poem_id": "POEM00004",
+    "title": "Dawn Has Many Doors",
+    "poem_type": "ending",
+    "text": "A short in-world poetic placeholder for localization and narrative tone testing.",
+    "related_chapter_id": "STCH004"
+  },
+  {
+    "poem_id": "POEM00005",
+    "title": "Before the Rain",
+    "poem_type": "shrine",
+    "text": "A short in-world poetic placeholder for localization and narrative tone testing.",
+    "related_chapter_id": "STCH005"
+  },
+  {
+    "poem_id": "POEM00006",
+    "title": "Names in Smoke",
+    "poem_type": "memory",
+    "text": "A short in-world poetic placeholder for localization and narrative tone testing.",
+    "related_chapter_id": "STCH006"
+  },
+  {
+    "poem_id": "POEM00007",
+    "title": "The Bowl Repaired",
+    "poem_type": "letter",
+    "text": "A short in-world poetic placeholder for localization and narrative tone testing.",
+    "related_chapter_id": "STCH007"
+  },
+  {
+    "poem_id": "POEM00008",
+    "title": "Dawn Has Many Doors",
+    "poem_type": "ending",
+    "text": "A short in-world poetic placeholder for localization and narrative tone testing.",
+    "related_chapter_id": "STCH008"
+  },
+  {
+    "poem_id": "POEM00009",
+    "title": "Before the Rain",
+    "poem_type": "shrine",
+    "text": "A short in-world poetic placeholder for localization and narrative tone testing.",
+    "related_chapter_id": "STCH009"
+  },
+  {
+    "poem_id": "POEM00010",
+    "title": "Names in Smoke",
+    "poem_type": "memory",
+    "text": "A short in-world poetic placeholder for localization and narrative tone testing.",
+    "related_chapter_id": "STCH010"
+  },
+  {
+    "poem_id": "POEM00011",
+    "title": "The Bowl Repaired",
+    "poem_type": "letter",
+    "text": "A short in-world poetic placeholder for localization and narrative tone testing.",
+    "related_chapter_id": "STCH011"
+  },
+  {
+    "poem_id": "POEM00012",
+    "title": "Dawn Has Many Doors",
+    "poem_type": "ending",
+    "text": "A short in-world poetic placeholder for localization and narrative tone testing.",
+    "related_chapter_id": "STCH012"
+  }
+]

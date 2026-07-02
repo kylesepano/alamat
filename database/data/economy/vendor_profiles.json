@@ -1,0 +1,1042 @@
+[
+  {
+    "vendor_profile_id": "VEND00001",
+    "npc_id": "NPC000001",
+    "profile_name": "Vendor Profile 1",
+    "specialty": "general_store",
+    "pricing_personality": "fair",
+    "haggle_difficulty": 1,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00002",
+    "npc_id": "NPC000002",
+    "profile_name": "Vendor Profile 2",
+    "specialty": "blacksmith",
+    "pricing_personality": "strict",
+    "haggle_difficulty": 2,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00003",
+    "npc_id": "NPC000003",
+    "profile_name": "Vendor Profile 3",
+    "specialty": "herbalist",
+    "pricing_personality": "generous",
+    "haggle_difficulty": 3,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00004",
+    "npc_id": "NPC000004",
+    "profile_name": "Vendor Profile 4",
+    "specialty": "food_stall",
+    "pricing_personality": "barter_first",
+    "haggle_difficulty": 4,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00005",
+    "npc_id": "NPC000005",
+    "profile_name": "Vendor Profile 5",
+    "specialty": "ritual_vendor",
+    "pricing_personality": "fair",
+    "haggle_difficulty": 5,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00006",
+    "npc_id": "NPC000006",
+    "profile_name": "Vendor Profile 6",
+    "specialty": "monster_care",
+    "pricing_personality": "strict",
+    "haggle_difficulty": 1,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00007",
+    "npc_id": "NPC000007",
+    "profile_name": "Vendor Profile 7",
+    "specialty": "fisher_market",
+    "pricing_personality": "generous",
+    "haggle_difficulty": 2,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00008",
+    "npc_id": "NPC000008",
+    "profile_name": "Vendor Profile 8",
+    "specialty": "weaver",
+    "pricing_personality": "barter_first",
+    "haggle_difficulty": 3,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00009",
+    "npc_id": "NPC000009",
+    "profile_name": "Vendor Profile 9",
+    "specialty": "festival_booth",
+    "pricing_personality": "fair",
+    "haggle_difficulty": 4,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00010",
+    "npc_id": "NPC000010",
+    "profile_name": "Vendor Profile 10",
+    "specialty": "appraiser",
+    "pricing_personality": "strict",
+    "haggle_difficulty": 5,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00011",
+    "npc_id": "NPC000011",
+    "profile_name": "Vendor Profile 11",
+    "specialty": "general_store",
+    "pricing_personality": "generous",
+    "haggle_difficulty": 1,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00012",
+    "npc_id": "NPC000012",
+    "profile_name": "Vendor Profile 12",
+    "specialty": "blacksmith",
+    "pricing_personality": "barter_first",
+    "haggle_difficulty": 2,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00013",
+    "npc_id": "NPC000013",
+    "profile_name": "Vendor Profile 13",
+    "specialty": "herbalist",
+    "pricing_personality": "fair",
+    "haggle_difficulty": 3,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00014",
+    "npc_id": "NPC000014",
+    "profile_name": "Vendor Profile 14",
+    "specialty": "food_stall",
+    "pricing_personality": "strict",
+    "haggle_difficulty": 4,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00015",
+    "npc_id": "NPC000015",
+    "profile_name": "Vendor Profile 15",
+    "specialty": "ritual_vendor",
+    "pricing_personality": "generous",
+    "haggle_difficulty": 5,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00016",
+    "npc_id": "NPC000016",
+    "profile_name": "Vendor Profile 16",
+    "specialty": "monster_care",
+    "pricing_personality": "barter_first",
+    "haggle_difficulty": 1,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00017",
+    "npc_id": "NPC000017",
+    "profile_name": "Vendor Profile 17",
+    "specialty": "fisher_market",
+    "pricing_personality": "fair",
+    "haggle_difficulty": 2,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00018",
+    "npc_id": "NPC000018",
+    "profile_name": "Vendor Profile 18",
+    "specialty": "weaver",
+    "pricing_personality": "strict",
+    "haggle_difficulty": 3,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00019",
+    "npc_id": "NPC000019",
+    "profile_name": "Vendor Profile 19",
+    "specialty": "festival_booth",
+    "pricing_personality": "generous",
+    "haggle_difficulty": 4,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00020",
+    "npc_id": "NPC000020",
+    "profile_name": "Vendor Profile 20",
+    "specialty": "appraiser",
+    "pricing_personality": "barter_first",
+    "haggle_difficulty": 5,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00021",
+    "npc_id": "NPC000021",
+    "profile_name": "Vendor Profile 21",
+    "specialty": "general_store",
+    "pricing_personality": "fair",
+    "haggle_difficulty": 1,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00022",
+    "npc_id": "NPC000022",
+    "profile_name": "Vendor Profile 22",
+    "specialty": "blacksmith",
+    "pricing_personality": "strict",
+    "haggle_difficulty": 2,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00023",
+    "npc_id": "NPC000023",
+    "profile_name": "Vendor Profile 23",
+    "specialty": "herbalist",
+    "pricing_personality": "generous",
+    "haggle_difficulty": 3,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00024",
+    "npc_id": "NPC000024",
+    "profile_name": "Vendor Profile 24",
+    "specialty": "food_stall",
+    "pricing_personality": "barter_first",
+    "haggle_difficulty": 4,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00025",
+    "npc_id": "NPC000025",
+    "profile_name": "Vendor Profile 25",
+    "specialty": "ritual_vendor",
+    "pricing_personality": "fair",
+    "haggle_difficulty": 5,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00026",
+    "npc_id": "NPC000026",
+    "profile_name": "Vendor Profile 26",
+    "specialty": "monster_care",
+    "pricing_personality": "strict",
+    "haggle_difficulty": 1,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00027",
+    "npc_id": "NPC000027",
+    "profile_name": "Vendor Profile 27",
+    "specialty": "fisher_market",
+    "pricing_personality": "generous",
+    "haggle_difficulty": 2,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00028",
+    "npc_id": "NPC000028",
+    "profile_name": "Vendor Profile 28",
+    "specialty": "weaver",
+    "pricing_personality": "barter_first",
+    "haggle_difficulty": 3,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00029",
+    "npc_id": "NPC000029",
+    "profile_name": "Vendor Profile 29",
+    "specialty": "festival_booth",
+    "pricing_personality": "fair",
+    "haggle_difficulty": 4,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00030",
+    "npc_id": "NPC000030",
+    "profile_name": "Vendor Profile 30",
+    "specialty": "appraiser",
+    "pricing_personality": "strict",
+    "haggle_difficulty": 5,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00031",
+    "npc_id": "NPC000031",
+    "profile_name": "Vendor Profile 31",
+    "specialty": "general_store",
+    "pricing_personality": "generous",
+    "haggle_difficulty": 1,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00032",
+    "npc_id": "NPC000032",
+    "profile_name": "Vendor Profile 32",
+    "specialty": "blacksmith",
+    "pricing_personality": "barter_first",
+    "haggle_difficulty": 2,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00033",
+    "npc_id": "NPC000033",
+    "profile_name": "Vendor Profile 33",
+    "specialty": "herbalist",
+    "pricing_personality": "fair",
+    "haggle_difficulty": 3,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00034",
+    "npc_id": "NPC000034",
+    "profile_name": "Vendor Profile 34",
+    "specialty": "food_stall",
+    "pricing_personality": "strict",
+    "haggle_difficulty": 4,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00035",
+    "npc_id": "NPC000035",
+    "profile_name": "Vendor Profile 35",
+    "specialty": "ritual_vendor",
+    "pricing_personality": "generous",
+    "haggle_difficulty": 5,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00036",
+    "npc_id": "NPC000036",
+    "profile_name": "Vendor Profile 36",
+    "specialty": "monster_care",
+    "pricing_personality": "barter_first",
+    "haggle_difficulty": 1,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00037",
+    "npc_id": "NPC000037",
+    "profile_name": "Vendor Profile 37",
+    "specialty": "fisher_market",
+    "pricing_personality": "fair",
+    "haggle_difficulty": 2,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00038",
+    "npc_id": "NPC000038",
+    "profile_name": "Vendor Profile 38",
+    "specialty": "weaver",
+    "pricing_personality": "strict",
+    "haggle_difficulty": 3,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00039",
+    "npc_id": "NPC000039",
+    "profile_name": "Vendor Profile 39",
+    "specialty": "festival_booth",
+    "pricing_personality": "generous",
+    "haggle_difficulty": 4,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00040",
+    "npc_id": "NPC000040",
+    "profile_name": "Vendor Profile 40",
+    "specialty": "appraiser",
+    "pricing_personality": "barter_first",
+    "haggle_difficulty": 5,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00041",
+    "npc_id": "NPC000041",
+    "profile_name": "Vendor Profile 41",
+    "specialty": "general_store",
+    "pricing_personality": "fair",
+    "haggle_difficulty": 1,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00042",
+    "npc_id": "NPC000042",
+    "profile_name": "Vendor Profile 42",
+    "specialty": "blacksmith",
+    "pricing_personality": "strict",
+    "haggle_difficulty": 2,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00043",
+    "npc_id": "NPC000043",
+    "profile_name": "Vendor Profile 43",
+    "specialty": "herbalist",
+    "pricing_personality": "generous",
+    "haggle_difficulty": 3,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00044",
+    "npc_id": "NPC000044",
+    "profile_name": "Vendor Profile 44",
+    "specialty": "food_stall",
+    "pricing_personality": "barter_first",
+    "haggle_difficulty": 4,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00045",
+    "npc_id": "NPC000045",
+    "profile_name": "Vendor Profile 45",
+    "specialty": "ritual_vendor",
+    "pricing_personality": "fair",
+    "haggle_difficulty": 5,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00046",
+    "npc_id": "NPC000046",
+    "profile_name": "Vendor Profile 46",
+    "specialty": "monster_care",
+    "pricing_personality": "strict",
+    "haggle_difficulty": 1,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00047",
+    "npc_id": "NPC000047",
+    "profile_name": "Vendor Profile 47",
+    "specialty": "fisher_market",
+    "pricing_personality": "generous",
+    "haggle_difficulty": 2,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00048",
+    "npc_id": "NPC000048",
+    "profile_name": "Vendor Profile 48",
+    "specialty": "weaver",
+    "pricing_personality": "barter_first",
+    "haggle_difficulty": 3,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00049",
+    "npc_id": "NPC000049",
+    "profile_name": "Vendor Profile 49",
+    "specialty": "festival_booth",
+    "pricing_personality": "fair",
+    "haggle_difficulty": 4,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00050",
+    "npc_id": "NPC000050",
+    "profile_name": "Vendor Profile 50",
+    "specialty": "appraiser",
+    "pricing_personality": "strict",
+    "haggle_difficulty": 5,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00051",
+    "npc_id": "NPC000051",
+    "profile_name": "Vendor Profile 51",
+    "specialty": "general_store",
+    "pricing_personality": "generous",
+    "haggle_difficulty": 1,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00052",
+    "npc_id": "NPC000052",
+    "profile_name": "Vendor Profile 52",
+    "specialty": "blacksmith",
+    "pricing_personality": "barter_first",
+    "haggle_difficulty": 2,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00053",
+    "npc_id": "NPC000053",
+    "profile_name": "Vendor Profile 53",
+    "specialty": "herbalist",
+    "pricing_personality": "fair",
+    "haggle_difficulty": 3,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00054",
+    "npc_id": "NPC000054",
+    "profile_name": "Vendor Profile 54",
+    "specialty": "food_stall",
+    "pricing_personality": "strict",
+    "haggle_difficulty": 4,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00055",
+    "npc_id": "NPC000055",
+    "profile_name": "Vendor Profile 55",
+    "specialty": "ritual_vendor",
+    "pricing_personality": "generous",
+    "haggle_difficulty": 5,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00056",
+    "npc_id": "NPC000056",
+    "profile_name": "Vendor Profile 56",
+    "specialty": "monster_care",
+    "pricing_personality": "barter_first",
+    "haggle_difficulty": 1,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00057",
+    "npc_id": "NPC000057",
+    "profile_name": "Vendor Profile 57",
+    "specialty": "fisher_market",
+    "pricing_personality": "fair",
+    "haggle_difficulty": 2,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00058",
+    "npc_id": "NPC000058",
+    "profile_name": "Vendor Profile 58",
+    "specialty": "weaver",
+    "pricing_personality": "strict",
+    "haggle_difficulty": 3,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00059",
+    "npc_id": "NPC000059",
+    "profile_name": "Vendor Profile 59",
+    "specialty": "festival_booth",
+    "pricing_personality": "generous",
+    "haggle_difficulty": 4,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00060",
+    "npc_id": "NPC000060",
+    "profile_name": "Vendor Profile 60",
+    "specialty": "appraiser",
+    "pricing_personality": "barter_first",
+    "haggle_difficulty": 5,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00061",
+    "npc_id": "NPC000061",
+    "profile_name": "Vendor Profile 61",
+    "specialty": "general_store",
+    "pricing_personality": "fair",
+    "haggle_difficulty": 1,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00062",
+    "npc_id": "NPC000062",
+    "profile_name": "Vendor Profile 62",
+    "specialty": "blacksmith",
+    "pricing_personality": "strict",
+    "haggle_difficulty": 2,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00063",
+    "npc_id": "NPC000063",
+    "profile_name": "Vendor Profile 63",
+    "specialty": "herbalist",
+    "pricing_personality": "generous",
+    "haggle_difficulty": 3,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00064",
+    "npc_id": "NPC000064",
+    "profile_name": "Vendor Profile 64",
+    "specialty": "food_stall",
+    "pricing_personality": "barter_first",
+    "haggle_difficulty": 4,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00065",
+    "npc_id": "NPC000065",
+    "profile_name": "Vendor Profile 65",
+    "specialty": "ritual_vendor",
+    "pricing_personality": "fair",
+    "haggle_difficulty": 5,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00066",
+    "npc_id": "NPC000066",
+    "profile_name": "Vendor Profile 66",
+    "specialty": "monster_care",
+    "pricing_personality": "strict",
+    "haggle_difficulty": 1,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00067",
+    "npc_id": "NPC000067",
+    "profile_name": "Vendor Profile 67",
+    "specialty": "fisher_market",
+    "pricing_personality": "generous",
+    "haggle_difficulty": 2,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00068",
+    "npc_id": "NPC000068",
+    "profile_name": "Vendor Profile 68",
+    "specialty": "weaver",
+    "pricing_personality": "barter_first",
+    "haggle_difficulty": 3,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00069",
+    "npc_id": "NPC000069",
+    "profile_name": "Vendor Profile 69",
+    "specialty": "festival_booth",
+    "pricing_personality": "fair",
+    "haggle_difficulty": 4,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00070",
+    "npc_id": "NPC000070",
+    "profile_name": "Vendor Profile 70",
+    "specialty": "appraiser",
+    "pricing_personality": "strict",
+    "haggle_difficulty": 5,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00071",
+    "npc_id": "NPC000071",
+    "profile_name": "Vendor Profile 71",
+    "specialty": "general_store",
+    "pricing_personality": "generous",
+    "haggle_difficulty": 1,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00072",
+    "npc_id": "NPC000072",
+    "profile_name": "Vendor Profile 72",
+    "specialty": "blacksmith",
+    "pricing_personality": "barter_first",
+    "haggle_difficulty": 2,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00073",
+    "npc_id": "NPC000073",
+    "profile_name": "Vendor Profile 73",
+    "specialty": "herbalist",
+    "pricing_personality": "fair",
+    "haggle_difficulty": 3,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00074",
+    "npc_id": "NPC000074",
+    "profile_name": "Vendor Profile 74",
+    "specialty": "food_stall",
+    "pricing_personality": "strict",
+    "haggle_difficulty": 4,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00075",
+    "npc_id": "NPC000075",
+    "profile_name": "Vendor Profile 75",
+    "specialty": "ritual_vendor",
+    "pricing_personality": "generous",
+    "haggle_difficulty": 5,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00076",
+    "npc_id": "NPC000076",
+    "profile_name": "Vendor Profile 76",
+    "specialty": "monster_care",
+    "pricing_personality": "barter_first",
+    "haggle_difficulty": 1,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00077",
+    "npc_id": "NPC000077",
+    "profile_name": "Vendor Profile 77",
+    "specialty": "fisher_market",
+    "pricing_personality": "fair",
+    "haggle_difficulty": 2,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00078",
+    "npc_id": "NPC000078",
+    "profile_name": "Vendor Profile 78",
+    "specialty": "weaver",
+    "pricing_personality": "strict",
+    "haggle_difficulty": 3,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00079",
+    "npc_id": "NPC000079",
+    "profile_name": "Vendor Profile 79",
+    "specialty": "festival_booth",
+    "pricing_personality": "generous",
+    "haggle_difficulty": 4,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  },
+  {
+    "vendor_profile_id": "VEND00080",
+    "npc_id": "NPC000080",
+    "profile_name": "Vendor Profile 80",
+    "specialty": "appraiser",
+    "pricing_personality": "barter_first",
+    "haggle_difficulty": 5,
+    "relationship_discount_payload": {
+      "Friend": 0.95,
+      "Mentor": 0.9
+    },
+    "is_active": true
+  }
+]

@@ -1,0 +1,2296 @@
+[
+  {
+    "shop_id": "SHOPJ00001",
+    "name": "General Store 1",
+    "slug": "general-store-1",
+    "shop_type": "general_store",
+    "npc_id": "NPC000001",
+    "location_id": "WLOC000001",
+    "faction_id": "NPCF0001",
+    "description": "Economy shop for General Store goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "22:00",
+      "closed_days": []
+    },
+    "reputation_requirement": 10,
+    "relationship_requirement": "Acquaintance",
+    "currency_id": "CUR0001",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {
+        "Rain": 1.1
+      },
+      "festival": 0.9
+    },
+    "restock_rule_payload": {
+      "cadence": "daily",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00002",
+    "name": "Blacksmith 2",
+    "slug": "blacksmith-2",
+    "shop_type": "blacksmith",
+    "npc_id": "NPC000002",
+    "location_id": "WLOC000002",
+    "faction_id": null,
+    "description": "Economy shop for Blacksmith goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0002",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "weekly",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00003",
+    "name": "Herbalist 3",
+    "slug": "herbalist-3",
+    "shop_type": "herbalist",
+    "npc_id": "NPC000003",
+    "location_id": "WLOC000003",
+    "faction_id": null,
+    "description": "Economy shop for Herbalist goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0003",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "daily",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00004",
+    "name": "Food Stall 4",
+    "slug": "food-stall-4",
+    "shop_type": "food_stall",
+    "npc_id": "NPC000004",
+    "location_id": "WLOC000004",
+    "faction_id": null,
+    "description": "Economy shop for Food Stall goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0004",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {
+        "Rain": 1.1
+      },
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "weekly",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00005",
+    "name": "Ritual Vendor 5",
+    "slug": "ritual-vendor-5",
+    "shop_type": "ritual_vendor",
+    "npc_id": "NPC000005",
+    "location_id": "WLOC000005",
+    "faction_id": null,
+    "description": "Economy shop for Ritual Vendor goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "22:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0005",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "daily",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00006",
+    "name": "Monster Care 6",
+    "slug": "monster-care-6",
+    "shop_type": "monster_care",
+    "npc_id": "NPC000006",
+    "location_id": "WLOC000006",
+    "faction_id": "NPCF0006",
+    "description": "Economy shop for Monster Care goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0006",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "weekly",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00007",
+    "name": "Fisher Market 7",
+    "slug": "fisher-market-7",
+    "shop_type": "fisher_market",
+    "npc_id": "NPC000007",
+    "location_id": "WLOC000007",
+    "faction_id": null,
+    "description": "Economy shop for Fisher Market goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": 10,
+    "relationship_requirement": null,
+    "currency_id": "CUR0001",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {
+        "Rain": 1.1
+      },
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "daily",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00008",
+    "name": "Weaver 8",
+    "slug": "weaver-8",
+    "shop_type": "weaver",
+    "npc_id": "NPC000008",
+    "location_id": "WLOC000008",
+    "faction_id": null,
+    "description": "Economy shop for Weaver goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": "Acquaintance",
+    "currency_id": "CUR0002",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "weekly",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00009",
+    "name": "Festival Booth 9",
+    "slug": "festival-booth-9",
+    "shop_type": "festival_booth",
+    "npc_id": "NPC000009",
+    "location_id": "WLOC000009",
+    "faction_id": null,
+    "description": "Economy shop for Festival Booth goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "22:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0003",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "daily",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00010",
+    "name": "Appraiser 10",
+    "slug": "appraiser-10",
+    "shop_type": "appraiser",
+    "npc_id": "NPC000010",
+    "location_id": "WLOC000010",
+    "faction_id": null,
+    "description": "Economy shop for Appraiser goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0004",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {
+        "Rain": 1.1
+      },
+      "festival": 0.9
+    },
+    "restock_rule_payload": {
+      "cadence": "weekly",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00011",
+    "name": "General Store 11",
+    "slug": "general-store-11",
+    "shop_type": "general_store",
+    "npc_id": "NPC000011",
+    "location_id": "WLOC000011",
+    "faction_id": "NPCF0011",
+    "description": "Economy shop for General Store goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0005",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "daily",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00012",
+    "name": "Blacksmith 12",
+    "slug": "blacksmith-12",
+    "shop_type": "blacksmith",
+    "npc_id": "NPC000012",
+    "location_id": "WLOC000012",
+    "faction_id": null,
+    "description": "Economy shop for Blacksmith goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0006",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "weekly",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00013",
+    "name": "Herbalist 13",
+    "slug": "herbalist-13",
+    "shop_type": "herbalist",
+    "npc_id": "NPC000013",
+    "location_id": "WLOC000013",
+    "faction_id": null,
+    "description": "Economy shop for Herbalist goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "22:00",
+      "closed_days": []
+    },
+    "reputation_requirement": 10,
+    "relationship_requirement": null,
+    "currency_id": "CUR0001",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {
+        "Rain": 1.1
+      },
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "daily",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00014",
+    "name": "Food Stall 14",
+    "slug": "food-stall-14",
+    "shop_type": "food_stall",
+    "npc_id": "NPC000014",
+    "location_id": "WLOC000014",
+    "faction_id": null,
+    "description": "Economy shop for Food Stall goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0002",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "weekly",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00015",
+    "name": "Ritual Vendor 15",
+    "slug": "ritual-vendor-15",
+    "shop_type": "ritual_vendor",
+    "npc_id": "NPC000015",
+    "location_id": "WLOC000015",
+    "faction_id": null,
+    "description": "Economy shop for Ritual Vendor goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": "Acquaintance",
+    "currency_id": "CUR0003",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "daily",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00016",
+    "name": "Monster Care 16",
+    "slug": "monster-care-16",
+    "shop_type": "monster_care",
+    "npc_id": "NPC000016",
+    "location_id": "WLOC000016",
+    "faction_id": "NPCF0001",
+    "description": "Economy shop for Monster Care goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0004",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {
+        "Rain": 1.1
+      },
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "weekly",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00017",
+    "name": "Fisher Market 17",
+    "slug": "fisher-market-17",
+    "shop_type": "fisher_market",
+    "npc_id": "NPC000017",
+    "location_id": "WLOC000017",
+    "faction_id": null,
+    "description": "Economy shop for Fisher Market goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "22:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0005",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "daily",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00018",
+    "name": "Weaver 18",
+    "slug": "weaver-18",
+    "shop_type": "weaver",
+    "npc_id": "NPC000018",
+    "location_id": "WLOC000018",
+    "faction_id": null,
+    "description": "Economy shop for Weaver goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0006",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "weekly",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00019",
+    "name": "Festival Booth 19",
+    "slug": "festival-booth-19",
+    "shop_type": "festival_booth",
+    "npc_id": "NPC000019",
+    "location_id": "WLOC000019",
+    "faction_id": null,
+    "description": "Economy shop for Festival Booth goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": 10,
+    "relationship_requirement": null,
+    "currency_id": "CUR0001",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {
+        "Rain": 1.1
+      },
+      "festival": 0.9
+    },
+    "restock_rule_payload": {
+      "cadence": "daily",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00020",
+    "name": "Appraiser 20",
+    "slug": "appraiser-20",
+    "shop_type": "appraiser",
+    "npc_id": "NPC000020",
+    "location_id": "WLOC000020",
+    "faction_id": null,
+    "description": "Economy shop for Appraiser goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0002",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "weekly",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00021",
+    "name": "General Store 21",
+    "slug": "general-store-21",
+    "shop_type": "general_store",
+    "npc_id": "NPC000021",
+    "location_id": "WLOC000021",
+    "faction_id": "NPCF0006",
+    "description": "Economy shop for General Store goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "22:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0003",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "daily",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00022",
+    "name": "Blacksmith 22",
+    "slug": "blacksmith-22",
+    "shop_type": "blacksmith",
+    "npc_id": "NPC000022",
+    "location_id": "WLOC000022",
+    "faction_id": null,
+    "description": "Economy shop for Blacksmith goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": "Acquaintance",
+    "currency_id": "CUR0004",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {
+        "Rain": 1.1
+      },
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "weekly",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00023",
+    "name": "Herbalist 23",
+    "slug": "herbalist-23",
+    "shop_type": "herbalist",
+    "npc_id": "NPC000023",
+    "location_id": "WLOC000023",
+    "faction_id": null,
+    "description": "Economy shop for Herbalist goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0005",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "daily",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00024",
+    "name": "Food Stall 24",
+    "slug": "food-stall-24",
+    "shop_type": "food_stall",
+    "npc_id": "NPC000024",
+    "location_id": "WLOC000024",
+    "faction_id": null,
+    "description": "Economy shop for Food Stall goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0006",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "weekly",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00025",
+    "name": "Ritual Vendor 25",
+    "slug": "ritual-vendor-25",
+    "shop_type": "ritual_vendor",
+    "npc_id": "NPC000025",
+    "location_id": "WLOC000025",
+    "faction_id": null,
+    "description": "Economy shop for Ritual Vendor goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "22:00",
+      "closed_days": []
+    },
+    "reputation_requirement": 10,
+    "relationship_requirement": null,
+    "currency_id": "CUR0001",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {
+        "Rain": 1.1
+      },
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "daily",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00026",
+    "name": "Monster Care 26",
+    "slug": "monster-care-26",
+    "shop_type": "monster_care",
+    "npc_id": "NPC000026",
+    "location_id": "WLOC000026",
+    "faction_id": "NPCF0011",
+    "description": "Economy shop for Monster Care goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0002",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "weekly",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00027",
+    "name": "Fisher Market 27",
+    "slug": "fisher-market-27",
+    "shop_type": "fisher_market",
+    "npc_id": "NPC000027",
+    "location_id": "WLOC000027",
+    "faction_id": null,
+    "description": "Economy shop for Fisher Market goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0003",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "daily",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00028",
+    "name": "Weaver 28",
+    "slug": "weaver-28",
+    "shop_type": "weaver",
+    "npc_id": "NPC000028",
+    "location_id": "WLOC000028",
+    "faction_id": null,
+    "description": "Economy shop for Weaver goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0004",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {
+        "Rain": 1.1
+      },
+      "festival": 0.9
+    },
+    "restock_rule_payload": {
+      "cadence": "weekly",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00029",
+    "name": "Festival Booth 29",
+    "slug": "festival-booth-29",
+    "shop_type": "festival_booth",
+    "npc_id": "NPC000029",
+    "location_id": "WLOC000029",
+    "faction_id": null,
+    "description": "Economy shop for Festival Booth goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "22:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": "Acquaintance",
+    "currency_id": "CUR0005",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "daily",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00030",
+    "name": "Appraiser 30",
+    "slug": "appraiser-30",
+    "shop_type": "appraiser",
+    "npc_id": "NPC000030",
+    "location_id": "WLOC000030",
+    "faction_id": null,
+    "description": "Economy shop for Appraiser goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0006",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "weekly",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00031",
+    "name": "General Store 31",
+    "slug": "general-store-31",
+    "shop_type": "general_store",
+    "npc_id": "NPC000031",
+    "location_id": "WLOC000031",
+    "faction_id": "NPCF0001",
+    "description": "Economy shop for General Store goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": 10,
+    "relationship_requirement": null,
+    "currency_id": "CUR0001",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {
+        "Rain": 1.1
+      },
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "daily",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00032",
+    "name": "Blacksmith 32",
+    "slug": "blacksmith-32",
+    "shop_type": "blacksmith",
+    "npc_id": "NPC000032",
+    "location_id": "WLOC000032",
+    "faction_id": null,
+    "description": "Economy shop for Blacksmith goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0002",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "weekly",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00033",
+    "name": "Herbalist 33",
+    "slug": "herbalist-33",
+    "shop_type": "herbalist",
+    "npc_id": "NPC000033",
+    "location_id": "WLOC000033",
+    "faction_id": null,
+    "description": "Economy shop for Herbalist goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "22:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0003",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "daily",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00034",
+    "name": "Food Stall 34",
+    "slug": "food-stall-34",
+    "shop_type": "food_stall",
+    "npc_id": "NPC000034",
+    "location_id": "WLOC000034",
+    "faction_id": null,
+    "description": "Economy shop for Food Stall goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0004",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {
+        "Rain": 1.1
+      },
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "weekly",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00035",
+    "name": "Ritual Vendor 35",
+    "slug": "ritual-vendor-35",
+    "shop_type": "ritual_vendor",
+    "npc_id": "NPC000035",
+    "location_id": "WLOC000035",
+    "faction_id": null,
+    "description": "Economy shop for Ritual Vendor goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0005",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "daily",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00036",
+    "name": "Monster Care 36",
+    "slug": "monster-care-36",
+    "shop_type": "monster_care",
+    "npc_id": "NPC000036",
+    "location_id": "WLOC000036",
+    "faction_id": "NPCF0006",
+    "description": "Economy shop for Monster Care goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": "Acquaintance",
+    "currency_id": "CUR0006",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "weekly",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00037",
+    "name": "Fisher Market 37",
+    "slug": "fisher-market-37",
+    "shop_type": "fisher_market",
+    "npc_id": "NPC000037",
+    "location_id": "WLOC000037",
+    "faction_id": null,
+    "description": "Economy shop for Fisher Market goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "22:00",
+      "closed_days": []
+    },
+    "reputation_requirement": 10,
+    "relationship_requirement": null,
+    "currency_id": "CUR0001",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {
+        "Rain": 1.1
+      },
+      "festival": 0.9
+    },
+    "restock_rule_payload": {
+      "cadence": "daily",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00038",
+    "name": "Weaver 38",
+    "slug": "weaver-38",
+    "shop_type": "weaver",
+    "npc_id": "NPC000038",
+    "location_id": "WLOC000038",
+    "faction_id": null,
+    "description": "Economy shop for Weaver goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0002",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "weekly",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00039",
+    "name": "Festival Booth 39",
+    "slug": "festival-booth-39",
+    "shop_type": "festival_booth",
+    "npc_id": "NPC000039",
+    "location_id": "WLOC000039",
+    "faction_id": null,
+    "description": "Economy shop for Festival Booth goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0003",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "daily",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00040",
+    "name": "Appraiser 40",
+    "slug": "appraiser-40",
+    "shop_type": "appraiser",
+    "npc_id": "NPC000040",
+    "location_id": "WLOC000040",
+    "faction_id": null,
+    "description": "Economy shop for Appraiser goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0004",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {
+        "Rain": 1.1
+      },
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "weekly",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00041",
+    "name": "General Store 41",
+    "slug": "general-store-41",
+    "shop_type": "general_store",
+    "npc_id": "NPC000041",
+    "location_id": "WLOC000041",
+    "faction_id": "NPCF0011",
+    "description": "Economy shop for General Store goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "22:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0005",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "daily",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00042",
+    "name": "Blacksmith 42",
+    "slug": "blacksmith-42",
+    "shop_type": "blacksmith",
+    "npc_id": "NPC000042",
+    "location_id": "WLOC000042",
+    "faction_id": null,
+    "description": "Economy shop for Blacksmith goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0006",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "weekly",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00043",
+    "name": "Herbalist 43",
+    "slug": "herbalist-43",
+    "shop_type": "herbalist",
+    "npc_id": "NPC000043",
+    "location_id": "WLOC000043",
+    "faction_id": null,
+    "description": "Economy shop for Herbalist goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": 10,
+    "relationship_requirement": "Acquaintance",
+    "currency_id": "CUR0001",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {
+        "Rain": 1.1
+      },
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "daily",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00044",
+    "name": "Food Stall 44",
+    "slug": "food-stall-44",
+    "shop_type": "food_stall",
+    "npc_id": "NPC000044",
+    "location_id": "WLOC000044",
+    "faction_id": null,
+    "description": "Economy shop for Food Stall goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0002",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "weekly",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00045",
+    "name": "Ritual Vendor 45",
+    "slug": "ritual-vendor-45",
+    "shop_type": "ritual_vendor",
+    "npc_id": "NPC000045",
+    "location_id": "WLOC000045",
+    "faction_id": null,
+    "description": "Economy shop for Ritual Vendor goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "22:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0003",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "daily",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00046",
+    "name": "Monster Care 46",
+    "slug": "monster-care-46",
+    "shop_type": "monster_care",
+    "npc_id": "NPC000046",
+    "location_id": "WLOC000046",
+    "faction_id": "NPCF0001",
+    "description": "Economy shop for Monster Care goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0004",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {
+        "Rain": 1.1
+      },
+      "festival": 0.9
+    },
+    "restock_rule_payload": {
+      "cadence": "weekly",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00047",
+    "name": "Fisher Market 47",
+    "slug": "fisher-market-47",
+    "shop_type": "fisher_market",
+    "npc_id": "NPC000047",
+    "location_id": "WLOC000047",
+    "faction_id": null,
+    "description": "Economy shop for Fisher Market goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0005",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "daily",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00048",
+    "name": "Weaver 48",
+    "slug": "weaver-48",
+    "shop_type": "weaver",
+    "npc_id": "NPC000048",
+    "location_id": "WLOC000048",
+    "faction_id": null,
+    "description": "Economy shop for Weaver goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0006",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "weekly",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00049",
+    "name": "Festival Booth 49",
+    "slug": "festival-booth-49",
+    "shop_type": "festival_booth",
+    "npc_id": "NPC000049",
+    "location_id": "WLOC000049",
+    "faction_id": null,
+    "description": "Economy shop for Festival Booth goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "22:00",
+      "closed_days": []
+    },
+    "reputation_requirement": 10,
+    "relationship_requirement": null,
+    "currency_id": "CUR0001",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {
+        "Rain": 1.1
+      },
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "daily",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00050",
+    "name": "Appraiser 50",
+    "slug": "appraiser-50",
+    "shop_type": "appraiser",
+    "npc_id": "NPC000050",
+    "location_id": "WLOC000050",
+    "faction_id": null,
+    "description": "Economy shop for Appraiser goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": "Acquaintance",
+    "currency_id": "CUR0002",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "weekly",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00051",
+    "name": "General Store 51",
+    "slug": "general-store-51",
+    "shop_type": "general_store",
+    "npc_id": "NPC000051",
+    "location_id": "WLOC000051",
+    "faction_id": "NPCF0006",
+    "description": "Economy shop for General Store goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0003",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "daily",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00052",
+    "name": "Blacksmith 52",
+    "slug": "blacksmith-52",
+    "shop_type": "blacksmith",
+    "npc_id": "NPC000052",
+    "location_id": "WLOC000052",
+    "faction_id": null,
+    "description": "Economy shop for Blacksmith goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0004",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {
+        "Rain": 1.1
+      },
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "weekly",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00053",
+    "name": "Herbalist 53",
+    "slug": "herbalist-53",
+    "shop_type": "herbalist",
+    "npc_id": "NPC000053",
+    "location_id": "WLOC000053",
+    "faction_id": null,
+    "description": "Economy shop for Herbalist goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "22:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0005",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "daily",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00054",
+    "name": "Food Stall 54",
+    "slug": "food-stall-54",
+    "shop_type": "food_stall",
+    "npc_id": "NPC000054",
+    "location_id": "WLOC000054",
+    "faction_id": null,
+    "description": "Economy shop for Food Stall goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0006",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "weekly",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00055",
+    "name": "Ritual Vendor 55",
+    "slug": "ritual-vendor-55",
+    "shop_type": "ritual_vendor",
+    "npc_id": "NPC000055",
+    "location_id": "WLOC000055",
+    "faction_id": null,
+    "description": "Economy shop for Ritual Vendor goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": 10,
+    "relationship_requirement": null,
+    "currency_id": "CUR0001",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {
+        "Rain": 1.1
+      },
+      "festival": 0.9
+    },
+    "restock_rule_payload": {
+      "cadence": "daily",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00056",
+    "name": "Monster Care 56",
+    "slug": "monster-care-56",
+    "shop_type": "monster_care",
+    "npc_id": "NPC000056",
+    "location_id": "WLOC000056",
+    "faction_id": "NPCF0011",
+    "description": "Economy shop for Monster Care goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0002",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "weekly",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00057",
+    "name": "Fisher Market 57",
+    "slug": "fisher-market-57",
+    "shop_type": "fisher_market",
+    "npc_id": "NPC000057",
+    "location_id": "WLOC000057",
+    "faction_id": null,
+    "description": "Economy shop for Fisher Market goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "22:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": "Acquaintance",
+    "currency_id": "CUR0003",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "daily",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00058",
+    "name": "Weaver 58",
+    "slug": "weaver-58",
+    "shop_type": "weaver",
+    "npc_id": "NPC000058",
+    "location_id": "WLOC000058",
+    "faction_id": null,
+    "description": "Economy shop for Weaver goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0004",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {
+        "Rain": 1.1
+      },
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "weekly",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00059",
+    "name": "Festival Booth 59",
+    "slug": "festival-booth-59",
+    "shop_type": "festival_booth",
+    "npc_id": "NPC000059",
+    "location_id": "WLOC000059",
+    "faction_id": null,
+    "description": "Economy shop for Festival Booth goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0005",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "daily",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00060",
+    "name": "Appraiser 60",
+    "slug": "appraiser-60",
+    "shop_type": "appraiser",
+    "npc_id": "NPC000060",
+    "location_id": "WLOC000060",
+    "faction_id": null,
+    "description": "Economy shop for Appraiser goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0006",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "weekly",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00061",
+    "name": "General Store 61",
+    "slug": "general-store-61",
+    "shop_type": "general_store",
+    "npc_id": "NPC000061",
+    "location_id": "WLOC000061",
+    "faction_id": "NPCF0001",
+    "description": "Economy shop for General Store goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "22:00",
+      "closed_days": []
+    },
+    "reputation_requirement": 10,
+    "relationship_requirement": null,
+    "currency_id": "CUR0001",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {
+        "Rain": 1.1
+      },
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "daily",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00062",
+    "name": "Blacksmith 62",
+    "slug": "blacksmith-62",
+    "shop_type": "blacksmith",
+    "npc_id": "NPC000062",
+    "location_id": "WLOC000062",
+    "faction_id": null,
+    "description": "Economy shop for Blacksmith goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0002",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "weekly",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00063",
+    "name": "Herbalist 63",
+    "slug": "herbalist-63",
+    "shop_type": "herbalist",
+    "npc_id": "NPC000063",
+    "location_id": "WLOC000063",
+    "faction_id": null,
+    "description": "Economy shop for Herbalist goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0003",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "daily",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00064",
+    "name": "Food Stall 64",
+    "slug": "food-stall-64",
+    "shop_type": "food_stall",
+    "npc_id": "NPC000064",
+    "location_id": "WLOC000064",
+    "faction_id": null,
+    "description": "Economy shop for Food Stall goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": "Acquaintance",
+    "currency_id": "CUR0004",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {
+        "Rain": 1.1
+      },
+      "festival": 0.9
+    },
+    "restock_rule_payload": {
+      "cadence": "weekly",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00065",
+    "name": "Ritual Vendor 65",
+    "slug": "ritual-vendor-65",
+    "shop_type": "ritual_vendor",
+    "npc_id": "NPC000065",
+    "location_id": "WLOC000065",
+    "faction_id": null,
+    "description": "Economy shop for Ritual Vendor goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "22:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0005",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "daily",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00066",
+    "name": "Monster Care 66",
+    "slug": "monster-care-66",
+    "shop_type": "monster_care",
+    "npc_id": "NPC000066",
+    "location_id": "WLOC000066",
+    "faction_id": "NPCF0006",
+    "description": "Economy shop for Monster Care goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0006",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "weekly",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00067",
+    "name": "Fisher Market 67",
+    "slug": "fisher-market-67",
+    "shop_type": "fisher_market",
+    "npc_id": "NPC000067",
+    "location_id": "WLOC000067",
+    "faction_id": null,
+    "description": "Economy shop for Fisher Market goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": 10,
+    "relationship_requirement": null,
+    "currency_id": "CUR0001",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {
+        "Rain": 1.1
+      },
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "daily",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00068",
+    "name": "Weaver 68",
+    "slug": "weaver-68",
+    "shop_type": "weaver",
+    "npc_id": "NPC000068",
+    "location_id": "WLOC000068",
+    "faction_id": null,
+    "description": "Economy shop for Weaver goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0002",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "weekly",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00069",
+    "name": "Festival Booth 69",
+    "slug": "festival-booth-69",
+    "shop_type": "festival_booth",
+    "npc_id": "NPC000069",
+    "location_id": "WLOC000069",
+    "faction_id": null,
+    "description": "Economy shop for Festival Booth goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "22:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0003",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "daily",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00070",
+    "name": "Appraiser 70",
+    "slug": "appraiser-70",
+    "shop_type": "appraiser",
+    "npc_id": "NPC000070",
+    "location_id": "WLOC000070",
+    "faction_id": null,
+    "description": "Economy shop for Appraiser goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0004",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {
+        "Rain": 1.1
+      },
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "weekly",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00071",
+    "name": "General Store 71",
+    "slug": "general-store-71",
+    "shop_type": "general_store",
+    "npc_id": "NPC000071",
+    "location_id": "WLOC000071",
+    "faction_id": "NPCF0011",
+    "description": "Economy shop for General Store goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": "Acquaintance",
+    "currency_id": "CUR0005",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "daily",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00072",
+    "name": "Blacksmith 72",
+    "slug": "blacksmith-72",
+    "shop_type": "blacksmith",
+    "npc_id": "NPC000072",
+    "location_id": "WLOC000072",
+    "faction_id": null,
+    "description": "Economy shop for Blacksmith goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0006",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "weekly",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00073",
+    "name": "Herbalist 73",
+    "slug": "herbalist-73",
+    "shop_type": "herbalist",
+    "npc_id": "NPC000073",
+    "location_id": "WLOC000073",
+    "faction_id": null,
+    "description": "Economy shop for Herbalist goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "22:00",
+      "closed_days": []
+    },
+    "reputation_requirement": 10,
+    "relationship_requirement": null,
+    "currency_id": "CUR0001",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {
+        "Rain": 1.1
+      },
+      "festival": 0.9
+    },
+    "restock_rule_payload": {
+      "cadence": "daily",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00074",
+    "name": "Food Stall 74",
+    "slug": "food-stall-74",
+    "shop_type": "food_stall",
+    "npc_id": "NPC000074",
+    "location_id": "WLOC000074",
+    "faction_id": null,
+    "description": "Economy shop for Food Stall goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0002",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "weekly",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00075",
+    "name": "Ritual Vendor 75",
+    "slug": "ritual-vendor-75",
+    "shop_type": "ritual_vendor",
+    "npc_id": "NPC000075",
+    "location_id": "WLOC000075",
+    "faction_id": null,
+    "description": "Economy shop for Ritual Vendor goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0003",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "daily",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00076",
+    "name": "Monster Care 76",
+    "slug": "monster-care-76",
+    "shop_type": "monster_care",
+    "npc_id": "NPC000076",
+    "location_id": "WLOC000076",
+    "faction_id": "NPCF0001",
+    "description": "Economy shop for Monster Care goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0004",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {
+        "Rain": 1.1
+      },
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "weekly",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00077",
+    "name": "Fisher Market 77",
+    "slug": "fisher-market-77",
+    "shop_type": "fisher_market",
+    "npc_id": "NPC000077",
+    "location_id": "WLOC000077",
+    "faction_id": null,
+    "description": "Economy shop for Fisher Market goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "22:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0005",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "daily",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00078",
+    "name": "Weaver 78",
+    "slug": "weaver-78",
+    "shop_type": "weaver",
+    "npc_id": "NPC000078",
+    "location_id": "WLOC000078",
+    "faction_id": null,
+    "description": "Economy shop for Weaver goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": "Acquaintance",
+    "currency_id": "CUR0006",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "weekly",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00079",
+    "name": "Festival Booth 79",
+    "slug": "festival-booth-79",
+    "shop_type": "festival_booth",
+    "npc_id": "NPC000079",
+    "location_id": "WLOC000079",
+    "faction_id": null,
+    "description": "Economy shop for Festival Booth goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": 10,
+    "relationship_requirement": null,
+    "currency_id": "CUR0001",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {
+        "Rain": 1.1
+      },
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "daily",
+      "hour": "06:00"
+    },
+    "is_active": true
+  },
+  {
+    "shop_id": "SHOPJ00080",
+    "name": "Appraiser 80",
+    "slug": "appraiser-80",
+    "shop_type": "appraiser",
+    "npc_id": "NPC000080",
+    "location_id": "WLOC000080",
+    "faction_id": null,
+    "description": "Economy shop for Appraiser goods.",
+    "opening_hours_payload": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed_days": []
+    },
+    "reputation_requirement": null,
+    "relationship_requirement": null,
+    "currency_id": "CUR0002",
+    "price_modifier_payload": {
+      "base": 1,
+      "weather": {},
+      "festival": 1
+    },
+    "restock_rule_payload": {
+      "cadence": "weekly",
+      "hour": "06:00"
+    },
+    "is_active": true
+  }
+]

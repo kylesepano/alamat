@@ -1,0 +1,201 @@
+[
+  {
+    "ending_id": "END001",
+    "ending_type": "True Ending",
+    "title": "Song Returned",
+    "slug": "song-returned",
+    "summary": "Requires high balance, companion trust, and repaired regional bonds.",
+    "requirement_payload": {
+      "values": [
+        "Balance"
+      ],
+      "flags": [
+        "ending_route_1"
+      ]
+    },
+    "consequence_payload": {
+      "unlocks": [
+        "postgame_scene",
+        "ending_gallery_art"
+      ],
+      "world_state": "ending_song-returned"
+    },
+    "is_canonical_optional": true,
+    "sort_order": 1
+  },
+  {
+    "ending_id": "END002",
+    "ending_type": "Regional Ending",
+    "title": "Islands Remembered",
+    "slug": "islands-remembered",
+    "summary": "Prioritizes one region while leaving others with unresolved work.",
+    "requirement_payload": {
+      "values": [
+        "Balance",
+        "Compassion"
+      ],
+      "flags": [
+        "ending_route_2"
+      ]
+    },
+    "consequence_payload": {
+      "unlocks": [
+        "postgame_scene",
+        "ending_gallery_art"
+      ],
+      "world_state": "ending_islands-remembered"
+    },
+    "is_canonical_optional": false,
+    "sort_order": 2
+  },
+  {
+    "ending_id": "END003",
+    "ending_type": "Faction Ending",
+    "title": "Council Oath",
+    "slug": "council-oath",
+    "summary": "A faction alliance defines the final restoration plan.",
+    "requirement_payload": {
+      "values": [
+        "Balance",
+        "Compassion",
+        "Wisdom"
+      ],
+      "flags": [
+        "ending_route_3"
+      ]
+    },
+    "consequence_payload": {
+      "unlocks": [
+        "postgame_scene",
+        "ending_gallery_art"
+      ],
+      "world_state": "ending_council-oath"
+    },
+    "is_canonical_optional": false,
+    "sort_order": 3
+  },
+  {
+    "ending_id": "END004",
+    "ending_type": "Companion Ending",
+    "title": "Beside the First Friend",
+    "slug": "beside-the-first-friend",
+    "summary": "Companion Nilalang trust reshapes the final scene.",
+    "requirement_payload": {
+      "values": [
+        "Balance"
+      ],
+      "flags": [
+        "ending_route_4"
+      ]
+    },
+    "consequence_payload": {
+      "unlocks": [
+        "postgame_scene",
+        "ending_gallery_art"
+      ],
+      "world_state": "ending_beside-the-first-friend"
+    },
+    "is_canonical_optional": false,
+    "sort_order": 4
+  },
+  {
+    "ending_id": "END005",
+    "ending_type": "Legendary Ending",
+    "title": "Doors of the Great Ones",
+    "slug": "doors-of-the-great-ones",
+    "summary": "Legendary encounters open an older route.",
+    "requirement_payload": {
+      "values": [
+        "Balance",
+        "Compassion"
+      ],
+      "flags": [
+        "ending_route_5"
+      ]
+    },
+    "consequence_payload": {
+      "unlocks": [
+        "postgame_scene",
+        "ending_gallery_art"
+      ],
+      "world_state": "ending_doors-of-the-great-ones"
+    },
+    "is_canonical_optional": false,
+    "sort_order": 5
+  },
+  {
+    "ending_id": "END006",
+    "ending_type": "Hidden Ending",
+    "title": "The Quiet Name",
+    "slug": "the-quiet-name",
+    "summary": "Curiosity and secret flags reveal a hidden memory path.",
+    "requirement_payload": {
+      "values": [
+        "Balance",
+        "Compassion",
+        "Wisdom"
+      ],
+      "flags": [
+        "ending_route_6"
+      ]
+    },
+    "consequence_payload": {
+      "unlocks": [
+        "postgame_scene",
+        "ending_gallery_art"
+      ],
+      "world_state": "ending_the-quiet-name"
+    },
+    "is_canonical_optional": false,
+    "sort_order": 6
+  },
+  {
+    "ending_id": "END007",
+    "ending_type": "Postgame Ending",
+    "title": "New Fires at Dawn",
+    "slug": "new-fires-at-dawn",
+    "summary": "Postgame restoration becomes the main reward.",
+    "requirement_payload": {
+      "values": [
+        "Balance"
+      ],
+      "flags": [
+        "ending_route_7"
+      ]
+    },
+    "consequence_payload": {
+      "unlocks": [
+        "postgame_scene",
+        "ending_gallery_art"
+      ],
+      "world_state": "ending_new-fires-at-dawn"
+    },
+    "is_canonical_optional": false,
+    "sort_order": 7
+  },
+  {
+    "ending_id": "END008",
+    "ending_type": "Expansion Ending",
+    "title": "Sail Beyond the Map",
+    "slug": "sail-beyond-the-map",
+    "summary": "Hooks future regions, seasonal arcs, and transmedia stories.",
+    "requirement_payload": {
+      "values": [
+        "Balance",
+        "Compassion"
+      ],
+      "flags": [
+        "ending_route_8"
+      ]
+    },
+    "consequence_payload": {
+      "unlocks": [
+        "postgame_scene",
+        "ending_gallery_art"
+      ],
+      "world_state": "ending_sail-beyond-the-map"
+    },
+    "is_canonical_optional": false,
+    "sort_order": 8
+  }
+]

@@ -1,0 +1,6 @@
+Milestone 1: Core engine (movement, camera, collision, interactions, save/load).
+Milestone 2: Combat and monster systems.
+Milestone 3: Inventory, equipment, crafting, and economy.
+Milestone 4: World maps, NPCs, and quests.
+Milestone 5: Story integration and polish.
+Milestone 6: Content expansion, balancing, and final asset production.

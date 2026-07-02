@@ -1,0 +1,1842 @@
+[
+  {
+    "asset_prompt_id": "EAP-RCPJ000001",
+    "object_type": "recipe",
+    "object_id": "RCPJ000001",
+    "name": "Suman 1",
+    "icon_filename": "recipe_RCPJ000001_suman-1.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Suman 1\nType: cooking\nCategory: cooking\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000002",
+    "object_type": "recipe",
+    "object_id": "RCPJ000002",
+    "name": "Burn Salve 1",
+    "icon_filename": "recipe_RCPJ000002_burn-salve-1.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Burn Salve 1\nType: herbalism\nCategory: herbalism\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000003",
+    "object_type": "recipe",
+    "object_id": "RCPJ000003",
+    "name": "Kris 1",
+    "icon_filename": "recipe_RCPJ000003_kris-1.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Kris 1\nType: forging\nCategory: forging\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000004",
+    "object_type": "recipe",
+    "object_id": "RCPJ000004",
+    "name": "Weaving Work 2",
+    "icon_filename": "recipe_RCPJ000004_weaving-work-2.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Weaving Work 2\nType: weaving\nCategory: weaving\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000005",
+    "object_type": "recipe",
+    "object_id": "RCPJ000005",
+    "name": "Carving Bundle 2",
+    "icon_filename": "recipe_RCPJ000005_carving-bundle-2.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Carving Bundle 2\nType: carving\nCategory: carving\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000006",
+    "object_type": "recipe",
+    "object_id": "RCPJ000006",
+    "name": "Alchemy Kit 2",
+    "icon_filename": "recipe_RCPJ000006_alchemy-kit-2.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Alchemy Kit 2\nType: alchemy\nCategory: alchemy\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000007",
+    "object_type": "recipe",
+    "object_id": "RCPJ000007",
+    "name": "Anito Memory Charm 2",
+    "icon_filename": "recipe_RCPJ000007_anito-memory-charm-2.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Anito Memory Charm 2\nType: ritual\nCategory: ritual\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000008",
+    "object_type": "recipe",
+    "object_id": "RCPJ000008",
+    "name": "Forest Ward 2",
+    "icon_filename": "recipe_RCPJ000008_forest-ward-2.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Forest Ward 2\nType: enchanting\nCategory: enchanting\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000009",
+    "object_type": "recipe",
+    "object_id": "RCPJ000009",
+    "name": "Equipment Upgrade Kit 3",
+    "icon_filename": "recipe_RCPJ000009_equipment-upgrade-kit-3.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Equipment Upgrade Kit 3\nType: equipment_upgrade\nCategory: equipment-upgrade\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000010",
+    "object_type": "recipe",
+    "object_id": "RCPJ000010",
+    "name": "Talisman Making Work 4",
+    "icon_filename": "recipe_RCPJ000010_talisman-making-work-4.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Talisman Making Work 4\nType: talisman_making\nCategory: talisman-making\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000011",
+    "object_type": "recipe",
+    "object_id": "RCPJ000011",
+    "name": "Habitat Lure 3",
+    "icon_filename": "recipe_RCPJ000011_habitat-lure-3.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Habitat Lure 3\nType: monster_care\nCategory: monster-care\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000012",
+    "object_type": "recipe",
+    "object_id": "RCPJ000012",
+    "name": "Fishing Kit 4",
+    "icon_filename": "recipe_RCPJ000012_fishing-kit-4.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Fishing Kit 4\nType: fishing\nCategory: fishing\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000013",
+    "object_type": "recipe",
+    "object_id": "RCPJ000013",
+    "name": "Farming Work 5",
+    "icon_filename": "recipe_RCPJ000013_farming-work-5.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Farming Work 5\nType: farming\nCategory: farming\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000014",
+    "object_type": "recipe",
+    "object_id": "RCPJ000014",
+    "name": "Festival Crafting Bundle 5",
+    "icon_filename": "recipe_RCPJ000014_festival-crafting-bundle-5.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Festival Crafting Bundle 5\nType: festival_crafting\nCategory: festival-crafting\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000015",
+    "object_type": "recipe",
+    "object_id": "RCPJ000015",
+    "name": "Healing Soup 3",
+    "icon_filename": "recipe_RCPJ000015_healing-soup-3.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Healing Soup 3\nType: cooking\nCategory: cooking\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000016",
+    "object_type": "recipe",
+    "object_id": "RCPJ000016",
+    "name": "Sleep Remedy 4",
+    "icon_filename": "recipe_RCPJ000016_sleep-remedy-4.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Sleep Remedy 4\nType: herbalism\nCategory: herbalism\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000017",
+    "object_type": "recipe",
+    "object_id": "RCPJ000017",
+    "name": "Kampilan 4",
+    "icon_filename": "recipe_RCPJ000017_kampilan-4.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Kampilan 4\nType: forging\nCategory: forging\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000018",
+    "object_type": "recipe",
+    "object_id": "RCPJ000018",
+    "name": "Weaving Kit 6",
+    "icon_filename": "recipe_RCPJ000018_weaving-kit-6.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Weaving Kit 6\nType: weaving\nCategory: weaving\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000019",
+    "object_type": "recipe",
+    "object_id": "RCPJ000019",
+    "name": "Carving Work 7",
+    "icon_filename": "recipe_RCPJ000019_carving-work-7.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Carving Work 7\nType: carving\nCategory: carving\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000020",
+    "object_type": "recipe",
+    "object_id": "RCPJ000020",
+    "name": "Alchemy Bundle 7",
+    "icon_filename": "recipe_RCPJ000020_alchemy-bundle-7.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Alchemy Bundle 7\nType: alchemy\nCategory: alchemy\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000021",
+    "object_type": "recipe",
+    "object_id": "RCPJ000021",
+    "name": "Cleansing Candle 6",
+    "icon_filename": "recipe_RCPJ000021_cleansing-candle-6.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Cleansing Candle 6\nType: ritual\nCategory: ritual\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000022",
+    "object_type": "recipe",
+    "object_id": "RCPJ000022",
+    "name": "Moon Charm 6",
+    "icon_filename": "recipe_RCPJ000022_moon-charm-6.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Moon Charm 6\nType: enchanting\nCategory: enchanting\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000023",
+    "object_type": "recipe",
+    "object_id": "RCPJ000023",
+    "name": "Equipment Upgrade Bundle 8",
+    "icon_filename": "recipe_RCPJ000023_equipment-upgrade-bundle-8.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Equipment Upgrade Bundle 8\nType: equipment_upgrade\nCategory: equipment-upgrade\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000024",
+    "object_type": "recipe",
+    "object_id": "RCPJ000024",
+    "name": "Talisman Making Kit 8",
+    "icon_filename": "recipe_RCPJ000024_talisman-making-kit-8.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Talisman Making Kit 8\nType: talisman_making\nCategory: talisman-making\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000025",
+    "object_type": "recipe",
+    "object_id": "RCPJ000025",
+    "name": "Trust Food 7",
+    "icon_filename": "recipe_RCPJ000025_trust-food-7.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Trust Food 7\nType: monster_care\nCategory: monster-care\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000026",
+    "object_type": "recipe",
+    "object_id": "RCPJ000026",
+    "name": "Fishing Bundle 9",
+    "icon_filename": "recipe_RCPJ000026_fishing-bundle-9.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Fishing Bundle 9\nType: fishing\nCategory: fishing\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000027",
+    "object_type": "recipe",
+    "object_id": "RCPJ000027",
+    "name": "Farming Kit 9",
+    "icon_filename": "recipe_RCPJ000027_farming-kit-9.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Farming Kit 9\nType: farming\nCategory: farming\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000028",
+    "object_type": "recipe",
+    "object_id": "RCPJ000028",
+    "name": "Festival Crafting Work 10",
+    "icon_filename": "recipe_RCPJ000028_festival-crafting-work-10.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Festival Crafting Work 10\nType: festival_crafting\nCategory: festival-crafting\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000029",
+    "object_type": "recipe",
+    "object_id": "RCPJ000029",
+    "name": "Coconut Rice 6",
+    "icon_filename": "recipe_RCPJ000029_coconut-rice-6.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Coconut Rice 6\nType: cooking\nCategory: cooking\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000030",
+    "object_type": "recipe",
+    "object_id": "RCPJ000030",
+    "name": "Burn Salve 8",
+    "icon_filename": "recipe_RCPJ000030_burn-salve-8.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Burn Salve 8\nType: herbalism\nCategory: herbalism\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000031",
+    "object_type": "recipe",
+    "object_id": "RCPJ000031",
+    "name": "Bolo 7",
+    "icon_filename": "recipe_RCPJ000031_bolo-7.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Bolo 7\nType: forging\nCategory: forging\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000032",
+    "object_type": "recipe",
+    "object_id": "RCPJ000032",
+    "name": "Weaving Bundle 11",
+    "icon_filename": "recipe_RCPJ000032_weaving-bundle-11.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Weaving Bundle 11\nType: weaving\nCategory: weaving\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000033",
+    "object_type": "recipe",
+    "object_id": "RCPJ000033",
+    "name": "Carving Kit 11",
+    "icon_filename": "recipe_RCPJ000033_carving-kit-11.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Carving Kit 11\nType: carving\nCategory: carving\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000034",
+    "object_type": "recipe",
+    "object_id": "RCPJ000034",
+    "name": "Alchemy Work 12",
+    "icon_filename": "recipe_RCPJ000034_alchemy-work-12.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Alchemy Work 12\nType: alchemy\nCategory: alchemy\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000035",
+    "object_type": "recipe",
+    "object_id": "RCPJ000035",
+    "name": "Anito Memory Charm 9",
+    "icon_filename": "recipe_RCPJ000035_anito-memory-charm-9.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Anito Memory Charm 9\nType: ritual\nCategory: ritual\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000036",
+    "object_type": "recipe",
+    "object_id": "RCPJ000036",
+    "name": "Forest Ward 9",
+    "icon_filename": "recipe_RCPJ000036_forest-ward-9.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Forest Ward 9\nType: enchanting\nCategory: enchanting\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000037",
+    "object_type": "recipe",
+    "object_id": "RCPJ000037",
+    "name": "Equipment Upgrade Work 13",
+    "icon_filename": "recipe_RCPJ000037_equipment-upgrade-work-13.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Equipment Upgrade Work 13\nType: equipment_upgrade\nCategory: equipment-upgrade\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000038",
+    "object_type": "recipe",
+    "object_id": "RCPJ000038",
+    "name": "Talisman Making Bundle 13",
+    "icon_filename": "recipe_RCPJ000038_talisman-making-bundle-13.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Talisman Making Bundle 13\nType: talisman_making\nCategory: talisman-making\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000039",
+    "object_type": "recipe",
+    "object_id": "RCPJ000039",
+    "name": "Habitat Lure 10",
+    "icon_filename": "recipe_RCPJ000039_habitat-lure-10.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Habitat Lure 10\nType: monster_care\nCategory: monster-care\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000040",
+    "object_type": "recipe",
+    "object_id": "RCPJ000040",
+    "name": "Fishing Work 14",
+    "icon_filename": "recipe_RCPJ000040_fishing-work-14.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Fishing Work 14\nType: fishing\nCategory: fishing\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000041",
+    "object_type": "recipe",
+    "object_id": "RCPJ000041",
+    "name": "Farming Bundle 14",
+    "icon_filename": "recipe_RCPJ000041_farming-bundle-14.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Farming Bundle 14\nType: farming\nCategory: farming\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000042",
+    "object_type": "recipe",
+    "object_id": "RCPJ000042",
+    "name": "Festival Crafting Kit 14",
+    "icon_filename": "recipe_RCPJ000042_festival-crafting-kit-14.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Festival Crafting Kit 14\nType: festival_crafting\nCategory: festival-crafting\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000043",
+    "object_type": "recipe",
+    "object_id": "RCPJ000043",
+    "name": "Grilled Fish 9",
+    "icon_filename": "recipe_RCPJ000043_grilled-fish-9.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Grilled Fish 9\nType: cooking\nCategory: cooking\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000044",
+    "object_type": "recipe",
+    "object_id": "RCPJ000044",
+    "name": "Sleep Remedy 11",
+    "icon_filename": "recipe_RCPJ000044_sleep-remedy-11.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Sleep Remedy 11\nType: herbalism\nCategory: herbalism\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000045",
+    "object_type": "recipe",
+    "object_id": "RCPJ000045",
+    "name": "Spear Tip 9",
+    "icon_filename": "recipe_RCPJ000045_spear-tip-9.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Spear Tip 9\nType: forging\nCategory: forging\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000046",
+    "object_type": "recipe",
+    "object_id": "RCPJ000046",
+    "name": "Weaving Work 16",
+    "icon_filename": "recipe_RCPJ000046_weaving-work-16.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Weaving Work 16\nType: weaving\nCategory: weaving\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000047",
+    "object_type": "recipe",
+    "object_id": "RCPJ000047",
+    "name": "Carving Bundle 16",
+    "icon_filename": "recipe_RCPJ000047_carving-bundle-16.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Carving Bundle 16\nType: carving\nCategory: carving\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000048",
+    "object_type": "recipe",
+    "object_id": "RCPJ000048",
+    "name": "Alchemy Kit 16",
+    "icon_filename": "recipe_RCPJ000048_alchemy-kit-16.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Alchemy Kit 16\nType: alchemy\nCategory: alchemy\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000049",
+    "object_type": "recipe",
+    "object_id": "RCPJ000049",
+    "name": "Cleansing Candle 13",
+    "icon_filename": "recipe_RCPJ000049_cleansing-candle-13.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Cleansing Candle 13\nType: ritual\nCategory: ritual\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000050",
+    "object_type": "recipe",
+    "object_id": "RCPJ000050",
+    "name": "Moon Charm 13",
+    "icon_filename": "recipe_RCPJ000050_moon-charm-13.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Moon Charm 13\nType: enchanting\nCategory: enchanting\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000051",
+    "object_type": "recipe",
+    "object_id": "RCPJ000051",
+    "name": "Equipment Upgrade Kit 17",
+    "icon_filename": "recipe_RCPJ000051_equipment-upgrade-kit-17.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Equipment Upgrade Kit 17\nType: equipment_upgrade\nCategory: equipment-upgrade\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000052",
+    "object_type": "recipe",
+    "object_id": "RCPJ000052",
+    "name": "Talisman Making Work 18",
+    "icon_filename": "recipe_RCPJ000052_talisman-making-work-18.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Talisman Making Work 18\nType: talisman_making\nCategory: talisman-making\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000053",
+    "object_type": "recipe",
+    "object_id": "RCPJ000053",
+    "name": "Trust Food 14",
+    "icon_filename": "recipe_RCPJ000053_trust-food-14.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Trust Food 14\nType: monster_care\nCategory: monster-care\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000054",
+    "object_type": "recipe",
+    "object_id": "RCPJ000054",
+    "name": "Fishing Kit 18",
+    "icon_filename": "recipe_RCPJ000054_fishing-kit-18.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Fishing Kit 18\nType: fishing\nCategory: fishing\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000055",
+    "object_type": "recipe",
+    "object_id": "RCPJ000055",
+    "name": "Farming Work 19",
+    "icon_filename": "recipe_RCPJ000055_farming-work-19.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Farming Work 19\nType: farming\nCategory: farming\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000056",
+    "object_type": "recipe",
+    "object_id": "RCPJ000056",
+    "name": "Festival Crafting Bundle 19",
+    "icon_filename": "recipe_RCPJ000056_festival-crafting-bundle-19.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Festival Crafting Bundle 19\nType: festival_crafting\nCategory: festival-crafting\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000057",
+    "object_type": "recipe",
+    "object_id": "RCPJ000057",
+    "name": "Bibingka 12",
+    "icon_filename": "recipe_RCPJ000057_bibingka-12.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Bibingka 12\nType: cooking\nCategory: cooking\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000058",
+    "object_type": "recipe",
+    "object_id": "RCPJ000058",
+    "name": "Burn Salve 15",
+    "icon_filename": "recipe_RCPJ000058_burn-salve-15.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Burn Salve 15\nType: herbalism\nCategory: herbalism\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000059",
+    "object_type": "recipe",
+    "object_id": "RCPJ000059",
+    "name": "Barong 12",
+    "icon_filename": "recipe_RCPJ000059_barong-12.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Barong 12\nType: forging\nCategory: forging\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000060",
+    "object_type": "recipe",
+    "object_id": "RCPJ000060",
+    "name": "Weaving Kit 20",
+    "icon_filename": "recipe_RCPJ000060_weaving-kit-20.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Weaving Kit 20\nType: weaving\nCategory: weaving\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000061",
+    "object_type": "recipe",
+    "object_id": "RCPJ000061",
+    "name": "Carving Work 21",
+    "icon_filename": "recipe_RCPJ000061_carving-work-21.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Carving Work 21\nType: carving\nCategory: carving\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000062",
+    "object_type": "recipe",
+    "object_id": "RCPJ000062",
+    "name": "Alchemy Bundle 21",
+    "icon_filename": "recipe_RCPJ000062_alchemy-bundle-21.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Alchemy Bundle 21\nType: alchemy\nCategory: alchemy\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000063",
+    "object_type": "recipe",
+    "object_id": "RCPJ000063",
+    "name": "Anito Memory Charm 16",
+    "icon_filename": "recipe_RCPJ000063_anito-memory-charm-16.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Anito Memory Charm 16\nType: ritual\nCategory: ritual\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000064",
+    "object_type": "recipe",
+    "object_id": "RCPJ000064",
+    "name": "Forest Ward 16",
+    "icon_filename": "recipe_RCPJ000064_forest-ward-16.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Forest Ward 16\nType: enchanting\nCategory: enchanting\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000065",
+    "object_type": "recipe",
+    "object_id": "RCPJ000065",
+    "name": "Equipment Upgrade Bundle 22",
+    "icon_filename": "recipe_RCPJ000065_equipment-upgrade-bundle-22.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Equipment Upgrade Bundle 22\nType: equipment_upgrade\nCategory: equipment-upgrade\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000066",
+    "object_type": "recipe",
+    "object_id": "RCPJ000066",
+    "name": "Talisman Making Kit 22",
+    "icon_filename": "recipe_RCPJ000066_talisman-making-kit-22.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Talisman Making Kit 22\nType: talisman_making\nCategory: talisman-making\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000067",
+    "object_type": "recipe",
+    "object_id": "RCPJ000067",
+    "name": "Habitat Lure 17",
+    "icon_filename": "recipe_RCPJ000067_habitat-lure-17.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Habitat Lure 17\nType: monster_care\nCategory: monster-care\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000068",
+    "object_type": "recipe",
+    "object_id": "RCPJ000068",
+    "name": "Fishing Bundle 23",
+    "icon_filename": "recipe_RCPJ000068_fishing-bundle-23.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Fishing Bundle 23\nType: fishing\nCategory: fishing\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000069",
+    "object_type": "recipe",
+    "object_id": "RCPJ000069",
+    "name": "Farming Kit 23",
+    "icon_filename": "recipe_RCPJ000069_farming-kit-23.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Farming Kit 23\nType: farming\nCategory: farming\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000070",
+    "object_type": "recipe",
+    "object_id": "RCPJ000070",
+    "name": "Festival Crafting Work 24",
+    "icon_filename": "recipe_RCPJ000070_festival-crafting-work-24.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Festival Crafting Work 24\nType: festival_crafting\nCategory: festival-crafting\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000071",
+    "object_type": "recipe",
+    "object_id": "RCPJ000071",
+    "name": "Suman 15",
+    "icon_filename": "recipe_RCPJ000071_suman-15.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Suman 15\nType: cooking\nCategory: cooking\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000072",
+    "object_type": "recipe",
+    "object_id": "RCPJ000072",
+    "name": "Sleep Remedy 18",
+    "icon_filename": "recipe_RCPJ000072_sleep-remedy-18.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Sleep Remedy 18\nType: herbalism\nCategory: herbalism\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000073",
+    "object_type": "recipe",
+    "object_id": "RCPJ000073",
+    "name": "Kris 15",
+    "icon_filename": "recipe_RCPJ000073_kris-15.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Kris 15\nType: forging\nCategory: forging\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000074",
+    "object_type": "recipe",
+    "object_id": "RCPJ000074",
+    "name": "Weaving Bundle 25",
+    "icon_filename": "recipe_RCPJ000074_weaving-bundle-25.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Weaving Bundle 25\nType: weaving\nCategory: weaving\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000075",
+    "object_type": "recipe",
+    "object_id": "RCPJ000075",
+    "name": "Carving Kit 25",
+    "icon_filename": "recipe_RCPJ000075_carving-kit-25.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Carving Kit 25\nType: carving\nCategory: carving\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000076",
+    "object_type": "recipe",
+    "object_id": "RCPJ000076",
+    "name": "Alchemy Work 26",
+    "icon_filename": "recipe_RCPJ000076_alchemy-work-26.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Alchemy Work 26\nType: alchemy\nCategory: alchemy\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000077",
+    "object_type": "recipe",
+    "object_id": "RCPJ000077",
+    "name": "Cleansing Candle 20",
+    "icon_filename": "recipe_RCPJ000077_cleansing-candle-20.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Cleansing Candle 20\nType: ritual\nCategory: ritual\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000078",
+    "object_type": "recipe",
+    "object_id": "RCPJ000078",
+    "name": "Moon Charm 20",
+    "icon_filename": "recipe_RCPJ000078_moon-charm-20.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Moon Charm 20\nType: enchanting\nCategory: enchanting\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000079",
+    "object_type": "recipe",
+    "object_id": "RCPJ000079",
+    "name": "Equipment Upgrade Work 27",
+    "icon_filename": "recipe_RCPJ000079_equipment-upgrade-work-27.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Equipment Upgrade Work 27\nType: equipment_upgrade\nCategory: equipment-upgrade\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000080",
+    "object_type": "recipe",
+    "object_id": "RCPJ000080",
+    "name": "Talisman Making Bundle 27",
+    "icon_filename": "recipe_RCPJ000080_talisman-making-bundle-27.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Talisman Making Bundle 27\nType: talisman_making\nCategory: talisman-making\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000081",
+    "object_type": "recipe",
+    "object_id": "RCPJ000081",
+    "name": "Trust Food 21",
+    "icon_filename": "recipe_RCPJ000081_trust-food-21.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Trust Food 21\nType: monster_care\nCategory: monster-care\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000082",
+    "object_type": "recipe",
+    "object_id": "RCPJ000082",
+    "name": "Fishing Work 28",
+    "icon_filename": "recipe_RCPJ000082_fishing-work-28.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Fishing Work 28\nType: fishing\nCategory: fishing\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000083",
+    "object_type": "recipe",
+    "object_id": "RCPJ000083",
+    "name": "Farming Bundle 28",
+    "icon_filename": "recipe_RCPJ000083_farming-bundle-28.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Farming Bundle 28\nType: farming\nCategory: farming\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000084",
+    "object_type": "recipe",
+    "object_id": "RCPJ000084",
+    "name": "Festival Crafting Kit 28",
+    "icon_filename": "recipe_RCPJ000084_festival-crafting-kit-28.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Festival Crafting Kit 28\nType: festival_crafting\nCategory: festival-crafting\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000085",
+    "object_type": "recipe",
+    "object_id": "RCPJ000085",
+    "name": "Healing Soup 17",
+    "icon_filename": "recipe_RCPJ000085_healing-soup-17.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Healing Soup 17\nType: cooking\nCategory: cooking\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000086",
+    "object_type": "recipe",
+    "object_id": "RCPJ000086",
+    "name": "Burn Salve 22",
+    "icon_filename": "recipe_RCPJ000086_burn-salve-22.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Burn Salve 22\nType: herbalism\nCategory: herbalism\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000087",
+    "object_type": "recipe",
+    "object_id": "RCPJ000087",
+    "name": "Kampilan 18",
+    "icon_filename": "recipe_RCPJ000087_kampilan-18.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Kampilan 18\nType: forging\nCategory: forging\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000088",
+    "object_type": "recipe",
+    "object_id": "RCPJ000088",
+    "name": "Weaving Work 30",
+    "icon_filename": "recipe_RCPJ000088_weaving-work-30.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Weaving Work 30\nType: weaving\nCategory: weaving\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000089",
+    "object_type": "recipe",
+    "object_id": "RCPJ000089",
+    "name": "Carving Bundle 30",
+    "icon_filename": "recipe_RCPJ000089_carving-bundle-30.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Carving Bundle 30\nType: carving\nCategory: carving\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000090",
+    "object_type": "recipe",
+    "object_id": "RCPJ000090",
+    "name": "Alchemy Kit 30",
+    "icon_filename": "recipe_RCPJ000090_alchemy-kit-30.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Alchemy Kit 30\nType: alchemy\nCategory: alchemy\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000091",
+    "object_type": "recipe",
+    "object_id": "RCPJ000091",
+    "name": "Anito Memory Charm 23",
+    "icon_filename": "recipe_RCPJ000091_anito-memory-charm-23.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Anito Memory Charm 23\nType: ritual\nCategory: ritual\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000092",
+    "object_type": "recipe",
+    "object_id": "RCPJ000092",
+    "name": "Forest Ward 23",
+    "icon_filename": "recipe_RCPJ000092_forest-ward-23.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Forest Ward 23\nType: enchanting\nCategory: enchanting\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000093",
+    "object_type": "recipe",
+    "object_id": "RCPJ000093",
+    "name": "Equipment Upgrade Kit 31",
+    "icon_filename": "recipe_RCPJ000093_equipment-upgrade-kit-31.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Equipment Upgrade Kit 31\nType: equipment_upgrade\nCategory: equipment-upgrade\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000094",
+    "object_type": "recipe",
+    "object_id": "RCPJ000094",
+    "name": "Talisman Making Work 32",
+    "icon_filename": "recipe_RCPJ000094_talisman-making-work-32.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Talisman Making Work 32\nType: talisman_making\nCategory: talisman-making\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000095",
+    "object_type": "recipe",
+    "object_id": "RCPJ000095",
+    "name": "Habitat Lure 24",
+    "icon_filename": "recipe_RCPJ000095_habitat-lure-24.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Habitat Lure 24\nType: monster_care\nCategory: monster-care\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000096",
+    "object_type": "recipe",
+    "object_id": "RCPJ000096",
+    "name": "Fishing Kit 32",
+    "icon_filename": "recipe_RCPJ000096_fishing-kit-32.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Fishing Kit 32\nType: fishing\nCategory: fishing\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000097",
+    "object_type": "recipe",
+    "object_id": "RCPJ000097",
+    "name": "Farming Work 33",
+    "icon_filename": "recipe_RCPJ000097_farming-work-33.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Farming Work 33\nType: farming\nCategory: farming\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000098",
+    "object_type": "recipe",
+    "object_id": "RCPJ000098",
+    "name": "Festival Crafting Bundle 33",
+    "icon_filename": "recipe_RCPJ000098_festival-crafting-bundle-33.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Festival Crafting Bundle 33\nType: festival_crafting\nCategory: festival-crafting\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000099",
+    "object_type": "recipe",
+    "object_id": "RCPJ000099",
+    "name": "Coconut Rice 20",
+    "icon_filename": "recipe_RCPJ000099_coconut-rice-20.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Coconut Rice 20\nType: cooking\nCategory: cooking\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000100",
+    "object_type": "recipe",
+    "object_id": "RCPJ000100",
+    "name": "Sleep Remedy 25",
+    "icon_filename": "recipe_RCPJ000100_sleep-remedy-25.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Sleep Remedy 25\nType: herbalism\nCategory: herbalism\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000101",
+    "object_type": "recipe",
+    "object_id": "RCPJ000101",
+    "name": "Bolo 21",
+    "icon_filename": "recipe_RCPJ000101_bolo-21.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Bolo 21\nType: forging\nCategory: forging\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000102",
+    "object_type": "recipe",
+    "object_id": "RCPJ000102",
+    "name": "Weaving Kit 34",
+    "icon_filename": "recipe_RCPJ000102_weaving-kit-34.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Weaving Kit 34\nType: weaving\nCategory: weaving\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000103",
+    "object_type": "recipe",
+    "object_id": "RCPJ000103",
+    "name": "Carving Work 35",
+    "icon_filename": "recipe_RCPJ000103_carving-work-35.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Carving Work 35\nType: carving\nCategory: carving\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000104",
+    "object_type": "recipe",
+    "object_id": "RCPJ000104",
+    "name": "Alchemy Bundle 35",
+    "icon_filename": "recipe_RCPJ000104_alchemy-bundle-35.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Alchemy Bundle 35\nType: alchemy\nCategory: alchemy\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000105",
+    "object_type": "recipe",
+    "object_id": "RCPJ000105",
+    "name": "Cleansing Candle 27",
+    "icon_filename": "recipe_RCPJ000105_cleansing-candle-27.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Cleansing Candle 27\nType: ritual\nCategory: ritual\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000106",
+    "object_type": "recipe",
+    "object_id": "RCPJ000106",
+    "name": "Moon Charm 27",
+    "icon_filename": "recipe_RCPJ000106_moon-charm-27.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Moon Charm 27\nType: enchanting\nCategory: enchanting\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000107",
+    "object_type": "recipe",
+    "object_id": "RCPJ000107",
+    "name": "Equipment Upgrade Bundle 36",
+    "icon_filename": "recipe_RCPJ000107_equipment-upgrade-bundle-36.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Equipment Upgrade Bundle 36\nType: equipment_upgrade\nCategory: equipment-upgrade\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000108",
+    "object_type": "recipe",
+    "object_id": "RCPJ000108",
+    "name": "Talisman Making Kit 36",
+    "icon_filename": "recipe_RCPJ000108_talisman-making-kit-36.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Talisman Making Kit 36\nType: talisman_making\nCategory: talisman-making\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000109",
+    "object_type": "recipe",
+    "object_id": "RCPJ000109",
+    "name": "Trust Food 28",
+    "icon_filename": "recipe_RCPJ000109_trust-food-28.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Trust Food 28\nType: monster_care\nCategory: monster-care\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000110",
+    "object_type": "recipe",
+    "object_id": "RCPJ000110",
+    "name": "Fishing Bundle 37",
+    "icon_filename": "recipe_RCPJ000110_fishing-bundle-37.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Fishing Bundle 37\nType: fishing\nCategory: fishing\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000111",
+    "object_type": "recipe",
+    "object_id": "RCPJ000111",
+    "name": "Farming Kit 37",
+    "icon_filename": "recipe_RCPJ000111_farming-kit-37.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Farming Kit 37\nType: farming\nCategory: farming\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000112",
+    "object_type": "recipe",
+    "object_id": "RCPJ000112",
+    "name": "Festival Crafting Work 38",
+    "icon_filename": "recipe_RCPJ000112_festival-crafting-work-38.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Festival Crafting Work 38\nType: festival_crafting\nCategory: festival-crafting\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000113",
+    "object_type": "recipe",
+    "object_id": "RCPJ000113",
+    "name": "Grilled Fish 23",
+    "icon_filename": "recipe_RCPJ000113_grilled-fish-23.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Grilled Fish 23\nType: cooking\nCategory: cooking\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000114",
+    "object_type": "recipe",
+    "object_id": "RCPJ000114",
+    "name": "Burn Salve 29",
+    "icon_filename": "recipe_RCPJ000114_burn-salve-29.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Burn Salve 29\nType: herbalism\nCategory: herbalism\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000115",
+    "object_type": "recipe",
+    "object_id": "RCPJ000115",
+    "name": "Spear Tip 23",
+    "icon_filename": "recipe_RCPJ000115_spear-tip-23.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Spear Tip 23\nType: forging\nCategory: forging\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000116",
+    "object_type": "recipe",
+    "object_id": "RCPJ000116",
+    "name": "Weaving Bundle 39",
+    "icon_filename": "recipe_RCPJ000116_weaving-bundle-39.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Weaving Bundle 39\nType: weaving\nCategory: weaving\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000117",
+    "object_type": "recipe",
+    "object_id": "RCPJ000117",
+    "name": "Carving Kit 39",
+    "icon_filename": "recipe_RCPJ000117_carving-kit-39.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Carving Kit 39\nType: carving\nCategory: carving\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000118",
+    "object_type": "recipe",
+    "object_id": "RCPJ000118",
+    "name": "Alchemy Work 40",
+    "icon_filename": "recipe_RCPJ000118_alchemy-work-40.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Alchemy Work 40\nType: alchemy\nCategory: alchemy\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000119",
+    "object_type": "recipe",
+    "object_id": "RCPJ000119",
+    "name": "Anito Memory Charm 30",
+    "icon_filename": "recipe_RCPJ000119_anito-memory-charm-30.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Anito Memory Charm 30\nType: ritual\nCategory: ritual\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000120",
+    "object_type": "recipe",
+    "object_id": "RCPJ000120",
+    "name": "Forest Ward 30",
+    "icon_filename": "recipe_RCPJ000120_forest-ward-30.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Forest Ward 30\nType: enchanting\nCategory: enchanting\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000121",
+    "object_type": "recipe",
+    "object_id": "RCPJ000121",
+    "name": "Equipment Upgrade Work 41",
+    "icon_filename": "recipe_RCPJ000121_equipment-upgrade-work-41.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Equipment Upgrade Work 41\nType: equipment_upgrade\nCategory: equipment-upgrade\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000122",
+    "object_type": "recipe",
+    "object_id": "RCPJ000122",
+    "name": "Talisman Making Bundle 41",
+    "icon_filename": "recipe_RCPJ000122_talisman-making-bundle-41.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Talisman Making Bundle 41\nType: talisman_making\nCategory: talisman-making\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000123",
+    "object_type": "recipe",
+    "object_id": "RCPJ000123",
+    "name": "Habitat Lure 31",
+    "icon_filename": "recipe_RCPJ000123_habitat-lure-31.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Habitat Lure 31\nType: monster_care\nCategory: monster-care\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000124",
+    "object_type": "recipe",
+    "object_id": "RCPJ000124",
+    "name": "Fishing Work 42",
+    "icon_filename": "recipe_RCPJ000124_fishing-work-42.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Fishing Work 42\nType: fishing\nCategory: fishing\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000125",
+    "object_type": "recipe",
+    "object_id": "RCPJ000125",
+    "name": "Farming Bundle 42",
+    "icon_filename": "recipe_RCPJ000125_farming-bundle-42.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Farming Bundle 42\nType: farming\nCategory: farming\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000126",
+    "object_type": "recipe",
+    "object_id": "RCPJ000126",
+    "name": "Festival Crafting Kit 42",
+    "icon_filename": "recipe_RCPJ000126_festival-crafting-kit-42.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Festival Crafting Kit 42\nType: festival_crafting\nCategory: festival-crafting\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000127",
+    "object_type": "recipe",
+    "object_id": "RCPJ000127",
+    "name": "Bibingka 26",
+    "icon_filename": "recipe_RCPJ000127_bibingka-26.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Bibingka 26\nType: cooking\nCategory: cooking\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000128",
+    "object_type": "recipe",
+    "object_id": "RCPJ000128",
+    "name": "Sleep Remedy 32",
+    "icon_filename": "recipe_RCPJ000128_sleep-remedy-32.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Sleep Remedy 32\nType: herbalism\nCategory: herbalism\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000129",
+    "object_type": "recipe",
+    "object_id": "RCPJ000129",
+    "name": "Barong 26",
+    "icon_filename": "recipe_RCPJ000129_barong-26.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Barong 26\nType: forging\nCategory: forging\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000130",
+    "object_type": "recipe",
+    "object_id": "RCPJ000130",
+    "name": "Weaving Work 44",
+    "icon_filename": "recipe_RCPJ000130_weaving-work-44.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Weaving Work 44\nType: weaving\nCategory: weaving\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000131",
+    "object_type": "recipe",
+    "object_id": "RCPJ000131",
+    "name": "Carving Bundle 44",
+    "icon_filename": "recipe_RCPJ000131_carving-bundle-44.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Carving Bundle 44\nType: carving\nCategory: carving\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000132",
+    "object_type": "recipe",
+    "object_id": "RCPJ000132",
+    "name": "Alchemy Kit 44",
+    "icon_filename": "recipe_RCPJ000132_alchemy-kit-44.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Alchemy Kit 44\nType: alchemy\nCategory: alchemy\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000133",
+    "object_type": "recipe",
+    "object_id": "RCPJ000133",
+    "name": "Cleansing Candle 34",
+    "icon_filename": "recipe_RCPJ000133_cleansing-candle-34.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Cleansing Candle 34\nType: ritual\nCategory: ritual\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000134",
+    "object_type": "recipe",
+    "object_id": "RCPJ000134",
+    "name": "Moon Charm 34",
+    "icon_filename": "recipe_RCPJ000134_moon-charm-34.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Moon Charm 34\nType: enchanting\nCategory: enchanting\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000135",
+    "object_type": "recipe",
+    "object_id": "RCPJ000135",
+    "name": "Equipment Upgrade Kit 45",
+    "icon_filename": "recipe_RCPJ000135_equipment-upgrade-kit-45.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Equipment Upgrade Kit 45\nType: equipment_upgrade\nCategory: equipment-upgrade\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000136",
+    "object_type": "recipe",
+    "object_id": "RCPJ000136",
+    "name": "Talisman Making Work 46",
+    "icon_filename": "recipe_RCPJ000136_talisman-making-work-46.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Talisman Making Work 46\nType: talisman_making\nCategory: talisman-making\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000137",
+    "object_type": "recipe",
+    "object_id": "RCPJ000137",
+    "name": "Trust Food 35",
+    "icon_filename": "recipe_RCPJ000137_trust-food-35.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Trust Food 35\nType: monster_care\nCategory: monster-care\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000138",
+    "object_type": "recipe",
+    "object_id": "RCPJ000138",
+    "name": "Fishing Kit 46",
+    "icon_filename": "recipe_RCPJ000138_fishing-kit-46.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Fishing Kit 46\nType: fishing\nCategory: fishing\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000139",
+    "object_type": "recipe",
+    "object_id": "RCPJ000139",
+    "name": "Farming Work 47",
+    "icon_filename": "recipe_RCPJ000139_farming-work-47.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Farming Work 47\nType: farming\nCategory: farming\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000140",
+    "object_type": "recipe",
+    "object_id": "RCPJ000140",
+    "name": "Festival Crafting Bundle 47",
+    "icon_filename": "recipe_RCPJ000140_festival-crafting-bundle-47.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Festival Crafting Bundle 47\nType: festival_crafting\nCategory: festival-crafting\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000141",
+    "object_type": "recipe",
+    "object_id": "RCPJ000141",
+    "name": "Suman 29",
+    "icon_filename": "recipe_RCPJ000141_suman-29.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Suman 29\nType: cooking\nCategory: cooking\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000142",
+    "object_type": "recipe",
+    "object_id": "RCPJ000142",
+    "name": "Burn Salve 36",
+    "icon_filename": "recipe_RCPJ000142_burn-salve-36.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Burn Salve 36\nType: herbalism\nCategory: herbalism\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000143",
+    "object_type": "recipe",
+    "object_id": "RCPJ000143",
+    "name": "Kris 29",
+    "icon_filename": "recipe_RCPJ000143_kris-29.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Kris 29\nType: forging\nCategory: forging\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000144",
+    "object_type": "recipe",
+    "object_id": "RCPJ000144",
+    "name": "Weaving Kit 48",
+    "icon_filename": "recipe_RCPJ000144_weaving-kit-48.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Weaving Kit 48\nType: weaving\nCategory: weaving\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000145",
+    "object_type": "recipe",
+    "object_id": "RCPJ000145",
+    "name": "Carving Work 49",
+    "icon_filename": "recipe_RCPJ000145_carving-work-49.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Carving Work 49\nType: carving\nCategory: carving\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000146",
+    "object_type": "recipe",
+    "object_id": "RCPJ000146",
+    "name": "Alchemy Bundle 49",
+    "icon_filename": "recipe_RCPJ000146_alchemy-bundle-49.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Alchemy Bundle 49\nType: alchemy\nCategory: alchemy\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000147",
+    "object_type": "recipe",
+    "object_id": "RCPJ000147",
+    "name": "Anito Memory Charm 37",
+    "icon_filename": "recipe_RCPJ000147_anito-memory-charm-37.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Anito Memory Charm 37\nType: ritual\nCategory: ritual\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000148",
+    "object_type": "recipe",
+    "object_id": "RCPJ000148",
+    "name": "Forest Ward 37",
+    "icon_filename": "recipe_RCPJ000148_forest-ward-37.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Forest Ward 37\nType: enchanting\nCategory: enchanting\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000149",
+    "object_type": "recipe",
+    "object_id": "RCPJ000149",
+    "name": "Equipment Upgrade Bundle 50",
+    "icon_filename": "recipe_RCPJ000149_equipment-upgrade-bundle-50.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Equipment Upgrade Bundle 50\nType: equipment_upgrade\nCategory: equipment-upgrade\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000150",
+    "object_type": "recipe",
+    "object_id": "RCPJ000150",
+    "name": "Talisman Making Kit 50",
+    "icon_filename": "recipe_RCPJ000150_talisman-making-kit-50.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Talisman Making Kit 50\nType: talisman_making\nCategory: talisman-making\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000151",
+    "object_type": "recipe",
+    "object_id": "RCPJ000151",
+    "name": "Habitat Lure 38",
+    "icon_filename": "recipe_RCPJ000151_habitat-lure-38.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Habitat Lure 38\nType: monster_care\nCategory: monster-care\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000152",
+    "object_type": "recipe",
+    "object_id": "RCPJ000152",
+    "name": "Fishing Bundle 51",
+    "icon_filename": "recipe_RCPJ000152_fishing-bundle-51.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Fishing Bundle 51\nType: fishing\nCategory: fishing\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000153",
+    "object_type": "recipe",
+    "object_id": "RCPJ000153",
+    "name": "Farming Kit 51",
+    "icon_filename": "recipe_RCPJ000153_farming-kit-51.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Farming Kit 51\nType: farming\nCategory: farming\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000154",
+    "object_type": "recipe",
+    "object_id": "RCPJ000154",
+    "name": "Festival Crafting Work 52",
+    "icon_filename": "recipe_RCPJ000154_festival-crafting-work-52.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Festival Crafting Work 52\nType: festival_crafting\nCategory: festival-crafting\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000155",
+    "object_type": "recipe",
+    "object_id": "RCPJ000155",
+    "name": "Healing Soup 31",
+    "icon_filename": "recipe_RCPJ000155_healing-soup-31.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Healing Soup 31\nType: cooking\nCategory: cooking\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000156",
+    "object_type": "recipe",
+    "object_id": "RCPJ000156",
+    "name": "Sleep Remedy 39",
+    "icon_filename": "recipe_RCPJ000156_sleep-remedy-39.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Sleep Remedy 39\nType: herbalism\nCategory: herbalism\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000157",
+    "object_type": "recipe",
+    "object_id": "RCPJ000157",
+    "name": "Kampilan 32",
+    "icon_filename": "recipe_RCPJ000157_kampilan-32.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Kampilan 32\nType: forging\nCategory: forging\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000158",
+    "object_type": "recipe",
+    "object_id": "RCPJ000158",
+    "name": "Weaving Bundle 53",
+    "icon_filename": "recipe_RCPJ000158_weaving-bundle-53.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Weaving Bundle 53\nType: weaving\nCategory: weaving\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000159",
+    "object_type": "recipe",
+    "object_id": "RCPJ000159",
+    "name": "Carving Kit 53",
+    "icon_filename": "recipe_RCPJ000159_carving-kit-53.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Carving Kit 53\nType: carving\nCategory: carving\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000160",
+    "object_type": "recipe",
+    "object_id": "RCPJ000160",
+    "name": "Alchemy Work 54",
+    "icon_filename": "recipe_RCPJ000160_alchemy-work-54.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Alchemy Work 54\nType: alchemy\nCategory: alchemy\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000161",
+    "object_type": "recipe",
+    "object_id": "RCPJ000161",
+    "name": "Cleansing Candle 41",
+    "icon_filename": "recipe_RCPJ000161_cleansing-candle-41.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Cleansing Candle 41\nType: ritual\nCategory: ritual\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000162",
+    "object_type": "recipe",
+    "object_id": "RCPJ000162",
+    "name": "Moon Charm 41",
+    "icon_filename": "recipe_RCPJ000162_moon-charm-41.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Moon Charm 41\nType: enchanting\nCategory: enchanting\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000163",
+    "object_type": "recipe",
+    "object_id": "RCPJ000163",
+    "name": "Equipment Upgrade Work 55",
+    "icon_filename": "recipe_RCPJ000163_equipment-upgrade-work-55.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Equipment Upgrade Work 55\nType: equipment_upgrade\nCategory: equipment-upgrade\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000164",
+    "object_type": "recipe",
+    "object_id": "RCPJ000164",
+    "name": "Talisman Making Bundle 55",
+    "icon_filename": "recipe_RCPJ000164_talisman-making-bundle-55.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Talisman Making Bundle 55\nType: talisman_making\nCategory: talisman-making\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000165",
+    "object_type": "recipe",
+    "object_id": "RCPJ000165",
+    "name": "Trust Food 42",
+    "icon_filename": "recipe_RCPJ000165_trust-food-42.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Trust Food 42\nType: monster_care\nCategory: monster-care\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000166",
+    "object_type": "recipe",
+    "object_id": "RCPJ000166",
+    "name": "Fishing Work 56",
+    "icon_filename": "recipe_RCPJ000166_fishing-work-56.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Fishing Work 56\nType: fishing\nCategory: fishing\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000167",
+    "object_type": "recipe",
+    "object_id": "RCPJ000167",
+    "name": "Farming Bundle 56",
+    "icon_filename": "recipe_RCPJ000167_farming-bundle-56.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Farming Bundle 56\nType: farming\nCategory: farming\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-RCPJ000168",
+    "object_type": "recipe",
+    "object_id": "RCPJ000168",
+    "name": "Festival Crafting Kit 56",
+    "icon_filename": "recipe_RCPJ000168_festival-crafting-kit-56.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Festival Crafting Kit 56\nType: festival_crafting\nCategory: festival-crafting\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncrafted output with Filipino fantasy materials."
+  },
+  {
+    "asset_prompt_id": "EAP-CUR0001",
+    "object_type": "currency",
+    "object_id": "CUR0001",
+    "name": "Gold",
+    "icon_filename": "currency_CUR0001_gold.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Gold\nType: currency\nCategory: economy\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncoin, token, bead, or scrip silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CUR0002",
+    "object_type": "currency",
+    "object_id": "CUR0002",
+    "name": "Pearl Tokens",
+    "icon_filename": "currency_CUR0002_pearl-tokens.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Pearl Tokens\nType: currency\nCategory: economy\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncoin, token, bead, or scrip silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CUR0003",
+    "object_type": "currency",
+    "object_id": "CUR0003",
+    "name": "Rice Marks",
+    "icon_filename": "currency_CUR0003_rice-marks.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Rice Marks\nType: currency\nCategory: economy\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncoin, token, bead, or scrip silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CUR0004",
+    "object_type": "currency",
+    "object_id": "CUR0004",
+    "name": "Shrine Beads",
+    "icon_filename": "currency_CUR0004_shrine-beads.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Shrine Beads\nType: currency\nCategory: economy\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncoin, token, bead, or scrip silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CUR0005",
+    "object_type": "currency",
+    "object_id": "CUR0005",
+    "name": "Guild Scrip",
+    "icon_filename": "currency_CUR0005_guild-scrip.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Guild Scrip\nType: currency\nCategory: economy\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncoin, token, bead, or scrip silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CUR0006",
+    "object_type": "currency",
+    "object_id": "CUR0006",
+    "name": "Festival Tickets",
+    "icon_filename": "currency_CUR0006_festival-tickets.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Festival Tickets\nType: currency\nCategory: economy\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\ncoin, token, bead, or scrip silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00001",
+    "object_type": "station",
+    "object_id": "CST00001",
+    "name": "Cooking Station 1",
+    "icon_filename": "station_CST00001_cooking.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Cooking Station 1\nType: hearth\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00002",
+    "object_type": "station",
+    "object_id": "CST00002",
+    "name": "Herbalism Station 1",
+    "icon_filename": "station_CST00002_herbalism.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Herbalism Station 1\nType: herbal_table\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00003",
+    "object_type": "station",
+    "object_id": "CST00003",
+    "name": "Forging Station 1",
+    "icon_filename": "station_CST00003_forging.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Forging Station 1\nType: forge\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00004",
+    "object_type": "station",
+    "object_id": "CST00004",
+    "name": "Weaving Station 1",
+    "icon_filename": "station_CST00004_weaving.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Weaving Station 1\nType: loom\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00005",
+    "object_type": "station",
+    "object_id": "CST00005",
+    "name": "Carving Station 1",
+    "icon_filename": "station_CST00005_carving.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Carving Station 1\nType: carving_bench\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00006",
+    "object_type": "station",
+    "object_id": "CST00006",
+    "name": "Alchemy Station 1",
+    "icon_filename": "station_CST00006_alchemy.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Alchemy Station 1\nType: alchemy_pot\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00007",
+    "object_type": "station",
+    "object_id": "CST00007",
+    "name": "Ritual Station 1",
+    "icon_filename": "station_CST00007_ritual.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Ritual Station 1\nType: ritual_mat\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00008",
+    "object_type": "station",
+    "object_id": "CST00008",
+    "name": "Enchanting Station 1",
+    "icon_filename": "station_CST00008_enchanting.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Enchanting Station 1\nType: enchanting_lantern\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00009",
+    "object_type": "station",
+    "object_id": "CST00009",
+    "name": "Equipment Upgrade Station 1",
+    "icon_filename": "station_CST00009_equipment_upgrade.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Equipment Upgrade Station 1\nType: upgrade_anvil\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00010",
+    "object_type": "station",
+    "object_id": "CST00010",
+    "name": "Talisman Making Station 1",
+    "icon_filename": "station_CST00010_talisman_making.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Talisman Making Station 1\nType: talisman_table\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00011",
+    "object_type": "station",
+    "object_id": "CST00011",
+    "name": "Monster Care Station 1",
+    "icon_filename": "station_CST00011_monster_care.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Monster Care Station 1\nType: monster_care_table\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00012",
+    "object_type": "station",
+    "object_id": "CST00012",
+    "name": "Fishing Station 1",
+    "icon_filename": "station_CST00012_fishing.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Fishing Station 1\nType: fishing_dock\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00013",
+    "object_type": "station",
+    "object_id": "CST00013",
+    "name": "Farming Station 1",
+    "icon_filename": "station_CST00013_farming.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Farming Station 1\nType: farm_plot\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00014",
+    "object_type": "station",
+    "object_id": "CST00014",
+    "name": "Festival Crafting Station 1",
+    "icon_filename": "station_CST00014_festival_crafting.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Festival Crafting Station 1\nType: festival_booth\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00015",
+    "object_type": "station",
+    "object_id": "CST00015",
+    "name": "Cooking Station 2",
+    "icon_filename": "station_CST00015_cooking.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Cooking Station 2\nType: hearth\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00016",
+    "object_type": "station",
+    "object_id": "CST00016",
+    "name": "Herbalism Station 2",
+    "icon_filename": "station_CST00016_herbalism.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Herbalism Station 2\nType: herbal_table\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00017",
+    "object_type": "station",
+    "object_id": "CST00017",
+    "name": "Forging Station 2",
+    "icon_filename": "station_CST00017_forging.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Forging Station 2\nType: forge\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00018",
+    "object_type": "station",
+    "object_id": "CST00018",
+    "name": "Weaving Station 2",
+    "icon_filename": "station_CST00018_weaving.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Weaving Station 2\nType: loom\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00019",
+    "object_type": "station",
+    "object_id": "CST00019",
+    "name": "Carving Station 2",
+    "icon_filename": "station_CST00019_carving.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Carving Station 2\nType: carving_bench\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00020",
+    "object_type": "station",
+    "object_id": "CST00020",
+    "name": "Alchemy Station 2",
+    "icon_filename": "station_CST00020_alchemy.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Alchemy Station 2\nType: alchemy_pot\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00021",
+    "object_type": "station",
+    "object_id": "CST00021",
+    "name": "Ritual Station 2",
+    "icon_filename": "station_CST00021_ritual.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Ritual Station 2\nType: ritual_mat\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00022",
+    "object_type": "station",
+    "object_id": "CST00022",
+    "name": "Enchanting Station 2",
+    "icon_filename": "station_CST00022_enchanting.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Enchanting Station 2\nType: enchanting_lantern\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00023",
+    "object_type": "station",
+    "object_id": "CST00023",
+    "name": "Equipment Upgrade Station 2",
+    "icon_filename": "station_CST00023_equipment_upgrade.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Equipment Upgrade Station 2\nType: upgrade_anvil\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00024",
+    "object_type": "station",
+    "object_id": "CST00024",
+    "name": "Talisman Making Station 2",
+    "icon_filename": "station_CST00024_talisman_making.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Talisman Making Station 2\nType: talisman_table\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00025",
+    "object_type": "station",
+    "object_id": "CST00025",
+    "name": "Monster Care Station 2",
+    "icon_filename": "station_CST00025_monster_care.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Monster Care Station 2\nType: monster_care_table\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00026",
+    "object_type": "station",
+    "object_id": "CST00026",
+    "name": "Fishing Station 2",
+    "icon_filename": "station_CST00026_fishing.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Fishing Station 2\nType: fishing_dock\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00027",
+    "object_type": "station",
+    "object_id": "CST00027",
+    "name": "Farming Station 2",
+    "icon_filename": "station_CST00027_farming.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Farming Station 2\nType: farm_plot\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00028",
+    "object_type": "station",
+    "object_id": "CST00028",
+    "name": "Festival Crafting Station 2",
+    "icon_filename": "station_CST00028_festival_crafting.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Festival Crafting Station 2\nType: festival_booth\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00029",
+    "object_type": "station",
+    "object_id": "CST00029",
+    "name": "Cooking Station 3",
+    "icon_filename": "station_CST00029_cooking.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Cooking Station 3\nType: hearth\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00030",
+    "object_type": "station",
+    "object_id": "CST00030",
+    "name": "Herbalism Station 3",
+    "icon_filename": "station_CST00030_herbalism.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Herbalism Station 3\nType: herbal_table\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00031",
+    "object_type": "station",
+    "object_id": "CST00031",
+    "name": "Forging Station 3",
+    "icon_filename": "station_CST00031_forging.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Forging Station 3\nType: forge\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00032",
+    "object_type": "station",
+    "object_id": "CST00032",
+    "name": "Weaving Station 3",
+    "icon_filename": "station_CST00032_weaving.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Weaving Station 3\nType: loom\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00033",
+    "object_type": "station",
+    "object_id": "CST00033",
+    "name": "Carving Station 3",
+    "icon_filename": "station_CST00033_carving.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Carving Station 3\nType: carving_bench\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00034",
+    "object_type": "station",
+    "object_id": "CST00034",
+    "name": "Alchemy Station 3",
+    "icon_filename": "station_CST00034_alchemy.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Alchemy Station 3\nType: alchemy_pot\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00035",
+    "object_type": "station",
+    "object_id": "CST00035",
+    "name": "Ritual Station 3",
+    "icon_filename": "station_CST00035_ritual.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Ritual Station 3\nType: ritual_mat\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00036",
+    "object_type": "station",
+    "object_id": "CST00036",
+    "name": "Enchanting Station 3",
+    "icon_filename": "station_CST00036_enchanting.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Enchanting Station 3\nType: enchanting_lantern\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00037",
+    "object_type": "station",
+    "object_id": "CST00037",
+    "name": "Equipment Upgrade Station 3",
+    "icon_filename": "station_CST00037_equipment_upgrade.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Equipment Upgrade Station 3\nType: upgrade_anvil\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00038",
+    "object_type": "station",
+    "object_id": "CST00038",
+    "name": "Talisman Making Station 3",
+    "icon_filename": "station_CST00038_talisman_making.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Talisman Making Station 3\nType: talisman_table\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00039",
+    "object_type": "station",
+    "object_id": "CST00039",
+    "name": "Monster Care Station 3",
+    "icon_filename": "station_CST00039_monster_care.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Monster Care Station 3\nType: monster_care_table\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00040",
+    "object_type": "station",
+    "object_id": "CST00040",
+    "name": "Fishing Station 3",
+    "icon_filename": "station_CST00040_fishing.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Fishing Station 3\nType: fishing_dock\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00041",
+    "object_type": "station",
+    "object_id": "CST00041",
+    "name": "Farming Station 3",
+    "icon_filename": "station_CST00041_farming.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Farming Station 3\nType: farm_plot\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00042",
+    "object_type": "station",
+    "object_id": "CST00042",
+    "name": "Festival Crafting Station 3",
+    "icon_filename": "station_CST00042_festival_crafting.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Festival Crafting Station 3\nType: festival_booth\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00043",
+    "object_type": "station",
+    "object_id": "CST00043",
+    "name": "Cooking Station 4",
+    "icon_filename": "station_CST00043_cooking.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Cooking Station 4\nType: hearth\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00044",
+    "object_type": "station",
+    "object_id": "CST00044",
+    "name": "Herbalism Station 4",
+    "icon_filename": "station_CST00044_herbalism.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Herbalism Station 4\nType: herbal_table\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00045",
+    "object_type": "station",
+    "object_id": "CST00045",
+    "name": "Forging Station 4",
+    "icon_filename": "station_CST00045_forging.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Forging Station 4\nType: forge\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00046",
+    "object_type": "station",
+    "object_id": "CST00046",
+    "name": "Weaving Station 4",
+    "icon_filename": "station_CST00046_weaving.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Weaving Station 4\nType: loom\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00047",
+    "object_type": "station",
+    "object_id": "CST00047",
+    "name": "Carving Station 4",
+    "icon_filename": "station_CST00047_carving.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Carving Station 4\nType: carving_bench\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00048",
+    "object_type": "station",
+    "object_id": "CST00048",
+    "name": "Alchemy Station 4",
+    "icon_filename": "station_CST00048_alchemy.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Alchemy Station 4\nType: alchemy_pot\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00049",
+    "object_type": "station",
+    "object_id": "CST00049",
+    "name": "Ritual Station 4",
+    "icon_filename": "station_CST00049_ritual.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Ritual Station 4\nType: ritual_mat\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00050",
+    "object_type": "station",
+    "object_id": "CST00050",
+    "name": "Enchanting Station 4",
+    "icon_filename": "station_CST00050_enchanting.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Enchanting Station 4\nType: enchanting_lantern\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00051",
+    "object_type": "station",
+    "object_id": "CST00051",
+    "name": "Equipment Upgrade Station 4",
+    "icon_filename": "station_CST00051_equipment_upgrade.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Equipment Upgrade Station 4\nType: upgrade_anvil\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00052",
+    "object_type": "station",
+    "object_id": "CST00052",
+    "name": "Talisman Making Station 4",
+    "icon_filename": "station_CST00052_talisman_making.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Talisman Making Station 4\nType: talisman_table\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00053",
+    "object_type": "station",
+    "object_id": "CST00053",
+    "name": "Monster Care Station 4",
+    "icon_filename": "station_CST00053_monster_care.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Monster Care Station 4\nType: monster_care_table\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00054",
+    "object_type": "station",
+    "object_id": "CST00054",
+    "name": "Fishing Station 4",
+    "icon_filename": "station_CST00054_fishing.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Fishing Station 4\nType: fishing_dock\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00055",
+    "object_type": "station",
+    "object_id": "CST00055",
+    "name": "Farming Station 4",
+    "icon_filename": "station_CST00055_farming.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Farming Station 4\nType: farm_plot\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  },
+  {
+    "asset_prompt_id": "EAP-CST00056",
+    "object_type": "station",
+    "object_id": "CST00056",
+    "name": "Festival Crafting Station 4",
+    "icon_filename": "station_CST00056_festival_crafting.png",
+    "asset_prompt": "Create a clean 2D RPG icon for ALAMAT.\n\nObject: Festival Crafting Station 4\nType: festival_booth\nCategory: crafting_station\n\nStyle:\nFilipino fantasy RPG.\nReadable at 32x32 and 64x64.\nTransparent background.\nNo text.\nNo UI.\nStrong silhouette.\n\nVisual concept:\nworkbench or station silhouette."
+  }
+]

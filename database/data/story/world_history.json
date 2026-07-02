@@ -1,0 +1,74 @@
+[
+  {
+    "history_id": "WHIS00001",
+    "topic": "Age of Origins",
+    "summary": "Age of Origins is part of ALAMAT's fictional chronology and supports writers without overruling real histories or beliefs.",
+    "writer_notes": "Treat this as ALAMAT fiction inspired by many Philippine cultural currents, never as a replacement for real-world belief.",
+    "related_timeline_id": "TIME00001",
+    "design_use": "quest framing"
+  },
+  {
+    "history_id": "WHIS00002",
+    "topic": "Age of Spirits",
+    "summary": "Age of Spirits is part of ALAMAT's fictional chronology and supports writers without overruling real histories or beliefs.",
+    "writer_notes": "Treat this as ALAMAT fiction inspired by many Philippine cultural currents, never as a replacement for real-world belief.",
+    "related_timeline_id": "TIME00002",
+    "design_use": "location dressing"
+  },
+  {
+    "history_id": "WHIS00003",
+    "topic": "Age of Heroes",
+    "summary": "Age of Heroes is part of ALAMAT's fictional chronology and supports writers without overruling real histories or beliefs.",
+    "writer_notes": "Treat this as ALAMAT fiction inspired by many Philippine cultural currents, never as a replacement for real-world belief.",
+    "related_timeline_id": "TIME00003",
+    "design_use": "NPC memory"
+  },
+  {
+    "history_id": "WHIS00004",
+    "topic": "Age of Kingdoms",
+    "summary": "Age of Kingdoms is part of ALAMAT's fictional chronology and supports writers without overruling real histories or beliefs.",
+    "writer_notes": "Treat this as ALAMAT fiction inspired by many Philippine cultural currents, never as a replacement for real-world belief.",
+    "related_timeline_id": "TIME00004",
+    "design_use": "cutscene motif"
+  },
+  {
+    "history_id": "WHIS00005",
+    "topic": "Colonial Era",
+    "summary": "Colonial Era is part of ALAMAT's fictional chronology and supports writers without overruling real histories or beliefs.",
+    "writer_notes": "Treat this as ALAMAT fiction inspired by many Philippine cultural currents, never as a replacement for real-world belief.",
+    "related_timeline_id": "TIME00005",
+    "design_use": "quest framing"
+  },
+  {
+    "history_id": "WHIS00006",
+    "topic": "Modern Era",
+    "summary": "Modern Era is part of ALAMAT's fictional chronology and supports writers without overruling real histories or beliefs.",
+    "writer_notes": "Treat this as ALAMAT fiction inspired by many Philippine cultural currents, never as a replacement for real-world belief.",
+    "related_timeline_id": "TIME00006",
+    "design_use": "location dressing"
+  },
+  {
+    "history_id": "WHIS00007",
+    "topic": "The Awakening",
+    "summary": "The Awakening is part of ALAMAT's fictional chronology and supports writers without overruling real histories or beliefs.",
+    "writer_notes": "Treat this as ALAMAT fiction inspired by many Philippine cultural currents, never as a replacement for real-world belief.",
+    "related_timeline_id": "TIME00007",
+    "design_use": "NPC memory"
+  },
+  {
+    "history_id": "WHIS00008",
+    "topic": "Current Story",
+    "summary": "Current Story is part of ALAMAT's fictional chronology and supports writers without overruling real histories or beliefs.",
+    "writer_notes": "Treat this as ALAMAT fiction inspired by many Philippine cultural currents, never as a replacement for real-world belief.",
+    "related_timeline_id": "TIME00008",
+    "design_use": "cutscene motif"
+  },
+  {
+    "history_id": "WHIS00009",
+    "topic": "Future Timeline",
+    "summary": "Future Timeline is part of ALAMAT's fictional chronology and supports writers without overruling real histories or beliefs.",
+    "writer_notes": "Treat this as ALAMAT fiction inspired by many Philippine cultural currents, never as a replacement for real-world belief.",
+    "related_timeline_id": "TIME00009",
+    "design_use": "quest framing"
+  }
+]

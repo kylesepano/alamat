@@ -1,0 +1,86 @@
+[
+  {
+    "currency_id": "CUR0001",
+    "name": "Gold",
+    "slug": "gold",
+    "symbol": "G",
+    "description": "Primary common currency.",
+    "icon_filename": "currency_CUR0001_gold.png",
+    "is_primary": true,
+    "exchange_rate_payload": {
+      "gold": 1,
+      "volatility": "stable"
+    },
+    "is_active": true
+  },
+  {
+    "currency_id": "CUR0002",
+    "name": "Pearl Tokens",
+    "slug": "pearl-tokens",
+    "symbol": "PT",
+    "description": "Coastal barter and reef market tokens.",
+    "icon_filename": "currency_CUR0002_pearl-tokens.png",
+    "is_primary": false,
+    "exchange_rate_payload": {
+      "gold": 8,
+      "volatility": "seasonal"
+    },
+    "is_active": true
+  },
+  {
+    "currency_id": "CUR0003",
+    "name": "Rice Marks",
+    "slug": "rice-marks",
+    "symbol": "RM",
+    "description": "Agrarian settlement credit notes.",
+    "icon_filename": "currency_CUR0003_rice-marks.png",
+    "is_primary": false,
+    "exchange_rate_payload": {
+      "gold": 11,
+      "volatility": "stable"
+    },
+    "is_active": true
+  },
+  {
+    "currency_id": "CUR0004",
+    "name": "Shrine Beads",
+    "slug": "shrine-beads",
+    "symbol": "SB",
+    "description": "Offering-linked ritual exchange beads.",
+    "icon_filename": "currency_CUR0004_shrine-beads.png",
+    "is_primary": false,
+    "exchange_rate_payload": {
+      "gold": 14,
+      "volatility": "seasonal"
+    },
+    "is_active": true
+  },
+  {
+    "currency_id": "CUR0005",
+    "name": "Guild Scrip",
+    "slug": "guild-scrip",
+    "symbol": "GS",
+    "description": "Merchant League and crafter scrip.",
+    "icon_filename": "currency_CUR0005_guild-scrip.png",
+    "is_primary": false,
+    "exchange_rate_payload": {
+      "gold": 17,
+      "volatility": "stable"
+    },
+    "is_active": true
+  },
+  {
+    "currency_id": "CUR0006",
+    "name": "Festival Tickets",
+    "slug": "festival-tickets",
+    "symbol": "FT",
+    "description": "Seasonal festival market currency.",
+    "icon_filename": "currency_CUR0006_festival-tickets.png",
+    "is_primary": false,
+    "exchange_rate_payload": {
+      "gold": 20,
+      "volatility": "seasonal"
+    },
+    "is_active": true
+  }
+]

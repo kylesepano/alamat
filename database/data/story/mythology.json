@@ -1,0 +1,178 @@
+[
+  {
+    "mythology_id": "MYTH001",
+    "topic": "Creation Myths",
+    "slug": "creation-myths",
+    "summary": "Multiple creation stories coexist as local memories inside ALAMAT.",
+    "rules": [
+      "No single tradition is treated as the only truth.",
+      "Respect living cultures.",
+      "Keep ALAMAT fictional and plural."
+    ],
+    "related_realms": [
+      "Dream"
+    ],
+    "narrative_use": "quest motif",
+    "sort_order": 1
+  },
+  {
+    "mythology_id": "MYTH002",
+    "topic": "Spirit Realms",
+    "slug": "spirit-realms",
+    "summary": "Spirit realms overlap with daily life through dreams, festivals, places, and vows.",
+    "rules": [
+      "No single tradition is treated as the only truth.",
+      "Respect living cultures.",
+      "Keep ALAMAT fictional and plural."
+    ],
+    "related_realms": [
+      "Underworld"
+    ],
+    "narrative_use": "location rule",
+    "sort_order": 2
+  },
+  {
+    "mythology_id": "MYTH003",
+    "topic": "Sacred Places",
+    "slug": "sacred-places",
+    "summary": "Sacred places are approached with consent, humility, and community context.",
+    "rules": [
+      "No single tradition is treated as the only truth.",
+      "Respect living cultures.",
+      "Keep ALAMAT fictional and plural."
+    ],
+    "related_realms": [
+      "Sky"
+    ],
+    "narrative_use": "Nilalang behavior",
+    "sort_order": 3
+  },
+  {
+    "mythology_id": "MYTH004",
+    "topic": "Nilalang Origins",
+    "slug": "nilalang-origins",
+    "summary": "Nilalang arise through nature, memory, fear, care, and unfinished promises.",
+    "rules": [
+      "No single tradition is treated as the only truth.",
+      "Respect living cultures.",
+      "Keep ALAMAT fictional and plural."
+    ],
+    "related_realms": [
+      "Sea"
+    ],
+    "narrative_use": "ending logic",
+    "sort_order": 4
+  },
+  {
+    "mythology_id": "MYTH005",
+    "topic": "Human Settlements",
+    "slug": "human-settlements",
+    "summary": "Settlements adapt through trade, ritual, weather, and relationships with nearby Nilalang.",
+    "rules": [
+      "No single tradition is treated as the only truth.",
+      "Respect living cultures.",
+      "Keep ALAMAT fictional and plural."
+    ],
+    "related_realms": [
+      "Dream"
+    ],
+    "narrative_use": "quest motif",
+    "sort_order": 5
+  },
+  {
+    "mythology_id": "MYTH006",
+    "topic": "Balance of Nature",
+    "slug": "balance-of-nature",
+    "summary": "Balance is active stewardship, not a static return to one past.",
+    "rules": [
+      "No single tradition is treated as the only truth.",
+      "Respect living cultures.",
+      "Keep ALAMAT fictional and plural."
+    ],
+    "related_realms": [
+      "Underworld"
+    ],
+    "narrative_use": "location rule",
+    "sort_order": 6
+  },
+  {
+    "mythology_id": "MYTH007",
+    "topic": "Ancestral Traditions",
+    "slug": "ancestral-traditions",
+    "summary": "Ancestral memory guides choices while leaving room for disagreement and change.",
+    "rules": [
+      "No single tradition is treated as the only truth.",
+      "Respect living cultures.",
+      "Keep ALAMAT fictional and plural."
+    ],
+    "related_realms": [
+      "Sky"
+    ],
+    "narrative_use": "Nilalang behavior",
+    "sort_order": 7
+  },
+  {
+    "mythology_id": "MYTH008",
+    "topic": "Dream Realm",
+    "slug": "dream-realm",
+    "summary": "Dream spaces reveal hidden feelings, warnings, and symbolic geography.",
+    "rules": [
+      "No single tradition is treated as the only truth.",
+      "Respect living cultures.",
+      "Keep ALAMAT fictional and plural."
+    ],
+    "related_realms": [
+      "Sea"
+    ],
+    "narrative_use": "ending logic",
+    "sort_order": 8
+  },
+  {
+    "mythology_id": "MYTH009",
+    "topic": "Underworld",
+    "slug": "underworld",
+    "summary": "The fictional Underworld holds grief, oath, memory, and restoration.",
+    "rules": [
+      "No single tradition is treated as the only truth.",
+      "Respect living cultures.",
+      "Keep ALAMAT fictional and plural."
+    ],
+    "related_realms": [
+      "Dream"
+    ],
+    "narrative_use": "quest motif",
+    "sort_order": 9
+  },
+  {
+    "mythology_id": "MYTH010",
+    "topic": "Sky Realm",
+    "slug": "sky-realm",
+    "summary": "The sky realm frames weather, distance, and humility before powers larger than people.",
+    "rules": [
+      "No single tradition is treated as the only truth.",
+      "Respect living cultures.",
+      "Keep ALAMAT fictional and plural."
+    ],
+    "related_realms": [
+      "Underworld"
+    ],
+    "narrative_use": "location rule",
+    "sort_order": 10
+  },
+  {
+    "mythology_id": "MYTH011",
+    "topic": "Sea Realm",
+    "slug": "sea-realm",
+    "summary": "The sea realm carries trade, migration, danger, generosity, and remembered names.",
+    "rules": [
+      "No single tradition is treated as the only truth.",
+      "Respect living cultures.",
+      "Keep ALAMAT fictional and plural."
+    ],
+    "related_realms": [
+      "Sky"
+    ],
+    "narrative_use": "Nilalang behavior",
+    "sort_order": 11
+  }
+]

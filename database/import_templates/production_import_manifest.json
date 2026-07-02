@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "supported_codexes": ["monsters", "skills", "passives", "status_effects", "items", "equipment", "npcs", "quests", "world", "story", "economy"],
+  "default_options": {
+    "dry_run": true,
+    "rollback_on_error": true,
+    "duplicate_strategy": "update_or_create",
+    "report_format": ["json", "html"]
+  }
+}

@@ -20,6 +20,12 @@ Phase H adds the Quest Codex: data-driven quest categories, types, statuses, que
 
 Phase I adds the World Codex: regions, provinces, locations, routes, interiors, dungeons, fast travel, transitions, spawn zones, weather zones, NPC placements, quest markers, events, map asset prompts, APIs, and React browsing pages.
 
+Phase J adds the Crafting & Economy Codex: currencies, crafting stations, recipe categories, recipes, ingredients, shop types, shops, shop inventories, vendor profiles, regional price modifiers, barter rules, trade routes, festival markets, economy events, asset prompts, APIs, and React pages.
+
+Phase K adds the Story Bible: acts, chapters, scenes, dialogue nodes, choices, flags, cutscenes, cinematics, lore collectibles, folk tales, songs, poems, timeline, world history, mythology, relationship graph data, endings, epilogues, asset prompts, APIs, and React story browsing pages.
+
+Phase L adds the internal Production Pipeline & Developer Tools platform: import/export job tracking, validation reports, asset registry, prompt records, localization scaffolding, save version metadata, developer command logging, QA/build/analytics/modding scaffolds, APIs, and React production dashboard pages.
+
 ## Tech Stack
 
 - Backend: Laravel 12
@@ -52,12 +58,40 @@ Phase I adds the World Codex: regions, provinces, locations, routes, interiors, 
 - `docs/quest-import-guide.md` explains the quest import flow.
 - `docs/phase-i-world-codex.md` explains the Phase I World Codex.
 - `docs/world-asset-guide.md` explains world map asset naming and prompt requirements.
+- `docs/phase-j-crafting-economy.md` explains the Phase J Crafting & Economy Codex.
+- `docs/economy-api-guide.md` explains the economy API surface.
+- `docs/phase-k-story-bible.md` explains the Phase K Story Bible.
+- `docs/story-schema.md` documents story JSON and database records.
+- `docs/dialogue-system.md` documents dialogue nodes, choices, flags, localization keys, and consequences.
+- `docs/timeline.md` documents the canonical ALAMAT timeline.
+- `docs/mythology.md` documents fictional mythology rules.
+- `docs/endings.md` documents ending route families.
+- `docs/localization-guide.md` documents story localization guidance.
+- `docs/story-asset-guide.md` documents story asset prompt requirements.
+- `docs/phase-l-production-pipeline.md` explains the Phase L production platform.
+- `docs/import-system.md` explains production import wrappers and reports.
+- `docs/validation-engine.md` explains JSON/HTML validation reports.
+- `docs/asset-pipeline.md` explains asset lifecycle tracking.
+- `docs/localization.md` explains localization keys and language support.
+- `docs/save-system.md` explains versioned save metadata.
+- `docs/modding-guide.md` explains future external JSON pack support.
+- `docs/developer-console.md` explains development-only console command logging.
+- `docs/milestone-0-gameplay-production-blueprint.md` locks the pre-gameplay Phaser direction.
+- `docs/vertical-slice-asset-manifest.md` lists the first playable asset needs.
+- `docs/vertical-slice-asset-prompts.md` contains generation prompts for the first vertical slice asset roster.
+- `docs/asset-generation-workflow.md` explains where to generate assets and how to replace placeholders.
+- `docs/vertical-slice-roster.md` selects the first playable roster from existing codex data.
+- `docs/milestone-1-implementation-plan.md` defines the Core Engine implementation order.
+- `docs/milestone-1-core-engine.md` documents the first playable Phaser core engine shell.
 - `database/combat` contains Phase D Combat Bible JSON Schema files and architecture examples.
 - `database/data/items` contains Phase E item seed data.
 - `database/data/equipment` contains Phase F equipment seed data.
 - `database/data/npcs` contains Phase G NPC seed data.
 - `database/data/quests` contains Phase H quest seed data.
 - `database/data/world` contains Phase I world seed data.
+- `database/data/economy` contains Phase J economy seed data.
+- `database/data/story` contains Phase K story bible seed data.
+- `database/import_templates` and `database/validation_rules` contain Phase L production manifests.
 - `frontend/src/components` contains reusable UI pieces.
 - `frontend/src/pages` contains the requested browsing pages.
 - `frontend/src/services` and `frontend/src/hooks` load API data with static JSON fallback.
@@ -244,6 +278,56 @@ Phase I:
 - `GET /api/world/events`
 - `GET /api/world-codex/summary`
 
+Phase J:
+
+- `GET /api/economy/currencies`
+- `GET /api/economy/stations`
+- `GET /api/economy/recipes`
+- `GET /api/economy/recipes/{recipe_id}`
+- `GET /api/economy/shops`
+- `GET /api/economy/shops/{shop_id}`
+- `GET /api/economy/shops/{shop_id}/inventory`
+- `GET /api/economy/trade-routes`
+- `GET /api/economy/festival-markets`
+- `GET /api/economy/events`
+- `GET /api/economy-codex/summary`
+- `POST /api/economy/craft/{recipe_id}`
+- `POST /api/economy/buy`
+- `POST /api/economy/sell`
+- `POST /api/economy/barter`
+
+Phase K:
+
+- `GET /api/story/acts`
+- `GET /api/story/chapters`
+- `GET /api/story/scenes`
+- `GET /api/story/dialogues`
+- `GET /api/story/timeline`
+- `GET /api/story/lore`
+- `GET /api/story/endings`
+- `GET /api/story/mythology`
+- `GET /api/story/relationships`
+- `GET /api/story-codex/summary`
+
+Phase L:
+
+- `GET /api/production/summary`
+- `GET /api/production/import-status`
+- `POST /api/production/import`
+- `GET /api/production/export-jobs`
+- `POST /api/production/export`
+- `GET /api/production/validation-reports`
+- `POST /api/production/validate`
+- `GET /api/production/assets`
+- `POST /api/production/assets`
+- `POST /api/production/prompts`
+- `GET /api/production/localization`
+- `GET /api/production/build-status`
+- `GET /api/production/qa-reports`
+- `GET /api/production/analytics-summary`
+- `GET /api/production/mod-packs`
+- `POST /api/production/developer-command`
+
 ## Frontend Pages
 
 - Home
@@ -260,6 +344,9 @@ Phase I:
 - NPC Codex
 - Quest Codex
 - World Codex
+- Economy Dashboard
+- Story Codex
+- Production Dashboard
 
 ## Phase A Scope
 
@@ -593,3 +680,121 @@ Not included yet:
 - Pathfinding runtime
 - Dynamic weather simulation
 - Fast-travel transaction flow
+
+## Phase J Scope
+
+Status: Crafting & Economy Codex scaffold complete.
+
+Included:
+
+- `currencies`, `crafting_stations`, `recipe_categories`, `recipes`, `recipe_ingredients`, `shop_types`, `shops`, `shop_inventories`, `vendor_profiles`, `regional_price_modifiers`, `barter_rules`, `trade_routes`, `festival_markets`, `economy_events`, and `economy_asset_prompts` tables
+- `CraftingService`, `RecipeImportService`, `ShopService`, `EconomyPricingService`, `BarterService`, `TradeRouteService`, `FestivalMarketService`, and `CurrencyService`
+- `php artisan alamat:import-economy`
+- `php artisan alamat:validate-economy`
+- 6 currencies
+- 56 crafting stations
+- 14 recipe categories
+- 168 recipes
+- 504 recipe ingredients
+- 80 shops
+- 320 shop inventory rows
+- 80 vendor profiles
+- 60 regional price modifiers
+- 60 barter rules
+- 50 trade routes
+- 20 festival markets
+- 40 economy events
+- 230 economy asset prompt records
+- Asset folders under `public/assets/economy`
+- React crafting codex, recipe detail, shop directory, shop detail, trade route, festival market, and economy dashboard pages
+
+Seed and import Phase J:
+
+```bash
+node tools/generate-phase-j-economy.mjs
+php artisan migrate
+php artisan alamat:validate-economy
+php artisan alamat:import-economy
+```
+
+Not included yet:
+
+- Player inventory transactions
+- Wallet/save-game currency balances
+- Real buy/sell mutation
+- Crafting success rolls
+
+## Phase K Scope
+
+Status: Story Bible architecture complete.
+
+Included:
+
+- `story_acts`, `story_chapters`, `story_scenes`, `dialogues`, `dialogue_choices`, `dialogue_flags`, `cutscenes`, `cinematics`, `lore_books`, `folk_tales`, `songs`, `poems`, `timeline_entries`, `historical_events`, `world_history_entries`, `mythology_entries`, `character_relationships`, `ending_routes`, `epilogues`, and `story_asset_prompts` tables
+- `StoryService`, `DialogueService` story node support, `ChoiceService`, `TimelineService`, `LoreService`, `EndingService`, `RelationshipGraphService`, `LocalizationService`, and `StoryImportService`
+- `php artisan alamat:import-story`
+- `php artisan alamat:validate-story`
+- 9 acts
+- 15 chapters
+- 30 scenes
+- 30 dialogue nodes
+- 60 dialogue choices
+- 40 dialogue flags
+- 9 timeline eras
+- 36 historical events
+- 11 mythology entries
+- 70 relationship graph edges
+- 8 ending routes
+- 62 story asset prompt records
+- Asset folders under `public/assets/story`
+- React Story Codex, Act Viewer, Chapter Viewer, Timeline Viewer, Lore Library, Dialogue Browser, Relationship Graph, Ending Gallery, and Mythology Encyclopedia pages
+
+Seed and import Phase K:
+
+```bash
+node tools/generate-phase-k-story.mjs
+php artisan migrate
+php artisan alamat:validate-story
+php artisan alamat:import-story
+```
+
+Not included yet:
+
+- Full cinematic playback
+- Voice audio files
+- Final localized translations
+- Final illustrated story assets
+
+## Phase L Scope
+
+Status: Production Pipeline & Developer Tools scaffold complete.
+
+Included:
+
+- `production_import_jobs`, `production_export_jobs`, `production_validation_reports`, `production_assets`, `production_prompt_records`, `production_localization_strings`, `production_save_versions`, `production_qa_reports`, `production_build_runs`, `production_analytics_events`, `production_mod_packs`, and `production_console_logs` tables
+- `ProductionImportPipelineService`, `ProductionExportService`, `ProductionValidationService`, `ProductionAssetPipelineService`, and `ProductionPlatformService`
+- Import aliases: `php artisan alamat:import:monsters`, `alamat:import:items`, `alamat:import:equipment`, `alamat:import:npcs`, `alamat:import:quests`, `alamat:import:world`, and `alamat:import:story`
+- `php artisan alamat:production:validate`
+- `php artisan alamat:production:export`
+- `php artisan alamat:production:seed-defaults`
+- Production API endpoints under `/api/production`
+- React Developer Dashboard, Import Center, Validation Center, Asset Manager, Prompt Manager, Localization Manager, Save Inspector, QA Dashboard, Analytics Dashboard, and Build Manager
+- Required production folders under `storage`, `database`, `docs/production`, and `app`
+
+Run Phase L checks:
+
+```bash
+php artisan migrate
+php artisan db:seed --class=ProductionSeeder
+php artisan alamat:production:validate story
+php artisan alamat:production:export story --format=json --limit=5
+php artisan alamat:import:story --dry-run
+```
+
+Not included yet:
+
+- Full authenticated admin role UI
+- Live JSON editing writes from React
+- PDF rendering
+- Real asset generation calls
+- Production telemetry ingestion

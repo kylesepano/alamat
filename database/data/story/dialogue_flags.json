@@ -1,0 +1,362 @@
+[
+  {
+    "flag_id": "SFLG00001",
+    "code": "story_flag_1",
+    "name": "Story Flag 1",
+    "description": "Reusable flag for story, quest, shop, crafting, and world-state conditions.",
+    "scope": "global",
+    "default_value": false,
+    "is_persistent": true
+  },
+  {
+    "flag_id": "SFLG00002",
+    "code": "story_flag_2",
+    "name": "Story Flag 2",
+    "description": "Reusable flag for story, quest, shop, crafting, and world-state conditions.",
+    "scope": "npc",
+    "default_value": false,
+    "is_persistent": true
+  },
+  {
+    "flag_id": "SFLG00003",
+    "code": "story_flag_3",
+    "name": "Story Flag 3",
+    "description": "Reusable flag for story, quest, shop, crafting, and world-state conditions.",
+    "scope": "faction",
+    "default_value": false,
+    "is_persistent": true
+  },
+  {
+    "flag_id": "SFLG00004",
+    "code": "story_flag_4",
+    "name": "Story Flag 4",
+    "description": "Reusable flag for story, quest, shop, crafting, and world-state conditions.",
+    "scope": "chapter",
+    "default_value": false,
+    "is_persistent": true
+  },
+  {
+    "flag_id": "SFLG00005",
+    "code": "story_flag_5",
+    "name": "Story Flag 5",
+    "description": "Reusable flag for story, quest, shop, crafting, and world-state conditions.",
+    "scope": "ending",
+    "default_value": false,
+    "is_persistent": true
+  },
+  {
+    "flag_id": "SFLG00006",
+    "code": "story_flag_6",
+    "name": "Story Flag 6",
+    "description": "Reusable flag for story, quest, shop, crafting, and world-state conditions.",
+    "scope": "global",
+    "default_value": false,
+    "is_persistent": true
+  },
+  {
+    "flag_id": "SFLG00007",
+    "code": "story_flag_7",
+    "name": "Story Flag 7",
+    "description": "Reusable flag for story, quest, shop, crafting, and world-state conditions.",
+    "scope": "npc",
+    "default_value": false,
+    "is_persistent": true
+  },
+  {
+    "flag_id": "SFLG00008",
+    "code": "story_flag_8",
+    "name": "Story Flag 8",
+    "description": "Reusable flag for story, quest, shop, crafting, and world-state conditions.",
+    "scope": "faction",
+    "default_value": false,
+    "is_persistent": true
+  },
+  {
+    "flag_id": "SFLG00009",
+    "code": "story_flag_9",
+    "name": "Story Flag 9",
+    "description": "Reusable flag for story, quest, shop, crafting, and world-state conditions.",
+    "scope": "chapter",
+    "default_value": false,
+    "is_persistent": true
+  },
+  {
+    "flag_id": "SFLG00010",
+    "code": "story_flag_10",
+    "name": "Story Flag 10",
+    "description": "Reusable flag for story, quest, shop, crafting, and world-state conditions.",
+    "scope": "ending",
+    "default_value": false,
+    "is_persistent": true
+  },
+  {
+    "flag_id": "SFLG00011",
+    "code": "story_flag_11",
+    "name": "Story Flag 11",
+    "description": "Reusable flag for story, quest, shop, crafting, and world-state conditions.",
+    "scope": "global",
+    "default_value": false,
+    "is_persistent": true
+  },
+  {
+    "flag_id": "SFLG00012",
+    "code": "story_flag_12",
+    "name": "Story Flag 12",
+    "description": "Reusable flag for story, quest, shop, crafting, and world-state conditions.",
+    "scope": "npc",
+    "default_value": false,
+    "is_persistent": true
+  },
+  {
+    "flag_id": "SFLG00013",
+    "code": "story_flag_13",
+    "name": "Story Flag 13",
+    "description": "Reusable flag for story, quest, shop, crafting, and world-state conditions.",
+    "scope": "faction",
+    "default_value": false,
+    "is_persistent": true
+  },
+  {
+    "flag_id": "SFLG00014",
+    "code": "story_flag_14",
+    "name": "Story Flag 14",
+    "description": "Reusable flag for story, quest, shop, crafting, and world-state conditions.",
+    "scope": "chapter",
+    "default_value": false,
+    "is_persistent": true
+  },
+  {
+    "flag_id": "SFLG00015",
+    "code": "story_flag_15",
+    "name": "Story Flag 15",
+    "description": "Reusable flag for story, quest, shop, crafting, and world-state conditions.",
+    "scope": "ending",
+    "default_value": false,
+    "is_persistent": true
+  },
+  {
+    "flag_id": "SFLG00016",
+    "code": "story_flag_16",
+    "name": "Story Flag 16",
+    "description": "Reusable flag for story, quest, shop, crafting, and world-state conditions.",
+    "scope": "global",
+    "default_value": false,
+    "is_persistent": true
+  },
+  {
+    "flag_id": "SFLG00017",
+    "code": "story_flag_17",
+    "name": "Story Flag 17",
+    "description": "Reusable flag for story, quest, shop, crafting, and world-state conditions.",
+    "scope": "npc",
+    "default_value": false,
+    "is_persistent": true
+  },
+  {
+    "flag_id": "SFLG00018",
+    "code": "story_flag_18",
+    "name": "Story Flag 18",
+    "description": "Reusable flag for story, quest, shop, crafting, and world-state conditions.",
+    "scope": "faction",
+    "default_value": false,
+    "is_persistent": true
+  },
+  {
+    "flag_id": "SFLG00019",
+    "code": "story_flag_19",
+    "name": "Story Flag 19",
+    "description": "Reusable flag for story, quest, shop, crafting, and world-state conditions.",
+    "scope": "chapter",
+    "default_value": false,
+    "is_persistent": true
+  },
+  {
+    "flag_id": "SFLG00020",
+    "code": "story_flag_20",
+    "name": "Story Flag 20",
+    "description": "Reusable flag for story, quest, shop, crafting, and world-state conditions.",
+    "scope": "ending",
+    "default_value": false,
+    "is_persistent": true
+  },
+  {
+    "flag_id": "SFLG00021",
+    "code": "story_flag_21",
+    "name": "Story Flag 21",
+    "description": "Reusable flag for story, quest, shop, crafting, and world-state conditions.",
+    "scope": "global",
+    "default_value": false,
+    "is_persistent": true
+  },
+  {
+    "flag_id": "SFLG00022",
+    "code": "story_flag_22",
+    "name": "Story Flag 22",
+    "description": "Reusable flag for story, quest, shop, crafting, and world-state conditions.",
+    "scope": "npc",
+    "default_value": false,
+    "is_persistent": true
+  },
+  {
+    "flag_id": "SFLG00023",
+    "code": "story_flag_23",
+    "name": "Story Flag 23",
+    "description": "Reusable flag for story, quest, shop, crafting, and world-state conditions.",
+    "scope": "faction",
+    "default_value": false,
+    "is_persistent": true
+  },
+  {
+    "flag_id": "SFLG00024",
+    "code": "story_flag_24",
+    "name": "Story Flag 24",
+    "description": "Reusable flag for story, quest, shop, crafting, and world-state conditions.",
+    "scope": "chapter",
+    "default_value": false,
+    "is_persistent": true
+  },
+  {
+    "flag_id": "SFLG00025",
+    "code": "story_flag_25",
+    "name": "Story Flag 25",
+    "description": "Reusable flag for story, quest, shop, crafting, and world-state conditions.",
+    "scope": "ending",
+    "default_value": false,
+    "is_persistent": true
+  },
+  {
+    "flag_id": "SFLG00026",
+    "code": "story_flag_26",
+    "name": "Story Flag 26",
+    "description": "Reusable flag for story, quest, shop, crafting, and world-state conditions.",
+    "scope": "global",
+    "default_value": false,
+    "is_persistent": true
+  },
+  {
+    "flag_id": "SFLG00027",
+    "code": "story_flag_27",
+    "name": "Story Flag 27",
+    "description": "Reusable flag for story, quest, shop, crafting, and world-state conditions.",
+    "scope": "npc",
+    "default_value": false,
+    "is_persistent": true
+  },
+  {
+    "flag_id": "SFLG00028",
+    "code": "story_flag_28",
+    "name": "Story Flag 28",
+    "description": "Reusable flag for story, quest, shop, crafting, and world-state conditions.",
+    "scope": "faction",
+    "default_value": false,
+    "is_persistent": true
+  },
+  {
+    "flag_id": "SFLG00029",
+    "code": "story_flag_29",
+    "name": "Story Flag 29",
+    "description": "Reusable flag for story, quest, shop, crafting, and world-state conditions.",
+    "scope": "chapter",
+    "default_value": false,
+    "is_persistent": true
+  },
+  {
+    "flag_id": "SFLG00030",
+    "code": "story_flag_30",
+    "name": "Story Flag 30",
+    "description": "Reusable flag for story, quest, shop, crafting, and world-state conditions.",
+    "scope": "ending",
+    "default_value": false,
+    "is_persistent": true
+  },
+  {
+    "flag_id": "SFLG00031",
+    "code": "story_flag_31",
+    "name": "Story Flag 31",
+    "description": "Reusable flag for story, quest, shop, crafting, and world-state conditions.",
+    "scope": "global",
+    "default_value": false,
+    "is_persistent": true
+  },
+  {
+    "flag_id": "SFLG00032",
+    "code": "story_flag_32",
+    "name": "Story Flag 32",
+    "description": "Reusable flag for story, quest, shop, crafting, and world-state conditions.",
+    "scope": "npc",
+    "default_value": false,
+    "is_persistent": true
+  },
+  {
+    "flag_id": "SFLG00033",
+    "code": "story_flag_33",
+    "name": "Story Flag 33",
+    "description": "Reusable flag for story, quest, shop, crafting, and world-state conditions.",
+    "scope": "faction",
+    "default_value": false,
+    "is_persistent": true
+  },
+  {
+    "flag_id": "SFLG00034",
+    "code": "story_flag_34",
+    "name": "Story Flag 34",
+    "description": "Reusable flag for story, quest, shop, crafting, and world-state conditions.",
+    "scope": "chapter",
+    "default_value": false,
+    "is_persistent": true
+  },
+  {
+    "flag_id": "SFLG00035",
+    "code": "story_flag_35",
+    "name": "Story Flag 35",
+    "description": "Reusable flag for story, quest, shop, crafting, and world-state conditions.",
+    "scope": "ending",
+    "default_value": false,
+    "is_persistent": true
+  },
+  {
+    "flag_id": "SFLG00036",
+    "code": "story_flag_36",
+    "name": "Story Flag 36",
+    "description": "Reusable flag for story, quest, shop, crafting, and world-state conditions.",
+    "scope": "global",
+    "default_value": false,
+    "is_persistent": true
+  },
+  {
+    "flag_id": "SFLG00037",
+    "code": "story_flag_37",
+    "name": "Story Flag 37",
+    "description": "Reusable flag for story, quest, shop, crafting, and world-state conditions.",
+    "scope": "npc",
+    "default_value": false,
+    "is_persistent": true
+  },
+  {
+    "flag_id": "SFLG00038",
+    "code": "story_flag_38",
+    "name": "Story Flag 38",
+    "description": "Reusable flag for story, quest, shop, crafting, and world-state conditions.",
+    "scope": "faction",
+    "default_value": false,
+    "is_persistent": true
+  },
+  {
+    "flag_id": "SFLG00039",
+    "code": "story_flag_39",
+    "name": "Story Flag 39",
+    "description": "Reusable flag for story, quest, shop, crafting, and world-state conditions.",
+    "scope": "chapter",
+    "default_value": false,
+    "is_persistent": true
+  },
+  {
+    "flag_id": "SFLG00040",
+    "code": "story_flag_40",
+    "name": "Story Flag 40",
+    "description": "Reusable flag for story, quest, shop, crafting, and world-state conditions.",
+    "scope": "ending",
+    "default_value": false,
+    "is_persistent": true
+  }
+]

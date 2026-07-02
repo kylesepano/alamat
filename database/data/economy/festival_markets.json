@@ -1,0 +1,382 @@
+[
+  {
+    "festival_market_id": "FMKT00001",
+    "name": "Festival Market 1",
+    "slug": "festival-market-1",
+    "location_id": "WLOC000001",
+    "currency_id": "CUR0006",
+    "schedule_payload": {
+      "season": "dry",
+      "days": 3
+    },
+    "featured_goods_payload": {
+      "recipe_type": "cooking",
+      "discount": 0.85
+    },
+    "condition_payload": {
+      "quest_flag": "festival_1"
+    },
+    "is_active": true
+  },
+  {
+    "festival_market_id": "FMKT00002",
+    "name": "Festival Market 2",
+    "slug": "festival-market-2",
+    "location_id": "WLOC000002",
+    "currency_id": "CUR0006",
+    "schedule_payload": {
+      "season": "rainy",
+      "days": 4
+    },
+    "featured_goods_payload": {
+      "recipe_type": "herbalism",
+      "discount": 0.85
+    },
+    "condition_payload": {
+      "quest_flag": null
+    },
+    "is_active": true
+  },
+  {
+    "festival_market_id": "FMKT00003",
+    "name": "Festival Market 3",
+    "slug": "festival-market-3",
+    "location_id": "WLOC000003",
+    "currency_id": "CUR0006",
+    "schedule_payload": {
+      "season": "spirit",
+      "days": 5
+    },
+    "featured_goods_payload": {
+      "recipe_type": "forging",
+      "discount": 0.85
+    },
+    "condition_payload": {
+      "quest_flag": null
+    },
+    "is_active": true
+  },
+  {
+    "festival_market_id": "FMKT00004",
+    "name": "Festival Market 4",
+    "slug": "festival-market-4",
+    "location_id": "WLOC000004",
+    "currency_id": "CUR0006",
+    "schedule_payload": {
+      "season": "dry",
+      "days": 6
+    },
+    "featured_goods_payload": {
+      "recipe_type": "weaving",
+      "discount": 0.85
+    },
+    "condition_payload": {
+      "quest_flag": null
+    },
+    "is_active": true
+  },
+  {
+    "festival_market_id": "FMKT00005",
+    "name": "Festival Market 5",
+    "slug": "festival-market-5",
+    "location_id": "WLOC000005",
+    "currency_id": "CUR0006",
+    "schedule_payload": {
+      "season": "rainy",
+      "days": 7
+    },
+    "featured_goods_payload": {
+      "recipe_type": "carving",
+      "discount": 0.85
+    },
+    "condition_payload": {
+      "quest_flag": "festival_5"
+    },
+    "is_active": true
+  },
+  {
+    "festival_market_id": "FMKT00006",
+    "name": "Festival Market 6",
+    "slug": "festival-market-6",
+    "location_id": "WLOC000006",
+    "currency_id": "CUR0006",
+    "schedule_payload": {
+      "season": "spirit",
+      "days": 3
+    },
+    "featured_goods_payload": {
+      "recipe_type": "alchemy",
+      "discount": 0.85
+    },
+    "condition_payload": {
+      "quest_flag": null
+    },
+    "is_active": true
+  },
+  {
+    "festival_market_id": "FMKT00007",
+    "name": "Festival Market 7",
+    "slug": "festival-market-7",
+    "location_id": "WLOC000007",
+    "currency_id": "CUR0006",
+    "schedule_payload": {
+      "season": "dry",
+      "days": 4
+    },
+    "featured_goods_payload": {
+      "recipe_type": "ritual",
+      "discount": 0.85
+    },
+    "condition_payload": {
+      "quest_flag": null
+    },
+    "is_active": true
+  },
+  {
+    "festival_market_id": "FMKT00008",
+    "name": "Festival Market 8",
+    "slug": "festival-market-8",
+    "location_id": "WLOC000008",
+    "currency_id": "CUR0006",
+    "schedule_payload": {
+      "season": "rainy",
+      "days": 5
+    },
+    "featured_goods_payload": {
+      "recipe_type": "enchanting",
+      "discount": 0.85
+    },
+    "condition_payload": {
+      "quest_flag": null
+    },
+    "is_active": true
+  },
+  {
+    "festival_market_id": "FMKT00009",
+    "name": "Festival Market 9",
+    "slug": "festival-market-9",
+    "location_id": "WLOC000009",
+    "currency_id": "CUR0006",
+    "schedule_payload": {
+      "season": "spirit",
+      "days": 6
+    },
+    "featured_goods_payload": {
+      "recipe_type": "equipment_upgrade",
+      "discount": 0.85
+    },
+    "condition_payload": {
+      "quest_flag": "festival_9"
+    },
+    "is_active": true
+  },
+  {
+    "festival_market_id": "FMKT00010",
+    "name": "Festival Market 10",
+    "slug": "festival-market-10",
+    "location_id": "WLOC000010",
+    "currency_id": "CUR0006",
+    "schedule_payload": {
+      "season": "dry",
+      "days": 7
+    },
+    "featured_goods_payload": {
+      "recipe_type": "talisman_making",
+      "discount": 0.85
+    },
+    "condition_payload": {
+      "quest_flag": null
+    },
+    "is_active": true
+  },
+  {
+    "festival_market_id": "FMKT00011",
+    "name": "Festival Market 11",
+    "slug": "festival-market-11",
+    "location_id": "WLOC000011",
+    "currency_id": "CUR0006",
+    "schedule_payload": {
+      "season": "rainy",
+      "days": 3
+    },
+    "featured_goods_payload": {
+      "recipe_type": "monster_care",
+      "discount": 0.85
+    },
+    "condition_payload": {
+      "quest_flag": null
+    },
+    "is_active": true
+  },
+  {
+    "festival_market_id": "FMKT00012",
+    "name": "Festival Market 12",
+    "slug": "festival-market-12",
+    "location_id": "WLOC000012",
+    "currency_id": "CUR0006",
+    "schedule_payload": {
+      "season": "spirit",
+      "days": 4
+    },
+    "featured_goods_payload": {
+      "recipe_type": "fishing",
+      "discount": 0.85
+    },
+    "condition_payload": {
+      "quest_flag": null
+    },
+    "is_active": true
+  },
+  {
+    "festival_market_id": "FMKT00013",
+    "name": "Festival Market 13",
+    "slug": "festival-market-13",
+    "location_id": "WLOC000013",
+    "currency_id": "CUR0006",
+    "schedule_payload": {
+      "season": "dry",
+      "days": 5
+    },
+    "featured_goods_payload": {
+      "recipe_type": "farming",
+      "discount": 0.85
+    },
+    "condition_payload": {
+      "quest_flag": "festival_13"
+    },
+    "is_active": true
+  },
+  {
+    "festival_market_id": "FMKT00014",
+    "name": "Festival Market 14",
+    "slug": "festival-market-14",
+    "location_id": "WLOC000014",
+    "currency_id": "CUR0006",
+    "schedule_payload": {
+      "season": "rainy",
+      "days": 6
+    },
+    "featured_goods_payload": {
+      "recipe_type": "festival_crafting",
+      "discount": 0.85
+    },
+    "condition_payload": {
+      "quest_flag": null
+    },
+    "is_active": true
+  },
+  {
+    "festival_market_id": "FMKT00015",
+    "name": "Festival Market 15",
+    "slug": "festival-market-15",
+    "location_id": "WLOC000015",
+    "currency_id": "CUR0006",
+    "schedule_payload": {
+      "season": "spirit",
+      "days": 7
+    },
+    "featured_goods_payload": {
+      "recipe_type": "cooking",
+      "discount": 0.85
+    },
+    "condition_payload": {
+      "quest_flag": null
+    },
+    "is_active": true
+  },
+  {
+    "festival_market_id": "FMKT00016",
+    "name": "Festival Market 16",
+    "slug": "festival-market-16",
+    "location_id": "WLOC000016",
+    "currency_id": "CUR0006",
+    "schedule_payload": {
+      "season": "dry",
+      "days": 3
+    },
+    "featured_goods_payload": {
+      "recipe_type": "herbalism",
+      "discount": 0.85
+    },
+    "condition_payload": {
+      "quest_flag": null
+    },
+    "is_active": true
+  },
+  {
+    "festival_market_id": "FMKT00017",
+    "name": "Festival Market 17",
+    "slug": "festival-market-17",
+    "location_id": "WLOC000017",
+    "currency_id": "CUR0006",
+    "schedule_payload": {
+      "season": "rainy",
+      "days": 4
+    },
+    "featured_goods_payload": {
+      "recipe_type": "forging",
+      "discount": 0.85
+    },
+    "condition_payload": {
+      "quest_flag": "festival_17"
+    },
+    "is_active": true
+  },
+  {
+    "festival_market_id": "FMKT00018",
+    "name": "Festival Market 18",
+    "slug": "festival-market-18",
+    "location_id": "WLOC000018",
+    "currency_id": "CUR0006",
+    "schedule_payload": {
+      "season": "spirit",
+      "days": 5
+    },
+    "featured_goods_payload": {
+      "recipe_type": "weaving",
+      "discount": 0.85
+    },
+    "condition_payload": {
+      "quest_flag": null
+    },
+    "is_active": true
+  },
+  {
+    "festival_market_id": "FMKT00019",
+    "name": "Festival Market 19",
+    "slug": "festival-market-19",
+    "location_id": "WLOC000019",
+    "currency_id": "CUR0006",
+    "schedule_payload": {
+      "season": "dry",
+      "days": 6
+    },
+    "featured_goods_payload": {
+      "recipe_type": "carving",
+      "discount": 0.85
+    },
+    "condition_payload": {
+      "quest_flag": null
+    },
+    "is_active": true
+  },
+  {
+    "festival_market_id": "FMKT00020",
+    "name": "Festival Market 20",
+    "slug": "festival-market-20",
+    "location_id": "WLOC000020",
+    "currency_id": "CUR0006",
+    "schedule_payload": {
+      "season": "rainy",
+      "days": 7
+    },
+    "featured_goods_payload": {
+      "recipe_type": "alchemy",
+      "discount": 0.85
+    },
+    "condition_payload": {
+      "quest_flag": null
+    },
+    "is_active": true
+  }
+]

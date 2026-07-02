@@ -1,0 +1,715 @@
+[
+  {
+    "chapter_id": "STCH001",
+    "act_id": "STACT001",
+    "chapter_number": 0,
+    "title": "Home by the River",
+    "slug": "home-by-the-river",
+    "summary": "The player learns that familiar places remember more than people admit.",
+    "region": "WREG0001",
+    "recommended_level": 1,
+    "major_quests": [
+      "QST000001",
+      "QST000002"
+    ],
+    "important_npcs": [
+      "NPC000001",
+      "NPC000002"
+    ],
+    "major_monsters": [
+      "ALM-0001",
+      "ALM-0002"
+    ],
+    "legendary_encounters": [
+      "LEG-001"
+    ],
+    "emotional_climax": "A choice about mercy changes how the chapter is remembered.",
+    "regional_exploration": {
+      "region": "WREG0001",
+      "unlocks": [
+        "settlement rumors",
+        "field notes",
+        "optional shrine path"
+      ]
+    },
+    "moral_choices": [
+      "Mercy",
+      "Justice",
+      "Curiosity"
+    ],
+    "unlock_conditions": {
+      "min_level": 1,
+      "flags": []
+    },
+    "completion_conditions": {
+      "required_scene": "STSC00002",
+      "set_flag": "chapter_0_complete"
+    }
+  },
+  {
+    "chapter_id": "STCH002",
+    "act_id": "STACT001",
+    "chapter_number": 1,
+    "title": "First Oath of Trust",
+    "slug": "first-oath-of-trust",
+    "summary": "A companion Nilalang bond begins through care instead of capture.",
+    "region": "WREG0001",
+    "recommended_level": 2,
+    "major_quests": [
+      "QST000004",
+      "QST000005"
+    ],
+    "important_npcs": [
+      "NPC000003",
+      "NPC000004"
+    ],
+    "major_monsters": [
+      "ALM-0003",
+      "ALM-0004"
+    ],
+    "legendary_encounters": [],
+    "emotional_climax": "A choice about justice changes how the chapter is remembered.",
+    "regional_exploration": {
+      "region": "WREG0001",
+      "unlocks": [
+        "settlement rumors",
+        "field notes",
+        "optional shrine path"
+      ]
+    },
+    "moral_choices": [
+      "Justice",
+      "Curiosity",
+      "Wisdom"
+    ],
+    "unlock_conditions": {
+      "min_level": 2,
+      "flags": [
+        "chapter_0_complete"
+      ]
+    },
+    "completion_conditions": {
+      "required_scene": "STSC00004",
+      "set_flag": "chapter_1_complete"
+    }
+  },
+  {
+    "chapter_id": "STCH003",
+    "act_id": "STACT002",
+    "chapter_number": 2,
+    "title": "Market of Broken Bowls",
+    "slug": "market-of-broken-bowls",
+    "summary": "Village offerings vanish, prices rise, and rumors blame the wrong spirits.",
+    "region": "WREG0004",
+    "recommended_level": 5,
+    "major_quests": [
+      "QST000007",
+      "QST000008"
+    ],
+    "important_npcs": [
+      "NPC000005",
+      "NPC000006"
+    ],
+    "major_monsters": [
+      "ALM-0005",
+      "ALM-0006"
+    ],
+    "legendary_encounters": [],
+    "emotional_climax": "A choice about curiosity changes how the chapter is remembered.",
+    "regional_exploration": {
+      "region": "WREG0004",
+      "unlocks": [
+        "settlement rumors",
+        "field notes",
+        "optional shrine path"
+      ]
+    },
+    "moral_choices": [
+      "Curiosity",
+      "Wisdom",
+      "Duty"
+    ],
+    "unlock_conditions": {
+      "min_level": 5,
+      "flags": [
+        "chapter_1_complete"
+      ]
+    },
+    "completion_conditions": {
+      "required_scene": "STSC00006",
+      "set_flag": "chapter_2_complete"
+    }
+  },
+  {
+    "chapter_id": "STCH004",
+    "act_id": "STACT002",
+    "chapter_number": 3,
+    "title": "The Balete Vigil",
+    "slug": "the-balete-vigil",
+    "summary": "The player mediates between frightened townsfolk and a wounded guardian presence.",
+    "region": "WREG0004",
+    "recommended_level": 9,
+    "major_quests": [
+      "QST000010",
+      "QST000011"
+    ],
+    "important_npcs": [
+      "NPC000007",
+      "NPC000008"
+    ],
+    "major_monsters": [
+      "ALM-0007",
+      "ALM-0008"
+    ],
+    "legendary_encounters": [
+      "LEG-004"
+    ],
+    "emotional_climax": "A choice about wisdom changes how the chapter is remembered.",
+    "regional_exploration": {
+      "region": "WREG0004",
+      "unlocks": [
+        "settlement rumors",
+        "field notes",
+        "optional shrine path"
+      ]
+    },
+    "moral_choices": [
+      "Wisdom",
+      "Duty",
+      "Compassion"
+    ],
+    "unlock_conditions": {
+      "min_level": 9,
+      "flags": [
+        "chapter_2_complete"
+      ]
+    },
+    "completion_conditions": {
+      "required_scene": "STSC00008",
+      "set_flag": "chapter_3_complete"
+    }
+  },
+  {
+    "chapter_id": "STCH005",
+    "act_id": "STACT003",
+    "chapter_number": 4,
+    "title": "Rain Roads",
+    "slug": "rain-roads",
+    "summary": "Caravan routes and shelter towns reveal how weather changes trust, prices, and safety.",
+    "region": "WREG0007",
+    "recommended_level": 15,
+    "major_quests": [
+      "QST000013",
+      "QST000014"
+    ],
+    "important_npcs": [
+      "NPC000009",
+      "NPC000010"
+    ],
+    "major_monsters": [
+      "ALM-0009",
+      "ALM-0010"
+    ],
+    "legendary_encounters": [],
+    "emotional_climax": "A choice about duty changes how the chapter is remembered.",
+    "regional_exploration": {
+      "region": "WREG0007",
+      "unlocks": [
+        "settlement rumors",
+        "field notes",
+        "optional shrine path"
+      ]
+    },
+    "moral_choices": [
+      "Duty",
+      "Compassion",
+      "Honor"
+    ],
+    "unlock_conditions": {
+      "min_level": 15,
+      "flags": [
+        "chapter_3_complete"
+      ]
+    },
+    "completion_conditions": {
+      "required_scene": "STSC00010",
+      "set_flag": "chapter_4_complete"
+    }
+  },
+  {
+    "chapter_id": "STCH006",
+    "act_id": "STACT003",
+    "chapter_number": 5,
+    "title": "Council of Ash",
+    "slug": "council-of-ash",
+    "summary": "Factions argue over whether to seal, study, trade with, or appease awakened forces.",
+    "region": "WREG0007",
+    "recommended_level": 21,
+    "major_quests": [
+      "QST000016",
+      "QST000017"
+    ],
+    "important_npcs": [
+      "NPC000011",
+      "NPC000012"
+    ],
+    "major_monsters": [
+      "ALM-0011",
+      "ALM-0012"
+    ],
+    "legendary_encounters": [],
+    "emotional_climax": "A choice about mercy changes how the chapter is remembered.",
+    "regional_exploration": {
+      "region": "WREG0007",
+      "unlocks": [
+        "settlement rumors",
+        "field notes",
+        "optional shrine path"
+      ]
+    },
+    "moral_choices": [
+      "Mercy",
+      "Justice",
+      "Curiosity"
+    ],
+    "unlock_conditions": {
+      "min_level": 21,
+      "flags": [
+        "chapter_4_complete"
+      ]
+    },
+    "completion_conditions": {
+      "required_scene": "STSC00012",
+      "set_flag": "chapter_5_complete"
+    }
+  },
+  {
+    "chapter_id": "STCH007",
+    "act_id": "STACT004",
+    "chapter_number": 6,
+    "title": "Dream Gate",
+    "slug": "dream-gate",
+    "summary": "Personal memories become explorable spaces shaped by unresolved obligations.",
+    "region": "WREG0012",
+    "recommended_level": 28,
+    "major_quests": [
+      "QST000019",
+      "QST000020"
+    ],
+    "important_npcs": [
+      "NPC000013",
+      "NPC000014"
+    ],
+    "major_monsters": [
+      "ALM-0013",
+      "ALM-0014"
+    ],
+    "legendary_encounters": [
+      "LEG-007"
+    ],
+    "emotional_climax": "A choice about justice changes how the chapter is remembered.",
+    "regional_exploration": {
+      "region": "WREG0012",
+      "unlocks": [
+        "settlement rumors",
+        "field notes",
+        "optional shrine path"
+      ]
+    },
+    "moral_choices": [
+      "Justice",
+      "Curiosity",
+      "Wisdom"
+    ],
+    "unlock_conditions": {
+      "min_level": 28,
+      "flags": [
+        "chapter_5_complete"
+      ]
+    },
+    "completion_conditions": {
+      "required_scene": "STSC00014",
+      "set_flag": "chapter_6_complete"
+    }
+  },
+  {
+    "chapter_id": "STCH008",
+    "act_id": "STACT004",
+    "chapter_number": 7,
+    "title": "Lamp of the Below",
+    "slug": "lamp-of-the-below",
+    "summary": "Underworld myths are treated as fictional ALAMAT realms of memory, grief, and unfinished oaths.",
+    "region": "WREG0012",
+    "recommended_level": 34,
+    "major_quests": [
+      "QST000022",
+      "QST000023"
+    ],
+    "important_npcs": [
+      "NPC000015",
+      "NPC000016"
+    ],
+    "major_monsters": [
+      "ALM-0015",
+      "ALM-0016"
+    ],
+    "legendary_encounters": [],
+    "emotional_climax": "A choice about curiosity changes how the chapter is remembered.",
+    "regional_exploration": {
+      "region": "WREG0012",
+      "unlocks": [
+        "settlement rumors",
+        "field notes",
+        "optional shrine path"
+      ]
+    },
+    "moral_choices": [
+      "Curiosity",
+      "Wisdom",
+      "Duty"
+    ],
+    "unlock_conditions": {
+      "min_level": 34,
+      "flags": [
+        "chapter_6_complete"
+      ]
+    },
+    "completion_conditions": {
+      "required_scene": "STSC00016",
+      "set_flag": "chapter_7_complete"
+    }
+  },
+  {
+    "chapter_id": "STCH009",
+    "act_id": "STACT005",
+    "chapter_number": 8,
+    "title": "Court of Tides",
+    "slug": "court-of-tides",
+    "summary": "Coastal communities negotiate safe passage, fishing rights, and sea-linked Nilalang trust.",
+    "region": "WREG0015",
+    "recommended_level": 40,
+    "major_quests": [
+      "QST000025",
+      "QST000026"
+    ],
+    "important_npcs": [
+      "NPC000017",
+      "NPC000018"
+    ],
+    "major_monsters": [
+      "ALM-0017",
+      "ALM-0018"
+    ],
+    "legendary_encounters": [],
+    "emotional_climax": "A choice about wisdom changes how the chapter is remembered.",
+    "regional_exploration": {
+      "region": "WREG0015",
+      "unlocks": [
+        "settlement rumors",
+        "field notes",
+        "optional shrine path"
+      ]
+    },
+    "moral_choices": [
+      "Wisdom",
+      "Duty",
+      "Compassion"
+    ],
+    "unlock_conditions": {
+      "min_level": 40,
+      "flags": [
+        "chapter_7_complete"
+      ]
+    },
+    "completion_conditions": {
+      "required_scene": "STSC00018",
+      "set_flag": "chapter_8_complete"
+    }
+  },
+  {
+    "chapter_id": "STCH010",
+    "act_id": "STACT005",
+    "chapter_number": 9,
+    "title": "Pact of Thunder",
+    "slug": "pact-of-thunder",
+    "summary": "Sky and mountain storylines test whether strength can protect without domination.",
+    "region": "WREG0015",
+    "recommended_level": 47,
+    "major_quests": [
+      "QST000028",
+      "QST000029"
+    ],
+    "important_npcs": [
+      "NPC000019",
+      "NPC000020"
+    ],
+    "major_monsters": [
+      "ALM-0019",
+      "ALM-0020"
+    ],
+    "legendary_encounters": [
+      "LEG-010"
+    ],
+    "emotional_climax": "A choice about duty changes how the chapter is remembered.",
+    "regional_exploration": {
+      "region": "WREG0015",
+      "unlocks": [
+        "settlement rumors",
+        "field notes",
+        "optional shrine path"
+      ]
+    },
+    "moral_choices": [
+      "Duty",
+      "Compassion",
+      "Honor"
+    ],
+    "unlock_conditions": {
+      "min_level": 47,
+      "flags": [
+        "chapter_8_complete"
+      ]
+    },
+    "completion_conditions": {
+      "required_scene": "STSC00020",
+      "set_flag": "chapter_9_complete"
+    }
+  },
+  {
+    "chapter_id": "STCH011",
+    "act_id": "STACT006",
+    "chapter_number": 10,
+    "title": "Many Councils",
+    "slug": "many-councils",
+    "summary": "Old enemies and uneasy allies gather as the player weighs regional needs.",
+    "region": "WREG0001",
+    "recommended_level": 55,
+    "major_quests": [
+      "QST000031",
+      "QST000032"
+    ],
+    "important_npcs": [
+      "NPC000021",
+      "NPC000022"
+    ],
+    "major_monsters": [
+      "ALM-0021",
+      "ALM-0022"
+    ],
+    "legendary_encounters": [],
+    "emotional_climax": "A choice about mercy changes how the chapter is remembered.",
+    "regional_exploration": {
+      "region": "WREG0001",
+      "unlocks": [
+        "settlement rumors",
+        "field notes",
+        "optional shrine path"
+      ]
+    },
+    "moral_choices": [
+      "Mercy",
+      "Justice",
+      "Curiosity"
+    ],
+    "unlock_conditions": {
+      "min_level": 55,
+      "flags": [
+        "chapter_9_complete"
+      ]
+    },
+    "completion_conditions": {
+      "required_scene": "STSC00022",
+      "set_flag": "chapter_10_complete"
+    }
+  },
+  {
+    "chapter_id": "STCH012",
+    "act_id": "STACT006",
+    "chapter_number": 11,
+    "title": "Final Threshold",
+    "slug": "final-threshold",
+    "summary": "Companion trust and faction reputation alter the final route into the source of imbalance.",
+    "region": "WREG0004",
+    "recommended_level": 60,
+    "major_quests": [
+      "QST000034",
+      "QST000035"
+    ],
+    "important_npcs": [
+      "NPC000023",
+      "NPC000024"
+    ],
+    "major_monsters": [
+      "ALM-0023",
+      "ALM-0024"
+    ],
+    "legendary_encounters": [],
+    "emotional_climax": "A choice about justice changes how the chapter is remembered.",
+    "regional_exploration": {
+      "region": "WREG0004",
+      "unlocks": [
+        "settlement rumors",
+        "field notes",
+        "optional shrine path"
+      ]
+    },
+    "moral_choices": [
+      "Justice",
+      "Curiosity",
+      "Wisdom"
+    ],
+    "unlock_conditions": {
+      "min_level": 60,
+      "flags": [
+        "chapter_10_complete"
+      ]
+    },
+    "completion_conditions": {
+      "required_scene": "STSC00024",
+      "set_flag": "chapter_11_complete"
+    }
+  },
+  {
+    "chapter_id": "STCH013",
+    "act_id": "STACT007",
+    "chapter_number": 12,
+    "title": "Song Returned",
+    "slug": "song-returned",
+    "summary": "The finale resolves through accumulated values, not a single good or evil meter.",
+    "region": "WREG0007",
+    "recommended_level": 65,
+    "major_quests": [
+      "QST000037",
+      "QST000038"
+    ],
+    "important_npcs": [
+      "NPC000025",
+      "NPC000026"
+    ],
+    "major_monsters": [
+      "ALM-0025",
+      "ALM-0026"
+    ],
+    "legendary_encounters": [
+      "LEG-013"
+    ],
+    "emotional_climax": "A choice about curiosity changes how the chapter is remembered.",
+    "regional_exploration": {
+      "region": "WREG0007",
+      "unlocks": [
+        "settlement rumors",
+        "field notes",
+        "optional shrine path"
+      ]
+    },
+    "moral_choices": [
+      "Curiosity",
+      "Wisdom",
+      "Duty"
+    ],
+    "unlock_conditions": {
+      "min_level": 65,
+      "flags": [
+        "chapter_11_complete"
+      ]
+    },
+    "completion_conditions": {
+      "required_scene": "STSC00026",
+      "set_flag": "chapter_12_complete"
+    }
+  },
+  {
+    "chapter_id": "STCH014",
+    "act_id": "STACT008",
+    "chapter_number": 13,
+    "title": "New Fires at Dawn",
+    "slug": "new-fires-at-dawn",
+    "summary": "Communities rebuild, shops reopen, and postgame legendary encounters become available.",
+    "region": "WREG0012",
+    "recommended_level": 70,
+    "major_quests": [
+      "QST000040",
+      "QST000041"
+    ],
+    "important_npcs": [
+      "NPC000027",
+      "NPC000028"
+    ],
+    "major_monsters": [
+      "ALM-0027",
+      "ALM-0028"
+    ],
+    "legendary_encounters": [],
+    "emotional_climax": "A choice about wisdom changes how the chapter is remembered.",
+    "regional_exploration": {
+      "region": "WREG0012",
+      "unlocks": [
+        "settlement rumors",
+        "field notes",
+        "optional shrine path"
+      ]
+    },
+    "moral_choices": [
+      "Wisdom",
+      "Duty",
+      "Compassion"
+    ],
+    "unlock_conditions": {
+      "min_level": 70,
+      "flags": [
+        "chapter_12_complete"
+      ]
+    },
+    "completion_conditions": {
+      "required_scene": "STSC00028",
+      "set_flag": "chapter_13_complete"
+    }
+  },
+  {
+    "chapter_id": "STCH015",
+    "act_id": "STACT009",
+    "chapter_number": 14,
+    "title": "Islands Beyond the Map",
+    "slug": "islands-beyond-the-map",
+    "summary": "Expansion hooks preserve continuity while leaving room for new regions and media.",
+    "region": "WREG0015",
+    "recommended_level": 75,
+    "major_quests": [
+      "QST000043",
+      "QST000044"
+    ],
+    "important_npcs": [
+      "NPC000029",
+      "NPC000030"
+    ],
+    "major_monsters": [
+      "ALM-0029",
+      "ALM-0030"
+    ],
+    "legendary_encounters": [],
+    "emotional_climax": "A choice about duty changes how the chapter is remembered.",
+    "regional_exploration": {
+      "region": "WREG0015",
+      "unlocks": [
+        "settlement rumors",
+        "field notes",
+        "optional shrine path"
+      ]
+    },
+    "moral_choices": [
+      "Duty",
+      "Compassion",
+      "Honor"
+    ],
+    "unlock_conditions": {
+      "min_level": 75,
+      "flags": [
+        "chapter_13_complete"
+      ]
+    },
+    "completion_conditions": {
+      "required_scene": "STSC00030",
+      "set_flag": "chapter_14_complete"
+    }
+  }
+]

@@ -1,0 +1,902 @@
+[
+  {
+    "route_id": "TRAD00001",
+    "origin_location_id": "WLOC000001",
+    "destination_location_id": "WLOC000018",
+    "goods_payload": {
+      "categories": "food",
+      "volume": 10
+    },
+    "risk_level": "low",
+    "travel_time": 30,
+    "price_effect_payload": {
+      "category": "food",
+      "multiplier": 0.95
+    },
+    "condition_payload": {
+      "weather_sensitive": true
+    }
+  },
+  {
+    "route_id": "TRAD00002",
+    "origin_location_id": "WLOC000002",
+    "destination_location_id": "WLOC000019",
+    "goods_payload": {
+      "categories": "herb",
+      "volume": 11
+    },
+    "risk_level": "medium",
+    "travel_time": 35,
+    "price_effect_payload": {
+      "category": "herb",
+      "multiplier": 1.03
+    },
+    "condition_payload": {
+      "weather_sensitive": false
+    }
+  },
+  {
+    "route_id": "TRAD00003",
+    "origin_location_id": "WLOC000003",
+    "destination_location_id": "WLOC000020",
+    "goods_payload": {
+      "categories": "metal",
+      "volume": 12
+    },
+    "risk_level": "high",
+    "travel_time": 40,
+    "price_effect_payload": {
+      "category": "metal",
+      "multiplier": 1.11
+    },
+    "condition_payload": {
+      "weather_sensitive": false
+    }
+  },
+  {
+    "route_id": "TRAD00004",
+    "origin_location_id": "WLOC000004",
+    "destination_location_id": "WLOC000021",
+    "goods_payload": {
+      "categories": "ritual",
+      "volume": 13
+    },
+    "risk_level": "low",
+    "travel_time": 45,
+    "price_effect_payload": {
+      "category": "ritual",
+      "multiplier": 1.19
+    },
+    "condition_payload": {
+      "weather_sensitive": false
+    }
+  },
+  {
+    "route_id": "TRAD00005",
+    "origin_location_id": "WLOC000005",
+    "destination_location_id": "WLOC000022",
+    "goods_payload": {
+      "categories": "food",
+      "volume": 14
+    },
+    "risk_level": "medium",
+    "travel_time": 50,
+    "price_effect_payload": {
+      "category": "food",
+      "multiplier": 1.27
+    },
+    "condition_payload": {
+      "weather_sensitive": true
+    }
+  },
+  {
+    "route_id": "TRAD00006",
+    "origin_location_id": "WLOC000006",
+    "destination_location_id": "WLOC000023",
+    "goods_payload": {
+      "categories": "herb",
+      "volume": 15
+    },
+    "risk_level": "high",
+    "travel_time": 55,
+    "price_effect_payload": {
+      "category": "herb",
+      "multiplier": 0.95
+    },
+    "condition_payload": {
+      "weather_sensitive": false
+    }
+  },
+  {
+    "route_id": "TRAD00007",
+    "origin_location_id": "WLOC000007",
+    "destination_location_id": "WLOC000024",
+    "goods_payload": {
+      "categories": "metal",
+      "volume": 16
+    },
+    "risk_level": "low",
+    "travel_time": 60,
+    "price_effect_payload": {
+      "category": "metal",
+      "multiplier": 1.03
+    },
+    "condition_payload": {
+      "weather_sensitive": false
+    }
+  },
+  {
+    "route_id": "TRAD00008",
+    "origin_location_id": "WLOC000008",
+    "destination_location_id": "WLOC000025",
+    "goods_payload": {
+      "categories": "ritual",
+      "volume": 17
+    },
+    "risk_level": "medium",
+    "travel_time": 65,
+    "price_effect_payload": {
+      "category": "ritual",
+      "multiplier": 1.11
+    },
+    "condition_payload": {
+      "weather_sensitive": false
+    }
+  },
+  {
+    "route_id": "TRAD00009",
+    "origin_location_id": "WLOC000009",
+    "destination_location_id": "WLOC000026",
+    "goods_payload": {
+      "categories": "food",
+      "volume": 18
+    },
+    "risk_level": "high",
+    "travel_time": 70,
+    "price_effect_payload": {
+      "category": "food",
+      "multiplier": 1.19
+    },
+    "condition_payload": {
+      "weather_sensitive": true
+    }
+  },
+  {
+    "route_id": "TRAD00010",
+    "origin_location_id": "WLOC000010",
+    "destination_location_id": "WLOC000027",
+    "goods_payload": {
+      "categories": "herb",
+      "volume": 19
+    },
+    "risk_level": "low",
+    "travel_time": 75,
+    "price_effect_payload": {
+      "category": "herb",
+      "multiplier": 1.27
+    },
+    "condition_payload": {
+      "weather_sensitive": false
+    }
+  },
+  {
+    "route_id": "TRAD00011",
+    "origin_location_id": "WLOC000011",
+    "destination_location_id": "WLOC000028",
+    "goods_payload": {
+      "categories": "metal",
+      "volume": 20
+    },
+    "risk_level": "medium",
+    "travel_time": 80,
+    "price_effect_payload": {
+      "category": "metal",
+      "multiplier": 0.95
+    },
+    "condition_payload": {
+      "weather_sensitive": false
+    }
+  },
+  {
+    "route_id": "TRAD00012",
+    "origin_location_id": "WLOC000012",
+    "destination_location_id": "WLOC000029",
+    "goods_payload": {
+      "categories": "ritual",
+      "volume": 21
+    },
+    "risk_level": "high",
+    "travel_time": 85,
+    "price_effect_payload": {
+      "category": "ritual",
+      "multiplier": 1.03
+    },
+    "condition_payload": {
+      "weather_sensitive": false
+    }
+  },
+  {
+    "route_id": "TRAD00013",
+    "origin_location_id": "WLOC000013",
+    "destination_location_id": "WLOC000030",
+    "goods_payload": {
+      "categories": "food",
+      "volume": 22
+    },
+    "risk_level": "low",
+    "travel_time": 90,
+    "price_effect_payload": {
+      "category": "food",
+      "multiplier": 1.11
+    },
+    "condition_payload": {
+      "weather_sensitive": true
+    }
+  },
+  {
+    "route_id": "TRAD00014",
+    "origin_location_id": "WLOC000014",
+    "destination_location_id": "WLOC000031",
+    "goods_payload": {
+      "categories": "herb",
+      "volume": 23
+    },
+    "risk_level": "medium",
+    "travel_time": 95,
+    "price_effect_payload": {
+      "category": "herb",
+      "multiplier": 1.19
+    },
+    "condition_payload": {
+      "weather_sensitive": false
+    }
+  },
+  {
+    "route_id": "TRAD00015",
+    "origin_location_id": "WLOC000015",
+    "destination_location_id": "WLOC000032",
+    "goods_payload": {
+      "categories": "metal",
+      "volume": 24
+    },
+    "risk_level": "high",
+    "travel_time": 100,
+    "price_effect_payload": {
+      "category": "metal",
+      "multiplier": 1.27
+    },
+    "condition_payload": {
+      "weather_sensitive": false
+    }
+  },
+  {
+    "route_id": "TRAD00016",
+    "origin_location_id": "WLOC000016",
+    "destination_location_id": "WLOC000033",
+    "goods_payload": {
+      "categories": "ritual",
+      "volume": 25
+    },
+    "risk_level": "low",
+    "travel_time": 105,
+    "price_effect_payload": {
+      "category": "ritual",
+      "multiplier": 0.95
+    },
+    "condition_payload": {
+      "weather_sensitive": false
+    }
+  },
+  {
+    "route_id": "TRAD00017",
+    "origin_location_id": "WLOC000017",
+    "destination_location_id": "WLOC000034",
+    "goods_payload": {
+      "categories": "food",
+      "volume": 26
+    },
+    "risk_level": "medium",
+    "travel_time": 110,
+    "price_effect_payload": {
+      "category": "food",
+      "multiplier": 1.03
+    },
+    "condition_payload": {
+      "weather_sensitive": true
+    }
+  },
+  {
+    "route_id": "TRAD00018",
+    "origin_location_id": "WLOC000018",
+    "destination_location_id": "WLOC000035",
+    "goods_payload": {
+      "categories": "herb",
+      "volume": 27
+    },
+    "risk_level": "high",
+    "travel_time": 115,
+    "price_effect_payload": {
+      "category": "herb",
+      "multiplier": 1.11
+    },
+    "condition_payload": {
+      "weather_sensitive": false
+    }
+  },
+  {
+    "route_id": "TRAD00019",
+    "origin_location_id": "WLOC000019",
+    "destination_location_id": "WLOC000036",
+    "goods_payload": {
+      "categories": "metal",
+      "volume": 28
+    },
+    "risk_level": "low",
+    "travel_time": 120,
+    "price_effect_payload": {
+      "category": "metal",
+      "multiplier": 1.19
+    },
+    "condition_payload": {
+      "weather_sensitive": false
+    }
+  },
+  {
+    "route_id": "TRAD00020",
+    "origin_location_id": "WLOC000020",
+    "destination_location_id": "WLOC000037",
+    "goods_payload": {
+      "categories": "ritual",
+      "volume": 29
+    },
+    "risk_level": "medium",
+    "travel_time": 125,
+    "price_effect_payload": {
+      "category": "ritual",
+      "multiplier": 1.27
+    },
+    "condition_payload": {
+      "weather_sensitive": false
+    }
+  },
+  {
+    "route_id": "TRAD00021",
+    "origin_location_id": "WLOC000021",
+    "destination_location_id": "WLOC000038",
+    "goods_payload": {
+      "categories": "food",
+      "volume": 30
+    },
+    "risk_level": "high",
+    "travel_time": 130,
+    "price_effect_payload": {
+      "category": "food",
+      "multiplier": 0.95
+    },
+    "condition_payload": {
+      "weather_sensitive": true
+    }
+  },
+  {
+    "route_id": "TRAD00022",
+    "origin_location_id": "WLOC000022",
+    "destination_location_id": "WLOC000039",
+    "goods_payload": {
+      "categories": "herb",
+      "volume": 31
+    },
+    "risk_level": "low",
+    "travel_time": 135,
+    "price_effect_payload": {
+      "category": "herb",
+      "multiplier": 1.03
+    },
+    "condition_payload": {
+      "weather_sensitive": false
+    }
+  },
+  {
+    "route_id": "TRAD00023",
+    "origin_location_id": "WLOC000023",
+    "destination_location_id": "WLOC000040",
+    "goods_payload": {
+      "categories": "metal",
+      "volume": 32
+    },
+    "risk_level": "medium",
+    "travel_time": 140,
+    "price_effect_payload": {
+      "category": "metal",
+      "multiplier": 1.11
+    },
+    "condition_payload": {
+      "weather_sensitive": false
+    }
+  },
+  {
+    "route_id": "TRAD00024",
+    "origin_location_id": "WLOC000024",
+    "destination_location_id": "WLOC000041",
+    "goods_payload": {
+      "categories": "ritual",
+      "volume": 33
+    },
+    "risk_level": "high",
+    "travel_time": 145,
+    "price_effect_payload": {
+      "category": "ritual",
+      "multiplier": 1.19
+    },
+    "condition_payload": {
+      "weather_sensitive": false
+    }
+  },
+  {
+    "route_id": "TRAD00025",
+    "origin_location_id": "WLOC000025",
+    "destination_location_id": "WLOC000042",
+    "goods_payload": {
+      "categories": "food",
+      "volume": 34
+    },
+    "risk_level": "low",
+    "travel_time": 150,
+    "price_effect_payload": {
+      "category": "food",
+      "multiplier": 1.27
+    },
+    "condition_payload": {
+      "weather_sensitive": true
+    }
+  },
+  {
+    "route_id": "TRAD00026",
+    "origin_location_id": "WLOC000026",
+    "destination_location_id": "WLOC000043",
+    "goods_payload": {
+      "categories": "herb",
+      "volume": 35
+    },
+    "risk_level": "medium",
+    "travel_time": 155,
+    "price_effect_payload": {
+      "category": "herb",
+      "multiplier": 0.95
+    },
+    "condition_payload": {
+      "weather_sensitive": false
+    }
+  },
+  {
+    "route_id": "TRAD00027",
+    "origin_location_id": "WLOC000027",
+    "destination_location_id": "WLOC000044",
+    "goods_payload": {
+      "categories": "metal",
+      "volume": 36
+    },
+    "risk_level": "high",
+    "travel_time": 160,
+    "price_effect_payload": {
+      "category": "metal",
+      "multiplier": 1.03
+    },
+    "condition_payload": {
+      "weather_sensitive": false
+    }
+  },
+  {
+    "route_id": "TRAD00028",
+    "origin_location_id": "WLOC000028",
+    "destination_location_id": "WLOC000045",
+    "goods_payload": {
+      "categories": "ritual",
+      "volume": 37
+    },
+    "risk_level": "low",
+    "travel_time": 165,
+    "price_effect_payload": {
+      "category": "ritual",
+      "multiplier": 1.11
+    },
+    "condition_payload": {
+      "weather_sensitive": false
+    }
+  },
+  {
+    "route_id": "TRAD00029",
+    "origin_location_id": "WLOC000029",
+    "destination_location_id": "WLOC000046",
+    "goods_payload": {
+      "categories": "food",
+      "volume": 38
+    },
+    "risk_level": "medium",
+    "travel_time": 170,
+    "price_effect_payload": {
+      "category": "food",
+      "multiplier": 1.19
+    },
+    "condition_payload": {
+      "weather_sensitive": true
+    }
+  },
+  {
+    "route_id": "TRAD00030",
+    "origin_location_id": "WLOC000030",
+    "destination_location_id": "WLOC000047",
+    "goods_payload": {
+      "categories": "herb",
+      "volume": 39
+    },
+    "risk_level": "high",
+    "travel_time": 175,
+    "price_effect_payload": {
+      "category": "herb",
+      "multiplier": 1.27
+    },
+    "condition_payload": {
+      "weather_sensitive": false
+    }
+  },
+  {
+    "route_id": "TRAD00031",
+    "origin_location_id": "WLOC000031",
+    "destination_location_id": "WLOC000048",
+    "goods_payload": {
+      "categories": "metal",
+      "volume": 40
+    },
+    "risk_level": "low",
+    "travel_time": 180,
+    "price_effect_payload": {
+      "category": "metal",
+      "multiplier": 0.95
+    },
+    "condition_payload": {
+      "weather_sensitive": false
+    }
+  },
+  {
+    "route_id": "TRAD00032",
+    "origin_location_id": "WLOC000032",
+    "destination_location_id": "WLOC000049",
+    "goods_payload": {
+      "categories": "ritual",
+      "volume": 41
+    },
+    "risk_level": "medium",
+    "travel_time": 185,
+    "price_effect_payload": {
+      "category": "ritual",
+      "multiplier": 1.03
+    },
+    "condition_payload": {
+      "weather_sensitive": false
+    }
+  },
+  {
+    "route_id": "TRAD00033",
+    "origin_location_id": "WLOC000033",
+    "destination_location_id": "WLOC000050",
+    "goods_payload": {
+      "categories": "food",
+      "volume": 42
+    },
+    "risk_level": "high",
+    "travel_time": 190,
+    "price_effect_payload": {
+      "category": "food",
+      "multiplier": 1.11
+    },
+    "condition_payload": {
+      "weather_sensitive": true
+    }
+  },
+  {
+    "route_id": "TRAD00034",
+    "origin_location_id": "WLOC000034",
+    "destination_location_id": "WLOC000051",
+    "goods_payload": {
+      "categories": "herb",
+      "volume": 43
+    },
+    "risk_level": "low",
+    "travel_time": 195,
+    "price_effect_payload": {
+      "category": "herb",
+      "multiplier": 1.19
+    },
+    "condition_payload": {
+      "weather_sensitive": false
+    }
+  },
+  {
+    "route_id": "TRAD00035",
+    "origin_location_id": "WLOC000035",
+    "destination_location_id": "WLOC000052",
+    "goods_payload": {
+      "categories": "metal",
+      "volume": 44
+    },
+    "risk_level": "medium",
+    "travel_time": 200,
+    "price_effect_payload": {
+      "category": "metal",
+      "multiplier": 1.27
+    },
+    "condition_payload": {
+      "weather_sensitive": false
+    }
+  },
+  {
+    "route_id": "TRAD00036",
+    "origin_location_id": "WLOC000036",
+    "destination_location_id": "WLOC000053",
+    "goods_payload": {
+      "categories": "ritual",
+      "volume": 45
+    },
+    "risk_level": "high",
+    "travel_time": 205,
+    "price_effect_payload": {
+      "category": "ritual",
+      "multiplier": 0.95
+    },
+    "condition_payload": {
+      "weather_sensitive": false
+    }
+  },
+  {
+    "route_id": "TRAD00037",
+    "origin_location_id": "WLOC000037",
+    "destination_location_id": "WLOC000054",
+    "goods_payload": {
+      "categories": "food",
+      "volume": 46
+    },
+    "risk_level": "low",
+    "travel_time": 210,
+    "price_effect_payload": {
+      "category": "food",
+      "multiplier": 1.03
+    },
+    "condition_payload": {
+      "weather_sensitive": true
+    }
+  },
+  {
+    "route_id": "TRAD00038",
+    "origin_location_id": "WLOC000038",
+    "destination_location_id": "WLOC000055",
+    "goods_payload": {
+      "categories": "herb",
+      "volume": 47
+    },
+    "risk_level": "medium",
+    "travel_time": 215,
+    "price_effect_payload": {
+      "category": "herb",
+      "multiplier": 1.11
+    },
+    "condition_payload": {
+      "weather_sensitive": false
+    }
+  },
+  {
+    "route_id": "TRAD00039",
+    "origin_location_id": "WLOC000039",
+    "destination_location_id": "WLOC000056",
+    "goods_payload": {
+      "categories": "metal",
+      "volume": 48
+    },
+    "risk_level": "high",
+    "travel_time": 220,
+    "price_effect_payload": {
+      "category": "metal",
+      "multiplier": 1.19
+    },
+    "condition_payload": {
+      "weather_sensitive": false
+    }
+  },
+  {
+    "route_id": "TRAD00040",
+    "origin_location_id": "WLOC000040",
+    "destination_location_id": "WLOC000057",
+    "goods_payload": {
+      "categories": "ritual",
+      "volume": 49
+    },
+    "risk_level": "low",
+    "travel_time": 225,
+    "price_effect_payload": {
+      "category": "ritual",
+      "multiplier": 1.27
+    },
+    "condition_payload": {
+      "weather_sensitive": false
+    }
+  },
+  {
+    "route_id": "TRAD00041",
+    "origin_location_id": "WLOC000041",
+    "destination_location_id": "WLOC000058",
+    "goods_payload": {
+      "categories": "food",
+      "volume": 50
+    },
+    "risk_level": "medium",
+    "travel_time": 230,
+    "price_effect_payload": {
+      "category": "food",
+      "multiplier": 0.95
+    },
+    "condition_payload": {
+      "weather_sensitive": true
+    }
+  },
+  {
+    "route_id": "TRAD00042",
+    "origin_location_id": "WLOC000042",
+    "destination_location_id": "WLOC000059",
+    "goods_payload": {
+      "categories": "herb",
+      "volume": 51
+    },
+    "risk_level": "high",
+    "travel_time": 235,
+    "price_effect_payload": {
+      "category": "herb",
+      "multiplier": 1.03
+    },
+    "condition_payload": {
+      "weather_sensitive": false
+    }
+  },
+  {
+    "route_id": "TRAD00043",
+    "origin_location_id": "WLOC000043",
+    "destination_location_id": "WLOC000060",
+    "goods_payload": {
+      "categories": "metal",
+      "volume": 52
+    },
+    "risk_level": "low",
+    "travel_time": 240,
+    "price_effect_payload": {
+      "category": "metal",
+      "multiplier": 1.11
+    },
+    "condition_payload": {
+      "weather_sensitive": false
+    }
+  },
+  {
+    "route_id": "TRAD00044",
+    "origin_location_id": "WLOC000044",
+    "destination_location_id": "WLOC000061",
+    "goods_payload": {
+      "categories": "ritual",
+      "volume": 53
+    },
+    "risk_level": "medium",
+    "travel_time": 245,
+    "price_effect_payload": {
+      "category": "ritual",
+      "multiplier": 1.19
+    },
+    "condition_payload": {
+      "weather_sensitive": false
+    }
+  },
+  {
+    "route_id": "TRAD00045",
+    "origin_location_id": "WLOC000045",
+    "destination_location_id": "WLOC000062",
+    "goods_payload": {
+      "categories": "food",
+      "volume": 54
+    },
+    "risk_level": "high",
+    "travel_time": 250,
+    "price_effect_payload": {
+      "category": "food",
+      "multiplier": 1.27
+    },
+    "condition_payload": {
+      "weather_sensitive": true
+    }
+  },
+  {
+    "route_id": "TRAD00046",
+    "origin_location_id": "WLOC000046",
+    "destination_location_id": "WLOC000063",
+    "goods_payload": {
+      "categories": "herb",
+      "volume": 55
+    },
+    "risk_level": "low",
+    "travel_time": 255,
+    "price_effect_payload": {
+      "category": "herb",
+      "multiplier": 0.95
+    },
+    "condition_payload": {
+      "weather_sensitive": false
+    }
+  },
+  {
+    "route_id": "TRAD00047",
+    "origin_location_id": "WLOC000047",
+    "destination_location_id": "WLOC000064",
+    "goods_payload": {
+      "categories": "metal",
+      "volume": 56
+    },
+    "risk_level": "medium",
+    "travel_time": 260,
+    "price_effect_payload": {
+      "category": "metal",
+      "multiplier": 1.03
+    },
+    "condition_payload": {
+      "weather_sensitive": false
+    }
+  },
+  {
+    "route_id": "TRAD00048",
+    "origin_location_id": "WLOC000048",
+    "destination_location_id": "WLOC000065",
+    "goods_payload": {
+      "categories": "ritual",
+      "volume": 57
+    },
+    "risk_level": "high",
+    "travel_time": 265,
+    "price_effect_payload": {
+      "category": "ritual",
+      "multiplier": 1.11
+    },
+    "condition_payload": {
+      "weather_sensitive": false
+    }
+  },
+  {
+    "route_id": "TRAD00049",
+    "origin_location_id": "WLOC000049",
+    "destination_location_id": "WLOC000066",
+    "goods_payload": {
+      "categories": "food",
+      "volume": 58
+    },
+    "risk_level": "low",
+    "travel_time": 270,
+    "price_effect_payload": {
+      "category": "food",
+      "multiplier": 1.19
+    },
+    "condition_payload": {
+      "weather_sensitive": true
+    }
+  },
+  {
+    "route_id": "TRAD00050",
+    "origin_location_id": "WLOC000050",
+    "destination_location_id": "WLOC000067",
+    "goods_payload": {
+      "categories": "herb",
+      "volume": 59
+    },
+    "risk_level": "medium",
+    "travel_time": 275,
+    "price_effect_payload": {
+      "category": "herb",
+      "multiplier": 1.27
+    },
+    "condition_payload": {
+      "weather_sensitive": false
+    }
+  }
+]

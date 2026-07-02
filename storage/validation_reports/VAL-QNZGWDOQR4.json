@@ -1,0 +1,731 @@
+{
+    "id": 1,
+    "report_id": "VAL-QNZGWDOQR4",
+    "scope": "story",
+    "status": "failed",
+    "rules_payload": [
+        "unique_ids",
+        "unique_slugs",
+        "missing_references",
+        "missing_assets",
+        "invalid_recipes",
+        "broken_quest_chains",
+        "invalid_npc_schedules",
+        "missing_map_transitions",
+        "duplicate_names",
+        "circular_references"
+    ],
+    "summary_payload": {
+        "issue_count": 117,
+        "files_checked": 20
+    },
+    "issues_payload": [
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\character_relationships.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id NPCF0001 appears 5 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\character_relationships.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id NPC000010 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\character_relationships.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id NPC000011 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\character_relationships.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id NPC000012 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\character_relationships.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id NPCF0006 appears 5 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\character_relationships.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id NPC000014 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\character_relationships.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id NPC000015 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\character_relationships.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id NPC000016 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\character_relationships.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id NPCF0011 appears 4 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\character_relationships.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id NPC000019 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\character_relationships.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id NPC000020 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\character_relationships.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id NPC000022 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\character_relationships.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id NPC000024 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\character_relationships.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id NPC000026 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\character_relationships.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id NPC000027 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\character_relationships.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id NPC000030 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\character_relationships.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id NPC000031 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\character_relationships.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id NPC000032 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\character_relationships.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id NPC000034 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\character_relationships.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id NPC000035 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\character_relationships.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id NPC000036 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\character_relationships.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id NPC000039 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\character_relationships.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id NPC000040 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\character_relationships.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id NPC000042 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\character_relationships.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id NPC000044 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\character_relationships.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id NPC000046 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\character_relationships.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id NPC000047 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\character_relationships.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id NPC000050 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\character_relationships.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id NPC000051 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\character_relationships.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id NPC000052 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\character_relationships.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id NPC000054 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\character_relationships.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id NPC000055 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\character_relationships.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id NPC000056 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\character_relationships.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id NPC000059 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\character_relationships.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id NPC000060 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\character_relationships.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id NPC000062 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\character_relationships.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id NPC000064 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\character_relationships.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id NPC000066 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\character_relationships.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id NPC000067 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\character_relationships.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id NPC000070 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\dialogue_choices.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id DLG00001 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\dialogue_choices.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id DLG00002 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\dialogue_choices.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id DLG00003 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\dialogue_choices.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id DLG00004 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\dialogue_choices.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id DLG00005 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\dialogue_choices.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id DLG00006 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\dialogue_choices.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id DLG00007 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\dialogue_choices.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id DLG00008 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\dialogue_choices.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id DLG00009 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\dialogue_choices.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id DLG00010 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\dialogue_choices.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id DLG00011 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\dialogue_choices.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id DLG00012 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\dialogue_choices.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id DLG00013 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\dialogue_choices.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id DLG00014 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\dialogue_choices.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id DLG00015 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\dialogue_choices.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id DLG00016 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\dialogue_choices.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id DLG00017 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\dialogue_choices.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id DLG00018 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\dialogue_choices.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id DLG00019 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\dialogue_choices.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id DLG00020 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\dialogue_choices.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id DLG00021 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\dialogue_choices.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id DLG00022 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\dialogue_choices.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id DLG00023 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\dialogue_choices.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id DLG00024 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\dialogue_choices.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id DLG00025 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\dialogue_choices.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id DLG00026 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\dialogue_choices.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id DLG00027 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\dialogue_choices.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id DLG00028 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\dialogue_choices.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id DLG00029 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\dialogue_choices.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id DLG00030 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\epilogues.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id END001 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\epilogues.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id END002 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\epilogues.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id END003 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\epilogues.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id END004 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\epilogues.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id END005 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\epilogues.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id END006 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\epilogues.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id END007 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\epilogues.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id END008 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\historical_events.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id TIME00001 appears 4 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\historical_events.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id TIME00002 appears 4 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\historical_events.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id TIME00003 appears 4 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\historical_events.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id TIME00004 appears 4 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\historical_events.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id TIME00005 appears 4 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\historical_events.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id TIME00006 appears 4 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\historical_events.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id TIME00007 appears 4 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\historical_events.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id TIME00008 appears 4 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\historical_events.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id TIME00009 appears 4 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\lore_books.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id WREG0001 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\lore_books.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id WREG0002 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\lore_books.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id WREG0003 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\lore_books.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id WREG0004 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\lore_books.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id WREG0005 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\lore_books.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id WREG0006 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\lore_books.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id WREG0007 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\lore_books.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id WREG0008 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\lore_books.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id WREG0009 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\story_chapters.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id STACT001 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\story_chapters.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id STACT002 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\story_chapters.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id STACT003 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\story_chapters.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id STACT004 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\story_chapters.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id STACT005 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\story_chapters.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id STACT006 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\story_scenes.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id STCH001 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\story_scenes.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id STCH002 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\story_scenes.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id STCH003 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\story_scenes.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id STCH004 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\story_scenes.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id STCH005 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\story_scenes.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id STCH006 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\story_scenes.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id STCH007 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\story_scenes.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id STCH008 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\story_scenes.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id STCH009 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\story_scenes.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id STCH010 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\story_scenes.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id STCH011 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\story_scenes.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id STCH012 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\story_scenes.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id STCH013 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\story_scenes.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id STCH014 appears 2 times.",
+            "severity": "error"
+        },
+        {
+            "path": "C:\\xampp\\htdocs\\alamat\\database\/data\/story\\story_scenes.json",
+            "rule": "unique_ids",
+            "message": "Duplicate id STCH015 appears 2 times.",
+            "severity": "error"
+        }
+    ],
+    "json_report_path": null,
+    "html_report_path": null,
+    "generated_at": "2026-07-02T03:26:12.000000Z",
+    "created_at": "2026-07-02T03:26:12.000000Z",
+    "updated_at": "2026-07-02T03:26:12.000000Z"
+}

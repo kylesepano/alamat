@@ -1,0 +1,392 @@
+[
+  {
+    "cutscene_id": "CUT00001",
+    "scene_id": "STSC00002",
+    "cinematic_id": "CIN00002",
+    "title": "Home by the River: Decision Cutscene",
+    "trigger_payload": {
+      "flags": [
+        "scene_1_seen"
+      ],
+      "chapter_id": "STCH001"
+    },
+    "storyboard_payload": [
+      {
+        "panel": 1,
+        "shot": "wide establishing view",
+        "camera": "slow dolly"
+      },
+      {
+        "panel": 2,
+        "shot": "character reaction",
+        "camera": "still close"
+      }
+    ],
+    "skippable": true,
+    "replayable": true
+  },
+  {
+    "cutscene_id": "CUT00002",
+    "scene_id": "STSC00004",
+    "cinematic_id": "CIN00004",
+    "title": "First Oath of Trust: Decision Cutscene",
+    "trigger_payload": {
+      "flags": [
+        "scene_3_seen"
+      ],
+      "chapter_id": "STCH002"
+    },
+    "storyboard_payload": [
+      {
+        "panel": 1,
+        "shot": "wide establishing view",
+        "camera": "slow dolly"
+      },
+      {
+        "panel": 2,
+        "shot": "character reaction",
+        "camera": "still close"
+      }
+    ],
+    "skippable": true,
+    "replayable": true
+  },
+  {
+    "cutscene_id": "CUT00003",
+    "scene_id": "STSC00006",
+    "cinematic_id": "CIN00006",
+    "title": "Market of Broken Bowls: Decision Cutscene",
+    "trigger_payload": {
+      "flags": [
+        "scene_5_seen"
+      ],
+      "chapter_id": "STCH003"
+    },
+    "storyboard_payload": [
+      {
+        "panel": 1,
+        "shot": "wide establishing view",
+        "camera": "slow dolly"
+      },
+      {
+        "panel": 2,
+        "shot": "character reaction",
+        "camera": "still close"
+      }
+    ],
+    "skippable": true,
+    "replayable": true
+  },
+  {
+    "cutscene_id": "CUT00004",
+    "scene_id": "STSC00008",
+    "cinematic_id": "CIN00008",
+    "title": "The Balete Vigil: Decision Cutscene",
+    "trigger_payload": {
+      "flags": [
+        "scene_7_seen"
+      ],
+      "chapter_id": "STCH004"
+    },
+    "storyboard_payload": [
+      {
+        "panel": 1,
+        "shot": "wide establishing view",
+        "camera": "slow dolly"
+      },
+      {
+        "panel": 2,
+        "shot": "character reaction",
+        "camera": "still close"
+      }
+    ],
+    "skippable": true,
+    "replayable": true
+  },
+  {
+    "cutscene_id": "CUT00005",
+    "scene_id": "STSC00010",
+    "cinematic_id": "CIN00010",
+    "title": "Rain Roads: Decision Cutscene",
+    "trigger_payload": {
+      "flags": [
+        "scene_9_seen"
+      ],
+      "chapter_id": "STCH005"
+    },
+    "storyboard_payload": [
+      {
+        "panel": 1,
+        "shot": "wide establishing view",
+        "camera": "slow dolly"
+      },
+      {
+        "panel": 2,
+        "shot": "character reaction",
+        "camera": "still close"
+      }
+    ],
+    "skippable": true,
+    "replayable": true
+  },
+  {
+    "cutscene_id": "CUT00006",
+    "scene_id": "STSC00012",
+    "cinematic_id": "CIN00012",
+    "title": "Council of Ash: Decision Cutscene",
+    "trigger_payload": {
+      "flags": [
+        "scene_11_seen"
+      ],
+      "chapter_id": "STCH006"
+    },
+    "storyboard_payload": [
+      {
+        "panel": 1,
+        "shot": "wide establishing view",
+        "camera": "slow dolly"
+      },
+      {
+        "panel": 2,
+        "shot": "character reaction",
+        "camera": "still close"
+      }
+    ],
+    "skippable": true,
+    "replayable": true
+  },
+  {
+    "cutscene_id": "CUT00007",
+    "scene_id": "STSC00014",
+    "cinematic_id": "CIN00014",
+    "title": "Dream Gate: Decision Cutscene",
+    "trigger_payload": {
+      "flags": [
+        "scene_13_seen"
+      ],
+      "chapter_id": "STCH007"
+    },
+    "storyboard_payload": [
+      {
+        "panel": 1,
+        "shot": "wide establishing view",
+        "camera": "slow dolly"
+      },
+      {
+        "panel": 2,
+        "shot": "character reaction",
+        "camera": "still close"
+      }
+    ],
+    "skippable": true,
+    "replayable": true
+  },
+  {
+    "cutscene_id": "CUT00008",
+    "scene_id": "STSC00016",
+    "cinematic_id": "CIN00016",
+    "title": "Lamp of the Below: Decision Cutscene",
+    "trigger_payload": {
+      "flags": [
+        "scene_15_seen"
+      ],
+      "chapter_id": "STCH008"
+    },
+    "storyboard_payload": [
+      {
+        "panel": 1,
+        "shot": "wide establishing view",
+        "camera": "slow dolly"
+      },
+      {
+        "panel": 2,
+        "shot": "character reaction",
+        "camera": "still close"
+      }
+    ],
+    "skippable": true,
+    "replayable": true
+  },
+  {
+    "cutscene_id": "CUT00009",
+    "scene_id": "STSC00018",
+    "cinematic_id": "CIN00018",
+    "title": "Court of Tides: Decision Cutscene",
+    "trigger_payload": {
+      "flags": [
+        "scene_17_seen"
+      ],
+      "chapter_id": "STCH009"
+    },
+    "storyboard_payload": [
+      {
+        "panel": 1,
+        "shot": "wide establishing view",
+        "camera": "slow dolly"
+      },
+      {
+        "panel": 2,
+        "shot": "character reaction",
+        "camera": "still close"
+      }
+    ],
+    "skippable": true,
+    "replayable": true
+  },
+  {
+    "cutscene_id": "CUT00010",
+    "scene_id": "STSC00020",
+    "cinematic_id": "CIN00020",
+    "title": "Pact of Thunder: Decision Cutscene",
+    "trigger_payload": {
+      "flags": [
+        "scene_19_seen"
+      ],
+      "chapter_id": "STCH010"
+    },
+    "storyboard_payload": [
+      {
+        "panel": 1,
+        "shot": "wide establishing view",
+        "camera": "slow dolly"
+      },
+      {
+        "panel": 2,
+        "shot": "character reaction",
+        "camera": "still close"
+      }
+    ],
+    "skippable": true,
+    "replayable": true
+  },
+  {
+    "cutscene_id": "CUT00011",
+    "scene_id": "STSC00022",
+    "cinematic_id": "CIN00022",
+    "title": "Many Councils: Decision Cutscene",
+    "trigger_payload": {
+      "flags": [
+        "scene_21_seen"
+      ],
+      "chapter_id": "STCH011"
+    },
+    "storyboard_payload": [
+      {
+        "panel": 1,
+        "shot": "wide establishing view",
+        "camera": "slow dolly"
+      },
+      {
+        "panel": 2,
+        "shot": "character reaction",
+        "camera": "still close"
+      }
+    ],
+    "skippable": true,
+    "replayable": true
+  },
+  {
+    "cutscene_id": "CUT00012",
+    "scene_id": "STSC00024",
+    "cinematic_id": "CIN00024",
+    "title": "Final Threshold: Decision Cutscene",
+    "trigger_payload": {
+      "flags": [
+        "scene_23_seen"
+      ],
+      "chapter_id": "STCH012"
+    },
+    "storyboard_payload": [
+      {
+        "panel": 1,
+        "shot": "wide establishing view",
+        "camera": "slow dolly"
+      },
+      {
+        "panel": 2,
+        "shot": "character reaction",
+        "camera": "still close"
+      }
+    ],
+    "skippable": true,
+    "replayable": true
+  },
+  {
+    "cutscene_id": "CUT00013",
+    "scene_id": "STSC00026",
+    "cinematic_id": "CIN00026",
+    "title": "Song Returned: Decision Cutscene",
+    "trigger_payload": {
+      "flags": [
+        "scene_25_seen"
+      ],
+      "chapter_id": "STCH013"
+    },
+    "storyboard_payload": [
+      {
+        "panel": 1,
+        "shot": "wide establishing view",
+        "camera": "slow dolly"
+      },
+      {
+        "panel": 2,
+        "shot": "character reaction",
+        "camera": "still close"
+      }
+    ],
+    "skippable": true,
+    "replayable": true
+  },
+  {
+    "cutscene_id": "CUT00014",
+    "scene_id": "STSC00028",
+    "cinematic_id": "CIN00028",
+    "title": "New Fires at Dawn: Decision Cutscene",
+    "trigger_payload": {
+      "flags": [
+        "scene_27_seen"
+      ],
+      "chapter_id": "STCH014"
+    },
+    "storyboard_payload": [
+      {
+        "panel": 1,
+        "shot": "wide establishing view",
+        "camera": "slow dolly"
+      },
+      {
+        "panel": 2,
+        "shot": "character reaction",
+        "camera": "still close"
+      }
+    ],
+    "skippable": true,
+    "replayable": true
+  },
+  {
+    "cutscene_id": "CUT00015",
+    "scene_id": "STSC00030",
+    "cinematic_id": "CIN00030",
+    "title": "Islands Beyond the Map: Decision Cutscene",
+    "trigger_payload": {
+      "flags": [
+        "scene_29_seen"
+      ],
+      "chapter_id": "STCH015"
+    },
+    "storyboard_payload": [
+      {
+        "panel": 1,
+        "shot": "wide establishing view",
+        "camera": "slow dolly"
+      },
+      {
+        "panel": 2,
+        "shot": "character reaction",
+        "camera": "still close"
+      }
+    ],
+    "skippable": true,
+    "replayable": true
+  }
+]

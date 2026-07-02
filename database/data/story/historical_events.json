@@ -1,0 +1,722 @@
+[
+  {
+    "event_id": "HIST00001",
+    "timeline_id": "TIME00001",
+    "title": "Historical Event 1",
+    "date_label": "ALAMAT Era 1",
+    "cause": "A local imbalance, alliance, migration, festival, or promise changes regional life.",
+    "effect": "Communities remember the event differently, creating quest hooks and faction viewpoints.",
+    "participating_factions": [
+      "NPCF0001"
+    ],
+    "participating_monsters": [
+      "ALM-0001"
+    ],
+    "lasting_consequences": [
+      "field notes updated",
+      "regional reputation shifts",
+      "new lore collectible appears"
+    ],
+    "source_type": "oral_history"
+  },
+  {
+    "event_id": "HIST00002",
+    "timeline_id": "TIME00002",
+    "title": "Historical Event 2",
+    "date_label": "ALAMAT Era 2",
+    "cause": "A local imbalance, alliance, migration, festival, or promise changes regional life.",
+    "effect": "Communities remember the event differently, creating quest hooks and faction viewpoints.",
+    "participating_factions": [
+      "NPCF0002"
+    ],
+    "participating_monsters": [
+      "ALM-0002"
+    ],
+    "lasting_consequences": [
+      "field notes updated",
+      "regional reputation shifts",
+      "new lore collectible appears"
+    ],
+    "source_type": "journal"
+  },
+  {
+    "event_id": "HIST00003",
+    "timeline_id": "TIME00003",
+    "title": "Historical Event 3",
+    "date_label": "ALAMAT Era 3",
+    "cause": "A local imbalance, alliance, migration, festival, or promise changes regional life.",
+    "effect": "Communities remember the event differently, creating quest hooks and faction viewpoints.",
+    "participating_factions": [
+      "NPCF0003"
+    ],
+    "participating_monsters": [
+      "ALM-0003"
+    ],
+    "lasting_consequences": [
+      "field notes updated",
+      "regional reputation shifts",
+      "new lore collectible appears"
+    ],
+    "source_type": "map"
+  },
+  {
+    "event_id": "HIST00004",
+    "timeline_id": "TIME00004",
+    "title": "Historical Event 4",
+    "date_label": "ALAMAT Era 4",
+    "cause": "A local imbalance, alliance, migration, festival, or promise changes regional life.",
+    "effect": "Communities remember the event differently, creating quest hooks and faction viewpoints.",
+    "participating_factions": [
+      "NPCF0004"
+    ],
+    "participating_monsters": [
+      "ALM-0004"
+    ],
+    "lasting_consequences": [
+      "field notes updated",
+      "regional reputation shifts",
+      "new lore collectible appears"
+    ],
+    "source_type": "song"
+  },
+  {
+    "event_id": "HIST00005",
+    "timeline_id": "TIME00005",
+    "title": "Historical Event 5",
+    "date_label": "ALAMAT Era 5",
+    "cause": "A local imbalance, alliance, migration, festival, or promise changes regional life.",
+    "effect": "Communities remember the event differently, creating quest hooks and faction viewpoints.",
+    "participating_factions": [
+      "NPCF0005"
+    ],
+    "participating_monsters": [
+      "ALM-0005"
+    ],
+    "lasting_consequences": [
+      "field notes updated",
+      "regional reputation shifts",
+      "new lore collectible appears"
+    ],
+    "source_type": "oral_history"
+  },
+  {
+    "event_id": "HIST00006",
+    "timeline_id": "TIME00006",
+    "title": "Historical Event 6",
+    "date_label": "ALAMAT Era 6",
+    "cause": "A local imbalance, alliance, migration, festival, or promise changes regional life.",
+    "effect": "Communities remember the event differently, creating quest hooks and faction viewpoints.",
+    "participating_factions": [
+      "NPCF0006"
+    ],
+    "participating_monsters": [
+      "ALM-0006"
+    ],
+    "lasting_consequences": [
+      "field notes updated",
+      "regional reputation shifts",
+      "new lore collectible appears"
+    ],
+    "source_type": "journal"
+  },
+  {
+    "event_id": "HIST00007",
+    "timeline_id": "TIME00007",
+    "title": "Historical Event 7",
+    "date_label": "ALAMAT Era 7",
+    "cause": "A local imbalance, alliance, migration, festival, or promise changes regional life.",
+    "effect": "Communities remember the event differently, creating quest hooks and faction viewpoints.",
+    "participating_factions": [
+      "NPCF0007"
+    ],
+    "participating_monsters": [
+      "ALM-0007"
+    ],
+    "lasting_consequences": [
+      "field notes updated",
+      "regional reputation shifts",
+      "new lore collectible appears"
+    ],
+    "source_type": "map"
+  },
+  {
+    "event_id": "HIST00008",
+    "timeline_id": "TIME00008",
+    "title": "Historical Event 8",
+    "date_label": "ALAMAT Era 8",
+    "cause": "A local imbalance, alliance, migration, festival, or promise changes regional life.",
+    "effect": "Communities remember the event differently, creating quest hooks and faction viewpoints.",
+    "participating_factions": [
+      "NPCF0008"
+    ],
+    "participating_monsters": [
+      "ALM-0008"
+    ],
+    "lasting_consequences": [
+      "field notes updated",
+      "regional reputation shifts",
+      "new lore collectible appears"
+    ],
+    "source_type": "song"
+  },
+  {
+    "event_id": "HIST00009",
+    "timeline_id": "TIME00009",
+    "title": "Historical Event 9",
+    "date_label": "ALAMAT Era 9",
+    "cause": "A local imbalance, alliance, migration, festival, or promise changes regional life.",
+    "effect": "Communities remember the event differently, creating quest hooks and faction viewpoints.",
+    "participating_factions": [
+      "NPCF0009"
+    ],
+    "participating_monsters": [
+      "ALM-0009"
+    ],
+    "lasting_consequences": [
+      "field notes updated",
+      "regional reputation shifts",
+      "new lore collectible appears"
+    ],
+    "source_type": "oral_history"
+  },
+  {
+    "event_id": "HIST00010",
+    "timeline_id": "TIME00001",
+    "title": "Historical Event 10",
+    "date_label": "ALAMAT Era 10",
+    "cause": "A local imbalance, alliance, migration, festival, or promise changes regional life.",
+    "effect": "Communities remember the event differently, creating quest hooks and faction viewpoints.",
+    "participating_factions": [
+      "NPCF0010"
+    ],
+    "participating_monsters": [
+      "ALM-0010"
+    ],
+    "lasting_consequences": [
+      "field notes updated",
+      "regional reputation shifts",
+      "new lore collectible appears"
+    ],
+    "source_type": "journal"
+  },
+  {
+    "event_id": "HIST00011",
+    "timeline_id": "TIME00002",
+    "title": "Historical Event 11",
+    "date_label": "ALAMAT Era 11",
+    "cause": "A local imbalance, alliance, migration, festival, or promise changes regional life.",
+    "effect": "Communities remember the event differently, creating quest hooks and faction viewpoints.",
+    "participating_factions": [
+      "NPCF0011"
+    ],
+    "participating_monsters": [
+      "ALM-0011"
+    ],
+    "lasting_consequences": [
+      "field notes updated",
+      "regional reputation shifts",
+      "new lore collectible appears"
+    ],
+    "source_type": "map"
+  },
+  {
+    "event_id": "HIST00012",
+    "timeline_id": "TIME00003",
+    "title": "Historical Event 12",
+    "date_label": "ALAMAT Era 12",
+    "cause": "A local imbalance, alliance, migration, festival, or promise changes regional life.",
+    "effect": "Communities remember the event differently, creating quest hooks and faction viewpoints.",
+    "participating_factions": [
+      "NPCF0012"
+    ],
+    "participating_monsters": [
+      "ALM-0012"
+    ],
+    "lasting_consequences": [
+      "field notes updated",
+      "regional reputation shifts",
+      "new lore collectible appears"
+    ],
+    "source_type": "song"
+  },
+  {
+    "event_id": "HIST00013",
+    "timeline_id": "TIME00004",
+    "title": "Historical Event 13",
+    "date_label": "ALAMAT Era 13",
+    "cause": "A local imbalance, alliance, migration, festival, or promise changes regional life.",
+    "effect": "Communities remember the event differently, creating quest hooks and faction viewpoints.",
+    "participating_factions": [
+      "NPCF0013"
+    ],
+    "participating_monsters": [
+      "ALM-0013"
+    ],
+    "lasting_consequences": [
+      "field notes updated",
+      "regional reputation shifts",
+      "new lore collectible appears"
+    ],
+    "source_type": "oral_history"
+  },
+  {
+    "event_id": "HIST00014",
+    "timeline_id": "TIME00005",
+    "title": "Historical Event 14",
+    "date_label": "ALAMAT Era 14",
+    "cause": "A local imbalance, alliance, migration, festival, or promise changes regional life.",
+    "effect": "Communities remember the event differently, creating quest hooks and faction viewpoints.",
+    "participating_factions": [
+      "NPCF0014"
+    ],
+    "participating_monsters": [
+      "ALM-0014"
+    ],
+    "lasting_consequences": [
+      "field notes updated",
+      "regional reputation shifts",
+      "new lore collectible appears"
+    ],
+    "source_type": "journal"
+  },
+  {
+    "event_id": "HIST00015",
+    "timeline_id": "TIME00006",
+    "title": "Historical Event 15",
+    "date_label": "ALAMAT Era 15",
+    "cause": "A local imbalance, alliance, migration, festival, or promise changes regional life.",
+    "effect": "Communities remember the event differently, creating quest hooks and faction viewpoints.",
+    "participating_factions": [
+      "NPCF0015"
+    ],
+    "participating_monsters": [
+      "ALM-0015"
+    ],
+    "lasting_consequences": [
+      "field notes updated",
+      "regional reputation shifts",
+      "new lore collectible appears"
+    ],
+    "source_type": "map"
+  },
+  {
+    "event_id": "HIST00016",
+    "timeline_id": "TIME00007",
+    "title": "Historical Event 16",
+    "date_label": "ALAMAT Era 16",
+    "cause": "A local imbalance, alliance, migration, festival, or promise changes regional life.",
+    "effect": "Communities remember the event differently, creating quest hooks and faction viewpoints.",
+    "participating_factions": [
+      "NPCF0001"
+    ],
+    "participating_monsters": [
+      "ALM-0016"
+    ],
+    "lasting_consequences": [
+      "field notes updated",
+      "regional reputation shifts",
+      "new lore collectible appears"
+    ],
+    "source_type": "song"
+  },
+  {
+    "event_id": "HIST00017",
+    "timeline_id": "TIME00008",
+    "title": "Historical Event 17",
+    "date_label": "ALAMAT Era 17",
+    "cause": "A local imbalance, alliance, migration, festival, or promise changes regional life.",
+    "effect": "Communities remember the event differently, creating quest hooks and faction viewpoints.",
+    "participating_factions": [
+      "NPCF0002"
+    ],
+    "participating_monsters": [
+      "ALM-0017"
+    ],
+    "lasting_consequences": [
+      "field notes updated",
+      "regional reputation shifts",
+      "new lore collectible appears"
+    ],
+    "source_type": "oral_history"
+  },
+  {
+    "event_id": "HIST00018",
+    "timeline_id": "TIME00009",
+    "title": "Historical Event 18",
+    "date_label": "ALAMAT Era 18",
+    "cause": "A local imbalance, alliance, migration, festival, or promise changes regional life.",
+    "effect": "Communities remember the event differently, creating quest hooks and faction viewpoints.",
+    "participating_factions": [
+      "NPCF0003"
+    ],
+    "participating_monsters": [
+      "ALM-0018"
+    ],
+    "lasting_consequences": [
+      "field notes updated",
+      "regional reputation shifts",
+      "new lore collectible appears"
+    ],
+    "source_type": "journal"
+  },
+  {
+    "event_id": "HIST00019",
+    "timeline_id": "TIME00001",
+    "title": "Historical Event 19",
+    "date_label": "ALAMAT Era 19",
+    "cause": "A local imbalance, alliance, migration, festival, or promise changes regional life.",
+    "effect": "Communities remember the event differently, creating quest hooks and faction viewpoints.",
+    "participating_factions": [
+      "NPCF0004"
+    ],
+    "participating_monsters": [
+      "ALM-0019"
+    ],
+    "lasting_consequences": [
+      "field notes updated",
+      "regional reputation shifts",
+      "new lore collectible appears"
+    ],
+    "source_type": "map"
+  },
+  {
+    "event_id": "HIST00020",
+    "timeline_id": "TIME00002",
+    "title": "Historical Event 20",
+    "date_label": "ALAMAT Era 20",
+    "cause": "A local imbalance, alliance, migration, festival, or promise changes regional life.",
+    "effect": "Communities remember the event differently, creating quest hooks and faction viewpoints.",
+    "participating_factions": [
+      "NPCF0005"
+    ],
+    "participating_monsters": [
+      "ALM-0020"
+    ],
+    "lasting_consequences": [
+      "field notes updated",
+      "regional reputation shifts",
+      "new lore collectible appears"
+    ],
+    "source_type": "song"
+  },
+  {
+    "event_id": "HIST00021",
+    "timeline_id": "TIME00003",
+    "title": "Historical Event 21",
+    "date_label": "ALAMAT Era 21",
+    "cause": "A local imbalance, alliance, migration, festival, or promise changes regional life.",
+    "effect": "Communities remember the event differently, creating quest hooks and faction viewpoints.",
+    "participating_factions": [
+      "NPCF0006"
+    ],
+    "participating_monsters": [
+      "ALM-0021"
+    ],
+    "lasting_consequences": [
+      "field notes updated",
+      "regional reputation shifts",
+      "new lore collectible appears"
+    ],
+    "source_type": "oral_history"
+  },
+  {
+    "event_id": "HIST00022",
+    "timeline_id": "TIME00004",
+    "title": "Historical Event 22",
+    "date_label": "ALAMAT Era 22",
+    "cause": "A local imbalance, alliance, migration, festival, or promise changes regional life.",
+    "effect": "Communities remember the event differently, creating quest hooks and faction viewpoints.",
+    "participating_factions": [
+      "NPCF0007"
+    ],
+    "participating_monsters": [
+      "ALM-0022"
+    ],
+    "lasting_consequences": [
+      "field notes updated",
+      "regional reputation shifts",
+      "new lore collectible appears"
+    ],
+    "source_type": "journal"
+  },
+  {
+    "event_id": "HIST00023",
+    "timeline_id": "TIME00005",
+    "title": "Historical Event 23",
+    "date_label": "ALAMAT Era 23",
+    "cause": "A local imbalance, alliance, migration, festival, or promise changes regional life.",
+    "effect": "Communities remember the event differently, creating quest hooks and faction viewpoints.",
+    "participating_factions": [
+      "NPCF0008"
+    ],
+    "participating_monsters": [
+      "ALM-0023"
+    ],
+    "lasting_consequences": [
+      "field notes updated",
+      "regional reputation shifts",
+      "new lore collectible appears"
+    ],
+    "source_type": "map"
+  },
+  {
+    "event_id": "HIST00024",
+    "timeline_id": "TIME00006",
+    "title": "Historical Event 24",
+    "date_label": "ALAMAT Era 24",
+    "cause": "A local imbalance, alliance, migration, festival, or promise changes regional life.",
+    "effect": "Communities remember the event differently, creating quest hooks and faction viewpoints.",
+    "participating_factions": [
+      "NPCF0009"
+    ],
+    "participating_monsters": [
+      "ALM-0024"
+    ],
+    "lasting_consequences": [
+      "field notes updated",
+      "regional reputation shifts",
+      "new lore collectible appears"
+    ],
+    "source_type": "song"
+  },
+  {
+    "event_id": "HIST00025",
+    "timeline_id": "TIME00007",
+    "title": "Historical Event 25",
+    "date_label": "ALAMAT Era 25",
+    "cause": "A local imbalance, alliance, migration, festival, or promise changes regional life.",
+    "effect": "Communities remember the event differently, creating quest hooks and faction viewpoints.",
+    "participating_factions": [
+      "NPCF0010"
+    ],
+    "participating_monsters": [
+      "ALM-0025"
+    ],
+    "lasting_consequences": [
+      "field notes updated",
+      "regional reputation shifts",
+      "new lore collectible appears"
+    ],
+    "source_type": "oral_history"
+  },
+  {
+    "event_id": "HIST00026",
+    "timeline_id": "TIME00008",
+    "title": "Historical Event 26",
+    "date_label": "ALAMAT Era 26",
+    "cause": "A local imbalance, alliance, migration, festival, or promise changes regional life.",
+    "effect": "Communities remember the event differently, creating quest hooks and faction viewpoints.",
+    "participating_factions": [
+      "NPCF0011"
+    ],
+    "participating_monsters": [
+      "ALM-0026"
+    ],
+    "lasting_consequences": [
+      "field notes updated",
+      "regional reputation shifts",
+      "new lore collectible appears"
+    ],
+    "source_type": "journal"
+  },
+  {
+    "event_id": "HIST00027",
+    "timeline_id": "TIME00009",
+    "title": "Historical Event 27",
+    "date_label": "ALAMAT Era 27",
+    "cause": "A local imbalance, alliance, migration, festival, or promise changes regional life.",
+    "effect": "Communities remember the event differently, creating quest hooks and faction viewpoints.",
+    "participating_factions": [
+      "NPCF0012"
+    ],
+    "participating_monsters": [
+      "ALM-0027"
+    ],
+    "lasting_consequences": [
+      "field notes updated",
+      "regional reputation shifts",
+      "new lore collectible appears"
+    ],
+    "source_type": "map"
+  },
+  {
+    "event_id": "HIST00028",
+    "timeline_id": "TIME00001",
+    "title": "Historical Event 28",
+    "date_label": "ALAMAT Era 28",
+    "cause": "A local imbalance, alliance, migration, festival, or promise changes regional life.",
+    "effect": "Communities remember the event differently, creating quest hooks and faction viewpoints.",
+    "participating_factions": [
+      "NPCF0013"
+    ],
+    "participating_monsters": [
+      "ALM-0028"
+    ],
+    "lasting_consequences": [
+      "field notes updated",
+      "regional reputation shifts",
+      "new lore collectible appears"
+    ],
+    "source_type": "song"
+  },
+  {
+    "event_id": "HIST00029",
+    "timeline_id": "TIME00002",
+    "title": "Historical Event 29",
+    "date_label": "ALAMAT Era 29",
+    "cause": "A local imbalance, alliance, migration, festival, or promise changes regional life.",
+    "effect": "Communities remember the event differently, creating quest hooks and faction viewpoints.",
+    "participating_factions": [
+      "NPCF0014"
+    ],
+    "participating_monsters": [
+      "ALM-0029"
+    ],
+    "lasting_consequences": [
+      "field notes updated",
+      "regional reputation shifts",
+      "new lore collectible appears"
+    ],
+    "source_type": "oral_history"
+  },
+  {
+    "event_id": "HIST00030",
+    "timeline_id": "TIME00003",
+    "title": "Historical Event 30",
+    "date_label": "ALAMAT Era 30",
+    "cause": "A local imbalance, alliance, migration, festival, or promise changes regional life.",
+    "effect": "Communities remember the event differently, creating quest hooks and faction viewpoints.",
+    "participating_factions": [
+      "NPCF0015"
+    ],
+    "participating_monsters": [
+      "ALM-0030"
+    ],
+    "lasting_consequences": [
+      "field notes updated",
+      "regional reputation shifts",
+      "new lore collectible appears"
+    ],
+    "source_type": "journal"
+  },
+  {
+    "event_id": "HIST00031",
+    "timeline_id": "TIME00004",
+    "title": "Historical Event 31",
+    "date_label": "ALAMAT Era 31",
+    "cause": "A local imbalance, alliance, migration, festival, or promise changes regional life.",
+    "effect": "Communities remember the event differently, creating quest hooks and faction viewpoints.",
+    "participating_factions": [
+      "NPCF0001"
+    ],
+    "participating_monsters": [
+      "ALM-0031"
+    ],
+    "lasting_consequences": [
+      "field notes updated",
+      "regional reputation shifts",
+      "new lore collectible appears"
+    ],
+    "source_type": "map"
+  },
+  {
+    "event_id": "HIST00032",
+    "timeline_id": "TIME00005",
+    "title": "Historical Event 32",
+    "date_label": "ALAMAT Era 32",
+    "cause": "A local imbalance, alliance, migration, festival, or promise changes regional life.",
+    "effect": "Communities remember the event differently, creating quest hooks and faction viewpoints.",
+    "participating_factions": [
+      "NPCF0002"
+    ],
+    "participating_monsters": [
+      "ALM-0032"
+    ],
+    "lasting_consequences": [
+      "field notes updated",
+      "regional reputation shifts",
+      "new lore collectible appears"
+    ],
+    "source_type": "song"
+  },
+  {
+    "event_id": "HIST00033",
+    "timeline_id": "TIME00006",
+    "title": "Historical Event 33",
+    "date_label": "ALAMAT Era 33",
+    "cause": "A local imbalance, alliance, migration, festival, or promise changes regional life.",
+    "effect": "Communities remember the event differently, creating quest hooks and faction viewpoints.",
+    "participating_factions": [
+      "NPCF0003"
+    ],
+    "participating_monsters": [
+      "ALM-0033"
+    ],
+    "lasting_consequences": [
+      "field notes updated",
+      "regional reputation shifts",
+      "new lore collectible appears"
+    ],
+    "source_type": "oral_history"
+  },
+  {
+    "event_id": "HIST00034",
+    "timeline_id": "TIME00007",
+    "title": "Historical Event 34",
+    "date_label": "ALAMAT Era 34",
+    "cause": "A local imbalance, alliance, migration, festival, or promise changes regional life.",
+    "effect": "Communities remember the event differently, creating quest hooks and faction viewpoints.",
+    "participating_factions": [
+      "NPCF0004"
+    ],
+    "participating_monsters": [
+      "ALM-0034"
+    ],
+    "lasting_consequences": [
+      "field notes updated",
+      "regional reputation shifts",
+      "new lore collectible appears"
+    ],
+    "source_type": "journal"
+  },
+  {
+    "event_id": "HIST00035",
+    "timeline_id": "TIME00008",
+    "title": "Historical Event 35",
+    "date_label": "ALAMAT Era 35",
+    "cause": "A local imbalance, alliance, migration, festival, or promise changes regional life.",
+    "effect": "Communities remember the event differently, creating quest hooks and faction viewpoints.",
+    "participating_factions": [
+      "NPCF0005"
+    ],
+    "participating_monsters": [
+      "ALM-0035"
+    ],
+    "lasting_consequences": [
+      "field notes updated",
+      "regional reputation shifts",
+      "new lore collectible appears"
+    ],
+    "source_type": "map"
+  },
+  {
+    "event_id": "HIST00036",
+    "timeline_id": "TIME00009",
+    "title": "Historical Event 36",
+    "date_label": "ALAMAT Era 36",
+    "cause": "A local imbalance, alliance, migration, festival, or promise changes regional life.",
+    "effect": "Communities remember the event differently, creating quest hooks and faction viewpoints.",
+    "participating_factions": [
+      "NPCF0006"
+    ],
+    "participating_monsters": [
+      "ALM-0036"
+    ],
+    "lasting_consequences": [
+      "field notes updated",
+      "regional reputation shifts",
+      "new lore collectible appears"
+    ],
+    "source_type": "song"
+  }
+]

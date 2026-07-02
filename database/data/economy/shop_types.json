@@ -1,0 +1,92 @@
+[
+  {
+    "shop_type_id": "STYPE0001",
+    "code": "general_store",
+    "name": "General Store",
+    "slug": "general-store",
+    "description": "General Store shop type.",
+    "sort_order": 1,
+    "is_active": true
+  },
+  {
+    "shop_type_id": "STYPE0002",
+    "code": "blacksmith",
+    "name": "Blacksmith",
+    "slug": "blacksmith",
+    "description": "Blacksmith shop type.",
+    "sort_order": 2,
+    "is_active": true
+  },
+  {
+    "shop_type_id": "STYPE0003",
+    "code": "herbalist",
+    "name": "Herbalist",
+    "slug": "herbalist",
+    "description": "Herbalist shop type.",
+    "sort_order": 3,
+    "is_active": true
+  },
+  {
+    "shop_type_id": "STYPE0004",
+    "code": "food_stall",
+    "name": "Food Stall",
+    "slug": "food-stall",
+    "description": "Food Stall shop type.",
+    "sort_order": 4,
+    "is_active": true
+  },
+  {
+    "shop_type_id": "STYPE0005",
+    "code": "ritual_vendor",
+    "name": "Ritual Vendor",
+    "slug": "ritual-vendor",
+    "description": "Ritual Vendor shop type.",
+    "sort_order": 5,
+    "is_active": true
+  },
+  {
+    "shop_type_id": "STYPE0006",
+    "code": "monster_care",
+    "name": "Monster Care",
+    "slug": "monster-care",
+    "description": "Monster Care shop type.",
+    "sort_order": 6,
+    "is_active": true
+  },
+  {
+    "shop_type_id": "STYPE0007",
+    "code": "fisher_market",
+    "name": "Fisher Market",
+    "slug": "fisher-market",
+    "description": "Fisher Market shop type.",
+    "sort_order": 7,
+    "is_active": true
+  },
+  {
+    "shop_type_id": "STYPE0008",
+    "code": "weaver",
+    "name": "Weaver",
+    "slug": "weaver",
+    "description": "Weaver shop type.",
+    "sort_order": 8,
+    "is_active": true
+  },
+  {
+    "shop_type_id": "STYPE0009",
+    "code": "festival_booth",
+    "name": "Festival Booth",
+    "slug": "festival-booth",
+    "description": "Festival Booth shop type.",
+    "sort_order": 9,
+    "is_active": true
+  },
+  {
+    "shop_type_id": "STYPE0010",
+    "code": "appraiser",
+    "name": "Appraiser",
+    "slug": "appraiser",
+    "description": "Appraiser shop type.",
+    "sort_order": 10,
+    "is_active": true
+  }
+]

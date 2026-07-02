@@ -1,0 +1,6050 @@
+[
+  {
+    "ingredient_id": "RING0000010",
+    "recipe_id": "RCPJ000001",
+    "ingredient_type": "item",
+    "item_id": "ITM000002",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000011",
+    "recipe_id": "RCPJ000001",
+    "ingredient_type": "item",
+    "item_id": "ITM000003",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000012",
+    "recipe_id": "RCPJ000001",
+    "ingredient_type": "item",
+    "item_id": "ITM000004",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000020",
+    "recipe_id": "RCPJ000002",
+    "ingredient_type": "item",
+    "item_id": "ITM000003",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000021",
+    "recipe_id": "RCPJ000002",
+    "ingredient_type": "item",
+    "item_id": "ITM000004",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000022",
+    "recipe_id": "RCPJ000002",
+    "ingredient_type": "item",
+    "item_id": "ITM000005",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000030",
+    "recipe_id": "RCPJ000003",
+    "ingredient_type": "item",
+    "item_id": "ITM000004",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000031",
+    "recipe_id": "RCPJ000003",
+    "ingredient_type": "item",
+    "item_id": "ITM000005",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000032",
+    "recipe_id": "RCPJ000003",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000004",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000040",
+    "recipe_id": "RCPJ000004",
+    "ingredient_type": "item",
+    "item_id": "ITM000005",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000041",
+    "recipe_id": "RCPJ000004",
+    "ingredient_type": "item",
+    "item_id": "ITM000006",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000042",
+    "recipe_id": "RCPJ000004",
+    "ingredient_type": "item",
+    "item_id": "ITM000007",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000050",
+    "recipe_id": "RCPJ000005",
+    "ingredient_type": "item",
+    "item_id": "ITM000006",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000051",
+    "recipe_id": "RCPJ000005",
+    "ingredient_type": "item",
+    "item_id": "ITM000007",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000052",
+    "recipe_id": "RCPJ000005",
+    "ingredient_type": "item",
+    "item_id": "ITM000008",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000060",
+    "recipe_id": "RCPJ000006",
+    "ingredient_type": "item",
+    "item_id": "ITM000007",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000061",
+    "recipe_id": "RCPJ000006",
+    "ingredient_type": "item",
+    "item_id": "ITM000008",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000062",
+    "recipe_id": "RCPJ000006",
+    "ingredient_type": "item",
+    "item_id": "ITM000009",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000070",
+    "recipe_id": "RCPJ000007",
+    "ingredient_type": "item",
+    "item_id": "ITM000008",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000071",
+    "recipe_id": "RCPJ000007",
+    "ingredient_type": "item",
+    "item_id": "ITM000009",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000072",
+    "recipe_id": "RCPJ000007",
+    "ingredient_type": "item",
+    "item_id": "ITM000010",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000080",
+    "recipe_id": "RCPJ000008",
+    "ingredient_type": "item",
+    "item_id": "ITM000009",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000081",
+    "recipe_id": "RCPJ000008",
+    "ingredient_type": "item",
+    "item_id": "ITM000010",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000082",
+    "recipe_id": "RCPJ000008",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000009",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000090",
+    "recipe_id": "RCPJ000009",
+    "ingredient_type": "item",
+    "item_id": "ITM000010",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000091",
+    "recipe_id": "RCPJ000009",
+    "ingredient_type": "item",
+    "item_id": "ITM000011",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000092",
+    "recipe_id": "RCPJ000009",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000010",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000100",
+    "recipe_id": "RCPJ000010",
+    "ingredient_type": "item",
+    "item_id": "ITM000011",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000101",
+    "recipe_id": "RCPJ000010",
+    "ingredient_type": "item",
+    "item_id": "ITM000012",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000102",
+    "recipe_id": "RCPJ000010",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000011",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000110",
+    "recipe_id": "RCPJ000011",
+    "ingredient_type": "item",
+    "item_id": "ITM000012",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000111",
+    "recipe_id": "RCPJ000011",
+    "ingredient_type": "item",
+    "item_id": "ITM000013",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000112",
+    "recipe_id": "RCPJ000011",
+    "ingredient_type": "item",
+    "item_id": "ITM000014",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000120",
+    "recipe_id": "RCPJ000012",
+    "ingredient_type": "item",
+    "item_id": "ITM000013",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000121",
+    "recipe_id": "RCPJ000012",
+    "ingredient_type": "item",
+    "item_id": "ITM000014",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000122",
+    "recipe_id": "RCPJ000012",
+    "ingredient_type": "item",
+    "item_id": "ITM000015",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000130",
+    "recipe_id": "RCPJ000013",
+    "ingredient_type": "item",
+    "item_id": "ITM000014",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000131",
+    "recipe_id": "RCPJ000013",
+    "ingredient_type": "item",
+    "item_id": "ITM000015",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000132",
+    "recipe_id": "RCPJ000013",
+    "ingredient_type": "item",
+    "item_id": "ITM000016",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000140",
+    "recipe_id": "RCPJ000014",
+    "ingredient_type": "item",
+    "item_id": "ITM000015",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000141",
+    "recipe_id": "RCPJ000014",
+    "ingredient_type": "item",
+    "item_id": "ITM000016",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000142",
+    "recipe_id": "RCPJ000014",
+    "ingredient_type": "item",
+    "item_id": "ITM000017",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000150",
+    "recipe_id": "RCPJ000015",
+    "ingredient_type": "item",
+    "item_id": "ITM000016",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000151",
+    "recipe_id": "RCPJ000015",
+    "ingredient_type": "item",
+    "item_id": "ITM000017",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000152",
+    "recipe_id": "RCPJ000015",
+    "ingredient_type": "item",
+    "item_id": "ITM000018",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000160",
+    "recipe_id": "RCPJ000016",
+    "ingredient_type": "item",
+    "item_id": "ITM000017",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000161",
+    "recipe_id": "RCPJ000016",
+    "ingredient_type": "item",
+    "item_id": "ITM000018",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000162",
+    "recipe_id": "RCPJ000016",
+    "ingredient_type": "item",
+    "item_id": "ITM000019",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000170",
+    "recipe_id": "RCPJ000017",
+    "ingredient_type": "item",
+    "item_id": "ITM000018",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000171",
+    "recipe_id": "RCPJ000017",
+    "ingredient_type": "item",
+    "item_id": "ITM000019",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000172",
+    "recipe_id": "RCPJ000017",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000018",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000180",
+    "recipe_id": "RCPJ000018",
+    "ingredient_type": "item",
+    "item_id": "ITM000019",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000181",
+    "recipe_id": "RCPJ000018",
+    "ingredient_type": "item",
+    "item_id": "ITM000020",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000182",
+    "recipe_id": "RCPJ000018",
+    "ingredient_type": "item",
+    "item_id": "ITM000021",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000190",
+    "recipe_id": "RCPJ000019",
+    "ingredient_type": "item",
+    "item_id": "ITM000020",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000191",
+    "recipe_id": "RCPJ000019",
+    "ingredient_type": "item",
+    "item_id": "ITM000021",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000192",
+    "recipe_id": "RCPJ000019",
+    "ingredient_type": "item",
+    "item_id": "ITM000022",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000200",
+    "recipe_id": "RCPJ000020",
+    "ingredient_type": "item",
+    "item_id": "ITM000021",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000201",
+    "recipe_id": "RCPJ000020",
+    "ingredient_type": "item",
+    "item_id": "ITM000022",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000202",
+    "recipe_id": "RCPJ000020",
+    "ingredient_type": "item",
+    "item_id": "ITM000023",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000210",
+    "recipe_id": "RCPJ000021",
+    "ingredient_type": "item",
+    "item_id": "ITM000022",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000211",
+    "recipe_id": "RCPJ000021",
+    "ingredient_type": "item",
+    "item_id": "ITM000023",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000212",
+    "recipe_id": "RCPJ000021",
+    "ingredient_type": "item",
+    "item_id": "ITM000024",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000220",
+    "recipe_id": "RCPJ000022",
+    "ingredient_type": "item",
+    "item_id": "ITM000023",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000221",
+    "recipe_id": "RCPJ000022",
+    "ingredient_type": "item",
+    "item_id": "ITM000024",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000222",
+    "recipe_id": "RCPJ000022",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000023",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000230",
+    "recipe_id": "RCPJ000023",
+    "ingredient_type": "item",
+    "item_id": "ITM000024",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000231",
+    "recipe_id": "RCPJ000023",
+    "ingredient_type": "item",
+    "item_id": "ITM000025",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000232",
+    "recipe_id": "RCPJ000023",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000024",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000240",
+    "recipe_id": "RCPJ000024",
+    "ingredient_type": "item",
+    "item_id": "ITM000025",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000241",
+    "recipe_id": "RCPJ000024",
+    "ingredient_type": "item",
+    "item_id": "ITM000026",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000242",
+    "recipe_id": "RCPJ000024",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000025",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000250",
+    "recipe_id": "RCPJ000025",
+    "ingredient_type": "item",
+    "item_id": "ITM000026",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000251",
+    "recipe_id": "RCPJ000025",
+    "ingredient_type": "item",
+    "item_id": "ITM000027",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000252",
+    "recipe_id": "RCPJ000025",
+    "ingredient_type": "item",
+    "item_id": "ITM000028",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000260",
+    "recipe_id": "RCPJ000026",
+    "ingredient_type": "item",
+    "item_id": "ITM000027",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000261",
+    "recipe_id": "RCPJ000026",
+    "ingredient_type": "item",
+    "item_id": "ITM000028",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000262",
+    "recipe_id": "RCPJ000026",
+    "ingredient_type": "item",
+    "item_id": "ITM000029",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000270",
+    "recipe_id": "RCPJ000027",
+    "ingredient_type": "item",
+    "item_id": "ITM000028",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000271",
+    "recipe_id": "RCPJ000027",
+    "ingredient_type": "item",
+    "item_id": "ITM000029",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000272",
+    "recipe_id": "RCPJ000027",
+    "ingredient_type": "item",
+    "item_id": "ITM000030",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000280",
+    "recipe_id": "RCPJ000028",
+    "ingredient_type": "item",
+    "item_id": "ITM000029",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000281",
+    "recipe_id": "RCPJ000028",
+    "ingredient_type": "item",
+    "item_id": "ITM000030",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000282",
+    "recipe_id": "RCPJ000028",
+    "ingredient_type": "item",
+    "item_id": "ITM000031",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000290",
+    "recipe_id": "RCPJ000029",
+    "ingredient_type": "item",
+    "item_id": "ITM000030",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000291",
+    "recipe_id": "RCPJ000029",
+    "ingredient_type": "item",
+    "item_id": "ITM000031",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000292",
+    "recipe_id": "RCPJ000029",
+    "ingredient_type": "item",
+    "item_id": "ITM000032",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000300",
+    "recipe_id": "RCPJ000030",
+    "ingredient_type": "item",
+    "item_id": "ITM000031",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000301",
+    "recipe_id": "RCPJ000030",
+    "ingredient_type": "item",
+    "item_id": "ITM000032",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000302",
+    "recipe_id": "RCPJ000030",
+    "ingredient_type": "item",
+    "item_id": "ITM000033",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000310",
+    "recipe_id": "RCPJ000031",
+    "ingredient_type": "item",
+    "item_id": "ITM000032",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000311",
+    "recipe_id": "RCPJ000031",
+    "ingredient_type": "item",
+    "item_id": "ITM000033",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000312",
+    "recipe_id": "RCPJ000031",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000032",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000320",
+    "recipe_id": "RCPJ000032",
+    "ingredient_type": "item",
+    "item_id": "ITM000033",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000321",
+    "recipe_id": "RCPJ000032",
+    "ingredient_type": "item",
+    "item_id": "ITM000034",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000322",
+    "recipe_id": "RCPJ000032",
+    "ingredient_type": "item",
+    "item_id": "ITM000035",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000330",
+    "recipe_id": "RCPJ000033",
+    "ingredient_type": "item",
+    "item_id": "ITM000034",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000331",
+    "recipe_id": "RCPJ000033",
+    "ingredient_type": "item",
+    "item_id": "ITM000035",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000332",
+    "recipe_id": "RCPJ000033",
+    "ingredient_type": "item",
+    "item_id": "ITM000036",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000340",
+    "recipe_id": "RCPJ000034",
+    "ingredient_type": "item",
+    "item_id": "ITM000035",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000341",
+    "recipe_id": "RCPJ000034",
+    "ingredient_type": "item",
+    "item_id": "ITM000036",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000342",
+    "recipe_id": "RCPJ000034",
+    "ingredient_type": "item",
+    "item_id": "ITM000037",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000350",
+    "recipe_id": "RCPJ000035",
+    "ingredient_type": "item",
+    "item_id": "ITM000036",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000351",
+    "recipe_id": "RCPJ000035",
+    "ingredient_type": "item",
+    "item_id": "ITM000037",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000352",
+    "recipe_id": "RCPJ000035",
+    "ingredient_type": "item",
+    "item_id": "ITM000038",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000360",
+    "recipe_id": "RCPJ000036",
+    "ingredient_type": "item",
+    "item_id": "ITM000037",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000361",
+    "recipe_id": "RCPJ000036",
+    "ingredient_type": "item",
+    "item_id": "ITM000038",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000362",
+    "recipe_id": "RCPJ000036",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000037",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000370",
+    "recipe_id": "RCPJ000037",
+    "ingredient_type": "item",
+    "item_id": "ITM000038",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000371",
+    "recipe_id": "RCPJ000037",
+    "ingredient_type": "item",
+    "item_id": "ITM000039",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000372",
+    "recipe_id": "RCPJ000037",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000038",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000380",
+    "recipe_id": "RCPJ000038",
+    "ingredient_type": "item",
+    "item_id": "ITM000039",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000381",
+    "recipe_id": "RCPJ000038",
+    "ingredient_type": "item",
+    "item_id": "ITM000040",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000382",
+    "recipe_id": "RCPJ000038",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000039",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000390",
+    "recipe_id": "RCPJ000039",
+    "ingredient_type": "item",
+    "item_id": "ITM000040",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000391",
+    "recipe_id": "RCPJ000039",
+    "ingredient_type": "item",
+    "item_id": "ITM000041",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000392",
+    "recipe_id": "RCPJ000039",
+    "ingredient_type": "item",
+    "item_id": "ITM000042",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000400",
+    "recipe_id": "RCPJ000040",
+    "ingredient_type": "item",
+    "item_id": "ITM000041",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000401",
+    "recipe_id": "RCPJ000040",
+    "ingredient_type": "item",
+    "item_id": "ITM000042",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000402",
+    "recipe_id": "RCPJ000040",
+    "ingredient_type": "item",
+    "item_id": "ITM000043",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000410",
+    "recipe_id": "RCPJ000041",
+    "ingredient_type": "item",
+    "item_id": "ITM000042",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000411",
+    "recipe_id": "RCPJ000041",
+    "ingredient_type": "item",
+    "item_id": "ITM000043",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000412",
+    "recipe_id": "RCPJ000041",
+    "ingredient_type": "item",
+    "item_id": "ITM000044",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000420",
+    "recipe_id": "RCPJ000042",
+    "ingredient_type": "item",
+    "item_id": "ITM000043",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000421",
+    "recipe_id": "RCPJ000042",
+    "ingredient_type": "item",
+    "item_id": "ITM000044",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000422",
+    "recipe_id": "RCPJ000042",
+    "ingredient_type": "item",
+    "item_id": "ITM000045",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000430",
+    "recipe_id": "RCPJ000043",
+    "ingredient_type": "item",
+    "item_id": "ITM000044",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000431",
+    "recipe_id": "RCPJ000043",
+    "ingredient_type": "item",
+    "item_id": "ITM000045",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000432",
+    "recipe_id": "RCPJ000043",
+    "ingredient_type": "item",
+    "item_id": "ITM000046",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000440",
+    "recipe_id": "RCPJ000044",
+    "ingredient_type": "item",
+    "item_id": "ITM000045",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000441",
+    "recipe_id": "RCPJ000044",
+    "ingredient_type": "item",
+    "item_id": "ITM000046",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000442",
+    "recipe_id": "RCPJ000044",
+    "ingredient_type": "item",
+    "item_id": "ITM000047",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000450",
+    "recipe_id": "RCPJ000045",
+    "ingredient_type": "item",
+    "item_id": "ITM000046",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000451",
+    "recipe_id": "RCPJ000045",
+    "ingredient_type": "item",
+    "item_id": "ITM000047",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000452",
+    "recipe_id": "RCPJ000045",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000046",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000460",
+    "recipe_id": "RCPJ000046",
+    "ingredient_type": "item",
+    "item_id": "ITM000047",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000461",
+    "recipe_id": "RCPJ000046",
+    "ingredient_type": "item",
+    "item_id": "ITM000048",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000462",
+    "recipe_id": "RCPJ000046",
+    "ingredient_type": "item",
+    "item_id": "ITM000049",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000470",
+    "recipe_id": "RCPJ000047",
+    "ingredient_type": "item",
+    "item_id": "ITM000048",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000471",
+    "recipe_id": "RCPJ000047",
+    "ingredient_type": "item",
+    "item_id": "ITM000049",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000472",
+    "recipe_id": "RCPJ000047",
+    "ingredient_type": "item",
+    "item_id": "ITM000050",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000480",
+    "recipe_id": "RCPJ000048",
+    "ingredient_type": "item",
+    "item_id": "ITM000049",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000481",
+    "recipe_id": "RCPJ000048",
+    "ingredient_type": "item",
+    "item_id": "ITM000050",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000482",
+    "recipe_id": "RCPJ000048",
+    "ingredient_type": "item",
+    "item_id": "ITM000051",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000490",
+    "recipe_id": "RCPJ000049",
+    "ingredient_type": "item",
+    "item_id": "ITM000050",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000491",
+    "recipe_id": "RCPJ000049",
+    "ingredient_type": "item",
+    "item_id": "ITM000051",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000492",
+    "recipe_id": "RCPJ000049",
+    "ingredient_type": "item",
+    "item_id": "ITM000052",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000500",
+    "recipe_id": "RCPJ000050",
+    "ingredient_type": "item",
+    "item_id": "ITM000051",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000501",
+    "recipe_id": "RCPJ000050",
+    "ingredient_type": "item",
+    "item_id": "ITM000052",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000502",
+    "recipe_id": "RCPJ000050",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000051",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000510",
+    "recipe_id": "RCPJ000051",
+    "ingredient_type": "item",
+    "item_id": "ITM000052",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000511",
+    "recipe_id": "RCPJ000051",
+    "ingredient_type": "item",
+    "item_id": "ITM000053",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000512",
+    "recipe_id": "RCPJ000051",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000052",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000520",
+    "recipe_id": "RCPJ000052",
+    "ingredient_type": "item",
+    "item_id": "ITM000053",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000521",
+    "recipe_id": "RCPJ000052",
+    "ingredient_type": "item",
+    "item_id": "ITM000054",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000522",
+    "recipe_id": "RCPJ000052",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000053",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000530",
+    "recipe_id": "RCPJ000053",
+    "ingredient_type": "item",
+    "item_id": "ITM000054",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000531",
+    "recipe_id": "RCPJ000053",
+    "ingredient_type": "item",
+    "item_id": "ITM000055",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000532",
+    "recipe_id": "RCPJ000053",
+    "ingredient_type": "item",
+    "item_id": "ITM000056",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000540",
+    "recipe_id": "RCPJ000054",
+    "ingredient_type": "item",
+    "item_id": "ITM000055",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000541",
+    "recipe_id": "RCPJ000054",
+    "ingredient_type": "item",
+    "item_id": "ITM000056",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000542",
+    "recipe_id": "RCPJ000054",
+    "ingredient_type": "item",
+    "item_id": "ITM000057",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000550",
+    "recipe_id": "RCPJ000055",
+    "ingredient_type": "item",
+    "item_id": "ITM000056",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000551",
+    "recipe_id": "RCPJ000055",
+    "ingredient_type": "item",
+    "item_id": "ITM000057",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000552",
+    "recipe_id": "RCPJ000055",
+    "ingredient_type": "item",
+    "item_id": "ITM000058",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000560",
+    "recipe_id": "RCPJ000056",
+    "ingredient_type": "item",
+    "item_id": "ITM000057",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000561",
+    "recipe_id": "RCPJ000056",
+    "ingredient_type": "item",
+    "item_id": "ITM000058",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000562",
+    "recipe_id": "RCPJ000056",
+    "ingredient_type": "item",
+    "item_id": "ITM000059",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000570",
+    "recipe_id": "RCPJ000057",
+    "ingredient_type": "item",
+    "item_id": "ITM000058",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000571",
+    "recipe_id": "RCPJ000057",
+    "ingredient_type": "item",
+    "item_id": "ITM000059",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000572",
+    "recipe_id": "RCPJ000057",
+    "ingredient_type": "item",
+    "item_id": "ITM000060",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000580",
+    "recipe_id": "RCPJ000058",
+    "ingredient_type": "item",
+    "item_id": "ITM000059",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000581",
+    "recipe_id": "RCPJ000058",
+    "ingredient_type": "item",
+    "item_id": "ITM000060",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000582",
+    "recipe_id": "RCPJ000058",
+    "ingredient_type": "item",
+    "item_id": "ITM000061",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000590",
+    "recipe_id": "RCPJ000059",
+    "ingredient_type": "item",
+    "item_id": "ITM000060",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000591",
+    "recipe_id": "RCPJ000059",
+    "ingredient_type": "item",
+    "item_id": "ITM000061",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000592",
+    "recipe_id": "RCPJ000059",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000060",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000600",
+    "recipe_id": "RCPJ000060",
+    "ingredient_type": "item",
+    "item_id": "ITM000061",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000601",
+    "recipe_id": "RCPJ000060",
+    "ingredient_type": "item",
+    "item_id": "ITM000062",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000602",
+    "recipe_id": "RCPJ000060",
+    "ingredient_type": "item",
+    "item_id": "ITM000063",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000610",
+    "recipe_id": "RCPJ000061",
+    "ingredient_type": "item",
+    "item_id": "ITM000062",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000611",
+    "recipe_id": "RCPJ000061",
+    "ingredient_type": "item",
+    "item_id": "ITM000063",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000612",
+    "recipe_id": "RCPJ000061",
+    "ingredient_type": "item",
+    "item_id": "ITM000064",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000620",
+    "recipe_id": "RCPJ000062",
+    "ingredient_type": "item",
+    "item_id": "ITM000063",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000621",
+    "recipe_id": "RCPJ000062",
+    "ingredient_type": "item",
+    "item_id": "ITM000064",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000622",
+    "recipe_id": "RCPJ000062",
+    "ingredient_type": "item",
+    "item_id": "ITM000065",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000630",
+    "recipe_id": "RCPJ000063",
+    "ingredient_type": "item",
+    "item_id": "ITM000064",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000631",
+    "recipe_id": "RCPJ000063",
+    "ingredient_type": "item",
+    "item_id": "ITM000065",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000632",
+    "recipe_id": "RCPJ000063",
+    "ingredient_type": "item",
+    "item_id": "ITM000066",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000640",
+    "recipe_id": "RCPJ000064",
+    "ingredient_type": "item",
+    "item_id": "ITM000065",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000641",
+    "recipe_id": "RCPJ000064",
+    "ingredient_type": "item",
+    "item_id": "ITM000066",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000642",
+    "recipe_id": "RCPJ000064",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000065",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000650",
+    "recipe_id": "RCPJ000065",
+    "ingredient_type": "item",
+    "item_id": "ITM000066",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000651",
+    "recipe_id": "RCPJ000065",
+    "ingredient_type": "item",
+    "item_id": "ITM000067",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000652",
+    "recipe_id": "RCPJ000065",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000066",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000660",
+    "recipe_id": "RCPJ000066",
+    "ingredient_type": "item",
+    "item_id": "ITM000067",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000661",
+    "recipe_id": "RCPJ000066",
+    "ingredient_type": "item",
+    "item_id": "ITM000068",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000662",
+    "recipe_id": "RCPJ000066",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000067",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000670",
+    "recipe_id": "RCPJ000067",
+    "ingredient_type": "item",
+    "item_id": "ITM000068",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000671",
+    "recipe_id": "RCPJ000067",
+    "ingredient_type": "item",
+    "item_id": "ITM000069",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000672",
+    "recipe_id": "RCPJ000067",
+    "ingredient_type": "item",
+    "item_id": "ITM000070",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000680",
+    "recipe_id": "RCPJ000068",
+    "ingredient_type": "item",
+    "item_id": "ITM000069",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000681",
+    "recipe_id": "RCPJ000068",
+    "ingredient_type": "item",
+    "item_id": "ITM000070",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000682",
+    "recipe_id": "RCPJ000068",
+    "ingredient_type": "item",
+    "item_id": "ITM000071",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000690",
+    "recipe_id": "RCPJ000069",
+    "ingredient_type": "item",
+    "item_id": "ITM000070",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000691",
+    "recipe_id": "RCPJ000069",
+    "ingredient_type": "item",
+    "item_id": "ITM000071",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000692",
+    "recipe_id": "RCPJ000069",
+    "ingredient_type": "item",
+    "item_id": "ITM000072",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000700",
+    "recipe_id": "RCPJ000070",
+    "ingredient_type": "item",
+    "item_id": "ITM000071",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000701",
+    "recipe_id": "RCPJ000070",
+    "ingredient_type": "item",
+    "item_id": "ITM000072",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000702",
+    "recipe_id": "RCPJ000070",
+    "ingredient_type": "item",
+    "item_id": "ITM000073",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000710",
+    "recipe_id": "RCPJ000071",
+    "ingredient_type": "item",
+    "item_id": "ITM000072",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000711",
+    "recipe_id": "RCPJ000071",
+    "ingredient_type": "item",
+    "item_id": "ITM000073",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000712",
+    "recipe_id": "RCPJ000071",
+    "ingredient_type": "item",
+    "item_id": "ITM000074",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000720",
+    "recipe_id": "RCPJ000072",
+    "ingredient_type": "item",
+    "item_id": "ITM000073",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000721",
+    "recipe_id": "RCPJ000072",
+    "ingredient_type": "item",
+    "item_id": "ITM000074",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000722",
+    "recipe_id": "RCPJ000072",
+    "ingredient_type": "item",
+    "item_id": "ITM000075",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000730",
+    "recipe_id": "RCPJ000073",
+    "ingredient_type": "item",
+    "item_id": "ITM000074",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000731",
+    "recipe_id": "RCPJ000073",
+    "ingredient_type": "item",
+    "item_id": "ITM000075",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000732",
+    "recipe_id": "RCPJ000073",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000074",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000740",
+    "recipe_id": "RCPJ000074",
+    "ingredient_type": "item",
+    "item_id": "ITM000075",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000741",
+    "recipe_id": "RCPJ000074",
+    "ingredient_type": "item",
+    "item_id": "ITM000076",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000742",
+    "recipe_id": "RCPJ000074",
+    "ingredient_type": "item",
+    "item_id": "ITM000077",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000750",
+    "recipe_id": "RCPJ000075",
+    "ingredient_type": "item",
+    "item_id": "ITM000076",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000751",
+    "recipe_id": "RCPJ000075",
+    "ingredient_type": "item",
+    "item_id": "ITM000077",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000752",
+    "recipe_id": "RCPJ000075",
+    "ingredient_type": "item",
+    "item_id": "ITM000078",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000760",
+    "recipe_id": "RCPJ000076",
+    "ingredient_type": "item",
+    "item_id": "ITM000077",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000761",
+    "recipe_id": "RCPJ000076",
+    "ingredient_type": "item",
+    "item_id": "ITM000078",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000762",
+    "recipe_id": "RCPJ000076",
+    "ingredient_type": "item",
+    "item_id": "ITM000079",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000770",
+    "recipe_id": "RCPJ000077",
+    "ingredient_type": "item",
+    "item_id": "ITM000078",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000771",
+    "recipe_id": "RCPJ000077",
+    "ingredient_type": "item",
+    "item_id": "ITM000079",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000772",
+    "recipe_id": "RCPJ000077",
+    "ingredient_type": "item",
+    "item_id": "ITM000080",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000780",
+    "recipe_id": "RCPJ000078",
+    "ingredient_type": "item",
+    "item_id": "ITM000079",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000781",
+    "recipe_id": "RCPJ000078",
+    "ingredient_type": "item",
+    "item_id": "ITM000080",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000782",
+    "recipe_id": "RCPJ000078",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000079",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000790",
+    "recipe_id": "RCPJ000079",
+    "ingredient_type": "item",
+    "item_id": "ITM000080",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000791",
+    "recipe_id": "RCPJ000079",
+    "ingredient_type": "item",
+    "item_id": "ITM000081",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000792",
+    "recipe_id": "RCPJ000079",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000080",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000800",
+    "recipe_id": "RCPJ000080",
+    "ingredient_type": "item",
+    "item_id": "ITM000081",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000801",
+    "recipe_id": "RCPJ000080",
+    "ingredient_type": "item",
+    "item_id": "ITM000082",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000802",
+    "recipe_id": "RCPJ000080",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000081",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000810",
+    "recipe_id": "RCPJ000081",
+    "ingredient_type": "item",
+    "item_id": "ITM000082",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000811",
+    "recipe_id": "RCPJ000081",
+    "ingredient_type": "item",
+    "item_id": "ITM000083",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000812",
+    "recipe_id": "RCPJ000081",
+    "ingredient_type": "item",
+    "item_id": "ITM000084",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000820",
+    "recipe_id": "RCPJ000082",
+    "ingredient_type": "item",
+    "item_id": "ITM000083",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000821",
+    "recipe_id": "RCPJ000082",
+    "ingredient_type": "item",
+    "item_id": "ITM000084",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000822",
+    "recipe_id": "RCPJ000082",
+    "ingredient_type": "item",
+    "item_id": "ITM000085",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000830",
+    "recipe_id": "RCPJ000083",
+    "ingredient_type": "item",
+    "item_id": "ITM000084",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000831",
+    "recipe_id": "RCPJ000083",
+    "ingredient_type": "item",
+    "item_id": "ITM000085",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000832",
+    "recipe_id": "RCPJ000083",
+    "ingredient_type": "item",
+    "item_id": "ITM000086",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000840",
+    "recipe_id": "RCPJ000084",
+    "ingredient_type": "item",
+    "item_id": "ITM000085",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000841",
+    "recipe_id": "RCPJ000084",
+    "ingredient_type": "item",
+    "item_id": "ITM000086",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000842",
+    "recipe_id": "RCPJ000084",
+    "ingredient_type": "item",
+    "item_id": "ITM000087",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000850",
+    "recipe_id": "RCPJ000085",
+    "ingredient_type": "item",
+    "item_id": "ITM000086",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000851",
+    "recipe_id": "RCPJ000085",
+    "ingredient_type": "item",
+    "item_id": "ITM000087",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000852",
+    "recipe_id": "RCPJ000085",
+    "ingredient_type": "item",
+    "item_id": "ITM000088",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000860",
+    "recipe_id": "RCPJ000086",
+    "ingredient_type": "item",
+    "item_id": "ITM000087",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000861",
+    "recipe_id": "RCPJ000086",
+    "ingredient_type": "item",
+    "item_id": "ITM000088",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000862",
+    "recipe_id": "RCPJ000086",
+    "ingredient_type": "item",
+    "item_id": "ITM000089",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000870",
+    "recipe_id": "RCPJ000087",
+    "ingredient_type": "item",
+    "item_id": "ITM000088",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000871",
+    "recipe_id": "RCPJ000087",
+    "ingredient_type": "item",
+    "item_id": "ITM000089",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000872",
+    "recipe_id": "RCPJ000087",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000088",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000880",
+    "recipe_id": "RCPJ000088",
+    "ingredient_type": "item",
+    "item_id": "ITM000089",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000881",
+    "recipe_id": "RCPJ000088",
+    "ingredient_type": "item",
+    "item_id": "ITM000090",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000882",
+    "recipe_id": "RCPJ000088",
+    "ingredient_type": "item",
+    "item_id": "ITM000091",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000890",
+    "recipe_id": "RCPJ000089",
+    "ingredient_type": "item",
+    "item_id": "ITM000090",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000891",
+    "recipe_id": "RCPJ000089",
+    "ingredient_type": "item",
+    "item_id": "ITM000091",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000892",
+    "recipe_id": "RCPJ000089",
+    "ingredient_type": "item",
+    "item_id": "ITM000092",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000900",
+    "recipe_id": "RCPJ000090",
+    "ingredient_type": "item",
+    "item_id": "ITM000091",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000901",
+    "recipe_id": "RCPJ000090",
+    "ingredient_type": "item",
+    "item_id": "ITM000092",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000902",
+    "recipe_id": "RCPJ000090",
+    "ingredient_type": "item",
+    "item_id": "ITM000093",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000910",
+    "recipe_id": "RCPJ000091",
+    "ingredient_type": "item",
+    "item_id": "ITM000092",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000911",
+    "recipe_id": "RCPJ000091",
+    "ingredient_type": "item",
+    "item_id": "ITM000093",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000912",
+    "recipe_id": "RCPJ000091",
+    "ingredient_type": "item",
+    "item_id": "ITM000094",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000920",
+    "recipe_id": "RCPJ000092",
+    "ingredient_type": "item",
+    "item_id": "ITM000093",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000921",
+    "recipe_id": "RCPJ000092",
+    "ingredient_type": "item",
+    "item_id": "ITM000094",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000922",
+    "recipe_id": "RCPJ000092",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000093",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000930",
+    "recipe_id": "RCPJ000093",
+    "ingredient_type": "item",
+    "item_id": "ITM000094",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000931",
+    "recipe_id": "RCPJ000093",
+    "ingredient_type": "item",
+    "item_id": "ITM000095",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000932",
+    "recipe_id": "RCPJ000093",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000094",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000940",
+    "recipe_id": "RCPJ000094",
+    "ingredient_type": "item",
+    "item_id": "ITM000095",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000941",
+    "recipe_id": "RCPJ000094",
+    "ingredient_type": "item",
+    "item_id": "ITM000096",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000942",
+    "recipe_id": "RCPJ000094",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000095",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000950",
+    "recipe_id": "RCPJ000095",
+    "ingredient_type": "item",
+    "item_id": "ITM000096",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000951",
+    "recipe_id": "RCPJ000095",
+    "ingredient_type": "item",
+    "item_id": "ITM000097",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000952",
+    "recipe_id": "RCPJ000095",
+    "ingredient_type": "item",
+    "item_id": "ITM000098",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000960",
+    "recipe_id": "RCPJ000096",
+    "ingredient_type": "item",
+    "item_id": "ITM000097",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000961",
+    "recipe_id": "RCPJ000096",
+    "ingredient_type": "item",
+    "item_id": "ITM000098",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000962",
+    "recipe_id": "RCPJ000096",
+    "ingredient_type": "item",
+    "item_id": "ITM000099",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000970",
+    "recipe_id": "RCPJ000097",
+    "ingredient_type": "item",
+    "item_id": "ITM000098",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000971",
+    "recipe_id": "RCPJ000097",
+    "ingredient_type": "item",
+    "item_id": "ITM000099",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000972",
+    "recipe_id": "RCPJ000097",
+    "ingredient_type": "item",
+    "item_id": "ITM000100",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000980",
+    "recipe_id": "RCPJ000098",
+    "ingredient_type": "item",
+    "item_id": "ITM000099",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000981",
+    "recipe_id": "RCPJ000098",
+    "ingredient_type": "item",
+    "item_id": "ITM000100",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000982",
+    "recipe_id": "RCPJ000098",
+    "ingredient_type": "item",
+    "item_id": "ITM000101",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000990",
+    "recipe_id": "RCPJ000099",
+    "ingredient_type": "item",
+    "item_id": "ITM000100",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0000991",
+    "recipe_id": "RCPJ000099",
+    "ingredient_type": "item",
+    "item_id": "ITM000101",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0000992",
+    "recipe_id": "RCPJ000099",
+    "ingredient_type": "item",
+    "item_id": "ITM000102",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001000",
+    "recipe_id": "RCPJ000100",
+    "ingredient_type": "item",
+    "item_id": "ITM000101",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001001",
+    "recipe_id": "RCPJ000100",
+    "ingredient_type": "item",
+    "item_id": "ITM000102",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001002",
+    "recipe_id": "RCPJ000100",
+    "ingredient_type": "item",
+    "item_id": "ITM000103",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001010",
+    "recipe_id": "RCPJ000101",
+    "ingredient_type": "item",
+    "item_id": "ITM000102",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001011",
+    "recipe_id": "RCPJ000101",
+    "ingredient_type": "item",
+    "item_id": "ITM000103",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001012",
+    "recipe_id": "RCPJ000101",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000102",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001020",
+    "recipe_id": "RCPJ000102",
+    "ingredient_type": "item",
+    "item_id": "ITM000103",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001021",
+    "recipe_id": "RCPJ000102",
+    "ingredient_type": "item",
+    "item_id": "ITM000104",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001022",
+    "recipe_id": "RCPJ000102",
+    "ingredient_type": "item",
+    "item_id": "ITM000105",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001030",
+    "recipe_id": "RCPJ000103",
+    "ingredient_type": "item",
+    "item_id": "ITM000104",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001031",
+    "recipe_id": "RCPJ000103",
+    "ingredient_type": "item",
+    "item_id": "ITM000105",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001032",
+    "recipe_id": "RCPJ000103",
+    "ingredient_type": "item",
+    "item_id": "ITM000106",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001040",
+    "recipe_id": "RCPJ000104",
+    "ingredient_type": "item",
+    "item_id": "ITM000105",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001041",
+    "recipe_id": "RCPJ000104",
+    "ingredient_type": "item",
+    "item_id": "ITM000106",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001042",
+    "recipe_id": "RCPJ000104",
+    "ingredient_type": "item",
+    "item_id": "ITM000107",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001050",
+    "recipe_id": "RCPJ000105",
+    "ingredient_type": "item",
+    "item_id": "ITM000106",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001051",
+    "recipe_id": "RCPJ000105",
+    "ingredient_type": "item",
+    "item_id": "ITM000107",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001052",
+    "recipe_id": "RCPJ000105",
+    "ingredient_type": "item",
+    "item_id": "ITM000108",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001060",
+    "recipe_id": "RCPJ000106",
+    "ingredient_type": "item",
+    "item_id": "ITM000107",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001061",
+    "recipe_id": "RCPJ000106",
+    "ingredient_type": "item",
+    "item_id": "ITM000108",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001062",
+    "recipe_id": "RCPJ000106",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000107",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001070",
+    "recipe_id": "RCPJ000107",
+    "ingredient_type": "item",
+    "item_id": "ITM000108",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001071",
+    "recipe_id": "RCPJ000107",
+    "ingredient_type": "item",
+    "item_id": "ITM000109",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001072",
+    "recipe_id": "RCPJ000107",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000108",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001080",
+    "recipe_id": "RCPJ000108",
+    "ingredient_type": "item",
+    "item_id": "ITM000109",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001081",
+    "recipe_id": "RCPJ000108",
+    "ingredient_type": "item",
+    "item_id": "ITM000110",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001082",
+    "recipe_id": "RCPJ000108",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000109",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001090",
+    "recipe_id": "RCPJ000109",
+    "ingredient_type": "item",
+    "item_id": "ITM000110",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001091",
+    "recipe_id": "RCPJ000109",
+    "ingredient_type": "item",
+    "item_id": "ITM000111",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001092",
+    "recipe_id": "RCPJ000109",
+    "ingredient_type": "item",
+    "item_id": "ITM000112",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001100",
+    "recipe_id": "RCPJ000110",
+    "ingredient_type": "item",
+    "item_id": "ITM000111",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001101",
+    "recipe_id": "RCPJ000110",
+    "ingredient_type": "item",
+    "item_id": "ITM000112",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001102",
+    "recipe_id": "RCPJ000110",
+    "ingredient_type": "item",
+    "item_id": "ITM000113",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001110",
+    "recipe_id": "RCPJ000111",
+    "ingredient_type": "item",
+    "item_id": "ITM000112",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001111",
+    "recipe_id": "RCPJ000111",
+    "ingredient_type": "item",
+    "item_id": "ITM000113",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001112",
+    "recipe_id": "RCPJ000111",
+    "ingredient_type": "item",
+    "item_id": "ITM000114",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001120",
+    "recipe_id": "RCPJ000112",
+    "ingredient_type": "item",
+    "item_id": "ITM000113",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001121",
+    "recipe_id": "RCPJ000112",
+    "ingredient_type": "item",
+    "item_id": "ITM000114",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001122",
+    "recipe_id": "RCPJ000112",
+    "ingredient_type": "item",
+    "item_id": "ITM000115",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001130",
+    "recipe_id": "RCPJ000113",
+    "ingredient_type": "item",
+    "item_id": "ITM000114",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001131",
+    "recipe_id": "RCPJ000113",
+    "ingredient_type": "item",
+    "item_id": "ITM000115",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001132",
+    "recipe_id": "RCPJ000113",
+    "ingredient_type": "item",
+    "item_id": "ITM000116",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001140",
+    "recipe_id": "RCPJ000114",
+    "ingredient_type": "item",
+    "item_id": "ITM000115",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001141",
+    "recipe_id": "RCPJ000114",
+    "ingredient_type": "item",
+    "item_id": "ITM000116",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001142",
+    "recipe_id": "RCPJ000114",
+    "ingredient_type": "item",
+    "item_id": "ITM000117",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001150",
+    "recipe_id": "RCPJ000115",
+    "ingredient_type": "item",
+    "item_id": "ITM000116",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001151",
+    "recipe_id": "RCPJ000115",
+    "ingredient_type": "item",
+    "item_id": "ITM000117",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001152",
+    "recipe_id": "RCPJ000115",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000116",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001160",
+    "recipe_id": "RCPJ000116",
+    "ingredient_type": "item",
+    "item_id": "ITM000117",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001161",
+    "recipe_id": "RCPJ000116",
+    "ingredient_type": "item",
+    "item_id": "ITM000118",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001162",
+    "recipe_id": "RCPJ000116",
+    "ingredient_type": "item",
+    "item_id": "ITM000119",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001170",
+    "recipe_id": "RCPJ000117",
+    "ingredient_type": "item",
+    "item_id": "ITM000118",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001171",
+    "recipe_id": "RCPJ000117",
+    "ingredient_type": "item",
+    "item_id": "ITM000119",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001172",
+    "recipe_id": "RCPJ000117",
+    "ingredient_type": "item",
+    "item_id": "ITM000120",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001180",
+    "recipe_id": "RCPJ000118",
+    "ingredient_type": "item",
+    "item_id": "ITM000119",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001181",
+    "recipe_id": "RCPJ000118",
+    "ingredient_type": "item",
+    "item_id": "ITM000120",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001182",
+    "recipe_id": "RCPJ000118",
+    "ingredient_type": "item",
+    "item_id": "ITM000121",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001190",
+    "recipe_id": "RCPJ000119",
+    "ingredient_type": "item",
+    "item_id": "ITM000120",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001191",
+    "recipe_id": "RCPJ000119",
+    "ingredient_type": "item",
+    "item_id": "ITM000121",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001192",
+    "recipe_id": "RCPJ000119",
+    "ingredient_type": "item",
+    "item_id": "ITM000122",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001200",
+    "recipe_id": "RCPJ000120",
+    "ingredient_type": "item",
+    "item_id": "ITM000121",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001201",
+    "recipe_id": "RCPJ000120",
+    "ingredient_type": "item",
+    "item_id": "ITM000122",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001202",
+    "recipe_id": "RCPJ000120",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000121",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001210",
+    "recipe_id": "RCPJ000121",
+    "ingredient_type": "item",
+    "item_id": "ITM000122",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001211",
+    "recipe_id": "RCPJ000121",
+    "ingredient_type": "item",
+    "item_id": "ITM000123",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001212",
+    "recipe_id": "RCPJ000121",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000122",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001220",
+    "recipe_id": "RCPJ000122",
+    "ingredient_type": "item",
+    "item_id": "ITM000123",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001221",
+    "recipe_id": "RCPJ000122",
+    "ingredient_type": "item",
+    "item_id": "ITM000124",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001222",
+    "recipe_id": "RCPJ000122",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000123",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001230",
+    "recipe_id": "RCPJ000123",
+    "ingredient_type": "item",
+    "item_id": "ITM000124",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001231",
+    "recipe_id": "RCPJ000123",
+    "ingredient_type": "item",
+    "item_id": "ITM000125",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001232",
+    "recipe_id": "RCPJ000123",
+    "ingredient_type": "item",
+    "item_id": "ITM000126",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001240",
+    "recipe_id": "RCPJ000124",
+    "ingredient_type": "item",
+    "item_id": "ITM000125",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001241",
+    "recipe_id": "RCPJ000124",
+    "ingredient_type": "item",
+    "item_id": "ITM000126",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001242",
+    "recipe_id": "RCPJ000124",
+    "ingredient_type": "item",
+    "item_id": "ITM000127",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001250",
+    "recipe_id": "RCPJ000125",
+    "ingredient_type": "item",
+    "item_id": "ITM000126",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001251",
+    "recipe_id": "RCPJ000125",
+    "ingredient_type": "item",
+    "item_id": "ITM000127",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001252",
+    "recipe_id": "RCPJ000125",
+    "ingredient_type": "item",
+    "item_id": "ITM000128",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001260",
+    "recipe_id": "RCPJ000126",
+    "ingredient_type": "item",
+    "item_id": "ITM000127",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001261",
+    "recipe_id": "RCPJ000126",
+    "ingredient_type": "item",
+    "item_id": "ITM000128",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001262",
+    "recipe_id": "RCPJ000126",
+    "ingredient_type": "item",
+    "item_id": "ITM000129",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001270",
+    "recipe_id": "RCPJ000127",
+    "ingredient_type": "item",
+    "item_id": "ITM000128",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001271",
+    "recipe_id": "RCPJ000127",
+    "ingredient_type": "item",
+    "item_id": "ITM000129",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001272",
+    "recipe_id": "RCPJ000127",
+    "ingredient_type": "item",
+    "item_id": "ITM000130",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001280",
+    "recipe_id": "RCPJ000128",
+    "ingredient_type": "item",
+    "item_id": "ITM000129",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001281",
+    "recipe_id": "RCPJ000128",
+    "ingredient_type": "item",
+    "item_id": "ITM000130",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001282",
+    "recipe_id": "RCPJ000128",
+    "ingredient_type": "item",
+    "item_id": "ITM000131",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001290",
+    "recipe_id": "RCPJ000129",
+    "ingredient_type": "item",
+    "item_id": "ITM000130",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001291",
+    "recipe_id": "RCPJ000129",
+    "ingredient_type": "item",
+    "item_id": "ITM000131",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001292",
+    "recipe_id": "RCPJ000129",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000130",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001300",
+    "recipe_id": "RCPJ000130",
+    "ingredient_type": "item",
+    "item_id": "ITM000131",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001301",
+    "recipe_id": "RCPJ000130",
+    "ingredient_type": "item",
+    "item_id": "ITM000132",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001302",
+    "recipe_id": "RCPJ000130",
+    "ingredient_type": "item",
+    "item_id": "ITM000133",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001310",
+    "recipe_id": "RCPJ000131",
+    "ingredient_type": "item",
+    "item_id": "ITM000132",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001311",
+    "recipe_id": "RCPJ000131",
+    "ingredient_type": "item",
+    "item_id": "ITM000133",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001312",
+    "recipe_id": "RCPJ000131",
+    "ingredient_type": "item",
+    "item_id": "ITM000134",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001320",
+    "recipe_id": "RCPJ000132",
+    "ingredient_type": "item",
+    "item_id": "ITM000133",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001321",
+    "recipe_id": "RCPJ000132",
+    "ingredient_type": "item",
+    "item_id": "ITM000134",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001322",
+    "recipe_id": "RCPJ000132",
+    "ingredient_type": "item",
+    "item_id": "ITM000135",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001330",
+    "recipe_id": "RCPJ000133",
+    "ingredient_type": "item",
+    "item_id": "ITM000134",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001331",
+    "recipe_id": "RCPJ000133",
+    "ingredient_type": "item",
+    "item_id": "ITM000135",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001332",
+    "recipe_id": "RCPJ000133",
+    "ingredient_type": "item",
+    "item_id": "ITM000136",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001340",
+    "recipe_id": "RCPJ000134",
+    "ingredient_type": "item",
+    "item_id": "ITM000135",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001341",
+    "recipe_id": "RCPJ000134",
+    "ingredient_type": "item",
+    "item_id": "ITM000136",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001342",
+    "recipe_id": "RCPJ000134",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000135",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001350",
+    "recipe_id": "RCPJ000135",
+    "ingredient_type": "item",
+    "item_id": "ITM000136",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001351",
+    "recipe_id": "RCPJ000135",
+    "ingredient_type": "item",
+    "item_id": "ITM000137",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001352",
+    "recipe_id": "RCPJ000135",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000136",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001360",
+    "recipe_id": "RCPJ000136",
+    "ingredient_type": "item",
+    "item_id": "ITM000137",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001361",
+    "recipe_id": "RCPJ000136",
+    "ingredient_type": "item",
+    "item_id": "ITM000138",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001362",
+    "recipe_id": "RCPJ000136",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000137",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001370",
+    "recipe_id": "RCPJ000137",
+    "ingredient_type": "item",
+    "item_id": "ITM000138",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001371",
+    "recipe_id": "RCPJ000137",
+    "ingredient_type": "item",
+    "item_id": "ITM000139",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001372",
+    "recipe_id": "RCPJ000137",
+    "ingredient_type": "item",
+    "item_id": "ITM000140",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001380",
+    "recipe_id": "RCPJ000138",
+    "ingredient_type": "item",
+    "item_id": "ITM000139",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001381",
+    "recipe_id": "RCPJ000138",
+    "ingredient_type": "item",
+    "item_id": "ITM000140",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001382",
+    "recipe_id": "RCPJ000138",
+    "ingredient_type": "item",
+    "item_id": "ITM000141",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001390",
+    "recipe_id": "RCPJ000139",
+    "ingredient_type": "item",
+    "item_id": "ITM000140",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001391",
+    "recipe_id": "RCPJ000139",
+    "ingredient_type": "item",
+    "item_id": "ITM000141",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001392",
+    "recipe_id": "RCPJ000139",
+    "ingredient_type": "item",
+    "item_id": "ITM000142",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001400",
+    "recipe_id": "RCPJ000140",
+    "ingredient_type": "item",
+    "item_id": "ITM000141",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001401",
+    "recipe_id": "RCPJ000140",
+    "ingredient_type": "item",
+    "item_id": "ITM000142",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001402",
+    "recipe_id": "RCPJ000140",
+    "ingredient_type": "item",
+    "item_id": "ITM000143",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001410",
+    "recipe_id": "RCPJ000141",
+    "ingredient_type": "item",
+    "item_id": "ITM000142",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001411",
+    "recipe_id": "RCPJ000141",
+    "ingredient_type": "item",
+    "item_id": "ITM000143",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001412",
+    "recipe_id": "RCPJ000141",
+    "ingredient_type": "item",
+    "item_id": "ITM000144",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001420",
+    "recipe_id": "RCPJ000142",
+    "ingredient_type": "item",
+    "item_id": "ITM000143",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001421",
+    "recipe_id": "RCPJ000142",
+    "ingredient_type": "item",
+    "item_id": "ITM000144",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001422",
+    "recipe_id": "RCPJ000142",
+    "ingredient_type": "item",
+    "item_id": "ITM000145",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001430",
+    "recipe_id": "RCPJ000143",
+    "ingredient_type": "item",
+    "item_id": "ITM000144",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001431",
+    "recipe_id": "RCPJ000143",
+    "ingredient_type": "item",
+    "item_id": "ITM000145",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001432",
+    "recipe_id": "RCPJ000143",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000144",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001440",
+    "recipe_id": "RCPJ000144",
+    "ingredient_type": "item",
+    "item_id": "ITM000145",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001441",
+    "recipe_id": "RCPJ000144",
+    "ingredient_type": "item",
+    "item_id": "ITM000146",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001442",
+    "recipe_id": "RCPJ000144",
+    "ingredient_type": "item",
+    "item_id": "ITM000147",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001450",
+    "recipe_id": "RCPJ000145",
+    "ingredient_type": "item",
+    "item_id": "ITM000146",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001451",
+    "recipe_id": "RCPJ000145",
+    "ingredient_type": "item",
+    "item_id": "ITM000147",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001452",
+    "recipe_id": "RCPJ000145",
+    "ingredient_type": "item",
+    "item_id": "ITM000148",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001460",
+    "recipe_id": "RCPJ000146",
+    "ingredient_type": "item",
+    "item_id": "ITM000147",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001461",
+    "recipe_id": "RCPJ000146",
+    "ingredient_type": "item",
+    "item_id": "ITM000148",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001462",
+    "recipe_id": "RCPJ000146",
+    "ingredient_type": "item",
+    "item_id": "ITM000149",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001470",
+    "recipe_id": "RCPJ000147",
+    "ingredient_type": "item",
+    "item_id": "ITM000148",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001471",
+    "recipe_id": "RCPJ000147",
+    "ingredient_type": "item",
+    "item_id": "ITM000149",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001472",
+    "recipe_id": "RCPJ000147",
+    "ingredient_type": "item",
+    "item_id": "ITM000150",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001480",
+    "recipe_id": "RCPJ000148",
+    "ingredient_type": "item",
+    "item_id": "ITM000149",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001481",
+    "recipe_id": "RCPJ000148",
+    "ingredient_type": "item",
+    "item_id": "ITM000150",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001482",
+    "recipe_id": "RCPJ000148",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000149",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001490",
+    "recipe_id": "RCPJ000149",
+    "ingredient_type": "item",
+    "item_id": "ITM000150",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001491",
+    "recipe_id": "RCPJ000149",
+    "ingredient_type": "item",
+    "item_id": "ITM000151",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001492",
+    "recipe_id": "RCPJ000149",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000150",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001500",
+    "recipe_id": "RCPJ000150",
+    "ingredient_type": "item",
+    "item_id": "ITM000151",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001501",
+    "recipe_id": "RCPJ000150",
+    "ingredient_type": "item",
+    "item_id": "ITM000152",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001502",
+    "recipe_id": "RCPJ000150",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000151",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001510",
+    "recipe_id": "RCPJ000151",
+    "ingredient_type": "item",
+    "item_id": "ITM000152",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001511",
+    "recipe_id": "RCPJ000151",
+    "ingredient_type": "item",
+    "item_id": "ITM000153",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001512",
+    "recipe_id": "RCPJ000151",
+    "ingredient_type": "item",
+    "item_id": "ITM000154",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001520",
+    "recipe_id": "RCPJ000152",
+    "ingredient_type": "item",
+    "item_id": "ITM000153",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001521",
+    "recipe_id": "RCPJ000152",
+    "ingredient_type": "item",
+    "item_id": "ITM000154",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001522",
+    "recipe_id": "RCPJ000152",
+    "ingredient_type": "item",
+    "item_id": "ITM000155",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001530",
+    "recipe_id": "RCPJ000153",
+    "ingredient_type": "item",
+    "item_id": "ITM000154",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001531",
+    "recipe_id": "RCPJ000153",
+    "ingredient_type": "item",
+    "item_id": "ITM000155",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001532",
+    "recipe_id": "RCPJ000153",
+    "ingredient_type": "item",
+    "item_id": "ITM000156",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001540",
+    "recipe_id": "RCPJ000154",
+    "ingredient_type": "item",
+    "item_id": "ITM000155",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001541",
+    "recipe_id": "RCPJ000154",
+    "ingredient_type": "item",
+    "item_id": "ITM000156",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001542",
+    "recipe_id": "RCPJ000154",
+    "ingredient_type": "item",
+    "item_id": "ITM000157",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001550",
+    "recipe_id": "RCPJ000155",
+    "ingredient_type": "item",
+    "item_id": "ITM000156",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001551",
+    "recipe_id": "RCPJ000155",
+    "ingredient_type": "item",
+    "item_id": "ITM000157",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001552",
+    "recipe_id": "RCPJ000155",
+    "ingredient_type": "item",
+    "item_id": "ITM000158",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001560",
+    "recipe_id": "RCPJ000156",
+    "ingredient_type": "item",
+    "item_id": "ITM000157",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001561",
+    "recipe_id": "RCPJ000156",
+    "ingredient_type": "item",
+    "item_id": "ITM000158",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001562",
+    "recipe_id": "RCPJ000156",
+    "ingredient_type": "item",
+    "item_id": "ITM000159",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001570",
+    "recipe_id": "RCPJ000157",
+    "ingredient_type": "item",
+    "item_id": "ITM000158",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001571",
+    "recipe_id": "RCPJ000157",
+    "ingredient_type": "item",
+    "item_id": "ITM000159",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001572",
+    "recipe_id": "RCPJ000157",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000158",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001580",
+    "recipe_id": "RCPJ000158",
+    "ingredient_type": "item",
+    "item_id": "ITM000159",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001581",
+    "recipe_id": "RCPJ000158",
+    "ingredient_type": "item",
+    "item_id": "ITM000160",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001582",
+    "recipe_id": "RCPJ000158",
+    "ingredient_type": "item",
+    "item_id": "ITM000161",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001590",
+    "recipe_id": "RCPJ000159",
+    "ingredient_type": "item",
+    "item_id": "ITM000160",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001591",
+    "recipe_id": "RCPJ000159",
+    "ingredient_type": "item",
+    "item_id": "ITM000161",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001592",
+    "recipe_id": "RCPJ000159",
+    "ingredient_type": "item",
+    "item_id": "ITM000162",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001600",
+    "recipe_id": "RCPJ000160",
+    "ingredient_type": "item",
+    "item_id": "ITM000161",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001601",
+    "recipe_id": "RCPJ000160",
+    "ingredient_type": "item",
+    "item_id": "ITM000162",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001602",
+    "recipe_id": "RCPJ000160",
+    "ingredient_type": "item",
+    "item_id": "ITM000163",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001610",
+    "recipe_id": "RCPJ000161",
+    "ingredient_type": "item",
+    "item_id": "ITM000162",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001611",
+    "recipe_id": "RCPJ000161",
+    "ingredient_type": "item",
+    "item_id": "ITM000163",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001612",
+    "recipe_id": "RCPJ000161",
+    "ingredient_type": "item",
+    "item_id": "ITM000164",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001620",
+    "recipe_id": "RCPJ000162",
+    "ingredient_type": "item",
+    "item_id": "ITM000163",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001621",
+    "recipe_id": "RCPJ000162",
+    "ingredient_type": "item",
+    "item_id": "ITM000164",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001622",
+    "recipe_id": "RCPJ000162",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000163",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001630",
+    "recipe_id": "RCPJ000163",
+    "ingredient_type": "item",
+    "item_id": "ITM000164",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001631",
+    "recipe_id": "RCPJ000163",
+    "ingredient_type": "item",
+    "item_id": "ITM000165",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001632",
+    "recipe_id": "RCPJ000163",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000164",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001640",
+    "recipe_id": "RCPJ000164",
+    "ingredient_type": "item",
+    "item_id": "ITM000165",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001641",
+    "recipe_id": "RCPJ000164",
+    "ingredient_type": "item",
+    "item_id": "ITM000166",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001642",
+    "recipe_id": "RCPJ000164",
+    "ingredient_type": "equipment",
+    "item_id": null,
+    "equipment_id": "EQP000165",
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001650",
+    "recipe_id": "RCPJ000165",
+    "ingredient_type": "item",
+    "item_id": "ITM000166",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001651",
+    "recipe_id": "RCPJ000165",
+    "ingredient_type": "item",
+    "item_id": "ITM000167",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001652",
+    "recipe_id": "RCPJ000165",
+    "ingredient_type": "item",
+    "item_id": "ITM000168",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001660",
+    "recipe_id": "RCPJ000166",
+    "ingredient_type": "item",
+    "item_id": "ITM000167",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001661",
+    "recipe_id": "RCPJ000166",
+    "ingredient_type": "item",
+    "item_id": "ITM000168",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001662",
+    "recipe_id": "RCPJ000166",
+    "ingredient_type": "item",
+    "item_id": "ITM000169",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001670",
+    "recipe_id": "RCPJ000167",
+    "ingredient_type": "item",
+    "item_id": "ITM000168",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001671",
+    "recipe_id": "RCPJ000167",
+    "ingredient_type": "item",
+    "item_id": "ITM000169",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001672",
+    "recipe_id": "RCPJ000167",
+    "ingredient_type": "item",
+    "item_id": "ITM000170",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001680",
+    "recipe_id": "RCPJ000168",
+    "ingredient_type": "item",
+    "item_id": "ITM000169",
+    "equipment_id": null,
+    "quantity": 1,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "any"
+    }
+  },
+  {
+    "ingredient_id": "RING0001681",
+    "recipe_id": "RCPJ000168",
+    "ingredient_type": "item",
+    "item_id": "ITM000170",
+    "equipment_id": null,
+    "quantity": 2,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  },
+  {
+    "ingredient_id": "RING0001682",
+    "recipe_id": "RCPJ000168",
+    "ingredient_type": "item",
+    "item_id": "ITM000171",
+    "equipment_id": null,
+    "quantity": 3,
+    "consume_on_use": true,
+    "condition_payload": {
+      "quality": "standard"
+    }
+  }
+]
