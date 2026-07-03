@@ -83,6 +83,13 @@ Phase L adds the internal Production Pipeline & Developer Tools platform: import
 - `docs/vertical-slice-roster.md` selects the first playable roster from existing codex data.
 - `docs/milestone-1-implementation-plan.md` defines the Core Engine implementation order.
 - `docs/milestone-1-core-engine.md` documents the first playable Phaser core engine shell.
+- `docs/milestone-2a-battle-foundation.md` documents the first playable battle scene shell.
+- `docs/milestone-2b-skill-status-runtime.md` documents the reusable battle skill/status runtime.
+- `docs/milestone-2c-companion-party-scaffold.md` documents the story-gated companion and party scaffold.
+- `docs/milestone-2d-rewards-progression.md` documents post-battle rewards and lightweight progression.
+- `docs/milestone-3-inventory-economy-foundation.md` documents the first playable inventory, equipment, crafting, and economy systems.
+- `docs/milestone-4-world-npc-quest-foundation.md` documents the first playable world, NPC, and quest progression layer.
+- `docs/milestone-5-story-polish-asset-reset.md` documents story scene integration and the reset asset-format direction.
 - `database/combat` contains Phase D Combat Bible JSON Schema files and architecture examples.
 - `database/data/items` contains Phase E item seed data.
 - `database/data/equipment` contains Phase F equipment seed data.

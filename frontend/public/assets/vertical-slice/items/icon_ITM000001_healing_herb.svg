@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="item_itm000001_healing_herb">
-  <rect width="256" height="256" rx="24" fill="#11180f"/>
-  <rect x="14" y="14" width="228" height="228" rx="18" fill="#22c55e" opacity="0.22" stroke="#d8b765" stroke-width="4"/>
-  <circle cx="128" cy="108" r="44" fill="#22c55e" opacity="0.9"/>
-  <path d="M90 78h76l-8 34c18 12 30 32 30 55 0 37-27 61-60 61s-60-24-60-61c0-23 12-43 30-55l-8-34z" fill="#fff6df" opacity="0.92"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <rect width="256" height="256" rx="22" fill="#11180f"/>
+  <rect x="14" y="14" width="228" height="228" rx="18" fill="#22c55e" opacity="0.25" stroke="#d8b765" stroke-width="4"/>
+  <circle cx="128" cy="104" r="42" fill="#22c55e"/>
+  <path d="M92 82h72l-8 31c20 13 32 33 32 56 0 36-26 58-60 58s-60-22-60-58c0-23 12-43 32-56l-8-31z" fill="#fff6df" opacity="0.95"/>
 </svg>

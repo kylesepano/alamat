@@ -1,5 +1,6 @@
 import Phaser from 'phaser'
 import { PLAYER_SPEED } from '../config/gameConstants'
+import { PLAYER_ASSET_KEY, spriteIdleFrame, spriteWalkAnimationKey } from '../data/verticalSliceAssets'
 
 export class PlayerController {
   constructor(scene, player) {
@@ -37,8 +38,11 @@ export class PlayerController {
       vector.normalize().scale(PLAYER_SPEED)
       this.player.setVelocity(vector.x, vector.y)
       this.facing = Math.abs(vector.x) > Math.abs(vector.y) ? (vector.x > 0 ? 'right' : 'left') : (vector.y > 0 ? 'down' : 'up')
+      this.player.anims.play(spriteWalkAnimationKey(PLAYER_ASSET_KEY, this.facing), true)
     } else {
       this.player.setVelocity(0, 0)
+      this.player.anims.stop()
+      this.player.setFrame(spriteIdleFrame(this.facing))
     }
   }
 }

@@ -4,73 +4,76 @@ import path from 'node:path';
 const root = process.cwd();
 const assetRoot = path.join(root, 'frontend', 'public', 'assets', 'vertical-slice');
 const docsRoot = path.join(root, 'docs');
+const fallbackPng = path.join(root, 'frontend', 'public', 'alamat.png');
 
 const style = 'Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspective, readable silhouette, warm tropical palette, respectful fictional Philippine folklore inspiration, no text, no logo.';
-const negative = 'Avoid caricature, gore, photorealism, real-world religious superiority, sacred-object misuse, text, logos, modern brands, muddy silhouettes.';
+const negative = 'Avoid caricature, gore, photorealism, real-world religious superiority, sacred-object misuse, text, logos, modern brands, muddy silhouettes, painted background, vignette background, frame borders, uneven grid spacing, cropped body parts, oversized sprites that bleed into neighboring cells.';
+const spriteSheetInstruction = 'Create one exact PNG sprite sheet with transparent background. Canvas must be exactly 768x1024 pixels. Use a strict 3 columns x 4 rows grid, 12 frames total, each cell exactly 256x256 pixels. Row order must be: down/front, left, right, up/back. Column order must be: idle, walk-left-foot-forward, walk-right-foot-forward. The 2nd and 3rd columns must be clearly different walking poses, not duplicates: in column 2 the character has the left foot forward and right arm forward; in column 3 the character has the right foot forward and left arm forward. For side rows, show opposite leg positions and arm swing clearly. For the up/back row, show alternating heel/foot placement and shoulder movement. Keep the full body inside each 256x256 cell with padding on all sides. Feet must align to the same baseline in every frame. Do not include labels, frame borders, shadows outside the character, scenery, gradient backdrop, or any painted background.';
+const spriteSheetSize = 'PNG sprite sheet, exact 768x1024 canvas, 12 frames, 3x4 grid, 256x256 per frame, transparent background';
 
 const assets = [
   {
     id: 'player_customizable_base',
     type: 'character_sprite',
-    path: 'characters/player_customizable_base.svg',
-    size: '48x64 per frame, 4 directions, idle and walk frames',
-    prompt: `${style} Create a customizable protagonist overworld sprite sheet base for ALAMAT. Chibi proportions, neutral traveler stance, practical lightweight clothing inspired by woven fibers and natural materials, modular hair/body/outfit layers, top-down 3/4 RPG view, transparent background. Sprite must support 8-direction movement through mirrored or separate directional frames.`,
+    path: 'characters/player_customizable_base.png',
+    size: spriteSheetSize,
+    prompt: `${style} ${spriteSheetInstruction} Create a customizable protagonist overworld sprite sheet base for ALAMAT. Chibi proportions, neutral traveler stance, practical lightweight clothing inspired by woven fibers and natural materials, modular hair/body/outfit layers, top-down 3/4 RPG view, transparent background.`,
   },
   {
     id: 'npc_npc000001_datu_magsalin',
     type: 'npc_sprite',
     source_id: 'NPC000001',
-    path: 'npcs/npc_NPC000001_datu_magsalin.svg',
-    size: '48x64 per frame',
-    prompt: `${style} Create an overworld chibi NPC sprite for Datu Magsalin, barangay elder and arrival anchor. Calm, grounded village leader, practical Filipino fantasy clothing, woven sash, walking cane or document bundle, transparent background, top-down 3/4 RPG view.`,
+    path: 'npcs/npc_NPC000001_datu_magsalin.png',
+    size: spriteSheetSize,
+    prompt: `${style} ${spriteSheetInstruction} Create an overworld chibi NPC sprite sheet for Datu Magsalin, barangay elder and arrival anchor. Calm, grounded village leader, practical Filipino fantasy clothing, woven sash, walking cane or document bundle, transparent background, top-down 3/4 RPG view.`,
   },
   {
     id: 'npc_npc000582_babaylan_lira_dalisay',
     type: 'npc_sprite',
     source_id: 'NPC000582',
-    path: 'npcs/npc_NPC000582_babaylan_lira_dalisay.svg',
-    size: '48x64 per frame',
-    prompt: `${style} Create an overworld chibi NPC sprite for Babaylan Lira Dalisay, spiritual guide for trust and balance. Respectful fictional ritual attire, leaf fiber, brass, shell, and woven details, gentle authority, transparent background, top-down 3/4 RPG view.`,
+    path: 'npcs/npc_NPC000582_babaylan_lira_dalisay.png',
+    size: spriteSheetSize,
+    prompt: `${style} ${spriteSheetInstruction} Create an overworld chibi NPC sprite sheet for Babaylan Lira Dalisay, spiritual guide for trust and balance. Respectful fictional ritual attire, leaf fiber, brass, shell, and woven details, gentle authority, transparent background, top-down 3/4 RPG view.`,
   },
   {
     id: 'npc_npc000301_general_store',
     type: 'npc_sprite',
     source_id: 'NPC000301',
-    path: 'npcs/npc_NPC000301_general_store.svg',
-    size: '48x64 per frame',
-    prompt: `${style} Create an overworld chibi NPC shopkeeper sprite for the starter barangay general store. Friendly vendor, apron, small pouch, woven market cloth accents, transparent background, top-down 3/4 RPG view.`,
+    path: 'npcs/npc_NPC000301_general_store.png',
+    size: spriteSheetSize,
+    prompt: `${style} ${spriteSheetInstruction} Create an overworld chibi NPC shopkeeper sprite sheet for the starter barangay general store. Friendly vendor, apron, small pouch, woven market cloth accents, transparent background, top-down 3/4 RPG view.`,
   },
   {
     id: 'nilalang_mon0038_aghoy',
     type: 'nilalang_sprite',
     source_id: 'MON0038',
-    path: 'nilalang/nilalang_MON0038_aghoy.svg',
-    size: '64x64 per frame',
-    prompt: `${style} Create an overworld chibi Nilalang sprite for Aghoy, the little forest helper and first earned companion candidate. Small forest spirit, kind and shy, leaf cloak, basket or root charm, firefly glow, readable silhouette, transparent background, no horror tone.`,
+    path: 'nilalang/nilalang_MON0038_aghoy.png',
+    size: spriteSheetSize,
+    prompt: `${style} ${spriteSheetInstruction} Create an overworld chibi Nilalang sprite sheet for Aghoy, the little forest helper and first earned companion candidate. Small forest spirit, kind and shy, leaf cloak, basket or root charm, firefly glow, readable silhouette, transparent background, no horror tone.`,
   },
   {
     id: 'nilalang_mon0032_duwende',
     type: 'nilalang_sprite',
     source_id: 'MON0032',
-    path: 'nilalang/nilalang_MON0032_duwende.svg',
-    size: '64x64 per frame',
-    prompt: `${style} Create an overworld chibi Nilalang sprite for Duwende, house-earth little folk. Small earthy spirit, mound and household motifs, friendly but mysterious, rattan/leaf details, transparent background, readable at 64x64.`,
+    path: 'nilalang/nilalang_MON0032_duwende.png',
+    size: spriteSheetSize,
+    prompt: `${style} ${spriteSheetInstruction} Create an overworld chibi Nilalang sprite sheet for Duwende, house-earth little folk. Small earthy spirit, mound and household motifs, friendly but mysterious, rattan/leaf details, transparent background, readable at 64x64.`,
   },
   {
     id: 'nilalang_mon0028_ungo',
     type: 'nilalang_sprite',
     source_id: 'MON0028',
-    path: 'nilalang/nilalang_MON0028_ungo.svg',
-    size: '64x64 per frame',
-    prompt: `${style} Create an overworld chibi Nilalang sprite for Ungo, wild ape spirit and first dangerous encounter. Strong forest creature, muscular but readable, moss and bark accents, alert stance, not grotesque, transparent background.`,
+    path: 'nilalang/nilalang_MON0028_ungo.png',
+    size: spriteSheetSize,
+    prompt: `${style} ${spriteSheetInstruction} Create an overworld chibi Nilalang sprite sheet for Ungo, wild ape spirit and first dangerous encounter. Strong forest creature, muscular but readable, moss and bark accents, alert stance, not grotesque, transparent background.`,
   },
   {
     id: 'nilalang_mon0007_batibat_boss',
     type: 'boss_sprite',
     source_id: 'MON0007',
-    path: 'nilalang/boss_MON0007_batibat.svg',
-    size: '96x96 per frame',
-    prompt: `${style} Create a large overworld boss sprite for Batibat, nightmare tree-mother presence. Heavy old-wood silhouette, sleep/nightmare motif, roots and housepost details, eerie but not graphic, transparent background, readable boss scale.`,
+    path: 'nilalang/boss_MON0007_batibat.png',
+    size: spriteSheetSize,
+    prompt: `${style} ${spriteSheetInstruction} Create a large overworld boss sprite sheet for Batibat, nightmare tree-mother presence. Heavy old-wood silhouette, sleep/nightmare motif, roots and housepost details, eerie but not graphic, transparent background, readable boss scale.`,
   },
   {
     id: 'tileset_barangay_san_isidro',
@@ -162,7 +165,11 @@ const assets = [
 for (const asset of assets) {
   const target = path.join(assetRoot, asset.path);
   fs.mkdirSync(path.dirname(target), { recursive: true });
-  fs.writeFileSync(target, placeholderSvg(asset));
+  if (asset.path.endsWith('.png')) {
+    if (!fs.existsSync(target)) fs.copyFileSync(fallbackPng, target);
+  } else {
+    fs.writeFileSync(target, placeholderSvg(asset));
+  }
 }
 
 fs.writeFileSync(path.join(assetRoot, 'manifest.json'), `${JSON.stringify({ style, negative_prompt: negative, assets }, null, 2)}\n`);
@@ -202,6 +209,28 @@ General negative prompt:
 \`\`\`text
 ${negative}
 \`\`\`
+
+## ChatGPT Sprite Sheet Standard
+
+For character, NPC, and Nilalang sprite sheets, use this structure unless a later animation system changes it:
+
+- File type: PNG with transparent background
+- Exact canvas size for every player, NPC, and Nilalang actor sheet: 768x1024 pixels
+- Grid: 3 columns x 4 rows, 12 frames total
+- Cell size: 256x256 pixels
+- Row order: down, left, right, up
+- Column order: idle, walk-left-foot-forward, walk-right-foot-forward
+- The 2nd and 3rd columns must be visibly different, not duplicated
+- Column 2 pose: left foot forward, right arm forward
+- Column 3 pose: right foot forward, left arm forward
+- Side-facing rows must show opposite leg positions and arm swing
+- Up/back row must show alternating heel/foot placement and shoulder movement
+- No labels, no frame borders, no background
+- No brown/black/gradient backdrop or vignette
+- No shadows or effects that cross into another cell
+- Keep the feet/bottom anchor aligned in every frame
+- Keep the full body visible inside each cell with padding on all sides
+- All characters should have similar chibi body proportions and fill roughly the same amount of their 256x256 cell
 
 ${rows.map((asset) => `## ${asset.id}
 

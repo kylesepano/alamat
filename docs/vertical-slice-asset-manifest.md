@@ -1,6 +1,6 @@
 # Vertical Slice Asset Manifest
 
-This manifest lists the first assets needed before and during Milestone 1. It is intentionally small. Placeholder SVGs have been generated under `frontend/public/assets/vertical-slice`, and the prompts are available in `docs/vertical-slice-asset-prompts.md`.
+This manifest lists the first assets needed before and during Milestone 1. It is intentionally small. Placeholder files have been generated under `frontend/public/assets/vertical-slice`, and the prompts are available in `docs/vertical-slice-asset-prompts.md`. Characters, NPCs, and Nilalang use exact `768x1024` transparent PNG sprite sheet slots; icons and simple environment placeholders can remain SVG until final art is generated.
 
 ## Required For Milestone 1
 
@@ -55,7 +55,7 @@ The current game preloads assets through:
 
 `frontend/src/game/data/verticalSliceAssets.js`
 
-Replace same-extension files directly under `frontend/public/assets/vertical-slice`, or update that registry if you export PNG/WEBP files with different names.
+Replace same-extension files directly under `frontend/public/assets/vertical-slice`, or update that registry if you export WEBP files or different names. Sprite sheet assets should stay exact `768x1024`, transparent PNG, `3 columns x 4 rows`, `256x256` per frame.
 
 ## User Review Checklist
 

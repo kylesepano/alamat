@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="equipment_eqp000003_kris">
-  <rect width="256" height="256" rx="24" fill="#11180f"/>
-  <rect x="14" y="14" width="228" height="228" rx="18" fill="#c69b54" opacity="0.22" stroke="#d8b765" stroke-width="4"/>
-  <circle cx="128" cy="108" r="44" fill="#c69b54" opacity="0.9"/>
-  <path d="M74 184l82-112 28 28-112 82-28 8 2-28 28 22z" fill="#fff6df" opacity="0.92"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <rect width="256" height="256" rx="22" fill="#11180f"/>
+  <rect x="14" y="14" width="228" height="228" rx="18" fill="#d8b765" opacity="0.25" stroke="#d8b765" stroke-width="4"/>
+  <circle cx="128" cy="104" r="42" fill="#d8b765"/>
+  <path d="M72 184l88-116 28 28-116 88-30 10 10-30z" fill="#fff6df" opacity="0.95"/>
 </svg>

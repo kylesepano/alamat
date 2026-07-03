@@ -1,12 +1,12 @@
 export const VERTICAL_SLICE_ASSETS = [
-  { key: 'asset-player-base', path: '/assets/vertical-slice/characters/player_customizable_base.svg', width: 48, height: 64 },
-  { key: 'asset-npc-datu', path: '/assets/vertical-slice/npcs/npc_NPC000001_datu_magsalin.svg', width: 48, height: 64 },
-  { key: 'asset-npc-babaylan', path: '/assets/vertical-slice/npcs/npc_NPC000582_babaylan_lira_dalisay.svg', width: 48, height: 64 },
-  { key: 'asset-npc-store', path: '/assets/vertical-slice/npcs/npc_NPC000301_general_store.svg', width: 48, height: 64 },
-  { key: 'asset-nilalang-aghoy', path: '/assets/vertical-slice/nilalang/nilalang_MON0038_aghoy.svg', width: 64, height: 64 },
-  { key: 'asset-nilalang-duwende', path: '/assets/vertical-slice/nilalang/nilalang_MON0032_duwende.svg', width: 64, height: 64 },
-  { key: 'asset-nilalang-ungo', path: '/assets/vertical-slice/nilalang/nilalang_MON0028_ungo.svg', width: 64, height: 64 },
-  { key: 'asset-nilalang-batibat', path: '/assets/vertical-slice/nilalang/boss_MON0007_batibat.svg', width: 96, height: 96 },
+  { key: 'asset-player-base', path: '/assets/vertical-slice/characters/player_customizable_base.svg', type: 'spritesheet', columns: 3, rows: 4, expectedWidth: 768, expectedHeight: 1024, displayWidth: 42, displayHeight: 56 },
+  { key: 'asset-npc-datu', path: '/assets/vertical-slice/npcs/npc_NPC000001_datu_magsalin.svg', type: 'spritesheet', columns: 3, rows: 4, expectedWidth: 768, expectedHeight: 1024, displayWidth: 42, displayHeight: 56 },
+  { key: 'asset-npc-babaylan', path: '/assets/vertical-slice/npcs/npc_NPC000582_babaylan_lira_dalisay.svg', type: 'spritesheet', columns: 3, rows: 4, expectedWidth: 768, expectedHeight: 1024, displayWidth: 42, displayHeight: 56 },
+  { key: 'asset-npc-store', path: '/assets/vertical-slice/npcs/npc_NPC000301_general_store.svg', type: 'spritesheet', columns: 3, rows: 4, expectedWidth: 768, expectedHeight: 1024, displayWidth: 42, displayHeight: 56 },
+  { key: 'asset-nilalang-aghoy', path: '/assets/vertical-slice/nilalang/nilalang_MON0038_aghoy.svg', type: 'spritesheet', columns: 3, rows: 4, expectedWidth: 768, expectedHeight: 1024, displayWidth: 48, displayHeight: 48 },
+  { key: 'asset-nilalang-duwende', path: '/assets/vertical-slice/nilalang/nilalang_MON0032_duwende.svg', type: 'spritesheet', columns: 3, rows: 4, expectedWidth: 768, expectedHeight: 1024, displayWidth: 48, displayHeight: 48 },
+  { key: 'asset-nilalang-ungo', path: '/assets/vertical-slice/nilalang/nilalang_MON0028_ungo.svg', type: 'spritesheet', columns: 3, rows: 4, expectedWidth: 768, expectedHeight: 1024, displayWidth: 50, displayHeight: 50 },
+  { key: 'asset-nilalang-batibat', path: '/assets/vertical-slice/nilalang/boss_MON0007_batibat.svg', type: 'spritesheet', columns: 3, rows: 4, expectedWidth: 768, expectedHeight: 1024, displayWidth: 76, displayHeight: 76 },
   { key: 'asset-tileset-barangay', path: '/assets/vertical-slice/tilesets/tileset_barangay_san_isidro.svg', width: 256, height: 256 },
   { key: 'asset-tileset-forest', path: '/assets/vertical-slice/tilesets/tileset_balete_forest.svg', width: 256, height: 256 },
   { key: 'asset-tileset-shrine', path: '/assets/vertical-slice/tilesets/tileset_spirit_shrine.svg', width: 256, height: 256 },
@@ -21,9 +21,36 @@ export const VERTICAL_SLICE_ASSETS = [
 ]
 
 export const PLAYER_ASSET_KEY = 'asset-player-base'
+export const SPRITE_DIRECTIONS = ['down', 'left', 'right', 'up']
 
 export function assetLoaderType(asset) {
   return asset.path.toLowerCase().endsWith('.svg') ? 'svg' : 'image'
+}
+
+export function spriteAssets() {
+  return VERTICAL_SLICE_ASSETS.filter((asset) => asset.type === 'spritesheet')
+}
+
+export function spriteFrameName(direction, step = 0) {
+  return `${direction}-${step}`
+}
+
+export function spriteIdleFrame(direction = 'down') {
+  return spriteFrameName(direction, 0)
+}
+
+export function spriteWalkAnimationKey(assetKey, direction) {
+  return `${assetKey}-walk-${direction}`
+}
+
+export function spriteSourceFrameSize(asset, source) {
+  const width = Math.floor(source.width / asset.columns)
+  const height = Math.floor(source.height / asset.rows)
+  return { width, height }
+}
+
+export function assetByKey(key) {
+  return VERTICAL_SLICE_ASSETS.find((asset) => asset.key === key)
 }
 
 export function objectAssetKey(object) {

@@ -20,9 +20,52 @@ export const DEFAULT_SAVE = {
     y: 336,
     story_flags: [],
   },
+  player_state: {
+    hp: null,
+    spawn: {
+      location_id: 'WLOC000001',
+      x: 120,
+      y: 120,
+    },
+  },
   companions: {
     active_companion_id: null,
+    party_slots: [null],
     collection: [],
     bond_state: {},
+  },
+  battles: {
+    wins: {},
+    losses: {},
+    fled: {},
+  },
+  progression: {
+    level: 1,
+    xp: 0,
+    total_xp: 0,
+    currencies: {
+      pilak: 0,
+    },
+    field_log: [],
+    reward_log: [],
+  },
+  inventory: {
+    items: {
+      healing_herb: 2,
+    },
+    equipment: [],
+  },
+  equipment: {
+    slots: {
+      weapon: null,
+      armor: null,
+      accessory: null,
+    },
+  },
+  quests: {
+    tracked_id: null,
+    active: {},
+    completed: {},
+    log: [],
   },
 }

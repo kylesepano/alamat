@@ -16,6 +16,7 @@ export class UIScene extends Phaser.Scene {
     }).setScrollFactor(0).setDepth(1000).setVisible(false)
 
     this.cleanup = gameBridge.on('debug:update', (payload) => {
+      if (!this.scene.isActive() || !this.debugText?.active) return
       this.debugText.setText([
         `FPS ${Math.round(payload.fps ?? 0)}`,
         `Map ${payload.location_id ?? ''}`,
@@ -26,6 +27,11 @@ export class UIScene extends Phaser.Scene {
         `Flags ${(payload.story_flags ?? []).join(', ') || 'none'}`,
       ])
       this.debugText.setVisible(Boolean(payload.debug_visible))
+    })
+
+    this.events.once(Phaser.Scenes.Events.SHUTDOWN, () => {
+      this.cleanup?.()
+      this.cleanup = null
     })
   }
 

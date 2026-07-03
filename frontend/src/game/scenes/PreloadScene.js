@@ -1,5 +1,14 @@
 import Phaser from 'phaser'
-import { PLAYER_ASSET_KEY, VERTICAL_SLICE_ASSETS, assetLoaderType } from '../data/verticalSliceAssets'
+import {
+  PLAYER_ASSET_KEY,
+  SPRITE_DIRECTIONS,
+  VERTICAL_SLICE_ASSETS,
+  assetLoaderType,
+  spriteSourceFrameSize,
+  spriteAssets,
+  spriteFrameName,
+  spriteWalkAnimationKey,
+} from '../data/verticalSliceAssets'
 
 export class PreloadScene extends Phaser.Scene {
   constructor() {
@@ -9,7 +18,7 @@ export class PreloadScene extends Phaser.Scene {
   preload() {
     for (const asset of VERTICAL_SLICE_ASSETS) {
       if (assetLoaderType(asset) === 'svg') {
-        this.load.svg(asset.key, asset.path, { width: asset.width, height: asset.height })
+        this.load.svg(asset.key, asset.path, { width: asset.expectedWidth ?? asset.width, height: asset.expectedHeight ?? asset.height })
       } else {
         this.load.image(asset.key, asset.path)
       }
@@ -17,9 +26,60 @@ export class PreloadScene extends Phaser.Scene {
   }
 
   create() {
+    this.createSpriteSheetFrames()
+    this.createSpriteAnimations()
     this.createGeneratedTextures()
     this.scene.start('WorldScene')
     this.scene.launch('UIScene')
+  }
+
+  createSpriteSheetFrames() {
+    for (const asset of spriteAssets()) {
+      const texture = this.textures.get(asset.key)
+      const source = texture.getSourceImage()
+      if (!source?.width || !source?.height) continue
+      this.warnIfSpriteSheetIsNonstandard(asset, source)
+
+      const { width: frameWidth, height: frameHeight } = spriteSourceFrameSize(asset, source)
+      const usableWidth = frameWidth * asset.columns
+      const usableHeight = frameHeight * asset.rows
+      const offsetX = Math.floor((source.width - usableWidth) / 2)
+      const offsetY = Math.floor((source.height - usableHeight) / 2)
+
+      SPRITE_DIRECTIONS.forEach((direction, row) => {
+        for (let column = 0; column < asset.columns; column += 1) {
+          const frameName = spriteFrameName(direction, column)
+          if (!texture.has(frameName)) {
+            texture.add(frameName, 0, offsetX + column * frameWidth, offsetY + row * frameHeight, frameWidth, frameHeight)
+          }
+        }
+      })
+    }
+  }
+
+  warnIfSpriteSheetIsNonstandard(asset, source) {
+    const hasUnexpectedSize = source.width !== asset.expectedWidth || source.height !== asset.expectedHeight
+    const hasUnevenGrid = source.width % asset.columns !== 0 || source.height % asset.rows !== 0
+    if (hasUnexpectedSize || hasUnevenGrid) {
+      console.warn(
+        `[ALAMAT assets] ${asset.key} is ${source.width}x${source.height}. Expected ${asset.expectedWidth}x${asset.expectedHeight} transparent PNG with ${asset.columns}x${asset.rows} equal grid. It will be sliced best-effort, but regenerate for clean animation.`,
+      )
+    }
+  }
+
+  createSpriteAnimations() {
+    for (const asset of spriteAssets()) {
+      for (const direction of SPRITE_DIRECTIONS) {
+        const key = spriteWalkAnimationKey(asset.key, direction)
+        if (this.anims.exists(key)) continue
+      this.anims.create({
+        key,
+        frames: [1, 0, 2, 0].map((step) => ({ key: asset.key, frame: spriteFrameName(direction, step) })),
+        frameRate: 5,
+        repeat: -1,
+      })
+      }
+    }
   }
 
   createGeneratedTextures() {

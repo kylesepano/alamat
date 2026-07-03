@@ -1,5 +1,6 @@
 import Phaser from 'phaser'
 import { GAME_HEIGHT, GAME_WIDTH } from './gameConstants'
+import { BattleScene } from '../scenes/BattleScene'
 import { BootScene } from '../scenes/BootScene'
 import { PreloadScene } from '../scenes/PreloadScene'
 import { UIScene } from '../scenes/UIScene'
@@ -23,6 +24,6 @@ export function createPhaserConfig(parent) {
       mode: Phaser.Scale.FIT,
       autoCenter: Phaser.Scale.CENTER_BOTH,
     },
-    scene: [BootScene, PreloadScene, WorldScene, UIScene],
+    scene: [BootScene, PreloadScene, WorldScene, BattleScene, UIScene],
   }
 }

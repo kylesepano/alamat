@@ -3,4 +3,4 @@ Milestone 2: Combat and monster systems.
 Milestone 3: Inventory, equipment, crafting, and economy.
 Milestone 4: World maps, NPCs, and quests.
 Milestone 5: Story integration and polish.
-Milestone 6: Content expansion, balancing, and final asset production.
+Milestone 6: Content expansi    on, balancing, and final asset production.

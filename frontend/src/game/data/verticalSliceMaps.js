@@ -1,7 +1,7 @@
 import { TILE_SIZE } from '../config/gameConstants'
 
 const baseObjects = [
-  { type: 'save', id: 'SAVE_START', label: 'Save Point', x: 2, y: 2 },
+  { type: 'save', id: 'SAVE_START', label: 'Balon Deepwell', x: 2, y: 2 },
   { type: 'npc', id: 'NPC000001', label: 'Datu Magsalin', x: 7, y: 6, dialogue: 'Welcome home. Walk the paths first; the land teaches before it tests.' },
   { type: 'npc', id: 'NPC000002', label: 'Lira Lakandula', x: 11, y: 8, dialogue: 'Try speaking with villagers and reading signs. Not every lesson is a battle.' },
   { type: 'item', id: 'ITM000001', label: 'Healing Herb', x: 15, y: 10, flag: 'picked_itm000001' },
@@ -116,7 +116,7 @@ export const VERTICAL_SLICE_MAPS = {
       { kind: 'threshold', x: 7, y: 9, w: 8, h: 2 },
     ],
     objects: [
-      { type: 'save', id: 'SAVE_SHRINE', label: 'Shrine Save Point', x: 3, y: 11 },
+      { type: 'save', id: 'SAVE_SHRINE', label: 'Shrine Balon', x: 3, y: 11 },
       { type: 'boss', id: 'MON0007', label: 'Batibat presence', x: 11, y: 7 },
       { type: 'npc', id: 'MON0040', label: 'Umalagad Echo', x: 16, y: 10, dialogue: 'A companion is not claimed here. It arrives only when trust has somewhere to stand.' },
       { type: 'transition', id: 'TO_FOREST', label: 'To Balete Forest', x: 2, y: 8, target: 'WLOC000004', targetX: 20, targetY: 8 },
