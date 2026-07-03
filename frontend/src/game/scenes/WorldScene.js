@@ -1,12 +1,13 @@
 import Phaser from 'phaser'
 import { gameBridge } from '../bridges/ReactPhaserBridge'
 import { TILE_SIZE } from '../config/gameConstants'
-import { activeCompanion, applyTrustFromBattle, bondCompanion, refreshAllBondEligibility } from '../data/companionRuntimeData'
-import { addInventoryItem, buyShopEntry, craftRecipe, equipItem, equipmentStatTotals, itemById } from '../data/inventoryRuntimeData'
-import { applyBattleRewards, playerStatsForProgression } from '../data/progressionRuntimeData'
+import { activeCompanion, applyCompanionBattleRewards, applyTrustFromBattle, bondCompanion, equipCompanionItem, refreshAllBondEligibility, reviveCompanionsAtBalon, setCompanionHp, toggleCompanionActiveSkill, unequipCompanionItem } from '../data/companionRuntimeData'
+import { addInventoryItem, buyShopEntry, craftRecipe, equipItem, equipmentStatTotals, itemById, unequipItem } from '../data/inventoryRuntimeData'
+import { applyBattleRewards, playerActiveSkills, playerStatsForProgression, togglePlayerActiveSkill } from '../data/progressionRuntimeData'
 import { advanceItemQuest, advanceQuests, ensureQuestState } from '../data/questRuntimeData'
 import { markStorySceneSeen, shouldPlayStoryScene, storySceneById } from '../data/storyRuntimeData'
 import { PLAYER_ASSET_KEY, assetByKey, spriteIdleFrame } from '../data/verticalSliceAssets'
+import { battleForMonster } from '../data/verticalSliceBattles'
 import { VERTICAL_SLICE_MAPS, tileToWorld } from '../data/verticalSliceMaps'
 import { CameraController } from '../systems/CameraController'
 import { CollisionSystem } from '../systems/CollisionSystem'
@@ -22,6 +23,9 @@ export class WorldScene extends Phaser.Scene {
   create() {
     this.debugVisible = false
     this.lastDebugEmit = 0
+    this.lastPlayerPosition = null
+    this.randomEncounterDistance = 0
+    this.randomEncounterGraceUntil = 0
     this.interactionUiOpen = false
     this.save = gameBridge.getInitialSave() ?? SaveSystem.load()
     ensureQuestState(this.save)
@@ -40,14 +44,12 @@ export class WorldScene extends Phaser.Scene {
     this.player.setCollideWorldBounds(true)
     this.player.body.setSize(24, 28).setOffset(5, 16)
     this.physics.add.collider(this.player, this.collision.group)
+    this.lastPlayerPosition = new Phaser.Math.Vector2(this.player.x, this.player.y)
 
     this.playerController = new PlayerController(this, this.player)
     this.cameraController = new CameraController(this, this.player)
     this.cameraController.start()
 
-    this.input.keyboard.on('keydown-E', () => {
-      if (!this.interactionUiOpen) this.interactions.interact()
-    })
     this.input.keyboard.on('keydown-SPACE', (event) => {
       event.preventDefault()
       if (!this.interactionUiOpen) this.interactions.interact()
@@ -69,9 +71,15 @@ export class WorldScene extends Phaser.Scene {
     this.cleanupBuyShopEntry = gameBridge.on('command:buy-shop-entry', ({ shop_id, entry_index }) => this.buyShopEntry(shop_id, entry_index))
     this.cleanupCraftRecipe = gameBridge.on('command:craft-recipe', ({ recipe_id }) => this.craftRecipe(recipe_id))
     this.cleanupEquipItem = gameBridge.on('command:equip-item', ({ equipment_id }) => this.equipItem(equipment_id))
+    this.cleanupUnequipItem = gameBridge.on('command:unequip-item', ({ slot }) => this.unequipItem(slot))
+    this.cleanupEquipCompanionItem = gameBridge.on('command:equip-companion-item', ({ monster_id, equipment_id }) => this.equipCompanionItem(monster_id, equipment_id))
+    this.cleanupUnequipCompanionItem = gameBridge.on('command:unequip-companion-item', ({ monster_id, slot }) => this.unequipCompanionItem(monster_id, slot))
+    this.cleanupTogglePlayerSkill = gameBridge.on('command:toggle-player-skill', ({ skill_id }) => this.togglePlayerSkill(skill_id))
+    this.cleanupToggleCompanionSkill = gameBridge.on('command:toggle-companion-skill', ({ monster_id, skill_id }) => this.toggleCompanionSkill(monster_id, skill_id))
     this.cleanupTrackQuest = gameBridge.on('command:track-quest', ({ quest_id }) => this.trackQuest(quest_id))
     this.cleanupInteractionUiState = gameBridge.on('ui:interaction-panel', ({ open }) => {
       this.interactionUiOpen = Boolean(open)
+      if (this.playerController) this.playerController.locked = this.interactionUiOpen
     })
     this.emitMapChanged()
     this.emitQuestUpdate()
@@ -81,6 +89,7 @@ export class WorldScene extends Phaser.Scene {
   update() {
     this.playerController.update()
     const active = this.interactions.update(this.player)
+    this.updateRandomEncounters()
     if (this.time.now - this.lastDebugEmit < 250) return
     this.lastDebugEmit = this.time.now
     gameBridge.emit('debug:update', {
@@ -101,11 +110,12 @@ export class WorldScene extends Phaser.Scene {
     this.objectLabels.forEach((label) => label.destroy())
     this.objectLabels = []
     this.cameras.main.setBackgroundColor('#12180f')
+    this.drawTilesetBackground(map)
 
     for (let y = 0; y < map.height; y++) {
       for (let x = 0; x < map.width; x++) {
         const color = (x + y) % 2 === 0 ? map.ground : map.accent
-        const tile = this.add.rectangle(x * TILE_SIZE + TILE_SIZE / 2, y * TILE_SIZE + TILE_SIZE / 2, TILE_SIZE, TILE_SIZE, color, 0.82)
+        const tile = this.add.rectangle(x * TILE_SIZE + TILE_SIZE / 2, y * TILE_SIZE + TILE_SIZE / 2, TILE_SIZE, TILE_SIZE, color, map.tilesetKey ? 0.24 : 0.82)
         tile.setStrokeStyle(1, 0x000000, 0.08)
         this.mapLayer.add(tile)
       }
@@ -127,8 +137,22 @@ export class WorldScene extends Phaser.Scene {
       padding: { x: 8, y: 4 },
     }).setDepth(80)
     this.objectLabels.push(title)
+    const visibleMap = {
+      ...map,
+      objects: (map.objects ?? []).filter((object) => !this.isObjectCleared(object)),
+    }
     this.collision.build(map)
-    this.interactions.build(map)
+    this.interactions.build(visibleMap)
+  }
+
+  drawTilesetBackground(map) {
+    if (!map.tilesetKey || !this.textures.exists(map.tilesetKey)) return
+    const width = map.width * TILE_SIZE
+    const height = map.height * TILE_SIZE
+    const texture = this.add.tileSprite(width / 2, height / 2, width, height, map.tilesetKey)
+    texture.setAlpha(0.42)
+    texture.setDepth(-5)
+    this.mapLayer.add(texture)
   }
 
   handleInteraction(object) {
@@ -168,21 +192,7 @@ export class WorldScene extends Phaser.Scene {
     }
 
     if (object.type === 'encounter' || object.type === 'boss') {
-      gameBridge.emit('battle:started', {
-        monster_id: object.id,
-        title: object.label,
-      })
-      this.scene.pause()
-      this.scene.launch('BattleScene', {
-        monster_id: object.id,
-        location_id: this.locationId,
-        player_name: this.save.player.name,
-        companion: activeCompanion(this.save),
-        progression: this.save.progression,
-        inventory: this.save.inventory,
-        equipmentStats: equipmentStatTotals(this.save),
-        player_hp: this.save.player_state.hp,
-      })
+      this.startBattle(object.id, object.label)
       return
     }
 
@@ -206,6 +216,9 @@ export class WorldScene extends Phaser.Scene {
     this.currentMap = nextMap
     this.save.world.location_id = locationId
     this.player.setPosition(x, y)
+    this.lastPlayerPosition = new Phaser.Math.Vector2(x, y)
+    this.randomEncounterDistance = 0
+    this.randomEncounterGraceUntil = this.time.now + 1200
     this.drawMap(nextMap)
     this.emitMapChanged()
     this.advanceQuest({ type: 'reach', target_id: locationId })
@@ -222,18 +235,22 @@ export class WorldScene extends Phaser.Scene {
     gameBridge.emit('save:complete', { save: this.save, message })
   }
 
-  completeBattle({ result, monster_id, victoryFlag, inventory, player_hp, player_max_hp }) {
+  completeBattle({ result, monster_id, victoryFlag, inventory, player_hp, player_max_hp, companion_id, companion_hp, random = false }) {
     if (inventory?.items) {
       this.save.inventory.items = inventory.items
     }
     this.save.player_state.hp = result === 'defeat' ? player_max_hp : Math.max(1, player_hp ?? this.save.player_state.hp ?? player_max_hp)
     const bucket = result === 'victory' ? 'wins' : result === 'defeat' ? 'losses' : 'fled'
     this.save.battles[bucket][monster_id] = (this.save.battles[bucket][monster_id] ?? 0) + 1
-    if (result === 'victory' && victoryFlag && !this.save.world.story_flags.includes(victoryFlag)) {
+    if (!random && result === 'victory' && victoryFlag && !this.save.world.story_flags.includes(victoryFlag)) {
       this.save.world.story_flags.push(victoryFlag)
     }
     const rewards = applyBattleRewards(this.save, { result, monster_id })
-    if (result === 'victory') {
+    if (companion_id) {
+      setCompanionHp(this.save, companion_id, companion_hp)
+      rewards.companion = applyCompanionBattleRewards(this.save, { result, monster_id, xp: rewards.xp })
+    }
+    if (!random && result === 'victory') {
       this.advanceQuest({ type: 'defeat', target_id: monster_id })
       if (monster_id === 'MON0007') this.triggerStoryScene('STSC00004')
       for (const itemReward of rewards.itemRewards ?? []) {
@@ -248,15 +265,64 @@ export class WorldScene extends Phaser.Scene {
     if (result === 'defeat') {
       this.returnToRespawnPoint()
     }
+    if (!random && result === 'victory') {
+      this.drawMap(this.currentMap)
+    }
+    this.randomEncounterDistance = 0
+    this.randomEncounterGraceUntil = this.time.now + 1800
     SaveSystem.write(this.save)
-    gameBridge.emit('save:complete', { save: this.save, message: result === 'defeat' ? 'Defeated. Returned to your Balon.' : `Battle ${result}: ${monster_id}` })
+    gameBridge.emit('save:complete', { save: this.save, message: result === 'defeat' ? 'Defeated. Returned to your Balon.' : `${random ? 'Random encounter' : 'Battle'} ${result}: ${monster_id}` })
     gameBridge.emit('battle:rewards', rewards)
     return rewards
+  }
+
+  startBattle(monsterId, title = null, random = false) {
+    gameBridge.emit('battle:started', {
+      monster_id: monsterId,
+      title: title ?? battleForMonster(monsterId).title,
+      random,
+    })
+    this.scene.pause()
+    this.scene.launch('BattleScene', {
+      monster_id: monsterId,
+      location_id: this.locationId,
+      player_name: this.save.player.name,
+      companion: activeCompanion(this.save),
+      progression: this.save.progression,
+      inventory: this.save.inventory,
+      equipmentStats: equipmentStatTotals(this.save),
+      player_hp: this.save.player_state.hp,
+      player_skills: playerActiveSkills(this.save),
+      random,
+    })
+  }
+
+  updateRandomEncounters() {
+    if (this.interactionUiOpen || this.scene.isActive('BattleScene') || this.currentMap.safeZone) return
+    if (!this.currentMap.randomEncounterPool?.length || this.time.now < this.randomEncounterGraceUntil) return
+    const current = new Phaser.Math.Vector2(this.player.x, this.player.y)
+    const distance = Phaser.Math.Distance.BetweenPoints(this.lastPlayerPosition, current)
+    this.lastPlayerPosition = current
+    if (distance < 1) return
+    this.randomEncounterDistance += distance
+    if (this.randomEncounterDistance < 420) return
+    this.randomEncounterDistance = 0
+    if (Phaser.Math.Between(1, 100) > 28) return
+    const pool = this.currentMap.randomEncounterPool
+    const monsterId = pool[Phaser.Math.Between(0, pool.length - 1)]
+    this.startBattle(monsterId, 'Wild Nilalang Encounter', true)
+  }
+
+  isObjectCleared(object) {
+    if (object.type !== 'encounter' && object.type !== 'boss') return false
+    const battle = battleForMonster(object.id)
+    return Boolean(battle.victoryFlag && this.save.world.story_flags.includes(battle.victoryFlag))
   }
 
   setRespawnPoint(object) {
     const stats = playerStatsForProgression(this.save.progression, equipmentStatTotals(this.save))
     this.save.player_state.hp = stats.maxHp
+    reviveCompanionsAtBalon(this.save)
     this.save.player_state.spawn = {
       location_id: this.locationId,
       x: tileToWorld(object.x),
@@ -274,6 +340,7 @@ export class WorldScene extends Phaser.Scene {
     this.save.world.y = spawn.y
     this.drawMap(map)
     this.player.setPosition(spawn.x, spawn.y)
+    reviveCompanionsAtBalon(this.save)
     this.emitMapChanged()
     gameBridge.emit('interaction:started', { title: 'Returned to Balon', body: 'You were carried back to your last deepwell. Strength restored.' })
   }
@@ -326,6 +393,44 @@ export class WorldScene extends Phaser.Scene {
     gameBridge.emit('economy:message', { ok, message })
   }
 
+  unequipItem(slot) {
+    const ok = unequipItem(this.save, slot)
+    const message = ok ? `Unequipped ${slot}.` : 'Equipment slot unavailable.'
+    SaveSystem.write(this.save)
+    gameBridge.emit('save:complete', { save: this.save, message })
+    gameBridge.emit('economy:message', { ok, message })
+  }
+
+  equipCompanionItem(monsterId, equipmentId) {
+    const ok = equipCompanionItem(this.save, monsterId, equipmentId)
+    const message = ok ? `Equipped ${equipmentId} on ${monsterId}.` : 'Companion equipment unavailable.'
+    SaveSystem.write(this.save)
+    gameBridge.emit('save:complete', { save: this.save, message })
+    gameBridge.emit('economy:message', { ok, message })
+  }
+
+  unequipCompanionItem(monsterId, slot) {
+    const ok = unequipCompanionItem(this.save, monsterId, slot)
+    const message = ok ? `Unequipped ${slot} from ${monsterId}.` : 'Companion equipment slot unavailable.'
+    SaveSystem.write(this.save)
+    gameBridge.emit('save:complete', { save: this.save, message })
+    gameBridge.emit('economy:message', { ok, message })
+  }
+
+  togglePlayerSkill(skillId) {
+    const result = togglePlayerActiveSkill(this.save, skillId)
+    SaveSystem.write(this.save)
+    gameBridge.emit('save:complete', { save: this.save, message: result.message })
+    gameBridge.emit('economy:message', result)
+  }
+
+  toggleCompanionSkill(monsterId, skillId) {
+    const result = toggleCompanionActiveSkill(this.save, monsterId, skillId)
+    SaveSystem.write(this.save)
+    gameBridge.emit('save:complete', { save: this.save, message: result.message })
+    gameBridge.emit('economy:message', result)
+  }
+
   bondCompanion(monsterId) {
     bondCompanion(this.save, monsterId)
     SaveSystem.write(this.save)
@@ -369,6 +474,11 @@ export class WorldScene extends Phaser.Scene {
     this.cleanupBuyShopEntry?.()
     this.cleanupCraftRecipe?.()
     this.cleanupEquipItem?.()
+    this.cleanupUnequipItem?.()
+    this.cleanupEquipCompanionItem?.()
+    this.cleanupUnequipCompanionItem?.()
+    this.cleanupTogglePlayerSkill?.()
+    this.cleanupToggleCompanionSkill?.()
     this.cleanupTrackQuest?.()
     this.cleanupInteractionUiState?.()
   }

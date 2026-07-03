@@ -19,5 +19,5 @@ export function AlamatGame({ save }) {
     }
   }, [])
 
-  return <div ref={containerRef} className="h-[78vh] min-h-[640px] overflow-hidden rounded-lg border border-[#d8b765]/25 bg-[#0d120b]" />
+  return <div ref={containerRef} className="h-[84vh] min-h-[720px] overflow-hidden rounded-lg border border-[#d8b765]/25 bg-[#0d120b]" />
 }

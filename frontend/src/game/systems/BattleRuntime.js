@@ -1,12 +1,13 @@
-import { PLAYER_BATTLE_TEMPLATE } from '../data/verticalSliceBattles'
-import { skillById, statusById } from '../data/combatRuntimeData'
-import { itemById } from '../data/inventoryRuntimeData'
-import { playerStatsForProgression } from '../data/progressionRuntimeData'
+import { PLAYER_BATTLE_TEMPLATE } from '../data/verticalSliceBattles.js'
+import { ACTIVE_SKILL_SLOT_LIMIT, skillById, statusById } from '../data/combatRuntimeData.js'
+import { itemById } from '../data/inventoryRuntimeData.js'
+import { playerStatsForProgression } from '../data/progressionRuntimeData.js'
 
 export class BattleRuntime {
-  static create(monster, playerName, companion = null, progression = null, inventory = null, equipmentStats = {}, playerHp = null) {
+  static create(monster, playerName, companion = null, progression = null, inventory = null, equipmentStats = {}, playerHp = null, playerSkills = null) {
     const playerStats = playerStatsForProgression(progression, equipmentStats)
     const startingHp = Math.max(1, Math.min(playerStats.maxHp, playerHp ?? playerStats.maxHp))
+    const skills = (playerSkills?.length ? playerSkills : PLAYER_BATTLE_TEMPLATE.skills).slice(0, ACTIVE_SKILL_SLOT_LIMIT)
     return {
       phase: 'active',
       turn: 'player',
@@ -19,7 +20,7 @@ export class BattleRuntime {
         attack: playerStats.attack,
         defense: playerStats.defense,
         speed: playerStats.speed,
-        skills: PLAYER_BATTLE_TEMPLATE.skills,
+        skills,
         cooldowns: {},
         statuses: [],
       },
@@ -40,7 +41,13 @@ export class BattleRuntime {
             id: companion.monster_id,
             name: companion.name,
             role: companion.role,
-            skills: companion.skills,
+            hp: companion.hp,
+            maxHp: companion.maxHp,
+            attack: companion.attack,
+            defense: companion.defense,
+            speed: companion.speed,
+            level: companion.level,
+            skills: companion.skills.slice(0, ACTIVE_SKILL_SLOT_LIMIT),
             cooldowns: {},
             statuses: [],
           }
@@ -69,7 +76,7 @@ export class BattleRuntime {
     this.useSkill(state, state.player, state.enemy, skillId)
     if (state.enemy.hp <= 0) return this.end(state, 'victory')
     this.afterActorAction(state.player)
-    state.turn = 'enemy'
+    state.turn = this.companionCanAct(state) ? 'companion' : 'enemy'
     return state
   }
 
@@ -77,7 +84,7 @@ export class BattleRuntime {
     return this.playerSkill(state, 'steady_guard')
   }
 
-  static playerItem(state, itemId) {
+  static playerItem(state, itemId, targetId = 'player') {
     if (state.phase === 'ended') return state
     const item = itemById(itemId)
     const quantity = state.inventory.items[itemId] ?? 0
@@ -85,35 +92,47 @@ export class BattleRuntime {
       state.log = ['That item is not available.', ...state.log].slice(0, 6)
       return state
     }
+    const target = targetId === 'companion' ? state.companion : state.player
+    if (!target || target.hp <= 0) {
+      state.log = ['That target cannot use the item right now.', ...state.log].slice(0, 6)
+      return state
+    }
     state.inventory.items[itemId] = quantity - 1
     if (state.inventory.items[itemId] <= 0) delete state.inventory.items[itemId]
 
-    const lines = [`${state.player.name} uses ${item.name}.`]
+    const lines = [`${state.player.name} uses ${item.name} on ${target.name}.`]
     if (item.effect?.type === 'heal') {
-      const before = state.player.hp
-      state.player.hp = Math.min(state.player.maxHp, state.player.hp + item.effect.amount)
-      lines.push(`Recovered ${state.player.hp - before} HP.`)
+      const before = target.hp
+      target.hp = Math.min(target.maxHp, target.hp + item.effect.amount)
+      lines.push(`Recovered ${target.hp - before} HP.`)
     }
     if (item.effect?.type === 'cleanse') {
-      const removed = state.player.statuses.length
-      state.player.statuses = []
+      const removed = target.statuses.length
+      target.statuses = []
       lines.push(removed > 0 ? 'Harmful effects are calmed.' : 'The water steadies the traveler.')
     }
 
     this.afterActorAction(state.player)
-    state.turn = 'enemy'
+    state.turn = this.companionCanAct(state) ? 'companion' : 'enemy'
     state.log = [...lines, ...state.log].slice(0, 6)
     return state
   }
 
   static companionSkill(state, skillId) {
-    if (state.phase === 'ended' || !state.companion) return state
+    if (state.phase === 'ended' || !this.companionCanAct(state)) return state
     this.tickCooldowns(state.companion)
     if (this.isOnCooldown(state.companion, skillId)) {
       state.log = [`${skillById(skillId).name} is still recovering.`, ...state.log].slice(0, 6)
       return state
     }
+    if (this.consumeTurnSkip(state.companion)) {
+      state.log = [`${state.companion.name} cannot act.`, ...state.log].slice(0, 6)
+      this.afterActorAction(state.companion)
+      state.turn = 'enemy'
+      return state
+    }
     this.useSkill(state, state.companion, state.enemy, skillId, state.player)
+    if (state.enemy.hp <= 0) return this.end(state, 'victory')
     this.afterActorAction(state.companion)
     state.turn = 'enemy'
     return state
@@ -140,7 +159,8 @@ export class BattleRuntime {
       return state
     }
     const skillId = this.chooseEnemySkill(state.enemy, state.round)
-    this.useSkill(state, state.enemy, state.player, skillId)
+    const target = this.chooseEnemyTarget(state)
+    this.useSkill(state, state.enemy, target, skillId)
     if (state.player.hp <= 0) return this.end(state, 'defeat')
     this.afterActorAction(state.enemy)
     state.round += 1
@@ -181,6 +201,15 @@ export class BattleRuntime {
     const available = actor.skills.filter((skillId) => !this.isOnCooldown(actor, skillId))
     if (available.length > 0) return available[(round - 1) % available.length]
     return actor.skills[0]
+  }
+
+  static chooseEnemyTarget(state) {
+    if (!state.companion || state.companion.hp <= 0) return state.player
+    return state.round % 2 === 0 ? state.companion : state.player
+  }
+
+  static companionCanAct(state) {
+    return Boolean(state.companion && state.companion.hp > 0)
   }
 
   static applyStatus(actor, statusId) {

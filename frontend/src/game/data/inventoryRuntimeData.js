@@ -106,10 +106,31 @@ export const EQUIPMENT_DEFINITIONS = {
     id: 'river_charm',
     name: 'River Charm',
     slot: 'accessory',
+    target: 'player',
     price: 30,
     sellPrice: 10,
     stats: { speed: 1 },
     description: 'A small charm that steadies movement.',
+  },
+  leaf_thread_charm: {
+    id: 'leaf_thread_charm',
+    name: 'Leaf-Thread Charm',
+    slot: 'charm',
+    target: 'companion',
+    price: 34,
+    sellPrice: 12,
+    stats: { speed: 1, maxHp: 4 },
+    description: 'A gentle companion charm woven from forest fibers.',
+  },
+  balete_keepsake: {
+    id: 'balete_keepsake',
+    name: 'Balete Keepsake',
+    slot: 'keepsake',
+    target: 'companion',
+    price: 42,
+    sellPrice: 15,
+    stats: { defense: 2 },
+    description: 'A small keepsake that helps a bonded Nilalang stand firm.',
   },
 }
 
@@ -123,6 +144,8 @@ export const SHOP_DEFINITIONS = {
       { kind: 'equipment', id: 'training_bolo', price: 45 },
       { kind: 'equipment', id: 'woven_vest', price: 38 },
       { kind: 'equipment', id: 'river_charm', price: 30 },
+      { kind: 'equipment', id: 'leaf_thread_charm', price: 34 },
+      { kind: 'equipment', id: 'balete_keepsake', price: 42 },
     ],
   },
 }
@@ -151,6 +174,31 @@ export const RECIPE_DEFINITIONS = {
     ],
     cost: { pilak: 8 },
     description: 'A simple protective charm assembled from mound-path tokens.',
+  },
+  leaf_thread_charm: {
+    id: 'leaf_thread_charm',
+    name: 'Leaf-Thread Charm',
+    station: 'Barangay Workbench',
+    output: { kind: 'equipment', id: 'leaf_thread_charm', quantity: 1 },
+    ingredients: [
+      { id: 'leaf_basket_fiber', quantity: 2 },
+      { id: 'shortcut_twig', quantity: 1 },
+    ],
+    cost: { pilak: 6 },
+    description: 'Weaves Aghoy pathwork fibers into a gentle companion charm.',
+  },
+  balete_keepsake: {
+    id: 'balete_keepsake',
+    name: 'Balete Keepsake',
+    station: 'Barangay Workbench',
+    output: { kind: 'equipment', id: 'balete_keepsake', quantity: 1 },
+    ingredients: [
+      { id: 'nightmare_bark', quantity: 1 },
+      { id: 'old_housepost_splinter', quantity: 1 },
+      { id: 'drum_bark', quantity: 1 },
+    ],
+    cost: { pilak: 12 },
+    description: 'Binds cleared shrine remnants into a keepsake for bonded Nilalang.',
   },
 }
 
@@ -193,8 +241,14 @@ export function addEquipment(save, equipmentId) {
 
 export function equipItem(save, equipmentId) {
   const equipment = equipmentById(equipmentId)
-  if (!equipment || !save.inventory.equipment.includes(equipmentId)) return false
+  if (!equipment || equipment.target === 'companion' || !save.inventory.equipment.includes(equipmentId)) return false
   save.equipment.slots[equipment.slot] = equipmentId
+  return true
+}
+
+export function unequipItem(save, slot) {
+  if (!Object.hasOwn(save.equipment.slots, slot)) return false
+  save.equipment.slots[slot] = null
   return true
 }
 

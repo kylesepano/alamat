@@ -50,7 +50,15 @@ export class PreloadScene extends Phaser.Scene {
         for (let column = 0; column < asset.columns; column += 1) {
           const frameName = spriteFrameName(direction, column)
           if (!texture.has(frameName)) {
-            texture.add(frameName, 0, offsetX + column * frameWidth, offsetY + row * frameHeight, frameWidth, frameHeight)
+            const crop = spriteFrameBleedCrop(frameWidth, frameHeight)
+            texture.add(
+              frameName,
+              0,
+              offsetX + column * frameWidth + crop.x,
+              offsetY + row * frameHeight + crop.y,
+              frameWidth - crop.x - crop.right,
+              frameHeight - crop.y - crop.bottom,
+            )
           }
         }
       })
@@ -93,5 +101,15 @@ export class PreloadScene extends Phaser.Scene {
     graphics.generateTexture(PLAYER_ASSET_KEY, 34, 46)
     graphics.clear()
     graphics.destroy()
+  }
+}
+
+function spriteFrameBleedCrop(frameWidth, frameHeight) {
+  const edge = Math.max(1, Math.floor(Math.min(frameWidth, frameHeight) * 0.008))
+  return {
+    x: edge,
+    y: 0,
+    right: edge,
+    bottom: edge,
   }
 }

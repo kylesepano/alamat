@@ -9,7 +9,7 @@ This is a planning and production milestone. It does not build gameplay yet.
 | Area | Decision |
 | --- | --- |
 | Perspective | Top-down 2D RPG |
-| Movement | Free 8-direction movement |
+| Movement | Free 4-direction movement |
 | Map grid | 48x48 tile-based maps |
 | Camera | Centered on player, with map bounds |
 | Engine | Phaser 3 embedded inside React |
@@ -29,6 +29,9 @@ This is a planning and production milestone. It does not build gameplay yet.
 - Taming/bonding must support multiple narrative paths, not one hardcoded ritual.
 - Generated assets are acceptable as concept drafts, high-quality placeholders, and possible final assets after approval.
 - Significant design decisions should be documented as part of ALAMAT's design history.
+- Player and companion can learn more than six skills, but only six active skill slots are available in battle.
+- Companion combat is turn-based after bonding: player acts, companion acts, then the enemy responds.
+- Companion HP, revival, progression, and equipment should remain separate from player progression.
 
 ## Architecture Direction
 
@@ -191,7 +194,7 @@ frontend/src/game/
 Milestone 1 should be considered complete when:
 
 - Phaser loads inside the React app.
-- The player can move in 8 directions.
+- The player can move in 4 directions.
 - Camera follows the player.
 - Collision prevents walking through blocked tiles.
 - Interactables can trigger a simple message.

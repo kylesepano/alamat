@@ -33,6 +33,9 @@ export const DEFAULT_SAVE = {
     party_slots: [null],
     collection: [],
     bond_state: {},
+    runtime: {},
+    progression: {},
+    equipment: {},
   },
   battles: {
     wins: {},
@@ -43,6 +46,10 @@ export const DEFAULT_SAVE = {
     level: 1,
     xp: 0,
     total_xp: 0,
+    class_id: 'manlalakbay',
+    unlocked_skills: ['basic_strike', 'steady_guard'],
+    active_skills: ['basic_strike', 'steady_guard'],
+    skill_unlock_log: [],
     currencies: {
       pilak: 0,
     },

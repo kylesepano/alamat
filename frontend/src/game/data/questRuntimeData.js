@@ -1,4 +1,4 @@
-import { addInventoryItem } from './inventoryRuntimeData'
+import { addEquipment, addInventoryItem, equipmentById } from './inventoryRuntimeData'
 
 export const QUEST_DEFINITIONS = {
   QST000001: {
@@ -40,7 +40,7 @@ export const QUEST_DEFINITIONS = {
       { id: 'meet_aghoy', type: 'defeat', target_id: 'MON0038', label: 'Learn how Aghoy tests travelers' },
       { id: 'reach_shrine', type: 'reach', target_id: 'WLOC000009', label: 'Find the Spirit Shrine threshold' },
     ],
-    rewards: { pilak: 24, items: [{ id: 'healing_herb', quantity: 2 }] },
+    rewards: { pilak: 24, items: [{ id: 'healing_herb', quantity: 2 }], equipment: [{ id: 'leaf_thread_charm' }] },
     unlocks: ['QST000005'],
   },
   QST000005: {
@@ -52,7 +52,7 @@ export const QUEST_DEFINITIONS = {
       { id: 'defeat_batibat', type: 'defeat', target_id: 'MON0007', label: 'Clear the Batibat presence' },
       { id: 'hear_umalag_advice', type: 'talk', target_id: 'MON0040', label: 'Listen to the Umalagad Echo' },
     ],
-    rewards: { pilak: 35, items: [{ id: 'sacred_river_water', quantity: 1 }] },
+    rewards: { pilak: 35, items: [{ id: 'sacred_river_water', quantity: 1 }], equipment: [{ id: 'balete_keepsake' }] },
     completionFlags: ['scene_4_seen', 'first_shrine_boss_cleared'],
     unlocks: [],
   },
@@ -65,7 +65,7 @@ export const QUEST_DEFINITIONS = {
       { id: 'duwende_sign', type: 'defeat', target_id: 'MON0032', label: 'Follow the Duwende mound signs' },
       { id: 'ungo_bark', type: 'item', target_id: 'drum_bark', label: 'Recover Drum Bark from forest rewards' },
     ],
-    rewards: { pilak: 10, items: [{ id: 'healing_herb', quantity: 1 }] },
+    rewards: { pilak: 10, items: [{ id: 'healing_herb', quantity: 1 }], equipment: [{ id: 'leaf_thread_charm' }] },
     unlocks: [],
   },
 }
@@ -140,6 +140,17 @@ export function completeQuest(save, questId) {
     save.progression.currencies[currency] = (save.progression.currencies[currency] ?? 0) + amount
   }
   for (const item of quest.rewards?.items ?? []) addInventoryItem(save, item.id, item.quantity)
+  for (const equipment of quest.rewards?.equipment ?? []) {
+    addEquipment(save, equipment.id)
+    const item = equipmentById(equipment.id)
+    save.progression.field_log.push({
+      source_id: questId,
+      name: item?.name ?? equipment.id,
+      type: 'quest_equipment_reward',
+      acquired_at: new Date().toISOString(),
+    })
+  }
+  save.progression.field_log = save.progression.field_log.slice(-30)
   for (const flag of quest.completionFlags ?? []) {
     if (!save.world.story_flags.includes(flag)) save.world.story_flags.push(flag)
   }

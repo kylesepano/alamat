@@ -41,6 +41,8 @@ export const STATUS_EFFECTS = {
   },
 }
 
+export const ACTIVE_SKILL_SLOT_LIMIT = 6
+
 export const COMBAT_SKILLS = {
   basic_strike: {
     id: 'basic_strike',
@@ -69,6 +71,48 @@ export const COMBAT_SKILLS = {
     statusEffectId: 'guarded',
     statusChance: 100,
     description: 'Brace and reduce incoming damage until the next enemy action.',
+  },
+  river_cut: {
+    id: 'river_cut',
+    name: 'River Cut',
+    category: 'Physical',
+    type: 'physical',
+    damageType: 'Water',
+    targetType: 'Single Enemy',
+    power: 22,
+    accuracy: 96,
+    cooldown: 1,
+    statusEffectId: 'slow',
+    statusChance: 35,
+    description: 'A clean flowing strike learned by reading the rhythm of river paths.',
+  },
+  woven_resolve: {
+    id: 'woven_resolve',
+    name: 'Woven Resolve',
+    category: 'Support',
+    type: 'support',
+    damageType: 'None',
+    targetType: 'Self',
+    power: 0,
+    accuracy: 100,
+    cooldown: 3,
+    statusEffectId: 'haste',
+    statusChance: 100,
+    description: 'A steadying breath that quickens the traveler for a short time.',
+  },
+  balangay_drive: {
+    id: 'balangay_drive',
+    name: 'Balangay Drive',
+    category: 'Physical',
+    type: 'physical',
+    damageType: 'Neutral',
+    targetType: 'Single Enemy',
+    power: 30,
+    accuracy: 92,
+    cooldown: 2,
+    statusEffectId: 'weaken',
+    statusChance: 55,
+    description: 'A committed forward strike inspired by boatmen pushing through rough current.',
   },
   mound_pebble: {
     id: 'mound_pebble',

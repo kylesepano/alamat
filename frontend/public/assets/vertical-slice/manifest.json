@@ -69,7 +69,7 @@
       "id": "tileset_barangay_san_isidro",
       "type": "tileset",
       "source_id": "WLOC000001",
-      "path": "tilesets/tileset_barangay_san_isidro.svg",
+      "path": "tilesets/tileset_barangay_san_isidro.png",
       "size": "48x48 tiles",
       "prompt": "Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspective, readable silhouette, warm tropical palette, respectful fictional Philippine folklore inspiration, no text, no logo. Create a 48x48 top-down RPG tileset for Barangay San Isidro. Include village paths, nipa-style homes, barangay hall accents, marketplace ground, rice field edges, chapel courtyard stones, garden plants, fences, water jars, and collision-friendly landmarks. Seamless tiles, no text."
     },
@@ -77,7 +77,7 @@
       "id": "tileset_balete_forest",
       "type": "tileset",
       "source_id": "WLOC000004",
-      "path": "tilesets/tileset_balete_forest.svg",
+      "path": "tilesets/tileset_balete_forest.png",
       "size": "48x48 tiles",
       "prompt": "Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspective, readable silhouette, warm tropical palette, respectful fictional Philippine folklore inspiration, no text, no logo. Create a 48x48 top-down RPG tileset for Balete Forest. Include forest floor, moss, root paths, balete roots, bamboo thickets, firefly clearings, riverbank edges, rocks, hidden item spots, and collision-friendly tree trunks. Seamless tiles, no text."
     },
@@ -85,7 +85,7 @@
       "id": "tileset_spirit_shrine",
       "type": "tileset",
       "source_id": "WLOC000009",
-      "path": "tilesets/tileset_spirit_shrine.svg",
+      "path": "tilesets/tileset_spirit_shrine.png",
       "size": "48x48 tiles",
       "prompt": "Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspective, readable silhouette, warm tropical palette, respectful fictional Philippine folklore inspiration, no text, no logo. Create a 48x48 top-down RPG tileset for a fictional Spirit Shrine threshold. Include stone paths, shrine platform, mist pools, candle/offering spots, woven banners, ancient roots, luminous spirit tiles, and boss arena markings. No real religion as absolute truth, no text."
     },
@@ -114,7 +114,7 @@
       "id": "item_itm000001_healing_herb",
       "type": "item_icon",
       "source_id": "ITM000001",
-      "path": "items/icon_ITM000001_healing_herb.svg",
+      "path": "items/icon_ITM000001_healing_herb.png",
       "size": "64x64",
       "prompt": "Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspective, readable silhouette, warm tropical palette, respectful fictional Philippine folklore inspiration, no text, no logo. Create a polished transparent RPG inventory icon for Healing Herb. Small wrapped remedy, leaf bundle, woven fiber tie, clean healing silhouette, green and river accents, readable at 32x32 and 64x64, no text."
     },
@@ -122,7 +122,7 @@
       "id": "item_itm000003_sacred_river_water",
       "type": "item_icon",
       "source_id": "ITM000003",
-      "path": "items/icon_ITM000003_sacred_river_water.svg",
+      "path": "items/icon_ITM000003_sacred_river_water.png",
       "size": "64x64",
       "prompt": "Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspective, readable silhouette, warm tropical palette, respectful fictional Philippine folklore inspiration, no text, no logo. Create a polished transparent RPG inventory icon for Sacred River Water. Small glass/bamboo vial of clear water with river stone charm, soft blue glow, respectful fictional motif, no text, readable at 32x32."
     },
@@ -130,7 +130,7 @@
       "id": "equipment_eqp000001_bolo",
       "type": "equipment_icon",
       "source_id": "EQP000001",
-      "path": "equipment/icon_EQP000001_bolo.svg",
+      "path": "equipment/icon_EQP000001_bolo.png",
       "size": "64x64",
       "prompt": "Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspective, readable silhouette, warm tropical palette, respectful fictional Philippine folklore inspiration, no text, no logo. Create a polished transparent RPG equipment icon for Bolo. Clear blade silhouette, woven grip, brass and wood accents, river affinity detail, no text, readable at 32x32."
     },
@@ -138,7 +138,7 @@
       "id": "equipment_eqp000003_kris",
       "type": "equipment_icon",
       "source_id": "EQP000003",
-      "path": "equipment/icon_EQP000003_kris.svg",
+      "path": "equipment/icon_EQP000003_kris.png",
       "size": "64x64",
       "prompt": "Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspective, readable silhouette, warm tropical palette, respectful fictional Philippine folklore inspiration, no text, no logo. Create a polished transparent RPG equipment icon for Kris. Wavy blade silhouette, respectful fictional Filipino fantasy details, woven grip, subtle glow, no text, readable at 32x32."
     },
@@ -146,9 +146,80 @@
       "id": "map_preview_barangay",
       "type": "map_preview",
       "source_id": "WLOC000001",
-      "path": "maps/preview_barangay_san_isidro.svg",
+      "path": "maps/preview_barangay_san_isidro.png",
       "size": "1024x1024",
       "prompt": "Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspective, readable silhouette, warm tropical palette, respectful fictional Philippine folklore inspiration, no text, no logo. Create a top-down map preview for Barangay San Isidro with player house, barangay hall, small chapel, marketplace, rice fields, balete tree path, and forest entrance. Clear paths and collision landmarks, no labels or text."
+    },
+    {
+      "id": "battle_player_customizable_base",
+      "type": "battle_actor_sprite",
+      "path": "battle/characters/battle_player_customizable_base.png",
+      "size": "PNG battle sprite sheet, exact 1024x512 canvas, 8 frames, 4x2 grid, 256x256 per frame, true transparent background",
+      "prompt": "Hand-painted HD 2D chibi Filipino fantasy RPG battle sprite sheet for ALAMAT, true transparent PNG with alpha transparency, no checkerboard, no background, no labels, no frame borders, no logo. Canvas exactly 1024x512 pixels. Use a strict 4 columns x 2 rows grid, 8 frames total, each cell exactly 256x256 pixels. Row 1 is battle idle frames 1-4, row 2 is battle attack frames 1-4. Side-facing 3/4 battle perspective, protagonist facing right, readable silhouette, practical traveler clothing inspired by woven fibers and natural materials. Keep full body inside every cell with at least 24px transparent padding. No shadows or effects crossing cell boundaries."
+    },
+    {
+      "id": "battle_nilalang_mon0038_aghoy",
+      "type": "battle_actor_sprite",
+      "source_id": "MON0038",
+      "path": "battle/nilalang/battle_MON0038_aghoy.png",
+      "size": "PNG battle sprite sheet, exact 1024x512 canvas, 8 frames, 4x2 grid, 256x256 per frame, true transparent background",
+      "prompt": "Hand-painted HD 2D chibi Filipino fantasy RPG battle sprite sheet for Aghoy, true transparent PNG with alpha transparency, no checkerboard, no background, no labels, no frame borders, no logo. Canvas exactly 1024x512 pixels. Use a strict 4 columns x 2 rows grid, 8 frames total, each cell exactly 256x256 pixels. Row 1 is battle idle frames 1-4, row 2 is battle attack frames 1-4. Side-facing 3/4 battle perspective, Aghoy facing right as a companion. Small forest helper spirit, shy but brave, leaf cloak, root charm, soft firefly glow contained inside the cell. Keep full body inside every cell with at least 24px transparent padding. No shadows or effects crossing cell boundaries."
+    },
+    {
+      "id": "battle_nilalang_mon0032_duwende",
+      "type": "battle_actor_sprite",
+      "source_id": "MON0032",
+      "path": "battle/nilalang/battle_MON0032_duwende.png",
+      "size": "PNG battle sprite sheet, exact 1024x512 canvas, 8 frames, 4x2 grid, 256x256 per frame, true transparent background",
+      "prompt": "Hand-painted HD 2D chibi Filipino fantasy RPG battle sprite sheet for Duwende, true transparent PNG with alpha transparency, no checkerboard, no background, no labels, no frame borders, no logo. Canvas exactly 1024x512 pixels. Use a strict 4 columns x 2 rows grid, 8 frames total, each cell exactly 256x256 pixels. Row 1 is battle idle frames 1-4, row 2 is battle attack frames 1-4. Side-facing 3/4 battle perspective, enemy variant facing left. Small earthy house-spirit, mound motifs, rattan and leaf details, mysterious but not grotesque. Keep full body inside every cell with at least 24px transparent padding. No shadows or effects crossing cell boundaries."
+    },
+    {
+      "id": "battle_nilalang_mon0028_ungo",
+      "type": "battle_actor_sprite",
+      "source_id": "MON0028",
+      "path": "battle/nilalang/battle_MON0028_ungo.png",
+      "size": "PNG battle sprite sheet, exact 1024x512 canvas, 8 frames, 4x2 grid, 256x256 per frame, true transparent background",
+      "prompt": "Hand-painted HD 2D chibi Filipino fantasy RPG battle sprite sheet for Ungo, true transparent PNG with alpha transparency, no checkerboard, no background, no labels, no frame borders, no logo. Canvas exactly 1024x512 pixels. Use a strict 4 columns x 2 rows grid, 8 frames total, each cell exactly 256x256 pixels. Row 1 is battle idle frames 1-4, row 2 is battle attack frames 1-4. Side-facing 3/4 battle perspective, enemy variant facing left. Strong forest creature, muscular but readable, moss and bark accents, alert stance, not grotesque. Keep full body inside every cell with at least 24px transparent padding. No shadows or effects crossing cell boundaries."
+    },
+    {
+      "id": "battle_nilalang_mon0007_batibat",
+      "type": "battle_actor_sprite",
+      "source_id": "MON0007",
+      "path": "battle/nilalang/battle_MON0007_batibat.png",
+      "size": "PNG battle sprite sheet, exact 1024x512 canvas, 8 frames, 4x2 grid, 256x256 per frame, true transparent background",
+      "prompt": "Hand-painted HD 2D chibi Filipino fantasy RPG boss battle sprite sheet for Batibat, true transparent PNG with alpha transparency, no checkerboard, no background, no labels, no frame borders, no logo. Canvas exactly 1024x512 pixels. Use a strict 4 columns x 2 rows grid, 8 frames total, each cell exactly 256x256 pixels. Row 1 is battle idle frames 1-4, row 2 is battle attack frames 1-4. Side-facing 3/4 battle perspective, boss enemy facing left. Heavy old-wood nightmare tree-mother presence, roots and housepost details, eerie but not graphic. Keep full body inside every cell with at least 16px transparent padding. No shadows or effects crossing cell boundaries."
+    },
+    {
+      "id": "skill_vfx_basic_strike",
+      "type": "skill_vfx",
+      "source_id": "basic_strike",
+      "path": "battle/vfx/skill_basic_strike.png",
+      "size": "PNG VFX sprite sheet, exact 1536x256 canvas, 6 frames, 6x1 grid, 256x256 per frame, true transparent background",
+      "prompt": "Hand-painted HD 2D Filipino fantasy RPG skill VFX sprite sheet, true transparent PNG with alpha transparency, no checkerboard, no background, no labels, no frame borders, no logo. Canvas exactly 1536x256 pixels. Use a strict 6 columns x 1 row grid, 6 frames total, each cell exactly 256x256 pixels. Create a short melee impact slash for Basic Strike, neutral pale-gold arc, readable at battle scale, contained inside each cell, no background."
+    },
+    {
+      "id": "skill_vfx_river_cut_projectile",
+      "type": "skill_vfx",
+      "source_id": "river_cut",
+      "path": "battle/vfx/skill_river_cut_projectile.png",
+      "size": "PNG projectile sprite sheet, exact 1536x256 canvas, 6 frames, 6x1 grid, 256x256 per frame, true transparent background",
+      "prompt": "Hand-painted HD 2D Filipino fantasy RPG projectile VFX sprite sheet, true transparent PNG with alpha transparency, no checkerboard, no background, no labels, no frame borders, no logo. Canvas exactly 1536x256 pixels. Use a strict 6 columns x 1 row grid, 6 frames total, each cell exactly 256x256 pixels. Create a long-range River Cut water slash projectile that travels horizontally from caster to enemy, blue river arc with small foam and light, readable while moving, no background. Keep the main projectile centered in each frame and contained enough for smooth travel."
+    },
+    {
+      "id": "skill_vfx_woven_resolve_aura",
+      "type": "skill_vfx",
+      "source_id": "woven_resolve",
+      "path": "battle/vfx/skill_woven_resolve_aura.png",
+      "size": "PNG aura sprite sheet, exact 1536x256 canvas, 6 frames, 6x1 grid, 256x256 per frame, true transparent background",
+      "prompt": "Hand-painted HD 2D Filipino fantasy RPG support skill VFX sprite sheet, true transparent PNG with alpha transparency, no checkerboard, no background, no labels, no frame borders, no logo. Canvas exactly 1536x256 pixels. Use a strict 6 columns x 1 row grid, 6 frames total, each cell exactly 256x256 pixels. Create a self-buff aura for Woven Resolve, warm gold woven thread circle and gentle green light rising around the caster, contained inside each cell, no background."
+    },
+    {
+      "id": "skill_vfx_leaf_tap_projectile",
+      "type": "skill_vfx",
+      "source_id": "leaf_tap",
+      "path": "battle/vfx/skill_leaf_tap_projectile.png",
+      "size": "PNG projectile sprite sheet, exact 1536x256 canvas, 6 frames, 6x1 grid, 256x256 per frame, true transparent background",
+      "prompt": "Hand-painted HD 2D Filipino fantasy RPG projectile VFX sprite sheet, true transparent PNG with alpha transparency, no checkerboard, no background, no labels, no frame borders, no logo. Canvas exactly 1536x256 pixels. Use a strict 6 columns x 1 row grid, 6 frames total, each cell exactly 256x256 pixels. Create a small forest leaf projectile for Leaf Tap that travels horizontally from companion to enemy, green leaf flick with tiny wind trail, readable but subtle, no background."
     }
   ]
 }

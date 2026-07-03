@@ -18,10 +18,12 @@ export class BattleScene extends Phaser.Scene {
     this.inventory = data.inventory ?? null
     this.equipmentStats = data.equipmentStats ?? {}
     this.playerHp = data.player_hp ?? null
+    this.playerSkills = data.player_skills ?? null
+    this.randomEncounter = Boolean(data.random)
   }
 
   create() {
-    this.state = BattleRuntime.create(this.monster, this.playerName, this.companion, this.progression, this.inventory, this.equipmentStats, this.playerHp)
+    this.state = BattleRuntime.create(this.monster, this.playerName, this.companion, this.progression, this.inventory, this.equipmentStats, this.playerHp, this.playerSkills)
     this.drawArena()
     this.cleanupAction = gameBridge.on('command:battle-action', ({ action }) => this.handleAction(action))
     this.events.once(Phaser.Scenes.Events.SHUTDOWN, () => this.cleanupAction?.())
@@ -68,6 +70,10 @@ export class BattleScene extends Phaser.Scene {
     this.enemyHpBar = this.add.rectangle(600, 130, 240, 14, 0xbd4c5f).setOrigin(0, 0.5)
     this.playerHpText = this.add.text(210, 490, '', { fontFamily: 'Arial', fontSize: '14px', color: '#fff6df' })
     this.enemyHpText = this.add.text(600, 150, '', { fontFamily: 'Arial', fontSize: '14px', color: '#fff6df' })
+    if (this.companion) {
+      this.companionHpBar = this.add.rectangle(95, 385, 180, 12, 0x82a7a6).setOrigin(0, 0.5)
+      this.companionHpText = this.add.text(95, 402, '', { fontFamily: 'Arial', fontSize: '13px', color: '#fff6df' })
+    }
     this.logText = this.add.text(70, 520, '', {
       fontFamily: 'Arial',
       fontSize: '15px',
@@ -79,12 +85,19 @@ export class BattleScene extends Phaser.Scene {
   }
 
   handleAction(action) {
-    if (this.state.turn !== 'player') return
-    if (action?.startsWith('skill:')) BattleRuntime.playerSkill(this.state, action.replace('skill:', ''))
-    if (action?.startsWith('companion-skill:')) BattleRuntime.companionSkill(this.state, action.replace('companion-skill:', ''))
-    if (action?.startsWith('item:')) BattleRuntime.playerItem(this.state, action.replace('item:', ''))
-    if (action === 'guard') BattleRuntime.playerGuard(this.state)
-    if (action === 'flee') BattleRuntime.playerFlee(this.state, this.monster.fleeBlocked)
+    if (this.state.turn === 'player') {
+      if (action?.startsWith('skill:')) BattleRuntime.playerSkill(this.state, action.replace('skill:', ''))
+      if (action?.startsWith('item:')) {
+        const [, itemId, targetId = 'player'] = action.split(':')
+        BattleRuntime.playerItem(this.state, itemId, targetId)
+      }
+      if (action === 'guard') BattleRuntime.playerGuard(this.state)
+      if (action === 'flee') BattleRuntime.playerFlee(this.state, this.monster.fleeBlocked)
+    } else if (this.state.turn === 'companion') {
+      if (action?.startsWith('companion-skill:')) BattleRuntime.companionSkill(this.state, action.replace('companion-skill:', ''))
+    } else {
+      return
+    }
     this.refreshArena()
     this.emitUpdate()
 
@@ -92,6 +105,8 @@ export class BattleScene extends Phaser.Scene {
       this.finishAfterDelay()
       return
     }
+
+    if (this.state.turn !== 'enemy') return
 
     this.time.delayedCall(650, () => {
       BattleRuntime.enemyAct(this.state)
@@ -108,6 +123,11 @@ export class BattleScene extends Phaser.Scene {
     this.enemyHpBar.width = Math.max(1, 240 * enemyRatio)
     this.playerHpText.setText(`${this.state.player.name} HP ${this.state.player.hp}/${this.state.player.maxHp}`)
     this.enemyHpText.setText(`${this.state.enemy.name} HP ${this.state.enemy.hp}/${this.state.enemy.maxHp}`)
+    if (this.state.companion && this.companionHpBar && this.companionHpText) {
+      const companionRatio = this.state.companion.hp / this.state.companion.maxHp
+      this.companionHpBar.width = Math.max(1, 180 * companionRatio)
+      this.companionHpText.setText(`${this.state.companion.name} HP ${this.state.companion.hp}/${this.state.companion.maxHp}`)
+    }
     this.logText.setText(this.state.log.join('\n'))
   }
 
@@ -122,6 +142,9 @@ export class BattleScene extends Phaser.Scene {
         inventory: this.state.inventory,
         player_hp: this.state.player.hp,
         player_max_hp: this.state.player.maxHp,
+        companion_id: this.state.companion?.id,
+        companion_hp: this.state.companion?.hp,
+        random: this.randomEncounter,
       })
       gameBridge.emit('battle:ended', {
         result: this.state.result,

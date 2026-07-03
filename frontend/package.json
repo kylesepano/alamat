@@ -7,6 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "oxlint",
+    "balance:combat": "node scripts/combat-balance-report.mjs",
+    "assets:audit": "node scripts/vertical-slice-asset-audit.mjs",
     "preview": "vite preview"
   },
   "dependencies": {

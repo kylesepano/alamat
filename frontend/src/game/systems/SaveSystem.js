@@ -58,6 +58,9 @@ export class SaveSystem {
         party_slots: save.companions?.party_slots ?? [save.companions?.active_companion_id ?? null],
         collection: save.companions?.collection ?? [],
         bond_state: save.companions?.bond_state ?? {},
+        runtime: save.companions?.runtime ?? {},
+        progression: save.companions?.progression ?? {},
+        equipment: save.companions?.equipment ?? {},
       },
       battles: {
         ...structuredClone(DEFAULT_SAVE.battles),
@@ -72,6 +75,9 @@ export class SaveSystem {
         },
         field_log: save.progression?.field_log ?? [],
         reward_log: save.progression?.reward_log ?? [],
+        unlocked_skills: save.progression?.unlocked_skills ?? structuredClone(DEFAULT_SAVE.progression.unlocked_skills),
+        active_skills: save.progression?.active_skills ?? save.progression?.unlocked_skills?.slice(0, 6) ?? structuredClone(DEFAULT_SAVE.progression.active_skills),
+        skill_unlock_log: save.progression?.skill_unlock_log ?? [],
       },
       inventory: {
         ...structuredClone(DEFAULT_SAVE.inventory),

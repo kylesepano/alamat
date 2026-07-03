@@ -1,6 +1,56 @@
-Milestone 1: Core engine (movement, camera, collision, interactions, save/load).
-Milestone 2: Combat and monster systems.
-Milestone 3: Inventory, equipment, crafting, and economy.
-Milestone 4: World maps, NPCs, and quests.
-Milestone 5: Story integration and polish.
-Milestone 6: Content expansi    on, balancing, and final asset production.
+ALAMAT Gameplay Milestones
+
+Status checkpoint after full vertical-slice playthrough QA.
+
+Milestone 0: Production blueprint and vertical-slice roster - Complete
+Milestone 1: Core engine, movement, camera, collision, interactions, save/load - Complete
+Milestone 2: Combat and Nilalang systems - Playable
+Milestone 3: Inventory, equipment, crafting, shops, and economy - Playable
+Milestone 4: World maps, NPCs, quests, and encounter flow - Playable
+Milestone 5: Story integration, companion bonding, Balon recovery, and UI polish - Playable
+Milestone 6: Content expansion, balancing, final asset production, and production hardening - Next major milestone
+
+Current Playable Slice
+
+- Character creation supports a customizable protagonist.
+- Player begins without a Nilalang companion.
+- Barangay San Isidro, Balete Forest, and Spirit Shrine are playable.
+- NPC interaction, quest tracking, item pickup, shops, crafting, save/load, and Balon recovery work.
+- Random encounters are enabled outside safe zones.
+- Batibat boss encounter gates the first companion bond.
+- Aghoy can be bonded after trust and story requirements are met.
+- Battle supports player and companion turns.
+- Companion HP, companion XP, companion skill unlocks, and Balon revival are active.
+- Player and companion battle skills are capped at six active slots.
+- Skills, inventory, equipment, companion, quest, story, and progression panels are available.
+
+Known Limitations
+
+- Skill loadouts are functional but still use simple active/reserve toggles.
+- Companion equipment exists for the vertical slice but needs a broader itemization pass.
+- Maps are blockout/playtest maps, not final art maps.
+- Asset replacement should continue through the Phase L asset pipeline.
+- Balance values are first-pass and should be tuned after more combat QA.
+- Save data is localStorage-based for the prototype.
+
+Recommended Next Work
+
+1. Generate and approve final PNG tilesets, item icons, equipment icons, and map previews.
+2. Start Milestone 6 content expansion once core systems remain stable after another QA pass.
+
+Completed Stabilization
+
+- Skill loadout editing supports active and reserve states without auto-refilling intentional reserves.
+- Player and companion active skill lists are capped at six slots.
+- Loadout controls prevent removing the final active skill.
+- Loadout controls disable activation when the six-slot limit is full.
+- Player equipment and companion equipment have separate equip paths.
+- Player and companion equipment can be unequipped.
+- Companion gear stat totals are visible in the Companion panel.
+- Companion-specific equipment can be awarded by quests.
+- Companion-specific equipment can be crafted from forest and shrine materials.
+- Combat balance testing now has a repeatable player-plus-companion simulator.
+- Current combat balance baseline is documented in `docs/combat-balance-baseline.md`.
+- Actor blockout sprites are replaced by PNG runtime spritesheets where PNG files exist.
+- Map rendering supports tileset art backgrounds for approved tileset assets.
+- Asset replacement audit is available with `npm run assets:audit`.

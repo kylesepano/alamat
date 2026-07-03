@@ -1,4 +1,5 @@
-import { addInventoryItem, itemById } from './inventoryRuntimeData'
+import { addInventoryItem, itemById } from './inventoryRuntimeData.js'
+import { ACTIVE_SKILL_SLOT_LIMIT } from './combatRuntimeData.js'
 
 export const LEVEL_THRESHOLDS = [
   { level: 1, totalXp: 0 },
@@ -7,6 +8,21 @@ export const LEVEL_THRESHOLDS = [
   { level: 4, totalXp: 320 },
   { level: 5, totalXp: 520 },
 ]
+
+export const PLAYER_CLASS_TRACKS = {
+  manlalakbay: {
+    id: 'manlalakbay',
+    name: 'Manlalakbay',
+    description: 'A flexible traveler path focused on survival, observation, and respectful bonds.',
+    skillUnlocks: [
+      { level: 1, skillId: 'basic_strike', label: 'Basic Strike' },
+      { level: 1, skillId: 'steady_guard', label: 'Steady Guard' },
+      { level: 2, skillId: 'river_cut', label: 'River Cut' },
+      { level: 3, skillId: 'woven_resolve', label: 'Woven Resolve' },
+      { level: 4, skillId: 'balangay_drive', label: 'Balangay Drive' },
+    ],
+  },
+}
 
 export const BATTLE_REWARDS = {
   MON0032: {
@@ -74,6 +90,7 @@ export function applyBattleRewards(save, { result, monster_id }) {
     save.progression.total_xp += repeatXp
     save.progression.xp = save.progression.total_xp
     save.progression.level = levelForXp(save.progression.total_xp)
+    const skillUnlocks = applySkillUnlocks(save)
     const summary = {
       result,
       monster_id,
@@ -83,6 +100,7 @@ export function applyBattleRewards(save, { result, monster_id }) {
       levelBefore,
       levelAfter: save.progression.level,
       levelUp: save.progression.level > levelBefore,
+      skillUnlocks,
       notes: 'Unique boss rewards were already claimed. Reduced practice XP gained.',
     }
     save.progression.reward_log.unshift({ ...summary, acquired_at: new Date().toISOString() })
@@ -96,6 +114,7 @@ export function applyBattleRewards(save, { result, monster_id }) {
   save.progression.total_xp += reward.xp
   save.progression.xp = save.progression.total_xp
   save.progression.level = levelForXp(save.progression.total_xp)
+  const skillUnlocks = applySkillUnlocks(save)
 
   for (const [currency, amount] of Object.entries(reward.currencies)) {
     save.progression.currencies[currency] = (save.progression.currencies[currency] ?? 0) + amount
@@ -130,6 +149,7 @@ export function applyBattleRewards(save, { result, monster_id }) {
     levelBefore,
     levelAfter: save.progression.level,
     levelUp: save.progression.level > levelBefore,
+    skillUnlocks,
     notes: reward.notes,
   }
   save.progression.reward_log.unshift({ ...summary, acquired_at: new Date().toISOString() })
@@ -153,4 +173,68 @@ export function playerStatsForProgression(progression, equipmentStats = {}) {
     defense: 8 + levelBonus + (equipmentStats.defense ?? 0),
     speed: 10 + (equipmentStats.speed ?? 0),
   }
+}
+
+export function applySkillUnlocks(save) {
+  const track = PLAYER_CLASS_TRACKS[save.progression.class_id] ?? PLAYER_CLASS_TRACKS.manlalakbay
+  const newlyUnlocked = []
+  save.progression.unlocked_skills ??= ['basic_strike', 'steady_guard']
+  save.progression.skill_unlock_log ??= []
+  for (const unlock of track.skillUnlocks) {
+    if (unlock.level > save.progression.level) continue
+    if (save.progression.unlocked_skills.includes(unlock.skillId)) continue
+    save.progression.unlocked_skills.push(unlock.skillId)
+    save.progression.active_skills ??= []
+    if (save.progression.active_skills.length < ACTIVE_SKILL_SLOT_LIMIT) {
+      save.progression.active_skills.push(unlock.skillId)
+    }
+    const entry = {
+      skill_id: unlock.skillId,
+      name: unlock.label,
+      level: unlock.level,
+      unlocked_at: new Date().toISOString(),
+    }
+    save.progression.skill_unlock_log.unshift(entry)
+    newlyUnlocked.push(entry)
+  }
+  save.progression.skill_unlock_log = save.progression.skill_unlock_log.slice(0, 20)
+  return newlyUnlocked
+}
+
+export function classTrackForProgression(progression) {
+  return PLAYER_CLASS_TRACKS[progression?.class_id] ?? PLAYER_CLASS_TRACKS.manlalakbay
+}
+
+export function playerActiveSkills(save) {
+  const unlocked = save.progression.unlocked_skills ?? ['basic_strike', 'steady_guard']
+  const source = save.progression.active_skills?.length ? save.progression.active_skills : unlocked
+  save.progression.active_skills = normalizeSkillLoadout(source, unlocked)
+  return save.progression.active_skills
+}
+
+export function togglePlayerActiveSkill(save, skillId) {
+  const unlocked = save.progression.unlocked_skills ?? []
+  if (!unlocked.includes(skillId)) return { ok: false, message: 'Skill is not learned.' }
+  const active = playerActiveSkills(save)
+  if (active.includes(skillId)) {
+    if (active.length <= 1) return { ok: false, message: 'At least one active skill is required.' }
+    save.progression.active_skills = active.filter((id) => id !== skillId)
+    return { ok: true, message: `${skillId} moved to reserve.` }
+  }
+  if (active.length >= ACTIVE_SKILL_SLOT_LIMIT) return { ok: false, message: `Only ${ACTIVE_SKILL_SLOT_LIMIT} active skills are allowed.` }
+  save.progression.active_skills = [...active, skillId]
+  return { ok: true, message: `${skillId} added to active skills.` }
+}
+
+export function normalizeSkillLoadout(sourceSkills = [], unlockedSkills = []) {
+  const normalized = []
+  for (const skillId of sourceSkills) {
+    if (normalized.length >= ACTIVE_SKILL_SLOT_LIMIT) break
+    if (!unlockedSkills.includes(skillId) || normalized.includes(skillId)) continue
+    normalized.push(skillId)
+  }
+  if (!normalized.length && unlockedSkills.length) {
+    normalized.push(unlockedSkills[0])
+  }
+  return normalized
 }
