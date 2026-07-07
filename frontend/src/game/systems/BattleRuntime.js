@@ -5,9 +5,24 @@ import { playerStatsForProgression } from '../data/progressionRuntimeData.js'
 
 export class BattleRuntime {
   static create(monster, playerName, companion = null, progression = null, inventory = null, equipmentStats = {}, playerHp = null, playerSkills = null) {
+    const monsters = Array.isArray(monster) ? monster : [monster]
     const playerStats = playerStatsForProgression(progression, equipmentStats)
     const startingHp = Math.max(1, Math.min(playerStats.maxHp, playerHp ?? playerStats.maxHp))
     const skills = (playerSkills?.length ? playerSkills : PLAYER_BATTLE_TEMPLATE.skills).slice(0, ACTIVE_SKILL_SLOT_LIMIT)
+    const enemies = monsters.map((entry, index) => ({
+      id: `${entry.monster_id}-${index}`,
+      monster_id: entry.monster_id,
+      name: monsters.length > 1 ? `${entry.name} ${index + 1}` : entry.name,
+      baseName: entry.name,
+      hp: entry.maxHp,
+      maxHp: entry.maxHp,
+      attack: entry.attack,
+      defense: entry.defense,
+      speed: entry.speed,
+      skills: entry.skills,
+      cooldowns: {},
+      statuses: [],
+    }))
     return {
       phase: 'active',
       turn: 'player',
@@ -24,18 +39,8 @@ export class BattleRuntime {
         cooldowns: {},
         statuses: [],
       },
-      enemy: {
-        id: monster.monster_id,
-        name: monster.name,
-        hp: monster.maxHp,
-        maxHp: monster.maxHp,
-        attack: monster.attack,
-        defense: monster.defense,
-        speed: monster.speed,
-        skills: monster.skills,
-        cooldowns: {},
-        statuses: [],
-      },
+      enemy: enemies[0],
+      enemies,
       companion: companion
         ? {
             id: companion.monster_id,
@@ -55,12 +60,12 @@ export class BattleRuntime {
       inventory: {
         items: { ...(inventory?.items ?? {}) },
       },
-      log: [`A wild ${monster.name} steps into your path.`],
+      log: [monsters.length > 1 ? `Wild ${monsters.map((entry) => entry.name).join(' and ')} step into your path.` : `A wild ${monsters[0].name} steps into your path.`],
       result: null,
     }
   }
 
-  static playerSkill(state, skillId) {
+  static playerSkill(state, skillId, targetEnemyId = null) {
     if (state.phase === 'ended') return state
     this.tickCooldowns(state.player)
     if (this.isOnCooldown(state.player, skillId)) {
@@ -73,8 +78,9 @@ export class BattleRuntime {
       state.turn = 'enemy'
       return state
     }
-    this.useSkill(state, state.player, state.enemy, skillId)
-    if (state.enemy.hp <= 0) return this.end(state, 'victory')
+    this.useSkill(state, state.player, this.targetEnemy(state, targetEnemyId), skillId)
+    this.syncCurrentEnemy(state)
+    if (this.allEnemiesDefeated(state)) return this.end(state, 'victory')
     this.afterActorAction(state.player)
     state.turn = this.companionCanAct(state) ? 'companion' : 'enemy'
     return state
@@ -118,7 +124,7 @@ export class BattleRuntime {
     return state
   }
 
-  static companionSkill(state, skillId) {
+  static companionSkill(state, skillId, targetEnemyId = null) {
     if (state.phase === 'ended' || !this.companionCanAct(state)) return state
     this.tickCooldowns(state.companion)
     if (this.isOnCooldown(state.companion, skillId)) {
@@ -131,8 +137,9 @@ export class BattleRuntime {
       state.turn = 'enemy'
       return state
     }
-    this.useSkill(state, state.companion, state.enemy, skillId, state.player)
-    if (state.enemy.hp <= 0) return this.end(state, 'victory')
+    this.useSkill(state, state.companion, this.targetEnemy(state, targetEnemyId), skillId, state.player)
+    this.syncCurrentEnemy(state)
+    if (this.allEnemiesDefeated(state)) return this.end(state, 'victory')
     this.afterActorAction(state.companion)
     state.turn = 'enemy'
     return state
@@ -150,19 +157,21 @@ export class BattleRuntime {
 
   static enemyAct(state) {
     if (state.phase === 'ended') return state
-    this.tickCooldowns(state.enemy)
-    if (this.consumeTurnSkip(state.enemy)) {
-      state.log = [`${state.enemy.name} cannot act.`, ...state.log].slice(0, 6)
-      this.afterActorAction(state.enemy)
-      state.round += 1
-      state.turn = 'player'
-      return state
+    const enemies = this.livingEnemies(state)
+    for (const enemy of enemies) {
+      this.tickCooldowns(enemy)
+      if (this.consumeTurnSkip(enemy)) {
+        state.log = [`${enemy.name} cannot act.`, ...state.log].slice(0, 6)
+        this.afterActorAction(enemy)
+        continue
+      }
+      const skillId = this.chooseEnemySkill(enemy, state.round)
+      const target = this.chooseEnemyTarget(state)
+      this.useSkill(state, enemy, target, skillId)
+      if (state.player.hp <= 0) return this.end(state, 'defeat')
+      this.afterActorAction(enemy)
     }
-    const skillId = this.chooseEnemySkill(state.enemy, state.round)
-    const target = this.chooseEnemyTarget(state)
-    this.useSkill(state, state.enemy, target, skillId)
-    if (state.player.hp <= 0) return this.end(state, 'defeat')
-    this.afterActorAction(state.enemy)
+    this.syncCurrentEnemy(state)
     state.round += 1
     state.turn = 'player'
     return state
@@ -210,6 +219,32 @@ export class BattleRuntime {
 
   static companionCanAct(state) {
     return Boolean(state.companion && state.companion.hp > 0)
+  }
+
+  static livingEnemies(state) {
+    const enemies = state.enemies?.length ? state.enemies : [state.enemy]
+    return enemies.filter((enemy) => enemy && enemy.hp > 0)
+  }
+
+  static currentEnemy(state) {
+    const enemy = this.livingEnemies(state)[0] ?? state.enemy
+    state.enemy = enemy
+    return enemy
+  }
+
+  static targetEnemy(state, targetEnemyId = null) {
+    const enemies = this.livingEnemies(state)
+    const selected = enemies.find((enemy) => enemy.id === targetEnemyId || enemy.monster_id === targetEnemyId)
+    state.enemy = selected ?? enemies[0] ?? state.enemy
+    return state.enemy
+  }
+
+  static syncCurrentEnemy(state) {
+    state.enemy = this.livingEnemies(state)[0] ?? state.enemy
+  }
+
+  static allEnemiesDefeated(state) {
+    return this.livingEnemies(state).length === 0
   }
 
   static applyStatus(actor, statusId) {
@@ -264,7 +299,7 @@ export class BattleRuntime {
     state.turn = 'ended'
     state.result = result
     const messages = {
-      victory: `${state.enemy.name} yields and disappears into the path.`,
+      victory: 'The opposing Nilalang yield and disappear into the path.',
       defeat: `${state.player.name} is forced back from the encounter.`,
       fled: `${state.player.name} retreats from the encounter.`,
     }

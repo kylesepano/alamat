@@ -1,6 +1,96 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
-  <rect width="256" height="256" rx="22" fill="#11180f"/>
-  <rect x="14" y="14" width="228" height="228" rx="18" fill="#6db6ff" opacity="0.25" stroke="#d8b765" stroke-width="4"/>
-  <circle cx="128" cy="104" r="42" fill="#6db6ff"/>
-  <path d="M128 42l44 52v94H84V94l44-52zm-24 82h48v48h-48v-48z" fill="#fff6df" opacity="0.95"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <radialGradient id="groundGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(32 38) scale(20 12)">
+      <stop offset="0" stop-color="#8FE8FF" stop-opacity="0.45" />
+      <stop offset="0.55" stop-color="#6ABFFF" stop-opacity="0.18" />
+      <stop offset="1" stop-color="#6ABFFF" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="auraGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(32 24) scale(14)">
+      <stop offset="0" stop-color="#FFF3B8" stop-opacity="0.95" />
+      <stop offset="0.35" stop-color="#9CEBFF" stop-opacity="0.8" />
+      <stop offset="0.7" stop-color="#64CFFF" stop-opacity="0.35" />
+      <stop offset="1" stop-color="#64CFFF" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="gold" x1="17" y1="26" x2="47" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFF0B7" />
+      <stop offset="0.28" stop-color="#F1CB66" />
+      <stop offset="0.62" stop-color="#C8932F" />
+      <stop offset="1" stop-color="#8D621A" />
+    </linearGradient>
+
+    <linearGradient id="goldDark" x1="22" y1="24" x2="42" y2="42" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#B57B20" />
+      <stop offset="1" stop-color="#6E4B14" />
+    </linearGradient>
+
+    <linearGradient id="wood" x1="28" y1="24" x2="36" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#B68553" />
+      <stop offset="1" stop-color="#7A542F" />
+    </linearGradient>
+
+    <linearGradient id="crystal" x1="32" y1="14" x2="32" y2="29" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FDF8D6" />
+      <stop offset="0.3" stop-color="#CFFFFC" />
+      <stop offset="0.68" stop-color="#78D9FF" />
+      <stop offset="1" stop-color="#3E91D6" />
+    </linearGradient>
+
+    <filter id="softBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.2" />
+    </filter>
+
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="1.5" result="b" />
+      <feMerge>
+        <feMergeNode in="b" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <ellipse cx="32" cy="40" rx="19" ry="11" fill="url(#groundGlow)" />
+  <g transform="translate(0 1)">
+    <ellipse cx="32" cy="38" rx="17" ry="10" fill="#6F522B" opacity="0.35" />
+    <ellipse cx="32" cy="36" rx="16" ry="9.5" fill="url(#goldDark)" />
+    <ellipse cx="32" cy="35.5" rx="14" ry="8" fill="url(#gold)" />
+    <path d="M21 35.5C23.3 33.4 25.7 32.5 28.3 32.2" stroke="#FFE7A0" stroke-width="1.6"
+      stroke-linecap="round" />
+    <path d="M28.8 31.9C31.5 31.5 34.3 31.7 36.9 32.4" stroke="#A9701F" stroke-width="1.6"
+      stroke-linecap="round" />
+    <path d="M37.8 32.7C40.3 33.5 42.5 34.6 44.4 36.2" stroke="#FFE7A0" stroke-width="1.6"
+      stroke-linecap="round" />
+
+    <ellipse cx="32" cy="35.5" rx="9.5" ry="5.4" fill="#A6742E" opacity="0.42" />
+    <ellipse cx="32" cy="34.8" rx="7.6" ry="4.1" fill="#E8BE64" opacity="0.6" />
+
+    <rect x="29.4" y="23" width="5.2" height="13.6" rx="2.3" fill="url(#wood)" />
+    <path d="M31 25.3C31.7 26.1 32.3 27.1 32.9 28.2" stroke="#DDB48B" stroke-width="1"
+      stroke-linecap="round" />
+    <path d="M33.6 26.2C33.1 27.5 32.9 28.9 32.9 30.2" stroke="#684626" stroke-width="0.9"
+      stroke-linecap="round" opacity="0.75" />
+
+    <path d="M32 13.5L37.2 18.7L35.9 25.8L32 28.2L28.1 25.8L26.8 18.7L32 13.5Z" fill="url(#crystal)"
+      stroke="#FFF5C8" stroke-width="1.1" stroke-linejoin="round" />
+
+    <path d="M28.4 18.6L32 20.7L35.6 18.6" stroke="#EFFFFE" stroke-width="0.9"
+      stroke-linecap="round" stroke-linejoin="round" opacity="0.9" />
+    <path d="M32 20.7V27.7" stroke="#DFFAFF" stroke-width="0.9" stroke-linecap="round" opacity="0.9" />
+
+    <circle cx="32" cy="22" r="13" fill="url(#auraGlow)" filter="url(#softBlur)" />
+    <ellipse cx="32" cy="23.5" rx="11" ry="7.5" fill="#8EE4FF" opacity="0.16" />
+    <ellipse cx="32" cy="22.2" rx="7.8" ry="5.5" fill="#FFF0B8" opacity="0.14" />
+
+    <g filter="url(#glow)">
+      <path d="M46 18.8L47.1 21.9L50.2 23L47.1 24.1L46 27.2L44.9 24.1L41.8 23L44.9 21.9L46 18.8Z"
+        fill="#FFF2B8" />
+      <path
+        d="M20 21.6L20.8 23.6L22.8 24.4L20.8 25.2L20 27.2L19.2 25.2L17.2 24.4L19.2 23.6L20 21.6Z"
+        fill="#9CEBFF" />
+      <path
+        d="M40.5 12.8L41.2 14.5L42.9 15.2L41.2 15.9L40.5 17.6L39.8 15.9L38.1 15.2L39.8 14.5L40.5 12.8Z"
+        fill="#FFF7DA" />
+    </g>
+  </g>
 </svg>

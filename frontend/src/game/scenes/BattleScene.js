@@ -1,7 +1,8 @@
 import Phaser from 'phaser'
 import { gameBridge } from '../bridges/ReactPhaserBridge'
-import { PLAYER_ASSET_KEY, assetByKey, spriteIdleFrame, spriteWalkAnimationKey } from '../data/verticalSliceAssets'
+import { PLAYER_ASSET_KEY, assetByKey, battleAssetKeyForActor, battleAttackAnimationKey, battleIdleAnimationKey, spriteIdleFrame, spriteWalkAnimationKey, vfxAnimationKey } from '../data/verticalSliceAssets'
 import { battleForMonster } from '../data/verticalSliceBattles'
+import { skillById, skillMotionType, skillVfxAssetKey } from '../data/combatRuntimeData'
 import { BattleRuntime } from '../systems/BattleRuntime'
 
 export class BattleScene extends Phaser.Scene {
@@ -10,7 +11,9 @@ export class BattleScene extends Phaser.Scene {
   }
 
   init(data) {
-    this.monster = battleForMonster(data.monster_id)
+    this.monsterIds = data.monster_ids?.length ? data.monster_ids : [data.monster_id]
+    this.monsters = this.monsterIds.map((monsterId) => battleForMonster(monsterId))
+    this.monster = this.monsters[0]
     this.worldLocationId = data.location_id
     this.playerName = data.player_name
     this.companion = data.companion ?? null
@@ -23,7 +26,7 @@ export class BattleScene extends Phaser.Scene {
   }
 
   create() {
-    this.state = BattleRuntime.create(this.monster, this.playerName, this.companion, this.progression, this.inventory, this.equipmentStats, this.playerHp, this.playerSkills)
+    this.state = BattleRuntime.create(this.monsters, this.playerName, this.companion, this.progression, this.inventory, this.equipmentStats, this.playerHp, this.playerSkills)
     this.drawArena()
     this.cleanupAction = gameBridge.on('command:battle-action', ({ action }) => this.handleAction(action))
     this.events.once(Phaser.Scenes.Events.SHUTDOWN, () => this.cleanupAction?.())
@@ -39,37 +42,33 @@ export class BattleScene extends Phaser.Scene {
       fontSize: '18px',
       color: '#f7d98b',
     })
-    this.add.text(48, 62, this.monster.title, {
+    this.add.text(48, 62, this.monsters.length > 1 ? `${this.monster.title} and another presence` : this.monster.title, {
       fontFamily: 'Arial',
       fontSize: '30px',
       fontStyle: 'bold',
       color: '#fff6df',
     })
 
-    const playerAsset = assetByKey(PLAYER_ASSET_KEY)
-    this.playerSprite = this.add.sprite(250, 365, PLAYER_ASSET_KEY, spriteIdleFrame('right'))
-      .setDisplaySize(playerAsset.displayWidth * 1.8, playerAsset.displayHeight * 1.8)
-      .setDepth(5)
-    this.playerSprite.anims.play(spriteWalkAnimationKey(PLAYER_ASSET_KEY, 'right'), true)
+    this.playerSprite = this.createBattleActorSprite(250, 365, PLAYER_ASSET_KEY, 'right', 1.8)
 
     if (this.companion) {
-      const companionAsset = assetByKey(this.companion.assetKey)
-      this.companionSprite = this.add.sprite(170, 300, this.companion.assetKey, spriteIdleFrame('right'))
-        .setDisplaySize(companionAsset.displayWidth * 1.35, companionAsset.displayHeight * 1.35)
-        .setDepth(5)
-      this.companionSprite.anims.play(spriteWalkAnimationKey(this.companion.assetKey, 'right'), true)
+      this.companionSprite = this.createBattleActorSprite(170, 300, this.companion.assetKey, 'right', 1.35)
     }
 
-    const enemyAsset = assetByKey(this.monster.assetKey)
-    this.enemySprite = this.add.sprite(690, 265, this.monster.assetKey, spriteIdleFrame('left'))
-      .setDisplaySize(enemyAsset.displayWidth * 2.2, enemyAsset.displayHeight * 2.2)
-      .setDepth(5)
-    this.enemySprite.anims.play(spriteWalkAnimationKey(this.monster.assetKey, 'left'), true)
+    const enemyPositions = this.monsters.length > 1
+      ? [{ x: 650, y: 240 }, { x: 760, y: 315 }]
+      : [{ x: 690, y: 265 }]
+    this.enemySprites = this.monsters.map((monster, index) => {
+      const sprite = this.createBattleActorSprite(enemyPositions[index].x, enemyPositions[index].y, monster.assetKey, 'left', 2)
+      sprite.setDepth(5 + index)
+      return sprite
+    })
+    this.enemySprite = this.enemySprites[0]
 
     this.playerHpBar = this.add.rectangle(210, 470, 220, 14, 0x61c47c).setOrigin(0, 0.5)
-    this.enemyHpBar = this.add.rectangle(600, 130, 240, 14, 0xbd4c5f).setOrigin(0, 0.5)
+    this.enemyHpBars = this.monsters.map((monster, index) => this.add.rectangle(600, 130 + index * 44, 240, 14, 0xbd4c5f).setOrigin(0, 0.5))
     this.playerHpText = this.add.text(210, 490, '', { fontFamily: 'Arial', fontSize: '14px', color: '#fff6df' })
-    this.enemyHpText = this.add.text(600, 150, '', { fontFamily: 'Arial', fontSize: '14px', color: '#fff6df' })
+    this.enemyHpTexts = this.monsters.map((monster, index) => this.add.text(600, 150 + index * 44, '', { fontFamily: 'Arial', fontSize: '14px', color: '#fff6df' }))
     if (this.companion) {
       this.companionHpBar = this.add.rectangle(95, 385, 180, 12, 0x82a7a6).setOrigin(0, 0.5)
       this.companionHpText = this.add.text(95, 402, '', { fontFamily: 'Arial', fontSize: '13px', color: '#fff6df' })
@@ -84,9 +83,38 @@ export class BattleScene extends Phaser.Scene {
     this.refreshArena()
   }
 
+  createBattleActorSprite(x, y, assetKey, direction, scale = 1) {
+    const battleKey = battleAssetKeyForActor(assetKey)
+    const battleAsset = battleKey ? assetByKey(battleKey) : null
+    if (battleKey && battleAsset && this.textures.exists(battleKey)) {
+      const sprite = this.add.sprite(x, y, battleKey, 0)
+        .setDisplaySize(battleAsset.displayWidth * scale, battleAsset.displayHeight * scale)
+        .setDepth(5)
+      sprite.anims.play(battleIdleAnimationKey(battleKey), true)
+      sprite.setData('battleAssetKey', battleKey)
+      return sprite
+    }
+
+    const asset = assetByKey(assetKey)
+    const sprite = this.add.sprite(x, y, assetKey, spriteIdleFrame(direction))
+      .setDisplaySize(asset.displayWidth * scale, asset.displayHeight * scale)
+      .setDepth(5)
+    sprite.anims.play(spriteWalkAnimationKey(assetKey, direction), true)
+    return sprite
+  }
+
   handleAction(action) {
+    let actorKey = null
+    let skillId = null
+    let actionTargetSprite = null
     if (this.state.turn === 'player') {
-      if (action?.startsWith('skill:')) BattleRuntime.playerSkill(this.state, action.replace('skill:', ''))
+      if (action?.startsWith('skill:')) {
+        const [, selectedSkillId, targetEnemyId = null] = action.split(':')
+        actorKey = 'player'
+        skillId = selectedSkillId
+        actionTargetSprite = this.targetEnemySprite(targetEnemyId)
+        BattleRuntime.playerSkill(this.state, skillId, targetEnemyId)
+      }
       if (action?.startsWith('item:')) {
         const [, itemId, targetId = 'player'] = action.split(':')
         BattleRuntime.playerItem(this.state, itemId, targetId)
@@ -94,10 +122,17 @@ export class BattleScene extends Phaser.Scene {
       if (action === 'guard') BattleRuntime.playerGuard(this.state)
       if (action === 'flee') BattleRuntime.playerFlee(this.state, this.monster.fleeBlocked)
     } else if (this.state.turn === 'companion') {
-      if (action?.startsWith('companion-skill:')) BattleRuntime.companionSkill(this.state, action.replace('companion-skill:', ''))
+      if (action?.startsWith('companion-skill:')) {
+        const [, selectedSkillId, targetEnemyId = null] = action.split(':')
+        actorKey = 'companion'
+        skillId = selectedSkillId
+        actionTargetSprite = this.targetEnemySprite(targetEnemyId)
+        BattleRuntime.companionSkill(this.state, skillId, targetEnemyId)
+      }
     } else {
       return
     }
+    if (actorKey && skillId) this.animateBattleAction(actorKey, skillId, actionTargetSprite)
     this.refreshArena()
     this.emitUpdate()
 
@@ -109,6 +144,7 @@ export class BattleScene extends Phaser.Scene {
     if (this.state.turn !== 'enemy') return
 
     this.time.delayedCall(650, () => {
+      this.animateEnemyPhase()
       BattleRuntime.enemyAct(this.state)
       this.refreshArena()
       this.emitUpdate()
@@ -118,11 +154,14 @@ export class BattleScene extends Phaser.Scene {
 
   refreshArena() {
     const playerRatio = this.state.player.hp / this.state.player.maxHp
-    const enemyRatio = this.state.enemy.hp / this.state.enemy.maxHp
     this.playerHpBar.width = Math.max(1, 220 * playerRatio)
-    this.enemyHpBar.width = Math.max(1, 240 * enemyRatio)
     this.playerHpText.setText(`${this.state.player.name} HP ${this.state.player.hp}/${this.state.player.maxHp}`)
-    this.enemyHpText.setText(`${this.state.enemy.name} HP ${this.state.enemy.hp}/${this.state.enemy.maxHp}`)
+    for (const [index, enemy] of (this.state.enemies ?? [this.state.enemy]).entries()) {
+      const enemyRatio = enemy.hp / enemy.maxHp
+      this.enemyHpBars[index].width = Math.max(1, 240 * enemyRatio)
+      this.enemyHpTexts[index].setText(`${enemy.name} HP ${enemy.hp}/${enemy.maxHp}`)
+      this.enemySprites[index].setAlpha(enemy.hp > 0 ? 1 : 0.35)
+    }
     if (this.state.companion && this.companionHpBar && this.companionHpText) {
       const companionRatio = this.state.companion.hp / this.state.companion.maxHp
       this.companionHpBar.width = Math.max(1, 180 * companionRatio)
@@ -131,12 +170,141 @@ export class BattleScene extends Phaser.Scene {
     this.logText.setText(this.state.log.join('\n'))
   }
 
+  animateBattleAction(actorKey, skillId, actionTargetSprite = null) {
+    const actorSprite = actorKey === 'companion' ? this.companionSprite : this.playerSprite
+    const targetSprite = actionTargetSprite ?? this.targetEnemySprite()
+    this.animateBattleSpriteAction(actorSprite, targetSprite, skillId)
+  }
+
+  animateProjectile(actorSprite, targetSprite, skillId, side = 'ally') {
+    const vfxKey = skillVfxAssetKey(skillId)
+    if (vfxKey && this.textures.exists(vfxKey)) {
+      const originOffset = side === 'enemy' ? -34 : 34
+      const targetOffset = side === 'enemy' ? 25 : -25
+      const projectile = this.add.sprite(actorSprite.x + originOffset, actorSprite.y - 18, vfxKey, 0)
+        .setDisplaySize(96, 96)
+        .setDepth(20)
+        .setFlipX(side === 'enemy')
+      projectile.anims.play(vfxAnimationKey(vfxKey))
+      this.tweens.add({
+        targets: projectile,
+        x: targetSprite.x + targetOffset,
+        y: targetSprite.y - 15,
+        duration: 650,
+        ease: 'Sine.easeInOut',
+        onComplete: () => projectile.destroy(),
+      })
+      return
+    }
+    const skill = skillById(skillId)
+    const projectileColors = {
+      Earth: 0xc08a4b,
+      Forest: 0x7bc96f,
+      Water: 0x65c8ff,
+      Dream: 0xb58cff,
+      Beast: 0xe0a24d,
+    }
+    const projectile = this.add.circle(actorSprite.x + (side === 'enemy' ? -34 : 34), actorSprite.y - 18, 7, projectileColors[skill.damageType] ?? 0xf7d98b)
+      .setDepth(20)
+    this.tweens.add({
+      targets: projectile,
+      x: targetSprite.x + (side === 'enemy' ? 25 : -25),
+      y: targetSprite.y - 15,
+      alpha: 0.2,
+      duration: 650,
+      ease: 'Sine.easeInOut',
+      onComplete: () => projectile.destroy(),
+    })
+  }
+
+  playImpactVfx(skillId, targetSprite) {
+    const vfxKey = skillVfxAssetKey(skillId)
+    if (!vfxKey || !targetSprite || !this.textures.exists(vfxKey)) return
+    const effect = this.add.sprite(targetSprite.x, targetSprite.y - 12, vfxKey, 0)
+      .setDisplaySize(132, 132)
+      .setDepth(25)
+    effect.anims.play(vfxAnimationKey(vfxKey))
+    effect.once(Phaser.Animations.Events.ANIMATION_COMPLETE, () => effect.destroy())
+  }
+
+  targetEnemySprite(targetEnemyId = null) {
+    const enemies = this.state.enemies ?? [this.state.enemy]
+    const selectedIndex = targetEnemyId ? enemies.findIndex((enemy) => enemy.hp > 0 && (enemy.id === targetEnemyId || enemy.monster_id === targetEnemyId)) : -1
+    const index = selectedIndex >= 0 ? selectedIndex : enemies.findIndex((enemy) => enemy.hp > 0)
+    return this.enemySprites[Math.max(0, index)] ?? this.enemySprite
+  }
+
+  animateEnemyPhase() {
+    const enemies = this.state.enemies ?? [this.state.enemy]
+    let delay = 0
+    for (const [index, enemy] of enemies.entries()) {
+      if (enemy.hp <= 0) continue
+      const enemySprite = this.enemySprites[index]
+      const skillId = BattleRuntime.chooseEnemySkill(enemy, this.state.round)
+      const targetSprite = this.chooseEnemyVisualTarget()
+      this.time.delayedCall(delay, () => this.animateBattleSpriteAction(enemySprite, targetSprite, skillId, 'enemy'))
+      delay += 180
+    }
+  }
+
+  chooseEnemyVisualTarget() {
+    if (this.state.companion?.hp > 0 && this.state.round % 2 === 0) return this.companionSprite
+    return this.playerSprite
+  }
+
+  animateBattleSpriteAction(actorSprite, targetSprite, skillId, side = 'ally') {
+    if (!actorSprite || !targetSprite) return
+    const motion = skillMotionType(skillId)
+    if (motion !== 'support') this.playActorAttackAnimation(actorSprite)
+    if (motion === 'melee') {
+      const startX = actorSprite.x
+      const startY = actorSprite.y
+      const xOffset = side === 'enemy' ? 78 : -78
+      this.tweens.add({
+        targets: actorSprite,
+        x: targetSprite.x + xOffset,
+        y: targetSprite.y + 18,
+        duration: 320,
+        yoyo: true,
+        ease: 'Sine.easeInOut',
+        onYoyo: () => this.playImpactVfx(skillId, targetSprite),
+        onComplete: () => actorSprite.setPosition(startX, startY),
+      })
+      return
+    }
+    if (motion === 'projectile' || motion === 'impact') {
+      this.animateProjectile(actorSprite, targetSprite, skillId, side)
+      return
+    }
+    this.playImpactVfx(skillId, actorSprite)
+    this.tweens.add({
+      targets: actorSprite,
+      scale: actorSprite.scale * 1.08,
+      duration: 300,
+      yoyo: true,
+      ease: 'Sine.easeInOut',
+    })
+  }
+
+  playActorAttackAnimation(actorSprite) {
+    const battleKey = actorSprite.getData('battleAssetKey')
+    if (!battleKey) return
+    const attackKey = battleAttackAnimationKey(battleKey)
+    const idleKey = battleIdleAnimationKey(battleKey)
+    if (!this.anims.exists(attackKey)) return
+    actorSprite.anims.play(attackKey, true)
+    actorSprite.once(Phaser.Animations.Events.ANIMATION_COMPLETE, () => {
+      if (this.anims.exists(idleKey)) actorSprite.anims.play(idleKey, true)
+    })
+  }
+
   finishAfterDelay() {
     this.time.delayedCall(1000, () => {
       const world = this.scene.get('WorldScene')
       const rewards = world.completeBattle?.({
         result: this.state.result,
         monster_id: this.monster.monster_id,
+        defeated_monster_ids: (this.state.enemies ?? [this.state.enemy]).map((enemy) => enemy.monster_id),
         victoryFlag: this.monster.victoryFlag,
         battleType: this.monster.battleType,
         inventory: this.state.inventory,
@@ -149,7 +317,7 @@ export class BattleScene extends Phaser.Scene {
       gameBridge.emit('battle:ended', {
         result: this.state.result,
         monster_id: this.monster.monster_id,
-        name: this.monster.name,
+        name: this.monsters.map((monster) => monster.name).join(' + '),
         rewards,
       })
       this.scene.stop()
@@ -160,6 +328,7 @@ export class BattleScene extends Phaser.Scene {
   emitUpdate() {
     gameBridge.emit('battle:update', {
       monster: this.monster,
+      monsters: this.monsters,
       state: structuredClone(this.state),
     })
   }

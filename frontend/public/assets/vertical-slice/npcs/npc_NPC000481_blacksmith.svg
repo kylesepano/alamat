@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="768" height="1024" viewBox="0 0 768 1024">
+  <defs>
+    <g id="blacksmith">
+      <ellipse cx="128" cy="192" rx="36" ry="11" fill="#162113" opacity=".28"/>
+      <circle cx="128" cy="96" r="30" fill="#9e6337"/>
+      <path d="M96 90c10-35 57-38 67-4-14-6-50-6-67 4z" fill="#30231b"/>
+      <path d="M101 130h54l18 84H83z" fill="#3e3b34"/>
+      <path d="M104 134h48l10 54H94z" fill="#9a4f2f"/>
+      <path d="M88 146l-24 43M168 146l22 43" stroke="#9e6337" stroke-width="15" stroke-linecap="round"/>
+      <path d="M185 159l25 11-35 56-16-8z" fill="#6a7680"/>
+      <path d="M106 213l-8 29M150 213l8 29" stroke="#28231d" stroke-width="16" stroke-linecap="round"/>
+      <circle cx="116" cy="101" r="4" fill="#211611"/>
+      <circle cx="140" cy="101" r="4" fill="#211611"/>
+    </g>
+  </defs>
+  <rect width="768" height="1024" fill="none"/>
+  <use href="#blacksmith" x="0" y="0"/>
+  <use href="#blacksmith" x="256" y="0"/>
+  <use href="#blacksmith" x="512" y="0"/>
+  <use href="#blacksmith" x="0" y="256"/>
+  <use href="#blacksmith" x="256" y="256"/>
+  <use href="#blacksmith" x="512" y="256"/>
+  <use href="#blacksmith" x="0" y="512"/>
+  <use href="#blacksmith" x="256" y="512"/>
+  <use href="#blacksmith" x="512" y="512"/>
+  <use href="#blacksmith" x="0" y="768"/>
+  <use href="#blacksmith" x="256" y="768"/>
+  <use href="#blacksmith" x="512" y="768"/>
+</svg>

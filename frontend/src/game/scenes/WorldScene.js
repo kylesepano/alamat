@@ -235,17 +235,40 @@ export class WorldScene extends Phaser.Scene {
     gameBridge.emit('save:complete', { save: this.save, message })
   }
 
-  completeBattle({ result, monster_id, victoryFlag, inventory, player_hp, player_max_hp, companion_id, companion_hp, random = false }) {
+  completeBattle({ result, monster_id, defeated_monster_ids = null, victoryFlag, inventory, player_hp, player_max_hp, companion_id, companion_hp, random = false }) {
     if (inventory?.items) {
       this.save.inventory.items = inventory.items
     }
     this.save.player_state.hp = result === 'defeat' ? player_max_hp : Math.max(1, player_hp ?? this.save.player_state.hp ?? player_max_hp)
     const bucket = result === 'victory' ? 'wins' : result === 'defeat' ? 'losses' : 'fled'
-    this.save.battles[bucket][monster_id] = (this.save.battles[bucket][monster_id] ?? 0) + 1
+    const battleIds = result === 'victory' && defeated_monster_ids?.length ? defeated_monster_ids : [monster_id]
+    for (const battleId of battleIds) {
+      this.save.battles[bucket][battleId] = (this.save.battles[bucket][battleId] ?? 0) + 1
+    }
     if (!random && result === 'victory' && victoryFlag && !this.save.world.story_flags.includes(victoryFlag)) {
       this.save.world.story_flags.push(victoryFlag)
     }
-    const rewards = applyBattleRewards(this.save, { result, monster_id })
+    const rewardSummaries = result === 'victory'
+      ? battleIds.map((battleId) => applyBattleRewards(this.save, { result, monster_id: battleId }))
+      : [applyBattleRewards(this.save, { result, monster_id })]
+    const rewards = {
+      ...rewardSummaries[0],
+      monster_id,
+      monster_ids: battleIds,
+      xp: rewardSummaries.reduce((total, reward) => total + (reward.xp ?? 0), 0),
+      currencies: rewardSummaries.reduce((totals, reward) => {
+        for (const [currency, amount] of Object.entries(reward.currencies ?? {})) {
+          totals[currency] = (totals[currency] ?? 0) + amount
+        }
+        return totals
+      }, {}),
+      fieldDrops: rewardSummaries.flatMap((reward) => reward.fieldDrops ?? []),
+      itemRewards: rewardSummaries.flatMap((reward) => reward.itemRewards ?? []),
+      skillUnlocks: rewardSummaries.flatMap((reward) => reward.skillUnlocks ?? []),
+      levelAfter: rewardSummaries.at(-1)?.levelAfter ?? rewardSummaries[0]?.levelAfter,
+      levelUp: rewardSummaries.some((reward) => reward.levelUp),
+      notes: rewardSummaries.map((reward) => reward.notes).filter(Boolean).join(' '),
+    }
     if (companion_id) {
       setCompanionHp(this.save, companion_id, companion_hp)
       rewards.companion = applyCompanionBattleRewards(this.save, { result, monster_id, xp: rewards.xp })
@@ -257,11 +280,13 @@ export class WorldScene extends Phaser.Scene {
         advanceItemQuest(this.save, itemReward.id)
       }
     }
-    const trustState = applyTrustFromBattle(this.save, { result, monster_id })
-    refreshAllBondEligibility(this.save)
-    if (trustState?.eligible) {
-      gameBridge.emit('companion:eligible', { monster_id, trust: trustState.trust })
+    for (const battleId of battleIds) {
+      const trustState = applyTrustFromBattle(this.save, { result, monster_id: battleId })
+      if (trustState?.eligible) {
+        gameBridge.emit('companion:eligible', { monster_id: battleId, trust: trustState.trust })
+      }
     }
+    refreshAllBondEligibility(this.save)
     if (result === 'defeat') {
       this.returnToRespawnPoint()
     }
@@ -276,15 +301,18 @@ export class WorldScene extends Phaser.Scene {
     return rewards
   }
 
-  startBattle(monsterId, title = null, random = false) {
+  startBattle(monsterId, title = null, random = false, monsterIds = null) {
+    const encounterMonsterIds = monsterIds?.length ? monsterIds : [monsterId]
     gameBridge.emit('battle:started', {
       monster_id: monsterId,
+      monster_ids: encounterMonsterIds,
       title: title ?? battleForMonster(monsterId).title,
       random,
     })
     this.scene.pause()
     this.scene.launch('BattleScene', {
       monster_id: monsterId,
+      monster_ids: encounterMonsterIds,
       location_id: this.locationId,
       player_name: this.save.player.name,
       companion: activeCompanion(this.save),
@@ -310,7 +338,12 @@ export class WorldScene extends Phaser.Scene {
     if (Phaser.Math.Between(1, 100) > 28) return
     const pool = this.currentMap.randomEncounterPool
     const monsterId = pool[Phaser.Math.Between(0, pool.length - 1)]
-    this.startBattle(monsterId, 'Wild Nilalang Encounter', true)
+    const monsterIds = [monsterId]
+    if (pool.length > 1 && Phaser.Math.Between(1, 100) <= 30) {
+      const secondPool = pool.filter((entry) => entry !== monsterId)
+      monsterIds.push(secondPool[Phaser.Math.Between(0, secondPool.length - 1)])
+    }
+    this.startBattle(monsterId, monsterIds.length > 1 ? 'Wild Nilalang Pair' : 'Wild Nilalang Encounter', true, monsterIds)
   }
 
   isObjectCleared(object) {

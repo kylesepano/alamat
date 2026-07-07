@@ -4,10 +4,15 @@ import {
   SPRITE_DIRECTIONS,
   VERTICAL_SLICE_ASSETS,
   assetLoaderType,
+  battleAttackAnimationKey,
+  battleIdleAnimationKey,
+  battleSpriteAssets,
   spriteSourceFrameSize,
   spriteAssets,
   spriteFrameName,
   spriteWalkAnimationKey,
+  vfxAnimationKey,
+  vfxAssets,
 } from '../data/verticalSliceAssets'
 
 export class PreloadScene extends Phaser.Scene {
@@ -17,7 +22,11 @@ export class PreloadScene extends Phaser.Scene {
 
   preload() {
     for (const asset of VERTICAL_SLICE_ASSETS) {
-      if (assetLoaderType(asset) === 'svg') {
+      if (asset.type === 'vfx') {
+        this.load.spritesheet(asset.key, asset.path, { frameWidth: asset.frameWidth, frameHeight: asset.frameHeight })
+      } else if (asset.type === 'battleSpritesheet') {
+        this.load.spritesheet(asset.key, asset.path, { frameWidth: asset.frameWidth, frameHeight: asset.frameHeight })
+      } else if (assetLoaderType(asset) === 'svg') {
         this.load.svg(asset.key, asset.path, { width: asset.expectedWidth ?? asset.width, height: asset.expectedHeight ?? asset.height })
       } else {
         this.load.image(asset.key, asset.path)
@@ -28,6 +37,8 @@ export class PreloadScene extends Phaser.Scene {
   create() {
     this.createSpriteSheetFrames()
     this.createSpriteAnimations()
+    this.createBattleSpriteAnimations()
+    this.createVfxAnimations()
     this.createGeneratedTextures()
     this.scene.start('WorldScene')
     this.scene.launch('UIScene')
@@ -86,6 +97,43 @@ export class PreloadScene extends Phaser.Scene {
         frameRate: 5,
         repeat: -1,
       })
+      }
+    }
+  }
+
+  createVfxAnimations() {
+    for (const asset of vfxAssets()) {
+      const key = vfxAnimationKey(asset.key)
+      if (this.anims.exists(key)) continue
+      this.anims.create({
+        key,
+        frames: this.anims.generateFrameNumbers(asset.key, { start: 0, end: asset.columns - 1 }),
+        frameRate: 8,
+        repeat: 0,
+      })
+    }
+  }
+
+  createBattleSpriteAnimations() {
+    for (const asset of battleSpriteAssets()) {
+      if (!this.textures.exists(asset.key)) continue
+      const idleKey = battleIdleAnimationKey(asset.key)
+      const attackKey = battleAttackAnimationKey(asset.key)
+      if (!this.anims.exists(idleKey)) {
+        this.anims.create({
+          key: idleKey,
+          frames: this.anims.generateFrameNumbers(asset.key, { start: 0, end: 3 }),
+          frameRate: 4,
+          repeat: -1,
+        })
+      }
+      if (!this.anims.exists(attackKey)) {
+        this.anims.create({
+          key: attackKey,
+          frames: this.anims.generateFrameNumbers(asset.key, { start: 4, end: 7 }),
+          frameRate: 8,
+          repeat: 0,
+        })
       }
     }
   }

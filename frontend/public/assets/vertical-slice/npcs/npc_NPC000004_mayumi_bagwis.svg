@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="768" height="1024" viewBox="0 0 768 1024">
+  <defs>
+    <g id="mayumi">
+      <ellipse cx="128" cy="192" rx="34" ry="11" fill="#162113" opacity=".28"/>
+      <circle cx="128" cy="96" r="30" fill="#b56f3b"/>
+      <path d="M94 90c8-39 61-42 72-5-11-7-25-10-41-8-12 1-23 6-31 13z" fill="#2b2119"/>
+      <path d="M102 130h52l18 84H84z" fill="#b85d42"/>
+      <path d="M106 138h44l12 42H94z" fill="#e3b866"/>
+      <path d="M90 146l-22 44M166 146l22 44" stroke="#b56f3b" stroke-width="15" stroke-linecap="round"/>
+      <path d="M106 213l-8 29M150 213l8 29" stroke="#3b2d26" stroke-width="16" stroke-linecap="round"/>
+      <circle cx="116" cy="100" r="4" fill="#241a14"/>
+      <circle cx="140" cy="100" r="4" fill="#241a14"/>
+    </g>
+  </defs>
+  <rect width="768" height="1024" fill="none"/>
+  <use href="#mayumi" x="0" y="0"/>
+  <use href="#mayumi" x="256" y="0"/>
+  <use href="#mayumi" x="512" y="0"/>
+  <use href="#mayumi" x="0" y="256"/>
+  <use href="#mayumi" x="256" y="256"/>
+  <use href="#mayumi" x="512" y="256"/>
+  <use href="#mayumi" x="0" y="512"/>
+  <use href="#mayumi" x="256" y="512"/>
+  <use href="#mayumi" x="512" y="512"/>
+  <use href="#mayumi" x="0" y="768"/>
+  <use href="#mayumi" x="256" y="768"/>
+  <use href="#mayumi" x="512" y="768"/>
+</svg>

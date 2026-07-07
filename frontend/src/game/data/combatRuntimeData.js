@@ -246,6 +246,35 @@ export function skillById(skillId) {
   return COMBAT_SKILLS[skillId] ?? COMBAT_SKILLS.basic_strike
 }
 
+const SKILL_VFX_ASSET_KEYS = {
+  basic_strike: 'asset-vfx-basic-strike',
+  steady_guard: 'asset-vfx-steady-guard',
+  river_cut: 'asset-vfx-river-cut',
+  woven_resolve: 'asset-vfx-woven-resolve',
+  balangay_drive: 'asset-vfx-balangay-drive',
+  mound_pebble: 'asset-vfx-mound-pebble',
+  underfloor_mischief: 'asset-vfx-underfloor-mischief',
+  canopy_crash: 'asset-vfx-canopy-crash',
+  wild_drum_chestbeat: 'asset-vfx-wild-drum-chestbeat',
+  leaf_tap: 'asset-vfx-leaf-tap',
+  hidden_basket_gift: 'asset-vfx-hidden-basket-gift',
+  aghoy_guiding_rustle: 'asset-vfx-aghoy-guiding-rustle',
+  weight_of_the_old_post: 'asset-vfx-weight-of-the-old-post',
+  housepost_nightmare: 'asset-vfx-housepost-nightmare',
+}
+
+export function skillVfxAssetKey(skillId) {
+  return SKILL_VFX_ASSET_KEYS[skillId] ?? null
+}
+
+export function skillMotionType(skillId) {
+  const skill = skillById(skillId)
+  if (skill.type === 'support' || skill.targetType === 'Self') return 'support'
+  if (['river_cut', 'mound_pebble', 'leaf_tap'].includes(skill.id)) return 'projectile'
+  if (skill.type === 'physical') return 'melee'
+  return 'impact'
+}
+
 export function statusById(statusId) {
   return STATUS_EFFECTS[statusId] ?? null
 }

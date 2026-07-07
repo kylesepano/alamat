@@ -8,6 +8,7 @@ import { classTrackForProgression, nextLevelThreshold, playerActiveSkills } from
 import { QUEST_DEFINITIONS, questProgress, trackedQuest } from '../game/data/questRuntimeData'
 import { STORY_SCENES } from '../game/data/storyRuntimeData'
 import { SaveSystem } from '../game/systems/SaveSystem'
+import { equipmentIconPath, itemIconPath } from '../game/data/verticalSliceAssets'
 
 const bodyOptions = ['body_01', 'body_02', 'body_03']
 const hairOptions = ['hair_01', 'hair_02', 'hair_03']
@@ -346,6 +347,22 @@ function StoryPanel({ save }) {
   )
 }
 
+function AssetIcon({ src, alt, size = 'md' }) {
+  const sizeClass = {
+    sm: 'h-7 w-7',
+    md: 'h-9 w-9',
+    lg: 'h-12 w-12',
+  }[size]
+  if (!src) {
+    return <span className={`${sizeClass} shrink-0 rounded-md border border-[#d8b765]/20 bg-[#d8b765]/10`} aria-hidden="true" />
+  }
+  return (
+    <span className={`${sizeClass} flex shrink-0 items-center justify-center rounded-md border border-[#d8b765]/20 bg-[#070b07]/70 p-1`}>
+      <img className="max-h-full max-w-full object-contain" src={src} alt={alt} draggable="false" />
+    </span>
+  )
+}
+
 function InventoryPanel({ save }) {
   const [selectedItemId, setSelectedItemId] = useState(null)
   const entries = Object.entries(save.inventory.items)
@@ -364,9 +381,12 @@ function InventoryPanel({ save }) {
                 className={`flex w-full items-start justify-between gap-3 rounded-md border p-2 text-left ${selectedEntry?.itemId === itemId ? 'border-[#d8b765]/60 bg-[#1d2418]' : 'border-[#d8b765]/15 bg-[#0f140d]'}`}
                 onClick={() => setSelectedItemId((current) => current === itemId ? null : itemId)}
               >
-                <div>
-                  <p className="font-bold text-[#fff6df]">{item?.name ?? itemId}</p>
-                  <p className="text-xs text-[#b8a986]">{item?.category ?? 'Item'}</p>
+                <div className="flex items-center gap-3">
+                  <AssetIcon src={itemIconPath(itemId)} alt={item?.name ?? itemId} />
+                  <div>
+                    <p className="font-bold text-[#fff6df]">{item?.name ?? itemId}</p>
+                    <p className="text-xs text-[#b8a986]">{item?.category ?? 'Item'}</p>
+                  </div>
                 </div>
                 <span className="rounded bg-[#d8b765]/15 px-2 py-1 text-xs font-black text-[#f7d98b]">x{quantity}</span>
               </button>
@@ -374,7 +394,10 @@ function InventoryPanel({ save }) {
           </div>
           {selectedItem ? (
             <DetailBox title={selectedItem.name}>
-              <p>{selectedItem.description}</p>
+              <div className="mb-2 flex items-center gap-3">
+                <AssetIcon src={itemIconPath(selectedEntry.itemId)} alt={selectedItem.name} size="lg" />
+                <p>{selectedItem.description}</p>
+              </div>
               <DetailRows rows={[
                 ['Category', selectedItem.category],
                 ['Quantity', selectedEntry.quantity],
@@ -414,7 +437,10 @@ function EquipmentPanel({ save }) {
                 onClick={() => setSelectedEquipmentId((current) => current === equipmentId ? null : equipmentId)}
               >
                 <p className="text-xs font-bold uppercase text-[#b8a986]">{slot}</p>
-                <p className="font-bold text-[#fff6df]">{equipment?.name ?? 'Empty'}</p>
+                <span className="mt-1 flex items-center gap-2">
+                  {equipment ? <AssetIcon src={equipmentIconPath(equipment.id)} alt={equipment.name} size="sm" /> : null}
+                  <span className="font-bold text-[#fff6df]">{equipment?.name ?? 'Empty'}</span>
+                </span>
               </button>
               {equipment ? (
                 <button
@@ -439,10 +465,11 @@ function EquipmentPanel({ save }) {
             return (
               <div key={equipment.id} className={`rounded-md border p-2 ${selectedEquipment?.id === equipment.id ? 'border-[#d8b765]/60 bg-[#1d2418]' : 'border-[#d8b765]/20 bg-[#0f140d]'}`}>
                 <button
-                  className="w-full text-left text-xs font-bold text-[#f7d98b]"
+                  className="flex w-full items-center gap-3 text-left text-xs font-bold text-[#f7d98b]"
                   onClick={() => setSelectedEquipmentId((current) => current === equipment.id ? null : equipment.id)}
                 >
-                  {equipment.name} {equipped ? '/ Equipped' : companionOnly ? '/ Companion' : ''}
+                  <AssetIcon src={equipmentIconPath(equipment.id)} alt={equipment.name} />
+                  <span>{equipment.name} {equipped ? '/ Equipped' : companionOnly ? '/ Companion' : ''}</span>
                 </button>
                 {!companionOnly ? (
                   <button
@@ -459,7 +486,10 @@ function EquipmentPanel({ save }) {
       ) : null}
       {selectedEquipment ? (
         <DetailBox title={selectedEquipment.name}>
-          <p>{selectedEquipment.description}</p>
+          <div className="mb-2 flex items-center gap-3">
+            <AssetIcon src={equipmentIconPath(selectedEquipment.id)} alt={selectedEquipment.name} size="lg" />
+            <p>{selectedEquipment.description}</p>
+          </div>
           <DetailRows rows={[
             ['Slot', selectedEquipment.slot],
             ['Stats', formatStats(selectedEquipment.stats)],
@@ -585,6 +615,7 @@ function formatEffect(effect) {
 
 function BattleCommandBar({ battle }) {
   const [potsOpen, setPotsOpen] = useState(false)
+  const [pendingSkill, setPendingSkill] = useState(null)
   const state = battle.state
   const playerCanAct = state.turn === 'player' && state.phase !== 'ended'
   const companionCanAct = state.turn === 'companion' && state.phase !== 'ended' && state.companion?.hp > 0
@@ -593,12 +624,35 @@ function BattleCommandBar({ battle }) {
   const activeActor = state.turn === 'companion' && state.companion ? state.companion : state.player
   const skillPrefix = state.turn === 'companion' ? 'companion-skill' : 'skill'
   const canUseSkill = state.turn === 'companion' ? companionCanAct : playerCanAct
+  const livingEnemies = (state.enemies?.length ? state.enemies : [state.enemy]).filter((enemy) => enemy.hp > 0)
+  const enemySummary = (state.enemies?.length ? state.enemies : [state.enemy])
+    .map((enemy) => `${enemy.name} ${enemy.hp}/${enemy.maxHp} HP`)
+    .join(' / ')
+  const chooseSkill = (skillId) => {
+    const skill = skillById(skillId)
+    if (skill.targetType === 'Single Enemy' && livingEnemies.length > 1) {
+      setPotsOpen(false)
+      setPendingSkill({ prefix: skillPrefix, skillId })
+      return
+    }
+    setPendingSkill(null)
+    gameBridge.emit('command:battle-action', { action: `${skillPrefix}:${skillId}` })
+  }
+  const chooseTarget = (enemyId) => {
+    if (!pendingSkill) return
+    gameBridge.emit('command:battle-action', { action: `${pendingSkill.prefix}:${pendingSkill.skillId}:${enemyId}` })
+    setPendingSkill(null)
+  }
+  useEffect(() => {
+    setPendingSkill(null)
+  }, [state.turn, state.phase])
   return (
     <div className="fixed inset-x-3 bottom-3 z-50 mx-auto max-w-6xl rounded-lg border border-[#bd4c5f]/45 bg-[#11180f]/95 p-3 shadow-2xl backdrop-blur">
       <div className="grid gap-3 lg:grid-cols-[220px_1fr]">
         <div className="text-sm text-[#d9ceb7]">
           <p className="text-xs font-bold uppercase tracking-wide text-[#f7d98b]">Battle Commands</p>
-          <p className="font-black text-[#fff6df]">{battle.monster.name}</p>
+          <p className="font-black text-[#fff6df]">{battle.monsters?.length > 1 ? 'Wild Nilalang Pair' : battle.monster.name}</p>
+          <p className="text-xs text-[#b8a986]">{enemySummary}</p>
           <p>{state.player.hp}/{state.player.maxHp} HP / {state.turn === 'player' ? 'Your turn' : state.turn === 'companion' ? `${state.companion.name}'s turn` : 'Waiting'}</p>
           {state.companion ? <p>{state.companion.name} {state.companion.hp}/{state.companion.maxHp} HP</p> : null}
         </div>
@@ -611,7 +665,7 @@ function BattleCommandBar({ battle }) {
               <BattleButton
                 key={`${activeActor.id}-${skillId}`}
                 disabled={!canUseSkill || cooldown > 0}
-                onClick={() => gameBridge.emit('command:battle-action', { action: `${skillPrefix}:${skillId}` })}
+                onClick={() => chooseSkill(skillId)}
               >
                 <span>{index + 1}. {skill.name}</span>
                 <small>{cooldown > 0 ? `Cooldown ${cooldown}` : `${skill.category} / ${skill.damageType}`}</small>
@@ -627,6 +681,22 @@ function BattleCommandBar({ battle }) {
               <small>{battle.monster.fleeBlocked ? 'Blocked here' : 'Return to map'}</small>
             </BattleButton>
           </div>
+          {pendingSkill ? (
+            <div className="rounded-md border border-[#d8b765]/25 bg-[#0f140d] p-2">
+              <div className="mb-2 flex items-center justify-between gap-3">
+                <p className="text-xs font-black uppercase tracking-wide text-[#d8b765]">Choose Target</p>
+                <button className="rounded border border-[#d8b765]/30 px-2 py-1 text-xs font-bold text-[#f7d98b]" onClick={() => setPendingSkill(null)}>Close</button>
+              </div>
+              <div className="grid gap-2 md:grid-cols-2">
+                {livingEnemies.map((enemy) => (
+                  <BattleButton key={`target-${enemy.id}`} disabled={!canUseSkill} onClick={() => chooseTarget(enemy.id)}>
+                    <span>{enemy.name}</span>
+                    <small>{enemy.hp}/{enemy.maxHp} HP</small>
+                  </BattleButton>
+                ))}
+              </div>
+            </div>
+          ) : null}
           {potsOpen ? (
             <div className="rounded-md border border-[#d8b765]/25 bg-[#0f140d] p-2">
               <div className="mb-2 flex items-center justify-between gap-3">
@@ -638,7 +708,10 @@ function BattleCommandBar({ battle }) {
                   const item = itemById(itemId)
                   return (
                     <div key={`pot-${itemId}`} className="rounded-md border border-[#d8b765]/15 p-2 text-xs text-[#d9ceb7]">
-                      <p className="font-black text-[#fff6df]">{item?.name ?? itemId} x{quantity}</p>
+                      <div className="flex items-center gap-2">
+                        <AssetIcon src={itemIconPath(itemId)} alt={item?.name ?? itemId} size="sm" />
+                        <p className="font-black text-[#fff6df]">{item?.name ?? itemId} x{quantity}</p>
+                      </div>
                       <p className="text-[#b8a986]">{formatEffect(item?.effect)}</p>
                       <div className="mt-2 flex flex-wrap gap-2">
                         <button
@@ -745,7 +818,10 @@ function CompanionPanel({ save }) {
                     <p className="text-[#b8a986]">Gear bonuses: {formatStats(equipmentTotals)}</p>
                     {definition.equipmentSlots.map((slot) => (
                       <div key={slot} className="mt-1 flex items-center justify-between gap-2 text-[#b8a986]">
-                        <p>{slot}: {equipmentById(equipment[slot])?.name ?? 'Empty'}</p>
+                        <div className="flex items-center gap-2">
+                          {equipment[slot] ? <AssetIcon src={equipmentIconPath(equipment[slot])} alt={equipmentById(equipment[slot])?.name ?? equipment[slot]} size="sm" /> : null}
+                          <p>{slot}: {equipmentById(equipment[slot])?.name ?? 'Empty'}</p>
+                        </div>
                         {equipment[slot] ? (
                           <button
                             className="rounded bg-[#d8b765]/15 px-2 py-1 font-black text-[#f7d98b]"
@@ -761,11 +837,12 @@ function CompanionPanel({ save }) {
                         {compatibleEquipment.map((item) => (
                           <button
                             key={item.id}
-                            className="rounded border border-[#d8b765]/20 px-2 py-1 text-left font-bold text-[#f7d98b]"
+                            className="flex items-center gap-2 rounded border border-[#d8b765]/20 px-2 py-1 text-left font-bold text-[#f7d98b]"
                             disabled={equipment[item.slot] === item.id}
                             onClick={() => gameBridge.emit('command:equip-companion-item', { monster_id: monsterId, equipment_id: item.id })}
                           >
-                            {equipment[item.slot] === item.id ? 'Equipped' : 'Equip'} {item.name} / {item.slot} / {formatStats(item.stats)}
+                            <AssetIcon src={equipmentIconPath(item.id)} alt={item.name} size="sm" />
+                            <span>{equipment[item.slot] === item.id ? 'Equipped' : 'Equip'} {item.name} / {item.slot} / {formatStats(item.stats)}</span>
                           </button>
                         ))}
                       </div>
@@ -840,6 +917,7 @@ function ShopModal({ panel, save, onClose }) {
             {(shop?.inventory ?? []).map((entry, index) => {
               const item = entry.kind === 'equipment' ? equipmentById(entry.id) : itemById(entry.id)
               const owned = entry.kind === 'equipment' && save.inventory.equipment.includes(entry.id)
+              const icon = entry.kind === 'equipment' ? equipmentIconPath(entry.id) : itemIconPath(entry.id)
               return (
                 <button
                   key={`${entry.kind}-${entry.id}`}
@@ -847,8 +925,13 @@ function ShopModal({ panel, save, onClose }) {
                   disabled={pilak < entry.price}
                   onClick={() => gameBridge.emit('command:buy-shop-entry', { shop_id: shop.id, entry_index: index })}
                 >
-                  <span className="block font-black text-[#fff6df]">{displayName(entry)} / {entry.price} Pilak</span>
-                  <span className="text-xs text-[#b8a986]">{item?.description}{owned ? ' / Owned' : ''}</span>
+                  <span className="flex items-center gap-3">
+                    <AssetIcon src={icon} alt={displayName(entry)} />
+                    <span>
+                      <span className="block font-black text-[#fff6df]">{displayName(entry)} / {entry.price} Pilak</span>
+                      <span className="text-xs text-[#b8a986]">{item?.description}{owned ? ' / Owned' : ''}</span>
+                    </span>
+                  </span>
                 </button>
               )
             })}
@@ -876,6 +959,7 @@ function CraftingModal({ panel, save, onClose }) {
               const pilakMissing = (save.progression.currencies.pilak ?? 0) < (recipe.cost.pilak ?? 0)
               const output = recipe.output.kind === 'equipment' ? equipmentById(recipe.output.id) : itemById(recipe.output.id)
               const outputTarget = recipe.output.kind === 'equipment' && output?.target === 'companion' ? 'Companion Gear' : recipe.output.kind === 'equipment' ? 'Player Gear' : 'Item'
+              const outputIcon = recipe.output.kind === 'equipment' ? equipmentIconPath(recipe.output.id) : itemIconPath(recipe.output.id)
               return (
                 <button
                   key={recipe.id}
@@ -883,11 +967,21 @@ function CraftingModal({ panel, save, onClose }) {
                   disabled={missing || pilakMissing}
                   onClick={() => gameBridge.emit('command:craft-recipe', { recipe_id: recipe.id })}
                 >
-                  <span className="block font-black text-[#fff6df]">{recipe.name}</span>
-                  <span className="block text-xs text-[#d8b765]">Creates: {output?.name ?? recipe.output.id} / {outputTarget}</span>
+                  <span className="mb-2 flex items-center gap-3">
+                    <AssetIcon src={outputIcon} alt={output?.name ?? recipe.output.id} />
+                    <span>
+                      <span className="block font-black text-[#fff6df]">{recipe.name}</span>
+                      <span className="block text-xs text-[#d8b765]">Creates: {output?.name ?? recipe.output.id} / {outputTarget}</span>
+                    </span>
+                  </span>
                   <span className="block text-xs text-[#b8a986]">{recipe.description}</span>
-                  <span className="mt-2 block text-xs text-[#f7d98b]">
-                    {recipe.ingredients.map((ingredient) => `${itemById(ingredient.id)?.name ?? ingredient.id} ${save.inventory.items[ingredient.id] ?? 0}/${ingredient.quantity}`).join(' / ')}
+                  <span className="mt-2 flex flex-wrap gap-2 text-xs text-[#f7d98b]">
+                    {recipe.ingredients.map((ingredient) => (
+                      <span key={`${recipe.id}-${ingredient.id}`} className="inline-flex items-center gap-1 rounded bg-[#d8b765]/10 px-2 py-1">
+                        <AssetIcon src={itemIconPath(ingredient.id)} alt={itemById(ingredient.id)?.name ?? ingredient.id} size="sm" />
+                        <span>{itemById(ingredient.id)?.name ?? ingredient.id} {save.inventory.items[ingredient.id] ?? 0}/{ingredient.quantity}</span>
+                      </span>
+                    ))}
                     {recipe.cost.pilak ? ` / ${recipe.cost.pilak} Pilak` : ''}
                   </span>
                 </button>
