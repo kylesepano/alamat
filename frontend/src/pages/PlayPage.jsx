@@ -1,10 +1,10 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useState } from 'react'
 import { AlamatGame } from '../game/AlamatGame'
 import { gameBridge } from '../game/bridges/ReactPhaserBridge'
-import { COMPANION_DEFINITIONS, companionActiveSkills, companionBondState, companionEquipmentStatTotals, companionProgressionState, companionStatsForSave, nextCompanionLevelThreshold } from '../game/data/companionRuntimeData'
+import { COMPANION_DEFINITIONS, COMPANION_STAT_POINT_VALUES, companionActiveSkills, companionBondState, companionEquipmentStatTotals, companionProgressionState, companionStatsForSave, nextCompanionLevelThreshold } from '../game/data/companionRuntimeData'
 import { ACTIVE_SKILL_SLOT_LIMIT, skillById, statusById } from '../game/data/combatRuntimeData'
 import { EQUIPMENT_DEFINITIONS, ITEM_DEFINITIONS, RECIPE_DEFINITIONS, SHOP_DEFINITIONS, displayName, equipmentById, equipmentStatTotals, itemById } from '../game/data/inventoryRuntimeData'
-import { classTrackForProgression, nextLevelThreshold, playerActiveSkills } from '../game/data/progressionRuntimeData'
+import { PLAYER_STAT_POINT_VALUES, classTrackForProgression, nextLevelThreshold, playerActiveSkills, playerStatsForProgression } from '../game/data/progressionRuntimeData'
 import { QUEST_DEFINITIONS, questProgress, trackedQuest } from '../game/data/questRuntimeData'
 import { STORY_SCENES } from '../game/data/storyRuntimeData'
 import { SaveSystem } from '../game/systems/SaveSystem'
@@ -51,7 +51,10 @@ export function PlayPage() {
       gameBridge.on('shop:open', (payload) => setShopPanel(payload)),
       gameBridge.on('crafting:open', (payload) => setCraftingPanel(payload)),
       gameBridge.on('encounter:preview', (payload) => setPanel({ type: 'encounter', ...payload })),
-      gameBridge.on('battle:started', () => setPanel(null)),
+      gameBridge.on('battle:started', () => {
+        setPanel(null)
+        setActiveInfo(null)
+      }),
       gameBridge.on('battle:update', (payload) => setBattle(payload)),
       gameBridge.on('battle:ended', () => {
         window.setTimeout(() => setBattle(null), 900)
@@ -95,27 +98,9 @@ export function PlayPage() {
       if (event.code === 'Space' || key === ' ') {
         if (panel) {
           event.preventDefault()
-          setPanel(null)
+          setPanel((current) => advanceDialogue(current))
           return
         }
-      }
-      if (battle?.state?.turn === 'player' && battle.state.phase !== 'ended') {
-        if (event.repeat) return
-        const skillId = battle.state.player.skills[Number(key) - 1]
-        if (skillId) {
-          event.preventDefault()
-          gameBridge.emit('command:battle-action', { action: `skill:${skillId}` })
-        }
-        return
-      }
-      if (battle?.state?.turn === 'companion' && battle.state.phase !== 'ended') {
-        if (event.repeat) return
-        const skillId = battle.state.companion?.skills[Number(key) - 1]
-        if (skillId) {
-          event.preventDefault()
-          gameBridge.emit('command:battle-action', { action: `companion-skill:${skillId}` })
-        }
-        return
       }
       if (battle && battle.state?.phase !== 'ended') return
       const tab = infoTabs.find((item) => item.hotkey.toLowerCase() === key)
@@ -177,34 +162,38 @@ export function PlayPage() {
           <button className="rounded-md border border-[#d8b765]/30 px-3 py-2 text-sm font-bold text-[#f7d98b]" onClick={() => gameBridge.emit('command:reset-save')}>Reset</button>
         </div>
       </div>
-      <div className="grid gap-3 xl:grid-cols-[minmax(0,1fr)_200px]">
+      <div className="space-y-3">
         <main className="space-y-4">
-          <div className="relative">
+          <div className="relative overflow-hidden rounded-lg">
             <AlamatGame save={save} />
-            <ActiveInfoPanel activeInfo={activeInfo} save={save} debug={debug} onClose={() => setActiveInfo(null)} />
-            {panel ? <InteractionModal panel={panel} onClose={() => setPanel(null)} /> : null}
+            {!battle ? <HealthHud save={save} /> : null}
+            {!battle ? <HotkeyLegend activeInfo={activeInfo} onToggle={(tabId) => setActiveInfo((current) => current === tabId ? null : tabId)} /> : null}
+            {!battle ? <ActiveInfoPanel activeInfo={activeInfo} save={save} debug={debug} onClose={() => setActiveInfo(null)} /> : null}
+            {battle ? (
+              <div className="absolute inset-x-3 bottom-3 z-30">
+                <BattleCommandBar battle={battle} />
+              </div>
+            ) : null}
+            {panel ? (
+              <InteractionModal
+                panel={panel}
+                onAdvance={() => setPanel((current) => advanceDialogue(current))}
+                onChoose={(choice) => {
+                  gameBridge.emit('command:dialogue-choice', { entity_id: panel.entity_id, choice })
+                  setPanel((current) => ({ ...current, selectedChoice: choice }))
+                }}
+                onClose={() => setPanel(null)}
+              />
+            ) : null}
           </div>
         </main>
-        <aside className="space-y-3">
+        <aside className="grid gap-3 md:grid-cols-2 xl:grid-cols-4">
           <Panel title="Controls">
             <p>Move with WASD or arrow keys.</p>
             <p>Interact with Space. Press Space again to close dialogue.</p>
             <p>Esc closes open panels.</p>
             <p>Toggle debug with F3. Quick save with F5.</p>
-            <p>Battle: 1 attack, 2 guard, 3 item, F flee.</p>
-          </Panel>
-          <Panel title="Legend">
-            <div className="grid gap-2">
-              {infoTabs.map((tab) => (
-                <button
-                  key={tab.id}
-                  className={`rounded-md border px-3 py-2 text-left text-xs font-black ${activeInfo === tab.id ? 'border-[#d8b765] bg-[#d8b765] text-[#11180f]' : 'border-[#d8b765]/25 text-[#f7d98b]'}`}
-                  onClick={() => setActiveInfo((current) => current === tab.id ? null : tab.id)}
-                >
-                  {tab.hotkey} / {tab.label}
-                </button>
-              ))}
-            </div>
+            <p>Battle: 1-6 skills, Pots, F flee.</p>
           </Panel>
           <Panel title="Player">
             <p>{save.player.name}</p>
@@ -224,7 +213,6 @@ export function PlayPage() {
           ) : null}
         </aside>
       </div>
-      {battle ? <BattleCommandBar battle={battle} /> : null}
       {shopPanel ? <ShopModal panel={shopPanel} save={save} onClose={() => setShopPanel(null)} /> : null}
       {craftingPanel ? <CraftingModal panel={craftingPanel} save={save} onClose={() => setCraftingPanel(null)} /> : null}
       {storyScene ? <StorySceneModal scene={storyScene} onClose={() => setStoryScene(null)} /> : null}
@@ -233,16 +221,133 @@ export function PlayPage() {
   )
 }
 
+function HotkeyLegend({ activeInfo, onToggle }) {
+  return (
+    <div className="pointer-events-auto absolute inset-x-3 bottom-3 z-10 rounded-lg border border-[#d8b765]/25 bg-[#11180f]/88 px-3 py-2 shadow-xl backdrop-blur">
+      <div className="flex flex-wrap items-center justify-center gap-2">
+        {infoTabs.map((tab) => (
+          <button
+            key={tab.id}
+            className={`rounded-md border px-2 py-1 text-xs font-black ${activeInfo === tab.id ? 'border-[#d8b765] bg-[#d8b765] text-[#11180f]' : 'border-[#d8b765]/25 text-[#f7d98b]'}`}
+            onClick={() => onToggle(tab.id)}
+          >
+            {tab.hotkey} / {tab.label}
+          </button>
+        ))}
+      </div>
+    </div>
+  )
+}
+
+function HealthHud({ save }) {
+  const playerStats = playerStatsForProgression(save.progression, equipmentStatTotals(save))
+  const playerHp = Math.max(0, Math.min(playerStats.maxHp, save.player_state.hp ?? playerStats.maxHp))
+  const companionId = save.companions.active_companion_id
+  const companionDefinition = companionId ? COMPANION_DEFINITIONS[companionId] : null
+  const companionStats = companionId && companionDefinition ? companionStatsForSave(structuredClone(save), companionId) : null
+  const companionHp = companionId && companionStats ? Math.max(0, Math.min(companionStats.maxHp, save.companions.runtime?.[companionId]?.hp ?? companionStats.maxHp)) : null
+
+  return (
+    <div className="pointer-events-none absolute left-3 top-3 z-10 grid w-[min(280px,calc(100%-1.5rem))] gap-2">
+      <HealthBar label={save.player.name || 'Player'} hp={playerHp} maxHp={playerStats.maxHp} tone="player" />
+      {companionId && companionDefinition && companionStats ? (
+        <HealthBar label={companionDefinition.name} hp={companionHp} maxHp={companionStats.maxHp} tone="companion" />
+      ) : null}
+    </div>
+  )
+}
+
+function HealthBar({ label, hp, maxHp, tone }) {
+  const percent = maxHp > 0 ? Math.max(0, Math.min(100, Math.round((hp / maxHp) * 100))) : 0
+  const fill = tone === 'companion' ? 'from-[#78d7a3] to-[#d8b765]' : 'from-[#bd4c5f] to-[#f0c36a]'
+  return (
+    <div className="rounded-lg border border-[#d8b765]/25 bg-[#11180f]/88 px-3 py-2 shadow-xl backdrop-blur">
+      <div className="flex items-center justify-between gap-3 text-[11px] font-black uppercase tracking-wide text-[#fff6df]">
+        <span className="truncate">{label}</span>
+        <span className="text-[#f7d98b]">{hp}/{maxHp}</span>
+      </div>
+      <div className="mt-1 h-2 overflow-hidden rounded-full bg-[#050805]">
+        <div className={`h-full rounded-full bg-gradient-to-r ${fill}`} style={{ width: `${percent}%` }} />
+      </div>
+    </div>
+  )
+}
+
+function ActorToggle({ value, onChange, companionDisabled = false }) {
+  return (
+    <div className="mb-3 grid grid-cols-2 gap-2 rounded-lg border border-[#d8b765]/15 bg-[#0f140d] p-1">
+      {[
+        ['character', 'Character'],
+        ['companion', 'Companion'],
+      ].map(([id, label]) => (
+        <button
+          key={id}
+          className={`rounded-md px-3 py-2 text-xs font-black ${value === id ? 'bg-[#d8b765] text-[#11180f]' : 'text-[#f7d98b] disabled:cursor-not-allowed disabled:opacity-45'}`}
+          disabled={id === 'companion' && companionDisabled}
+          onClick={() => onChange(id)}
+        >
+          {label}
+        </button>
+      ))}
+    </div>
+  )
+}
+
 function ProgressionPanel({ save }) {
+  const [actorView, setActorView] = useState('character')
+  const activeCompanionId = save.companions.active_companion_id
+  const activeCompanionDefinition = activeCompanionId ? COMPANION_DEFINITIONS[activeCompanionId] : null
+  const showingCompanion = actorView === 'companion' && activeCompanionId && activeCompanionDefinition
   const next = nextLevelThreshold(save.progression.level)
   const fieldLog = save.progression.field_log.slice(-3).reverse()
   const track = classTrackForProgression(save.progression)
+  const equipmentStats = equipmentStatTotals(save)
+  const stats = playerStatsForProgression(save.progression, equipmentStats)
+  const allocated = save.progression.allocated_stats ?? {}
+  if (showingCompanion) {
+    return <CompanionProgressionPanel save={save} monsterId={activeCompanionId} onActorChange={setActorView} actorView={actorView} />
+  }
   return (
     <Panel title="Progression">
+      <ActorToggle value={actorView} onChange={setActorView} companionDisabled={!activeCompanionId} />
       <p>Level {save.progression.level}</p>
       <p>Class {track.name}</p>
       <p>XP {save.progression.total_xp}{next ? ` / ${next.totalXp}` : ''}</p>
       <p>Pilak {save.progression.currencies.pilak ?? 0}</p>
+      <p className="text-xs text-[#b8a986]">Turn flow: Player, companion, then enemies. Speed is available for stats and future initiative tuning.</p>
+      <div className="mt-3 rounded-md border border-[#d8b765]/15 bg-[#0f140d] p-2">
+        <p className="font-bold text-[#fff6df]">Character Stats</p>
+        <DetailRows rows={[
+          ['HP', `${save.player_state.hp ?? stats.maxHp}/${stats.maxHp}`],
+          ['Attack', stats.attack],
+          ['Defense', stats.defense],
+          ['Speed', stats.speed],
+          ['Equipment', formatStats(equipmentStats)],
+        ]} />
+      </div>
+      <div className="mt-3 rounded-md border border-[#d8b765]/15 bg-[#0f140d] p-2">
+        <div className="flex items-center justify-between gap-3">
+          <p className="font-bold text-[#fff6df]">Stat Points</p>
+          <span className="rounded bg-[#d8b765]/15 px-2 py-1 text-xs font-black text-[#f7d98b]">{save.progression.stat_points ?? 0} available</span>
+        </div>
+        <div className="mt-2 grid gap-2 sm:grid-cols-2">
+          {[
+            ['maxHp', 'HP', `+${PLAYER_STAT_POINT_VALUES.maxHp}`],
+            ['attack', 'Attack', `+${PLAYER_STAT_POINT_VALUES.attack}`],
+            ['defense', 'Defense', `+${PLAYER_STAT_POINT_VALUES.defense}`],
+            ['speed', 'Speed', `+${PLAYER_STAT_POINT_VALUES.speed}`],
+          ].map(([stat, label, value]) => (
+            <button
+              key={stat}
+              className="rounded border border-[#d8b765]/20 bg-[#151a13] px-2 py-2 text-left text-xs font-bold text-[#f7d98b] disabled:cursor-not-allowed disabled:opacity-45"
+              disabled={(save.progression.stat_points ?? 0) <= 0}
+              onClick={() => gameBridge.emit('command:allocate-player-stat', { stat })}
+            >
+              {label} {value} <span className="text-[#b8a986]">/ spent {allocated[stat] ?? 0}</span>
+            </button>
+          ))}
+        </div>
+      </div>
       <p className="text-xs text-[#b8a986]">Skills learned: {(save.progression.unlocked_skills ?? []).length} / active slots {Math.min((save.progression.unlocked_skills ?? []).length, ACTIVE_SKILL_SLOT_LIMIT)}/{ACTIVE_SKILL_SLOT_LIMIT}</p>
       {fieldLog.length ? (
         <div className="mt-2 text-xs text-[#b8a986]">
@@ -253,11 +358,62 @@ function ProgressionPanel({ save }) {
   )
 }
 
+function CompanionProgressionPanel({ save, monsterId, actorView, onActorChange }) {
+  const definition = COMPANION_DEFINITIONS[monsterId]
+  const progression = companionProgressionState(structuredClone(save), monsterId)
+  const stats = companionStatsForSave(structuredClone(save), monsterId)
+  const equipmentStats = companionEquipmentStatTotals(save, monsterId)
+  const next = nextCompanionLevelThreshold(progression.level)
+  const runtime = save.companions.runtime?.[monsterId]
+  const allocated = progression.allocated_stats ?? {}
+  return (
+    <Panel title="Progression">
+      <ActorToggle value={actorView} onChange={onActorChange} />
+      <p>{definition.name}</p>
+      <p>Level {progression.level}</p>
+      <p>XP {progression.total_xp}{next ? ` / ${next.totalXp}` : ''}</p>
+      <div className="mt-3 rounded-md border border-[#d8b765]/15 bg-[#0f140d] p-2">
+        <p className="font-bold text-[#fff6df]">Nilalang Stats</p>
+        <DetailRows rows={[
+          ['HP', `${runtime?.hp ?? stats.maxHp}/${stats.maxHp}`],
+          ['Attack', stats.attack],
+          ['Defense', stats.defense],
+          ['Speed', stats.speed],
+          ['Equipment', formatStats(equipmentStats)],
+        ]} />
+      </div>
+      <div className="mt-3 rounded-md border border-[#d8b765]/15 bg-[#0f140d] p-2">
+        <div className="flex items-center justify-between gap-3">
+          <p className="font-bold text-[#fff6df]">Stat Points</p>
+          <span className="rounded bg-[#d8b765]/15 px-2 py-1 text-xs font-black text-[#f7d98b]">{progression.stat_points ?? 0} available</span>
+        </div>
+        <div className="mt-2 grid gap-2 sm:grid-cols-2">
+          {[
+            ['maxHp', 'HP', `+${COMPANION_STAT_POINT_VALUES.maxHp}`],
+            ['attack', 'Attack', `+${COMPANION_STAT_POINT_VALUES.attack}`],
+            ['defense', 'Defense', `+${COMPANION_STAT_POINT_VALUES.defense}`],
+            ['speed', 'Speed', `+${COMPANION_STAT_POINT_VALUES.speed}`],
+          ].map(([stat, label, value]) => (
+            <button
+              key={stat}
+              className="rounded border border-[#d8b765]/20 bg-[#151a13] px-2 py-2 text-left text-xs font-bold text-[#f7d98b] disabled:cursor-not-allowed disabled:opacity-45"
+              disabled={(progression.stat_points ?? 0) <= 0}
+              onClick={() => gameBridge.emit('command:allocate-companion-stat', { monster_id: monsterId, stat })}
+            >
+              {label} {value} <span className="text-[#b8a986]">/ spent {allocated[stat] ?? 0}</span>
+            </button>
+          ))}
+        </div>
+      </div>
+    </Panel>
+  )
+}
+
 function ActiveInfoPanel({ activeInfo, save, debug, onClose }) {
   if (!activeInfo) return null
   const title = infoTabs.find((tab) => tab.id === activeInfo)?.label ?? 'Panel'
   return (
-    <div className="absolute left-4 top-4 z-40 max-h-[calc(84vh-2rem)] w-[min(440px,calc(100%-2rem))] overflow-auto rounded-lg border border-[#d8b765]/35 bg-[#11180f]/95 p-4 shadow-2xl backdrop-blur">
+    <div className="absolute left-4 top-4 z-10 max-h-[calc(84vh-2rem)] w-[min(440px,calc(100%-2rem))] overflow-auto rounded-lg border border-[#d8b765]/35 bg-[#11180f]/95 p-4 shadow-2xl backdrop-blur">
       <div className="mb-3 flex items-center justify-between gap-3">
         <h2 className="text-sm font-black uppercase tracking-wide text-[#fff6df]">{title}</h2>
         <button className="rounded-md border border-[#d8b765]/35 px-2 py-1 text-xs font-black text-[#f7d98b]" onClick={onClose}>Close</button>
@@ -405,6 +561,7 @@ function InventoryPanel({ save }) {
                 ['Sell', `${selectedItem.sellPrice ?? 0} Pilak`],
                 ['Effect', formatEffect(selectedItem.effect)],
               ]} />
+              {selectedItem.category === 'Consumable' ? <FieldUseButtons save={save} itemId={selectedEntry.itemId} /> : null}
             </DetailBox>
           ) : null}
         </>
@@ -414,7 +571,12 @@ function InventoryPanel({ save }) {
 }
 
 function EquipmentPanel({ save }) {
+  const [actorView, setActorView] = useState('character')
   const [selectedEquipmentId, setSelectedEquipmentId] = useState(null)
+  const activeCompanionId = save.companions.active_companion_id
+  if (actorView === 'companion' && activeCompanionId) {
+    return <CompanionEquipmentPanel save={save} monsterId={activeCompanionId} actorView={actorView} onActorChange={setActorView} />
+  }
   const totals = equipmentStatTotals(save)
   const slots = Object.entries(save.equipment.slots)
   const ownedEquipment = save.inventory.equipment.map((equipmentId) => equipmentById(equipmentId)).filter(Boolean)
@@ -423,6 +585,7 @@ function EquipmentPanel({ save }) {
   const selectedEquipment = equipmentById(selectedEquipmentId) ?? playerEquipment[0] ?? equipmentById(equippedIds[0])
   return (
     <Panel title="Equipment">
+      <ActorToggle value={actorView} onChange={setActorView} companionDisabled={!activeCompanionId} />
       <div className="space-y-2">
         {slots.map(([slot, equipmentId]) => {
           const equipment = equipmentById(equipmentId)
@@ -500,12 +663,124 @@ function EquipmentPanel({ save }) {
           ]} />
         </DetailBox>
       ) : null}
+      <FieldPotsPanel save={save} />
     </Panel>
   )
 }
 
+function CompanionEquipmentPanel({ save, monsterId, actorView, onActorChange }) {
+  const definition = COMPANION_DEFINITIONS[monsterId]
+  const equipment = save.companions.equipment?.[monsterId] ?? {}
+  const equipmentTotals = companionEquipmentStatTotals(save, monsterId)
+  const compatibleEquipment = save.inventory.equipment
+    .map((equipmentId) => equipmentById(equipmentId))
+    .filter((item) => item?.target === 'companion' && definition.equipmentSlots.includes(item.slot))
+  return (
+    <Panel title="Equipment">
+      <ActorToggle value={actorView} onChange={onActorChange} />
+      <p className="font-bold text-[#fff6df]">{definition.name}</p>
+      <p className="text-xs text-[#b8a986]">Gear bonuses: {formatStats(equipmentTotals)}</p>
+      <div className="mt-3 space-y-2">
+        {definition.equipmentSlots.map((slot) => {
+          const equipmentId = equipment[slot]
+          const item = equipmentById(equipmentId)
+          return (
+            <div key={slot} className="rounded-md border border-[#d8b765]/15 bg-[#0f140d] p-2">
+              <p className="text-xs font-bold uppercase text-[#b8a986]">{slot}</p>
+              <div className="mt-1 flex items-center justify-between gap-2">
+                <div className="flex items-center gap-2">
+                  {item ? <AssetIcon src={equipmentIconPath(item.id)} alt={item.name} size="sm" /> : null}
+                  <span className="font-bold text-[#fff6df]">{item?.name ?? 'Empty'}</span>
+                </div>
+                {item ? (
+                  <button
+                    className="rounded bg-[#d8b765]/15 px-2 py-1 text-xs font-black text-[#f7d98b]"
+                    onClick={() => gameBridge.emit('command:unequip-companion-item', { monster_id: monsterId, slot })}
+                  >
+                    Unequip
+                  </button>
+                ) : null}
+              </div>
+              {item ? <p className="mt-1 text-xs text-[#b8a986]">{formatStats(item.stats)}</p> : null}
+            </div>
+          )
+        })}
+      </div>
+      <div className="mt-3 grid gap-2">
+        {compatibleEquipment.length ? compatibleEquipment.map((item) => (
+          <button
+            key={item.id}
+            className="flex items-center gap-2 rounded border border-[#d8b765]/20 bg-[#151a13] px-2 py-2 text-left text-xs font-bold text-[#f7d98b] disabled:cursor-not-allowed disabled:opacity-45"
+            disabled={equipment[item.slot] === item.id}
+            onClick={() => gameBridge.emit('command:equip-companion-item', { monster_id: monsterId, equipment_id: item.id })}
+          >
+            <AssetIcon src={equipmentIconPath(item.id)} alt={item.name} size="sm" />
+            <span>{equipment[item.slot] === item.id ? 'Equipped' : 'Equip'} {item.name} / {item.slot} / {formatStats(item.stats)}</span>
+          </button>
+        )) : <p className="text-xs text-[#b8a986]">No compatible companion gear owned.</p>}
+      </div>
+      <FieldPotsPanel save={save} />
+    </Panel>
+  )
+}
+
+function FieldPotsPanel({ save }) {
+  const consumables = Object.entries(save.inventory.items)
+    .map(([itemId, quantity]) => ({ itemId, quantity, item: itemById(itemId) }))
+    .filter((entry) => entry.quantity > 0 && entry.item?.category === 'Consumable')
+  if (!consumables.length) return null
+  return (
+    <DetailBox title="Field Pots">
+      <div className="grid gap-2">
+        {consumables.map(({ itemId, quantity, item }) => (
+          <div key={`field-pot-${itemId}`} className="rounded-md border border-[#d8b765]/15 bg-[#0f140d] p-2">
+            <div className="flex items-center gap-2">
+              <AssetIcon src={itemIconPath(itemId)} alt={item.name} size="sm" />
+              <div>
+                <p className="font-black text-[#fff6df]">{item.name} x{quantity}</p>
+                <p className="text-xs text-[#b8a986]">{formatEffect(item.effect)}</p>
+              </div>
+            </div>
+            <FieldUseButtons save={save} itemId={itemId} compact />
+          </div>
+        ))}
+      </div>
+    </DetailBox>
+  )
+}
+
+function FieldUseButtons({ save, itemId, compact = false }) {
+  const item = itemById(itemId)
+  const companionId = save.companions.active_companion_id
+  const companion = companionId ? COMPANION_DEFINITIONS[companionId] : null
+  if (!item || item.category !== 'Consumable') return null
+  return (
+    <div className={`flex flex-wrap gap-2 ${compact ? 'mt-2' : 'mt-3'}`}>
+      <button
+        className="rounded bg-[#d8b765]/15 px-2 py-1 text-xs font-black text-[#f7d98b] disabled:opacity-45"
+        disabled={item.effect?.type !== 'heal'}
+        onClick={() => gameBridge.emit('command:use-field-item', { item_id: itemId, target: 'player' })}
+      >
+        Use on Player
+      </button>
+      <button
+        className="rounded bg-[#78d7a3]/15 px-2 py-1 text-xs font-black text-[#bdf5d2] disabled:opacity-45"
+        disabled={!companion || item.effect?.type !== 'heal'}
+        onClick={() => gameBridge.emit('command:use-field-item', { item_id: itemId, target: 'companion' })}
+      >
+        Use on {companion?.name ?? 'Companion'}
+      </button>
+    </div>
+  )
+}
+
 function SkillTreePanel({ save }) {
+  const [actorView, setActorView] = useState('character')
   const [selectedSkillId, setSelectedSkillId] = useState(null)
+  const activeCompanionId = save.companions.active_companion_id
+  if (actorView === 'companion' && activeCompanionId) {
+    return <CompanionSkillPanel save={save} monsterId={activeCompanionId} actorView={actorView} onActorChange={setActorView} />
+  }
   const track = classTrackForProgression(save.progression)
   const unlocked = save.progression.unlocked_skills ?? []
   const activeSkills = playerActiveSkills(structuredClone(save))
@@ -514,6 +789,7 @@ function SkillTreePanel({ save }) {
   const selectedStatus = selectedSkill?.statusEffectId ? statusById(selectedSkill.statusEffectId) : null
   return (
     <Panel title="Skills & Class">
+      <ActorToggle value={actorView} onChange={setActorView} companionDisabled={!activeCompanionId} />
       <p className="font-bold text-[#fff6df]">{track.name}</p>
       <p className="text-xs text-[#b8a986]">{track.description}</p>
       <p className="mt-2 text-xs text-[#d8b765]">Choose up to {ACTIVE_SKILL_SLOT_LIMIT} active skills for battle. Learned skills can stay in reserve.</p>
@@ -578,6 +854,79 @@ function SkillTreePanel({ save }) {
   )
 }
 
+function CompanionSkillPanel({ save, monsterId, actorView, onActorChange }) {
+  const [selectedSkillId, setSelectedSkillId] = useState(null)
+  const definition = COMPANION_DEFINITIONS[monsterId]
+  const progression = companionProgressionState(structuredClone(save), monsterId)
+  const activeSkills = companionActiveSkills(structuredClone(save), monsterId)
+  const selectedUnlock = definition.skillTree.find((unlock) => unlock.skillId === selectedSkillId) ?? definition.skillTree.find((unlock) => progression.unlocked_skills.includes(unlock.skillId)) ?? definition.skillTree[0]
+  const selectedSkill = selectedUnlock ? skillById(selectedUnlock.skillId) : null
+  const selectedStatus = selectedSkill?.statusEffectId ? statusById(selectedSkill.statusEffectId) : null
+  return (
+    <Panel title="Skills & Class">
+      <ActorToggle value={actorView} onChange={onActorChange} />
+      <p className="font-bold text-[#fff6df]">{definition.name}</p>
+      <p className="text-xs text-[#b8a986]">{definition.role} companion path</p>
+      <p className="mt-2 text-xs text-[#d8b765]">Choose up to {ACTIVE_SKILL_SLOT_LIMIT} active companion skills for battle.</p>
+      <div className="mt-4 space-y-2">
+        {definition.skillTree.map((unlock) => {
+          const skill = skillById(unlock.skillId)
+          const learned = progression.unlocked_skills.includes(unlock.skillId)
+          const activeSlot = learned ? activeSkills.indexOf(unlock.skillId) + 1 : null
+          return (
+            <div
+              key={unlock.skillId}
+              className={`w-full rounded-md border p-3 text-left ${selectedSkill?.id === unlock.skillId ? 'border-[#d8b765]/70 bg-[#1d2418]' : learned ? 'border-[#61c47c]/35 bg-[#102014]' : 'border-[#d8b765]/15 bg-[#0f140d]'}`}
+              onClick={() => setSelectedSkillId((current) => current === unlock.skillId ? null : unlock.skillId)}
+            >
+              <div className="flex items-start justify-between gap-3">
+                <div>
+                  <p className="font-bold text-[#fff6df]">{skill.name}</p>
+                  <p className="text-xs text-[#b8a986]">Level {unlock.level} / {skill.category} / {skill.damageType}{activeSlot > 0 ? ` / Slot ${activeSlot}` : learned ? ' / Reserve' : ''}</p>
+                </div>
+                <span className={`rounded px-2 py-1 text-xs font-black ${learned ? 'bg-[#61c47c]/20 text-[#61c47c]' : 'bg-[#d8b765]/10 text-[#b8a986]'}`}>
+                  {learned ? activeSlot > 0 ? 'Active' : 'Reserve' : 'Locked'}
+                </span>
+              </div>
+              <p className="mt-2 text-xs text-[#d9ceb7]">{skill.description}</p>
+              {learned ? (
+                <button
+                  className="mt-2 rounded bg-[#d8b765]/15 px-2 py-1 text-xs font-black text-[#f7d98b] disabled:cursor-not-allowed disabled:opacity-45"
+                  disabled={activeSlot <= 0 && activeSkills.length >= ACTIVE_SKILL_SLOT_LIMIT}
+                  onClick={(event) => {
+                    event.stopPropagation()
+                    gameBridge.emit('command:toggle-companion-skill', { monster_id: monsterId, skill_id: unlock.skillId })
+                  }}
+                >
+                  {activeSlot > 0 ? 'Move to Reserve' : 'Set Active'}
+                </button>
+              ) : null}
+            </div>
+          )
+        })}
+      </div>
+      {selectedSkill ? (
+        <DetailBox title={selectedSkill.name}>
+          <p>{selectedSkill.description}</p>
+          <DetailRows rows={[
+            ['Unlock', `Level ${selectedUnlock.level}`],
+            ['State', activeSkills.includes(selectedSkill.id) ? 'Active' : progression.unlocked_skills.includes(selectedSkill.id) ? 'Reserve' : 'Locked'],
+            ['Category', selectedSkill.category],
+            ['Type', selectedSkill.type],
+            ['Damage', selectedSkill.damageType],
+            ['Target', selectedSkill.targetType],
+            ['Power', selectedSkill.power],
+            ['Accuracy', `${selectedSkill.accuracy}%`],
+            ['Cooldown', selectedSkill.cooldown ? `${selectedSkill.cooldown} turn(s)` : 'None'],
+            ['Status', selectedStatus ? `${selectedStatus.name} (${selectedSkill.statusChance}%)` : 'None'],
+          ]} />
+          {selectedStatus ? <p className="mt-2 text-xs text-[#b8a986]">{selectedStatus.description}</p> : null}
+        </DetailBox>
+      ) : null}
+    </Panel>
+  )
+}
+
 function DetailBox({ title, children }) {
   return (
     <div className="mt-4 rounded-md border border-[#d8b765]/25 bg-[#0f140d] p-3">
@@ -625,29 +974,74 @@ function BattleCommandBar({ battle }) {
   const skillPrefix = state.turn === 'companion' ? 'companion-skill' : 'skill'
   const canUseSkill = state.turn === 'companion' ? companionCanAct : playerCanAct
   const livingEnemies = (state.enemies?.length ? state.enemies : [state.enemy]).filter((enemy) => enemy.hp > 0)
+  const friendlyTargets = [
+    { id: 'player', name: state.player.name, hp: state.player.hp, maxHp: state.player.maxHp },
+    state.companion?.hp > 0 ? { id: 'companion', name: state.companion.name, hp: state.companion.hp, maxHp: state.companion.maxHp } : null,
+  ].filter(Boolean)
   const enemySummary = (state.enemies?.length ? state.enemies : [state.enemy])
     .map((enemy) => `${enemy.name} ${enemy.hp}/${enemy.maxHp} HP`)
     .join(' / ')
-  const chooseSkill = (skillId) => {
+  const chooseSkill = useCallback((skillId) => {
     const skill = skillById(skillId)
+    if (skill.targetType === 'Ally') {
+      setPotsOpen(false)
+      if (friendlyTargets.length > 1) {
+        setPendingSkill({ prefix: skillPrefix, skillId, targetKind: 'ally' })
+        return
+      }
+      setPendingSkill(null)
+      gameBridge.emit('command:battle-action', { action: `${skillPrefix}:${skillId}:${friendlyTargets[0]?.id ?? 'player'}` })
+      return
+    }
     if (skill.targetType === 'Single Enemy' && livingEnemies.length > 1) {
       setPotsOpen(false)
-      setPendingSkill({ prefix: skillPrefix, skillId })
+      setPendingSkill({ prefix: skillPrefix, skillId, targetKind: 'enemy' })
       return
     }
     setPendingSkill(null)
     gameBridge.emit('command:battle-action', { action: `${skillPrefix}:${skillId}` })
-  }
-  const chooseTarget = (enemyId) => {
+  }, [friendlyTargets, livingEnemies, skillPrefix])
+  const chooseTarget = useCallback((targetId) => {
     if (!pendingSkill) return
-    gameBridge.emit('command:battle-action', { action: `${pendingSkill.prefix}:${pendingSkill.skillId}:${enemyId}` })
+    gameBridge.emit('command:battle-action', { action: `${pendingSkill.prefix}:${pendingSkill.skillId}:${targetId}` })
     setPendingSkill(null)
-  }
+  }, [pendingSkill])
   useEffect(() => {
     setPendingSkill(null)
   }, [state.turn, state.phase])
+  useEffect(() => {
+    if (pendingSkill || !canUseSkill) return undefined
+    function handleSkillHotkeys(event) {
+      if (event.repeat) return
+      const tagName = event.target?.tagName
+      if (tagName === 'INPUT' || tagName === 'TEXTAREA' || tagName === 'SELECT') return
+      const skillIndex = Number(event.key) - 1
+      const skillId = activeActor.skills[skillIndex]
+      if (!skillId) return
+      event.preventDefault()
+      event.stopImmediatePropagation()
+      chooseSkill(skillId)
+    }
+    window.addEventListener('keydown', handleSkillHotkeys, { capture: true })
+    return () => window.removeEventListener('keydown', handleSkillHotkeys, { capture: true })
+  }, [activeActor.skills, canUseSkill, chooseSkill, pendingSkill])
+  useEffect(() => {
+    if (!pendingSkill) return undefined
+    function handleTargetHotkeys(event) {
+      if (event.repeat) return
+      const targetIndex = Number(event.key) - 1
+      const targets = pendingSkill.targetKind === 'ally' ? friendlyTargets : livingEnemies
+      const target = targets[targetIndex]
+      if (!target) return
+      event.preventDefault()
+      event.stopImmediatePropagation()
+      chooseTarget(target.id)
+    }
+    window.addEventListener('keydown', handleTargetHotkeys, { capture: true })
+    return () => window.removeEventListener('keydown', handleTargetHotkeys, { capture: true })
+  }, [pendingSkill, friendlyTargets, livingEnemies, chooseTarget])
   return (
-    <div className="fixed inset-x-3 bottom-3 z-50 mx-auto max-w-6xl rounded-lg border border-[#bd4c5f]/45 bg-[#11180f]/95 p-3 shadow-2xl backdrop-blur">
+    <div className="rounded-lg border border-[#bd4c5f]/45 bg-[#11180f]/95 p-3 shadow-2xl">
       <div className="grid gap-3 lg:grid-cols-[220px_1fr]">
         <div className="text-sm text-[#d9ceb7]">
           <p className="text-xs font-bold uppercase tracking-wide text-[#f7d98b]">Battle Commands</p>
@@ -657,47 +1051,53 @@ function BattleCommandBar({ battle }) {
           {state.companion ? <p>{state.companion.name} {state.companion.hp}/{state.companion.maxHp} HP</p> : null}
         </div>
         <div className="space-y-2">
-          <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-4">
-          {activeActor.skills.map((skillId, index) => {
-            const skill = skillById(skillId)
-            const cooldown = activeActor.cooldowns[skillId] ?? 0
-            return (
-              <BattleButton
-                key={`${activeActor.id}-${skillId}`}
-                disabled={!canUseSkill || cooldown > 0}
-                onClick={() => chooseSkill(skillId)}
-              >
-                <span>{index + 1}. {skill.name}</span>
-                <small>{cooldown > 0 ? `Cooldown ${cooldown}` : `${skill.category} / ${skill.damageType}`}</small>
+          {!pendingSkill ? (
+            <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-4">
+              {activeActor.skills.map((skillId, index) => {
+                const skill = skillById(skillId)
+                const cooldown = activeActor.cooldowns[skillId] ?? 0
+                return (
+                  <BattleButton
+                    key={`${activeActor.id}-${skillId}`}
+                    disabled={!canUseSkill || cooldown > 0}
+                    onClick={() => chooseSkill(skillId)}
+                  >
+                    <span>{index + 1}. {skill.name}</span>
+                    <small>{cooldown > 0 ? `Cooldown ${cooldown}` : `${skill.category} / ${skill.damageType}`}</small>
+                  </BattleButton>
+                )
+              })}
+              <BattleButton disabled={!playerCanAct || consumables.length === 0} onClick={() => setPotsOpen((current) => !current)}>
+                <span>Pots</span>
+                <small>{consumables.length ? 'Open items panel' : 'No usable pots'}</small>
               </BattleButton>
-            )
-          })}
-            <BattleButton disabled={!playerCanAct || consumables.length === 0} onClick={() => setPotsOpen((current) => !current)}>
-              <span>Pots</span>
-              <small>{consumables.length ? 'Open items panel' : 'No usable pots'}</small>
-            </BattleButton>
-            <BattleButton disabled={!playerCanAct} onClick={() => gameBridge.emit('command:battle-action', { action: 'flee' })}>
-              <span>Flee</span>
-              <small>{battle.monster.fleeBlocked ? 'Blocked here' : 'Return to map'}</small>
-            </BattleButton>
-          </div>
-          {pendingSkill ? (
+              <BattleButton disabled={!playerCanAct} onClick={() => gameBridge.emit('command:battle-action', { action: 'flee' })}>
+                <span>Flee</span>
+                <small>{battle.monster.fleeBlocked ? 'Blocked here' : 'Return to map'}</small>
+              </BattleButton>
+            </div>
+          ) : (
             <div className="rounded-md border border-[#d8b765]/25 bg-[#0f140d] p-2">
               <div className="mb-2 flex items-center justify-between gap-3">
-                <p className="text-xs font-black uppercase tracking-wide text-[#d8b765]">Choose Target</p>
+                <div>
+                  <p className="text-xs font-black uppercase tracking-wide text-[#d8b765]">Choose Target</p>
+                  <p className="text-xs text-[#b8a986]">
+                    Press 1-{pendingSkill.targetKind === 'ally' ? friendlyTargets.length : livingEnemies.length} or click a {pendingSkill.targetKind === 'ally' ? 'friendly target' : 'Nilalang'}.
+                  </p>
+                </div>
                 <button className="rounded border border-[#d8b765]/30 px-2 py-1 text-xs font-bold text-[#f7d98b]" onClick={() => setPendingSkill(null)}>Close</button>
               </div>
               <div className="grid gap-2 md:grid-cols-2">
-                {livingEnemies.map((enemy) => (
-                  <BattleButton key={`target-${enemy.id}`} disabled={!canUseSkill} onClick={() => chooseTarget(enemy.id)}>
-                    <span>{enemy.name}</span>
-                    <small>{enemy.hp}/{enemy.maxHp} HP</small>
+                {(pendingSkill.targetKind === 'ally' ? friendlyTargets : livingEnemies).map((target, index) => (
+                  <BattleButton key={`target-${target.id}`} disabled={!canUseSkill} onClick={() => chooseTarget(target.id)}>
+                    <span>{index + 1}. {target.name}</span>
+                    <small>{target.hp}/{target.maxHp} HP</small>
                   </BattleButton>
                 ))}
               </div>
             </div>
-          ) : null}
-          {potsOpen ? (
+          )}
+          {!pendingSkill && potsOpen ? (
             <div className="rounded-md border border-[#d8b765]/25 bg-[#0f140d] p-2">
               <div className="mb-2 flex items-center justify-between gap-3">
                 <p className="text-xs font-black uppercase tracking-wide text-[#d8b765]">Potions</p>
@@ -717,7 +1117,10 @@ function BattleCommandBar({ battle }) {
                         <button
                           className="rounded bg-[#d8b765]/15 px-2 py-1 font-black text-[#f7d98b] disabled:opacity-45"
                           disabled={!playerCanAct}
-                          onClick={() => gameBridge.emit('command:battle-action', { action: `item:${itemId}:player` })}
+                          onClick={() => {
+                            setPotsOpen(false)
+                            gameBridge.emit('command:battle-action', { action: `item:${itemId}:player` })
+                          }}
                         >
                           Use on Player
                         </button>
@@ -725,7 +1128,10 @@ function BattleCommandBar({ battle }) {
                           <button
                             className="rounded bg-[#d8b765]/15 px-2 py-1 font-black text-[#f7d98b] disabled:opacity-45"
                             disabled={!playerCanAct || state.companion.hp <= 0}
-                            onClick={() => gameBridge.emit('command:battle-action', { action: `item:${itemId}:companion` })}
+                            onClick={() => {
+                              setPotsOpen(false)
+                              gameBridge.emit('command:battle-action', { action: `item:${itemId}:companion` })
+                            }}
                           >
                             Use on {state.companion.name}
                           </button>
@@ -749,21 +1155,12 @@ function CompanionPanel({ save }) {
   return (
     <Panel title="Companion">
       <p>{activeId ? `Active: ${COMPANION_DEFINITIONS[activeId]?.name ?? activeId}` : 'No companion yet'}</p>
+      <p className="mt-2 text-xs text-[#b8a986]">Use Progression for stats, Equipment for companion gear, and Skills for companion loadout details.</p>
       <div className="mt-3 space-y-3">
         {companionIds.map((monsterId) => {
           const definition = COMPANION_DEFINITIONS[monsterId]
           const state = companionBondState(save, monsterId)
           const bonded = save.companions.collection.includes(monsterId)
-          const progression = bonded ? companionProgressionState(save, monsterId) : null
-          const stats = bonded ? companionStatsForSave(save, monsterId) : null
-          const next = progression ? nextCompanionLevelThreshold(progression.level) : null
-          const runtime = save.companions.runtime?.[monsterId]
-          const equipment = save.companions.equipment?.[monsterId] ?? {}
-          const equipmentTotals = bonded ? companionEquipmentStatTotals(save, monsterId) : {}
-          const activeSkills = bonded ? companionActiveSkills(structuredClone(save), monsterId) : []
-          const compatibleEquipment = save.inventory.equipment
-            .map((equipmentId) => equipmentById(equipmentId))
-            .filter((item) => item?.target === 'companion' && definition.equipmentSlots.includes(item.slot))
           return (
             <div key={monsterId} className="rounded-md border border-[#d8b765]/15 bg-[#0f140d] p-3">
               <div className="flex items-center justify-between gap-3">
@@ -783,73 +1180,7 @@ function CompanionPanel({ save }) {
                 ) : null}
               </div>
               <p className="mt-2 text-xs text-[#d9ceb7]">{definition.bondPrompt}</p>
-              {bonded && progression && stats ? (
-                <div className="mt-3 rounded-md border border-[#d8b765]/15 bg-[#151a13] p-2 text-xs">
-                  <p className="font-bold text-[#fff6df]">Level {progression.level} / HP {runtime?.hp ?? stats.maxHp}/{stats.maxHp}</p>
-                  <p className="text-[#b8a986]">XP {progression.total_xp}{next ? ` / ${next.totalXp}` : ''}</p>
-                  <p className="text-[#b8a986]">Stats: HP {stats.maxHp}, ATK {stats.attack}, DEF {stats.defense}, SPD {stats.speed}</p>
-                  <p className="text-[#b8a986]">Active skills {activeSkills.length}/{ACTIVE_SKILL_SLOT_LIMIT}</p>
-                  <div className="mt-2">
-                    <p className="font-bold text-[#f7d98b]">Skill Tree</p>
-                    {definition.skillTree.map((unlock) => {
-                      const skill = skillById(unlock.skillId)
-                      const learned = progression.unlocked_skills.includes(unlock.skillId)
-                      const activeSlot = learned ? activeSkills.indexOf(unlock.skillId) + 1 : null
-                      return (
-                        <div key={unlock.skillId} className="mt-1 flex items-center justify-between gap-2">
-                          <p className={learned ? 'text-[#61c47c]' : 'text-[#b8a986]'}>
-                            Lv {unlock.level}: {skill.name} / {learned ? activeSlot > 0 ? `Slot ${activeSlot}` : 'Reserve' : 'Locked'}
-                          </p>
-                          {learned ? (
-                            <button
-                              className="rounded bg-[#d8b765]/15 px-2 py-1 font-black text-[#f7d98b] disabled:cursor-not-allowed disabled:opacity-45"
-                              disabled={activeSlot <= 0 && activeSkills.length >= ACTIVE_SKILL_SLOT_LIMIT}
-                              onClick={() => gameBridge.emit('command:toggle-companion-skill', { monster_id: monsterId, skill_id: unlock.skillId })}
-                            >
-                              {activeSlot > 0 ? 'Reserve' : 'Active'}
-                            </button>
-                          ) : null}
-                        </div>
-                      )
-                    })}
-                  </div>
-                  <div className="mt-2">
-                    <p className="font-bold text-[#f7d98b]">Equipment</p>
-                    <p className="text-[#b8a986]">Gear bonuses: {formatStats(equipmentTotals)}</p>
-                    {definition.equipmentSlots.map((slot) => (
-                      <div key={slot} className="mt-1 flex items-center justify-between gap-2 text-[#b8a986]">
-                        <div className="flex items-center gap-2">
-                          {equipment[slot] ? <AssetIcon src={equipmentIconPath(equipment[slot])} alt={equipmentById(equipment[slot])?.name ?? equipment[slot]} size="sm" /> : null}
-                          <p>{slot}: {equipmentById(equipment[slot])?.name ?? 'Empty'}</p>
-                        </div>
-                        {equipment[slot] ? (
-                          <button
-                            className="rounded bg-[#d8b765]/15 px-2 py-1 font-black text-[#f7d98b]"
-                            onClick={() => gameBridge.emit('command:unequip-companion-item', { monster_id: monsterId, slot })}
-                          >
-                            Unequip
-                          </button>
-                        ) : null}
-                      </div>
-                    ))}
-                    {compatibleEquipment.length ? (
-                      <div className="mt-2 grid gap-2">
-                        {compatibleEquipment.map((item) => (
-                          <button
-                            key={item.id}
-                            className="flex items-center gap-2 rounded border border-[#d8b765]/20 px-2 py-1 text-left font-bold text-[#f7d98b]"
-                            disabled={equipment[item.slot] === item.id}
-                            onClick={() => gameBridge.emit('command:equip-companion-item', { monster_id: monsterId, equipment_id: item.id })}
-                          >
-                            <AssetIcon src={equipmentIconPath(item.id)} alt={item.name} size="sm" />
-                            <span>{equipment[item.slot] === item.id ? 'Equipped' : 'Equip'} {item.name} / {item.slot} / {formatStats(item.stats)}</span>
-                          </button>
-                        ))}
-                      </div>
-                    ) : <p className="text-[#b8a986]">No companion gear owned.</p>}
-                  </div>
-                </div>
-              ) : null}
+              {bonded ? <p className="mt-2 text-xs font-bold text-[#61c47c]">Bonded and ready for party systems.</p> : null}
             </div>
           )
         })}
@@ -885,22 +1216,71 @@ function Panel({ title, children }) {
   return <section className="rounded-lg border border-[#d8b765]/20 bg-[#151a13]/90 p-4 text-sm leading-6 text-[#d9ceb7]"><h2 className="mb-2 font-black text-[#fff6df]">{title}</h2>{children}</section>
 }
 
-function InteractionModal({ panel, onClose }) {
+function InteractionModal({ panel, onAdvance, onChoose, onClose }) {
   const title = panel.speaker ?? panel.title ?? panel.entity_id
-  const body = panel.text ?? panel.body
+  const pageIndex = panel.pageIndex ?? 0
+  const pages = panel.pages ?? [panel.text ?? panel.body]
+  const isDialogue = panel.type === 'dialogue'
+  const isLastPage = pageIndex >= pages.length - 1
+  const showChoices = isDialogue && isLastPage && panel.choices?.length && !panel.selectedChoice
+  const body = panel.selectedChoice?.response ?? pages[pageIndex]
   return (
     <div className="absolute inset-x-6 bottom-6 z-50 mx-auto max-w-4xl rounded-lg border border-[#d8b765]/45 bg-[#11180f]/98 p-4 shadow-2xl">
       <div className="flex items-start justify-between gap-4">
-        <div>
+        <div className="flex min-w-0 flex-1 gap-4">
+          {isDialogue ? (
+            <div className="grid h-12 w-12 shrink-0 place-items-center rounded-full border border-[#d8b765]/35 bg-[#253322] font-black text-[#f7d98b]">
+              {String(title).split(/\s+/).map((part) => part[0]).join('').slice(0, 2)}
+            </div>
+          ) : null}
+          <div className="min-w-0 flex-1">
           <p className="text-xs font-bold uppercase tracking-wide text-[#d8b765]">{panel.type}</p>
           <h2 className="mt-1 text-xl font-black text-[#fff6df]">{title}</h2>
+          {panel.context ? <p className="mt-1 text-xs italic text-[#9ea88e]">{panel.context}</p> : null}
           <p className="mt-3 text-sm leading-6 text-[#d9ceb7]">{body}</p>
+          {showChoices ? (
+            <div className="mt-4 grid gap-2 sm:grid-cols-2">
+              {panel.choices.map((choice) => (
+                <button
+                  key={choice.label}
+                  className="rounded-md border border-[#d8b765]/35 bg-[#182117] px-3 py-2 text-left text-sm font-bold text-[#f7d98b] hover:border-[#d8b765]"
+                  onClick={() => onChoose(choice)}
+                >
+                  {choice.label}
+                </button>
+              ))}
+            </div>
+          ) : null}
+          {isDialogue ? (
+            <div className="mt-4 flex items-center justify-between gap-3">
+              <span className="text-xs text-[#8f987f]">
+                {panel.selectedChoice ? 'Response' : `${Math.min(pageIndex + 1, pages.length)} / ${pages.length}`}
+              </span>
+              {!showChoices ? (
+                <button className="rounded-md bg-[#d8b765] px-3 py-2 text-sm font-bold text-[#11180f]" onClick={onAdvance}>
+                  {isLastPage || panel.selectedChoice ? 'Close' : 'Continue'}
+                </button>
+              ) : null}
+            </div>
+          ) : null}
           {panel.monster_id ? <p className="mt-2 text-xs text-[#b8a986]">Source: {panel.monster_id}</p> : null}
+          </div>
         </div>
-        <button className="rounded-md bg-[#d8b765] px-3 py-2 text-sm font-bold text-[#11180f]" onClick={onClose}>Close</button>
+        <button aria-label="Close dialogue" className="rounded-md border border-[#d8b765]/35 px-3 py-2 text-sm font-bold text-[#f7d98b]" onClick={onClose}>Close</button>
       </div>
     </div>
   )
+}
+
+function advanceDialogue(panel) {
+  if (!panel) return null
+  if (panel.type !== 'dialogue') return null
+  const pageIndex = panel.pageIndex ?? 0
+  const pages = panel.pages ?? [panel.text ?? panel.body]
+  const isLastPage = pageIndex >= pages.length - 1
+  if (isLastPage && panel.choices?.length && !panel.selectedChoice) return panel
+  if (panel.selectedChoice || isLastPage) return null
+  return { ...panel, pageIndex: pageIndex + 1 }
 }
 
 function ShopModal({ panel, save, onClose }) {
@@ -1022,6 +1402,9 @@ function BattleResultModal({ result, onClose }) {
           <h2 className="mt-1 text-xl font-black text-[#fff6df]">{result.name} / {result.result}</h2>
           <div className="mt-3 grid gap-1 text-sm leading-6 text-[#d9ceb7]">
             <p>XP gained: {rewards.xp ?? 0}{rewards.levelUp ? ` / Level ${rewards.levelAfter}` : ''}</p>
+            {rewards.statPointsGained ? <p>Stat points gained: +{rewards.statPointsGained}</p> : null}
+            {rewards.companion?.xp ? <p>Companion XP gained: {rewards.companion.xp}{rewards.companion.levelUp ? ` / Level ${rewards.companion.levelAfter}` : ''}</p> : null}
+            {rewards.companion?.statPointsGained ? <p>Companion stat points gained: +{rewards.companion.statPointsGained}</p> : null}
             {currencies.map(([currency, amount]) => <p key={currency}>{currency}: +{amount}</p>)}
             {(rewards.fieldDrops ?? []).map((drop) => <p key={drop}>Field note: {drop}</p>)}
             {skillUnlocks.map((skill) => <p key={skill.skill_id}>Skill learned: {skill.name}</p>)}

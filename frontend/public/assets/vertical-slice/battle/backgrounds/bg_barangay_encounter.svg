@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" fill="none">
+  <rect width="1280" height="720" fill="#25351f"/>
+  <rect y="430" width="1280" height="290" fill="#5a6f3f"/>
+  <path d="M0 404C126 376 222 390 340 370C472 348 564 332 712 362C874 396 1002 342 1280 372V450H0V404Z" fill="#334a2b"/>
+  <path d="M0 510C176 486 328 514 472 492C620 470 738 484 890 502C1036 520 1140 500 1280 482V720H0V510Z" fill="#6f834d"/>
+  <g opacity="0.55">
+    <rect x="96" y="238" width="148" height="86" rx="6" fill="#6a4b2a"/>
+    <path d="M74 244L170 174L266 244H74Z" fill="#9c6b35"/>
+    <rect x="968" y="250" width="176" height="96" rx="6" fill="#664725"/>
+    <path d="M940 258L1056 176L1172 258H940Z" fill="#a8793e"/>
+    <rect x="492" y="276" width="238" height="72" rx="8" fill="#7f5a30"/>
+    <path d="M456 284L612 188L768 284H456Z" fill="#b78442"/>
+  </g>
+  <g opacity="0.4" stroke="#e8c978" stroke-width="6" stroke-linecap="round">
+    <path d="M70 424H320"/>
+    <path d="M910 428H1190"/>
+    <path d="M438 406H796"/>
+  </g>
+  <ellipse cx="640" cy="610" rx="390" ry="62" fill="#3f4c2d" opacity="0.42"/>
+</svg>

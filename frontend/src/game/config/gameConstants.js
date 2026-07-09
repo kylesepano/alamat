@@ -19,6 +19,7 @@ export const DEFAULT_SAVE = {
     x: 384,
     y: 336,
     story_flags: [],
+    dialogue_choices: {},
   },
   player_state: {
     hp: null,
@@ -50,6 +51,13 @@ export const DEFAULT_SAVE = {
     unlocked_skills: ['basic_strike', 'steady_guard'],
     active_skills: ['basic_strike', 'steady_guard'],
     skill_unlock_log: [],
+    stat_points: 0,
+    allocated_stats: {
+      maxHp: 0,
+      attack: 0,
+      defense: 0,
+      speed: 0,
+    },
     currencies: {
       pilak: 0,
     },

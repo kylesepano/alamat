@@ -21,7 +21,7 @@ export class PlayerController {
 
   update() {
     if (this.locked) {
-      this.player.setVelocity(0, 0)
+      this.forceIdle()
       return
     }
 
@@ -45,5 +45,11 @@ export class PlayerController {
       this.player.anims.stop()
       this.player.setFrame(spriteIdleFrame(this.facing))
     }
+  }
+
+  forceIdle(direction = this.facing) {
+    this.player.setVelocity(0, 0)
+    this.player.anims.stop()
+    this.player.setFrame(spriteIdleFrame(direction))
   }
 }

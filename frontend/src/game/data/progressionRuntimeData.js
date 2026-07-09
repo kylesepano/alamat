@@ -24,6 +24,15 @@ export const PLAYER_CLASS_TRACKS = {
   },
 }
 
+export const STAT_POINT_GRANTS_PER_LEVEL = 3
+
+export const PLAYER_STAT_POINT_VALUES = {
+  maxHp: 5,
+  attack: 1,
+  defense: 1,
+  speed: 1,
+}
+
 export const BATTLE_REWARDS = {
   MON0032: {
     xp: 24,
@@ -62,6 +71,32 @@ export const BATTLE_REWARDS = {
     notes: 'The shrine air clears. This victory can unlock story-gated bonding.',
     uniqueFlag: 'rewarded_MON0007',
   },
+  MON0005: fieldReward(42, 14, 'sacred_river_water', 'The Diwata leaves the moon pool clearer than before.'),
+  MON0014: {
+    xp: 38,
+    currencies: { pilak: 12 },
+    itemRewards: [{ id: 'healing_herb', quantity: 1 }],
+    notes: 'The Kataw leaves a calm reflection over the restored shallows.',
+  },
+  MON0016: {
+    xp: 40,
+    currencies: { pilak: 13 },
+    itemRewards: [{ id: 'sacred_river_water', quantity: 1 }],
+    notes: 'The Sirena song softens from warning into acknowledgment.',
+  },
+  MON0003: fieldReward(40, 13, 'drum_bark', 'The Kapre lowers its guard as the balete grove settles.'),
+  MON0004: fieldReward(38, 12, 'shortcut_twig', 'The false trail straightens after the Tikbalang test.'),
+  MON0010: fieldReward(32, 10, 'canopy_fur', 'The Sigbin tracks fade without leading toward the barangay.'),
+  MON0027: fieldReward(26, 8, 'tiny_clay_charm', 'The Kibaan laughter retreats deeper into the bamboo.'),
+  MON0031: fieldReward(36, 11, 'mound_pebble', 'The mound guardian accepts the respectful distance kept.'),
+  MON0033: fieldReward(28, 9, 'leaf_basket_fiber', 'Lambana pollen lights mark a safe route home.'),
+  MON0034: fieldReward(44, 14, 'sacred_river_water', 'The Engkanto veil parts without surrendering its mystery.'),
+  MON0012: fieldReward(30, 9, 'sacred_river_water', 'The wandering flame returns to the old stones.'),
+  MON0024: fieldReward(39, 12, 'old_housepost_splinter', 'The Amalanhig releases its hold on the flooded path.'),
+  MON0035: fieldReward(42, 13, 'tiny_clay_charm', 'The Anito echo becomes calm and watchful.'),
+  MON0041: fieldReward(43, 14, 'sacred_river_water', 'The Mambubuno releases the current around the spawning reeds.'),
+  MON0036: fieldReward(41, 13, 'healing_herb', 'The marsh water returns to its natural level.'),
+  MON0047: fieldReward(48, 16, 'sacred_river_water', 'The Kugtong sinks beneath quieter shallows.'),
 }
 
 export function rewardForBattle(monsterId) {
@@ -91,6 +126,7 @@ export function applyBattleRewards(save, { result, monster_id }) {
     save.progression.xp = save.progression.total_xp
     save.progression.level = levelForXp(save.progression.total_xp)
     const skillUnlocks = applySkillUnlocks(save)
+    const statPointsGained = grantLevelStatPoints(save, levelBefore)
     const summary = {
       result,
       monster_id,
@@ -100,6 +136,7 @@ export function applyBattleRewards(save, { result, monster_id }) {
       levelBefore,
       levelAfter: save.progression.level,
       levelUp: save.progression.level > levelBefore,
+      statPointsGained,
       skillUnlocks,
       notes: 'Unique boss rewards were already claimed. Reduced practice XP gained.',
     }
@@ -115,6 +152,7 @@ export function applyBattleRewards(save, { result, monster_id }) {
   save.progression.xp = save.progression.total_xp
   save.progression.level = levelForXp(save.progression.total_xp)
   const skillUnlocks = applySkillUnlocks(save)
+  const statPointsGained = grantLevelStatPoints(save, levelBefore)
 
   for (const [currency, amount] of Object.entries(reward.currencies)) {
     save.progression.currencies[currency] = (save.progression.currencies[currency] ?? 0) + amount
@@ -149,6 +187,7 @@ export function applyBattleRewards(save, { result, monster_id }) {
     levelBefore,
     levelAfter: save.progression.level,
     levelUp: save.progression.level > levelBefore,
+    statPointsGained,
     skillUnlocks,
     notes: reward.notes,
   }
@@ -167,11 +206,41 @@ export function nextLevelThreshold(level) {
 
 export function playerStatsForProgression(progression, equipmentStats = {}) {
   const levelBonus = Math.max(0, (progression?.level ?? 1) - 1)
+  const allocated = progression?.allocated_stats ?? {}
   return {
-    maxHp: 96 + levelBonus * 10 + (equipmentStats.maxHp ?? 0),
-    attack: 17 + levelBonus * 2 + (equipmentStats.attack ?? 0),
-    defense: 8 + levelBonus + (equipmentStats.defense ?? 0),
-    speed: 10 + (equipmentStats.speed ?? 0),
+    maxHp: 96 + levelBonus * 10 + (allocated.maxHp ?? 0) * PLAYER_STAT_POINT_VALUES.maxHp + (equipmentStats.maxHp ?? 0),
+    attack: 17 + levelBonus * 2 + (allocated.attack ?? 0) * PLAYER_STAT_POINT_VALUES.attack + (equipmentStats.attack ?? 0),
+    defense: 8 + levelBonus + (allocated.defense ?? 0) * PLAYER_STAT_POINT_VALUES.defense + (equipmentStats.defense ?? 0),
+    speed: 10 + (allocated.speed ?? 0) * PLAYER_STAT_POINT_VALUES.speed + (equipmentStats.speed ?? 0),
+  }
+}
+
+export function grantLevelStatPoints(save, previousLevel) {
+  const levelsGained = Math.max(0, save.progression.level - previousLevel)
+  if (levelsGained <= 0) return 0
+  const points = levelsGained * STAT_POINT_GRANTS_PER_LEVEL
+  save.progression.stat_points = (save.progression.stat_points ?? 0) + points
+  save.progression.allocated_stats ??= { maxHp: 0, attack: 0, defense: 0, speed: 0 }
+  return points
+}
+
+export function allocatePlayerStat(save, stat) {
+  if (!Object.hasOwn(PLAYER_STAT_POINT_VALUES, stat)) return { ok: false, message: 'Unknown stat.' }
+  if ((save.progression.stat_points ?? 0) <= 0) return { ok: false, message: 'No stat points available.' }
+  save.progression.allocated_stats ??= { maxHp: 0, attack: 0, defense: 0, speed: 0 }
+  save.progression.allocated_stats[stat] = (save.progression.allocated_stats[stat] ?? 0) + 1
+  save.progression.stat_points -= 1
+  const label = stat === 'maxHp' ? 'HP' : stat.toUpperCase()
+  const value = PLAYER_STAT_POINT_VALUES[stat]
+  return { ok: true, message: `${label} increased by ${value}.` }
+}
+
+function fieldReward(xp, pilak, itemId, notes) {
+  return {
+    xp,
+    currencies: { pilak },
+    itemRewards: [{ id: itemId, quantity: 1 }],
+    notes,
   }
 }
 

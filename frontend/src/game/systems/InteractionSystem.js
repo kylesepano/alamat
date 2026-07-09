@@ -67,8 +67,6 @@ export class InteractionSystem {
     let nearestDistance = Infinity
     for (const object of this.objects) {
       const distance = Phaser.Math.Distance.Between(player.x, player.y, object.sprite.x, object.sprite.y)
-      const hoverScale = distance < 70 ? 1.12 : 1
-      object.sprite.setDisplaySize(object.sprite.baseDisplayWidth * hoverScale, object.sprite.baseDisplayHeight * hoverScale)
       if (distance < 76 && distance < nearestDistance) {
         nearest = object
         nearestDistance = distance
@@ -92,6 +90,7 @@ function colorFor(type) {
     transition: 0xffffff,
     encounter: 0xc97a45,
     boss: 0xbd4c5f,
+    ambient: 0x82a7a6,
   }[type] ?? 0xffffff
 }
 
@@ -103,5 +102,6 @@ function labelFor(type) {
     transition: 'Go',
     encounter: 'Wild',
     boss: 'Boss',
+    ambient: 'Inspect',
   }[type] ?? 'Use'
 }

@@ -1,6 +1,6 @@
 import Phaser from 'phaser'
 import { gameBridge } from '../bridges/ReactPhaserBridge'
-import { PLAYER_ASSET_KEY, assetByKey, battleAssetKeyForActor, battleAttackAnimationKey, battleIdleAnimationKey, spriteIdleFrame, spriteWalkAnimationKey, vfxAnimationKey } from '../data/verticalSliceAssets'
+import { PLAYER_ASSET_KEY, assetByKey, battleAssetKeyForActor, battleAttackAnimationKey, battleBackgroundAssetKey, battleBackgroundOverlayPath, battleIdleAnimationKey, spriteIdleFrame, spriteWalkAnimationKey, vfxAnimationKey } from '../data/verticalSliceAssets'
 import { battleForMonster } from '../data/verticalSliceBattles'
 import { skillById, skillMotionType, skillVfxAssetKey } from '../data/combatRuntimeData'
 import { BattleRuntime } from '../systems/BattleRuntime'
@@ -35,8 +35,14 @@ export class BattleScene extends Phaser.Scene {
 
   drawArena() {
     this.add.rectangle(480, 320, 960, 640, 0x11180f)
-    this.add.rectangle(480, 320, 880, 520, 0x263447, 0.65).setStrokeStyle(2, 0xd8b765, 0.35)
-    this.add.rectangle(480, 405, 780, 140, 0x1f2718, 0.8)
+    const backgroundKey = battleBackgroundAssetKey(this.worldLocationId)
+    if (this.textures.exists(backgroundKey)) {
+      this.add.image(480, 320, backgroundKey).setDisplaySize(880, 520).setAlpha(0.82)
+      this.addBattleBackgroundOverlay()
+      this.add.rectangle(480, 320, 880, 520).setFillStyle(0x000000, 0).setStrokeStyle(2, 0xd8b765, 0.35)
+    } else {
+      this.add.rectangle(480, 320, 880, 520, 0x263447, 0.65).setStrokeStyle(2, 0xd8b765, 0.35)
+    }
     this.add.text(48, 36, this.monster.battleType === 'boss' ? 'Shrine Battle' : 'Wild Encounter', {
       fontFamily: 'Arial',
       fontSize: '18px',
@@ -49,17 +55,17 @@ export class BattleScene extends Phaser.Scene {
       color: '#fff6df',
     })
 
-    this.playerSprite = this.createBattleActorSprite(250, 365, PLAYER_ASSET_KEY, 'right', 1.8)
+    this.playerSprite = this.createBattleActorSprite(250, 365, PLAYER_ASSET_KEY, 'right')
 
     if (this.companion) {
-      this.companionSprite = this.createBattleActorSprite(170, 300, this.companion.assetKey, 'right', 1.35)
+      this.companionSprite = this.createBattleActorSprite(170, 300, this.companion.assetKey, 'right', this.companion.battleScale ?? 0.9)
     }
 
     const enemyPositions = this.monsters.length > 1
       ? [{ x: 650, y: 240 }, { x: 760, y: 315 }]
       : [{ x: 690, y: 265 }]
     this.enemySprites = this.monsters.map((monster, index) => {
-      const sprite = this.createBattleActorSprite(enemyPositions[index].x, enemyPositions[index].y, monster.assetKey, 'left', 2)
+      const sprite = this.createBattleActorSprite(enemyPositions[index].x, enemyPositions[index].y, monster.assetKey, 'left', monster.battleScale ?? 1)
       sprite.setDepth(5 + index)
       return sprite
     })
@@ -83,6 +89,24 @@ export class BattleScene extends Phaser.Scene {
     this.refreshArena()
   }
 
+  addBattleBackgroundOverlay() {
+    const overlayPath = battleBackgroundOverlayPath(this.worldLocationId)
+    if (!overlayPath || !this.add.dom) return
+
+    const overlay = document.createElement('img')
+    overlay.src = overlayPath
+    overlay.alt = ''
+    overlay.draggable = false
+    overlay.style.width = '880px'
+    overlay.style.height = '520px'
+    overlay.style.objectFit = 'cover'
+    overlay.style.pointerEvents = 'none'
+    overlay.style.userSelect = 'none'
+    overlay.style.opacity = '0.9'
+
+    this.add.dom(480, 320, overlay).setDepth(1)
+  }
+
   createBattleActorSprite(x, y, assetKey, direction, scale = 1) {
     const battleKey = battleAssetKeyForActor(assetKey)
     const battleAsset = battleKey ? assetByKey(battleKey) : null
@@ -90,6 +114,7 @@ export class BattleScene extends Phaser.Scene {
       const sprite = this.add.sprite(x, y, battleKey, 0)
         .setDisplaySize(battleAsset.displayWidth * scale, battleAsset.displayHeight * scale)
         .setDepth(5)
+      sprite.setFlipX(Boolean(battleAsset.nativeFacing && battleAsset.nativeFacing !== direction))
       sprite.anims.play(battleIdleAnimationKey(battleKey), true)
       sprite.setData('battleAssetKey', battleKey)
       return sprite
@@ -109,11 +134,16 @@ export class BattleScene extends Phaser.Scene {
     let actionTargetSprite = null
     if (this.state.turn === 'player') {
       if (action?.startsWith('skill:')) {
-        const [, selectedSkillId, targetEnemyId = null] = action.split(':')
+        const [, selectedSkillId, targetId = null] = action.split(':')
+        const skill = skillById(selectedSkillId)
         actorKey = 'player'
         skillId = selectedSkillId
-        actionTargetSprite = this.targetEnemySprite(targetEnemyId)
-        BattleRuntime.playerSkill(this.state, skillId, targetEnemyId)
+        actionTargetSprite = skill.targetType === 'Self'
+          ? this.playerSprite
+          : skill.targetType === 'Ally'
+            ? this.friendlyTargetSprite(targetId, 'player')
+            : this.targetEnemySprite(targetId)
+        BattleRuntime.playerSkill(this.state, skillId, targetId)
       }
       if (action?.startsWith('item:')) {
         const [, itemId, targetId = 'player'] = action.split(':')
@@ -123,11 +153,16 @@ export class BattleScene extends Phaser.Scene {
       if (action === 'flee') BattleRuntime.playerFlee(this.state, this.monster.fleeBlocked)
     } else if (this.state.turn === 'companion') {
       if (action?.startsWith('companion-skill:')) {
-        const [, selectedSkillId, targetEnemyId = null] = action.split(':')
+        const [, selectedSkillId, targetId = null] = action.split(':')
+        const skill = skillById(selectedSkillId)
         actorKey = 'companion'
         skillId = selectedSkillId
-        actionTargetSprite = this.targetEnemySprite(targetEnemyId)
-        BattleRuntime.companionSkill(this.state, skillId, targetEnemyId)
+        actionTargetSprite = skill.targetType === 'Ally'
+          ? this.friendlyTargetSprite(targetId, 'companion')
+          : skill.targetType === 'Self'
+            ? this.companionSprite
+            : this.targetEnemySprite(targetId)
+        BattleRuntime.companionSkill(this.state, skillId, targetId)
       }
     } else {
       return
@@ -234,6 +269,13 @@ export class BattleScene extends Phaser.Scene {
     return this.enemySprites[Math.max(0, index)] ?? this.enemySprite
   }
 
+  friendlyTargetSprite(targetId = null, actorKey = 'player') {
+    if (targetId === 'player') return this.playerSprite
+    if (targetId === 'companion' && this.companionSprite) return this.companionSprite
+    if (actorKey === 'companion') return this.playerSprite
+    return this.companionSprite ?? this.playerSprite
+  }
+
   animateEnemyPhase() {
     const enemies = this.state.enemies ?? [this.state.enemy]
     let delay = 0
@@ -276,10 +318,11 @@ export class BattleScene extends Phaser.Scene {
       this.animateProjectile(actorSprite, targetSprite, skillId, side)
       return
     }
-    this.playImpactVfx(skillId, actorSprite)
+    const supportSprite = targetSprite ?? actorSprite
+    this.playImpactVfx(skillId, supportSprite)
     this.tweens.add({
-      targets: actorSprite,
-      scale: actorSprite.scale * 1.08,
+      targets: supportSprite,
+      scale: supportSprite.scale * 1.08,
       duration: 300,
       yoyo: true,
       ease: 'Sine.easeInOut',

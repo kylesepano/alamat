@@ -10,8 +10,13 @@ export class CollisionSystem {
 
   build(map) {
     this.group.clear(true, true)
-    for (const tile of map.blocked) {
+    for (const tile of map.blocked ?? []) {
       const blocker = this.scene.add.rectangle(tile.x * TILE_SIZE + TILE_SIZE / 2, tile.y * TILE_SIZE + TILE_SIZE / 2, TILE_SIZE, TILE_SIZE, 0x000000, 0)
+      this.scene.physics.add.existing(blocker, true)
+      this.group.add(blocker)
+    }
+    for (const rect of map.blockedRects ?? []) {
+      const blocker = this.scene.add.rectangle(rect.x + rect.width / 2, rect.y + rect.height / 2, rect.width, rect.height, 0x000000, 0)
       this.scene.physics.add.existing(blocker, true)
       this.group.add(blocker)
     }
@@ -31,7 +36,8 @@ export class CollisionSystem {
     for (let x = 0; x <= map.width * TILE_SIZE; x += TILE_SIZE) this.debugGraphics.lineBetween(x, 0, x, map.height * TILE_SIZE)
     for (let y = 0; y <= map.height * TILE_SIZE; y += TILE_SIZE) this.debugGraphics.lineBetween(0, y, map.width * TILE_SIZE, y)
     this.debugGraphics.fillStyle(0xff4d4d, 0.22)
-    for (const tile of map.blocked) this.debugGraphics.fillRect(tile.x * TILE_SIZE, tile.y * TILE_SIZE, TILE_SIZE, TILE_SIZE)
+    for (const tile of map.blocked ?? []) this.debugGraphics.fillRect(tile.x * TILE_SIZE, tile.y * TILE_SIZE, TILE_SIZE, TILE_SIZE)
+    for (const rect of map.blockedRects ?? []) this.debugGraphics.fillRect(rect.x, rect.y, rect.width, rect.height)
     this.debugGraphics.setScrollFactor(1)
 
     if (map.width * TILE_SIZE < GAME_WIDTH || map.height * TILE_SIZE < GAME_HEIGHT) {

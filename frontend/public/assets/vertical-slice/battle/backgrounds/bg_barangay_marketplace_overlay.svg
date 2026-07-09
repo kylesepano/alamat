@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" fill="none">
+    <defs>
+        <linearGradient id="smokeGrad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#7A7A7A" stop-opacity="0.16" />
+            <stop offset="55%" stop-color="#8F857A" stop-opacity="0.10" />
+            <stop offset="100%" stop-color="#B29A74" stop-opacity="0" />
+        </linearGradient>
+        <radialGradient id="dustGrad" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#FFE5B2" stop-opacity="0.42" />
+            <stop offset="100%" stop-color="#FFE5B2" stop-opacity="0" />
+        </radialGradient>
+
+        <radialGradient id="glintGrad" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#FFF6CC" stop-opacity="0.65" />
+            <stop offset="55%" stop-color="#FFD98A" stop-opacity="0.22" />
+            <stop offset="100%" stop-color="#FFD98A" stop-opacity="0" />
+        </radialGradient>
+
+        <filter id="blurLarge" x="-40%" y="-40%" width="180%" height="180%">
+            <feGaussianBlur stdDeviation="18" />
+        </filter>
+
+        <filter id="blurMid" x="-40%" y="-40%" width="180%" height="180%">
+            <feGaussianBlur stdDeviation="8" />
+        </filter>
+
+        <filter id="blurSmall" x="-60%" y="-60%" width="220%" height="220%">
+            <feGaussianBlur stdDeviation="2.2" />
+        </filter>
+
+        <symbol id="spark" viewBox="-8 -8 16 16">
+            <path d="M0-5.2L0.9-0.9L5.2 0L0.9 0.9L0 5.2L-0.9 0.9L-5.2 0L-0.9-0.9Z" fill="#FFE7A8"
+                opacity="0.95" />
+        </symbol>
+    </defs>
+    <g id="forge-smoke-rear" opacity="0.55" filter="url(#blurLarge)">
+        <path
+            d="M160 360C122 323 122 265 161 230C189 205 235 206 257 240C275 267 268 307 236 333C214 351 189 360 160 360Z"
+            fill="url(#smokeGrad)">
+            <animateTransform attributeName="transform" type="translate"
+                values="0 0; 12 -24; -6 -42; 0 -58" dur="16s" repeatCount="indefinite" />
+            <animate attributeName="opacity" values="0.10;0.18;0.12;0.06" dur="16s"
+                repeatCount="indefinite" />
+        </path>
+        <path
+            d="M278 320C248 287 256 242 289 218C313 200 352 206 370 234C388 262 382 299 349 320C329 333 302 336 278 320Z"
+            fill="url(#smokeGrad)">
+            <animateTransform attributeName="transform" type="translate"
+                values="0 0; -10 -18; 9 -36; 0 -52" dur="18s" begin="2s" repeatCount="indefinite" />
+            <animate attributeName="opacity" values="0.08;0.16;0.12;0.05" dur="18s" begin="2s"
+                repeatCount="indefinite" />
+        </path>
+
+        <path
+            d="M928 346C894 312 893 258 932 227C960 205 1002 207 1024 236C1042 260 1039 296 1008 322C987 340 959 349 928 346Z"
+            fill="url(#smokeGrad)">
+            <animateTransform attributeName="transform" type="translate"
+                values="0 0; 8 -20; -7 -38; 0 -54" dur="17s" begin="1s" repeatCount="indefinite" />
+            <animate attributeName="opacity" values="0.09;0.17;0.12;0.05" dur="17s" begin="1s"
+                repeatCount="indefinite" />
+        </path>
+
+        <path
+            d="M1060 332C1034 303 1037 255 1069 231C1095 210 1133 215 1148 241C1163 268 1155 303 1126 324C1107 338 1083 340 1060 332Z"
+            fill="url(#smokeGrad)">
+            <animateTransform attributeName="transform" type="translate"
+                values="0 0; -12 -22; 6 -37; 0 -50" dur="19s" begin="3s" repeatCount="indefinite" />
+            <animate attributeName="opacity" values="0.07;0.15;0.11;0.04" dur="19s" begin="3s"
+                repeatCount="indefinite" />
+        </path>
+    </g>
+    <g id="soft-awning-glints" filter="url(#blurSmall)">
+        <ellipse cx="206" cy="170" rx="64" ry="18" fill="url(#glintGrad)" opacity="0.18">
+            <animate attributeName="opacity" values="0.06;0.18;0.08;0.16;0.06" dur="6.5s"
+                repeatCount="indefinite" />
+            <animateTransform attributeName="transform" type="translate" values="0 0; 10 -1; 0 0"
+                dur="8s" repeatCount="indefinite" />
+        </ellipse>
+        <ellipse cx="338" cy="152" rx="48" ry="14" fill="url(#glintGrad)" opacity="0.12">
+            <animate attributeName="opacity" values="0.04;0.12;0.05" dur="5.8s" begin="1.2s"
+                repeatCount="indefinite" />
+        </ellipse>
+
+        <ellipse cx="985" cy="168" rx="68" ry="19" fill="url(#glintGrad)" opacity="0.17">
+            <animate attributeName="opacity" values="0.06;0.17;0.08;0.15;0.06" dur="6.9s"
+                begin="0.8s" repeatCount="indefinite" />
+            <animateTransform attributeName="transform" type="translate" values="0 0; -9 -1; 0 0"
+                dur="8.4s" repeatCount="indefinite" />
+        </ellipse>
+
+        <ellipse cx="1118" cy="150" rx="46" ry="13" fill="url(#glintGrad)" opacity="0.11">
+            <animate attributeName="opacity" values="0.03;0.11;0.04" dur="5.6s" begin="2.1s"
+                repeatCount="indefinite" />
+        </ellipse>
+
+        <use href="#spark" x="258" y="182" width="12" height="12" opacity="0">
+            <animate attributeName="opacity" values="0;0.22;0" dur="4.8s" begin="0.7s"
+                repeatCount="indefinite" />
+            <animateTransform attributeName="transform" type="scale" values="1;1.08;1" dur="4.8s"
+                begin="0.7s" repeatCount="indefinite" />
+        </use>
+
+        <use href="#spark" x="1037" y="186" width="12" height="12" opacity="0">
+            <animate attributeName="opacity" values="0;0.2;0" dur="5.2s" begin="1.6s"
+                repeatCount="indefinite" />
+            <animateTransform attributeName="transform" type="scale" values="1;1.06;1" dur="5.2s"
+                begin="1.6s" repeatCount="indefinite" />
+        </use>
+    </g>
+    <g id="dust-motes" filter="url(#blurSmall)" opacity="0.62">
+        <circle cx="126" cy="102" r="2.2" fill="url(#dustGrad)">
+            <animate attributeName="opacity" values="0.04;0.16;0.05" dur="8.5s"
+                repeatCount="indefinite" />
+            <animateTransform attributeName="transform" type="translate" values="0 0; 10 14; 24 28"
+                dur="18s" repeatCount="indefinite" />
+        </circle>
+        <circle cx="292" cy="88" r="1.8" fill="url(#dustGrad)">
+            <animate attributeName="opacity" values="0.03;0.14;0.04" dur="7.8s" begin="1s"
+                repeatCount="indefinite" />
+            <animateTransform attributeName="transform" type="translate" values="0 0; -8 12; -18 26"
+                dur="17s" begin="1s" repeatCount="indefinite" />
+        </circle>
+
+        <circle cx="462" cy="128" r="2" fill="url(#dustGrad)">
+            <animate attributeName="opacity" values="0.02;0.13;0.03" dur="8.2s" begin="2s"
+                repeatCount="indefinite" />
+            <animateTransform attributeName="transform" type="translate" values="0 0; 8 16; 18 32"
+                dur="19s" begin="2s" repeatCount="indefinite" />
+        </circle>
+
+        <circle cx="608" cy="96" r="1.6" fill="url(#dustGrad)">
+            <animate attributeName="opacity" values="0.03;0.11;0.03" dur="7.4s" begin="0.4s"
+                repeatCount="indefinite" />
+            <animateTransform attributeName="transform" type="translate" values="0 0; -5 10; -14 22"
+                dur="16s" begin="0.4s" repeatCount="indefinite" />
+        </circle>
+
+        <circle cx="792" cy="116" r="1.9" fill="url(#dustGrad)">
+            <animate attributeName="opacity" values="0.03;0.13;0.04" dur="8.6s" begin="1.7s"
+                repeatCount="indefinite" />
+            <animateTransform attributeName="transform" type="translate" values="0 0; 7 12; 16 26"
+                dur="18s" begin="1.7s" repeatCount="indefinite" />
+        </circle>
+
+        <circle cx="946" cy="92" r="2.3" fill="url(#dustGrad)">
+            <animate attributeName="opacity" values="0.04;0.17;0.05" dur="8.1s" begin="0.9s"
+                repeatCount="indefinite" />
+            <animateTransform attributeName="transform" type="translate" values="0 0; -6 13; -18 30"
+                dur="17.5s" begin="0.9s" repeatCount="indefinite" />
+        </circle>
+
+        <circle cx="1120" cy="122" r="1.7" fill="url(#dustGrad)">
+            <animate attributeName="opacity" values="0.03;0.12;0.03" dur="7.9s" begin="2.4s"
+                repeatCount="indefinite" />
+            <animateTransform attributeName="transform" type="translate" values="0 0; 9 14; 21 29"
+                dur="18.5s" begin="2.4s" repeatCount="indefinite" />
+        </circle>
+
+        <circle cx="1192" cy="98" r="1.5" fill="url(#dustGrad)">
+            <animate attributeName="opacity" values="0.02;0.10;0.02" dur="7.1s" begin="1.3s"
+                repeatCount="indefinite" />
+            <animateTransform attributeName="transform" type="translate" values="0 0; -7 10; -16 24"
+                dur="16.5s" begin="1.3s" repeatCount="indefinite" />
+        </circle>
+
+        <circle cx="96" cy="248" r="1.4" fill="url(#dustGrad)">
+            <animate attributeName="opacity" values="0.02;0.09;0.02" dur="9s" begin="0.6s"
+                repeatCount="indefinite" />
+            <animateTransform attributeName="transform" type="translate" values="0 0; 8 8; 18 18"
+                dur="20s" begin="0.6s" repeatCount="indefinite" />
+        </circle>
+
+        <circle cx="1178" cy="236" r="1.4" fill="url(#dustGrad)">
+            <animate attributeName="opacity" values="0.02;0.09;0.02" dur="9.4s" begin="1.8s"
+                repeatCount="indefinite" />
+            <animateTransform attributeName="transform" type="translate" values="0 0; -8 8; -18 18"
+                dur="20s" begin="1.8s" repeatCount="indefinite" />
+        </circle>
+    </g>
+    <g id="subtle-rear-haze" opacity="0.22" filter="url(#blurMid)">
+        <ellipse cx="230" cy="300" rx="120" ry="32" fill="#F7C97A">
+            <animate attributeName="opacity" values="0.10;0.22;0.12" dur="10s"
+                repeatCount="indefinite" />
+        </ellipse>
+        <ellipse cx="1048" cy="292" rx="126" ry="34" fill="#F7C97A">
+            <animate attributeName="opacity" values="0.09;0.21;0.11" dur="10.8s" begin="1.4s"
+                repeatCount="indefinite" />
+        </ellipse>
+    </g>
+</svg>

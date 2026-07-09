@@ -1,4 +1,7 @@
-# Vertical Slice Asset Prompts
+# Vertical Slice 1 Asset Prompts
+
+This document contains only the original ALAMAT vertical-slice assets for Barangay San Isidro,
+the Marketplace, Chapel Courtyard, Balete Forest, and Spirit Shrine Threshold.
 
 Use these prompts with your preferred image generation tool. Keep filenames stable so generated files can replace the placeholders in `frontend/public/assets/vertical-slice`.
 
@@ -66,6 +69,140 @@ Overworld movement sheets are still needed for the player and tameable Nilalang 
 - Keep full body inside each cell with at least 24px transparent padding
 - Do not include background, frame borders, labels, shadows crossing cells, or checkerboard patterns
 - Use this for player battle sprites and Nilalang battle sprites
+
+## Battle Background Standard
+
+Battle backgrounds are map-location-specific PNG images drawn behind battle actors and UI. They are not tilemaps and do not need collision.
+
+- File type: PNG
+- Exact canvas size: 1280x720 pixels
+- No text, logos, labels, UI, characters, Nilalang, items, or attack effects
+- Use side-facing 2.5D RPG battle backdrop perspective
+- Keep the lower third as a readable battle floor/platform
+- Keep contrast moderate so actors, HP bars, and skill VFX remain clear
+
+## Animated Battle Background Overlay Standard
+
+Use these SVG overlays on top of PNG battle backgrounds when the scene needs motion without replacing the painted background. The PNG remains the main art; the SVG adds subtle movement only.
+
+- File type: animated SVG
+- ViewBox/canvas: 1280x720
+- Transparent background
+- No raster embeds, no JavaScript, no CSS files, no text, no logos
+- Use only inline SVG shapes, gradients, filters, SMIL `animate`, and `animateTransform`
+- Keep animation subtle so it never competes with sprites, HP bars, skill VFX, or battle commands
+- Good animation elements: drifting mist, firefly glows, soft water shimmer, distant leaf movement, smoke wisps, spiritual motes
+- Bad animation elements: full-screen flashing, large moving objects, hard strobe effects, camera shake, readable symbols from real religions
+
+## battle_background_overlay_barangay
+
+- Type: `battle_background_overlay`
+- Source map: `WLOC000001`
+- Replace file: `frontend/public/assets/vertical-slice/battle/backgrounds/bg_barangay_encounter_overlay.svg`
+- Size target: animated SVG overlay, 1280x720 viewBox, transparent background
+
+```text
+Create an animated SVG overlay for an ALAMAT Barangay San Isidro battle background, 1280x720 viewBox, transparent background, no text, no logo, no raster images, no JavaScript, no external CSS. Use subtle SMIL animation only. Add gentle late-afternoon dust motes, soft leaf drift near the edges, and faint warm light shimmer close to the ground. Keep the center and lower battle floor readable for chibi battle sprites. Use respectful fictional Filipino fantasy village atmosphere. The overlay must be subtle and transparent, designed to sit over a painted PNG battle background.
+```
+
+## battle_background_overlay_marketplace
+
+- Type: `battle_background_overlay`
+- Source map: `WLOC000002`
+- Replace file: `frontend/public/assets/vertical-slice/battle/backgrounds/bg_barangay_marketplace_overlay.svg`
+- Size target: animated SVG overlay, 1280x720 viewBox, transparent background
+
+```text
+Create an animated SVG overlay for an ALAMAT Barangay Marketplace battle background, 1280x720 viewBox, transparent background, no text, no logo, no raster images, no JavaScript, no external CSS. Use subtle SMIL animation only. Add slow forge smoke wisps in the rear, tiny floating dust motes, and soft warm glints near market awnings. Keep the battle floor clear and avoid busy motion near actors. Respectful fictional Filipino fantasy market mood. The overlay must be transparent and designed to sit over a painted PNG background.
+```
+
+## battle_background_overlay_chapel_courtyard
+
+- Type: `battle_background_overlay`
+- Source map: `WLOC000003`
+- Replace file: `frontend/public/assets/vertical-slice/battle/backgrounds/bg_chapel_courtyard_overlay.svg`
+- Size target: animated SVG overlay, 1280x720 viewBox, transparent background
+
+```text
+Create an animated SVG overlay for an ALAMAT Chapel Courtyard battle background, 1280x720 viewBox, transparent background, no text, no logo, no raster images, no JavaScript, no external CSS. Use subtle SMIL animation only. Add quiet floating pollen, barely moving woven banner hints at the far edges, and soft daylight motes. Keep the scene respectful and fictional, with mixed cultural influences but no real-world religious symbols. Keep the center and lower battle floor clear for sprites and VFX.
+```
+
+## battle_background_overlay_balete_forest
+
+- Type: `battle_background_overlay`
+- Source map: `WLOC000004`
+- Replace file: `frontend/public/assets/vertical-slice/battle/backgrounds/bg_balete_forest_overlay.svg`
+- Size target: animated SVG overlay, 1280x720 viewBox, transparent background
+
+```text
+Create an animated SVG overlay for an ALAMAT Balete Forest battle background, 1280x720 viewBox, transparent background, no text, no logo, no raster images, no JavaScript, no external CSS. Use subtle SMIL animation only. Add drifting mist, tiny firefly glow pulses, faint leaf movement at the top edges, and a soft humid forest shimmer. Keep the center and lower battle floor readable and do not obscure actors. Respectful fictional Philippine folklore-inspired forest mood, not horror.
+```
+
+## battle_background_overlay_spirit_shrine
+
+- Type: `battle_background_overlay`
+- Source map: `WLOC000009`
+- Replace file: `frontend/public/assets/vertical-slice/battle/backgrounds/bg_spirit_shrine_overlay.svg`
+- Size target: animated SVG overlay, 1280x720 viewBox, transparent background
+
+```text
+Create an animated SVG overlay for an ALAMAT Spirit Shrine Threshold battle background, 1280x720 viewBox, transparent background, no text, no logo, no raster images, no JavaScript, no external CSS. Use subtle SMIL animation only. Add slow blue-gold spirit motes, faint root glow pulses, and thin drifting mist. Keep all motion gentle and avoid real-world religious symbols. Leave the center and lower battle floor clear for large boss sprites, HP bars, and skill VFX. The overlay must be transparent and designed to sit over a painted PNG battle background.
+```
+
+## battle_background_barangay
+
+- Type: `battle_background`
+- Source map: `WLOC000001`
+- Replace file: `frontend/public/assets/vertical-slice/battle/backgrounds/bg_barangay_encounter.png`
+- Size target: PNG battle background, exact 1280x720 canvas
+
+```text
+Hand-painted HD 2D Filipino fantasy RPG battle background, PNG, 1280x720, no text, no logo, no characters, no UI, no enemies, no items. Create a Barangay San Isidro opening-village battle backdrop for ALAMAT. Side-facing 2.5D RPG battle perspective with a readable lower battle floor. Warm tropical village edge: packed earth, soft grass, woven fence hints, nipa-style roof silhouettes in the distance, gentle late-afternoon light. Respectful fictional Philippine fantasy tone, clean readable shapes, moderate contrast so chibi sprites and VFX stand out.
+```
+
+## battle_background_marketplace
+
+- Type: `battle_background`
+- Source map: `WLOC000002`
+- Replace file: `frontend/public/assets/vertical-slice/battle/backgrounds/bg_barangay_marketplace.png`
+- Size target: PNG battle background, exact 1280x720 canvas
+
+```text
+Hand-painted HD 2D Filipino fantasy RPG battle background, PNG, 1280x720, no text, no logo, no characters, no UI, no enemies, no items. Create a Barangay San Isidro marketplace battle backdrop for ALAMAT. Side-facing 2.5D RPG battle perspective with a readable lower packed-earth battle floor. Midground hints of woven awnings, forge smoke, baskets, crates, and market stalls, all softly pushed back so battle actors remain readable. Warm tropical village craft-market mood, respectful fictional Philippine fantasy tone, moderate contrast, no busy clutter in the combat floor.
+```
+
+## battle_background_chapel_courtyard
+
+- Type: `battle_background`
+- Source map: `WLOC000003`
+- Replace file: `frontend/public/assets/vertical-slice/battle/backgrounds/bg_chapel_courtyard.png`
+- Size target: PNG battle background, exact 1280x720 canvas
+
+```text
+Hand-painted HD 2D Filipino fantasy RPG battle background, PNG, 1280x720, no text, no logo, no characters, no UI, no enemies, no items. Create a respectful fictional chapel courtyard battle backdrop for ALAMAT. Side-facing 2.5D RPG battle perspective with a readable stone-and-earth lower battle floor. Midground garden edges, courtyard stones, woven banners, and quiet community architecture inspired by mixed historical influences without declaring any real religion as absolute truth. Gentle daylight, clean silhouettes, moderate contrast, leave clear space for sprites and VFX.
+```
+
+## battle_background_balete_forest
+
+- Type: `battle_background`
+- Source map: `WLOC000004`
+- Replace file: `frontend/public/assets/vertical-slice/battle/backgrounds/bg_balete_forest.png`
+- Size target: PNG battle background, exact 1280x720 canvas
+
+```text
+Hand-painted HD 2D Filipino fantasy RPG battle background, PNG, 1280x720, no text, no logo, no characters, no UI, no enemies, no items. Create a Balete Forest battle backdrop for ALAMAT. Side-facing 2.5D RPG battle perspective with a readable moss-and-root battle floor in the lower third. Large balete roots and layered forest silhouettes in the midground, firefly glimmers, dense leaves, humid green atmosphere, respectful fictional Philippine folklore inspiration. Keep contrast moderate and avoid hiding battle sprites.
+```
+
+## battle_background_spirit_shrine
+
+- Type: `battle_background`
+- Source map: `WLOC000009`
+- Replace file: `frontend/public/assets/vertical-slice/battle/backgrounds/bg_spirit_shrine.png`
+- Size target: PNG battle background, exact 1280x720 canvas
+
+```text
+Hand-painted HD 2D Filipino fantasy RPG battle background, PNG, 1280x720, no text, no logo, no characters, no UI, no enemies, no items. Create a fictional Spirit Shrine Threshold battle backdrop for ALAMAT. Side-facing 2.5D RPG battle perspective with a readable old stone-and-root battle floor in the lower third. Luminous roots, mist, woven banners, old stones, subtle blue-gold spiritual glow, respectful fantasy tone without portraying any real religion as absolute truth. Keep the boss arena readable and leave space for large enemy sprites.
+```
 
 ## Skill VFX Sprite Standard
 
@@ -158,6 +295,17 @@ Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspec
 Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspective, readable silhouette, warm tropical palette, respectful fictional Philippine folklore inspiration, no text, no logo. Create one exact PNG sprite sheet with transparent background. Canvas must be exactly 768x1024 pixels. Use a strict 3 columns x 4 rows grid, 12 frames total, each cell exactly 256x256 pixels. Row order must be: down/front, left, right, up/back. Column order must be: idle, walk-left-foot-forward, walk-right-foot-forward. The 2nd and 3rd columns must be clearly different walking poses, not duplicates. Keep the full body inside each 256x256 cell with padding on all sides and aligned feet. Do not include labels, frame borders, scenery, gradient backdrop, checkerboard, or painted background. Create an overworld chibi NPC sprite sheet for the Barangay Blacksmith. Practical forge apron, sturdy posture, small hammer or folded tool bundle, soot and brass accents, friendly craftsperson silhouette, transparent background.
 ```
 
+## npc_mon0040_umalagad_echo
+
+- Type: `npc_sprite`
+- Source: `MON0040`
+- Replace file: `frontend/public/assets/vertical-slice/npcs/npc_MON0040_umalagad_echo.png`
+- Size target: PNG sprite sheet, exact 768x1024 canvas, 12 frames, 3x4 grid, 256x256 per frame, transparent background
+
+```text
+Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspective, readable silhouette, warm tropical palette, respectful fictional Philippine folklore inspiration, no text, no logo. Create one exact PNG sprite sheet with transparent background. Canvas must be exactly 768x1024 pixels. Use a strict 3 columns x 4 rows grid, 12 frames total, each cell exactly 256x256 pixels. Row order must be: down/front, left, right, up/back. Column order must be: idle, walk-left-foot-forward, walk-right-foot-forward. The 2nd and 3rd columns must be clearly different walking poses, not duplicates. Keep the full body inside each 256x256 cell with padding on all sides and aligned feet. Do not include labels, frame borders, scenery, gradient backdrop, checkerboard, or painted background. Create an overworld chibi spirit-guide NPC sprite sheet for Umalagad Echo, a gentle ancestral echo at the Spirit Shrine Threshold. Ethereal blue-gold glow, woven spirit sash, translucent but readable body silhouette, calm guardian presence, respectful fictional Philippine fantasy tone, no horror tone, no real religious symbol, transparent background.
+```
+
 ## nilalang_mon0038_aghoy
 
 - Type: `nilalang_sprite`
@@ -206,11 +354,104 @@ Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspec
 
 - Type: `tileset`
 - Source: `WLOC000001`
+- Used by map: `WLOC000001`
 - Replace file: `frontend/public/assets/vertical-slice/tilesets/tileset_barangay_san_isidro.png`
 - Size target: PNG tileset, exact 960x960 canvas, 20 columns x 20 rows, 48x48 per tile, no text
 
 ```text
-Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspective, readable silhouette, warm tropical palette, respectful fictional Philippine folklore inspiration, no text, no logo. Create one exact PNG tileset with true transparent background where appropriate. Canvas must be exactly 960x960 pixels. Use a strict 20 columns x 20 rows grid, 400 tiles total, each tile exactly 48x48 pixels. Create the Barangay San Isidro vertical-slice tileset for ALAMAT. Include walkable grass, packed earth paths, village plaza ground, marketplace ground, chapel courtyard stones, rice field edge tiles, garden edge tiles, nipa-style house wall/roof tiles, barangay hall wall/roof tiles, market stall tiles, forge tiles, fences, water jars, small plants, and clear blocked obstacle tiles. Collision readability is required: walkable tiles must look open; blocked tiles must look solid. Do not include labels, UI markers, frame borders, logos, or baked-in characters.
+Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspective, readable silhouette, warm tropical palette, respectful fictional Philippine folklore inspiration, no text, no logo. Create one exact PNG tileset. Canvas must be exactly 960x960 pixels, not larger. Use a strict 20 columns x 20 rows grid, 400 tiles total, each tile exactly 48x48 pixels. Do not draw visible grid lines, gutters, white separators, black separators, tile borders, frame borders, or spacing between tiles; tiles must touch edge-to-edge cleanly for a game engine. Create the Barangay San Isidro opening-village tileset for ALAMAT. Include walkable grass, packed-earth village paths with straight/corner/T/intersection/end-cap variants, small plaza ground, rice field edge/corner/center tiles, garden edge/corner/center tiles, nipa-style house wall/roof/corner/door/window tiles, barangay hall wall/roof/corner/door/window tiles, water jars, small plants, and clear blocked obstacle tiles. Include a connected fence set: horizontal, vertical, top-left corner, top-right corner, bottom-left corner, bottom-right corner, T-junctions, gate, end-caps. Fence pieces must visually connect without gaps when placed on neighboring 48x48 tiles. Collision readability is required: walkable tiles must look open; blocked tiles must look solid. Do not include labels, UI markers, logos, or baked-in characters.
+```
+
+## Production Tileset Requirements
+
+Apply these requirements to every generated map tileset:
+
+- Exact `960x960` PNG only. The file must be exactly `960x960` pixels, exactly `20 columns x 20 rows`, exactly `48x48` per tile.
+- Do not output `1024x1024`, `1254x1254`, square contact sheets, preview boards, or any larger canvas. If the generator cannot produce exactly `960x960`, regenerate or crop before using it in the game.
+- No visible grid lines, no gutters, no separators, no borders, no labels, no UI, no characters.
+- Include full connected/autotile-style families for the dominant terrain types:
+    - center
+    - horizontal
+    - vertical
+    - top edge
+    - bottom edge
+    - left edge
+    - right edge
+    - four outer corners
+    - four inner corners
+    - T-junctions
+    - cross/intersection
+    - end-caps
+- Include transition tiles between major surfaces, such as grass-to-path, grass-to-stone, path-to-plaza, forest-floor-to-root, shrine-floor-to-root.
+- Include decorative overlays separate from base ground when possible: flowers, leaves, pebbles, cracks, moss, small grass tufts.
+- Include collision-readable object sets with complete connected pieces: fences, walls, root barriers, stone borders, counters, market stalls, building edges.
+- Keep tile families grouped together in predictable rows so Tiled/LDtk mapping is easier.
+- Do not make every tile highly detailed. Production tilesets need quiet filler tiles, edge tiles, and focal decorative tiles.
+- Avoid one-off random tiles that cannot connect cleanly to neighbors.
+
+## Production Map Layout Requirements
+
+Apply these requirements to every generated map JSON:
+
+- Use larger explorable maps, not tiny demo rooms.
+- Keep tile size `48x48`.
+- Use non-linear routes: loops, branches, bends, small clearings, side paths, optional corners, and short dead ends with rewards or lore.
+- Do not place important waypoints in a straight left-to-right line.
+- Do not place all characters, exits, shops, and quest objects on one horizontal road.
+- Put characters and interactables in `Objects`, `Transitions`, and `Encounters` object layers only. Do not bake characters, NPCs, Nilalang, labels, quest icons, or UI markers into tile layers.
+- Every important object must be reachable by at least two turns or a clear path, not placed inside collision.
+- Collision must be authored as object rectangles in the `Collision` object layer.
+- Use multiple visible tile layers: `Ground`, `Ground Detail`, `Path`, `Path Detail`, `Decor`, `Upper Decor`, then object layers.
+- Larger maps should include meaningful negative space, landmarks, and navigational rhythm, not dense random decoration everywhere.
+- Keep exits near believable edges, but vary their positions: corners, bends, gates, bridges, courtyards, forest openings, shrine thresholds.
+
+## tileset_barangay_marketplace
+
+- Type: `tileset`
+- Source: `WLOC000002`
+- Used by map: `WLOC000002`
+- Replace file: `frontend/public/assets/vertical-slice/tilesets/tileset_barangay_marketplace.png`
+- Size target: PNG tileset, exact 960x960 canvas, 20 columns x 20 rows, 48x48 per tile, no text
+
+```text
+Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspective, readable silhouette, warm tropical palette, respectful fictional Philippine folklore inspiration, no text, no logo. Create one exact production-level PNG tileset for Barangay San Isidro Marketplace. Canvas must be exactly 960x960 pixels, not larger. Use a strict 20 columns x 20 rows grid, 400 tiles total, each tile exactly 48x48 pixels. Do not draw visible grid lines, gutters, separators, tile borders, frame borders, or spacing between tiles; tiles must touch edge-to-edge cleanly for a game engine. Include packed earth market ground, worn path full connected set, stall floor full connected set, woven awning stall parts, counter/table full connected set, crate/barrel/sack clusters, forge floor, anvil, furnace, workbench, display racks, baskets, signs without text, and blocked stall/forge/object tiles. Include connected fence/rope/barrier pieces with horizontal, vertical, corners, T-junctions, gate, and end-caps that connect without gaps when placed next to each other. Include quiet filler tiles plus focal decorative tiles. Walkable tiles must look open; blocked tiles must look solid. No characters, UI, labels, logos, or baked-in NPCs.
+```
+
+## tileset_chapel_courtyard
+
+- Type: `tileset`
+- Source: `WLOC000003`
+- Used by map: `WLOC000003`
+- Replace file: `frontend/public/assets/vertical-slice/tilesets/tileset_chapel_courtyard.png`
+- Size target: PNG tileset, exact 960x960 canvas, 20 columns x 20 rows, 48x48 per tile, no text
+
+```text
+Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspective, readable silhouette, warm tropical palette, respectful fictional Philippine folklore inspiration, no text, no logo. Create one exact production-level PNG tileset for a respectful fictional Barangay Chapel Courtyard. Canvas must be exactly 960x960 pixels, not larger. Use a strict 20 columns x 20 rows grid, 400 tiles total, each tile exactly 48x48 pixels. Do not draw visible grid lines, gutters, separators, tile borders, frame borders, or spacing between tiles; tiles must touch edge-to-edge cleanly for a game engine. Include courtyard grass, stone path full connected set, chapel/courtyard building wall/roof/corner/door/window tiles, garden edge/corner/center tiles, small non-specific community shrine/courtyard ornament tiles, benches, flower beds, woven banners, low stone borders, and blocked building/garden/object tiles. Include connected low fence/stone border pieces with horizontal, vertical, corners, T-junctions, gate, and end-caps that connect without gaps. Include quiet filler tiles plus focal decorative tiles. Use mixed cultural influences respectfully without declaring any real religion as absolute truth. No characters, UI, labels, logos, or baked-in NPCs.
+```
+
+## tileset_balete_forest
+
+- Type: `tileset`
+- Source: `WLOC000004`
+- Used by map: `WLOC000004`
+- Replace file: `frontend/public/assets/vertical-slice/tilesets/tileset_balete_forest.png`
+- Size target: PNG tileset, exact 960x960 canvas, 20 columns x 20 rows, per tile, no text
+  48x48
+
+```text
+Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspective, readable silhouette, warm tropical palette, respectful fictional Philippine folklore inspiration, no text, no logo. Create one exact production-level PNG tileset. Canvas must be exactly 960x960 pixels, not larger. Use a strict 20 columns x 20 rows grid, 400 tiles total, each tile exactly 48x48 pixels. Do not draw visible grid lines, gutters, white separators, black separators, tile borders, frame borders, or spacing between tiles; tiles must touch edge-to-edge cleanly for a game engine. Create the Balete Forest vertical-slice tileset for ALAMAT. Include walkable moss floor, leaf floor, narrow root path full connected set, firefly clearing floor, riverbank edge/corner/inner-corner tiles, balete root wall full connected set, balete trunk pieces, bamboo thicket connected pieces, rocks, dense shrubs, hidden item spot tiles, and blocked root/thicket obstacle tiles. Include quiet filler tiles plus focal decorative tiles. Collision readability is required: walkable forest paths must look open; blocked roots, trunks, rocks, and thickets must look solid. Do not include labels, UI markers, logos, or baked-in characters.
+```
+
+## tileset_spirit_shrine
+
+- Type: `tileset`
+- Source: `WLOC000009`
+- Used by map: `WLOC000009`
+- Replace file: `frontend/public/assets/vertical-slice/tilesets/tileset_spirit_shrine.png`
+- Size target: PNG tileset, exact 960x960 canvas, 20 columns x 20 rows, 48x48 per tile, no text
+
+```text
+Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspective, readable silhouette, warm tropical palette, respectful fictional Philippine folklore inspiration, no text, no logo. Create one exact production-level PNG tileset. Canvas must be exactly 960x960 pixels, not larger. Use a strict 20 columns x 20 rows grid, 400 tiles total, each tile exactly 48x48 pixels. Do not draw visible grid lines, gutters, white separators, black separators, tile borders, frame borders, or spacing between tiles; tiles must touch edge-to-edge cleanly for a game engine. Create the fictional Spirit Shrine Threshold vertical-slice tileset for ALAMAT. Include walkable stone floor full connected set, shrine path full connected set, mist floor, luminous root floor, boss arena floor, shrine platform edge/corner/center tiles, offering spot tiles, woven banner details, ancient root barrier full connected set, side stones, spirit-lit stones, and blocked shrine structure tiles. Include quiet filler tiles plus focal decorative tiles. Keep the fantasy spiritual tone respectful and fictional; do not portray any real religion as absolute truth. Collision readability is required: walkable shrine floor must look open; blocked shrine structures, stones, and root barriers must look solid. Do not include labels, UI markers, logos, or baked-in characters.
 ```
 
 ## Collision-First Map Asset Workflow
@@ -239,24 +480,31 @@ Output a collision-aware Tiled-style JSON draft and a concise tile legend.
 Rules:
 - Tile size: 48x48 pixels.
 - Use integer tile coordinates only.
-- Use separate layers named Ground, Path, Decor, Collision, Objects, Transitions, Encounters.
-- Collision must match the blocked rectangles exactly.
-- Objects must use the exact coordinates provided.
-- Do not invent extra NPCs, exits, bosses, shops, save points, or quest objects.
+- Use larger explorable maps. Do not make a tiny test room.
+- Use separate tile layers named Ground, Ground Detail, Path, Path Detail, Decor, Upper Decor.
+- Use separate object layers named Collision, Objects, Transitions, Encounters.
+- Place NPCs, Nilalang, items, save points, shops, bosses, and quest interactables only in object layers.
+- Do not bake characters, labels, quest icons, UI markers, or dialogue markers into tile layers.
+- Collision must match blocked structures, walls, fences, thick roots, buildings, water, rocks, and major props.
+- Objects must use the exact important story roles provided, but their coordinates should be placed dynamically within the larger map.
+- Do not invent extra named NPCs, bosses, shops, save points, or quest-critical objects.
 - Do not place visual obstacles on walkable tiles.
 - Do not place walkable-looking paths on blocked tiles.
 - Keep all NPCs, items, transitions, save points, and encounters reachable.
-- Treat the current blockout as the gameplay source of truth.
+- Important waypoints must not form a straight left-to-right line.
+- Use loops, side paths, bends, landmarks, courtyards, gates, forest clearings, shrine thresholds, and optional pockets.
+- Place transitions near believable edges, but vary them by map: corners, gates, forest openings, bridges, side paths, or shrine thresholds.
+- Treat the map spec as the gameplay source of truth.
 - Return JSON that is easy to import or convert into Tiled/Phaser.
 
 Return:
 1. Tile legend with tile IDs and meanings.
-2. Tiled-style JSON draft with width, height, tilewidth, tileheight, layers, objects, collision rectangles, and map properties.
+2. Tiled-style JSON draft with width, height, tilewidth, tileheight, tile layers, object layers, collision rectangles, and map properties.
 3. A short validation checklist listing all reachable objects and all blocked rectangles.
 4. Any assumptions made.
 
 Map spec:
-[PASTE ONE CURRENT BLOCKOUT COLLISION SPEC HERE]
+[PASTE ONE EXPANDED MAP SPEC HERE]
 ```
 
 ## Current Vertical Slice Map Plan
@@ -271,6 +519,21 @@ These are the five maps that exist in the first playable vertical stage right no
 
 Map art should support this exact flow: safe village learning, marketplace preparation, chapel/cultural context, forest danger, shrine boss.
 
+## Vertical Slice Map Generation Order
+
+Generate map assets in this order:
+
+1. `tileset_barangay_san_isidro.png`
+2. `tileset_barangay_marketplace.png`
+3. `tileset_chapel_courtyard.png`
+4. `tileset_balete_forest.png`
+5. `tileset_spirit_shrine.png`
+6. Expanded map JSON drafts for `WLOC000001`, `WLOC000002`, `WLOC000003`, `WLOC000004`, and `WLOC000009`
+7. Map preview PNGs for the same five maps
+8. Battle background PNGs and animated SVG overlays for the same five maps
+
+Playable collision should come from the map JSON or the existing map data, not from the preview PNG.
+
 ## Collision-Aware Tileset Prompt Add-On
 
 Add this paragraph to any tileset prompt when generating production-ready map art:
@@ -279,97 +542,305 @@ Add this paragraph to any tileset prompt when generating production-ready map ar
 Design every tile so collision is visually obvious. Walkable tiles must read as open ground, paths, floor, shallow grass, bridge surface, or shrine floor. Blocked tiles must read as solid obstacles such as house walls, tree trunks, thick roots, cliffs, fences, market stalls, stone monuments, deep water, dense bamboo, large rocks, or shrine structures. Include clear edge and corner tiles so blocked rectangles can be assembled cleanly on a 48x48 grid. Do not place important visual obstacles inside walkable ground tiles. Do not create decorative clutter that looks blocked unless it is intended to be a blocked tile.
 ```
 
-## Current Blockout Collision Specs
+## Expanded Map Specs
 
-These specs reflect the current playable vertical-slice maps in `frontend/src/game/data/verticalSliceMaps.js`. Use them when generating map mockups, Tiled references, or collision-aware tilesets.
+These specs define the next larger playable vertical-slice maps. Use them when generating map JSON drafts, Tiled references, or LDtk layouts. They intentionally replace the smaller blockout dimensions.
 
 ### WLOC000001 Barangay San Isidro
 
-- Grid: 22 columns x 15 rows
+- Type: `map_json`
+- Source: `WLOC000001`
+- Map name: `Barangay San Isidro`
+- Replace file: `frontend/public/data/maps/WLOC000001_barangay_san_isidro.json`
+- Grid: 40 columns x 30 rows
 - Tile size: 48x48
 - Safe zone: yes
 - Tileset: barangay
-- Blocked: map border, houses at `(4,3)` size `3x2`, barangay hall at `(13,3)` size `4x2`, rice field at `(8,11)` size `7x2`, garden/yard at `(1,9)` size `3x3`
-- Objects: Balon Deepwell `(2,2)`, Datu Magsalin `(7,6)`, Lira Lakandula `(11,8)`, Healing Herb `(15,10)`, Marketplace transition `(18,7)`
+- Required object-layer characters/interactables: Balon Deepwell, Datu Magsalin, Lira Lakandula, Healing Herb, Marketplace transition
+- Layout direction: opening village hub with branching paths, small homes, rice field, garden, barangay hall, Balon corner, and at least one optional side path
 
 ```text
-Create a collision-aware Tiled/Phaser map draft for Barangay San Isidro, 22 tiles wide by 15 tiles high, tile size 48x48. This is the opening safe zone. Keep all border tiles blocked. Show blocked structures exactly in these rectangles: houses at x4 y3 width3 height2, barangay hall at x13 y3 width4 height2, rice field at x8 y11 width7 height2, garden or yard at x1 y9 width3 height3. Keep walkable paths between Balon Deepwell save/spawn point at x2 y2, Datu Magsalin at x7 y6, Lira Lakandula at x11 y8, Healing Herb item at x15 y10, and Marketplace transition at x18 y7. Use barangay tiles: grass, packed-earth path, house walls/roofs, barangay hall, rice, garden, fences, water jar accents. The visual layout must clearly distinguish blocked buildings/fields from walkable paths. Do not add labels, text, UI markers, extra NPCs, or extra exits.
+Create a collision-aware Tiled/Phaser map JSON for Barangay San Isidro, 40 tiles wide by 30 tiles high, tile size 48x48. This is the opening safe zone and should feel like a real explorable village, not a small test room. Use tile layers named Ground, Ground Detail, Path, Path Detail, Decor, Upper Decor, and object layers named Collision, Objects, Transitions, Encounters. Place characters and interactables only in object layers, not baked into tile art. Required objects: Balon Deepwell save/spawn point, Datu Magsalin, Lira Lakandula, Healing Herb pickup, Marketplace transition. Do not place these in a straight left-to-right line. Use a looping village path with branches: one branch to the Balon, one to the barangay hall/Datu, one to Lira near a quiet garden, one to the rice field/herb, and one to the marketplace gate. Include collision rectangles for houses, barangay hall, fences, rice field edges, garden borders, water jars/large props, and map borders. Keep all required objects reachable and leave enough open walkable space for movement and companion following. No labels, no UI markers, no baked-in characters.
+```
+
+## map_preview_barangay_san_isidro
+
+- Type: `map_preview`
+- Source: `WLOC000001`
+- Map name: `Barangay San Isidro`
+- Replace file: `frontend/public/assets/vertical-slice/maps/preview_barangay_san_isidro.png`
+- Size target: PNG map preview, exact 1920x1440 canvas, 40 columns x 30 rows, 48x48 per tile, no text
+
+```text
+Create a top-down map preview for Barangay San Isidro, exact 1920x1440 pixels, 40x30 tiles at 48x48 scale. Show an explorable village layout with branching paths, houses, barangay hall, rice field, garden, Balon area, and marketplace gate. No labels, no UI, no characters, no NPCs, no enemies, no quest icons.
 ```
 
 ### WLOC000002 Barangay Marketplace
 
-- Grid: 22 columns x 15 rows
+- Type: `map_json`
+- Source: `WLOC000002`
+- Map name: `Barangay Marketplace`
+- Replace file: `frontend/public/data/maps/WLOC000002_barangay_marketplace.json`
+- Grid: 38 columns x 28 rows
 - Tile size: 48x48
 - Safe zone: yes
-- Tileset: barangay
-- Blocked: map border, stall at `(6,4)` size `3x2`, forge at `(12,4)` size `3x2`, market table row at `(6,10)` size `9x1`
-- Objects: General Store `(5,7)`, Blacksmith `(15,7)`, Barangay transition `(2,7)`, Chapel Courtyard transition `(19,7)`
+- Tileset: marketplace
+- Required object-layer characters/interactables: General Store, Blacksmith, Barangay transition, Chapel Courtyard transition
+- Layout direction: preparation hub with market aisles, forge area, shop stall area, side storage pockets, and angled/branching paths
 
 ```text
-Create a collision-aware Tiled/Phaser map draft for the Barangay San Isidro marketplace, 22 tiles wide by 15 tiles high, tile size 48x48. This is the preparation hub with shop and crafting. Keep all border tiles blocked. Show blocked market structures exactly in these rectangles: market stall at x6 y4 width3 height2, forge at x12 y4 width3 height2, long table row at x6 y10 width9 height1. Keep walkable paths between General Store NPC/shop at x5 y7, Blacksmith NPC/crafting station at x15 y7, Barangay transition at x2 y7, and Chapel Courtyard transition at x19 y7. Use barangay marketplace tiles: packed earth, stall counters, forge floor, workbench details, crates, woven awnings, open market paths. Make blocked stalls visually solid and walkable market ground visually open. Do not add labels, text, UI markers, extra NPCs, or extra exits.
+Create a collision-aware Tiled/Phaser map JSON for Barangay Marketplace, 38 tiles wide by 28 tiles high, tile size 48x48. This is a preparation hub with shop and crafting. Use tile layers named Ground, Ground Detail, Path, Path Detail, Decor, Upper Decor, and object layers named Collision, Objects, Transitions, Encounters. Place General Store and Blacksmith as object-layer NPC/shop/crafting entries, not baked into the art. Do not arrange the shop, blacksmith, and exits on one horizontal line. Build a market with branching aisles, stall rows, a forge/workbench area, crate pockets, and at least one curved or L-shaped route between exits. Barangay transition should feel like a village road/gate. Chapel Courtyard transition should be at a different edge or corner, not directly opposite in a straight line. Add collision rectangles for stalls, forge, tables, crates, counters, fences/barriers, and map borders. Keep all shop/crafting/exits reachable. No labels, no UI markers, no baked-in characters.
+```
+
+## map_preview_barangay_marketplace
+
+- Type: `map_preview`
+- Source: `WLOC000002`
+- Map name: `Barangay Marketplace`
+- Replace file: `frontend/public/assets/vertical-slice/maps/preview_barangay_marketplace.png`
+- Size target: PNG map preview, exact 1824x1344 canvas, 38 columns x 28 rows, 48x48 per tile, no text
+
+```text
+Create a top-down map preview for Barangay Marketplace, exact 1824x1344 pixels, 38x28 tiles at 48x48 scale. Show a lively but readable marketplace with branching aisles, store stall, blacksmith forge, crates, counters, and two exits at different edges. No labels, no UI, no characters, no NPCs.
 ```
 
 ### WLOC000003 Chapel Courtyard
 
-- Grid: 22 columns x 15 rows
+- Type: `map_json`
+- Source: `WLOC000003`
+- Map name: `Chapel Courtyard`
+- Replace file: `frontend/public/data/maps/WLOC000003_chapel_courtyard.json`
+- Grid: 38 columns x 28 rows
 - Tile size: 48x48
 - Safe zone: yes
-- Tileset: barangay
-- Blocked: map border, chapel at `(9,3)` size `5x4`, garden at `(4,10)` size `3x2`, courtyard structure at `(16,10)` size `2x2`
-- Objects: Mayumi Bagwis `(7,8)`, Babaylan Lira Dalisay `(15,8)`, Marketplace transition `(2,7)`, Balete Forest transition `(19,7)`
+- Tileset: chapel
+- Required object-layer characters/interactables: Mayumi Bagwis, Babaylan Lira Dalisay, Courtyard Garden, Shared Lamps, Marketplace transition, Balete Forest transition
+- Layout direction: cultural courtyard with open plaza, garden pockets, quiet side paths, chapel/courtyard structure, and forest gate
 
 ```text
-Create a collision-aware Tiled/Phaser map draft for a multi-faith barangay chapel courtyard, 22 tiles wide by 15 tiles high, tile size 48x48. This is the cultural context map before the forest. Keep all border tiles blocked. Show blocked rectangles exactly: chapel/courtyard building at x9 y3 width5 height4, garden at x4 y10 width3 height2, small courtyard structure at x16 y10 width2 height2. Keep walkable paths between Mayumi Bagwis at x7 y8, Babaylan Lira Dalisay at x15 y8, Marketplace transition at x2 y7, and Balete Forest transition at x19 y7. Use respectful fictional courtyard tiles: stone path, garden edges, open plaza, small shrine/courtyard details, mixed cultural motifs without declaring one real religion as absolute truth. Do not add labels, text, UI markers, extra NPCs, or extra exits.
+Create a collision-aware Tiled/Phaser map JSON for Chapel Courtyard, 38 tiles wide by 28 tiles high, tile size 48x48. This is the cultural context map before Balete Forest. Use tile layers named Ground, Ground Detail, Path, Path Detail, Decor, Upper Decor, and object layers named Collision, Objects, Transitions, Encounters. Place Mayumi Bagwis and Babaylan Lira Dalisay as object-layer NPCs only. Place Courtyard Garden (`AMBIENT_CHAPEL_GARDEN`) and Shared Lamps (`AMBIENT_CHAPEL_LAMPS`) as reachable inspectable quest objects on walkable tiles adjacent to their visual features, never inside collision rectangles. Do not put characters, quest objects, or labels in tile art. Do not place both NPCs and both exits on one horizontal line. Use a central courtyard loop with side garden paths, a quiet chapel/courtyard structure, benches or low borders, and a forest gate/threshold on a different edge from the marketplace entrance. Use respectful fictional mixed cultural motifs without declaring any real religion as absolute truth. Add collision rectangles for buildings, garden borders, low stone borders, benches, courtyard ornaments, fences, and map borders. Keep all required objects reachable.
+```
+
+## map_preview_chapel_courtyard
+
+- Type: `map_preview`
+- Source: `WLOC000003`
+- Map name: `Chapel Courtyard`
+- Replace file: `frontend/public/assets/vertical-slice/maps/preview_chapel_courtyard.png`
+- Size target: PNG map preview, exact 1824x1344 canvas, 38 columns x 28 rows, 48x48 per tile, no text
+
+```text
+Create a top-down map preview for Chapel Courtyard, exact 1824x1344 pixels, 38x28 tiles at 48x48 scale. Show a central courtyard loop, garden side paths, quiet chapel/courtyard structure, cultural details, and forest threshold. No labels, no UI, no characters, no NPCs.
 ```
 
 ### WLOC000004 Balete Forest
 
-- Grid: 24 columns x 16 rows
+- Type: `map_json`
+- Source: `WLOC000004`
+- Map name: `Balete Forest`
+- Replace file: `frontend/public/data/maps/WLOC000004_balete_forest.json`
+- Grid: 56 columns x 42 rows
 - Tile size: 48x48
 - Safe zone: no
 - Random encounters: Duwende, Ungo, Aghoy
 - Tileset: forest
-- Blocked: map border, balete tree/root mass at `(7,3)` size `4x3`, roots at `(14,9)` size `5x2`, thicket at `(4,11)` size `3x2`, bamboo/tree column at `(18,3)` size `2x4`
-- Objects: Duwende tracks `(5,5)`, Ungo encounter `(12,11)`, Aghoy rustle `(17,6)`, Kidlat Balagtas `(4,8)`, Chapel transition `(2,7)`, Spirit Threshold transition `(21,8)`
+- Required object-layer characters/interactables: Duwende tracks, Ungo encounter, Aghoy rustle, Kidlat Balagtas, Aghoy Leaf Tracks, Damaged Roots, Chapel transition, Spirit Threshold transition
+- Layout direction: first danger zone with winding forest routes, clearings, loops, hidden pockets, and random encounter regions
 
 ```text
-Create a collision-aware Tiled/Phaser map draft for Balete Forest, 24 tiles wide by 16 tiles high, tile size 48x48. This is the first danger zone and supports random Nilalang encounters. Safe zone is false. Random encounter pool: Duwende, Ungo, Aghoy. Keep all border tiles blocked. Show blocked forest obstacles exactly in these rectangles: large balete tree and root mass at x7 y3 width4 height3, thick roots at x14 y9 width5 height2, thicket at x4 y11 width3 height2, bamboo or tree column at x18 y3 width2 height4. Keep walkable forest paths between Duwende tracks encounter at x5 y5, Ungo encounter at x12 y11, Aghoy rustle encounter at x17 y6, Kidlat Balagtas at x4 y8, Chapel transition at x2 y7, and Spirit Threshold transition at x21 y8. Use forest tiles: moss, roots, balete trunk, leaf floor, bamboo, rocks, firefly clearings, narrow paths. Make blocked roots and trunks visually obvious. Do not add labels, text, UI markers, extra NPCs, or extra exits.
+Create a collision-aware Tiled/Phaser map JSON for Balete Forest, 56 tiles wide by 42 tiles high, tile size 48x48. This is the first dangerous exploration zone and should feel much larger than the village maps. Use tile layers named Ground, Ground Detail, Path, Path Detail, Decor, Upper Decor, and object layers named Collision, Objects, Transitions, Encounters. Place Duwende tracks, Ungo encounter, Aghoy rustle, Kidlat Balagtas, Chapel transition, and Spirit Threshold transition as object-layer entries only. Place Aghoy Leaf Tracks (`AMBIENT_AGHOY_TRACKS`) and Damaged Roots (`AMBIENT_DAMAGED_ROOTS`) as reachable inspectable quest objects on walkable side paths. Do not bake characters, Nilalang, quest objects, labels, or quest markers into tile art. Do not place these waypoints in a straight line. Create winding forest paths with loops, side clearings, optional dead ends, dense root barriers, thickets, balete tree landmarks, bamboo columns, rocks, and at least three encounter zones. Put the Spirit Threshold transition deeper in the forest, requiring turns and exploration from the Chapel entrance. Add collision rectangles for trees, root walls, thickets, rocks, bamboo, water/deep terrain if used, and map borders. Keep all required objects reachable and leave enough path width for companion following.
+```
+
+## map_preview_balete_forest
+
+- Type: `map_preview`
+- Source: `WLOC000004`
+- Map name: `Balete Forest`
+- Replace file: `frontend/public/assets/vertical-slice/maps/preview_balete_forest.png`
+- Size target: PNG map preview, exact 2688x2016 canvas, 56 columns x 42 rows, 48x48 per tile, no text
+
+```text
+Create a top-down map preview for Balete Forest, exact 2688x2016 pixels, 56x42 tiles at 48x48 scale. Show winding forest routes, root barriers, balete landmarks, clearings, hidden pockets, and a deeper shrine threshold path. No labels, no UI, no characters, no NPCs, no Nilalang.
 ```
 
 ### WLOC000009 Spirit Shrine Threshold
 
-- Grid: 22 columns x 15 rows
+- Type: `map_json`
+- Source: `WLOC000009`
+- Map name: `Spirit Shrine Threshold`
+- Replace file: `frontend/public/data/maps/WLOC000009_spirit_shrine_threshold.json`
+- Grid: 44 columns x 34 rows
 - Tile size: 48x48
 - Safe zone: no
 - Random encounters: Duwende, Aghoy
 - Tileset: shrine
-- Blocked: map border, shrine at `(9,2)` size `4x3`, threshold platform at `(7,9)` size `8x2`, side stones at `(3,4)` size `2x2` and `(17,4)` size `2x2`
-- Objects: Shrine Balon `(3,11)`, Batibat presence `(11,7)`, Umalagad Echo `(16,10)`, Balete Forest transition `(2,8)`
+- Required object-layer characters/interactables: Shrine Balon, Batibat presence, Umalagad Echo, Balete Forest transition
+- Layout direction: boss approach with shrine forecourt, branching spiritual paths, side stones, root barriers, and a larger boss arena
 
 ```text
-Create a collision-aware Tiled/Phaser map draft for a fictional Spirit Shrine threshold, 22 tiles wide by 15 tiles high, tile size 48x48. This is the boss and post-boss bonding context map. Safe zone is false. Random encounter pool: Duwende, Aghoy. Keep all border tiles blocked. Show blocked shrine elements exactly in these rectangles: shrine structure at x9 y2 width4 height3, threshold platform or root barrier at x7 y9 width8 height2, side stone group at x3 y4 width2 height2, side stone group at x17 y4 width2 height2. Keep walkable paths between Shrine Balon save/revive point at x3 y11, Batibat boss presence at x11 y7, Umalagad Echo at x16 y10, and Balete Forest transition at x2 y8. Use shrine tiles: stone floor, mist, luminous roots, offering spots, woven banners, old root barriers, boss arena floor. Make boss arena space readable and keep blocked spiritual structures visually solid. Do not add labels, text, UI markers, extra NPCs, or extra exits.
+Create a collision-aware Tiled/Phaser map JSON for Spirit Shrine Threshold, 44 tiles wide by 34 tiles high, tile size 48x48. This is the boss and post-boss bonding context map. Use tile layers named Ground, Ground Detail, Path, Path Detail, Decor, Upper Decor, and object layers named Collision, Objects, Transitions, Encounters. Place Shrine Balon, Batibat presence, Umalagad Echo, and Balete Forest transition as object-layer entries only. Do not bake characters, boss, labels, or UI markers into tile art. Do not arrange the Balon, Batibat, Umalagad, and exit in a straight line. Create a shrine approach with a branching stone path, side spirit-stone pockets, root barriers, a readable boss arena, and at least one optional side route. Place Batibat in a large central or upper arena, Shrine Balon in a safe side pocket, Umalagad Echo in a separate post-boss-feeling side area, and the forest transition at an edge. Add collision rectangles for shrine structures, root barriers, side stones, altar-like fictional structures, cliffs/walls if used, and map borders. Keep the fantasy spiritual tone respectful and fictional; do not portray any real religion as absolute truth.
 ```
 
-## tileset_balete_forest
+## map_preview_spirit_shrine_threshold
 
-- Type: `tileset`
-- Source: `WLOC000004`
-- Replace file: `frontend/public/assets/vertical-slice/tilesets/tileset_balete_forest.png`
-- Size target: PNG tileset, exact 960x960 canvas, 20 columns x 20 rows, 48x48 per tile, no text
-
-```text
-Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspective, readable silhouette, warm tropical palette, respectful fictional Philippine folklore inspiration, no text, no logo. Create one exact PNG tileset with true transparent background where appropriate. Canvas must be exactly 960x960 pixels. Use a strict 20 columns x 20 rows grid, 400 tiles total, each tile exactly 48x48 pixels. Create the Balete Forest vertical-slice tileset for ALAMAT. Include walkable moss floor, leaf floor, narrow root paths, firefly clearing floor, riverbank edge tiles, balete root walls, balete trunk tiles, bamboo thickets, rocks, dense shrubs, hidden item spot tiles, and blocked root/thicket obstacle tiles. Collision readability is required: walkable forest paths must look open; blocked roots, trunks, rocks, and thickets must look solid. Do not include labels, UI markers, frame borders, logos, or baked-in characters.
-```
-
-## tileset_spirit_shrine
-
-- Type: `tileset`
+- Type: `map_preview`
 - Source: `WLOC000009`
-- Replace file: `frontend/public/assets/vertical-slice/tilesets/tileset_spirit_shrine.png`
-- Size target: PNG tileset, exact 960x960 canvas, 20 columns x 20 rows, 48x48 per tile, no text
+- Map name: `Spirit Shrine Threshold`
+- Replace file: `frontend/public/assets/vertical-slice/maps/preview_spirit_shrine_threshold.png`
+- Size target: PNG map preview, exact 2112x1632 canvas, 44 columns x 34 rows, 48x48 per tile, no text
 
 ```text
-Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspective, readable silhouette, warm tropical palette, respectful fictional Philippine folklore inspiration, no text, no logo. Create one exact PNG tileset with true transparent background where appropriate. Canvas must be exactly 960x960 pixels. Use a strict 20 columns x 20 rows grid, 400 tiles total, each tile exactly 48x48 pixels. Create the fictional Spirit Shrine Threshold vertical-slice tileset for ALAMAT. Include walkable stone floor, shrine path, mist floor, luminous root floor, boss arena floor, shrine platform tiles, offering spot tiles, woven banner details, ancient root barriers, side stones, spirit-lit stones, and blocked shrine structure tiles. Keep the fantasy spiritual tone respectful and fictional; do not portray any real religion as absolute truth. Collision readability is required: walkable shrine floor must look open; blocked shrine structures, stones, and root barriers must look solid. Do not include labels, UI markers, frame borders, logos, or baked-in characters.
+Create a top-down map preview for Spirit Shrine Threshold, exact 2112x1632 pixels, 44x34 tiles at 48x48 scale. Show a shrine approach, branching stone paths, side spirit-stone pockets, root barriers, boss arena, Balon side pocket, and forest exit. No labels, no UI, no characters, no boss sprite, no NPCs.
+```
+
+## npc_npc000002_lira_lakandula
+
+- Type: `npc_sprite`
+- Source: `NPC000002`
+- Replace file: `frontend/public/assets/vertical-slice/npcs/npc_NPC000002_lira_lakandula.png`
+- Size target: transparent PNG sprite sheet, exactly 768x1024, 3x4 grid, 256x256 per frame
+
+```text
+Hand-painted HD 2D chibi Filipino fantasy RPG overworld sprite sheet for Lira Lakandula, the welcoming barangay guide in ALAMAT. Warm young-adult Filipino features, practical dark tied hair, modest woven village clothing in river blue, muted gold, and leaf green, small notice ledger and cloth satchel, approachable observant posture, clearly distinct from Babaylan Lira Dalisay. Create one exact PNG sprite sheet with true alpha transparency. Canvas exactly 768x1024 pixels. Strict 3 columns x 4 rows, 12 frames, each cell exactly 256x256. Rows: down/front, left, right, up/back. Columns: idle, left-foot-forward walk, right-foot-forward walk. Columns 2 and 3 must be visibly opposite walking poses. Keep face, outfit, ledger, proportions, colors, and baseline consistent. Keep the full body inside each cell with at least 24px top padding and 16px below the feet. No checkerboard, background, scenery, labels, grid lines, borders, or elements crossing cell boundaries.
+```
+
+## Slice 1 Dialogue Portraits
+
+## portrait_npc000001_datu_magsalin
+
+- Type: `dialogue_portrait`
+- Source: `NPC000001`
+- Replace file: `frontend/public/assets/vertical-slice/portraits/portrait_NPC000001_datu_magsalin.png`
+- Size target: transparent PNG, exactly 512x512
+
+```text
+Hand-painted polished 2D Filipino fantasy RPG dialogue portrait of Datu Magsalin, barangay elder and arrival anchor in ALAMAT. Exact 512x512 PNG with true alpha transparency. Head-and-shoulders three-quarter view, mature Filipino features, calm grounded eyes, dark hair with silver at the temples, practical woven sash, weathered village-leader clothing, hint of a document bundle, authority expressed through responsibility rather than wealth. Warm tropical key light. No scenery, text, logo, frame, checkerboard, crown, weapon, religious symbol, caricature, or cropped head.
+```
+
+## portrait_npc000002_lira_lakandula
+
+- Type: `dialogue_portrait`
+- Source: `NPC000002`
+- Replace file: `frontend/public/assets/vertical-slice/portraits/portrait_NPC000002_lira_lakandula.png`
+- Size target: transparent PNG, exactly 512x512
+
+```text
+Hand-painted polished 2D Filipino fantasy RPG dialogue portrait of Lira Lakandula, welcoming barangay guide in ALAMAT. Exact 512x512 transparent PNG. Head-and-shoulders three-quarter view, warm young-adult Filipino features, attentive expression, practical tied dark hair, river-blue and leaf-green woven collar, cloth satchel strap and small notice ledger, approachable community-worker identity clearly distinct from Babaylan Lira Dalisay. No background, checkerboard, text, logo, frame, sacred symbol, weapon, caricature, or cropped head.
+```
+
+## portrait_npc000301_general_store
+
+- Type: `dialogue_portrait`
+- Source: `NPC000301`
+- Replace file: `frontend/public/assets/vertical-slice/portraits/portrait_NPC000301_general_store.png`
+- Size target: transparent PNG, exactly 512x512
+
+```text
+Hand-painted polished 2D Filipino fantasy RPG dialogue portrait of the Barangay General Store keeper in ALAMAT. Exact 512x512 transparent PNG. Head-and-shoulders three-quarter view, friendly adult Filipino shopkeeper, practical tied hair, warm woven work shirt, small inventory cord and pencil, expression combining hospitality with sensible preparation advice. Brass, leaf-green, and faded market-cloth accents. No store scenery, shelves, text, logo, frame, checkerboard, exaggerated merchant stereotype, weapon, or cropped head.
+```
+
+## portrait_npc000481_blacksmith
+
+- Type: `dialogue_portrait`
+- Source: `NPC000481`
+- Replace file: `frontend/public/assets/vertical-slice/portraits/portrait_NPC000481_blacksmith.png`
+- Size target: transparent PNG, exactly 512x512
+
+```text
+Hand-painted polished 2D Filipino fantasy RPG dialogue portrait of the Barangay Blacksmith in ALAMAT. Exact 512x512 transparent PNG. Head-and-shoulders three-quarter view, sturdy adult Filipino craftsperson, soot-marked but clean practical face, tied dark hair, woven shirt beneath a forge apron, small brass fastener and folded tool cloth, focused friendly expression. Warm forge rim light balanced by natural daylight. No forge background, text, logo, frame, checkerboard, raised weapon, caricature, or cropped head.
+```
+
+## portrait_npc000004_mayumi_bagwis
+
+- Type: `dialogue_portrait`
+- Source: `NPC000004`
+- Replace file: `frontend/public/assets/vertical-slice/portraits/portrait_NPC000004_mayumi_bagwis.png`
+- Size target: transparent PNG, exactly 512x512
+
+```text
+Hand-painted polished 2D Filipino fantasy RPG dialogue portrait of Mayumi Bagwis, caretaker of the shared Chapel Courtyard in ALAMAT. Exact 512x512 transparent PNG. Head-and-shoulders three-quarter view, warm Filipino features, composed thoughtful expression, dark braided hair, modest layered courtyard clothing with muted green, blue, and gold woven details, small garden tie and shared-lamp wick tool. Present her as a respectful community mediator without assigning one real religion as absolute truth. No background, text, logo, frame, checkerboard, exclusive sacred symbol, caricature, or cropped head.
+```
+
+## portrait_npc000582_babaylan_lira_dalisay
+
+- Type: `dialogue_portrait`
+- Source: `NPC000582`
+- Replace file: `frontend/public/assets/vertical-slice/portraits/portrait_NPC000582_babaylan_lira_dalisay.png`
+- Size target: transparent PNG, exactly 512x512
+
+```text
+Hand-painted polished 2D Filipino fantasy RPG dialogue portrait of Babaylan Lira Dalisay, spiritual guide and Nilalang-trust mentor in the fictional ALAMAT universe. Exact 512x512 transparent PNG. Head-and-shoulders three-quarter view, mature Filipino features, steady compassionate eyes, long dark hair with restrained silver strands, layered natural-fiber garments, woven sash, river-stone and leaf tokens using fictional motifs only, quiet blue-gold spirit light. Respectful and grounded, not exoticized. No background, checkerboard, text, logo, frame, copied sacred object, religious superiority, caricature, or cropped head.
+```
+
+## portrait_npc000008_kidlat_balagtas
+
+- Type: `dialogue_portrait`
+- Source: `NPC000008`
+- Replace file: `frontend/public/assets/vertical-slice/portraits/portrait_NPC000008_kidlat_balagtas.png`
+- Size target: transparent PNG, exactly 512x512
+
+```text
+Hand-painted polished 2D Filipino fantasy RPG dialogue portrait of Kidlat Balagtas, experienced Balete Forest path watcher in ALAMAT. Exact 512x512 transparent PNG. Head-and-shoulders three-quarter view, weathered adult Filipino features, alert dark eyes, practical tied hair, forest-green and earth-brown woven trail clothing, small route cord and bamboo marker, cautious expression shaped by respect for mound paths and old trees. Soft forest light. No forest background, text, logo, frame, checkerboard, weapon raised toward the viewer, caricature, or cropped head.
+```
+
+## portrait_mon0040_umalagad_echo
+
+- Type: `dialogue_portrait`
+- Source: `MON0040`
+- Replace file: `frontend/public/assets/vertical-slice/portraits/portrait_MON0040_umalagad_echo.png`
+- Size target: transparent PNG, exactly 512x512
+
+```text
+Hand-painted polished 2D Filipino fantasy RPG dialogue portrait of Umalagad Echo, gentle ancestral echo at the Spirit Shrine Threshold in ALAMAT. Exact 512x512 transparent PNG. Head-and-shoulders three-quarter spirit portrait, readable Filipino features, calm guardian expression, translucent blue-gold light, woven spirit sash and abstract fictional ancestral motifs, softly fading lower shoulders while the face remains clear. Respectful, protective, and free of horror imagery. No shrine background, checkerboard, text, logo, frame, copied sacred symbol, skull imagery, religious claim, or cropped head.
+```
+
+## Slice 1 Quest Map Objects
+
+These objects belong to Chapel Courtyard and Balete Forest and must be generated with the
+original Slice 1 map assets.
+
+## quest_object_courtyard_garden
+
+- Type: `quest_map_object`
+- Source: `AMBIENT_CHAPEL_GARDEN`
+- Replace file: `frontend/public/assets/vertical-slice/quests/object_courtyard_garden.png`
+- Size target: transparent PNG, exactly 96x96
+
+```text
+Create a transparent 96x96 top-down chibi RPG map object for a courtyard garden needing gentle care: small native plants, windblown leaves, loose soil, and a subtle shared-space lamp detail. Respectful fictional Filipino fantasy style. No text, marker, character, checkerboard, or background.
+```
+
+## quest_object_shared_lamps
+
+- Type: `quest_map_object`
+- Source: `AMBIENT_CHAPEL_LAMPS`
+- Replace file: `frontend/public/assets/vertical-slice/quests/object_shared_lamps.png`
+- Size target: transparent PNG, exactly 96x96
+
+```text
+Create a transparent 96x96 top-down chibi RPG map object showing two modest shared courtyard lamps with unlit wicks and woven/brass details. Culturally neutral common gathering-space object, no exclusive religious symbol, text, character, checkerboard, or background.
+```
+
+## quest_object_aghoy_leaf_tracks
+
+- Type: `quest_map_object`
+- Source: `AMBIENT_AGHOY_TRACKS`
+- Replace file: `frontend/public/assets/vertical-slice/quests/object_aghoy_leaf_tracks.png`
+- Size target: transparent PNG, exactly 96x96
+
+```text
+Create a transparent 96x96 top-down forest quest object: a curved trail of tiny leaf-shaped Aghoy footprints carefully bending around a small earthen mound. Subtle, readable, gentle mystery, no creature, text, UI marker, checkerboard, or background.
+```
+
+## quest_object_damaged_roots
+
+- Type: `quest_map_object`
+- Source: `AMBIENT_DAMAGED_ROOTS`
+- Replace file: `frontend/public/assets/vertical-slice/quests/object_damaged_roots.png`
+- Size target: transparent PNG, exactly 96x96
+
+```text
+Create a transparent 96x96 top-down forest quest object showing a healthy living root pinned beneath dead storm branches and litter, clearly repairable rather than destroyed. Green-brown forest palette, no character, text, marker, checkerboard, or background.
 ```
 
 ## ui_interaction_marker
@@ -377,10 +848,10 @@ Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspec
 - Type: `ui_icon`
 - Source: `new`
 - Replace file: `frontend/public/assets/vertical-slice/ui/interaction_marker.svg`
-- Size target: 64x64
+- Size target: animated SVG, 64x64 viewBox, transparent background
 
 ```text
-Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspective, readable silhouette, warm tropical palette, respectful fictional Philippine folklore inspiration, no text, no logo. Create a transparent-background interaction marker icon for ALAMAT. Simple golden woven ring with small sparkle, readable over map tiles, no text, no UI frame.
+Create an animated SVG interaction marker icon for ALAMAT, 64x64 viewBox, transparent background, no text, no logo, no UI frame. Filipino fantasy RPG visual style, simple golden woven ring with small sparkle, readable over dark and light map tiles. Animation must be inside the SVG only using SMIL animate / animateTransform elements: gentle glow pulse, subtle sparkle twinkle, optional tiny breathing scale inside the SVG groups. Do not rely on game-code rotation, game-code tweening, CSS animation, external images, raster embeds, or JavaScript. Keep the outer icon visually stable so it does not look like the whole marker is spinning.
 ```
 
 ## ui_save_point
@@ -388,10 +859,10 @@ Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspec
 - Type: `map_object`
 - Source: `new`
 - Replace file: `frontend/public/assets/vertical-slice/ui/save_point.svg`
-- Size target: 64x64
+- Size target: animated SVG, 64x64 viewBox, transparent background
 
 ```text
-Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspective, readable silhouette, warm tropical palette, respectful fictional Philippine folklore inspiration, no text, no logo. Create a top-down save point object for ALAMAT. Small shrine lantern or woven charm post with soft blue-gold glow, transparent background, readable at 64x64, no religious superiority, no text.
+Create an animated SVG save point map object for ALAMAT, 64x64 viewBox, transparent background, no text, no logo. It must clearly look like a small Balon / Filipino deep well from a top-down chibi RPG perspective: circular stone or wood-rimmed well, visible blue water inside, small bamboo/wooden pulley post or bucket detail, soft blue-gold restorative glow. Animation must be inside the SVG only using SMIL animate / animateTransform elements: water shimmer, gentle healing glow pulse, tiny sparkle twinkle. Do not rely on game-code rotation, game-code tweening, CSS animation, external images, raster embeds, or JavaScript. Keep the well silhouette stable and readable at 64x64.
 ```
 
 ## ui_collision_debug_tile
@@ -568,17 +1039,6 @@ Hand-painted HD 2D chibi Filipino fantasy RPG companion equipment icon, true tra
 
 ```text
 Hand-painted HD 2D chibi Filipino fantasy RPG companion equipment icon, true transparent PNG with alpha transparency, no checkerboard, no background, no text, no logo. Create a polished 64x64 icon for Balete Keepsake. Small keepsake made from cleared shrine remnants, old root bead, muted gold tie, dark bark accent, protective companion gear, readable at 32x32, not ominous.
-```
-
-## map_preview_barangay
-
-- Type: `map_preview`
-- Source: `WLOC000001`
-- Replace file: `frontend/public/assets/vertical-slice/maps/preview_barangay_san_isidro.png`
-- Size target: 1024x1024
-
-```text
-Hand-painted HD 2D chibi Filipino fantasy RPG, top-down classic handheld perspective, readable silhouette, warm tropical palette, respectful fictional Philippine folklore inspiration, no text, no logo. Create a top-down map preview for Barangay San Isidro with player house, barangay hall, small chapel, marketplace, rice fields, balete tree path, and forest entrance. Clear paths and collision landmarks, no labels or text.
 ```
 
 ## battle_player_customizable_base

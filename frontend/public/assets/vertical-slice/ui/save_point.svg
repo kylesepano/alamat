@@ -1,96 +1,120 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
   <defs>
-    <radialGradient id="groundGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
-      gradientTransform="translate(32 38) scale(20 12)">
-      <stop offset="0" stop-color="#8FE8FF" stop-opacity="0.45" />
-      <stop offset="0.55" stop-color="#6ABFFF" stop-opacity="0.18" />
-      <stop offset="1" stop-color="#6ABFFF" stop-opacity="0" />
+    <radialGradient id="healGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#BFEFFF" stop-opacity="0.55" />
+      <stop offset="55%" stop-color="#8ED8FF" stop-opacity="0.22" />
+      <stop offset="78%" stop-color="#FFE08A" stop-opacity="0.16" />
+      <stop offset="100%" stop-color="#FFE08A" stop-opacity="0" />
     </radialGradient>
-    <radialGradient id="auraGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
-      gradientTransform="translate(32 24) scale(14)">
-      <stop offset="0" stop-color="#FFF3B8" stop-opacity="0.95" />
-      <stop offset="0.35" stop-color="#9CEBFF" stop-opacity="0.8" />
-      <stop offset="0.7" stop-color="#64CFFF" stop-opacity="0.35" />
-      <stop offset="1" stop-color="#64CFFF" stop-opacity="0" />
+    <linearGradient id="stoneRim" x1="18" y1="20" x2="46" y2="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#D9CBB6" />
+      <stop offset="35%" stop-color="#B8A48A" />
+      <stop offset="70%" stop-color="#E8DAC5" />
+      <stop offset="100%" stop-color="#8E7A62" />
+    </linearGradient>
+
+    <linearGradient id="stoneInner" x1="22" y1="24" x2="42" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8B7862" />
+      <stop offset="100%" stop-color="#5F4F40" />
+    </linearGradient>
+
+    <linearGradient id="bamboo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D9BD75" />
+      <stop offset="50%" stop-color="#B48845" />
+      <stop offset="100%" stop-color="#8C6432" />
+    </linearGradient>
+
+    <radialGradient id="waterFill" cx="38%" cy="32%" r="70%">
+      <stop offset="0%" stop-color="#D9FBFF" />
+      <stop offset="35%" stop-color="#7ED9FF" />
+      <stop offset="70%" stop-color="#349ED6" />
+      <stop offset="100%" stop-color="#1F5E95" />
     </radialGradient>
 
-    <linearGradient id="gold" x1="17" y1="26" x2="47" y2="44" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#FFF0B7" />
-      <stop offset="0.28" stop-color="#F1CB66" />
-      <stop offset="0.62" stop-color="#C8932F" />
-      <stop offset="1" stop-color="#8D621A" />
-    </linearGradient>
+    <clipPath id="waterClip">
+      <circle cx="32" cy="36" r="10.5" />
+    </clipPath>
 
-    <linearGradient id="goldDark" x1="22" y1="24" x2="42" y2="42" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#B57B20" />
-      <stop offset="1" stop-color="#6E4B14" />
-    </linearGradient>
-
-    <linearGradient id="wood" x1="28" y1="24" x2="36" y2="40" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#B68553" />
-      <stop offset="1" stop-color="#7A542F" />
-    </linearGradient>
-
-    <linearGradient id="crystal" x1="32" y1="14" x2="32" y2="29" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#FDF8D6" />
-      <stop offset="0.3" stop-color="#CFFFFC" />
-      <stop offset="0.68" stop-color="#78D9FF" />
-      <stop offset="1" stop-color="#3E91D6" />
-    </linearGradient>
-
-    <filter id="softBlur" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="2.2" />
-    </filter>
-
-    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="1.5" result="b" />
-      <feMerge>
-        <feMergeNode in="b" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
+    <filter id="softBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.2" />
     </filter>
   </defs>
-  <ellipse cx="32" cy="40" rx="19" ry="11" fill="url(#groundGlow)" />
-  <g transform="translate(0 1)">
-    <ellipse cx="32" cy="38" rx="17" ry="10" fill="#6F522B" opacity="0.35" />
-    <ellipse cx="32" cy="36" rx="16" ry="9.5" fill="url(#goldDark)" />
-    <ellipse cx="32" cy="35.5" rx="14" ry="8" fill="url(#gold)" />
-    <path d="M21 35.5C23.3 33.4 25.7 32.5 28.3 32.2" stroke="#FFE7A0" stroke-width="1.6"
+  <ellipse cx="32" cy="54" rx="15" ry="4.5" fill="#13283D" opacity="0.18" />
+  <g opacity="0.55" filter="url(#softBlur)">
+    <circle cx="32" cy="36" r="22" fill="url(#healGlow)">
+      <animate attributeName="opacity" values="0.28;0.62;0.28" dur="2.2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="32" cy="36" r="16" fill="url(#healGlow)" opacity="0.45">
+      <animate attributeName="opacity" values="0.18;0.42;0.18" dur="2.2s" begin="0.2s"
+        repeatCount="indefinite" />
+    </circle>
+  </g>
+  <g>
+    <rect x="21" y="10" width="4.5" height="15" rx="2" fill="url(#bamboo)" />
+    <rect x="38.5" y="10" width="4.5" height="15" rx="2" fill="url(#bamboo)" />
+    <rect x="23" y="12" width="18" height="3.8" rx="1.8" fill="url(#bamboo)" />
+    <line x1="32" y1="15.8" x2="32" y2="23.2" stroke="#7A5A33" stroke-width="1.4"
       stroke-linecap="round" />
-    <path d="M28.8 31.9C31.5 31.5 34.3 31.7 36.9 32.4" stroke="#A9701F" stroke-width="1.6"
-      stroke-linecap="round" />
-    <path d="M37.8 32.7C40.3 33.5 42.5 34.6 44.4 36.2" stroke="#FFE7A0" stroke-width="1.6"
-      stroke-linecap="round" />
-
-    <ellipse cx="32" cy="35.5" rx="9.5" ry="5.4" fill="#A6742E" opacity="0.42" />
-    <ellipse cx="32" cy="34.8" rx="7.6" ry="4.1" fill="#E8BE64" opacity="0.6" />
-
-    <rect x="29.4" y="23" width="5.2" height="13.6" rx="2.3" fill="url(#wood)" />
-    <path d="M31 25.3C31.7 26.1 32.3 27.1 32.9 28.2" stroke="#DDB48B" stroke-width="1"
-      stroke-linecap="round" />
-    <path d="M33.6 26.2C33.1 27.5 32.9 28.9 32.9 30.2" stroke="#684626" stroke-width="0.9"
-      stroke-linecap="round" opacity="0.75" />
-
-    <path d="M32 13.5L37.2 18.7L35.9 25.8L32 28.2L28.1 25.8L26.8 18.7L32 13.5Z" fill="url(#crystal)"
-      stroke="#FFF5C8" stroke-width="1.1" stroke-linejoin="round" />
-
-    <path d="M28.4 18.6L32 20.7L35.6 18.6" stroke="#EFFFFE" stroke-width="0.9"
-      stroke-linecap="round" stroke-linejoin="round" opacity="0.9" />
-    <path d="M32 20.7V27.7" stroke="#DFFAFF" stroke-width="0.9" stroke-linecap="round" opacity="0.9" />
-
-    <circle cx="32" cy="22" r="13" fill="url(#auraGlow)" filter="url(#softBlur)" />
-    <ellipse cx="32" cy="23.5" rx="11" ry="7.5" fill="#8EE4FF" opacity="0.16" />
-    <ellipse cx="32" cy="22.2" rx="7.8" ry="5.5" fill="#FFF0B8" opacity="0.14" />
-
-    <g filter="url(#glow)">
-      <path d="M46 18.8L47.1 21.9L50.2 23L47.1 24.1L46 27.2L44.9 24.1L41.8 23L44.9 21.9L46 18.8Z"
-        fill="#FFF2B8" />
-      <path
-        d="M20 21.6L20.8 23.6L22.8 24.4L20.8 25.2L20 27.2L19.2 25.2L17.2 24.4L19.2 23.6L20 21.6Z"
-        fill="#9CEBFF" />
-      <path
-        d="M40.5 12.8L41.2 14.5L42.9 15.2L41.2 15.9L40.5 17.6L39.8 15.9L38.1 15.2L39.8 14.5L40.5 12.8Z"
-        fill="#FFF7DA" />
+    <path d="M29.6 23.2h4.8v4.8c0 1.7-1.1 2.9-2.4 2.9s-2.4-1.2-2.4-2.9z" fill="#B88454" />
+    <path d="M29.6 23.2h4.8" stroke="#E8C79A" stroke-width="1" stroke-linecap="round" />
+    <path d="M23.2 16.5h2.1M23.2 20.2h2.1M38.7 16.5h2.1M38.7 20.2h2.1" stroke="#8D6739"
+      stroke-width="0.8" stroke-linecap="round" opacity="0.8" />
+  </g>
+  <g>
+    <circle cx="32" cy="36" r="17" fill="url(#stoneRim)" />
+    <circle cx="32" cy="36" r="13.3" fill="url(#stoneInner)" />
+    <circle cx="32" cy="36" r="11.4" fill="url(#waterFill)" />
+    <g clip-path="url(#waterClip)">
+      <ellipse cx="28" cy="31.8" rx="6.5" ry="2.2" fill="#FFFFFF" opacity="0.18">
+        <animate attributeName="cx" values="27;31;27" dur="2.6s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.10;0.24;0.10" dur="2.6s" repeatCount="indefinite" />
+      </ellipse>
+      <ellipse cx="35.5" cy="38.8" rx="4.8" ry="1.6" fill="#BFF6FF" opacity="0.14">
+        <animate attributeName="cx" values="36;33;36" dur="2.1s" begin="0.3s"
+          repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.08;0.20;0.08" dur="2.1s" begin="0.3s"
+          repeatCount="indefinite" />
+      </ellipse>
+      <path d="M24 36.4c2.5-1.2 5.4-1.2 8 0 2.5 1.2 5.4 1.2 8 0" stroke="#E9FFFF" stroke-width="1.1"
+        stroke-linecap="round" opacity="0.32">
+        <animate attributeName="opacity" values="0.16;0.4;0.16" dur="1.9s" repeatCount="indefinite" />
+      </path>
+      <path d="M25.3 40c2-0.9 4.3-0.9 6.3 0 2 0.9 4.3 0.9 6.3 0" stroke="#B8F0FF" stroke-width="0.9"
+        stroke-linecap="round" opacity="0.22">
+        <animate attributeName="opacity" values="0.08;0.3;0.08" dur="2.3s" begin="0.35s"
+          repeatCount="indefinite" />
+      </path>
     </g>
+
+    <circle cx="32" cy="36" r="11.4" stroke="#C9F8FF" stroke-width="0.6" opacity="0.55" />
+    <circle cx="32" cy="36" r="14.8" stroke="#F5E9D7" stroke-width="1.1" opacity="0.7" />
+
+    <path d="M24 28.5c2.2-1.6 4.9-2.5 8-2.5 1.8 0 3.4 0.3 5 0.8" stroke="#FFF3DA" stroke-width="1.4"
+      stroke-linecap="round" opacity="0.85" />
+    <path d="M40.2 31.2c1.6 1.9 2.5 4.2 2.5 6.8 0 3.1-1.4 5.8-3.6 7.8" stroke="#8A7358"
+      stroke-width="1.2" stroke-linecap="round" opacity="0.65" />
+    <path d="M36 46.2c-1.3 0.5-2.6 0.8-4 0.8-3.1 0-5.9-1.1-8.1-2.9" stroke="#FFF3DA"
+      stroke-width="1.2" stroke-linecap="round" opacity="0.7" />
+    <path d="M21.8 40.8c-0.3-0.9-0.5-1.8-0.5-2.8 0-1.7 0.4-3.4 1.1-4.8" stroke="#8A7358"
+      stroke-width="1.1" stroke-linecap="round" opacity="0.65" />
+  </g>
+  <g transform="translate(47 22)">
+    <animate attributeName="opacity" values="0.15;1;0.15" dur="1.4s" repeatCount="indefinite" />
+    <animateTransform attributeName="transform" type="scale" additive="sum" values="0.8;1.1;0.8"
+      dur="1.4s" repeatCount="indefinite" />
+    <path d="M0 -4L1 -1L4 0L1 1L0 4L-1 1L-4 0L-1 -1Z" fill="#FFF0A6" />
+    <path d="M0 -2.1L0.55 -0.55L2.1 0L0.55 0.55L0 2.1L-0.55 0.55L-2.1 0L-0.55 -0.55Z" fill="#A8E8FF" />
+  </g>
+  <g transform="translate(17 29)">
+    <animate attributeName="opacity" values="0.08;0.65;0.08" dur="1.8s" begin="0.45s"
+      repeatCount="indefinite" />
+    <animateTransform attributeName="transform" type="scale" additive="sum" values="0.8;1.05;0.8"
+      dur="1.8s" begin="0.45s" repeatCount="indefinite" />
+    <path d="M0 -3L0.8 -0.8L3 0L0.8 0.8L0 3L-0.8 0.8L-3 0L-0.8 -0.8Z" fill="#FFE8A1" />
+  </g>
+  <g transform="translate(42 46)">
+    <animate attributeName="opacity" values="0.05;0.45;0.05" dur="2.1s" begin="0.8s"
+      repeatCount="indefinite" />
+    <circle cx="0" cy="0" r="1.5" fill="#BDF1FF" />
   </g>
 </svg>

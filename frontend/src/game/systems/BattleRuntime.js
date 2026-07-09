@@ -78,7 +78,8 @@ export class BattleRuntime {
       state.turn = 'enemy'
       return state
     }
-    this.useSkill(state, state.player, this.targetEnemy(state, targetEnemyId), skillId)
+    const skill = skillById(skillId)
+    this.useSkill(state, state.player, this.resolveSkillTarget(state, state.player, skill, targetEnemyId), skillId)
     this.syncCurrentEnemy(state)
     if (this.allEnemiesDefeated(state)) return this.end(state, 'victory')
     this.afterActorAction(state.player)
@@ -137,7 +138,8 @@ export class BattleRuntime {
       state.turn = 'enemy'
       return state
     }
-    this.useSkill(state, state.companion, this.targetEnemy(state, targetEnemyId), skillId, state.player)
+    const skill = skillById(skillId)
+    this.useSkill(state, state.companion, this.resolveSkillTarget(state, state.companion, skill, targetEnemyId), skillId)
     this.syncCurrentEnemy(state)
     if (this.allEnemiesDefeated(state)) return this.end(state, 'victory')
     this.afterActorAction(state.companion)
@@ -179,8 +181,7 @@ export class BattleRuntime {
 
   static useSkill(state, actor, target, skillId, selfTargetOverride = null) {
     const skill = skillById(skillId)
-    const isSelfTarget = skill.targetType === 'Self'
-    const receiver = isSelfTarget ? (selfTargetOverride ?? actor) : target
+    const receiver = skill.targetType === 'Self' ? (selfTargetOverride ?? actor) : target
     const lines = [`${actor.name} uses ${skill.name}.`]
 
     if (skill.canMiss !== false && !this.roll(`${state.round}-${actor.id}-${skill.id}-accuracy`, skill.accuracy)) {
@@ -237,6 +238,19 @@ export class BattleRuntime {
     const selected = enemies.find((enemy) => enemy.id === targetEnemyId || enemy.monster_id === targetEnemyId)
     state.enemy = selected ?? enemies[0] ?? state.enemy
     return state.enemy
+  }
+
+  static friendlyTarget(state, actor, targetId = null) {
+    if (targetId === 'player') return state.player
+    if (targetId === 'companion' && state.companion?.hp > 0) return state.companion
+    if (actor === state.companion) return state.player
+    return state.companion?.hp > 0 ? state.companion : state.player
+  }
+
+  static resolveSkillTarget(state, actor, skill, targetId = null) {
+    if (skill.targetType === 'Self') return actor
+    if (skill.targetType === 'Ally') return this.friendlyTarget(state, actor, targetId)
+    return this.targetEnemy(state, targetId)
   }
 
   static syncCurrentEnemy(state) {

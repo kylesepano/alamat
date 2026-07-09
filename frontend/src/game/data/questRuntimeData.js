@@ -68,6 +68,63 @@ export const QUEST_DEFINITIONS = {
     rewards: { pilak: 10, items: [{ id: 'healing_herb', quantity: 1 }], equipment: [{ id: 'leaf_thread_charm' }] },
     unlocks: [],
   },
+  QST000025: {
+    id: 'QST000025',
+    title: 'Courtyard of Many Stories',
+    category: 'Side Quest',
+    summary: 'Help Mayumi restore shared gathering places without erasing the different traditions that use them.',
+    objectives: [
+      { id: 'inspect_garden', type: 'inspect', target_id: 'AMBIENT_CHAPEL_GARDEN', label: 'Tend the courtyard garden' },
+      { id: 'inspect_lamps', type: 'inspect', target_id: 'AMBIENT_CHAPEL_LAMPS', label: 'Relight the shared lamps' },
+      { id: 'return_mayumi', type: 'talk', target_id: 'NPC000004', label: 'Return to Mayumi Bagwis' },
+    ],
+    rewards: { pilak: 14, items: [{ id: 'healing_herb', quantity: 2 }] },
+    completionFlags: ['courtyard_restored'],
+    unlocks: [],
+  },
+  QST000026: {
+    id: 'QST000026',
+    title: 'Signs Beneath the Leaves',
+    category: 'Side Quest',
+    summary: 'Follow Aghoy signs and repair a damaged root crossing without forcing the shy Nilalang to appear.',
+    objectives: [
+      { id: 'inspect_tracks', type: 'inspect', target_id: 'AMBIENT_AGHOY_TRACKS', label: 'Study the small leaf tracks' },
+      { id: 'repair_roots', type: 'inspect', target_id: 'AMBIENT_DAMAGED_ROOTS', label: 'Clear debris from the damaged roots' },
+      { id: 'return_kidlat', type: 'talk', target_id: 'NPC000008', label: 'Tell Kidlat what you found' },
+    ],
+    rewards: { pilak: 16, items: [{ id: 'leaf_basket_fiber', quantity: 1 }] },
+    completionFlags: ['aghoy_path_restored'],
+    unlocks: [],
+  },
+  QST000027: {
+    id: 'QST000027',
+    title: 'Where River Meets Lake',
+    category: 'Exploration',
+    summary: 'Carry the shrine lesson toward the lakeshore and learn what is disturbing the shallow waters.',
+    objectives: [
+      { id: 'reach_lakeshore', type: 'reach', target_id: 'WLOC000010', label: 'Find the Laguna Lakeshore' },
+      { id: 'meet_steward', type: 'talk', target_id: 'NPC000601', label: 'Ask Ka Amihan about the disturbed current' },
+      { id: 'inspect_nets', type: 'inspect', target_id: 'AMBIENT_TANGLED_NETS', label: 'Inspect the abandoned nets' },
+      { id: 'meet_mambubuno', type: 'defeat', target_id: 'MON0041', label: 'Understand the Mambubuno current warning' },
+    ],
+    rewards: { pilak: 30, items: [{ id: 'sacred_river_water', quantity: 1 }] },
+    completionFlags: ['lakeshore_warning_understood'],
+    unlocks: [],
+  },
+  QST000028: {
+    id: 'QST000028',
+    title: 'What the Reeds Must Keep',
+    category: 'Side Quest',
+    summary: 'Help Aling Sela restore damaged nursery reeds while preserving the plants and water needed by the lakeshore.',
+    objectives: [
+      { id: 'inspect_nursery', type: 'inspect', target_id: 'AMBIENT_REED_NURSERY', label: 'Support the damaged nursery reeds' },
+      { id: 'clear_water', type: 'inspect', target_id: 'AMBIENT_CLEAR_WATER_PATCH', label: 'Clear loose cord from the spawning grass' },
+      { id: 'return_sela', type: 'talk', target_id: 'NPC000602', label: 'Report back to Aling Sela' },
+    ],
+    rewards: { pilak: 18, items: [{ id: 'healing_herb', quantity: 2 }, { id: 'sacred_river_water', quantity: 1 }] },
+    completionFlags: ['reed_nursery_restored'],
+    unlocks: [],
+  },
 }
 
 export function questById(questId) {
@@ -195,6 +252,7 @@ function eventTargetsForObject(object) {
   if (object.type === 'item') return [{ type: 'collect', target_id: object.id }]
   if (object.type === 'encounter' || object.type === 'boss') return [{ type: 'defeat', target_id: object.id }]
   if (object.type === 'transition') return [{ type: 'reach', target_id: object.target }]
+  if (object.type === 'ambient') return [{ type: 'inspect', target_id: object.id }]
   return []
 }
 

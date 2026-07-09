@@ -6,13 +6,16 @@ export const VERTICAL_SLICE_ASSETS = [
   { key: 'asset-npc-mayumi', path: '/assets/vertical-slice/npcs/npc_NPC000004_mayumi_bagwis.png', type: 'spritesheet', columns: 3, rows: 4, expectedWidth: 768, expectedHeight: 1024, displayWidth: 42, displayHeight: 56, fallbackPath: '/assets/vertical-slice/npcs/npc_NPC000004_mayumi_bagwis.svg' },
   { key: 'asset-npc-kidlat', path: '/assets/vertical-slice/npcs/npc_NPC000008_kidlat_balagtas.png', type: 'spritesheet', columns: 3, rows: 4, expectedWidth: 768, expectedHeight: 1024, displayWidth: 42, displayHeight: 56, fallbackPath: '/assets/vertical-slice/npcs/npc_NPC000008_kidlat_balagtas.svg' },
   { key: 'asset-npc-blacksmith', path: '/assets/vertical-slice/npcs/npc_NPC000481_blacksmith.png', type: 'spritesheet', columns: 3, rows: 4, expectedWidth: 768, expectedHeight: 1024, displayWidth: 42, displayHeight: 56, fallbackPath: '/assets/vertical-slice/npcs/npc_NPC000481_blacksmith.svg' },
+  { key: 'asset-npc-umalagad-echo', path: '/assets/vertical-slice/npcs/npc_MON0040_umalagad_echo.png', type: 'spritesheet', columns: 3, rows: 4, expectedWidth: 768, expectedHeight: 1024, displayWidth: 46, displayHeight: 58, fallbackPath: '/assets/vertical-slice/npcs/npc_MON0040_umalagad_echo.svg' },
   { key: 'asset-nilalang-aghoy', path: '/assets/vertical-slice/nilalang/nilalang_MON0038_aghoy.png', type: 'spritesheet', columns: 3, rows: 4, expectedWidth: 768, expectedHeight: 1024, displayWidth: 48, displayHeight: 48, fallbackPath: '/assets/vertical-slice/nilalang/nilalang_MON0038_aghoy.svg' },
   { key: 'asset-nilalang-duwende', path: '/assets/vertical-slice/nilalang/nilalang_MON0032_duwende.png', type: 'spritesheet', columns: 3, rows: 4, expectedWidth: 768, expectedHeight: 1024, displayWidth: 48, displayHeight: 48, fallbackPath: '/assets/vertical-slice/nilalang/nilalang_MON0032_duwende.svg' },
   { key: 'asset-nilalang-ungo', path: '/assets/vertical-slice/nilalang/nilalang_MON0028_ungo.png', type: 'spritesheet', columns: 3, rows: 4, expectedWidth: 768, expectedHeight: 1024, displayWidth: 50, displayHeight: 50, fallbackPath: '/assets/vertical-slice/nilalang/nilalang_MON0028_ungo.svg' },
   { key: 'asset-nilalang-batibat', path: '/assets/vertical-slice/nilalang/boss_MON0007_batibat.png', type: 'spritesheet', columns: 3, rows: 4, expectedWidth: 768, expectedHeight: 1024, displayWidth: 76, displayHeight: 76, fallbackPath: '/assets/vertical-slice/nilalang/boss_MON0007_batibat.svg' },
-  { key: 'asset-tileset-barangay', path: '/assets/vertical-slice/tilesets/tileset_barangay_san_isidro.svg', width: 256, height: 256 },
-  { key: 'asset-tileset-forest', path: '/assets/vertical-slice/tilesets/tileset_balete_forest.svg', width: 256, height: 256 },
-  { key: 'asset-tileset-shrine', path: '/assets/vertical-slice/tilesets/tileset_spirit_shrine.svg', width: 256, height: 256 },
+  { key: 'asset-tileset-barangay', path: '/assets/vertical-slice/tilesets/tileset_barangay_san_isidro_game.png', width: 960, height: 960 },
+  { key: 'asset-tileset-marketplace', path: '/assets/vertical-slice/tilesets/tileset_barangay_marketplace_game.png', width: 960, height: 960 },
+  { key: 'asset-tileset-chapel', path: '/assets/vertical-slice/tilesets/tileset_chapel_courtyard_game.png', width: 960, height: 960 },
+  { key: 'asset-tileset-forest', path: '/assets/vertical-slice/tilesets/tileset_balete_forest_game.png', width: 960, height: 960 },
+  { key: 'asset-tileset-shrine', path: '/assets/vertical-slice/tilesets/tileset_spirit_shrine_game.png', width: 960, height: 960 },
   { key: 'asset-ui-interaction', path: '/assets/vertical-slice/ui/interaction_marker.svg', width: 48, height: 48 },
   { key: 'asset-ui-save', path: '/assets/vertical-slice/ui/save_point.svg', width: 56, height: 56 },
   { key: 'asset-ui-collision', path: '/assets/vertical-slice/ui/collision_debug_tile.svg', width: 48, height: 48 },
@@ -23,8 +26,22 @@ export const VERTICAL_SLICE_ASSETS = [
   { key: 'asset-equipment-river-charm', path: '/assets/vertical-slice/equipment/icon_river_charm.png', width: 48, height: 48 },
   { key: 'asset-equipment-leaf-thread-charm', path: '/assets/vertical-slice/equipment/icon_leaf_thread_charm.png', width: 48, height: 48 },
   { key: 'asset-equipment-balete-keepsake', path: '/assets/vertical-slice/equipment/icon_balete_keepsake.png', width: 48, height: 48 },
+  { key: 'asset-map-json-barangay', path: '/data/maps/WLOC000001_barangay_san_isidro.json', type: 'tilemap', locationId: 'WLOC000001' },
+  { key: 'asset-map-json-marketplace', path: '/data/maps/WLOC000002_barangay_marketplace.json', type: 'tilemap', locationId: 'WLOC000002' },
+  { key: 'asset-map-json-chapel', path: '/data/maps/WLOC000003_chapel_courtyard.json', type: 'tilemap', locationId: 'WLOC000003' },
+  { key: 'asset-map-json-forest', path: '/data/maps/WLOC000004_balete_forest.json', type: 'tilemap', locationId: 'WLOC000004' },
+  { key: 'asset-map-json-shrine', path: '/data/maps/WLOC000009_spirit_shrine_threshold.json', type: 'tilemap', locationId: 'WLOC000009' },
   { key: 'asset-map-preview-barangay', path: '/assets/vertical-slice/maps/preview_barangay_san_isidro.svg', width: 256, height: 256 },
-  { key: 'asset-battle-player-base', path: '/assets/vertical-slice/battle/characters/battle_player_customizable_base.png', type: 'battleSpritesheet', columns: 4, rows: 2, frameWidth: 256, frameHeight: 256, expectedWidth: 1024, expectedHeight: 512, displayWidth: 96, displayHeight: 96 },
+  { key: 'asset-battle-bg-barangay', path: '/assets/vertical-slice/battle/backgrounds/bg_barangay_encounter.png', width: 1280, height: 720 },
+  { key: 'asset-battle-bg-marketplace', path: '/assets/vertical-slice/battle/backgrounds/bg_barangay_marketplace.png', width: 1280, height: 720 },
+  { key: 'asset-battle-bg-chapel', path: '/assets/vertical-slice/battle/backgrounds/bg_chapel_courtyard.png', width: 1280, height: 720 },
+  { key: 'asset-battle-bg-forest', path: '/assets/vertical-slice/battle/backgrounds/bg_balete_forest.png', width: 1280, height: 720 },
+  { key: 'asset-battle-bg-shrine', path: '/assets/vertical-slice/battle/backgrounds/bg_spirit_shrine.png', width: 1280, height: 720 },
+  { key: 'asset-battle-player-base', path: '/assets/vertical-slice/battle/characters/battle_player_customizable_base.png', type: 'battleSpritesheet', columns: 4, rows: 2, frameWidth: 256, frameHeight: 256, expectedWidth: 1024, expectedHeight: 512, displayWidth: 132, displayHeight: 132, nativeFacing: 'right' },
+  { key: 'asset-battle-nilalang-aghoy', path: '/assets/vertical-slice/battle/nilalang/battle_MON0038_aghoy.png', type: 'battleSpritesheet', columns: 4, rows: 2, frameWidth: 256, frameHeight: 256, expectedWidth: 1024, expectedHeight: 512, displayWidth: 86, displayHeight: 86, nativeFacing: 'left' },
+  { key: 'asset-battle-nilalang-duwende', path: '/assets/vertical-slice/battle/nilalang/battle_MON0032_duwende.png', type: 'battleSpritesheet', columns: 4, rows: 2, frameWidth: 256, frameHeight: 256, expectedWidth: 1024, expectedHeight: 512, displayWidth: 88, displayHeight: 88, nativeFacing: 'left' },
+  { key: 'asset-battle-nilalang-ungo', path: '/assets/vertical-slice/battle/nilalang/battle_MON0028_ungo.png', type: 'battleSpritesheet', columns: 4, rows: 2, frameWidth: 256, frameHeight: 256, expectedWidth: 1024, expectedHeight: 512, displayWidth: 106, displayHeight: 106, nativeFacing: 'left' },
+  { key: 'asset-battle-nilalang-batibat', path: '/assets/vertical-slice/battle/nilalang/battle_MON0007_batibat.png', type: 'battleSpritesheet', columns: 4, rows: 2, frameWidth: 256, frameHeight: 256, expectedWidth: 1024, expectedHeight: 512, displayWidth: 132, displayHeight: 132, nativeFacing: 'left' },
   { key: 'asset-vfx-basic-strike', path: '/assets/vertical-slice/battle/vfx/skill_basic_strike.png', type: 'vfx', columns: 6, rows: 1, frameWidth: 256, frameHeight: 256, expectedWidth: 1536, expectedHeight: 256 },
   { key: 'asset-vfx-steady-guard', path: '/assets/vertical-slice/battle/vfx/skill_steady_guard_aura.png', type: 'vfx', columns: 6, rows: 1, frameWidth: 256, frameHeight: 256, expectedWidth: 1536, expectedHeight: 256 },
   { key: 'asset-vfx-river-cut', path: '/assets/vertical-slice/battle/vfx/skill_river_cut_projectile.png', type: 'vfx', columns: 6, rows: 1, frameWidth: 256, frameHeight: 256, expectedWidth: 1536, expectedHeight: 256 },
@@ -64,6 +81,14 @@ export function battleSpriteAssets() {
   return VERTICAL_SLICE_ASSETS.filter((asset) => asset.type === 'battleSpritesheet')
 }
 
+export function tilemapAssets() {
+  return VERTICAL_SLICE_ASSETS.filter((asset) => asset.type === 'tilemap')
+}
+
+export function tilemapAssetKey(locationId) {
+  return tilemapAssets().find((asset) => asset.locationId === locationId)?.key ?? null
+}
+
 export function battleIdleAnimationKey(assetKey) {
   return `${assetKey}-battle-idle`
 }
@@ -75,8 +100,34 @@ export function battleAttackAnimationKey(assetKey) {
 export function battleAssetKeyForActor(assetKey) {
   const keys = {
     'asset-player-base': 'asset-battle-player-base',
+    'asset-nilalang-aghoy': 'asset-battle-nilalang-aghoy',
+    'asset-nilalang-duwende': 'asset-battle-nilalang-duwende',
+    'asset-nilalang-ungo': 'asset-battle-nilalang-ungo',
+    'asset-nilalang-batibat': 'asset-battle-nilalang-batibat',
   }
   return keys[assetKey] ?? null
+}
+
+export function battleBackgroundAssetKey(locationId) {
+  const keys = {
+    WLOC000001: 'asset-battle-bg-barangay',
+    WLOC000002: 'asset-battle-bg-marketplace',
+    WLOC000003: 'asset-battle-bg-chapel',
+    WLOC000004: 'asset-battle-bg-forest',
+    WLOC000009: 'asset-battle-bg-shrine',
+  }
+  return keys[locationId] ?? 'asset-battle-bg-forest'
+}
+
+export function battleBackgroundOverlayPath(locationId) {
+  const paths = {
+    WLOC000001: '/assets/vertical-slice/battle/backgrounds/bg_barangay_encounter_overlay.svg',
+    WLOC000002: '/assets/vertical-slice/battle/backgrounds/bg_barangay_marketplace_overlay.svg',
+    WLOC000003: '/assets/vertical-slice/battle/backgrounds/bg_chapel_courtyard_overlay.svg',
+    WLOC000004: '/assets/vertical-slice/battle/backgrounds/bg_balete_forest_overlay.svg',
+    WLOC000009: '/assets/vertical-slice/battle/backgrounds/bg_spirit_shrine_overlay.svg',
+  }
+  return paths[locationId] ?? paths.WLOC000004
 }
 
 export function spriteFrameName(direction, step = 0) {
@@ -132,16 +183,25 @@ export function objectAssetKey(object) {
   if (object.type === 'save') return 'asset-ui-save'
   if (object.type === 'item') return 'asset-item-healing-herb'
   if (object.type === 'transition') return 'asset-ui-interaction'
+  if (object.type === 'ambient') return 'asset-ui-interaction'
   if (object.type === 'boss' && object.id === 'MON0007') return 'asset-nilalang-batibat'
   if (object.type === 'encounter' && object.id === 'MON0032') return 'asset-nilalang-duwende'
   if (object.type === 'encounter' && object.id === 'MON0028') return 'asset-nilalang-ungo'
   if (object.type === 'encounter' && object.id === 'MON0038') return 'asset-nilalang-aghoy'
+  if (object.type === 'encounter' && object.id === 'MON0005') return 'asset-nilalang-aghoy'
+  if (object.type === 'encounter' && (object.id === 'MON0014' || object.id === 'MON0016')) return 'asset-nilalang-aghoy'
+  if (object.type === 'encounter' && ['MON0003', 'MON0004', 'MON0024', 'MON0036', 'MON0047'].includes(object.id)) return 'asset-nilalang-ungo'
+  if (object.type === 'encounter' && ['MON0010', 'MON0033', 'MON0034', 'MON0012', 'MON0035'].includes(object.id)) return 'asset-nilalang-aghoy'
+  if (object.type === 'encounter' && object.id === 'MON0041') return 'asset-nilalang-ungo'
+  if (object.type === 'encounter' && ['MON0027', 'MON0031'].includes(object.id)) return 'asset-nilalang-duwende'
   if (object.type === 'npc' && object.id === 'NPC000001') return 'asset-npc-datu'
   if (object.type === 'npc' && (object.id === 'NPC000002' || object.id === 'NPC000582')) return 'asset-npc-babaylan'
   if (object.type === 'npc' && object.id === 'NPC000301') return 'asset-npc-store'
   if (object.type === 'npc' && object.id === 'NPC000004') return 'asset-npc-mayumi'
   if (object.type === 'npc' && object.id === 'NPC000008') return 'asset-npc-kidlat'
   if (object.type === 'npc' && object.id === 'NPC000481') return 'asset-npc-blacksmith'
+  if (object.type === 'npc' && object.id === 'MON0040') return 'asset-npc-umalagad-echo'
+  if (object.type === 'npc' && ['NPC000601', 'NPC000602', 'NPC000603'].includes(object.id)) return 'asset-ui-interaction'
   if (object.type === 'npc') return 'asset-ui-interaction'
   return null
 }

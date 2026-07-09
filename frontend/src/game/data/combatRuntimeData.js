@@ -64,7 +64,7 @@ export const COMBAT_SKILLS = {
     category: 'Support',
     type: 'support',
     damageType: 'None',
-    targetType: 'Self',
+    targetType: 'Ally',
     power: 0,
     accuracy: 100,
     cooldown: 0,
@@ -196,7 +196,7 @@ export const COMBAT_SKILLS = {
     cooldown: 2,
     statusEffectId: 'haste',
     statusChance: 100,
-    description: 'A helpful charm pulled from a leaf basket.',
+    description: 'A helpful charm pulled from a leaf basket for the traveler or a companion.',
   },
   aghoy_guiding_rustle: {
     id: 'aghoy_guiding_rustle',
@@ -204,13 +204,13 @@ export const COMBAT_SKILLS = {
     category: 'Companion',
     type: 'support',
     damageType: 'Forest',
-    targetType: 'Self',
+    targetType: 'Ally',
     power: 0,
     accuracy: 100,
     cooldown: 2,
     statusEffectId: 'haste',
     statusChance: 100,
-    description: 'Aghoy finds a safer rhythm in the leaves, granting Haste.',
+    description: 'Aghoy finds a safer rhythm in the leaves, granting an ally Haste.',
   },
   weight_of_the_old_post: {
     id: 'weight_of_the_old_post',
@@ -240,6 +240,120 @@ export const COMBAT_SKILLS = {
     statusChance: 65,
     description: 'The shrine air thickens with sleep and fear.',
   },
+  barnacle_crush: {
+    id: 'barnacle_crush',
+    name: 'Barnacle Crush',
+    category: 'Physical',
+    type: 'physical',
+    damageType: 'Water',
+    targetType: 'Single Enemy',
+    power: 19,
+    accuracy: 92,
+    cooldown: 1,
+    statusEffectId: 'slow',
+    statusChance: 35,
+    description: 'A heavy coral-plated strike from the Siyokoy reef guardian.',
+  },
+  reef_guard: {
+    id: 'reef_guard',
+    name: 'Reef Guard',
+    category: 'Support',
+    type: 'support',
+    damageType: 'Water',
+    targetType: 'Self',
+    power: 0,
+    accuracy: 100,
+    cooldown: 2,
+    statusEffectId: 'guarded',
+    statusChance: 100,
+    description: 'Coral plates lock together to soften the next attack.',
+  },
+  moon_tide: {
+    id: 'moon_tide',
+    name: 'Moon Tide',
+    category: 'Magic',
+    type: 'magical',
+    damageType: 'Water',
+    targetType: 'Single Enemy',
+    power: 16,
+    accuracy: 96,
+    cooldown: 1,
+    statusEffectId: 'slow',
+    statusChance: 30,
+    description: 'A measured current shaped by the Kataw oath-keeper.',
+  },
+  tide_mirror: {
+    id: 'tide_mirror',
+    name: 'Tide Mirror',
+    category: 'Support',
+    type: 'support',
+    damageType: 'Water',
+    targetType: 'Self',
+    power: 0,
+    accuracy: 100,
+    cooldown: 2,
+    statusEffectId: 'guarded',
+    statusChance: 100,
+    description: 'A reflective tide braces the Kataw against harm.',
+  },
+  tide_song: {
+    id: 'tide_song',
+    name: 'Tide Song',
+    category: 'Magic',
+    type: 'magical',
+    damageType: 'Water',
+    targetType: 'Single Enemy',
+    power: 15,
+    accuracy: 98,
+    cooldown: 0,
+    statusEffectId: null,
+    statusChance: 0,
+    description: 'A clear note carries warning through the shallows.',
+  },
+  warning_lullaby: {
+    id: 'warning_lullaby',
+    name: 'Warning Lullaby',
+    category: 'Status',
+    type: 'status',
+    damageType: 'Water',
+    targetType: 'Single Enemy',
+    power: 7,
+    accuracy: 88,
+    cooldown: 3,
+    statusEffectId: 'sleep',
+    statusChance: 40,
+    description: 'A restrained lullaby asks intruders to turn back.',
+  },
+  kapre_smoke_fist: signatureSkill('kapre_smoke_fist', 'Smoke Fist', 'Forest', 20, 'weaken', 40, 'A heavy strike hidden inside a curl of balete smoke.'),
+  balete_guard: guardSkill('balete_guard', 'Balete Guard', 'Forest', 'Old bark and roots brace the Kapre against harm.'),
+  maze_gallop: signatureSkill('maze_gallop', 'Maze Gallop', 'Forest', 18, 'slow', 55, 'Hooves bend the apparent direction of the forest trail.'),
+  trail_mirage: hasteSkill('trail_mirage', 'Trail Mirage', 'Forest', 'A false path quickens the Tikbalang while confusing pursuit.'),
+  backward_pounce: signatureSkill('backward_pounce', 'Backward Pounce', 'Shadow', 19, null, 0, 'The Sigbin attacks from the direction its tracks deny.'),
+  ember_hide: guardSkill('ember_hide', 'Ember Hide', 'Shadow', 'A low ember glow hardens into a brief protective veil.'),
+  bamboo_prank: signatureSkill('bamboo_prank', 'Bamboo Prank', 'Earth', 12, 'slow', 60, 'A snapping bamboo trick interrupts the target rhythm.'),
+  root_snare: statusSkill('root_snare', 'Root Snare', 'Earth', 7, 'slow', 85, 'Fine roots curl around the target feet.'),
+  mound_warning: signatureSkill('mound_warning', 'Mound Warning', 'Earth', 15, 'weaken', 45, 'The earth answers a guardian warning beneath careless feet.'),
+  earth_guard: guardSkill('earth_guard', 'Earth Guard', 'Earth', 'Packed soil rises into a respectful defensive ring.'),
+  pollen_dart: signatureSkill('pollen_dart', 'Pollen Dart', 'Forest', 14, 'slow', 30, 'A bright seed of forest pollen darts toward the target.'),
+  petal_veil: hasteSkill('petal_veil', 'Petal Veil', 'Forest', 'A quick spiral of petals lightens the Lambana movement.'),
+  veil_bolt: signatureSkill('veil_bolt', 'Veil Bolt', 'Spirit', 18, 'weaken', 45, 'A focused pulse passes through the Engkanto veil.'),
+  glamour_step: hasteSkill('glamour_step', 'Glamour Step', 'Spirit', 'The Engkanto slips between one reflected step and the next.'),
+  wandering_flame: signatureSkill('wandering_flame', 'Wandering Flame', 'Fire', 17, null, 0, 'A blue-orange flame crosses the old stone path.'),
+  grave_chill: statusSkill('grave_chill', 'Grave Chill', 'Spirit', 8, 'slow', 70, 'Cold air gathers where the Santelmo light has passed.'),
+  river_grip: signatureSkill('river_grip', 'River Grip', 'Water', 19, 'slow', 45, 'Water-heavy hands pull the target off balance.'),
+  undertow_step: guardSkill('undertow_step', 'Undertow Step', 'Water', 'The Amalanhig sinks into a guarded current.'),
+  spirit_echo: signatureSkill('spirit_echo', 'Spirit Echo', 'Spirit', 17, 'weaken', 40, 'An ancestral echo answers with measured force.'),
+  ancestor_ward: guardSkill('ancestor_ward', 'Ancestor Ward', 'Spirit', 'A fictional ancestral ward steadies the Anito.'),
+  razor_song: signatureSkill('razor_song', 'Razor Song', 'Water', 20, 'weaken', 35, 'A sharp reef melody travels like a cutting current.'),
+  reef_dash: hasteSkill('reef_dash', 'Reef Dash', 'Water', 'The Magindara darts through an imagined reef channel.'),
+  marsh_lure: signatureSkill('marsh_lure', 'Marsh Lure', 'Water', 17, 'slow', 55, 'A receding marsh current draws the target forward.'),
+  drowning_reed: statusSkill('drowning_reed', 'Drowning Reed', 'Water', 9, 'sleep', 35, 'Reed shadows and heavy water invite dangerous stillness.'),
+  lake_bite: signatureSkill('lake_bite', 'Lake Bite', 'Water', 21, null, 0, 'The Kugtong surges from the shallows with crushing force.'),
+  scale_guard: guardSkill('scale_guard', 'Scale Guard', 'Water', 'Ancient lake scales overlap into a sturdy defense.'),
+  sanctuary_bloom: signatureSkill('sanctuary_bloom', 'Sanctuary Bloom', 'Forest', 15, 'weaken', 35, 'A burst of sanctuary flowers tests whether visitors approach with care.'),
+  waterfall_veil: guardSkill('waterfall_veil', 'Waterfall Veil', 'Water', 'A clear falling-water veil shields the Diwata.'),
+  current_bind: signatureSkill('current_bind', 'Current Bind', 'Water', 18, 'slow', 55, 'The Mambubuno loops the river current around careless feet.'),
+  river_mirror: guardSkill('river_mirror', 'River Mirror', 'Water', 'A smooth reflected current forms a defensive screen.'),
 }
 
 export function skillById(skillId) {
@@ -269,7 +383,7 @@ export function skillVfxAssetKey(skillId) {
 
 export function skillMotionType(skillId) {
   const skill = skillById(skillId)
-  if (skill.type === 'support' || skill.targetType === 'Self') return 'support'
+  if (skill.type === 'support' || skill.targetType === 'Self' || skill.targetType === 'Ally') return 'support'
   if (['river_cut', 'mound_pebble', 'leaf_tap'].includes(skill.id)) return 'projectile'
   if (skill.type === 'physical') return 'melee'
   return 'impact'
@@ -277,4 +391,36 @@ export function skillMotionType(skillId) {
 
 export function statusById(statusId) {
   return STATUS_EFFECTS[statusId] ?? null
+}
+
+function signatureSkill(id, name, damageType, power, statusEffectId, statusChance, description) {
+  return {
+    id, name, category: 'Signature', type: 'physical', damageType,
+    targetType: 'Single Enemy', power, accuracy: 94, cooldown: 1,
+    statusEffectId, statusChance, description,
+  }
+}
+
+function statusSkill(id, name, damageType, power, statusEffectId, statusChance, description) {
+  return {
+    id, name, category: 'Status', type: 'status', damageType,
+    targetType: 'Single Enemy', power, accuracy: 90, cooldown: 2,
+    statusEffectId, statusChance, description,
+  }
+}
+
+function guardSkill(id, name, damageType, description) {
+  return {
+    id, name, category: 'Support', type: 'support', damageType,
+    targetType: 'Self', power: 0, accuracy: 100, cooldown: 2,
+    statusEffectId: 'guarded', statusChance: 100, description,
+  }
+}
+
+function hasteSkill(id, name, damageType, description) {
+  return {
+    id, name, category: 'Support', type: 'support', damageType,
+    targetType: 'Self', power: 0, accuracy: 100, cooldown: 2,
+    statusEffectId: 'haste', statusChance: 100, description,
+  }
 }

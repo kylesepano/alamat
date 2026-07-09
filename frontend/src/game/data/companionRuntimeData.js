@@ -2,12 +2,22 @@ import { ACTIVE_SKILL_SLOT_LIMIT } from './combatRuntimeData'
 import { equipmentById } from './inventoryRuntimeData'
 import { normalizeSkillLoadout } from './progressionRuntimeData'
 
+export const COMPANION_STAT_POINT_GRANTS_PER_LEVEL = 2
+
+export const COMPANION_STAT_POINT_VALUES = {
+  maxHp: 4,
+  attack: 1,
+  defense: 1,
+  speed: 1,
+}
+
 export const COMPANION_DEFINITIONS = {
   MON0038: {
     monster_id: 'MON0038',
     name: 'Aghoy',
     role: 'Support',
     assetKey: 'asset-nilalang-aghoy',
+    battleScale: 0.9,
     unlockMethod: 'story_gated_trust',
     requiredTrust: 60,
     requiredFlags: ['defeated_MON0007'],
@@ -152,8 +162,18 @@ export function companionProgressionState(save, monsterId) {
     unlocked_skills: definition.skillTree.filter((unlock) => unlock.level <= 1).map((unlock) => unlock.skillId),
     active_skills: definition.skillTree.filter((unlock) => unlock.level <= 1).map((unlock) => unlock.skillId),
     skill_unlock_log: [],
+    stat_points: 0,
+    allocated_stats: { maxHp: 0, attack: 0, defense: 0, speed: 0 },
   }
   save.companions.progression[monsterId].active_skills ??= save.companions.progression[monsterId].unlocked_skills.slice(0, ACTIVE_SKILL_SLOT_LIMIT)
+  save.companions.progression[monsterId].stat_points ??= 0
+  save.companions.progression[monsterId].allocated_stats = {
+    maxHp: 0,
+    attack: 0,
+    defense: 0,
+    speed: 0,
+    ...save.companions.progression[monsterId].allocated_stats,
+  }
   return save.companions.progression[monsterId]
 }
 
@@ -161,12 +181,13 @@ export function companionStatsForSave(save, monsterId) {
   const definition = companionDefinition(monsterId)
   const progression = companionProgressionState(save, monsterId)
   const levelBonus = Math.max(0, (progression?.level ?? 1) - 1)
+  const allocated = progression?.allocated_stats ?? {}
   const equipmentStats = companionEquipmentStatTotals(save, monsterId)
   return {
-    maxHp: definition.baseStats.maxHp + levelBonus * definition.growth.maxHp + (equipmentStats.maxHp ?? 0),
-    attack: definition.baseStats.attack + levelBonus * definition.growth.attack + (equipmentStats.attack ?? 0),
-    defense: definition.baseStats.defense + levelBonus * definition.growth.defense + (equipmentStats.defense ?? 0),
-    speed: definition.baseStats.speed + levelBonus * definition.growth.speed + (equipmentStats.speed ?? 0),
+    maxHp: definition.baseStats.maxHp + levelBonus * definition.growth.maxHp + (allocated.maxHp ?? 0) * COMPANION_STAT_POINT_VALUES.maxHp + (equipmentStats.maxHp ?? 0),
+    attack: definition.baseStats.attack + levelBonus * definition.growth.attack + (allocated.attack ?? 0) * COMPANION_STAT_POINT_VALUES.attack + (equipmentStats.attack ?? 0),
+    defense: definition.baseStats.defense + levelBonus * definition.growth.defense + (allocated.defense ?? 0) * COMPANION_STAT_POINT_VALUES.defense + (equipmentStats.defense ?? 0),
+    speed: definition.baseStats.speed + levelBonus * definition.growth.speed + (allocated.speed ?? 0) * COMPANION_STAT_POINT_VALUES.speed + (equipmentStats.speed ?? 0),
   }
 }
 
@@ -209,6 +230,7 @@ export function applyCompanionBattleRewards(save, { result, monster_id, xp = 0 }
   progression.total_xp += gainedXp
   progression.xp = progression.total_xp
   progression.level = companionLevelForXp(progression.total_xp)
+  const statPointsGained = grantCompanionStatPoints(save, activeId, levelBefore)
 
   const skillUnlocks = []
   for (const unlock of definition.skillTree) {
@@ -237,8 +259,35 @@ export function applyCompanionBattleRewards(save, { result, monster_id, xp = 0 }
     levelBefore,
     levelAfter: progression.level,
     levelUp: progression.level > levelBefore,
+    statPointsGained,
     skillUnlocks,
   }
+}
+
+export function grantCompanionStatPoints(save, monsterId, previousLevel) {
+  const progression = companionProgressionState(save, monsterId)
+  const levelsGained = Math.max(0, progression.level - previousLevel)
+  if (levelsGained <= 0) return 0
+  const points = levelsGained * COMPANION_STAT_POINT_GRANTS_PER_LEVEL
+  progression.stat_points = (progression.stat_points ?? 0) + points
+  progression.allocated_stats ??= { maxHp: 0, attack: 0, defense: 0, speed: 0 }
+  return points
+}
+
+export function allocateCompanionStat(save, monsterId, stat) {
+  if (!Object.hasOwn(COMPANION_STAT_POINT_VALUES, stat)) return { ok: false, message: 'Unknown companion stat.' }
+  const progression = companionProgressionState(save, monsterId)
+  if (!progression) return { ok: false, message: 'Companion unavailable.' }
+  if ((progression.stat_points ?? 0) <= 0) return { ok: false, message: 'No companion stat points available.' }
+  progression.allocated_stats ??= { maxHp: 0, attack: 0, defense: 0, speed: 0 }
+  progression.allocated_stats[stat] = (progression.allocated_stats[stat] ?? 0) + 1
+  progression.stat_points -= 1
+  const stats = companionStatsForSave(save, monsterId)
+  save.companions.runtime ??= {}
+  save.companions.runtime[monsterId] ??= { hp: stats.maxHp }
+  save.companions.runtime[monsterId].hp = Math.min(save.companions.runtime[monsterId].hp ?? stats.maxHp, stats.maxHp)
+  const label = stat === 'maxHp' ? 'HP' : stat.toUpperCase()
+  return { ok: true, message: `${label} increased for ${companionDefinition(monsterId)?.name ?? monsterId}.` }
 }
 
 export function companionEquipmentStatTotals(save, monsterId) {

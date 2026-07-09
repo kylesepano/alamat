@@ -11,6 +11,7 @@ import {
   spriteAssets,
   spriteFrameName,
   spriteWalkAnimationKey,
+  tilemapAssets,
   vfxAnimationKey,
   vfxAssets,
 } from '../data/verticalSliceAssets'
@@ -22,7 +23,9 @@ export class PreloadScene extends Phaser.Scene {
 
   preload() {
     for (const asset of VERTICAL_SLICE_ASSETS) {
-      if (asset.type === 'vfx') {
+      if (asset.type === 'tilemap') {
+        this.load.tilemapTiledJSON(asset.key, asset.path)
+      } else if (asset.type === 'vfx') {
         this.load.spritesheet(asset.key, asset.path, { frameWidth: asset.frameWidth, frameHeight: asset.frameHeight })
       } else if (asset.type === 'battleSpritesheet') {
         this.load.spritesheet(asset.key, asset.path, { frameWidth: asset.frameWidth, frameHeight: asset.frameHeight })
@@ -39,6 +42,7 @@ export class PreloadScene extends Phaser.Scene {
     this.createSpriteAnimations()
     this.createBattleSpriteAnimations()
     this.createVfxAnimations()
+    this.warnIfTilemapsAreMissing()
     this.createGeneratedTextures()
     this.scene.start('WorldScene')
     this.scene.launch('UIScene')
@@ -149,6 +153,14 @@ export class PreloadScene extends Phaser.Scene {
     graphics.generateTexture(PLAYER_ASSET_KEY, 34, 46)
     graphics.clear()
     graphics.destroy()
+  }
+
+  warnIfTilemapsAreMissing() {
+    for (const asset of tilemapAssets()) {
+      if (!this.cache.tilemap.exists(asset.key)) {
+        console.warn(`[ALAMAT maps] ${asset.key} did not load from ${asset.path}. Falling back to blockout map rendering.`)
+      }
+    }
   }
 }
 

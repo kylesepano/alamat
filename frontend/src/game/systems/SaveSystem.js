@@ -43,6 +43,7 @@ export class SaveSystem {
         ...structuredClone(DEFAULT_SAVE.world),
         ...save.world,
         story_flags: save.world?.story_flags ?? [],
+        dialogue_choices: save.world?.dialogue_choices ?? {},
       },
       player_state: {
         ...structuredClone(DEFAULT_SAVE.player_state),
@@ -78,6 +79,11 @@ export class SaveSystem {
         unlocked_skills: save.progression?.unlocked_skills ?? structuredClone(DEFAULT_SAVE.progression.unlocked_skills),
         active_skills: save.progression?.active_skills ?? save.progression?.unlocked_skills?.slice(0, 6) ?? structuredClone(DEFAULT_SAVE.progression.active_skills),
         skill_unlock_log: save.progression?.skill_unlock_log ?? [],
+        stat_points: save.progression?.stat_points ?? 0,
+        allocated_stats: {
+          ...structuredClone(DEFAULT_SAVE.progression.allocated_stats),
+          ...save.progression?.allocated_stats,
+        },
       },
       inventory: {
         ...structuredClone(DEFAULT_SAVE.inventory),

@@ -1,12 +1,12 @@
 import Phaser from 'phaser'
 import { gameBridge } from '../bridges/ReactPhaserBridge'
 import { TILE_SIZE } from '../config/gameConstants'
-import { activeCompanion, applyCompanionBattleRewards, applyTrustFromBattle, bondCompanion, equipCompanionItem, refreshAllBondEligibility, reviveCompanionsAtBalon, setCompanionHp, toggleCompanionActiveSkill, unequipCompanionItem } from '../data/companionRuntimeData'
-import { addInventoryItem, buyShopEntry, craftRecipe, equipItem, equipmentStatTotals, itemById, unequipItem } from '../data/inventoryRuntimeData'
-import { applyBattleRewards, playerActiveSkills, playerStatsForProgression, togglePlayerActiveSkill } from '../data/progressionRuntimeData'
-import { advanceItemQuest, advanceQuests, ensureQuestState } from '../data/questRuntimeData'
+import { activeCompanion, allocateCompanionStat, applyCompanionBattleRewards, applyTrustFromBattle, bondCompanion, equipCompanionItem, refreshAllBondEligibility, reviveCompanionsAtBalon, setCompanionHp, toggleCompanionActiveSkill, unequipCompanionItem } from '../data/companionRuntimeData'
+import { addInventoryItem, buyShopEntry, craftRecipe, equipItem, equipmentStatTotals, itemById, removeInventoryItem, unequipItem } from '../data/inventoryRuntimeData'
+import { allocatePlayerStat, applyBattleRewards, playerActiveSkills, playerStatsForProgression, togglePlayerActiveSkill } from '../data/progressionRuntimeData'
+import { advanceItemQuest, advanceQuests, ensureQuestState, startQuest } from '../data/questRuntimeData'
 import { markStorySceneSeen, shouldPlayStoryScene, storySceneById } from '../data/storyRuntimeData'
-import { PLAYER_ASSET_KEY, assetByKey, spriteIdleFrame } from '../data/verticalSliceAssets'
+import { PLAYER_ASSET_KEY, assetByKey, spriteIdleFrame, spriteWalkAnimationKey, tilemapAssetKey } from '../data/verticalSliceAssets'
 import { battleForMonster } from '../data/verticalSliceBattles'
 import { VERTICAL_SLICE_MAPS, tileToWorld } from '../data/verticalSliceMaps'
 import { CameraController } from '../systems/CameraController'
@@ -14,6 +14,8 @@ import { CollisionSystem } from '../systems/CollisionSystem'
 import { InteractionSystem } from '../systems/InteractionSystem'
 import { PlayerController } from '../systems/PlayerController'
 import { SaveSystem } from '../systems/SaveSystem'
+import { applyDialogueChoice, dialogueFor } from '../data/dialogueRuntimeData'
+import { applyNpcSchedules } from '../data/npcScheduleRuntimeData'
 
 export class WorldScene extends Phaser.Scene {
   constructor() {
@@ -45,6 +47,9 @@ export class WorldScene extends Phaser.Scene {
     this.player.body.setSize(24, 28).setOffset(5, 16)
     this.physics.add.collider(this.player, this.collision.group)
     this.lastPlayerPosition = new Phaser.Math.Vector2(this.player.x, this.player.y)
+    this.companionFollower = null
+    this.companionFollowerId = null
+    this.syncCompanionFollower()
 
     this.playerController = new PlayerController(this, this.player)
     this.cameraController = new CameraController(this, this.player)
@@ -74,12 +79,17 @@ export class WorldScene extends Phaser.Scene {
     this.cleanupUnequipItem = gameBridge.on('command:unequip-item', ({ slot }) => this.unequipItem(slot))
     this.cleanupEquipCompanionItem = gameBridge.on('command:equip-companion-item', ({ monster_id, equipment_id }) => this.equipCompanionItem(monster_id, equipment_id))
     this.cleanupUnequipCompanionItem = gameBridge.on('command:unequip-companion-item', ({ monster_id, slot }) => this.unequipCompanionItem(monster_id, slot))
+    this.cleanupUseFieldItem = gameBridge.on('command:use-field-item', ({ item_id, target }) => this.useFieldItem(item_id, target))
+    this.cleanupAllocatePlayerStat = gameBridge.on('command:allocate-player-stat', ({ stat }) => this.allocatePlayerStat(stat))
+    this.cleanupAllocateCompanionStat = gameBridge.on('command:allocate-companion-stat', ({ monster_id, stat }) => this.allocateCompanionStat(monster_id, stat))
     this.cleanupTogglePlayerSkill = gameBridge.on('command:toggle-player-skill', ({ skill_id }) => this.togglePlayerSkill(skill_id))
     this.cleanupToggleCompanionSkill = gameBridge.on('command:toggle-companion-skill', ({ monster_id, skill_id }) => this.toggleCompanionSkill(monster_id, skill_id))
     this.cleanupTrackQuest = gameBridge.on('command:track-quest', ({ quest_id }) => this.trackQuest(quest_id))
+    this.cleanupDialogueChoice = gameBridge.on('command:dialogue-choice', ({ entity_id, choice }) => this.handleDialogueChoice(entity_id, choice))
     this.cleanupInteractionUiState = gameBridge.on('ui:interaction-panel', ({ open }) => {
       this.interactionUiOpen = Boolean(open)
       if (this.playerController) this.playerController.locked = this.interactionUiOpen
+      if (this.interactionUiOpen) this.forcePlayerIdle()
     })
     this.emitMapChanged()
     this.emitQuestUpdate()
@@ -88,6 +98,7 @@ export class WorldScene extends Phaser.Scene {
 
   update() {
     this.playerController.update()
+    this.updateCompanionFollower()
     const active = this.interactions.update(this.player)
     this.updateRandomEncounters()
     if (this.time.now - this.lastDebugEmit < 250) return
@@ -110,23 +121,27 @@ export class WorldScene extends Phaser.Scene {
     this.objectLabels.forEach((label) => label.destroy())
     this.objectLabels = []
     this.cameras.main.setBackgroundColor('#12180f')
-    this.drawTilesetBackground(map)
+    const didDrawTilemap = this.drawTiledMap(map)
 
-    for (let y = 0; y < map.height; y++) {
-      for (let x = 0; x < map.width; x++) {
-        const color = (x + y) % 2 === 0 ? map.ground : map.accent
-        const tile = this.add.rectangle(x * TILE_SIZE + TILE_SIZE / 2, y * TILE_SIZE + TILE_SIZE / 2, TILE_SIZE, TILE_SIZE, color, map.tilesetKey ? 0.24 : 0.82)
-        tile.setStrokeStyle(1, 0x000000, 0.08)
-        this.mapLayer.add(tile)
+    if (!didDrawTilemap) {
+      this.drawTilesetBackground(map)
+
+      for (let y = 0; y < map.height; y++) {
+        for (let x = 0; x < map.width; x++) {
+          const color = (x + y) % 2 === 0 ? map.ground : map.accent
+          const tile = this.add.rectangle(x * TILE_SIZE + TILE_SIZE / 2, y * TILE_SIZE + TILE_SIZE / 2, TILE_SIZE, TILE_SIZE, color, map.tilesetKey ? 0.24 : 0.82)
+          tile.setStrokeStyle(1, 0x000000, 0.08)
+          this.mapLayer.add(tile)
+        }
       }
-    }
 
-    for (const deco of map.decorations ?? []) {
-      const rect = this.add.rectangle(deco.x * TILE_SIZE + (deco.w * TILE_SIZE) / 2, deco.y * TILE_SIZE + (deco.h * TILE_SIZE) / 2, deco.w * TILE_SIZE, deco.h * TILE_SIZE, 0x1f2718, 0.85)
-      rect.setStrokeStyle(2, 0xd8b765, 0.3)
-      const label = this.add.text(rect.x, rect.y, deco.kind, { fontFamily: 'Arial', fontSize: '12px', color: '#f7d98b' }).setOrigin(0.5)
-      this.mapLayer.add(rect)
-      this.objectLabels.push(label)
+      for (const deco of map.decorations ?? []) {
+        const rect = this.add.rectangle(deco.x * TILE_SIZE + (deco.w * TILE_SIZE) / 2, deco.y * TILE_SIZE + (deco.h * TILE_SIZE) / 2, deco.w * TILE_SIZE, deco.h * TILE_SIZE, 0x1f2718, 0.85)
+        rect.setStrokeStyle(2, 0xd8b765, 0.3)
+        const label = this.add.text(rect.x, rect.y, deco.kind, { fontFamily: 'Arial', fontSize: '12px', color: '#f7d98b' }).setOrigin(0.5)
+        this.mapLayer.add(rect)
+        this.objectLabels.push(label)
+      }
     }
 
     const title = this.add.text(16, map.height * TILE_SIZE - 32, `${map.zoneName} / ${map.name}`, {
@@ -137,11 +152,12 @@ export class WorldScene extends Phaser.Scene {
       padding: { x: 8, y: 4 },
     }).setDepth(80)
     this.objectLabels.push(title)
+    const scheduledMap = applyNpcSchedules(map)
     const visibleMap = {
-      ...map,
-      objects: (map.objects ?? []).filter((object) => !this.isObjectCleared(object)),
+      ...scheduledMap,
+      objects: (scheduledMap.objects ?? []).filter((object) => !this.isObjectCleared(object)),
     }
-    this.collision.build(map)
+    this.collision.build(this.collisionMapFor(map))
     this.interactions.build(visibleMap)
   }
 
@@ -153,6 +169,53 @@ export class WorldScene extends Phaser.Scene {
     texture.setAlpha(0.42)
     texture.setDepth(-5)
     this.mapLayer.add(texture)
+  }
+
+  drawTiledMap(map) {
+    const tilemapKey = tilemapAssetKey(map.id)
+    if (!tilemapKey || !this.cache.tilemap.exists(tilemapKey) || !map.tilesetKey || !this.textures.exists(map.tilesetKey)) return false
+
+    const tiledMap = this.make.tilemap({ key: tilemapKey })
+    const tilesetName = tiledMap.tilesets[0]?.name
+    if (!tilesetName) return false
+
+    const tileset = tiledMap.addTilesetImage(tilesetName, map.tilesetKey, TILE_SIZE, TILE_SIZE)
+    if (!tileset) return false
+
+    const tileLayers = tiledMap.layers.filter((layer) => layer.name?.toLowerCase() !== 'collision')
+    for (const [index, layerData] of tileLayers.entries()) {
+      if (layerData.name?.toLowerCase() === 'collision') continue
+      const layer = tiledMap.createLayer(layerData.name, tileset, 0, 0)
+      if (!layer) continue
+      layer.setDepth(index)
+      layer.setAlpha(layerData.alpha ?? layerData.opacity ?? layerData.properties?.find((property) => property.name === 'alpha')?.value ?? 1)
+      this.mapLayer.add(layer)
+    }
+
+    return true
+  }
+
+  collisionMapFor(map) {
+    const tilemapKey = tilemapAssetKey(map.id)
+    if (!tilemapKey || !this.cache.tilemap.exists(tilemapKey)) return map
+
+    const tiledData = this.cache.tilemap.get(tilemapKey)?.data
+    const collisionLayer = tiledData?.layers?.find((layer) => layer.name === 'Collision' && layer.type === 'objectgroup')
+    const blockedRects = (collisionLayer?.objects ?? [])
+      .filter((object) => object.visible !== false && (object.width ?? 0) > 0 && (object.height ?? 0) > 0)
+      .map((object) => ({
+        x: object.x,
+        y: object.y,
+        width: object.width,
+        height: object.height,
+      }))
+
+    if (!blockedRects.length) return map
+    return {
+      ...map,
+      blocked: [],
+      blockedRects,
+    }
   }
 
   handleInteraction(object) {
@@ -191,6 +254,14 @@ export class WorldScene extends Phaser.Scene {
       }
     }
 
+    if (object.type === 'ambient') {
+      const changes = this.advanceQuest({ type: 'inspect', target_id: object.id })
+      if (changes.length > 0) {
+        SaveSystem.write(this.save)
+        gameBridge.emit('save:complete', { save: this.save, message: 'The discovery was added to your quest log.' })
+      }
+    }
+
     if (object.type === 'encounter' || object.type === 'boss') {
       this.startBattle(object.id, object.label)
       return
@@ -206,7 +277,17 @@ export class WorldScene extends Phaser.Scene {
       return
     }
 
-    gameBridge.emit('dialogue:open', { speaker: object.label, entity_id: object.id, text: object.dialogue })
+    gameBridge.emit('dialogue:open', dialogueFor(object, this.save))
+  }
+
+  handleDialogueChoice(entityId, choice) {
+    const result = applyDialogueChoice(this.save, entityId, choice)
+    if (result.startQuest) startQuest(this.save, result.startQuest)
+    if (!result.changed) return
+    SaveSystem.write(this.save)
+    this.emitQuestUpdate()
+    this.interactions?.refreshQuestLabels()
+    gameBridge.emit('save:complete', { save: this.save, message: result.startQuest ? 'A new optional quest was added.' : 'Your response was remembered.' })
   }
 
   changeMap(locationId, x, y) {
@@ -216,6 +297,7 @@ export class WorldScene extends Phaser.Scene {
     this.currentMap = nextMap
     this.save.world.location_id = locationId
     this.player.setPosition(x, y)
+    this.resetCompanionFollowerPosition()
     this.lastPlayerPosition = new Phaser.Math.Vector2(x, y)
     this.randomEncounterDistance = 0
     this.randomEncounterGraceUntil = this.time.now + 1200
@@ -236,6 +318,7 @@ export class WorldScene extends Phaser.Scene {
   }
 
   completeBattle({ result, monster_id, defeated_monster_ids = null, victoryFlag, inventory, player_hp, player_max_hp, companion_id, companion_hp, random = false }) {
+    this.forcePlayerIdle()
     if (inventory?.items) {
       this.save.inventory.items = inventory.items
     }
@@ -265,6 +348,7 @@ export class WorldScene extends Phaser.Scene {
       fieldDrops: rewardSummaries.flatMap((reward) => reward.fieldDrops ?? []),
       itemRewards: rewardSummaries.flatMap((reward) => reward.itemRewards ?? []),
       skillUnlocks: rewardSummaries.flatMap((reward) => reward.skillUnlocks ?? []),
+      statPointsGained: rewardSummaries.reduce((total, reward) => total + (reward.statPointsGained ?? 0), 0),
       levelAfter: rewardSummaries.at(-1)?.levelAfter ?? rewardSummaries[0]?.levelAfter,
       levelUp: rewardSummaries.some((reward) => reward.levelUp),
       notes: rewardSummaries.map((reward) => reward.notes).filter(Boolean).join(' '),
@@ -302,6 +386,7 @@ export class WorldScene extends Phaser.Scene {
   }
 
   startBattle(monsterId, title = null, random = false, monsterIds = null) {
+    this.forcePlayerIdle()
     const encounterMonsterIds = monsterIds?.length ? monsterIds : [monsterId]
     gameBridge.emit('battle:started', {
       monster_id: monsterId,
@@ -333,13 +418,15 @@ export class WorldScene extends Phaser.Scene {
     this.lastPlayerPosition = current
     if (distance < 1) return
     this.randomEncounterDistance += distance
-    if (this.randomEncounterDistance < 420) return
+    if (this.randomEncounterDistance < (this.currentMap.encounterDistance ?? 520)) return
     this.randomEncounterDistance = 0
-    if (Phaser.Math.Between(1, 100) > 28) return
-    const pool = this.currentMap.randomEncounterPool
+    if (Phaser.Math.Between(1, 100) > (this.currentMap.encounterChance ?? 24)) return
+    const playerLevel = this.save.progression?.level ?? 1
+    const eligiblePool = this.currentMap.randomEncounterPool.filter((monsterId) => (battleForMonster(monsterId).minEncounterLevel ?? 1) <= playerLevel)
+    const pool = eligiblePool.length ? eligiblePool : this.currentMap.randomEncounterPool.slice(0, 1)
     const monsterId = pool[Phaser.Math.Between(0, pool.length - 1)]
     const monsterIds = [monsterId]
-    if (pool.length > 1 && Phaser.Math.Between(1, 100) <= 30) {
+    if (pool.length > 1 && Phaser.Math.Between(1, 100) <= (this.currentMap.pairChance ?? 18)) {
       const secondPool = pool.filter((entry) => entry !== monsterId)
       monsterIds.push(secondPool[Phaser.Math.Between(0, secondPool.length - 1)])
     }
@@ -373,6 +460,7 @@ export class WorldScene extends Phaser.Scene {
     this.save.world.y = spawn.y
     this.drawMap(map)
     this.player.setPosition(spawn.x, spawn.y)
+    this.resetCompanionFollowerPosition()
     reviveCompanionsAtBalon(this.save)
     this.emitMapChanged()
     gameBridge.emit('interaction:started', { title: 'Returned to Balon', body: 'You were carried back to your last deepwell. Strength restored.' })
@@ -450,8 +538,75 @@ export class WorldScene extends Phaser.Scene {
     gameBridge.emit('economy:message', { ok, message })
   }
 
+  useFieldItem(itemId, target = 'player') {
+    const item = itemById(itemId)
+    const quantity = this.save.inventory.items[itemId] ?? 0
+    if (!item || item.category !== 'Consumable' || quantity <= 0) {
+      gameBridge.emit('economy:message', { ok: false, message: 'Consumable unavailable.' })
+      return
+    }
+    if (item.effect?.type !== 'heal') {
+      gameBridge.emit('economy:message', { ok: false, message: `${item.name} has no field effect yet.` })
+      return
+    }
+
+    let label = this.save.player.name || 'Player'
+    let before = 0
+    let after = 0
+    if (target === 'companion') {
+      const companion = activeCompanion(this.save)
+      if (!companion) {
+        gameBridge.emit('economy:message', { ok: false, message: 'No active companion to heal.' })
+        return
+      }
+      if (companion.hp <= 0) {
+        gameBridge.emit('economy:message', { ok: false, message: `${companion.name} needs a Balon to revive.` })
+        return
+      }
+      before = companion.hp
+      after = Math.min(companion.maxHp, companion.hp + item.effect.amount)
+      if (after <= before) {
+        gameBridge.emit('economy:message', { ok: false, message: `${companion.name} is already healthy.` })
+        return
+      }
+      setCompanionHp(this.save, companion.monster_id, after)
+      label = companion.name
+    } else {
+      const stats = playerStatsForProgression(this.save.progression, equipmentStatTotals(this.save))
+      before = Math.max(1, Math.min(stats.maxHp, this.save.player_state.hp ?? stats.maxHp))
+      after = Math.min(stats.maxHp, before + item.effect.amount)
+      if (after <= before) {
+        gameBridge.emit('economy:message', { ok: false, message: `${label} is already healthy.` })
+        return
+      }
+      this.save.player_state.hp = after
+    }
+
+    removeInventoryItem(this.save, itemId, 1)
+    SaveSystem.write(this.save)
+    const message = `${item.name} restored ${after - before} HP to ${label}.`
+    gameBridge.emit('save:complete', { save: this.save, message })
+    gameBridge.emit('economy:message', { ok: true, message })
+  }
+
   togglePlayerSkill(skillId) {
     const result = togglePlayerActiveSkill(this.save, skillId)
+    SaveSystem.write(this.save)
+    gameBridge.emit('save:complete', { save: this.save, message: result.message })
+    gameBridge.emit('economy:message', result)
+  }
+
+  allocatePlayerStat(stat) {
+    const result = allocatePlayerStat(this.save, stat)
+    const stats = playerStatsForProgression(this.save.progression, equipmentStatTotals(this.save))
+    this.save.player_state.hp = Math.min(this.save.player_state.hp ?? stats.maxHp, stats.maxHp)
+    SaveSystem.write(this.save)
+    gameBridge.emit('save:complete', { save: this.save, message: result.message })
+    gameBridge.emit('economy:message', result)
+  }
+
+  allocateCompanionStat(monsterId, stat) {
+    const result = allocateCompanionStat(this.save, monsterId, stat)
     SaveSystem.write(this.save)
     gameBridge.emit('save:complete', { save: this.save, message: result.message })
     gameBridge.emit('economy:message', result)
@@ -466,6 +621,8 @@ export class WorldScene extends Phaser.Scene {
 
   bondCompanion(monsterId) {
     bondCompanion(this.save, monsterId)
+    this.syncCompanionFollower()
+    this.resetCompanionFollowerPosition()
     SaveSystem.write(this.save)
     gameBridge.emit('save:complete', { save: this.save, message: `Bond formed: ${monsterId}` })
     gameBridge.emit('companion:bonded', { monster_id: monsterId })
@@ -479,10 +636,90 @@ export class WorldScene extends Phaser.Scene {
     ensureQuestState(this.save)
     this.drawMap(map)
     this.player.setPosition(this.save.world.x, this.save.world.y)
+    this.syncCompanionFollower()
+    this.resetCompanionFollowerPosition()
     this.emitMapChanged()
     this.emitQuestUpdate()
     const scene = storySceneById(this.locationId === 'WLOC000004' ? 'STSC00003' : 'STSC00001')
     if (scene && shouldPlayStoryScene(this.save, scene.id)) this.triggerStoryScene(scene.id)
+  }
+
+  syncCompanionFollower() {
+    const companion = activeCompanion(this.save)
+    if (!companion) {
+      this.companionFollower?.destroy()
+      this.companionFollower = null
+      this.companionFollowerId = null
+      return
+    }
+
+    if (this.companionFollower && this.companionFollowerId === companion.monster_id) return
+
+    this.companionFollower?.destroy()
+    const asset = assetByKey(companion.assetKey)
+    if (!asset || !this.textures.exists(companion.assetKey)) {
+      this.companionFollower = null
+      this.companionFollowerId = null
+      return
+    }
+
+    this.companionFollower = this.physics.add.sprite(this.player.x, this.player.y + 42, companion.assetKey, spriteIdleFrame('down'))
+    this.companionFollower.setDisplaySize(asset.displayWidth, asset.displayHeight)
+    this.companionFollower.setDepth(58)
+    this.companionFollower.body.setAllowGravity(false)
+    this.companionFollower.body.setSize(22, 22).setOffset(13, 24)
+    this.companionFollowerId = companion.monster_id
+  }
+
+  resetCompanionFollowerPosition() {
+    if (!this.companionFollower) return
+    this.companionFollower.setPosition(this.player.x, this.player.y + 42)
+    this.companionFollower.setVelocity(0, 0)
+    this.companionFollower.anims.stop()
+    this.companionFollower.setFrame(spriteIdleFrame('down'))
+  }
+
+  forcePlayerIdle() {
+    this.playerController?.forceIdle()
+  }
+
+  updateCompanionFollower() {
+    this.syncCompanionFollower()
+    if (!this.companionFollower) return
+
+    const facing = this.playerController?.facing ?? 'down'
+    const offsets = {
+      down: { x: 0, y: -42 },
+      up: { x: 0, y: 46 },
+      left: { x: 42, y: 0 },
+      right: { x: -42, y: 0 },
+    }
+    const offset = offsets[facing] ?? offsets.down
+    const targetX = this.player.x + offset.x
+    const targetY = this.player.y + offset.y
+    const distance = Phaser.Math.Distance.Between(this.companionFollower.x, this.companionFollower.y, targetX, targetY)
+
+    if (distance > 220) {
+      this.companionFollower.setPosition(targetX, targetY)
+      this.companionFollower.setVelocity(0, 0)
+      return
+    }
+
+    if (distance > 6) {
+      const angle = Phaser.Math.Angle.Between(this.companionFollower.x, this.companionFollower.y, targetX, targetY)
+      const speed = Math.min(210, Math.max(80, distance * 5))
+      const dx = targetX - this.companionFollower.x
+      const dy = targetY - this.companionFollower.y
+      const direction = Math.abs(dx) > Math.abs(dy) ? (dx > 0 ? 'right' : 'left') : (dy > 0 ? 'down' : 'up')
+      this.companionFollower.setVelocity(Math.cos(angle) * speed, Math.sin(angle) * speed)
+      this.companionFollower.anims.play(spriteWalkAnimationKey(this.companionFollower.texture.key, direction), true)
+    } else {
+      this.companionFollower.setVelocity(0, 0)
+      this.companionFollower.anims.stop()
+      this.companionFollower.setFrame(spriteIdleFrame(facing))
+    }
+
+    this.companionFollower.setDepth(this.companionFollower.y > this.player.y ? 62 : 58)
   }
 
   resetSave() {
@@ -510,9 +747,13 @@ export class WorldScene extends Phaser.Scene {
     this.cleanupUnequipItem?.()
     this.cleanupEquipCompanionItem?.()
     this.cleanupUnequipCompanionItem?.()
+    this.cleanupUseFieldItem?.()
+    this.cleanupAllocatePlayerStat?.()
+    this.cleanupAllocateCompanionStat?.()
     this.cleanupTogglePlayerSkill?.()
     this.cleanupToggleCompanionSkill?.()
     this.cleanupTrackQuest?.()
+    this.cleanupDialogueChoice?.()
     this.cleanupInteractionUiState?.()
   }
 }
