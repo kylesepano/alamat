@@ -395,12 +395,20 @@ Apply these requirements to every generated map JSON:
 
 - Use larger explorable maps, not tiny demo rooms.
 - Keep tile size `48x48`.
+- Use one embedded tileset entry with `firstgid: 1`, `tilewidth: 48`, `tileheight: 48`, `columns: 20`, `tilecount: 400`, `imagewidth: 960`, `imageheight: 960`, `spacing: 0`, and `margin: 0`. Never use an external TSX/TSJ `source`.
+- Treat every cell in the `960x960` tilesheet as an independently selectable `48x48` tile. Global tile IDs are stable and row-major: `tileId = row * 20 + column + 1`; use `0` for an empty cell.
+- Store every tile layer as an uncompressed flat integer `data` array with exactly `map width * map height` entries. Do not use base64, compression, infinite-map chunks, encoded strings, nested row arrays, or image layers.
+- Include a `tiles` catalog inside the embedded tileset for every tile ID used by the map. Give each catalog entry properties named `semantic`, `terrain_group`, `variant`, and `walkability` so a tile can be found and replaced without inspecting the artwork.
 - Use non-linear routes: loops, branches, bends, small clearings, side paths, optional corners, and short dead ends with rewards or lore.
 - Do not place important waypoints in a straight left-to-right line.
 - Do not place all characters, exits, shops, and quest objects on one horizontal road.
 - Put characters and interactables in `Objects`, `Transitions`, and `Encounters` object layers only. Do not bake characters, NPCs, Nilalang, labels, quest icons, or UI markers into tile layers.
 - Every important object must be reachable by at least two turns or a clear path, not placed inside collision.
 - Collision must be authored as object rectangles in the `Collision` object layer.
+- Keep collision independent from visual tile IDs. A visual tile may be replaced without silently changing collision.
+- Align collision rectangles to the `48x48` grid wherever possible. Each collision object must have a stable string `id`, a descriptive `name`, and properties `collision_kind`, `blocks_player`, and `blocks_companion`.
+- Use multiple small, meaningful collision rectangles around actual obstacles instead of one huge rectangle over an entire area. Gates, bridges, openings, shallow crossings, and shortcuts must remain separate so they can be enabled or disabled later.
+- Add map properties `schema_version`, `tileset_key`, and `tile_id_formula`. Add stable layer IDs and object IDs; never reuse an ID for a different object.
 - Use multiple visible tile layers: `Ground`, `Ground Detail`, `Path`, `Path Detail`, `Decor`, `Upper Decor`, then object layers.
 - Larger maps should include meaningful negative space, landmarks, and navigational rhythm, not dense random decoration everywhere.
 - Keep exits near believable edges, but vary their positions: corners, bends, gates, bridges, courtyards, forest openings, shrine thresholds.
@@ -479,6 +487,12 @@ Output a collision-aware Tiled-style JSON draft and a concise tile legend.
 
 Rules:
 - Tile size: 48x48 pixels.
+- The tilesheet is exactly 960x960 pixels: 20 columns x 20 rows, 400 independently selectable 48x48 tiles.
+- Embed the complete tileset definition directly in `tilesets[0]`. Do not return a `source` field or an external TSX/TSJ dependency.
+- Use `firstgid: 1`, `columns: 20`, `tilecount: 400`, `imagewidth: 960`, `imageheight: 960`, `spacing: 0`, and `margin: 0`.
+- Use row-major global tile IDs: tileId = row * 20 + column + 1. Use 0 only for an empty tile.
+- Every tile layer must contain an uncompressed flat integer data array of exactly width * height entries. Never use base64, compression, chunks, encoded strings, or nested row arrays.
+- Include tileset tile properties for every used tile ID: semantic, terrain_group, variant, and walkability.
 - Use integer tile coordinates only.
 - Use larger explorable maps. Do not make a tiny test room.
 - Use separate tile layers named Ground, Ground Detail, Path, Path Detail, Decor, Upper Decor.
@@ -486,6 +500,9 @@ Rules:
 - Place NPCs, Nilalang, items, save points, shops, bosses, and quest interactables only in object layers.
 - Do not bake characters, labels, quest icons, UI markers, or dialogue markers into tile layers.
 - Collision must match blocked structures, walls, fences, thick roots, buildings, water, rocks, and major props.
+- Collision is authoritative and independent from visible tile choices. Put it only in the Collision object layer as editable rectangles aligned to the 48x48 grid wherever possible.
+- Every collision rectangle needs a stable string key and properties collision_kind, blocks_player, and blocks_companion.
+- Split fences, walls, shorelines, roots, structures, and map borders into logical collision sections. Preserve explicit gaps for gates, doors, bridges, crossings, and shortcuts.
 - Objects must use the exact important story roles provided, but their coordinates should be placed dynamically within the larger map.
 - Do not invent extra named NPCs, bosses, shops, save points, or quest-critical objects.
 - Do not place visual obstacles on walkable tiles.
@@ -498,8 +515,8 @@ Rules:
 - Return JSON that is easy to import or convert into Tiled/Phaser.
 
 Return:
-1. Tile legend with tile IDs and meanings.
-2. Tiled-style JSON draft with width, height, tilewidth, tileheight, tile layers, object layers, collision rectangles, and map properties.
+1. Tile catalog listing each used tile's global ID, tilesheet row, tilesheet column, semantic, terrain_group, variant, and walkability.
+2. Tiled-style JSON draft with an embedded tileset, width, height, tilewidth, tileheight, uncompressed flat tile-layer arrays, object layers, editable collision rectangles, and map properties.
 3. A short validation checklist listing all reachable objects and all blocked rectangles.
 4. Any assumptions made.
 
@@ -702,6 +719,53 @@ Create a top-down map preview for Spirit Shrine Threshold, exact 2112x1632 pixel
 
 ```text
 Hand-painted HD 2D chibi Filipino fantasy RPG overworld sprite sheet for Lira Lakandula, the welcoming barangay guide in ALAMAT. Warm young-adult Filipino features, practical dark tied hair, modest woven village clothing in river blue, muted gold, and leaf green, small notice ledger and cloth satchel, approachable observant posture, clearly distinct from Babaylan Lira Dalisay. Create one exact PNG sprite sheet with true alpha transparency. Canvas exactly 768x1024 pixels. Strict 3 columns x 4 rows, 12 frames, each cell exactly 256x256. Rows: down/front, left, right, up/back. Columns: idle, left-foot-forward walk, right-foot-forward walk. Columns 2 and 3 must be visibly opposite walking poses. Keep face, outfit, ledger, proportions, colors, and baseline consistent. Keep the full body inside each cell with at least 24px top padding and 16px below the feet. No checkerboard, background, scenery, labels, grid lines, borders, or elements crossing cell boundaries.
+```
+
+## ChatGPT Portrait And Quest Asset Session Contract
+
+Paste the following block once near the beginning of a ChatGPT asset-generation conversation. Keep using the same conversation for the slice so visual identity remains consistent. Also keep this file as the durable source of truth; chat memory alone is not a replacement for the saved prompt and file path.
+
+```text
+ALAMAT PORTRAIT AND QUEST ASSET MASTER RULES
+
+Remember and apply these rules to every later ALAMAT portrait, quest-item icon, and map quest-object request in this conversation unless I explicitly replace a rule.
+
+Shared rules:
+- Match the established hand-painted polished 2D Filipino fantasy RPG art direction.
+- Keep cultural inspiration respectful, fictional, regionally varied, and free of caricature.
+- Output exactly one final asset per request at the exact requested dimensions.
+- Use PNG with real alpha transparency. The corner pixels must be transparent.
+- Never draw a checkerboard, white canvas, colored canvas, scenery backdrop, text, letters, numbers, logo, watermark, UI frame, rarity border, drop shadow outside the silhouette, or contact sheet.
+- Keep the subject fully inside the canvas with transparent padding. Do not crop important anatomy or identifying features.
+- Preserve names, IDs, colors, clothing, materials, and silhouette from earlier approved assets in this conversation.
+- Do not silently rename an asset or change its path. Repeat the requested filename after generation.
+
+Dialogue portrait rules:
+- Canvas exactly 512x512 pixels.
+- One head-and-shoulders subject in a consistent three-quarter view.
+- Keep the complete head, hair, ears, shoulders, and identifying accessory visible with at least 24 pixels of transparent padding.
+- Face and eyes must remain readable when displayed at 96x96.
+- Use consistent warm key light with biome-appropriate reflected light.
+- Do not include speech bubbles, nameplates, hands blocking the face, full-body poses, scenery, or unrelated props.
+- Save as frontend/public/assets/vertical-slice/portraits/portrait_[ENTITY_ID]_[slug].png.
+
+Collectible quest-item icon rules:
+- Canvas exactly 64x64 pixels.
+- Show one centered collectible object with a strong silhouette and at least 6 pixels of transparent padding.
+- Use a slight top-down three-quarter presentation and restrained lighting.
+- The object must remain recognizable at 32x32.
+- Do not include a hand, character, pedestal, inventory slot, quantity number, glow filling the canvas, or environment.
+- Save as frontend/public/assets/vertical-slice/quests/icon_[QUEST_OR_ITEM_ID]_[slug].png.
+
+Map quest-object rules:
+- Canvas exactly 96x96 pixels unless the individual prompt specifies another exact size.
+- Show one top-down or top-down three-quarter environmental object that can be placed directly over a 48x48 tile map.
+- Keep the interaction footprint centered near the lower-middle of the canvas and leave at least 16 pixels of transparent padding.
+- Use a readable base/contact point but no painted ground tile, interaction ring, quest marker, exclamation mark, label, or baked collision guide.
+- The object must visually match the relevant map tileset and remain readable when displayed between 48x48 and 96x96.
+- Save as frontend/public/assets/vertical-slice/quests/object_[QUEST_OBJECT_ID]_[slug].png.
+
+Before generating, state the asset category, entity or quest ID, exact dimensions, and exact target filename in one short line. If any required value is missing, ask for it instead of inventing a permanent ID.
 ```
 
 ## Slice 1 Dialogue Portraits

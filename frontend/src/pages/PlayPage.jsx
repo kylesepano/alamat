@@ -8,7 +8,7 @@ import { PLAYER_STAT_POINT_VALUES, classTrackForProgression, nextLevelThreshold,
 import { QUEST_DEFINITIONS, questProgress, trackedQuest } from '../game/data/questRuntimeData'
 import { STORY_SCENES } from '../game/data/storyRuntimeData'
 import { SaveSystem } from '../game/systems/SaveSystem'
-import { equipmentIconPath, itemIconPath } from '../game/data/verticalSliceAssets'
+import { dialoguePortraitPath, equipmentIconPath, itemIconPath } from '../game/data/verticalSliceAssets'
 
 const bodyOptions = ['body_01', 'body_02', 'body_03']
 const hairOptions = ['hair_01', 'hair_02', 'hair_03']
@@ -1224,11 +1224,14 @@ function InteractionModal({ panel, onAdvance, onChoose, onClose }) {
   const isLastPage = pageIndex >= pages.length - 1
   const showChoices = isDialogue && isLastPage && panel.choices?.length && !panel.selectedChoice
   const body = panel.selectedChoice?.response ?? pages[pageIndex]
+  const portrait = dialoguePortraitPath(panel.entity_id)
   return (
     <div className="absolute inset-x-6 bottom-6 z-50 mx-auto max-w-4xl rounded-lg border border-[#d8b765]/45 bg-[#11180f]/98 p-4 shadow-2xl">
       <div className="flex items-start justify-between gap-4">
         <div className="flex min-w-0 flex-1 gap-4">
-          {isDialogue ? (
+          {isDialogue && portrait ? (
+            <img className="h-20 w-20 shrink-0 rounded-md border border-[#d8b765]/35 object-cover" src={portrait} alt="" />
+          ) : isDialogue ? (
             <div className="grid h-12 w-12 shrink-0 place-items-center rounded-full border border-[#d8b765]/35 bg-[#253322] font-black text-[#f7d98b]">
               {String(title).split(/\s+/).map((part) => part[0]).join('').slice(0, 2)}
             </div>

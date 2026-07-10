@@ -175,7 +175,19 @@ export class WorldScene extends Phaser.Scene {
     const tilemapKey = tilemapAssetKey(map.id)
     if (!tilemapKey || !this.cache.tilemap.exists(tilemapKey) || !map.tilesetKey || !this.textures.exists(map.tilesetKey)) return false
 
-    const tiledMap = this.make.tilemap({ key: tilemapKey })
+    const cachedData = this.cache.tilemap.get(tilemapKey)?.data
+    if (cachedData?.tilesets?.some((tileset) => tileset.source)) {
+      console.warn(`[ALAMAT maps] ${map.id} uses an external tileset. Export with an embedded tileset to enable rendering.`)
+      return false
+    }
+
+    let tiledMap
+    try {
+      tiledMap = this.make.tilemap({ key: tilemapKey })
+    } catch (error) {
+      console.warn(`[ALAMAT maps] ${map.id} could not be parsed. Falling back to blockout rendering.`, error)
+      return false
+    }
     const tilesetName = tiledMap.tilesets[0]?.name
     if (!tilesetName) return false
 
@@ -185,7 +197,13 @@ export class WorldScene extends Phaser.Scene {
     const tileLayers = tiledMap.layers.filter((layer) => layer.name?.toLowerCase() !== 'collision')
     for (const [index, layerData] of tileLayers.entries()) {
       if (layerData.name?.toLowerCase() === 'collision') continue
-      const layer = tiledMap.createLayer(layerData.name, tileset, 0, 0)
+      let layer
+      try {
+        layer = tiledMap.createLayer(layerData.name, tileset, 0, 0)
+      } catch (error) {
+        console.warn(`[ALAMAT maps] Skipping invalid layer ${layerData.name} in ${map.id}.`, error)
+        continue
+      }
       if (!layer) continue
       layer.setDepth(index)
       layer.setAlpha(layerData.alpha ?? layerData.opacity ?? layerData.properties?.find((property) => property.name === 'alpha')?.value ?? 1)

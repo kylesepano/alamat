@@ -158,6 +158,7 @@ export const VERTICAL_SLICE_MAPS = {
     height: 36,
     ground: 0x355f56,
     accent: 0x78966e,
+    tilesetKey: 'asset-tileset-lakeshore',
     blocked: [
       ...rect(0, 0, 48, 1), ...rect(0, 35, 48, 1), ...rect(0, 0, 1, 36), ...rect(47, 0, 1, 36),
       ...rect(10, 4, 8, 5), ...rect(31, 3, 8, 6), ...rect(18, 25, 11, 5), ...rect(39, 20, 5, 9),

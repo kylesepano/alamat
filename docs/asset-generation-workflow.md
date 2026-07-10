@@ -52,7 +52,7 @@ Start with only these four assets to lock style before producing the whole set:
 1. `characters/player_customizable_base.png`
 2. `npcs/npc_NPC000001_datu_magsalin.png`
 3. `nilalang/nilalang_MON0038_aghoy.png`
-4. `tilesets/tileset_barangay_san_isidro.svg`
+4. `tilesets/tileset_barangay_san_isidro.png` (exactly `960x960`)
 
 Once those feel cohesive, generate the rest of the roster in `docs/vertical-slice-asset-prompts.md`.
 

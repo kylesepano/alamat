@@ -35,7 +35,7 @@
     {
       "name": "tilesetImage",
       "type": "string",
-      "value": "../../assets/vertical-slice/tilesets/tileset_barangay_marketplace_game.png"
+      "value": "../../assets/vertical-slice/tilesets/tileset_barangay_marketplace.png"
     },
     {
       "name": "replaceFile",
@@ -58,7 +58,7 @@
       "margin": 0,
       "columns": 20,
       "tilecount": 400,
-      "image": "../../assets/vertical-slice/tilesets/tileset_barangay_marketplace_game.png",
+      "image": "../../assets/vertical-slice/tilesets/tileset_barangay_marketplace.png",
       "imagewidth": 960,
       "imageheight": 960
     }

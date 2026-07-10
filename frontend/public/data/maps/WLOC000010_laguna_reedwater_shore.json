@@ -52,9 +52,8 @@
   "tilesets": [
     {
       "firstgid": 1,
-      "source": "../tilesets/tileset_laguna_lakeshore.tsx",
       "name": "tileset_laguna_lakeshore",
-      "image": "../tilesets/tileset_laguna_lakeshore.png",
+      "image": "../../assets/vertical-slice/tilesets/tileset_laguna_lakeshore.png",
       "imagewidth": 960,
       "imageheight": 960,
       "tilewidth": 48,

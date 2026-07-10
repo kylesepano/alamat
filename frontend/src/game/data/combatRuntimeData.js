@@ -375,6 +375,38 @@ const SKILL_VFX_ASSET_KEYS = {
   aghoy_guiding_rustle: 'asset-vfx-aghoy-guiding-rustle',
   weight_of_the_old_post: 'asset-vfx-weight-of-the-old-post',
   housepost_nightmare: 'asset-vfx-housepost-nightmare',
+  kapre_smoke_fist: 'asset-vfx-kapre-smoke-fist',
+  balete_guard: 'asset-vfx-balete-guard',
+  maze_gallop: 'asset-vfx-maze-gallop',
+  trail_mirage: 'asset-vfx-trail-mirage',
+  backward_pounce: 'asset-vfx-backward-pounce',
+  ember_hide: 'asset-vfx-ember-hide',
+  bamboo_prank: 'asset-vfx-bamboo-prank',
+  root_snare: 'asset-vfx-root-snare',
+  mound_warning: 'asset-vfx-mound-warning',
+  earth_guard: 'asset-vfx-earth-guard',
+  pollen_dart: 'asset-vfx-pollen-dart',
+  petal_veil: 'asset-vfx-petal-veil',
+  veil_bolt: 'asset-vfx-veil-bolt',
+  glamour_step: 'asset-vfx-glamour-step',
+  wandering_flame: 'asset-vfx-wandering-flame',
+  grave_chill: 'asset-vfx-grave-chill',
+  river_grip: 'asset-vfx-river-grip',
+  undertow_step: 'asset-vfx-undertow-step',
+  spirit_echo: 'asset-vfx-spirit-echo',
+  ancestor_ward: 'asset-vfx-ancestor-ward',
+  marsh_lure: 'asset-vfx-marsh-lure',
+  drowning_reed: 'asset-vfx-drowning-reed',
+  lake_bite: 'asset-vfx-lake-bite',
+  scale_guard: 'asset-vfx-scale-guard',
+  sanctuary_bloom: 'asset-vfx-petal-veil',
+  waterfall_veil: 'asset-vfx-waterfall-veil',
+  current_bind: 'asset-vfx-current-bind',
+  river_mirror: 'asset-vfx-river-mirror',
+  moon_tide: 'asset-vfx-moon-tide',
+  tide_mirror: 'asset-vfx-tide-mirror',
+  tide_song: 'asset-vfx-tide-song',
+  warning_lullaby: 'asset-vfx-warning-lullaby',
 }
 
 export function skillVfxAssetKey(skillId) {
@@ -384,7 +416,17 @@ export function skillVfxAssetKey(skillId) {
 export function skillMotionType(skillId) {
   const skill = skillById(skillId)
   if (skill.type === 'support' || skill.targetType === 'Self' || skill.targetType === 'Ally') return 'support'
-  if (['river_cut', 'mound_pebble', 'leaf_tap'].includes(skill.id)) return 'projectile'
+  if ([
+    'river_cut',
+    'mound_pebble',
+    'leaf_tap',
+    'pollen_dart',
+    'veil_bolt',
+    'wandering_flame',
+    'spirit_echo',
+    'moon_tide',
+    'tide_song',
+  ].includes(skill.id)) return 'projectile'
   if (skill.type === 'physical') return 'melee'
   return 'impact'
 }

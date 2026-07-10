@@ -16,9 +16,6 @@ const actors = [
 ]
 
 const simpleAssets = [
-  ['tilesets/tileset_barangay_san_isidro.svg', '#7a9b57', 'tiles'],
-  ['tilesets/tileset_balete_forest.svg', '#4f7d4b', 'tiles'],
-  ['tilesets/tileset_spirit_shrine.svg', '#82a7a6', 'tiles'],
   ['ui/interaction_marker.svg', '#f7d98b', 'star'],
   ['ui/save_point.svg', '#6db6ff', 'save'],
   ['ui/collision_debug_tile.svg', '#ff4d4d', 'debug'],

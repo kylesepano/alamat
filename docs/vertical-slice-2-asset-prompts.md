@@ -102,7 +102,13 @@ Create a production-quality top-down 2D Filipino fantasy RPG tileset for Laguna 
 - Required objects: Reedwater Balon, Ka Amihan Luntian, Aling Sela Dahon, Mang Isko Bangkero, Abandoned Nets, Reed Nursery, Clear Water Patch, Mambubuno current, Kataw reflection, Distant Sirena song, Spirit Shrine transition
 
 ```text
-Create a Phaser/Tiled-compatible JSON map for Laguna Reedwater Shore, exactly 48 columns x 36 rows with 48x48 tiles, using tileset_laguna_lakeshore.png. Use tile layers Ground, Ground Detail, Water, Path, Path Detail, Decor, and Upper Decor. Use object layers Collision, Objects, Transitions, and Encounters. Build a non-linear freshwater lakeshore with a looping reed path, branching fishing jetty, optional moon-pool clearing, river-inlet pocket, shallow-water crossings, and at least two shortcuts. Do not arrange points from left to right. Place Reedwater Balon in a protected arrival pocket; Ka Amihan near the shared-water path; Aling Sela near the reed nursery; Mang Isko beside the safe jetty edge; Abandoned Nets beside damaged spawning reeds; Reed Nursery and Clear Water Patch on reachable restoration branches; Mambubuno near the river current entering the lake; Kataw near the moon pool; Sirena near a distant quiet inlet; and the Spirit Shrine transition on a curved inland route. Characters, quest objects, encounters, transitions, and markers must exist only in object layers. Give the three NPCs stable IDs NPC000601, NPC000602, and NPC000603. Do not include coral reefs, ocean surf, or saltwater scenery. Add precise collision rectangles around deep water, solid reeds, jetty edges, roots, rocks, structures, and map borders while keeping every required object reachable by the player and companion.
+Create a Phaser/Tiled-compatible JSON map for Laguna Reedwater Shore, exactly 48 columns x 36 rows with 48x48 tiles, using tileset_laguna_lakeshore.png. The tilesheet is exactly 960x960 pixels, 20 columns x 20 rows, with 400 independently selectable 48x48 tiles. Embed the tileset definition directly in tilesets[0] using firstgid 1, tilewidth 48, tileheight 48, columns 20, tilecount 400, imagewidth 960, imageheight 960, spacing 0, and margin 0. Do not use an external TSX/TSJ source. Tile IDs must be stable and row-major: tileId = row * 20 + column + 1; use 0 for empty. Include an embedded tile catalog for every used tile ID with semantic, terrain_group, variant, and walkability properties so individual visual tiles can be replaced later without rewriting the map.
+
+Use tile layers Ground, Ground Detail, Water, Path, Path Detail, Decor, and Upper Decor. Every tile layer must use one uncompressed flat integer data array containing exactly 1728 entries in row-major order. Do not use base64, compression, chunks, encoded strings, nested row arrays, or image layers. Use object layers Collision, Objects, Transitions, and Encounters. Keep collision independent from visual tile IDs and author it as editable rectangles in the Collision object layer. Align rectangles to the 48x48 grid wherever possible. Give each collision object a stable key plus collision_kind, blocks_player, and blocks_companion properties. Split deep-water banks, solid reeds, jetty edges, roots, rocks, structures, and map borders into logical sections. Leave explicit separate openings for bridges, shallow crossings, gates, and shortcuts so those routes can be manipulated later.
+
+Build a non-linear freshwater lakeshore with a looping reed path, branching fishing jetty, optional moon-pool clearing, river-inlet pocket, shallow-water crossings, and at least two shortcuts. Do not arrange points from left to right. Place Reedwater Balon in a protected arrival pocket; Ka Amihan near the shared-water path; Aling Sela near the reed nursery; Mang Isko beside the safe jetty edge; Abandoned Nets beside damaged spawning reeds; Reed Nursery and Clear Water Patch on reachable restoration branches; Mambubuno near the river current entering the lake; Kataw near the moon pool; Sirena near a distant quiet inlet; and the Spirit Shrine transition on a curved inland route. Characters, quest objects, encounters, transitions, and markers must exist only in object layers. Give the three NPCs stable IDs NPC000601, NPC000602, and NPC000603. Do not include coral reefs, ocean surf, or saltwater scenery. Keep every required object reachable by both the player and companion.
+
+Return the complete valid JSON in the first fenced code block with no comments or omitted arrays. After it, return a concise tile catalog and validation checklist in a separate Markdown section. The JSON must include schema_version, tileset_key, and tile_id_formula map properties and stable layer/object IDs.
 ```
 
 ## nilalang_mon0005_diwata
@@ -246,6 +252,46 @@ Create an animated transparent SVG overlay for the Laguna Reedwater Shore battle
 
 ```text
 Hand-painted HD 2D chibi Filipino fantasy RPG overworld sprite sheet for Ka Amihan Luntian, the trusted Laguna lakeshore steward in ALAMAT. Warm Filipino features, practical middle-aged community leader, sun-weathered complexion, dark tied hair with a few silver strands, freshwater blue and reed-green woven clothing, weatherproof shoulder cloth, small current-record notebook and smooth river-stone token, calm observant posture, no crown and no religious symbol. Create one exact PNG sprite sheet with true alpha transparency. Canvas exactly 768x1024 pixels. Strict 3 columns x 4 rows, 12 frames total, each cell exactly 256x256. Rows: down/front, left, right, up/back. Columns: idle, walk-left-foot-forward, walk-right-foot-forward. Columns 2 and 3 must be visibly opposite steps with matching arm movement. Keep face, clothing, accessories, proportions, lighting, and baseline consistent. Keep the full body inside every cell with at least 24px transparent padding above the head and 16px below the feet. No checkerboard, background, scenery, labels, grid lines, or frame borders. Do not allow shadows, clothing, hair, limbs, or the notebook to cross cell boundaries.
+```
+
+## ChatGPT Portrait And Quest Asset Session Contract
+
+Paste this block once near the beginning of the Vertical Slice 2 ChatGPT generation conversation. Keep the generated files and this document as the durable record because chat memory may not persist outside that conversation.
+
+```text
+ALAMAT VERTICAL SLICE 2 PORTRAIT AND QUEST ASSET RULES
+
+Remember and apply these rules to every later portrait, collectible quest-item icon, and map quest-object request in this conversation unless I explicitly replace a rule.
+
+For every asset:
+- Match the approved hand-painted polished 2D Filipino fantasy RPG style and the existing Laguna Reedwater Shore palette.
+- Output one PNG only at the exact requested dimensions with genuine alpha transparency.
+- Transparent corner pixels are required. Do not paint or simulate a checkerboard, white background, colored background, scenery, text, logo, watermark, border, UI slot, or contact sheet.
+- Keep the subject fully inside the canvas with transparent padding and preserve established identity, colors, clothing, materials, and scale across later generations.
+- Repeat the exact requested filename after generation. Do not rename IDs or paths.
+
+For dialogue portraits:
+- Use exactly 512x512 pixels.
+- Show one head-and-shoulders subject in a consistent three-quarter view.
+- Keep the full head, hair, shoulders, and identifying accessory visible with at least 24 pixels of transparent padding.
+- Keep the face readable at 96x96. Do not include scenery, nameplates, speech bubbles, full-body poses, or unrelated props.
+- Save as frontend/public/assets/vertical-slice/portraits/portrait_[ENTITY_ID]_[slug].png.
+
+For collectible quest-item icons:
+- Use exactly 64x64 pixels.
+- Show one centered collectible object with at least 6 pixels of transparent padding and a silhouette readable at 32x32.
+- Do not include hands, characters, pedestals, inventory slots, quantity text, or environment.
+- Save as frontend/public/assets/vertical-slice/quests/icon_[QUEST_OR_ITEM_ID]_[slug].png.
+
+For map quest objects:
+- Use exactly 96x96 pixels unless the individual asset entry specifies another exact size.
+- Show one top-down or top-down three-quarter environmental object suitable for placement over a 48x48 tile map.
+- Center its interaction footprint near the lower-middle and retain at least 16 pixels of transparent padding.
+- Do not include a painted ground tile, collision guide, interaction ring, exclamation mark, quest marker, label, or UI.
+- Match the lakeshore tileset and remain readable when displayed between 48x48 and 96x96.
+- Save as frontend/public/assets/vertical-slice/quests/object_[QUEST_OBJECT_ID]_[slug].png.
+
+Before each generation, state the category, stable ID, exact dimensions, and exact target filename in one short line. Ask before inventing a missing permanent ID.
 ```
 
 ## portrait_npc000601_ka_amihan_luntian

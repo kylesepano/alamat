@@ -1,6 +1,12 @@
 import { existsSync, readFileSync } from 'node:fs'
 import { join } from 'node:path'
-import { VERTICAL_SLICE_ASSETS } from '../src/game/data/verticalSliceAssets.js'
+import {
+  NILALANG_ASSET_KEYS,
+  VERTICAL_SLICE_ASSETS,
+  assetByKey,
+  battleAssetKeyForActor,
+} from '../src/game/data/verticalSliceAssets.js'
+import { VERTICAL_SLICE_BATTLES } from '../src/game/data/verticalSliceBattles.js'
 
 const publicRoot = join(process.cwd(), 'public')
 
@@ -41,6 +47,24 @@ const rows = VERTICAL_SLICE_ASSETS.map((asset) => {
 console.table(rows)
 
 const failures = rows.filter((row) => row.status === 'missing')
-if (failures.length > 0) {
+const rosterFailures = Object.entries(VERTICAL_SLICE_BATTLES).flatMap(([monsterId, battle]) => {
+  const expectedActorKey = NILALANG_ASSET_KEYS[monsterId]
+  const battleKey = battleAssetKeyForActor(battle.assetKey)
+  const issues = []
+
+  if (battle.monster_id !== monsterId) issues.push(`${monsterId}: monster_id is ${battle.monster_id}`)
+  if (battle.assetKey !== expectedActorKey) issues.push(`${monsterId}: expected ${expectedActorKey}, got ${battle.assetKey}`)
+  if (!assetByKey(battle.assetKey)) issues.push(`${monsterId}: missing overworld registration ${battle.assetKey}`)
+  if (!battleKey || !assetByKey(battleKey)) issues.push(`${monsterId}: missing battle registration for ${battle.assetKey}`)
+
+  return issues
+})
+
+if (rosterFailures.length > 0) {
+  console.error('\nNilalang roster asset errors:')
+  rosterFailures.forEach((failure) => console.error(`- ${failure}`))
+}
+
+if (failures.length > 0 || rosterFailures.length > 0) {
   process.exitCode = 1
 }

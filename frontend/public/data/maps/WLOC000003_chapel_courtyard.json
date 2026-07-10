@@ -35,7 +35,7 @@
     {
       "name": "tilesetImage",
       "type": "string",
-      "value": "../../assets/vertical-slice/tilesets/tileset_chapel_courtyard_game.png"
+      "value": "../../assets/vertical-slice/tilesets/tileset_chapel_courtyard.png"
     },
     {
       "name": "replaceFile",
@@ -58,7 +58,7 @@
       "margin": 0,
       "columns": 20,
       "tilecount": 400,
-      "image": "../../assets/vertical-slice/tilesets/tileset_chapel_courtyard_game.png",
+      "image": "../../assets/vertical-slice/tilesets/tileset_chapel_courtyard.png",
       "imagewidth": 960,
       "imageheight": 960
     }

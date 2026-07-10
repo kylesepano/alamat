@@ -38,11 +38,11 @@ export class BattleScene extends Phaser.Scene {
     const backgroundKey = battleBackgroundAssetKey(this.worldLocationId)
     if (this.textures.exists(backgroundKey)) {
       this.add.image(480, 320, backgroundKey).setDisplaySize(880, 520).setAlpha(0.82)
-      this.addBattleBackgroundOverlay()
       this.add.rectangle(480, 320, 880, 520).setFillStyle(0x000000, 0).setStrokeStyle(2, 0xd8b765, 0.35)
     } else {
       this.add.rectangle(480, 320, 880, 520, 0x263447, 0.65).setStrokeStyle(2, 0xd8b765, 0.35)
     }
+    this.addBattleBackgroundOverlay()
     this.add.text(48, 36, this.monster.battleType === 'boss' ? 'Shrine Battle' : 'Wild Encounter', {
       fontFamily: 'Arial',
       fontSize: '18px',
