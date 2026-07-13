@@ -44,7 +44,7 @@ export class WorldScene extends Phaser.Scene {
     this.player.setDisplaySize(playerAsset.displayWidth, playerAsset.displayHeight)
     this.player.setDepth(60)
     this.player.setCollideWorldBounds(true)
-    this.player.body.setSize(24, 28).setOffset(5, 16)
+    setFootCollisionBody(this.player, 20, 14)
     this.physics.add.collider(this.player, this.collision.group)
     this.lastPlayerPosition = new Phaser.Math.Vector2(this.player.x, this.player.y)
     this.companionFollower = null
@@ -463,8 +463,8 @@ export class WorldScene extends Phaser.Scene {
     reviveCompanionsAtBalon(this.save)
     this.save.player_state.spawn = {
       location_id: this.locationId,
-      x: tileToWorld(object.x),
-      y: tileToWorld(object.y),
+      x: tileToWorld(object.respawnX ?? object.x),
+      y: tileToWorld(object.respawnY ?? object.y),
     }
   }
 
@@ -685,7 +685,7 @@ export class WorldScene extends Phaser.Scene {
     this.companionFollower.setDisplaySize(asset.displayWidth, asset.displayHeight)
     this.companionFollower.setDepth(58)
     this.companionFollower.body.setAllowGravity(false)
-    this.companionFollower.body.setSize(22, 22).setOffset(13, 24)
+    setFootCollisionBody(this.companionFollower, 18, 12)
     this.companionFollowerId = companion.monster_id
   }
 
@@ -774,4 +774,18 @@ export class WorldScene extends Phaser.Scene {
     this.cleanupDialogueChoice?.()
     this.cleanupInteractionUiState?.()
   }
+}
+
+function setFootCollisionBody(sprite, visibleWidth, visibleHeight) {
+  const frameWidth = sprite.frame.realWidth
+  const frameHeight = sprite.frame.realHeight
+  const scaleX = Math.abs(sprite.scaleX)
+  const scaleY = Math.abs(sprite.scaleY)
+  const sourceWidth = Math.round(visibleWidth / scaleX)
+  const sourceHeight = Math.round(visibleHeight / scaleY)
+  const offsetX = Math.round((frameWidth - sourceWidth) / 2)
+  const feetBaseline = frameHeight - 16
+  const offsetY = feetBaseline - sourceHeight
+
+  sprite.body.setSize(sourceWidth, sourceHeight).setOffset(offsetX, offsetY)
 }

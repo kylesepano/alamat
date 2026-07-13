@@ -16,8 +16,8 @@ export const DEFAULT_SAVE = {
   },
   world: {
     location_id: 'WLOC000001',
-    x: 384,
-    y: 336,
+    x: 360,
+    y: 408,
     story_flags: [],
     dialogue_choices: {},
   },
@@ -25,8 +25,8 @@ export const DEFAULT_SAVE = {
     hp: null,
     spawn: {
       location_id: 'WLOC000001',
-      x: 120,
-      y: 120,
+      x: 360,
+      y: 360,
     },
   },
   companions: {

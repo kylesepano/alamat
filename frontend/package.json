@@ -9,6 +9,7 @@
     "lint": "oxlint",
     "balance:combat": "node scripts/combat-balance-report.mjs",
     "assets:audit": "node scripts/vertical-slice-asset-audit.mjs",
+    "tileset:normalize:san-isidro": "powershell -ExecutionPolicy Bypass -File ../tools/normalize-tileset.ps1 -SourcePath public/assets/vertical-slice/tilesets/source/tileset_barangay_san_isidro_1254.png -OutputPath public/assets/vertical-slice/tilesets/tileset_barangay_san_isidro.png",
     "preview": "vite preview"
   },
   "dependencies": {

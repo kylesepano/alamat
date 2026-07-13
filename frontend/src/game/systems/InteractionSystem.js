@@ -1,7 +1,7 @@
 import Phaser from 'phaser'
 import { TILE_SIZE } from '../config/gameConstants'
 import { isActiveQuestTarget } from '../data/questRuntimeData'
-import { assetByKey, objectAssetKey, spriteIdleFrame } from '../data/verticalSliceAssets'
+import { assetByKey, battleAssetKeyForActor, battleIdleAnimationKey, objectAssetKey, spriteIdleFrame } from '../data/verticalSliceAssets'
 import { tileToWorld } from '../data/verticalSliceMaps'
 
 export class InteractionSystem {
@@ -40,16 +40,20 @@ export class InteractionSystem {
 
     if (assetKey && this.scene.textures.exists(assetKey)) {
       const asset = assetByKey(assetKey)
-      const frame = asset?.type === 'spritesheet' ? spriteIdleFrame('down') : undefined
-      const sprite = asset?.type === 'spritesheet'
-        ? this.scene.add.sprite(x, y, assetKey, frame)
-        : this.scene.add.image(x, y, assetKey, frame)
+      const usesBattleIdle = object.type === 'encounter' || object.type === 'boss'
+      const battleKey = usesBattleIdle ? battleAssetKeyForActor(assetKey) : null
+      const hasBattleIdle = battleKey && this.scene.textures.exists(battleKey)
+      const renderedKey = hasBattleIdle ? battleKey : assetKey
+      const frame = hasBattleIdle ? 0 : asset?.type === 'spritesheet' ? spriteIdleFrame('down') : undefined
+      const sprite = hasBattleIdle || asset?.type === 'spritesheet'
+        ? this.scene.add.sprite(x, y, renderedKey, frame)
+        : this.scene.add.image(x, y, renderedKey, frame)
       const fallbackSize = object.type === 'boss' ? TILE_SIZE * 1.3 : TILE_SIZE * 0.9
       sprite.baseDisplayWidth = asset?.displayWidth ?? fallbackSize
       sprite.baseDisplayHeight = asset?.displayHeight ?? fallbackSize
       sprite.setDisplaySize(sprite.baseDisplayWidth, sprite.baseDisplayHeight)
-      if ((object.type === 'encounter' || object.type === 'boss') && sprite.anims) {
-        sprite.anims.play(`${assetKey}-walk-down`, true)
+      if (hasBattleIdle) {
+        sprite.anims.play(battleIdleAnimationKey(battleKey), true)
       }
       sprite.setDepth(55)
       return sprite

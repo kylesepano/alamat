@@ -1,16 +1,13 @@
 # Vertical Slice 2 Asset Prompts
 
-This document contains only the assets introduced after the first ALAMAT vertical slice:
-the Laguna Reedwater Shore expansion, its freshwater encounter roster, optional side-quest
-objects, new battle actors, and skill effects.
+This document contains the actor, portrait, and VFX assets introduced after the first ALAMAT vertical slice: the Laguna Reedwater Shore freshwater encounter roster, NPCs, new battle actors, and skill effects.
 
-The original first-slice assets remain in `docs/vertical-slice-asset-prompts.md`.
+The original first-slice actor, portrait, item, equipment, and VFX assets remain in `docs/vertical-slice-asset-prompts.md`. All map and battle-environment generation lives in `docs/vertical-slice-map-production-prompts.md`.
 
 ## Production Rules
 
 - Use the existing Monster, World, Quest, and Combat Codices as the source of truth.
 - Keep ALAMAT fictional and respectfully inspired by diverse Philippine cultures.
-- Do not bake characters, Nilalang, labels, collision, quest markers, or UI into map tiles.
 - All sprite and VFX sheets must use true alpha transparency, never a painted checkerboard.
 - Keep every frame inside its cell with transparent padding and a stable baseline.
 - Generate one asset per request so dimensions and grid structure can be checked immediately.
@@ -19,27 +16,20 @@ The original first-slice assets remain in `docs/vertical-slice-asset-prompts.md`
 
 ## Generation Order
 
-1. Generate and approve the strict `960x960` lakeshore tileset.
-2. Generate the `48x36` Tiled/Phaser map JSON and validate collision.
-3. Generate the lakeshore battle background and animated SVG overlay.
-4. Generate Diwata, Kataw, Sirena, Mambubuno, Berberoka, and Kugtong overworld sheets.
-5. Generate all thirteen expansion Nilalang battle and overworld sheets.
-6. Generate Ka Amihan, Aling Sela, and Mang Isko overworld sheets and portraits.
-7. Generate the associated six-frame skill VFX sheets.
-8. Generate the three lakeshore side-quest map objects.
-9. Run `npm run assets:audit`, inspect in game, then register approved replacements.
+1. Complete and validate all Slice 2 map assets using `docs/vertical-slice-map-production-prompts.md`.
+2. Generate Diwata, Kataw, Sirena, Mambubuno, Berberoka, and Kugtong overworld sheets.
+3. Generate all thirteen expansion Nilalang battle and overworld sheets.
+4. Generate Ka Amihan, Aling Sela, and Mang Isko overworld sheets and portraits.
+5. Generate the associated six-frame skill VFX sheets.
+6. Run `npm run assets:audit`, inspect in game, then register approved replacements.
 
 ## Slice 2 Asset Checklist
 
 | Group                 |           Quantity | Contents                                                                                                                              |
 | --------------------- | -----------------: | ------------------------------------------------------------------------------------------------------------------------------------- |
-| New map               |                  1 | Laguna Reedwater Shore                                                                                                                |
-| New tileset           |                  1 | Strict freshwater lakeshore tileset                                                                                                   |
-| Battle background     |                  2 | Static PNG plus animated SVG overlay                                                                                                  |
 | New NPC assets        |                  6 | Three directional overworld sheets and three dialogue portraits                                                                       |
 | New playable Nilalang | 16 sheets per mode | Sixteen overworld sheets and sixteen corresponding battle sheets, covering the expanded roster assets not already approved in Slice 1 |
 | New skill VFX         |                 32 | Freshwater skills and expanded-roster skill effects                                                                                   |
-| Quest objects         |                  3 | Tangled nets, reed nursery, clear-water patch                                                                                         |
 
 Use this checklist as production tracking. A generated file is not approved merely because it exists:
 verify dimensions, alpha transparency, grid alignment, silhouette, cultural direction, and in-game scale.
@@ -69,47 +59,6 @@ verify dimensions, alpha transparency, grid alignment, silhouette, cultural dire
 - Grid: 6 columns x 1 row
 - Cell: exactly `256x256`
 - No actor art or background inside VFX sheets
-
-### Tilesets
-
-- PNG canvas: exactly `960x960`
-- Grid: 20 columns x 20 rows
-- Tile: exactly `48x48`
-- No gutters, borders, visible grid, or spacing
-
-### WLOC000010 Laguna Reedwater Shore
-
-Generate the files below in this order.
-
-## tileset_laguna_lakeshore
-
-- Type: `tileset`
-- Source: `WLOC000010`
-- Replace file: `frontend/public/assets/vertical-slice/tilesets/tileset_laguna_lakeshore.png`
-- Size target: strict PNG, exactly 960x960, 20 columns x 20 rows, 48x48 per tile
-
-```text
-Create a production-quality top-down 2D Filipino fantasy RPG tileset for Laguna Reedwater Shore. The PNG canvas must be exactly 960x960 pixels, never 1024x1024, 1254x1254, or any other size. Use a strict 20 columns x 20 rows arrangement of 400 edge-to-edge tiles, each exactly 48x48 pixels. No visible grid, gutters, labels, characters, UI, or baked map composition. Include connected shallow-water terrain, deep-water edges, animated-looking water variants, wet sand, packed lakeshore paths, reed clusters, spawning grass, mangrove roots, fishing jetty pieces, bamboo rails, small boats, net racks, baskets, lake stones, moon-pool stonework, water corners, shoreline transitions, and readable blocked obstacle variants. Every connected set must include straight, corner, inner-corner, end-cap, T-junction, and intersection pieces where appropriate. Walkable and blocked terrain must remain visually clear. Warm tropical daylight with blue-green water, weathered bamboo, and restrained Filipino fantasy motifs.
-```
-
-## map_wloc000010_laguna_reedwater_shore
-
-- Type: `map_json`
-- Source: `WLOC000010`
-- Replace file: `frontend/public/data/maps/WLOC000010_laguna_reedwater_shore.json`
-- Grid: 48 columns x 36 rows
-- Tile size: 48x48
-- Required objects: Reedwater Balon, Ka Amihan Luntian, Aling Sela Dahon, Mang Isko Bangkero, Abandoned Nets, Reed Nursery, Clear Water Patch, Mambubuno current, Kataw reflection, Distant Sirena song, Spirit Shrine transition
-
-```text
-Create a Phaser/Tiled-compatible JSON map for Laguna Reedwater Shore, exactly 48 columns x 36 rows with 48x48 tiles, using tileset_laguna_lakeshore.png. The tilesheet is exactly 960x960 pixels, 20 columns x 20 rows, with 400 independently selectable 48x48 tiles. Embed the tileset definition directly in tilesets[0] using firstgid 1, tilewidth 48, tileheight 48, columns 20, tilecount 400, imagewidth 960, imageheight 960, spacing 0, and margin 0. Do not use an external TSX/TSJ source. Tile IDs must be stable and row-major: tileId = row * 20 + column + 1; use 0 for empty. Include an embedded tile catalog for every used tile ID with semantic, terrain_group, variant, and walkability properties so individual visual tiles can be replaced later without rewriting the map.
-
-Use tile layers Ground, Ground Detail, Water, Path, Path Detail, Decor, and Upper Decor. Every tile layer must use one uncompressed flat integer data array containing exactly 1728 entries in row-major order. Do not use base64, compression, chunks, encoded strings, nested row arrays, or image layers. Use object layers Collision, Objects, Transitions, and Encounters. Keep collision independent from visual tile IDs and author it as editable rectangles in the Collision object layer. Align rectangles to the 48x48 grid wherever possible. Give each collision object a stable key plus collision_kind, blocks_player, and blocks_companion properties. Split deep-water banks, solid reeds, jetty edges, roots, rocks, structures, and map borders into logical sections. Leave explicit separate openings for bridges, shallow crossings, gates, and shortcuts so those routes can be manipulated later.
-
-Build a non-linear freshwater lakeshore with a looping reed path, branching fishing jetty, optional moon-pool clearing, river-inlet pocket, shallow-water crossings, and at least two shortcuts. Do not arrange points from left to right. Place Reedwater Balon in a protected arrival pocket; Ka Amihan near the shared-water path; Aling Sela near the reed nursery; Mang Isko beside the safe jetty edge; Abandoned Nets beside damaged spawning reeds; Reed Nursery and Clear Water Patch on reachable restoration branches; Mambubuno near the river current entering the lake; Kataw near the moon pool; Sirena near a distant quiet inlet; and the Spirit Shrine transition on a curved inland route. Characters, quest objects, encounters, transitions, and markers must exist only in object layers. Give the three NPCs stable IDs NPC000601, NPC000602, and NPC000603. Do not include coral reefs, ocean surf, or saltwater scenery. Keep every required object reachable by both the player and companion.
-
-Return the complete valid JSON in the first fenced code block with no comments or omitted arrays. After it, return a concise tile catalog and validation checklist in a separate Markdown section. The JSON must include schema_version, tileset_key, and tile_id_formula map properties and stable layer/object IDs.
-```
 
 ## nilalang_mon0005_diwata
 
@@ -221,28 +170,6 @@ Create a six-frame traveling sound-wave VFX for Tide Song. True transparent PNG,
 Create a six-frame ALAMAT status VFX for Warning Lullaby. True transparent PNG, exactly 1536x256, strict 6x1 grid. Gentle dark-aqua rings close around the target, pearl lights dim, and a calm moonlit ripple signals Sleep without cartoon symbols. Respectful, restrained, and readable. No character, scenery, text, checkerboard, frame borders, or overflow.
 ```
 
-## battle_background_laguna_lakeshore
-
-- Type: `battle_background`
-- Source: `WLOC000010`
-- Replace file: `frontend/public/assets/vertical-slice/battle/backgrounds/bg_laguna_lakeshore.png`
-- Size target: PNG, exactly 1280x720
-
-```text
-Create an exact 1280x720 side-facing 2D RPG battle background for Laguna Reedwater Shore. Tropical Philippine-inspired fictional lakeshore, shallow blue-green water, reeds, distant bamboo fishing jetty, mangrove silhouettes, soft mountain horizon, open readable ground for two allies on the left and two enemies on the right. No characters, Nilalang, UI, text, frames, or baked combat effects. Keep the center and lower actor lanes visually quiet.
-```
-
-## battle_background_laguna_lakeshore_overlay
-
-- Type: `animated_battle_overlay`
-- Source: `WLOC000010`
-- Replace file: `frontend/public/assets/vertical-slice/battle/backgrounds/bg_laguna_lakeshore_overlay.svg`
-- Size target: animated SVG, 1280x720 viewBox, transparent background
-
-```text
-Create an animated transparent SVG overlay for the Laguna Reedwater Shore battle background, viewBox 0 0 1280 720. Use internal SMIL animation only. Include subtle water shimmer, slow reed sway, two or three tiny distant firefly glints, and a gentle moving reflection. No raster image, JavaScript, CSS animation dependency, characters, UI, labels, or large opaque shapes. Keep actor lanes unobstructed and animation restrained.
-```
-
 ## npc_npc000601_ka_amihan_luntian
 
 - Type: `npc_sprite`
@@ -254,14 +181,14 @@ Create an animated transparent SVG overlay for the Laguna Reedwater Shore battle
 Hand-painted HD 2D chibi Filipino fantasy RPG overworld sprite sheet for Ka Amihan Luntian, the trusted Laguna lakeshore steward in ALAMAT. Warm Filipino features, practical middle-aged community leader, sun-weathered complexion, dark tied hair with a few silver strands, freshwater blue and reed-green woven clothing, weatherproof shoulder cloth, small current-record notebook and smooth river-stone token, calm observant posture, no crown and no religious symbol. Create one exact PNG sprite sheet with true alpha transparency. Canvas exactly 768x1024 pixels. Strict 3 columns x 4 rows, 12 frames total, each cell exactly 256x256. Rows: down/front, left, right, up/back. Columns: idle, walk-left-foot-forward, walk-right-foot-forward. Columns 2 and 3 must be visibly opposite steps with matching arm movement. Keep face, clothing, accessories, proportions, lighting, and baseline consistent. Keep the full body inside every cell with at least 24px transparent padding above the head and 16px below the feet. No checkerboard, background, scenery, labels, grid lines, or frame borders. Do not allow shadows, clothing, hair, limbs, or the notebook to cross cell boundaries.
 ```
 
-## ChatGPT Portrait And Quest Asset Session Contract
+## ChatGPT Portrait And Quest Item Asset Session Contract
 
 Paste this block once near the beginning of the Vertical Slice 2 ChatGPT generation conversation. Keep the generated files and this document as the durable record because chat memory may not persist outside that conversation.
 
 ```text
-ALAMAT VERTICAL SLICE 2 PORTRAIT AND QUEST ASSET RULES
+ALAMAT VERTICAL SLICE 2 PORTRAIT AND QUEST ITEM ASSET RULES
 
-Remember and apply these rules to every later portrait, collectible quest-item icon, and map quest-object request in this conversation unless I explicitly replace a rule.
+Remember and apply these rules to every later portrait and collectible quest-item icon request in this conversation unless I explicitly replace a rule. Placeable map-object rules live in `docs/vertical-slice-map-production-prompts.md`.
 
 For every asset:
 - Match the approved hand-painted polished 2D Filipino fantasy RPG style and the existing Laguna Reedwater Shore palette.
@@ -282,14 +209,6 @@ For collectible quest-item icons:
 - Show one centered collectible object with at least 6 pixels of transparent padding and a silhouette readable at 32x32.
 - Do not include hands, characters, pedestals, inventory slots, quantity text, or environment.
 - Save as frontend/public/assets/vertical-slice/quests/icon_[QUEST_OR_ITEM_ID]_[slug].png.
-
-For map quest objects:
-- Use exactly 96x96 pixels unless the individual asset entry specifies another exact size.
-- Show one top-down or top-down three-quarter environmental object suitable for placement over a 48x48 tile map.
-- Center its interaction footprint near the lower-middle and retain at least 16 pixels of transparent padding.
-- Do not include a painted ground tile, collision guide, interaction ring, exclamation mark, quest marker, label, or UI.
-- Match the lakeshore tileset and remain readable when displayed between 48x48 and 96x96.
-- Save as frontend/public/assets/vertical-slice/quests/object_[QUEST_OBJECT_ID]_[slug].png.
 
 Before each generation, state the category, stable ID, exact dimensions, and exact target filename in one short line. Ask before inventing a missing permanent ID.
 ```
@@ -347,39 +266,6 @@ Hand-painted HD 2D chibi Filipino fantasy RPG overworld sprite sheet for Mang Is
 
 ```text
 Hand-painted polished 2D Filipino fantasy RPG dialogue portrait of Mang Isko Bangkero, experienced Laguna freshwater boatman. Exact 512x512 PNG with true alpha transparency. Head-and-shoulders three-quarter view, warm older Filipino features, sun-browned complexion, short dark-gray hair, practical woven shirt, reed hat hanging behind his shoulders, repair cord over one shoulder, thoughtful cautious expression of someone who respects dangerous currents. Warm tropical side light with cool lake reflection. No boat scenery, background, checkerboard, text, logo, frame, caricature, weapon, or cropped head.
-```
-
-## quest_object_tangled_nets
-
-- Type: `quest_map_object`
-- Source: `AMBIENT_TANGLED_NETS`
-- Replace file: `frontend/public/assets/vertical-slice/quests/object_tangled_nets.png`
-- Size target: transparent PNG, exactly 96x96
-
-```text
-Create a transparent 96x96 top-down lakeshore quest object showing an abandoned synthetic fishing net and a few dull hooks tangled around young spawning reeds. Environmental problem, no trapped animal, gore, character, text, UI marker, checkerboard, or background.
-```
-
-## quest_object_reed_nursery
-
-- Type: `quest_map_object`
-- Source: `AMBIENT_REED_NURSERY`
-- Replace file: `frontend/public/assets/vertical-slice/quests/object_reed_nursery.png`
-- Size target: transparent PNG, exactly 96x96
-
-```text
-Create one polished top-down chibi Filipino fantasy RPG quest map object for the Reed Nursery at Laguna Reedwater Shore. Exact 96x96 PNG with true alpha transparency. Show several young freshwater reeds, two pressed low by storm debris, healthy shoots still rooted, and a few fallen stems suitable for gentle support. The object must clearly communicate repair without harvesting. Natural reed green, wet earth, and freshwater-blue accents. No character, animal, text, quest marker, UI, checkerboard, painted background, grid, border, gore, or religious symbol. Keep the full object inside the canvas with transparent padding.
-```
-
-## quest_object_clear_water_patch
-
-- Type: `quest_map_object`
-- Source: `AMBIENT_CLEAR_WATER_PATCH`
-- Replace file: `frontend/public/assets/vertical-slice/quests/object_clear_water_patch.png`
-- Size target: transparent PNG, exactly 96x96
-
-```text
-Create one polished top-down chibi Filipino fantasy RPG quest map object for a Clear Water Patch at Laguna Reedwater Shore. Exact 96x96 PNG with true alpha transparency. Show a shallow clear-water pocket, visible living spawning grass below, and one loose piece of synthetic cord caught above the stems so it can be removed without damaging them. Gentle blue-green ripples, readable at gameplay scale, environmental restoration rather than loot. No trapped creature, character, text, UI marker, checkerboard, opaque background, border, gore, or ocean coral. Keep all water and cord inside the canvas with transparent edge padding.
 ```
 
 ## Playable Roster Expansion: Freshwater-Corrected Twenty

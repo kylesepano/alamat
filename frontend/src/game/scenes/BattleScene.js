@@ -1,6 +1,6 @@
 import Phaser from 'phaser'
 import { gameBridge } from '../bridges/ReactPhaserBridge'
-import { PLAYER_ASSET_KEY, assetByKey, battleAssetKeyForActor, battleAttackAnimationKey, battleBackgroundAssetKey, battleBackgroundOverlayPath, battleIdleAnimationKey, spriteIdleFrame, spriteWalkAnimationKey, vfxAnimationKey } from '../data/verticalSliceAssets'
+import { PLAYER_ASSET_KEY, assetByKey, battleAssetKeyForActor, battleAttackAnimationKey, battleBackgroundAssetKey, battleBackgroundOverlayPath, battleIdleAnimationKey, spriteIdleFrame, vfxAnimationKey } from '../data/verticalSliceAssets'
 import { battleForMonster } from '../data/verticalSliceBattles'
 import { skillById, skillMotionType, skillVfxAssetKey } from '../data/combatRuntimeData'
 import { BattleRuntime } from '../systems/BattleRuntime'
@@ -124,7 +124,6 @@ export class BattleScene extends Phaser.Scene {
     const sprite = this.add.sprite(x, y, assetKey, spriteIdleFrame(direction))
       .setDisplaySize(asset.displayWidth * scale, asset.displayHeight * scale)
       .setDepth(5)
-    sprite.anims.play(spriteWalkAnimationKey(assetKey, direction), true)
     return sprite
   }
 

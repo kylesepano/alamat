@@ -1,11 +1,11 @@
 import { TILE_SIZE } from '../config/gameConstants'
 
 const baseObjects = [
-  { type: 'save', id: 'SAVE_START', label: 'Balon Deepwell', x: 2, y: 2 },
-  { type: 'npc', id: 'NPC000001', label: 'Datu Magsalin', x: 7, y: 6, dialogue: 'Welcome home. Walk the paths first; the land teaches before it tests.' },
-  { type: 'npc', id: 'NPC000002', label: 'Lira Lakandula', x: 11, y: 8, dialogue: 'Try speaking with villagers and reading signs. Not every lesson is a battle.' },
-  { type: 'item', id: 'ITM000001', label: 'Healing Herb', x: 15, y: 10, flag: 'picked_itm000001' },
-  { type: 'transition', id: 'TO_MARKET', label: 'To Marketplace', x: 18, y: 7, target: 'WLOC000002', targetX: 3, targetY: 7 },
+  { type: 'save', id: 'SAVE_START', label: 'Balon Deepwell', x: 7, y: 6, respawnX: 7, respawnY: 7 },
+  { type: 'npc', id: 'NPC000001', label: 'Datu Magsalin', x: 30, y: 10, dialogue: 'Welcome home. Walk the paths first; the land teaches before it tests.' },
+  { type: 'npc', id: 'NPC000002', label: 'Lira Lakandula', x: 30, y: 17, dialogue: 'Try speaking with villagers and reading signs. Not every lesson is a battle.' },
+  { type: 'item', id: 'ITM000001', label: 'Healing Herb', x: 34, y: 20, flag: 'picked_itm000001' },
+  { type: 'transition', id: 'TO_MARKET', label: 'To Marketplace', x: 37, y: 27, target: 'WLOC000002', targetX: 3, targetY: 7 },
 ]
 
 export const VERTICAL_SLICE_MAPS = {
@@ -14,19 +14,19 @@ export const VERTICAL_SLICE_MAPS = {
     name: 'Laguna Starter Barangay',
     zoneName: 'Barangay San Isidro',
     safeZone: true,
-    width: 22,
-    height: 15,
+    width: 40,
+    height: 30,
     ground: 0x536d38,
     accent: 0x7a9b57,
     tilesetKey: 'asset-tileset-barangay',
     blocked: [
-      ...rect(0, 0, 22, 1), ...rect(0, 14, 22, 1), ...rect(0, 0, 1, 15), ...rect(21, 0, 1, 15),
-      ...rect(4, 3, 3, 2), ...rect(13, 3, 4, 2), ...rect(8, 11, 7, 2), ...rect(1, 9, 3, 3),
+      ...rect(0, 0, 40, 1), ...rect(0, 29, 40, 1), ...rect(0, 0, 1, 30), ...rect(39, 0, 1, 30),
+      ...rect(4, 3, 7, 1), ...rect(4, 4, 1, 5), ...rect(10, 4, 1, 5), ...rect(7, 6, 1, 1),
     ],
     decorations: [
-      { kind: 'house', x: 4, y: 3, w: 3, h: 2 },
-      { kind: 'hall', x: 13, y: 3, w: 4, h: 2 },
-      { kind: 'rice', x: 8, y: 11, w: 7, h: 2 },
+      { kind: 'well-court', x: 5, y: 4, w: 5, h: 5 },
+      { kind: 'hall', x: 27, y: 4, w: 9, h: 5 },
+      { kind: 'rice', x: 3, y: 22, w: 10, h: 6 },
     ],
     objects: baseObjects,
   },
@@ -51,7 +51,7 @@ export const VERTICAL_SLICE_MAPS = {
     objects: [
       { type: 'npc', id: 'NPC000301', label: 'General Store', x: 5, y: 7, dialogue: 'The shelves are modest, but a traveler should never enter the forest empty-handed.' },
       { type: 'npc', id: 'NPC000481', label: 'Blacksmith', x: 15, y: 7, dialogue: 'A blade is only as steady as the hand that carries it.' },
-      { type: 'transition', id: 'TO_BARANGAY', label: 'To Barangay', x: 2, y: 7, target: 'WLOC000001', targetX: 17, targetY: 7 },
+      { type: 'transition', id: 'TO_BARANGAY', label: 'To Barangay', x: 2, y: 7, target: 'WLOC000001', targetX: 36, targetY: 27 },
       { type: 'transition', id: 'TO_CHAPEL', label: 'To Chapel Courtyard', x: 19, y: 7, target: 'WLOC000003', targetX: 3, targetY: 7 },
     ],
   },
