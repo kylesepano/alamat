@@ -232,6 +232,10 @@ export function battleAssetKeyForActor(assetKey) {
   return keys[assetKey] ?? null
 }
 
+export function shouldFlipBattleSprite(asset, desiredFacing) {
+  return Boolean(asset?.nativeFacing && desiredFacing && asset.nativeFacing !== desiredFacing)
+}
+
 export function battleBackgroundAssetKey(locationId) {
   const keys = {
     WLOC000001: 'asset-battle-bg-barangay',

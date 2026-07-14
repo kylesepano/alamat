@@ -36,7 +36,7 @@ The following actor PNGs are present and used by the game:
 - `nilalang/nilalang_MON0028_ungo.png`
 - `nilalang/boss_MON0007_batibat.png`
 
-Some current actor PNGs are not the preferred `768x1024` sprite sheet size. The loader slices them best-effort, but final production art should use the standard in `docs/vertical-slice-asset-prompts.md`.
+Some current actor PNGs are not the preferred `768x1024` sprite sheet size. The loader slices them best-effort, but final production art should use the corresponding standard under `docs/asset-prompts/`.
 
 ## Still Needing PNG Replacement
 

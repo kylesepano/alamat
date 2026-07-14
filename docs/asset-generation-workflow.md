@@ -15,7 +15,7 @@ Recommended tools:
 
 ## Prompt Source
 
-Use [vertical-slice-asset-prompts.md](/c:/xampp/htdocs/alamat/docs/vertical-slice-asset-prompts.md) as the source for the first playable roster prompts.
+Start with the [normalized asset prompt index](asset-prompts/README.md). It links one self-contained prompt book per asset family, plus the separate map-production guide.
 
 The machine-readable manifest is:
 
@@ -54,7 +54,7 @@ Start with only these four assets to lock style before producing the whole set:
 3. `nilalang/nilalang_MON0038_aghoy.png`
 4. `tilesets/tileset_barangay_san_isidro.png` (exactly `960x960`)
 
-Once those feel cohesive, generate the rest of the roster in `docs/vertical-slice-asset-prompts.md`.
+Once those feel cohesive, generate the rest from the appropriate file under `docs/asset-prompts/`.
 
 ## Review Standard
 
@@ -66,5 +66,5 @@ Approve assets only when they meet these requirements:
 - sprite sheets keep the exact 768x1024, 3 columns x 4 rows layout
 - respectful fictional Philippine fantasy tone
 - no caricature or real-world religious claim of supremacy
-- consistent chibi proportions for overworld sprites
+- consistent grounded proportions for human actors and lore-accurate body plans for Nilalang
 - colors remain readable on barangay, forest, and shrine maps

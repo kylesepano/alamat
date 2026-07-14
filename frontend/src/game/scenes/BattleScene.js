@@ -1,6 +1,6 @@
 import Phaser from 'phaser'
 import { gameBridge } from '../bridges/ReactPhaserBridge'
-import { PLAYER_ASSET_KEY, assetByKey, battleAssetKeyForActor, battleAttackAnimationKey, battleBackgroundAssetKey, battleBackgroundOverlayPath, battleIdleAnimationKey, spriteIdleFrame, vfxAnimationKey } from '../data/verticalSliceAssets'
+import { PLAYER_ASSET_KEY, assetByKey, battleAssetKeyForActor, battleAttackAnimationKey, battleBackgroundAssetKey, battleBackgroundOverlayPath, battleIdleAnimationKey, shouldFlipBattleSprite, spriteIdleFrame, vfxAnimationKey } from '../data/verticalSliceAssets'
 import { battleForMonster } from '../data/verticalSliceBattles'
 import { skillById, skillMotionType, skillVfxAssetKey } from '../data/combatRuntimeData'
 import { BattleRuntime } from '../systems/BattleRuntime'
@@ -107,21 +107,22 @@ export class BattleScene extends Phaser.Scene {
     this.add.dom(480, 320, overlay).setDepth(1)
   }
 
-  createBattleActorSprite(x, y, assetKey, direction, scale = 1) {
+  createBattleActorSprite(x, y, assetKey, desiredFacing, scale = 1) {
     const battleKey = battleAssetKeyForActor(assetKey)
     const battleAsset = battleKey ? assetByKey(battleKey) : null
     if (battleKey && battleAsset && this.textures.exists(battleKey)) {
       const sprite = this.add.sprite(x, y, battleKey, 0)
         .setDisplaySize(battleAsset.displayWidth * scale, battleAsset.displayHeight * scale)
         .setDepth(5)
-      sprite.setFlipX(Boolean(battleAsset.nativeFacing && battleAsset.nativeFacing !== direction))
+      sprite.setFlipX(shouldFlipBattleSprite(battleAsset, desiredFacing))
       sprite.anims.play(battleIdleAnimationKey(battleKey), true)
       sprite.setData('battleAssetKey', battleKey)
+      sprite.setData('desiredFacing', desiredFacing)
       return sprite
     }
 
     const asset = assetByKey(assetKey)
-    const sprite = this.add.sprite(x, y, assetKey, spriteIdleFrame(direction))
+    const sprite = this.add.sprite(x, y, assetKey, spriteIdleFrame(desiredFacing))
       .setDisplaySize(asset.displayWidth * scale, asset.displayHeight * scale)
       .setDepth(5)
     return sprite

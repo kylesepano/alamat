@@ -1,6 +1,18 @@
 # ALAMAT Map Production Prompts
 
-This is the sole canonical source for tilesets, tile catalogs, map JSON, collision, transitions, map previews, location battle backgrounds, animated battle-environment overlays, and placeable map-object assets. Actor sprites, dialogue portraits, inventory items, equipment, and combat VFX remain in the vertical-slice asset guides.
+This is the sole canonical source for tilesets, tile catalogs, map JSON, collision, transitions, map previews, location battle backgrounds, animated battle-environment overlays, and placeable map-object assets. Other asset families are indexed in `docs/asset-prompts/README.md`.
+
+## General ChatGPT Map Rule
+
+Paste this rule first in a new ChatGPT conversation, then use one map stage prompt from the relevant location packet below.
+
+```text
+Create production map assets for ALAMAT, a fictional dark Filipino folklore-horror RPG inspired respectfully by diverse Philippine landscapes and traditions. Follow the supplied map ID, gameplay identity, coordinate blueprint, route graph, file manifest, dimensions, tile catalog, prefab contract, object positions, and collision rules exactly. Do not redesign routes, move transitions, invent diagonal movement, bake characters or markers into terrain, or infer collision from decorative art.
+
+Use detailed semi-realistic hand-painted orthogonal top-down 2D art with grounded scale, readable paths, tactile regional materials, humid atmosphere, deep shadow, and restrained color. Avoid chibi decoration, generic medieval-European architecture, cultural mashups, real sacred-symbol copying, text, labels, logos, UI, characters, NPCs, Nilalang, quest markers, visible grids, gutters, and tile seams unless a specific technical stage explicitly requests guides.
+
+Generate only the requested stage and preserve its exact filename, dimensions, grid, layer order, tile IDs, paths, and output format. Tilesets, tile catalogs, compiled Tiled JSON, collision, previews, battle backgrounds, animated overlays, and placeable objects are separate deliverables. Never replace structured JSON or collision with an approximate painted map.
+```
 
 ## Global Production Contract
 

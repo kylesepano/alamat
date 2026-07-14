@@ -78,7 +78,8 @@ Phase L adds the internal Production Pipeline & Developer Tools platform: import
 - `docs/developer-console.md` explains development-only console command logging.
 - `docs/milestone-0-gameplay-production-blueprint.md` locks the pre-gameplay Phaser direction.
 - `docs/vertical-slice-asset-manifest.md` lists the first playable asset needs.
-- `docs/vertical-slice-asset-prompts.md` contains generation prompts for the first vertical slice asset roster.
+- `docs/asset-prompts/README.md` indexes normalized prompt books for player, NPC, portrait, Nilalang, battle, VFX, item, quest-item, and equipment assets.
+- `docs/vertical-slice-map-production-prompts.md` owns map, tileset, collision, preview, and battle-environment generation.
 - `docs/asset-generation-workflow.md` explains where to generate assets and how to replace placeholders.
 - `docs/vertical-slice-roster.md` selects the first playable roster from existing codex data.
 - `docs/milestone-1-implementation-plan.md` defines the Core Engine implementation order.

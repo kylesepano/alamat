@@ -149,10 +149,13 @@ for (const asset of assets) {
 }
 
 fs.writeFileSync(path.join(assetRoot, 'manifest.json'), `${JSON.stringify({ style, negative_prompt: negative, assets }, null, 2)}\n`);
-fs.writeFileSync(path.join(docsRoot, 'vertical-slice-asset-prompts.md'), promptMarkdown(assets));
+const generatedDocsRoot = path.join(docsRoot, 'generated');
+fs.mkdirSync(generatedDocsRoot, { recursive: true });
+fs.writeFileSync(path.join(generatedDocsRoot, 'vertical-slice-placeholder-prompts.md'), promptMarkdown(assets));
 
 console.log(`Generated ${assets.length} vertical-slice placeholder assets.`);
 console.log(`Manifest: ${path.join(assetRoot, 'manifest.json')}`);
+console.log(`Placeholder prompts: ${path.join(generatedDocsRoot, 'vertical-slice-placeholder-prompts.md')}`);
 
 function placeholderSvg(asset) {
   const color = colorFor(asset.type);
