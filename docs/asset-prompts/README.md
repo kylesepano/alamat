@@ -21,7 +21,7 @@ The production prompt library is separated by asset family. Every prompt book is
 1. Open the prompt book for the asset family.
 2. Paste that file's General ChatGPT Rule into a new ChatGPT conversation.
 3. Paste exactly one registered asset prompt.
-4. Confirm the filename, dimensions, grid, alpha transparency, and facing before accepting it.
+4. Confirm the filename, dimensions, grid, optional transparency, and facing before accepting it.
 5. Place the output at the listed `Replace file` path without renaming it.
 6. Validate the asset in-game before generating the next visual family.
 
