@@ -28,9 +28,10 @@ export class SaveSystem {
   }
 
   static mergeDefaults(save) {
-    return {
+    const merged = {
       ...structuredClone(DEFAULT_SAVE),
       ...save,
+      save_version: DEFAULT_SAVE.save_version,
       player: {
         ...structuredClone(DEFAULT_SAVE.player),
         ...save.player,
@@ -110,5 +111,30 @@ export class SaveSystem {
         log: save.quests?.log ?? [],
       },
     }
+
+    return migrateMergedSanIsidroLocations(merged)
   }
+}
+
+const MERGED_SAN_ISIDRO_DESTINATIONS = {
+  WLOC000002: { x: 984, y: 840 },
+  WLOC000003: { x: 1512, y: 888 },
+}
+
+function migrateMergedSanIsidroLocations(save) {
+  const worldDestination = MERGED_SAN_ISIDRO_DESTINATIONS[save.world.location_id]
+  if (worldDestination) {
+    save.world.location_id = 'WLOC000001'
+    save.world.x = worldDestination.x
+    save.world.y = worldDestination.y
+  }
+
+  const spawnDestination = MERGED_SAN_ISIDRO_DESTINATIONS[save.player_state.spawn.location_id]
+  if (spawnDestination) {
+    save.player_state.spawn.location_id = 'WLOC000001'
+    save.player_state.spawn.x = spawnDestination.x
+    save.player_state.spawn.y = spawnDestination.y
+  }
+
+  return save
 }

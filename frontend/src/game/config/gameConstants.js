@@ -5,7 +5,7 @@ export const PLAYER_SPEED = 180
 export const SAVE_KEY = 'alamat_milestone_1_save'
 
 export const DEFAULT_SAVE = {
-  save_version: '1.0.0',
+  save_version: '1.1.0',
   player: {
     name: '',
     appearance: {

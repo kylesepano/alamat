@@ -22,6 +22,13 @@ export class PreloadScene extends Phaser.Scene {
   }
 
   preload() {
+    this.load.on('loaderror', (file) => {
+      const asset = VERTICAL_SLICE_ASSETS.find((candidate) => candidate.key === file.key)
+      if (asset?.fallback) {
+        console.warn(`[ALAMAT assets] ${asset.key} is unavailable. A generated fallback will be used.`)
+      }
+    })
+
     for (const asset of VERTICAL_SLICE_ASSETS) {
       if (asset.type === 'tilemap') {
         this.load.tilemapTiledJSON(asset.key, asset.path)
@@ -30,7 +37,9 @@ export class PreloadScene extends Phaser.Scene {
       } else if (asset.type === 'battleSpritesheet') {
         this.load.spritesheet(asset.key, asset.path, { frameWidth: asset.frameWidth, frameHeight: asset.frameHeight })
       } else if (assetLoaderType(asset) === 'svg') {
-        this.load.svg(asset.key, asset.path, { width: asset.expectedWidth ?? asset.width, height: asset.expectedHeight ?? asset.height })
+        // The browser image loader fails cleanly on a missing SVG. Phaser's SVG
+        // parser can throw while attempting to parse a dev-server 404 response.
+        this.load.image(asset.key, asset.path)
       } else {
         this.load.image(asset.key, asset.path)
       }
@@ -128,6 +137,7 @@ export class PreloadScene extends Phaser.Scene {
 
   createSpriteSheetFrames() {
     for (const asset of spriteAssets()) {
+      if (!this.textures.exists(asset.key)) continue
       const texture = this.textures.get(asset.key)
       const source = texture.getSourceImage()
       if (!source?.width || !source?.height) continue
@@ -170,6 +180,7 @@ export class PreloadScene extends Phaser.Scene {
 
   createSpriteAnimations() {
     for (const asset of spriteAssets()) {
+      if (!this.textures.exists(asset.key)) continue
       for (const direction of SPRITE_DIRECTIONS) {
         const key = spriteWalkAnimationKey(asset.key, direction)
         if (this.anims.exists(key)) continue
@@ -185,6 +196,7 @@ export class PreloadScene extends Phaser.Scene {
 
   createVfxAnimations() {
     for (const asset of vfxAssets()) {
+      if (!this.textures.exists(asset.key)) continue
       const key = vfxAnimationKey(asset.key)
       if (this.anims.exists(key)) continue
       this.anims.create({
@@ -221,6 +233,8 @@ export class PreloadScene extends Phaser.Scene {
   }
 
   createGeneratedTextures() {
+    this.createBattleBackgroundFallbacks()
+
     if (this.textures.exists(PLAYER_ASSET_KEY)) return
 
     const graphics = this.add.graphics()
@@ -230,6 +244,26 @@ export class PreloadScene extends Phaser.Scene {
     graphics.fillRect(8, 10, 18, 10)
     graphics.generateTexture(PLAYER_ASSET_KEY, 34, 46)
     graphics.clear()
+    graphics.destroy()
+  }
+
+  createBattleBackgroundFallbacks() {
+    const graphics = this.add.graphics()
+    for (const asset of VERTICAL_SLICE_ASSETS.filter((candidate) => candidate.fallback === 'battleBackground')) {
+      if (this.textures.exists(asset.key)) continue
+      const [sky, ground, accent] = asset.fallbackColors
+      const width = asset.width ?? 1280
+      const height = asset.height ?? 720
+
+      graphics.clear()
+      graphics.fillStyle(sky, 1)
+      graphics.fillRect(0, 0, width, height)
+      graphics.fillStyle(ground, 1)
+      graphics.fillRect(0, Math.floor(height * 0.54), width, Math.ceil(height * 0.46))
+      graphics.fillStyle(accent, 0.22)
+      graphics.fillEllipse(width / 2, height * 0.78, width * 0.72, height * 0.24)
+      graphics.generateTexture(asset.key, width, height)
+    }
     graphics.destroy()
   }
 

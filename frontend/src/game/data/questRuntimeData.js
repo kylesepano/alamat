@@ -10,7 +10,7 @@ export const QUEST_DEFINITIONS = {
       { id: 'talk_datu', type: 'talk', target_id: 'NPC000001', label: 'Speak with Datu Magsalin' },
       { id: 'talk_lira', type: 'talk', target_id: 'NPC000002', label: 'Speak with Lira Lakandula' },
       { id: 'collect_herb', type: 'collect', target_id: 'ITM000001', label: 'Pick up the Healing Herb' },
-      { id: 'reach_market', type: 'reach', target_id: 'WLOC000002', label: 'Visit the marketplace' },
+      { id: 'reach_market', type: 'inspect', target_id: 'AMBIENT_MARKET_PLAZA', label: 'Visit the San Isidro market plaza' },
     ],
     rewards: { pilak: 12, items: [{ id: 'healing_herb', quantity: 1 }] },
     unlocks: ['QST000002'],

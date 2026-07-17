@@ -28,11 +28,17 @@ const rows = VERTICAL_SLICE_ASSETS.map((asset) => {
   const absolute = filePathFor(asset.path)
   const exists = existsSync(absolute)
   const size = exists ? pngSize(absolute) : null
-  const expected = asset.expectedWidth && asset.expectedHeight ? `${asset.expectedWidth}x${asset.expectedHeight}` : `${asset.width ?? '-'}x${asset.height ?? '-'}`
+  const expected = asset.allowedDimensions?.length
+    ? asset.allowedDimensions.map(({ width, height }) => `${width}x${height}`).join(' or ')
+    : asset.expectedWidth && asset.expectedHeight
+      ? `${asset.expectedWidth}x${asset.expectedHeight}`
+      : `${asset.width ?? '-'}x${asset.height ?? '-'}`
   const actual = size ? `${size.width}x${size.height}` : exists ? 'non-png or svg' : 'missing'
   const pngPreferred = asset.type === 'spritesheet' || asset.path.includes('/tilesets/') || asset.path.includes('/items/') || asset.path.includes('/equipment/') || asset.path.includes('/maps/')
   const extensionOk = !pngPreferred || asset.path.endsWith('.png')
-  const sizeOk = !size || !asset.expectedWidth || (size.width === asset.expectedWidth && size.height === asset.expectedHeight)
+  const sizeOk = !size || (asset.allowedDimensions?.length
+    ? asset.allowedDimensions.some(({ width, height }) => size.width === width && size.height === height)
+    : !asset.expectedWidth || (size.width === asset.expectedWidth && size.height === asset.expectedHeight))
   return {
     key: asset.key,
     file: asset.path,

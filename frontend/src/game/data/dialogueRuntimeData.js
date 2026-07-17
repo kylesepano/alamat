@@ -141,6 +141,7 @@ const DIALOGUES = {
   ],
   AMBIENT_CHAPEL_GARDEN: [{ pages: ['Several plants have been crowded by windblown debris. You clear the soil while leaving the nearby offerings undisturbed.'] }],
   AMBIENT_CHAPEL_LAMPS: [{ pages: ['These lamps serve every visitor to the courtyard. Fresh wicks bring a patient glow back to the shared space.'] }],
+  AMBIENT_MARKET_PLAZA: [{ pages: ['San Isidro keeps trade close to ordinary barangay life. Growers, craftspeople, and travelers share the same central paths.'] }],
   AMBIENT_AGHOY_TRACKS: [{ pages: ['Small tracks bend around the mound rather than crossing it. Aghoy has been showing travelers the respectful route.'] }],
   AMBIENT_DAMAGED_ROOTS: [{ pages: ['You lift dead branches away from a living root. A soft rustle answers from somewhere beyond sight.'] }],
   AMBIENT_TANGLED_NETS: [{ pages: ['The abandoned net was not torn by hunger. Its hooks were pulled away from the spawning reeds, as if something tried to protect them.'] }],

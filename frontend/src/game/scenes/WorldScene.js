@@ -181,6 +181,17 @@ export class WorldScene extends Phaser.Scene {
       return false
     }
 
+    const embeddedTileset = cachedData?.tilesets?.[0]
+    const sourceImage = this.textures.get(map.tilesetKey).getSourceImage()
+    if (embeddedTileset && sourceImage
+      && (embeddedTileset.imagewidth !== sourceImage.width || embeddedTileset.imageheight !== sourceImage.height)) {
+      console.warn(
+        `[ALAMAT maps] ${map.id} expects a ${embeddedTileset.imagewidth}x${embeddedTileset.imageheight} tileset, `
+        + `but ${map.tilesetKey} is ${sourceImage.width}x${sourceImage.height}. Regenerate the tile catalog and Tiled JSON after normalization.`,
+      )
+      return false
+    }
+
     let tiledMap
     try {
       tiledMap = this.make.tilemap({ key: tilemapKey })
